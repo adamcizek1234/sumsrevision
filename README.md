@@ -4,10 +4,10 @@ An offline Mac app for revising the Swansea GEM course, Years 1 and 2.
 
 - **Learning outcomes**: notes for every learning outcome, week by week (62 weeks, 972 LOs). Rate each one *Not yet*, *Shaky* or *Confident*, and edit the notes to make them your own.
 - **Drugs**: a reference covering 138 drugs in 12 groups, from heart and blood pressure to fluids and electrolytes, with how each one works, uses, side effects and contraindications.
-- **Quiz**: over 1,000 short-answer, key-number and put-in-order questions, plus drug drills. Modes include Daily 10, a 60-second sprint, drilling your shaky LOs, spaced-repetition review and custom quizzes.
+- **Quiz**: over 1,000 short-answer, key-number and put-in-order questions, plus drug drills. Modes include Daily 10, a 60-second sprint, drilling your shaky LOs, spaced-repetition review and custom quizzes. If it marks you wrong unfairly, tap "I was right" and your answer counts from then on.
 - **Progress**: see how far you've got across each year, each week and the drug list, and everything you've mastered.
 
-The app starts empty. Your ratings, quiz history and edited notes are saved on your Mac only. It needs no internet connection and no account.
+The app starts empty. Your ratings, quiz history, saved answers and edited notes are saved on your Mac only. It needs no internet connection and no account.
 
 ## Download and install
 
