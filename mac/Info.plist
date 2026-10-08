@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>GEM Revision</string>
+	<key>CFBundleDisplayName</key>
+	<string>GEM Revision</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adamcizek.gemrevision</string>
+	<key>CFBundleExecutable</key>
+	<string>GEMRevision</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2026.10.5</string>
+	<key>CFBundleVersion</key>
+	<string>202610050936</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>12.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.education</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Swansea GEM learning outcome revision notes, drug reference and quiz.</string>
+</dict>
+</plist>

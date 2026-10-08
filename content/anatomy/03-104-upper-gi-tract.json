@@ -1,0 +1,57 @@
+{
+  "id": "a-104",
+  "num": "104",
+  "title": "Upper GI tract",
+  "system": "Gastrointestinal",
+  "los": [
+    {
+      "n": 1,
+      "text": "Describe the location of the oesophagus as posterior to the trachea and anterior to the vertebral column, and recall its arterial supply, and venous and lymphatic drainage",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Course</th><td><ul class=\"cl\"><li>~25 cm from <strong>C6</strong> (cricoid; continuous with the laryngopharynx) to the cardia at <strong>T11</strong></li><li>Through the diaphragm at <strong>T10</strong> (sling of the right crus).</li></ul></td></tr><tr><th scope=\"row\">Relations</th><td><ul class=\"cl\"><li>Behind the <strong>trachea</strong> and in front of the vertebral column/prevertebral fascia</li><li>in the lower thorax behind the <strong>left atrium</strong> (LA enlargement indents a barium swallow; TOE probe sits here)</li><li>Descending aorta to its left then behind.</li></ul></td></tr><tr><th scope=\"row\">Narrowings<span class=\"paren\">(from incisors)</span></th><td>15 cm cricopharyngeus, ~22 cm aortic arch, ~27 cm left main bronchus, 40 cm diaphragm: where objects lodge.</td></tr><tr><th scope=\"row\">Muscle</th><td>Upper third skeletal, middle mixed, lower third smooth.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Part</th><th>Artery</th><th>Vein</th><th>Lymph</th></tr></thead><tbody><tr><td>Cervical</td><td>Inferior thyroid</td><td>Inferior thyroid veins</td><td>Deep cervical nodes</td></tr><tr><td>Thoracic</td><td>Oesophageal branches of the thoracic aorta</td><td>Azygos and hemiazygos</td><td>Posterior mediastinal nodes</td></tr><tr><td>Abdominal</td><td><strong>Left gastric</strong> (± left inferior phrenic)</td><td>Left gastric → <strong>portal vein</strong></td><td>Left gastric / coeliac nodes</td></tr></tbody></table></div><div class=\"key\">Lower oesophagus is a portosystemic anastomosis (left gastric ↔ azygos): varices form in portal hypertension.</div>"
+    },
+    {
+      "n": 2,
+      "text": "List the stages of swallowing and be aware of the role of the muscles of the jaw, cheeks, lips and tongue within the oral cavity, the soft palate, pharynx, larynx and oesophagus during a swallow",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1. Oral (voluntary)</th><td><ul class=\"cl\"><li>Lips sealed (orbicularis oris)</li><li>Cheeks (buccinator) keep food on the teeth</li><li>Jaw muscles chew</li><li>Tongue shapes the bolus and pushes it back against the hard palate.</li></ul></td></tr><tr><th scope=\"row\">2. Pharyngeal (reflex)</th><td><ul class=\"cl\"><li>Soft palate rises to seal the nasopharynx</li><li>Hyoid and larynx move <strong>up and forward</strong></li><li>Epiglottis tips over the inlet</li><li>Vocal folds close and breathing stops</li><li>Constrictors squeeze in sequence</li><li><strong>Cricopharyngeus relaxes</strong>.</li></ul></td></tr><tr><th scope=\"row\">3. Oesophageal (reflex)</th><td>Peristalsis carries the bolus down in ~5–10 s; lower oesophageal sphincter relaxes.</td></tr></tbody></table></div><ul><li><strong>Nerves</strong>: V (chewing), VII (lips, cheeks), XII (tongue); IX sensory and X motor for the pharyngeal phase.</li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Identify the key features of the stomach (position, parts, sphincter locations, blood supply, innervation, internal characteristics, and anatomical relationships with other abdominal organs in life)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Position</th><td>J-shaped in the left upper quadrant/epigastrium; <strong>cardia T11</strong> behind the left 7th costal cartilage; <strong>pylorus L1</strong> just right of midline.</td></tr><tr><th scope=\"row\">Parts</th><td>Cardia, fundus (gas bubble), body, pyloric antrum, pyloric canal, pylorus; lesser curvature (with the angular incisure) and greater curvature.</td></tr><tr><th scope=\"row\">Sphincters</th><td>Lower oesophageal (physiological: intrinsic muscle + right crus + angle of His + intra-abdominal segment); <strong>pyloric</strong> (true thickened circular muscle).</td></tr><tr><th scope=\"row\">Arteries (all from the coeliac trunk)</th><td><ul class=\"cl\"><li>Lesser curvature = left gastric + right gastric</li><li>Greater curvature = right gastro-omental (from gastroduodenal) + left gastro-omental (from splenic)</li><li>Fundus = short gastrics (splenic).</li></ul></td></tr><tr><th scope=\"row\">Veins</th><td>to the portal system (gastric veins straight into the portal vein).</td></tr><tr><th scope=\"row\">Nerves</th><td><ul class=\"cl\"><li>Vagal trunks (anterior mostly left vagus, posterior mostly right) for secretion and motility</li><li>Sympathetic T6–9 via the greater splanchnic nerve and coeliac ganglion</li><li>Pain felt in the <strong>epigastrium</strong>.</li></ul></td></tr><tr><th scope=\"row\">Inside</th><td>Rugae (flatten when full); three muscle layers (outer longitudinal, middle circular, <strong>inner oblique</strong>).</td></tr><tr><th scope=\"row\">Relations</th><td><ul class=\"cl\"><li>Front = left lobe of liver, diaphragm, anterior wall.</li><li>Behind (the \"stomach bed\", across the lesser sac) = <strong>pancreas</strong>, spleen, left kidney and adrenal, splenic artery, transverse mesocolon.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Describe the anatomy of the autonomic nervous supply of the abdomen and locate the sympathetic trunk, the coeliac ganglion and the coeliac and aortic plexuses",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Sympathetic</strong>: preganglionic cells in <strong>T5–L2</strong> lateral horns → pass through the sympathetic trunk without synapsing → splanchnic nerves → prevertebral ganglia.</li></ul><div class=\"tbl\"><table><thead><tr><th>Splanchnic nerve</th><th>Roots</th><th>Ganglion</th></tr></thead><tbody><tr><td>Greater</td><td>T5–9</td><td><strong>Coeliac</strong></td></tr><tr><td>Lesser</td><td>T10–11</td><td>Aorticorenal / superior mesenteric</td></tr><tr><td>Least</td><td>T12</td><td>Renal plexus</td></tr><tr><td>Lumbar</td><td>L1–2</td><td>Inferior mesenteric</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><td colspan=\"2\"><strong>Postganglionic fibres</strong> reach the gut along the arteries.</td></tr><tr><th scope=\"row\">Parasympathetic</th><td>Vagus to foregut and midgut (to 2/3 along the transverse colon); <strong>pelvic splanchnic nerves (S2–4)</strong> to hindgut and pelvic organs.</td></tr><tr><th scope=\"row\">Where things sit</th><td><ul class=\"cl\"><li>Sympathetic trunks on the anterolateral vertebral bodies (right behind the IVC, left beside the aorta)</li><li><strong>Coeliac ganglia/plexus around the coeliac trunk at T12</strong></li><li>Aortic plexus between the SMA and IMA</li><li>Hypogastric plexuses below.</li></ul></td></tr><tr><th scope=\"row\">Clinical</th><td>Coeliac plexus block for pancreatic cancer pain.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Explain referred abdominal pain, associating sites of pain with abdominal viscera",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Mechanism</strong>: visceral pain fibres run back with sympathetic nerves to the spinal segments that also carry skin from certain dermatomes, so the brain projects the pain to that skin.</li></ul><div class=\"tbl\"><table><thead><tr><th>Gut region</th><th>Organs</th><th>Pain felt</th><th>Segments</th></tr></thead><tbody><tr><td>Foregut</td><td>Oesophagus (lower) to 2nd part of duodenum, liver, gallbladder, pancreas</td><td><strong>Epigastrium</strong></td><td>T5–9</td></tr><tr><td>Midgut</td><td>Rest of duodenum to 2/3 of transverse colon, appendix</td><td><strong>Periumbilical</strong></td><td>T10–11</td></tr><tr><td>Hindgut</td><td>Last 1/3 transverse colon to upper anal canal</td><td><strong>Suprapubic</strong></td><td>T12–L1</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Appendicitis</th><td>Periumbilical (visceral, T10), then <strong>RIF</strong> once the parietal peritoneum is inflamed (somatic, localised).</td></tr><tr><th scope=\"row\">Biliary</th><td>Epigastrium/RUQ, sometimes the right shoulder or scapula.</td></tr><tr><th scope=\"row\">Diaphragm irritation</th><td>Shoulder tip (phrenic C3–5 → C4 dermatome).</td></tr><tr><th scope=\"row\">Renal/ureteric</th><td>Loin to groin (T10–L1); <strong>pancreas</strong>: through to the back.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Describe the anatomy of abdominal lymphatic drainage and explain its significance in relation to spread of malignancy",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Rule</th><td><ul class=\"cl\"><li>Lymph follows the arteries</li><li>Nodes are named after them: <strong>coeliac, superior mesenteric, inferior mesenteric</strong> (pre-aortic) and <strong>para-aortic (lumbar)</strong> for retroperitoneal organs, kidneys and gonads.</li></ul></td></tr><tr><th scope=\"row\">Route</th><td><ul class=\"cl\"><li>Pre-aortic nodes</li><li>→ intestinal trunk</li><li>→ <strong>cisterna chyli</strong> (L1–2)</li><li>→ <strong>thoracic duct</strong> (through the aortic hiatus)</li><li>→ junction of left subclavian and internal jugular veins.</li></ul></td></tr><tr><th scope=\"row\">Malignancy</th><td>Cancers spread first to nodes along their own arteries, which is why resections take the vascular pedicle with its nodes.</td></tr><tr><th scope=\"row\">Classic signs</th><td><ul class=\"cl\"><li>Gastric cancer → <strong>left supraclavicular (Virchow's) node</strong> (Troisier's sign)</li><li><strong>Testicular cancer → para-aortic</strong> nodes (testis develops near the kidney), not inguinal</li><li>Umbilical nodule (Sister Mary Joseph).</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Explain the role of imaging in capturing the patient swallowing",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Barium swallow<span class=\"paren\">(fluoroscopy)</span></th><td>Outlines the oesophagus: strictures, pharyngeal pouch, hiatus hernia, <strong>achalasia (\"bird's beak\")</strong>, dysmotility.</td></tr><tr><th scope=\"row\">Videofluoroscopy<span class=\"paren\">(with speech and language therapy)</span></th><td>Watches the oral and pharyngeal phases live; shows <strong>aspiration</strong> (contrast below the cords), pooling, delayed triggering; guides diet textures.</td></tr><tr><th scope=\"row\">FEES</th><td>Endoscope through the nose to view the swallow at the bedside.</td></tr><tr><th scope=\"row\">Others</th><td>OGD for the mucosa; manometry for motility (achalasia); CT for staging.</td></tr><tr><th scope=\"row\">Suspected perforation</th><td>Water-soluble contrast, not barium.</td></tr></tbody></table></div>"
+    }
+  ]
+}

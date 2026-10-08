@@ -1,0 +1,470 @@
+{
+  "id": "msk",
+  "title": "Gout, arthritis & immunosuppressants",
+  "items": [
+    {
+      "id": "allopurinol",
+      "name": "Allopurinol",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Gout prevention (treat to urate <0.36)",
+          "k": "y1-125-3"
+        },
+        {
+          "t": "Tumour lysis prevention",
+          "k": null
+        }
+      ],
+      "how": "Inhibits xanthine oxidase → ↓ urate production",
+      "hx": [
+        [
+          "Increases renal urate excretion",
+          "That's probenecid (uricosuric); allopurinol blocks urate production."
+        ],
+        [
+          "Inhibits xanthine oxidase → ↑ urate production",
+          "Blocking the enzyme lowers urate."
+        ],
+        [
+          "Breaks down urate to allantoin",
+          "That's rasburicase; allopurinol inhibits xanthine oxidase."
+        ]
+      ],
+      "se": [
+        "Rash (stop: risk of SJS/DRESS)",
+        "Flare when starting",
+        "GI upset"
+      ],
+      "sewhy": "Rapid falls in urate mobilise crystals (flares when starting); rarely it triggers severe HLA-B*58:01-linked skin reactions (SJS/DRESS).",
+      "ci": [
+        {
+          "c": "Starting during an acute flare without cover",
+          "k": "y1-125-3",
+          "why": "Shifting urate prolongs the flare; continue if already taking",
+          "cau": false,
+          "x": [
+            [
+              "Raises urate further, prolonging the flare; stop if already taking",
+              "Shifting urate levels prolong a flare; don't stop it if already on it."
+            ],
+            [
+              "Interacts with colchicine; continue if already taking",
+              "No interaction issue; shifting urate prolongs the flare."
+            ],
+            [
+              "Causes kidney stones during a flare; stop if already taking",
+              "The issue is prolonging the flare; continue if already taking."
+            ]
+          ]
+        },
+        {
+          "c": "With azathioprine or mercaptopurine",
+          "k": "y1-145-4",
+          "why": "Blocks their breakdown → marrow failure",
+          "cau": false,
+          "x": [
+            [
+              "Speeds their breakdown → loss of effect",
+              "It blocks their breakdown."
+            ],
+            [
+              "Additive liver failure",
+              "The danger is marrow failure."
+            ],
+            [
+              "Blocks their absorption → flare",
+              "No; levels rise → marrow failure."
+            ]
+          ]
+        },
+        {
+          "c": "HLA-B 58:01 positive (Han Chinese, Thai, Korean)",
+          "k": "y2-227-11",
+          "why": "High risk of severe skin reactions",
+          "cau": false,
+          "x": [
+            [
+              "High risk of liver failure",
+              "HLA-B*58:01 predicts severe skin reactions (SJS/TEN, DRESS)."
+            ],
+            [
+              "High risk of gout flares",
+              "No; severe skin reactions."
+            ],
+            [
+              "Low risk of reactions",
+              "High risk of severe skin reactions."
+            ]
+          ]
+        },
+        {
+          "c": "Renal impairment",
+          "k": "y1-135-5",
+          "why": "Start low",
+          "cau": true,
+          "x": [
+            [
+              "Start high",
+              "Start low and titrate."
+            ],
+            [
+              "Avoid completely",
+              "It can be used; start low."
+            ],
+            [
+              "No change",
+              "Start low."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colchicine",
+      "name": "Colchicine",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Acute gout",
+          "k": "y1-125-3"
+        },
+        {
+          "t": "Pericarditis",
+          "k": null
+        },
+        {
+          "t": "Flare prophylaxis when starting allopurinol",
+          "k": "y1-125-3"
+        }
+      ],
+      "how": "Inhibits microtubule assembly → ↓ neutrophil migration and inflammasome activation",
+      "hx": [
+        [
+          "Stabilises microtubules → ↑ neutrophil migration",
+          "It inhibits microtubule assembly, cutting neutrophil migration."
+        ],
+        [
+          "Dissolves urate crystals in the joint",
+          "It doesn't dissolve crystals; it blocks neutrophil migration."
+        ],
+        [
+          "Inhibits microtubule assembly → ↓ urate crystal formation",
+          "It doesn't stop crystals forming; it dampens the neutrophil response."
+        ]
+      ],
+      "se": [
+        "Diarrhoea, nausea, vomiting",
+        "Myopathy",
+        "Neuropathy",
+        "Bone marrow suppression"
+      ],
+      "sewhy": "Colchicine stops microtubules forming in all dividing cells, so the fast-turnover gut lining suffers first (diarrhoea); toxicity affects muscle, nerves and marrow.",
+      "ci": [
+        {
+          "c": "Severe renal impairment",
+          "k": "y2-220-16",
+          "why": "Accumulates → toxicity",
+          "cau": false,
+          "x": [
+            [
+              "Cleared faster, so no effect",
+              "It accumulates."
+            ],
+            [
+              "Nephrotoxic → AKI",
+              "Not nephrotoxic; it accumulates."
+            ],
+            [
+              "Causes hyperkalaemia",
+              "No; accumulation and toxicity."
+            ]
+          ]
+        },
+        {
+          "c": "With clarithromycin or other strong CYP3A4/P-gp inhibitors",
+          "k": "y1-130-5",
+          "why": "Fatal colchicine toxicity",
+          "cau": false,
+          "x": [
+            [
+              "Clarithromycin failure",
+              "Colchicine levels rise to fatal levels."
+            ],
+            [
+              "Additive liver toxicity",
+              "No; fatal colchicine toxicity."
+            ],
+            [
+              "Reduced colchicine effect",
+              "Levels rise; toxicity."
+            ]
+          ]
+        },
+        {
+          "c": "Blood dyscrasias",
+          "k": "y2-226-16",
+          "why": "Marrow suppression",
+          "cau": true,
+          "x": [
+            [
+              "Red cell sickling",
+              "Colchicine can suppress the marrow."
+            ],
+            [
+              "Platelet activation",
+              "No; marrow suppression."
+            ],
+            [
+              "Polycythaemia",
+              "No; marrow suppression."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "methotrexate",
+      "name": "Methotrexate",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Rheumatoid arthritis (weekly)",
+          "k": "y1-115-3"
+        },
+        {
+          "t": "Psoriasis",
+          "k": null
+        },
+        {
+          "t": "Crohn's",
+          "k": "y1-145-4"
+        },
+        {
+          "t": "Ectopic pregnancy (IM)",
+          "k": "y2-212-3"
+        }
+      ],
+      "how": "Inhibits dihydrofolate reductase → ↓ DNA synthesis",
+      "hx": [
+        [
+          "Activates dihydrofolate reductase → ↑ DNA synthesis",
+          "It inhibits DHFR."
+        ],
+        [
+          "Inhibits thymidine kinase → ↓ RNA synthesis",
+          "It inhibits DHFR, cutting DNA synthesis."
+        ],
+        [
+          "Inhibits dihydrofolate reductase → ↑ folate stores",
+          "It depletes active folate, cutting DNA synthesis."
+        ]
+      ],
+      "se": [
+        "Mouth ulcers",
+        "Bone marrow suppression",
+        "Hepatotoxicity, fibrosis",
+        "Pneumonitis",
+        "Nausea",
+        "Infections",
+        "Teratogenic"
+      ],
+      "sewhy": "As a folate antagonist it stops rapidly dividing cells (mouth ulcers, marrow suppression, infections, teratogenicity), and it damages liver and lung over time; folic acid reduces toxicity.",
+      "ci": [
+        {
+          "c": "Pregnancy (and for 6 months after stopping, both partners)",
+          "k": "y1-114-1",
+          "why": "Antifolate → miscarriage and malformations",
+          "cau": false,
+          "x": [
+            [
+              "Antifolate → maternal anaemia only",
+              "It causes miscarriage and malformations."
+            ],
+            [
+              "Oestrogen block → infertility only",
+              "It's a teratogenic antifolate."
+            ],
+            [
+              "Immunosuppression → fetal infection",
+              "The issue is antifolate teratogenicity and miscarriage."
+            ]
+          ]
+        },
+        {
+          "c": "Significant renal impairment",
+          "k": "y2-220-16",
+          "why": "Renally excreted → toxicity",
+          "cau": false,
+          "x": [
+            [
+              "Hepatically cleared → toxicity",
+              "It's renally excreted."
+            ],
+            [
+              "Renally excreted → loss of effect",
+              "It accumulates."
+            ],
+            [
+              "Nephrotoxic only at high doses",
+              "The point is accumulation and toxicity."
+            ]
+          ]
+        },
+        {
+          "c": "Liver disease or alcohol excess",
+          "k": "y2-229-3",
+          "why": "Hepatotoxic",
+          "cau": false,
+          "x": [
+            [
+              "Nephrotoxic",
+              "Hepatotoxic."
+            ],
+            [
+              "Ototoxic",
+              "Hepatotoxic."
+            ],
+            [
+              "Causes hypoglycaemia",
+              "Hepatotoxic."
+            ]
+          ]
+        },
+        {
+          "c": "With trimethoprim or co-trimoxazole",
+          "k": "y1-130-5",
+          "why": "Additive antifolate effect → pancytopenia",
+          "cau": false,
+          "x": [
+            [
+              "Trimethoprim inactivates methotrexate",
+              "No; additive antifolate effect."
+            ],
+            [
+              "Additive hyperkalaemia",
+              "No; pancytopenia."
+            ],
+            [
+              "Additive antifolate effect → kidney stones",
+              "The danger is pancytopenia."
+            ]
+          ]
+        },
+        {
+          "c": "Active infection",
+          "k": "y1-140-2",
+          "why": "Immunosuppressive",
+          "cau": true,
+          "x": [
+            [
+              "Antibacterial",
+              "No; it suppresses immunity."
+            ],
+            [
+              "Pro-inflammatory",
+              "No; immunosuppressive."
+            ],
+            [
+              "Raises fever",
+              "No; immunosuppressive."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hydroxychloroquine-and-sulfasalazine",
+      "name": "Hydroxychloroquine and sulfasalazine",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Rheumatoid arthritis (conventional DMARDs)",
+          "k": "y1-115-3"
+        }
+      ],
+      "how": "Hydroxychloroquine: lysosomal immunomodulation; sulfasalazine: 5-ASA + sulfapyridine",
+      "hx": [
+        [
+          "Hydroxychloroquine: TNF-α blockade; sulfasalazine: methotrexate prodrug",
+          "HCQ modulates lysosomes; sulfasalazine splits into 5-ASA and sulfapyridine."
+        ],
+        [
+          "Hydroxychloroquine: folate antagonism; sulfasalazine: COX-2 inhibition",
+          "HCQ: lysosomal; SSZ: 5-ASA + sulfapyridine."
+        ],
+        [
+          "Hydroxychloroquine: 5-ASA + sulfapyridine; sulfasalazine: lysosomal immunomodulation",
+          "Swapped."
+        ]
+      ],
+      "se": [
+        "Hydroxychloroquine: retinopathy (screen after 5 years)",
+        "Sulfasalazine: orange urine, oligospermia, marrow suppression, rash"
+      ],
+      "sewhy": "Hydroxychloroquine accumulates in the retina with long use (screen after 5 years); sulfasalazine's sulfapyridine part colours urine orange, lowers sperm count and can suppress the marrow.",
+      "ci": [
+        {
+          "c": "Existing maculopathy (hydroxychloroquine)",
+          "k": "y1-142-1",
+          "why": "Accelerates retinal toxicity",
+          "cau": false,
+          "x": [
+            [
+              "Causes cataracts",
+              "The risk is retinal toxicity."
+            ],
+            [
+              "Raises intraocular pressure",
+              "No; retinal toxicity."
+            ],
+            [
+              "Causes corneal ulcers",
+              "No; retinal toxicity."
+            ]
+          ]
+        },
+        {
+          "c": "Sulfonamide or salicylate allergy (sulfasalazine)",
+          "k": "y1-131-3",
+          "why": "Contains both",
+          "cau": false,
+          "x": [
+            [
+              "Contains neither",
+              "It contains both a sulfonamide and a salicylate."
+            ],
+            [
+              "Contains penicillin",
+              "No; both a sulfonamide and a salicylate."
+            ],
+            [
+              "Contains only a salicylate",
+              "It contains both."
+            ]
+          ]
+        },
+        {
+          "c": "G6PD deficiency (sulfasalazine)",
+          "k": "y1-110-6",
+          "why": "Haemolysis",
+          "cau": true,
+          "x": [
+            [
+              "Hepatitis",
+              "The risk is haemolysis."
+            ],
+            [
+              "Neutropenia only",
+              "Haemolysis."
+            ],
+            [
+              "Thrombosis",
+              "Haemolysis."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

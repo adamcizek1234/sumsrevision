@@ -1,0 +1,85 @@
+{
+  "id": "a-114",
+  "num": "114",
+  "title": "Female reproductive system",
+  "system": "Reproductive",
+  "los": [
+    {
+      "n": 1,
+      "text": "Identify the mons pubis, parts of the female external genitalia, vestibule, urethral orifice and vaginal orifice",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Part</th><th>Description</th></tr></thead><tbody><tr><td>Mons pubis</td><td>Fat pad over the pubic symphysis</td></tr><tr><td>Labia majora</td><td>Fatty, hair-bearing folds (homologue of the scrotum); round ligament ends here</td></tr><tr><td>Labia minora</td><td>Hairless folds; in front they form the prepuce and frenulum of the clitoris</td></tr><tr><td>Clitoris</td><td>Glans, body, crura (erectile)</td></tr><tr><td><strong>Vestibule</strong></td><td>Space between the labia minora, containing the openings below</td></tr><tr><td><strong>External urethral orifice</strong></td><td>In front, ~2–3 cm behind the clitoris</td></tr><tr><td><strong>Vaginal orifice</strong></td><td>Behind the urethral opening; hymen</td></tr><tr><td>Greater vestibular (Bartholin's) glands</td><td>Open posterolaterally (~5 and 7 o'clock): cysts and abscesses</td></tr><tr><td>Paraurethral (Skene's) glands</td><td>Beside the urethral meatus</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Perineal body</th><td>Fibromuscular node between vagina and anus (episiotomy and tears).</td></tr><tr><th scope=\"row\">Supply</th><td>Pudendal (and external pudendal) vessels; ilioinguinal and genitofemoral nerves in front, pudendal behind; lymph to <strong>superficial inguinal nodes</strong>.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Identify the major viscera of the female pelvis",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Front to back</th><td><ul class=\"cl\"><li><strong>Bladder</strong> (behind the pubic symphysis) and urethra</li><li>→ <strong>uterus</strong> (anteverted and anteflexed over the bladder) with tubes and ovaries</li><li>→ <strong>vagina</strong></li><li>→ <strong>rectum</strong> and anal canal.</li></ul></td></tr><tr><th scope=\"row\">Above</th><td>Loops of ileum and sigmoid colon.</td></tr><tr><th scope=\"row\">Ovaries</th><td>on the side wall in the ovarian fossa, near the ureter and internal iliac vessels.</td></tr><tr><th scope=\"row\">Pouches</th><td>Shallow vesicouterine pouch in front; deep <strong>rectouterine pouch (Douglas)</strong> behind, next to the posterior fornix.</td></tr><tr><th scope=\"row\">Ureters</th><td>Pass under the uterine arteries beside the cervix.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Describe the parts of the ovary, uterus and uterine tubes, and their anatomical relationships and function",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Organ</th><th>Parts</th><th>Relations</th><th>Function</th></tr></thead><tbody><tr><td><strong>Ovary</strong></td><td>Cortex (follicles), medulla (vessels); covered by surface epithelium, not peritoneum</td><td><ul class=\"cl\"><li>Ovarian fossa</li><li><strong>Obturator nerve</strong> lateral (pain referred to medial thigh)</li><li>Attached by the suspensory ligament (ovarian vessels), ligament of ovary and mesovarium</li></ul></td><td>Oocytes, oestrogen, progesterone</td></tr><tr><td><strong>Uterine tube</strong> (~10 cm)</td><td>Infundibulum (fimbriae), <strong>ampulla</strong> (fertilisation, most ectopics), isthmus, intramural part</td><td>Upper border of the broad ligament (mesosalpinx)</td><td>Catches the oocyte, transports it (cilia, peristalsis); opens the peritoneal cavity to the outside</td></tr><tr><td><strong>Uterus</strong></td><td>Fundus, body, isthmus, cervix; endometrium, myometrium, perimetrium</td><td>Front: bladder; back: rectum (via pouch), sigmoid; sides: broad ligament, uterine vessels, ureter ~2 cm from the cervix</td><td>Implantation, pregnancy, menstruation, labour</td></tr></tbody></table></div><ul><li><strong>Position</strong>: usually <strong>anteverted</strong> (cervix tilted forward on the vagina) and <strong>anteflexed</strong> (body bent forward on the cervix); retroverted in ~20%.</li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Describe the arterial supply, and venous and lymphatic drainage of the ovary, uterus and uterine tubes",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Organ</th><th>Arteries</th><th>Veins</th><th>Lymph</th></tr></thead><tbody><tr><td><strong>Ovary</strong></td><td><strong>Ovarian artery</strong> (aorta at L2, via the suspensory ligament)</td><td>Right → IVC; <strong>left → left renal vein</strong></td><td><strong>Para-aortic</strong> nodes</td></tr><tr><td>Uterine tube</td><td>Ovarian + uterine (meet in the mesosalpinx)</td><td>Same</td><td>Para-aortic, some iliac</td></tr><tr><td><strong>Uterus</strong></td><td><strong>Uterine artery</strong> (internal iliac): crosses <strong>over the ureter</strong> beside the cervix, climbs tortuously in the broad ligament, joins the ovarian</td><td>Uterine venous plexus → internal iliac veins</td><td>Fundus → para-aortic (and inguinal via round ligament); body → external iliac; cervix → internal/external iliac, sacral</td></tr></tbody></table></div><ul><li><strong>Clinical</strong>: ovarian cancer spreads to para-aortic nodes; the ureter is at risk when the uterine artery is tied at hysterectomy.</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "List or identify the structures attached to the uterus",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Structure</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Broad ligament</strong></td><td><ul class=\"cl\"><li>Double fold of peritoneum from the sides of the uterus to the pelvic wall</li><li>Contains the tube (mesosalpinx), ovary's attachments (mesovarium), round ligament, ligament of ovary, uterine vessels, ureter at its base</li></ul></td></tr><tr><td><strong>Round ligament</strong></td><td>Gubernaculum remnant: uterotubal junction → deep inguinal ring → inguinal canal → labium majus; helps keep the uterus anteverted</td></tr><tr><td><strong>Ligament of ovary</strong></td><td>Uterus to ovary (also gubernaculum remnant)</td></tr><tr><td>Uterine tubes</td><td>At the upper corners</td></tr><tr><td><strong>Cervical ligaments</strong> (endopelvic fascia)</td><td>Transverse cervical (cardinal), uterosacral, pubocervical</td></tr><tr><td>Vagina</td><td>Around the cervix</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Identify the levator ani and endopelvic fascia as the most important supports of the uterus (and recognise that both may be damaged during child birth)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><td colspan=\"2\"><ul class=\"cl\"><li><strong>Levator ani</strong> (pubococcygeus with puborectalis, iliococcygeus) + coccygeus = <strong>pelvic diaphragm</strong>: holds the viscera from below</li><li>Nerve to levator ani (S4) and pudendal.</li></ul></td></tr><tr><th scope=\"row\">Endopelvic fascia</th><td>Condensed as the cardinal, uterosacral and pubocervical ligaments, suspending the cervix and upper vagina.</td></tr><tr><th scope=\"row\">Perineal body and perineal membrane</th><td>Support the lower vagina.</td></tr><tr><th scope=\"row\">Childbirth</th><td><ul class=\"cl\"><li>Stretches or tears levator ani</li><li>Stretches the pudendal nerve and damages fascia → uterovaginal prolapse</li><li>Cystocele</li><li>Rectocele</li><li>Stress incontinence (worse after menopause and with chronic straining).</li></ul></td></tr><tr><th scope=\"row\">Not important supports</th><td>The round and broad ligaments.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Identify the parts of the cervix, its anatomical relationships, and name the changes that occur within the uterus during pregnancy",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Supravaginal cervix</th><td>Bladder in front (separated by fascia); <strong>ureters 1.5–2 cm to each side</strong>, crossed by the uterine arteries; rectouterine pouch behind.</td></tr><tr><th scope=\"row\">Vaginal cervix (ectocervix)</th><td>Projects into the vagina, ringed by the <strong>fornices</strong> (posterior deepest, next to the pouch of Douglas).</td></tr><tr><th scope=\"row\">Canal</th><td>External os (round in nulliparous women, slit after vaginal birth) → endocervical canal (mucus glands) → internal os.</td></tr><tr><th scope=\"row\">Transformation zone</th><td>The squamocolumnar junction where CIN and cervical cancer arise (HPV screening).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Pregnancy change</th><th>Detail</th></tr></thead><tbody><tr><td>Size</td><td>Myometrium hypertrophies; fundus at the symphysis ~12 weeks, <strong>umbilicus ~20 weeks</strong>, xiphisternum ~36 weeks</td></tr><tr><td>Lower uterine segment</td><td>Forms from the isthmus in the 3rd trimester; thin and less vascular: caesarean incision site</td></tr><tr><td>Cervix</td><td>Softens, mucus plug; ripens, effaces and dilates in labour</td></tr><tr><td>Blood flow</td><td>Rises to ~500–750 mL/min at term</td></tr><tr><td>After birth</td><td>Involution over ~6 weeks</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Describe the arterial supply, and venous and lymphatic drainage of the vagina",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Vagina</th><td>~8–10 cm fibromuscular tube running up and back to the cervix; anterior wall shorter.</td></tr><tr><th scope=\"row\">Relations</th><td><ul class=\"cl\"><li>Front = bladder base and urethra</li><li>Back = rectouterine pouch (top), rectum (middle), perineal body (bottom)</li><li>Sides = ureters (top), levator ani.</li></ul></td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th></th><th>Upper vagina</th><th>Lower vagina</th></tr></thead><tbody><tr><td>Arteries</td><td>Vaginal artery + vaginal branches of uterine artery</td><td>+ internal pudendal, middle rectal</td></tr><tr><td>Veins</td><td>Vaginal plexus → internal iliac veins</td><td>Same</td></tr><tr><td>Lymph</td><td><strong>Internal and external iliac</strong> nodes</td><td>Below the hymen → <strong>superficial inguinal</strong> nodes</td></tr><tr><td>Nerves</td><td>Visceral (uterovaginal plexus): stretch, little touch or pain</td><td>Somatic (<strong>pudendal</strong>): sensitive</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Explain how the clitoris is analogous with the penis",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Clitoris</th><th>Penis</th><th>Embryonic origin</th></tr></thead><tbody><tr><td>Glans clitoridis</td><td>Glans penis</td><td>Genital tubercle</td></tr><tr><td>Corpora cavernosa (crura on ischiopubic rami, ischiocavernosus)</td><td>Corpora cavernosa</td><td>Genital tubercle</td></tr><tr><td>Bulbs of the vestibule (bulbospongiosus)</td><td>Bulb and corpus spongiosum</td><td>Urethral folds</td></tr><tr><td>Prepuce and frenulum</td><td>Prepuce</td><td></td></tr><tr><td>Dorsal nerve and arteries</td><td>Dorsal nerve and arteries</td><td></td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Difference</th><td><ul class=\"cl\"><li>The urethra does not run through the clitoris</li><li>Labia minora correspond to the floor of the spongy urethra</li><li>Labia majora to the scrotum.</li></ul></td></tr><tr><th scope=\"row\">Same mechanisms</th><td>Erectile tissue, parasympathetic erection, pudendal sensation; testosterone/DHT decides the male pathway.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 10,
+      "text": "Describe the anatomy of the superficial perineal pouch",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Location</strong>: urogenital triangle, between the <strong>perineal membrane</strong> (deep) and <strong>superficial perineal (Colles') fascia</strong>.</li></ul><div class=\"tbl\"><table><thead><tr><th>Contents</th><th>Detail</th></tr></thead><tbody><tr><td>Erectile tissue</td><td>Crura of the clitoris (under ischiocavernosus), bulbs of the vestibule (under bulbospongiosus)</td></tr><tr><td>Muscles</td><td>Ischiocavernosus, bulbospongiosus (vaginal sphincter), superficial transverse perineal (fixes the perineal body)</td></tr><tr><td>Glands</td><td>Greater vestibular (Bartholin's) glands</td></tr><tr><td>Vessels and nerves</td><td>Perineal branches of the internal pudendal artery and pudendal nerve</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Deep pouch<span class=\"paren\">(above the membrane)</span></th><td>External urethral sphincter, compressor urethrae, deep transverse perineal; urethra and vagina pass through.</td></tr><tr><th scope=\"row\">Clinical</th><td>Bartholin's cysts; perineal tears involve these muscles and the perineal body.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 11,
+      "text": "Describe the innervation and mechanisms involved in erection of cavernous tissue",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Input</th><th>Nerves</th><th>Effect</th></tr></thead><tbody><tr><td><strong>Parasympathetic</strong></td><td>Pelvic splanchnic (S2–4) → cavernous nerves</td><td>Nitric oxide → cGMP → smooth muscle relaxes → clitoris and bulbs engorge; vaginal lubrication, Bartholin's secretion</td></tr><tr><td><strong>Somatic</strong></td><td><strong>Pudendal</strong> (S2–4)</td><td><ul class=\"cl\"><li>Sensation from the glans (dorsal nerve of clitoris) drives the reflex</li><li>Motor to ischiocavernosus and bulbospongiosus (maintain engorgement, rhythmic contractions at orgasm)</li></ul></td></tr><tr><td><strong>Sympathetic</strong></td><td>T11–L2</td><td>Smooth muscle contraction at orgasm; vasoconstriction and detumescence</td></tr></tbody></table></div>"
+    }
+  ]
+}

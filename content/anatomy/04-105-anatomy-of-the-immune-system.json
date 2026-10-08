@@ -1,0 +1,15 @@
+{
+  "id": "a-105",
+  "num": "105",
+  "title": "Anatomy of the immune system",
+  "system": "Immunology and microbiology",
+  "los": [
+    {
+      "n": 1,
+      "text": "Identify the components of the immune system and link them to function",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Component</th><th>Where</th><th>Function</th></tr></thead><tbody><tr><td><strong>Red bone marrow</strong> (primary)</td><td>Flat bones, vertebrae, ends of long bones</td><td>Makes all blood cells; <strong>B cells mature</strong> here</td></tr><tr><td><strong>Thymus</strong> (primary)</td><td>Superior/anterior mediastinum, behind the manubrium</td><td><strong>T cells mature</strong>: positive then negative selection; shrinks after puberty</td></tr><tr><td><strong>Lymph nodes</strong> (secondary)</td><td>Along lymphatics: cervical, axillary, inguinal, mediastinal, para-aortic</td><td>Filter lymph; cortex = B-cell follicles (germinal centres), paracortex = T cells, medulla = plasma cells</td></tr><tr><td><strong>Spleen</strong> (secondary)</td><td>Left hypochondrium, ribs 9–11</td><td>White pulp (lymphocytes) mounts responses to blood-borne antigens; red pulp removes old red cells and <strong>encapsulated bacteria</strong></td></tr><tr><td><strong>MALT</strong> (secondary)</td><td>Tonsils (Waldeyer's ring), <strong>Peyer's patches</strong> (ileum), appendix, bronchi</td><td>Samples antigens at mucosal surfaces (M cells); IgA</td></tr><tr><td><strong>Lymphatic vessels</strong></td><td>Throughout, except CNS (glymphatics) and marrow</td><td>Return tissue fluid via the thoracic duct and right lymphatic duct to the venous angles</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Cells</th><td>Innate (neutrophils, macrophages, dendritic cells, NK cells, mast cells) and adaptive (T and B lymphocytes).</td></tr><tr><th scope=\"row\">Clinical links</th><td><ul class=\"cl\"><li>Lymphadenopathy (infection, lymphoma, metastasis)</li><li>Splenomegaly</li><li><strong>No spleen → vaccinate</strong> (pneumococcus, Hib, meningococcus) and prophylaxis</li><li>Thymic aplasia in DiGeorge</li><li>Thymoma with myasthenia gravis.</li></ul></td></tr></tbody></table></div>"
+    }
+  ]
+}

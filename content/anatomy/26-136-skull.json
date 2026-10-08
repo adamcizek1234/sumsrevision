@@ -1,0 +1,113 @@
+{
+  "id": "a-136",
+  "num": "136",
+  "title": "Skull",
+  "system": "Reproductive",
+  "los": [
+    {
+      "n": 1,
+      "text": "Label a diagrammatic sketch of the structure of a tooth",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Part</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Crown</strong></td><td>Above the gum, covered by <strong>enamel</strong> (hardest tissue in the body; acellular, can't repair)</td></tr><tr><td><strong>Neck</strong></td><td>Where enamel meets cementum</td></tr><tr><td><strong>Root</strong></td><td>In the socket, covered by <strong>cementum</strong></td></tr><tr><td><strong>Dentine</strong></td><td>Bulk of the tooth under enamel and cementum; sensitive (tubules)</td></tr><tr><td><strong>Pulp cavity</strong></td><td>Pulp chamber + root canal: nerves, vessels, connective tissue; enters at the <strong>apical foramen</strong></td></tr><tr><td><strong>Periodontal ligament</strong></td><td>Fixes the root in the alveolar bone (gomphosis)</td></tr><tr><td>Gingiva</td><td>Gum around the neck</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Recall the order and timings of tooth eruption",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Dentition</th><th>Erupts</th><th>Order</th></tr></thead><tbody><tr><td><strong>Deciduous (20)</strong></td><td><strong>~6 months to ~2½ years</strong></td><td><ul class=\"cl\"><li>Central incisors (6–10 months, lower first)</li><li>→ lateral incisors</li><li>→ <strong>first molars</strong> (~12–16 months)</li><li>→ <strong>canines</strong> (~16–20 months)</li><li>→ second molars (~20–30 months)</li></ul></td></tr><tr><td><strong>Permanent (32)</strong></td><td><strong>~6 years</strong> onwards</td><td><ul class=\"cl\"><li><strong>First molars (6 years)</strong></li><li>Central incisors (6–8)</li><li>Lateral incisors (7–9)</li><li>Canines (9–12) and premolars (10–12)</li><li><strong>Second molars (12 years)</strong></li><li>Third molars (17–25 years, \"wisdom teeth\")</li></ul></td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Mixed dentition</th><td>~6–12 years.</td></tr><tr><th scope=\"row\">Delayed eruption</th><td>Hypothyroidism, rickets, Down syndrome.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Describe the arrangement of the dentition",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th></th><th>Deciduous</th><th>Permanent</th></tr></thead><tbody><tr><td>Per quadrant</td><td>2 incisors, 1 canine, <strong>2 molars</strong> (5)</td><td>2 incisors, 1 canine, <strong>2 premolars, 3 molars</strong> (8)</td></tr><tr><td>Total</td><td><strong>20</strong></td><td><strong>32</strong></td></tr><tr><td>Formula</td><td>2-1-0-2</td><td>2-1-2-3</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Notation (Palmer/FDI)</th><td><ul class=\"cl\"><li>Teeth numbered 1–8 from the midline in each quadrant (FDI adds the quadrant number: e.g. 11 = upper right central incisor)</li><li>Deciduous teeth lettered A–E.</li></ul></td></tr><tr><th scope=\"row\">Arrangement</th><td>Upper and lower arches; incisors cut, canines tear, premolars and molars grind. Permanent premolars replace deciduous molars.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Identify the parts of the mandible",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Part</th><th>Features</th></tr></thead><tbody><tr><td><strong>Body</strong></td><td>Alveolar part (teeth), mental protuberance, <strong>mental foramen</strong> (below the 2nd premolar: mental nerve), mylohyoid line inside, digastric fossa, genial tubercles</td></tr><tr><td><strong>Ramus</strong></td><td>Vertical; <strong>mandibular foramen</strong> on the inner surface (inferior alveolar nerve and vessels enter) guarded by the <strong>lingula</strong> (sphenomandibular ligament)</td></tr><tr><td><strong>Angle</strong></td><td>Where body meets ramus; masseter (outside) and medial pterygoid (inside) attach</td></tr><tr><td><strong>Coronoid process</strong></td><td>Front of the ramus; <strong>temporalis</strong> attaches</td></tr><tr><td><strong>Condylar process</strong></td><td>Head + neck; head in the TMJ; <strong>lateral pterygoid</strong> attaches to the neck</td></tr><tr><td><strong>Mandibular notch</strong></td><td>Between coronoid and condyle (masseteric nerve and vessels)</td></tr></tbody></table></div><ul><li><strong>Fractures</strong>: often in <strong>two places</strong> (ring), commonly the condylar neck and the opposite angle or body.</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Name the boundaries of the temporal fossa",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Boundary</th><th>Formed by</th></tr></thead><tbody><tr><td>Upper / posterior</td><td><strong>Superior temporal line</strong> (temporal fascia)</td></tr><tr><td>Lower (lateral)</td><td><strong>Zygomatic arch</strong></td></tr><tr><td>Front</td><td>Frontal process of zygoma, zygomatic process of frontal bone</td></tr><tr><td>Floor (medial wall)</td><td>Parts of the <strong>frontal, parietal, temporal and greater wing of sphenoid</strong> (meeting at the <strong>pterion</strong>)</td></tr><tr><td>Roof</td><td>Temporal fascia</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Pterion</th><td><ul class=\"cl\"><li>The thinnest part of the skull</li><li>The <strong>anterior branch of the middle meningeal artery</strong> lies beneath → fracture causes an <strong>extradural haematoma</strong>.</li></ul></td></tr><tr><th scope=\"row\">Contents</th><td>Temporalis, deep temporal nerves and vessels; continuous below the arch with the infratemporal fossa.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Identify and describe the temporalis muscle and locate the auriculotemporal nerve and the superficial temporal blood vessels",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Temporalis</th><td><ul class=\"cl\"><li>Fan-shaped</li><li>From the floor of the temporal fossa and temporal fascia → <strong>coronoid process</strong> and front of the ramus.</li><li><strong>Elevates</strong> the mandible (closes the jaw)</li><li>Posterior fibres <strong>retract</strong> it.</li><li><strong>Nerve</strong>: deep temporal nerves (V3).</li></ul></td></tr><tr><th scope=\"row\">Auriculotemporal nerve<span class=\"paren\">(V3)</span></th><td><ul class=\"cl\"><li>Splits round the middle meningeal artery → behind the TMJ → up in front of the ear with the <strong>superficial temporal vessels</strong>.</li><li>Sensation to the temple and auricle</li><li>Carries <strong>parasympathetic fibres to the parotid</strong> (from IX via the otic ganglion) → Frey's syndrome after parotidectomy (gustatory sweating).</li></ul></td></tr><tr><th scope=\"row\">Superficial temporal artery</th><td>Terminal branch of the ECA; pulse <strong>in front of the tragus</strong>; tender and thickened in <strong>giant cell arteritis</strong> (biopsy site).</td></tr><tr><th scope=\"row\">Order in front of the ear<span class=\"paren\">(back → front)</span></th><td>Auriculotemporal nerve, superficial temporal vein, superficial temporal artery.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Identify the temporomandibular joint, the components of the joint and the accessory ligaments (temporomandibular, sphenomandibular, stylomandibular)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>TMJ</strong>: synovial joint between the <strong>head of the mandible</strong> and the <strong>mandibular fossa and articular eminence</strong> of the temporal bone, divided by a fibrocartilage <strong>articular disc</strong> into upper and lower compartments.</li></ul><div class=\"tbl\"><table><thead><tr><th>Compartment</th><th>Movement</th></tr></thead><tbody><tr><td><strong>Upper</strong> (disc–temporal bone)</td><td><strong>Gliding</strong> (protrusion, translation)</td></tr><tr><td><strong>Lower</strong> (head–disc)</td><td><strong>Hinge</strong> (rotation)</td></tr></tbody></table></div><ul><li><strong>Capsule</strong>: loose above, tighter below; lateral pterygoid inserts into the disc and the neck of the mandible.</li></ul><div class=\"tbl\"><table><thead><tr><th>Ligament</th><th>Attachments</th><th>Role</th></tr></thead><tbody><tr><td><strong>Lateral (temporomandibular)</strong></td><td>Articular tubercle → neck of mandible</td><td>Main stabiliser; stops backward displacement</td></tr><tr><td><strong>Sphenomandibular</strong></td><td>Spine of sphenoid → <strong>lingula</strong></td><td>Accessory; inferior alveolar nerve passes between it and the ramus</td></tr><tr><td><strong>Stylomandibular</strong></td><td>Styloid process → angle of mandible</td><td>Accessory; limits protrusion</td></tr></tbody></table></div><ul><li><strong>Fibrocartilage</strong> (not hyaline) covers the articular surfaces: it develops from membrane bone.</li></ul>"
+    },
+    {
+      "n": 8,
+      "text": "Recall the movements that can occur during chewing and name the muscles involved in each movement",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Movement</th><th>Muscles</th></tr></thead><tbody><tr><td><strong>Elevation</strong> (close)</td><td><strong>Temporalis, masseter, medial pterygoid</strong></td></tr><tr><td><strong>Depression</strong> (open)</td><td><strong>Lateral pterygoid</strong> (starts it, pulls the condyle forward) + gravity, digastric, geniohyoid, mylohyoid</td></tr><tr><td><strong>Protrusion</strong></td><td><strong>Lateral and medial pterygoids</strong> (both sides)</td></tr><tr><td><strong>Retraction</strong></td><td><strong>Posterior fibres of temporalis</strong></td></tr><tr><td><strong>Side-to-side</strong> (grinding)</td><td>Lateral and medial pterygoids of <strong>one side</strong> pull that side forward, so the chin moves to the <strong>opposite</strong> side</td></tr></tbody></table></div><ul><li><strong>Opening</strong>: first the head rotates in the lower compartment (hinge), then the head and disc glide forward onto the articular eminence (upper compartment).</li></ul>"
+    },
+    {
+      "n": 9,
+      "text": "Explain what occurs in anterior temporomandibular joint dislocation and relocation",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Anterior dislocation</th><td><ul class=\"cl\"><li>on wide opening (yawn, blow)</li><li>The head of the mandible slides <strong>in front of the articular eminence</strong> and gets stuck there</li><li>Held by spasm of masseter</li><li>Temporalis and medial pterygoid.</li><li>The mouth is <strong>stuck open</strong></li><li>Often bilateral.</li></ul></td></tr><tr><th scope=\"row\">Relocation</th><td><ul class=\"cl\"><li>Thumbs (wrapped) on the lower molars, press <strong>down</strong> (to clear the eminence) then <strong>back</strong></li><li>Then the elevators snap the jaw shut (so protect the thumbs).</li></ul></td></tr><tr><th scope=\"row\">Risk</th><td>Facial nerve and auriculotemporal nerve stretch; recurrent dislocation with lax ligaments.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 10,
+      "text": "Name the muscles of mastication, their origins and insertions, actions and innervation (masseter, temporalis, lateral and medial pterygoid muscles)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Muscle</th><th>Origin</th><th>Insertion</th><th>Action</th><th>Nerve</th></tr></thead><tbody><tr><td><strong>Masseter</strong></td><td>Zygomatic arch</td><td>Lateral surface of ramus and angle</td><td>Elevates, slight protrusion</td><td>Masseteric (<strong>V3</strong>)</td></tr><tr><td><strong>Temporalis</strong></td><td>Temporal fossa</td><td><strong>Coronoid process</strong></td><td>Elevates, retracts (posterior fibres)</td><td>Deep temporal (<strong>V3</strong>)</td></tr><tr><td><strong>Medial pterygoid</strong></td><td>Medial surface of lateral pterygoid plate (deep head), maxillary tuberosity</td><td>Medial surface of ramus and angle</td><td>Elevates, protrudes, side-to-side</td><td><strong>V3</strong></td></tr><tr><td><strong>Lateral pterygoid</strong></td><td>Lateral surface of lateral pterygoid plate, greater wing of sphenoid</td><td><strong>Neck of mandible</strong>, disc and capsule</td><td><strong>Opens</strong> the jaw, protrudes, side-to-side</td><td><strong>V3</strong></td></tr></tbody></table></div><ul><li><strong>All supplied by the mandibular nerve (V3)</strong>, the only motor part of the trigeminal<ul><li>all come from the <strong>1st pharyngeal arch</strong>.</li></ul></li><li><strong>V3 lesion</strong>: weak bite, the jaw <strong>deviates towards the weak side</strong> on opening (unopposed opposite lateral pterygoid).</li></ul>"
+    },
+    {
+      "n": 11,
+      "text": "Locate the infratemporal fossa and name its boundaries",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Infratemporal fossa</strong>: below the temporal fossa, deep to the ramus.</li></ul><div class=\"tbl\"><table><thead><tr><th>Boundary</th><th>Formed by</th></tr></thead><tbody><tr><td>Lateral</td><td><strong>Ramus of the mandible</strong></td></tr><tr><td>Medial</td><td><strong>Lateral pterygoid plate</strong></td></tr><tr><td>Front</td><td>Back of the <strong>maxilla</strong></td></tr><tr><td>Roof</td><td><strong>Greater wing of sphenoid</strong> (with foramen ovale and spinosum)</td></tr><tr><td>Back</td><td>Styloid process, carotid sheath</td></tr><tr><td>Floor</td><td>Open (where medial pterygoid attaches to the angle)</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Contents</th><td><ul class=\"cl\"><li>Lateral and medial pterygoids</li><li><strong>Maxillary artery</strong> (with the <strong>middle meningeal</strong> branch)</li><li>Pterygoid venous plexus</li><li><strong>Mandibular nerve</strong> (inferior alveolar, lingual, buccal, auriculotemporal)</li><li><strong>Chorda tympani</strong> joining the lingual nerve</li><li>Otic ganglion.</li></ul></td></tr><tr><th scope=\"row\">Clinical</th><td>Inferior alveolar nerve block; the pterygoid plexus links to the cavernous sinus (spread of infection).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 12,
+      "text": "Recognise the major bones of the skull, including the frontal, parietal, occipital, temporal, maxilla, zygoma, mandible, sphenoid, nasal and ethmoid bones and identify their surface and imaging landmarks",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Bone</th><th>Landmarks</th></tr></thead><tbody><tr><td><strong>Frontal</strong></td><td>Forehead, supraorbital margin and notch, frontal sinus, roof of orbits</td></tr><tr><td><strong>Parietal</strong> (2)</td><td>Vault; temporal lines; grooved inside by middle meningeal vessels</td></tr><tr><td><strong>Occipital</strong></td><td>Foramen magnum, occipital condyles, external occipital protuberance, superior nuchal line</td></tr><tr><td><strong>Temporal</strong> (2)</td><td>Squamous part, zygomatic process, mastoid process (air cells), styloid process, external acoustic meatus, petrous part (inner ear), mandibular fossa</td></tr><tr><td><strong>Sphenoid</strong></td><td>Body (sella turcica, sphenoid sinus), greater and lesser wings, pterygoid plates; many foramina</td></tr><tr><td><strong>Ethmoid</strong></td><td>Cribriform plate, crista galli, perpendicular plate (septum), ethmoid air cells, thin medial orbital wall</td></tr><tr><td><strong>Maxilla</strong> (2)</td><td>Upper jaw, maxillary sinus, infraorbital foramen, hard palate (front), alveolar process</td></tr><tr><td><strong>Zygoma</strong> (2)</td><td>Cheekbone; zygomatic arch with the temporal bone; lateral orbital wall</td></tr><tr><td><strong>Nasal</strong> (2)</td><td>Bridge of the nose</td></tr><tr><td><strong>Mandible</strong></td><td>Lower jaw (the only movable skull bone)</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Imaging</th><td>on skull X-rays and CT, identify the sinuses, sella, mastoid air cells, orbits, sutures and vascular grooves (don't mistake them for fractures).</td></tr><tr><th scope=\"row\">Bones forming the pterion</th><td>Frontal, parietal, temporal, sphenoid.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 13,
+      "text": "Identify the major sutural joints of the adult skull and the fontanelles of the foetal skull",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Suture</th><th>Between</th><th></th></tr></thead><tbody><tr><td><strong>Coronal</strong></td><td>Frontal and both parietals</td><td></td></tr><tr><td><strong>Sagittal</strong></td><td>Two parietals</td><td></td></tr><tr><td><strong>Lambdoid</strong></td><td>Parietals and occipital</td><td></td></tr><tr><td>Squamous</td><td>Parietal and temporal</td><td></td></tr><tr><td>Metopic</td><td>Two halves of the frontal bone</td><td>Usually fuses by ~1 year</td></tr></tbody></table></div><ul><li><strong>Bregma</strong>: meeting of coronal and sagittal sutures. <strong>Lambda</strong>: meeting of sagittal and lambdoid.</li></ul><div class=\"tbl\"><table><thead><tr><th>Fontanelle</th><th>Position</th><th>Closes</th></tr></thead><tbody><tr><td><strong>Anterior</strong></td><td>Diamond, at the bregma</td><td><strong>~18 months</strong></td></tr><tr><td><strong>Posterior</strong></td><td>Triangle, at the lambda</td><td><strong>~2–3 months</strong></td></tr><tr><td>Sphenoidal and mastoid (pairs)</td><td>Sides</td><td>First year</td></tr></tbody></table></div><ul><li><strong>Clinical</strong>: bulging anterior fontanelle = raised ICP (meningitis)<ul><li>sunken = dehydration.</li><li>Overlapping sutures allow moulding in birth.</li><li><strong>Craniosynostosis</strong>: early fusion → abnormal head shape.</li></ul></li></ul>"
+    },
+    {
+      "n": 14,
+      "text": "Identify the external and internal features of the cranial foramina of the skull, the bones through which they pass, listing the structures that each transmits",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Foramen</th><th>Bone</th><th>Transmits</th></tr></thead><tbody><tr><td><strong>Cribriform plate</strong></td><td>Ethmoid</td><td><strong>Olfactory nerves (I)</strong></td></tr><tr><td><strong>Optic canal</strong></td><td>Sphenoid (lesser wing)</td><td><strong>Optic nerve (II)</strong>, <strong>ophthalmic artery</strong></td></tr><tr><td><strong>Superior orbital fissure</strong></td><td>Sphenoid (between wings)</td><td><strong>III, IV, V1, VI</strong>, superior ophthalmic vein</td></tr><tr><td><strong>Foramen rotundum</strong></td><td>Sphenoid (greater wing)</td><td><strong>Maxillary nerve (V2)</strong></td></tr><tr><td><strong>Foramen ovale</strong></td><td>Sphenoid (greater wing)</td><td><strong>Mandibular nerve (V3)</strong>, lesser petrosal nerve, emissary veins</td></tr><tr><td><strong>Foramen spinosum</strong></td><td>Sphenoid (greater wing)</td><td><strong>Middle meningeal artery</strong></td></tr><tr><td>Foramen lacerum</td><td>Sphenoid/temporal/occipital</td><td>Filled with cartilage; ICA passes over it</td></tr><tr><td><strong>Carotid canal</strong></td><td>Temporal (petrous)</td><td><strong>Internal carotid artery</strong>, sympathetic plexus</td></tr><tr><td><strong>Internal acoustic meatus</strong></td><td>Temporal (petrous)</td><td><strong>VII, VIII</strong>, labyrinthine artery</td></tr><tr><td><strong>Stylomastoid foramen</strong></td><td>Temporal</td><td><strong>Facial nerve (VII)</strong> leaving the skull</td></tr><tr><td><strong>Jugular foramen</strong></td><td>Temporal/occipital</td><td><strong>IX, X, XI</strong>, internal jugular vein (sigmoid sinus), inferior petrosal sinus</td></tr><tr><td><strong>Hypoglossal canal</strong></td><td>Occipital</td><td><strong>XII</strong></td></tr><tr><td><strong>Foramen magnum</strong></td><td>Occipital</td><td><strong>Medulla/spinal cord</strong>, vertebral arteries, spinal roots of XI, meninges</td></tr><tr><td>Infraorbital foramen</td><td>Maxilla</td><td>Infraorbital nerve (V2) and vessels</td></tr><tr><td>Mental foramen</td><td>Mandible</td><td>Mental nerve (V3) and vessels</td></tr><tr><td>Supraorbital notch</td><td>Frontal</td><td>Supraorbital nerve (V1)</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 15,
+      "text": "Describe the blood supply and nervous innervation of the teeth",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Teeth</th><th>Nerve</th><th>Branch of</th><th>Artery</th></tr></thead><tbody><tr><td><strong>Upper (maxillary)</strong></td><td><strong>Superior alveolar nerves</strong> (posterior, middle, anterior)</td><td><strong>Maxillary (V2)</strong> (posterior directly; middle and anterior via the infraorbital nerve)</td><td>Superior alveolar arteries (maxillary artery)</td></tr><tr><td><strong>Lower (mandibular)</strong></td><td><strong>Inferior alveolar nerve</strong> (→ mental and incisive branches)</td><td><strong>Mandibular (V3)</strong></td><td><strong>Inferior alveolar artery</strong> (maxillary artery)</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Gums</th><td>Upper buccal (superior alveolar, infraorbital), upper palatal (greater palatine, nasopalatine); lower lingual (<strong>lingual nerve</strong>), lower buccal (buccal, mental nerves).</td></tr><tr><th scope=\"row\">Veins</th><td>to the pterygoid plexus and facial vein. <strong>Lymph</strong>: submandibular nodes (lower incisors: submental).</td></tr><tr><th scope=\"row\">Clinical</th><td><ul class=\"cl\"><li>Inferior alveolar nerve block numbs all the lower teeth on one side, the lower lip and chin (mental nerve) and often the tongue (lingual nerve nearby).</li><li>Upper teeth can be infiltrated locally because the maxilla is thin and porous.</li><li>Upper molar roots lie close to the maxillary sinus, so sinusitis can cause toothache.</li></ul></td></tr></tbody></table></div>"
+    }
+  ]
+}

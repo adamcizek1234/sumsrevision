@@ -1,0 +1,468 @@
+{
+  "id": "eye",
+  "title": "Eye",
+  "items": [
+    {
+      "id": "prostaglandin-analogue-eye-drops",
+      "name": "Prostaglandin analogue eye drops",
+      "ex": "latanoprost",
+      "uses": [
+        {
+          "t": "Open-angle glaucoma, first line",
+          "k": "y1-142-2"
+        }
+      ],
+      "how": "↑ uveoscleral outflow of aqueous",
+      "hx": [
+        [
+          "↑ aqueous production by the ciliary body",
+          "They increase outflow (uveoscleral), not production."
+        ],
+        [
+          "↓ uveoscleral outflow of aqueous",
+          "They increase it."
+        ],
+        [
+          "Shrinks the lens to widen the drainage angle",
+          "No; ↑ uveoscleral outflow."
+        ]
+      ],
+      "se": [
+        "Iris darkening",
+        "Eyelash growth",
+        "Red eye",
+        "Periorbital fat loss"
+      ],
+      "sewhy": "Prostaglandins stimulate melanocytes (iris darkening) and hair follicles (longer lashes), and cause conjunctival redness and loss of fat around the eye.",
+      "ci": [
+        {
+          "c": "Active uveitis or macular oedema",
+          "k": "y1-142-3",
+          "why": "Can worsen inflammation",
+          "cau": true,
+          "x": [
+            [
+              "Can raise intraocular pressure",
+              "They lower IOP; the concern is worsening inflammation."
+            ],
+            [
+              "Can cause cataracts",
+              "No; worsening inflammation."
+            ],
+            [
+              "Can dilate the pupil",
+              "No; worsening inflammation."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timolol-eye-drops",
+      "name": "Timolol eye drops",
+      "ex": "topical beta-blocker",
+      "uses": [
+        {
+          "t": "Glaucoma",
+          "k": "y1-142-2"
+        }
+      ],
+      "how": "↓ aqueous production by the ciliary body",
+      "hx": [
+        [
+          "↑ aqueous outflow through the trabecular meshwork",
+          "Timolol reduces aqueous production."
+        ],
+        [
+          "↑ aqueous production by the ciliary body",
+          "It reduces production."
+        ],
+        [
+          "↓ aqueous production by the lens",
+          "The ciliary body makes aqueous."
+        ]
+      ],
+      "se": [
+        "Stinging",
+        "Systemic β-blockade: bronchospasm, bradycardia"
+      ],
+      "sewhy": "Drops drain into the nose and are absorbed without first-pass metabolism, so systemic β-blockade can cause bronchospasm and bradycardia.",
+      "ci": [
+        {
+          "c": "Asthma",
+          "k": "y2-204-6",
+          "why": "Absorbed through the nasolacrimal duct → bronchospasm",
+          "cau": false,
+          "x": [
+            [
+              "Absorbed through the cornea → raised IOP",
+              "Systemic absorption through the nasal mucosa causes bronchospasm."
+            ],
+            [
+              "Drops irritate the throat → cough only",
+              "No; systemic β-blockade → bronchospasm."
+            ],
+            [
+              "Absorbed through the nasolacrimal duct → tachycardia",
+              "β-blockade slows the heart; the asthma risk is bronchospasm."
+            ]
+          ]
+        },
+        {
+          "c": "Bradycardia or heart block",
+          "k": "y1-108-3",
+          "why": "Systemic β-blockade",
+          "cau": false,
+          "x": [
+            [
+              "Local α-blockade",
+              "Absorbed timolol blocks β receptors throughout the body."
+            ],
+            [
+              "Systemic β-stimulation",
+              "It blocks β receptors."
+            ],
+            [
+              "Vagal stimulation from eye drops",
+              "No; systemic β-blockade."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acetazolamide",
+      "name": "Acetazolamide",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Acute angle-closure glaucoma",
+          "k": "y1-142-2"
+        },
+        {
+          "t": "Idiopathic intracranial hypertension",
+          "k": null
+        },
+        {
+          "t": "Altitude sickness",
+          "k": null
+        }
+      ],
+      "how": "Carbonic anhydrase inhibitor → ↓ aqueous (and CSF) production",
+      "hx": [
+        [
+          "Carbonic anhydrase activator → ↑ aqueous outflow",
+          "It inhibits carbonic anhydrase, cutting aqueous production."
+        ],
+        [
+          "Osmotic diuretic → draws water out of the eye",
+          "That's mannitol; acetazolamide inhibits carbonic anhydrase."
+        ],
+        [
+          "Loop diuretic → ↓ aqueous production",
+          "It's a carbonic anhydrase inhibitor."
+        ]
+      ],
+      "se": [
+        "Paraesthesia",
+        "Polyuria",
+        "Hypokalaemia",
+        "Metabolic acidosis",
+        "Kidney stones",
+        "Taste change"
+      ],
+      "sewhy": "Carbonic anhydrase inhibition causes bicarbonate loss in urine (metabolic acidosis, potassium loss, stones), diuresis and paraesthesia.",
+      "ci": [
+        {
+          "c": "Sulfonamide allergy",
+          "k": "y1-131-3",
+          "why": "Cross-reactivity",
+          "cau": false,
+          "x": [
+            [
+              "No relation between them",
+              "It's a sulfonamide, so cross-reactivity is possible."
+            ],
+            [
+              "Causes hypokalaemia",
+              "That's a separate issue; here it's cross-reactivity."
+            ],
+            [
+              "Interacts with antibiotics",
+              "No; cross-reactivity."
+            ]
+          ]
+        },
+        {
+          "c": "Hypokalaemia or hyponatraemia",
+          "k": "y1-135-4",
+          "why": "Worsens both",
+          "cau": false,
+          "x": [
+            [
+              "Corrects both",
+              "It worsens both."
+            ],
+            [
+              "Raises sodium, lowers potassium",
+              "It lowers both."
+            ],
+            [
+              "Masks both on blood tests",
+              "No; it worsens both."
+            ]
+          ]
+        },
+        {
+          "c": "Severe renal or hepatic impairment",
+          "k": "y2-229-3",
+          "why": "Accumulation; ammonia rise can cause encephalopathy",
+          "cau": false,
+          "x": [
+            [
+              "Rapid clearance; loss of effect",
+              "It accumulates, and ammonia can rise."
+            ],
+            [
+              "Accumulation; causes hyperkalaemia",
+              "It lowers K⁺; the concern is ammonia and encephalopathy."
+            ],
+            [
+              "Directly hepatotoxic; causes jaundice",
+              "Not hepatotoxic; ammonia rises."
+            ]
+          ]
+        },
+        {
+          "c": "Adrenal insufficiency",
+          "k": "y1-126-3",
+          "why": "Worsens electrolyte loss",
+          "cau": false,
+          "x": [
+            [
+              "Raises cortisol",
+              "No; it worsens electrolyte loss."
+            ],
+            [
+              "Corrects electrolytes",
+              "It worsens the loss."
+            ],
+            [
+              "Blocks steroid replacement",
+              "No; it worsens electrolyte loss."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pilocarpine",
+      "name": "Pilocarpine",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Acute angle-closure glaucoma (after IOP lowered)",
+          "k": "y1-142-2"
+        }
+      ],
+      "how": "Muscarinic agonist → miosis opens the drainage angle",
+      "hx": [
+        [
+          "Muscarinic antagonist → mydriasis opens the drainage angle",
+          "Dilating the pupil closes the angle; pilocarpine constricts it."
+        ],
+        [
+          "Muscarinic agonist → ↓ aqueous production",
+          "It increases outflow by constricting the pupil."
+        ],
+        [
+          "α2 agonist → miosis opens the drainage angle",
+          "It's a muscarinic agonist."
+        ]
+      ],
+      "se": [
+        "Brow ache",
+        "Blurred and dim vision (miosis)"
+      ],
+      "sewhy": "Pilocarpine contracts the ciliary muscle (brow ache, accommodation spasm) and the pupil, making vision dim and blurred.",
+      "ci": [
+        {
+          "c": "Acute anterior uveitis / iritis",
+          "k": "y1-142-3",
+          "why": "Miosis worsens pain and promotes posterior synechiae",
+          "cau": false,
+          "x": [
+            [
+              "Mydriasis worsens pain and promotes anterior synechiae",
+              "Pilocarpine constricts the pupil, which promotes posterior synechiae."
+            ],
+            [
+              "Raises intraocular pressure",
+              "No; miosis worsens pain and synechiae."
+            ],
+            [
+              "Spreads the infection",
+              "Uveitis is usually not infective; miosis is the problem."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mydriatic-eye-drops",
+      "name": "Mydriatic eye drops",
+      "ex": "tropicamide, cyclopentolate",
+      "uses": [
+        {
+          "t": "Dilating pupils for fundoscopy",
+          "k": "y1-142-1"
+        },
+        {
+          "t": "Uveitis (cyclopentolate, for pain)",
+          "k": "y1-142-3"
+        }
+      ],
+      "how": "Muscarinic antagonists → pupil dilation (± cycloplegia)",
+      "hx": [
+        [
+          "Muscarinic agonists → pupil constriction",
+          "They block muscarinic receptors, dilating the pupil."
+        ],
+        [
+          "α1 antagonists → pupil dilation",
+          "α1 stimulation dilates (phenylephrine); tropicamide is antimuscarinic."
+        ],
+        [
+          "Muscarinic antagonists → pupil constriction (± accommodation)",
+          "Blocking the sphincter dilates the pupil and paralyses accommodation."
+        ]
+      ],
+      "se": [
+        "Blurred vision",
+        "Light sensitivity",
+        "Stinging"
+      ],
+      "sewhy": "Dilated pupils let in more light (photophobia), and cycloplegia blurs near vision.",
+      "ci": [
+        {
+          "c": "Known or suspected angle-closure (narrow angles)",
+          "k": "y1-142-4",
+          "why": "Dilation can trigger acute angle-closure",
+          "cau": false,
+          "x": [
+            [
+              "Constriction can trigger acute angle-closure",
+              "Dilation crowds the angle."
+            ],
+            [
+              "Dilation can trigger retinal detachment",
+              "The risk is acute angle-closure."
+            ],
+            [
+              "Dilation can trigger uveitis",
+              "No; acute angle-closure."
+            ]
+          ]
+        },
+        {
+          "c": "Driving",
+          "k": "y1-142-1",
+          "why": "Don't drive until vision recovers",
+          "cau": true,
+          "x": [
+            [
+              "Drive only at night",
+              "Don't drive until vision recovers."
+            ],
+            [
+              "Safe to drive straight away",
+              "Vision is blurred; wait."
+            ],
+            [
+              "Wear sunglasses and drive",
+              "Don't drive until vision recovers."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steroid-eye-drops",
+      "name": "Steroid eye drops",
+      "ex": "prednisolone acetate, dexamethasone",
+      "uses": [
+        {
+          "t": "Anterior uveitis",
+          "k": "y1-142-3"
+        },
+        {
+          "t": "After eye surgery",
+          "k": null
+        }
+      ],
+      "how": "Topical anti-inflammatory",
+      "hx": [
+        [
+          "Topical antibiotic",
+          "They're anti-inflammatory."
+        ],
+        [
+          "Topical antiviral",
+          "They're anti-inflammatory."
+        ],
+        [
+          "Topical anaesthetic",
+          "They're anti-inflammatory."
+        ]
+      ],
+      "se": [
+        "Raised IOP",
+        "Cataract",
+        "Infection"
+      ],
+      "sewhy": "Steroids reduce aqueous outflow (raised pressure), cause cataracts and suppress local immunity (infections such as herpes).",
+      "ci": [
+        {
+          "c": "Herpes simplex keratitis (dendritic ulcer)",
+          "k": "y1-142-3",
+          "why": "Steroids let the virus spread → corneal perforation",
+          "cau": false,
+          "x": [
+            [
+              "Steroids kill the virus too fast → scarring",
+              "Steroids don't kill viruses; they let it spread."
+            ],
+            [
+              "Steroids raise IOP → glaucoma",
+              "A risk, but in HSV the danger is viral spread → perforation."
+            ],
+            [
+              "Steroids dilate the pupil → angle-closure",
+              "No; viral spread → perforation."
+            ]
+          ]
+        },
+        {
+          "c": "Only with ophthalmology advice",
+          "k": "y1-142-2",
+          "why": "Risk of steroid glaucoma and masking infection",
+          "cau": true,
+          "x": [
+            [
+              "Risk of retinal detachment and blindness",
+              "The risks are steroid glaucoma and masked infection."
+            ],
+            [
+              "Risk of systemic adrenal suppression only",
+              "The local risks are glaucoma and masked infection."
+            ],
+            [
+              "Risk of corneal allergy",
+              "No; steroid glaucoma and masked infection."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1072 @@
+{
+  "id": "haem",
+  "title": "Blood thinners, clotting & anaemia",
+  "items": [
+    {
+      "id": "aspirin",
+      "name": "Aspirin",
+      "ex": "",
+      "uses": [
+        {
+          "t": "ACS (300 mg load)",
+          "k": "y2-212-25"
+        },
+        {
+          "t": "Secondary prevention",
+          "k": "y2-212-26"
+        },
+        {
+          "t": "Stroke/TIA",
+          "k": "y2-231-1"
+        },
+        {
+          "t": "Pre-eclampsia prevention (from 12 weeks)",
+          "k": "y1-114-2"
+        }
+      ],
+      "how": "Irreversibly inhibits COX-1 → ↓ platelet thromboxane A₂ for the platelet's lifespan",
+      "hx": [
+        [
+          "Reversibly inhibits COX-2 → ↓ platelet thromboxane A₂ for a few hours",
+          "Aspirin irreversibly acetylates COX-1, so the effect lasts the platelet's 7–10-day life."
+        ],
+        [
+          "Irreversibly inhibits COX-1 → ↑ endothelial prostacyclin for the vessel's lifespan",
+          "The antiplatelet effect comes from less thromboxane A₂, not more prostacyclin."
+        ],
+        [
+          "Blocks platelet glycoprotein IIb/IIIa receptors → ↓ fibrinogen cross-linking",
+          "That's abciximab-type action; aspirin blocks thromboxane synthesis."
+        ]
+      ],
+      "se": [
+        "Dyspepsia",
+        "GI ulcers and bleeding",
+        "Bruising",
+        "Bronchospasm (aspirin-sensitive asthma)",
+        "Tinnitus (high dose)"
+      ],
+      "sewhy": "Aspirin blocks COX-1, reducing stomach-protecting prostaglandins (dyspepsia, ulcers) and platelet thromboxane for the platelet's whole life (bleeding, bruising). Shunting arachidonic acid towards leukotrienes can trigger bronchospasm in sensitive asthmatics.",
+      "ci": [
+        {
+          "c": "Children under 16",
+          "k": "y1-110-1",
+          "why": "Reye's syndrome (acute liver failure and encephalopathy)",
+          "cau": false,
+          "x": [
+            [
+              "Kawasaki disease (coronary aneurysms and fever)",
+              "Aspirin is actually used to treat Kawasaki disease; the under-16 risk is Reye's syndrome."
+            ],
+            [
+              "Early growth plate closure (short stature and joint pain)",
+              "No effect on growth plates; the risk is Reye's syndrome."
+            ],
+            [
+              "Stevens–Johnson syndrome (skin and mucosal sloughing)",
+              "Not the classic risk; it's avoided because of Reye's syndrome."
+            ]
+          ]
+        },
+        {
+          "c": "Active peptic ulcer or GI bleeding",
+          "k": "y1-104-1",
+          "why": "Removes protective prostaglandins and impairs clotting",
+          "cau": false,
+          "x": [
+            [
+              "Raises gastric acid by stimulating H₂ receptors",
+              "It doesn't act on H₂ receptors; it removes protective prostaglandins and impairs platelets."
+            ],
+            [
+              "Kills protective gut bacteria and impairs clotting",
+              "No antibacterial effect; losing prostaglandins weakens mucosal defence."
+            ],
+            [
+              "Increases gastrin release and portal pressure",
+              "Neither: it strips prostaglandin protection and stops platelets plugging the bleed."
+            ]
+          ]
+        },
+        {
+          "c": "Haemophilia or other bleeding disorders",
+          "k": "y1-138-3",
+          "why": "Adds a platelet defect to a clotting defect",
+          "cau": false,
+          "x": [
+            [
+              "Destroys the factor VIII already present",
+              "It doesn't affect factor VIII; it adds a platelet defect."
+            ],
+            [
+              "Triggers inhibitor antibodies against clotting factors",
+              "Inhibitors come from factor replacement; aspirin adds a platelet defect."
+            ],
+            [
+              "Speeds fibrinolysis of fresh clots",
+              "Not fibrinolysis; it stops platelets aggregating."
+            ]
+          ]
+        },
+        {
+          "c": "Aspirin-sensitive asthma",
+          "k": "y2-204-6",
+          "why": "COX block diverts arachidonic acid to leukotrienes → bronchospasm",
+          "cau": false,
+          "x": [
+            [
+              "COX block raises airway thromboxane → bronchospasm",
+              "Thromboxane falls; arachidonic acid is shunted to leukotrienes."
+            ],
+            [
+              "Salicylate triggers IgE-mediated mast-cell degranulation → bronchospasm",
+              "It isn't IgE-mediated; it's the leukotriene shunt."
+            ],
+            [
+              "COX block lowers airway cAMP, blunting β2 agonists → bronchospasm",
+              "Not the mechanism; leukotrienes rise when COX is blocked."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p2y12-inhibitors",
+      "name": "P2Y12 inhibitors",
+      "ex": "clopidogrel, ticagrelor, prasugrel",
+      "uses": [
+        {
+          "t": "ACS, as DAPT with aspirin for 12 months",
+          "k": "y2-212-26"
+        },
+        {
+          "t": "After stents",
+          "k": "y1-134-4"
+        },
+        {
+          "t": "Stroke/TIA and PAD (clopidogrel)",
+          "k": "y2-210-4"
+        }
+      ],
+      "how": "Block the platelet ADP (P2Y12) receptor → ↓ platelet aggregation",
+      "hx": [
+        [
+          "Block the platelet thrombin (PAR-1) receptor → ↓ platelet aggregation",
+          "That's vorapaxar; clopidogrel and ticagrelor block the ADP (P2Y12) receptor."
+        ],
+        [
+          "Stimulate the platelet ADP receptor → exhaust platelet granules",
+          "They block the receptor, so ADP can't activate platelets."
+        ],
+        [
+          "Block von Willebrand factor binding → ↓ platelet adhesion",
+          "Not vWF; they block ADP-driven aggregation."
+        ]
+      ],
+      "se": [
+        "Bleeding and bruising",
+        "Dyspnoea and bradycardia (ticagrelor)",
+        "GI upset",
+        "Rash"
+      ],
+      "sewhy": "Blocking platelet ADP receptors prevents aggregation, so bleeding and bruising are the main risks; ticagrelor also raises adenosine, causing breathlessness and bradycardia.",
+      "ci": [
+        {
+          "c": "Active bleeding",
+          "k": "y1-138-3",
+          "why": "Stops platelets plugging the bleed",
+          "cau": false,
+          "x": [
+            [
+              "Dissolves the clot already formed",
+              "That's thrombolysis; P2Y12 blockers stop platelets plugging the bleed."
+            ],
+            [
+              "Lowers clotting factor levels",
+              "No effect on clotting factors; platelets can't aggregate."
+            ],
+            [
+              "Causes thrombocytopenia",
+              "Platelet numbers are normal; they just can't aggregate."
+            ]
+          ]
+        },
+        {
+          "c": "Previous stroke or TIA (prasugrel)",
+          "k": "y2-231-1",
+          "why": "Higher intracranial bleeding risk",
+          "cau": false,
+          "x": [
+            [
+              "Higher risk of another ischaemic stroke",
+              "The trial showed net harm from intracranial bleeding."
+            ],
+            [
+              "Poor absorption after a stroke",
+              "Absorption isn't the issue; brain bleeds are."
+            ],
+            [
+              "Interacts with the statins given after stroke",
+              "No such interaction; the concern is intracranial bleeding."
+            ]
+          ]
+        },
+        {
+          "c": "Previous intracranial haemorrhage (ticagrelor, prasugrel)",
+          "k": "y2-209-21",
+          "why": "Rebleeding risk",
+          "cau": false,
+          "x": [
+            [
+              "Seizure risk",
+              "The concern is the brain bleeding again."
+            ],
+            [
+              "Cerebral vasospasm",
+              "Not vasospasm; rebleeding."
+            ],
+            [
+              "Hydrocephalus",
+              "The risk is rebleeding."
+            ]
+          ]
+        },
+        {
+          "c": "With omeprazole (clopidogrel)",
+          "k": "y1-130-5",
+          "why": "CYP2C19 inhibition stops clopidogrel being activated",
+          "cau": true,
+          "x": [
+            [
+              "CYP2C19 induction makes clopidogrel toxic",
+              "Omeprazole inhibits CYP2C19, so less active drug forms."
+            ],
+            [
+              "Raised gastric pH stops clopidogrel dissolving",
+              "Not about pH; clopidogrel is a prodrug that needs CYP2C19."
+            ],
+            [
+              "Omeprazole displaces clopidogrel from albumin",
+              "Not displacement; it blocks activation."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "warfarin",
+      "name": "Warfarin",
+      "ex": "",
+      "uses": [
+        {
+          "t": "AF stroke prevention",
+          "k": "y1-138-4"
+        },
+        {
+          "t": "DVT/PE",
+          "k": "y2-213-7"
+        },
+        {
+          "t": "Mechanical heart valves",
+          "k": "y1-147-2"
+        },
+        {
+          "t": "Antiphospholipid syndrome",
+          "k": "y1-138-3"
+        }
+      ],
+      "how": "Blocks vitamin K epoxide reductase → ↓ factors II, VII, IX, X (and proteins C, S)",
+      "hx": [
+        [
+          "Blocks vitamin K absorption in the gut → ↓ factors II, VII, IX, X",
+          "Absorption is fine; it blocks vitamin K recycling (VKORC1)."
+        ],
+        [
+          "Activates vitamin K epoxide reductase → ↓ factors V, VIII, XI, XII",
+          "It blocks VKOR, lowering factors II, VII, IX and X."
+        ],
+        [
+          "Blocks vitamin K epoxide reductase → ↓ fibrinogen and platelet production",
+          "It lowers the vitamin K-dependent factors (II, VII, IX, X), not fibrinogen or platelets."
+        ]
+      ],
+      "se": [
+        "Bleeding",
+        "Skin necrosis (early, protein C drop)",
+        "Many drug and food interactions",
+        "Needs INR monitoring"
+      ],
+      "sewhy": "Warfarin blocks vitamin K recycling, reducing clotting factors II, VII, IX and X (bleeding). Protein C falls first, so clotting can briefly increase (skin necrosis), and anything changing CYP2C9 or vitamin K intake shifts the INR.",
+      "ci": [
+        {
+          "c": "Pregnancy",
+          "k": "y1-114-1",
+          "why": "Teratogenic (nasal hypoplasia, bone stippling) and causes fetal bleeding; use LMWH",
+          "cau": false,
+          "x": [
+            [
+              "Teratogenic (limb shortening, ear defects); switch to a DOAC",
+              "Warfarin embryopathy is nasal hypoplasia and stippled bones, and DOACs are avoided too: use LMWH."
+            ],
+            [
+              "Not teratogenic, but causes maternal haemorrhage at delivery; switch at 36 weeks",
+              "It is teratogenic and causes fetal bleeding; switch to LMWH."
+            ],
+            [
+              "Raises maternal BP → pre-eclampsia; switch to labetalol",
+              "Not about BP; warfarin is teratogenic and causes fetal bleeding."
+            ]
+          ]
+        },
+        {
+          "c": "Active bleeding, recent haemorrhagic stroke",
+          "k": "y2-209-21",
+          "why": "Prevents clot formation at the bleed",
+          "cau": false,
+          "x": [
+            [
+              "Dissolves the clot that's stopping the bleed",
+              "That's thrombolysis; warfarin stops new clot forming."
+            ],
+            [
+              "Raises BP, extending the bleed",
+              "No BP effect; it stops clots forming at the bleed."
+            ],
+            [
+              "Destroys platelets at the bleeding site",
+              "Platelets are untouched; clotting factors fall."
+            ]
+          ]
+        },
+        {
+          "c": "Severe liver disease",
+          "k": "y2-229-3",
+          "why": "Already low clotting factors; INR unpredictable",
+          "cau": false,
+          "x": [
+            [
+              "Already high clotting factors; INR falsely low",
+              "Liver disease lowers clotting factors, so warfarin's effect is unpredictable."
+            ],
+            [
+              "Warfarin is hepatotoxic; INR rises from liver damage",
+              "Not hepatotoxic; the liver already makes too few clotting factors."
+            ],
+            [
+              "Bile salts are lacking, so warfarin isn't absorbed",
+              "Absorption isn't the issue; clotting factors are already low."
+            ]
+          ]
+        },
+        {
+          "c": "Frequent falls, poor adherence",
+          "k": "y1-116-2",
+          "why": "Head injury bleeds; unstable INR",
+          "cau": true,
+          "x": [
+            [
+              "Hip fractures from bone thinning; unstable INR",
+              "The concern with falls is bleeding inside the head."
+            ],
+            [
+              "Warfarin causes the drowsiness behind the falls; INR too low",
+              "Warfarin doesn't cause drowsiness; falls risk head bleeds."
+            ],
+            [
+              "Postural hypotension; INR drops after each fall",
+              "Warfarin doesn't affect BP; falls risk head bleeds and missed doses destabilise the INR."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doacs",
+      "name": "DOACs",
+      "ex": "apixaban, rivaroxaban, edoxaban, dabigatran",
+      "uses": [
+        {
+          "t": "AF stroke prevention",
+          "k": "y1-138-4"
+        },
+        {
+          "t": "DVT/PE treatment",
+          "k": "y2-213-7"
+        }
+      ],
+      "how": "Directly inhibit factor Xa (apixaban, rivaroxaban, edoxaban) or thrombin (dabigatran)",
+      "hx": [
+        [
+          "Directly inhibit factor VIIa (apixaban, rivaroxaban, edoxaban) or fibrinogen (dabigatran)",
+          "The xabans inhibit factor Xa; dabigatran inhibits thrombin."
+        ],
+        [
+          "Directly inhibit thrombin (apixaban, rivaroxaban, edoxaban) or factor Xa (dabigatran)",
+          "It's the other way round: the xabans block Xa, dabigatran blocks thrombin."
+        ],
+        [
+          "Directly block platelet factor Xa receptors (all DOACs), stopping aggregation",
+          "They're anticoagulants acting on clotting factors, not platelets."
+        ]
+      ],
+      "se": [
+        "Bleeding",
+        "Dyspepsia (dabigatran)",
+        "Anaemia"
+      ],
+      "sewhy": "DOACs directly block factor Xa or thrombin, so bleeding is the main risk; dabigatran capsules contain tartaric acid, which causes dyspepsia.",
+      "ci": [
+        {
+          "c": "Mechanical heart valve",
+          "k": "y1-147-2",
+          "why": "Less effective than warfarin → valve thrombosis",
+          "cau": false,
+          "x": [
+            [
+              "More effective than warfarin → bleeding into the valve ring",
+              "They were less effective, with more valve thrombosis (and bleeding)."
+            ],
+            [
+              "Bind to the valve metal and leach it into the blood",
+              "No; trials showed valve thrombosis on DOACs."
+            ],
+            [
+              "Cause haemolysis around the valve",
+              "Not the issue; they don't prevent valve thrombosis well enough."
+            ]
+          ]
+        },
+        {
+          "c": "Moderate–severe mitral stenosis with AF",
+          "k": "y1-147-3",
+          "why": "Not studied; warfarin preferred",
+          "cau": false,
+          "x": [
+            [
+              "Worsen the stenosis; warfarin preferred",
+              "No effect on the valve; these patients weren't studied, so warfarin is used."
+            ],
+            [
+              "Cause valve calcification; aspirin preferred",
+              "No; they simply weren't studied in this group."
+            ],
+            [
+              "Speed up atrial clot formation; heparin preferred",
+              "They weren't studied in mitral stenosis, so warfarin is used."
+            ]
+          ]
+        },
+        {
+          "c": "Antiphospholipid syndrome (especially triple positive)",
+          "k": "y1-138-3",
+          "why": "More arterial clots than with warfarin",
+          "cau": false,
+          "x": [
+            [
+              "More bleeding than with warfarin",
+              "The trials stopped because of more arterial clots (especially strokes)."
+            ],
+            [
+              "Antibodies neutralise DOACs completely",
+              "Not neutralised; they're simply less protective than warfarin."
+            ],
+            [
+              "They falsely prolong the INR, so dosing fails",
+              "DOACs aren't monitored by INR; they caused more arterial clots."
+            ]
+          ]
+        },
+        {
+          "c": "Severe renal impairment (CrCl <15)",
+          "k": "y2-220-16",
+          "why": "Renally cleared → accumulation and bleeding",
+          "cau": false,
+          "x": [
+            [
+              "Nephrotoxic → worsening renal failure",
+              "Not nephrotoxic; they build up and cause bleeding."
+            ],
+            [
+              "Dialysed out, so they stop working",
+              "The concern is accumulation and bleeding."
+            ],
+            [
+              "Hepatically cleared, so levels drop",
+              "They're partly renally cleared, so they accumulate."
+            ]
+          ]
+        },
+        {
+          "c": "Pregnancy, breastfeeding",
+          "k": "y1-114-1",
+          "why": "Cross the placenta; no safety data",
+          "cau": false,
+          "x": [
+            [
+              "Proven to cause limb defects",
+              "No proven pattern; they cross the placenta and lack safety data, so LMWH is used."
+            ],
+            [
+              "Don't cross the placenta, but cause maternal bleeding",
+              "They do cross the placenta."
+            ],
+            [
+              "Speed up labour",
+              "Not the reason; they cross the placenta and there's no safety data."
+            ]
+          ]
+        },
+        {
+          "c": "Active bleeding",
+          "k": "y1-138-3",
+          "why": "Prevents clot formation at the bleed",
+          "cau": false,
+          "x": [
+            [
+              "Dissolves clots that have already formed",
+              "That's thrombolysis; DOACs stop new clot forming."
+            ],
+            [
+              "Damages platelets at the bleed",
+              "Platelets are spared; clotting factors are inhibited."
+            ],
+            [
+              "Raises BP, extending the bleed",
+              "No BP effect; it stops clots forming."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heparins",
+      "name": "Heparins",
+      "ex": "enoxaparin (LMWH), unfractionated heparin",
+      "uses": [
+        {
+          "t": "VTE prophylaxis and treatment",
+          "k": "y2-213-3"
+        },
+        {
+          "t": "ACS/PCI",
+          "k": "y1-134-4"
+        },
+        {
+          "t": "VTE in pregnancy",
+          "k": "y1-114-1"
+        }
+      ],
+      "how": "Boost antithrombin: LMWH mainly against Xa; UFH against Xa and thrombin",
+      "hx": [
+        [
+          "Boost antithrombin: UFH mainly against Xa; LMWH against Xa and thrombin",
+          "It's the reverse: long UFH chains bridge thrombin; LMWH acts mainly on Xa."
+        ],
+        [
+          "Bind vitamin K: LMWH lowers Xa synthesis; UFH lowers thrombin synthesis",
+          "They act at once through antithrombin, not on factor synthesis."
+        ],
+        [
+          "Activate plasminogen: LMWH dissolves fresh clot; UFH dissolves old clot",
+          "They stop clot growing; dissolving clot is thrombolysis."
+        ]
+      ],
+      "se": [
+        "Bleeding",
+        "Heparin-induced thrombocytopenia (HIT)",
+        "Hyperkalaemia",
+        "Osteoporosis (long term)"
+      ],
+      "sewhy": "Heparin boosts antithrombin (bleeding); in HIT, antibodies against heparin–PF4 activate platelets, causing low platelets and clots. Heparin suppresses aldosterone (high potassium), and long-term use thins bone.",
+      "ci": [
+        {
+          "c": "Active bleeding, bleeding disorders",
+          "k": "y1-138-3",
+          "why": "Prevents haemostasis",
+          "cau": false,
+          "x": [
+            [
+              "Causes vessel wall necrosis",
+              "No; it stops clotting (haemostasis)."
+            ],
+            [
+              "Raises the platelet count dangerously",
+              "It can lower platelets (HIT); the issue is impaired haemostasis."
+            ],
+            [
+              "Triggers fibrinolysis",
+              "Not fibrinolysis; it blocks clot formation."
+            ]
+          ]
+        },
+        {
+          "c": "Previous heparin-induced thrombocytopenia",
+          "k": "y1-138-3",
+          "why": "Antibodies to heparin–PF4 cause clots and low platelets",
+          "cau": false,
+          "x": [
+            [
+              "Antibodies to heparin–albumin cause bleeding and high platelets",
+              "HIT antibodies target heparin–PF4 and cause clots with low platelets."
+            ],
+            [
+              "Heparin directly destroys platelets in the spleen",
+              "It's antibody-driven platelet activation (clots), not splenic destruction."
+            ],
+            [
+              "Antithrombin gets used up, causing bleeding",
+              "HIT causes clots, through heparin–PF4 antibodies."
+            ]
+          ]
+        },
+        {
+          "c": "Recent intracranial haemorrhage",
+          "k": "y2-209-21",
+          "why": "Rebleeding",
+          "cau": false,
+          "x": [
+            [
+              "Cerebral vasospasm",
+              "The risk is rebleeding."
+            ],
+            [
+              "Seizures",
+              "The concern is rebleeding."
+            ],
+            [
+              "Brain oedema",
+              "The risk is rebleeding."
+            ]
+          ]
+        },
+        {
+          "c": "Severe renal impairment (LMWH)",
+          "k": "y2-220-16",
+          "why": "LMWH accumulates; use UFH or reduce dose",
+          "cau": true,
+          "x": [
+            [
+              "LMWH is nephrotoxic; use warfarin instead",
+              "It isn't nephrotoxic; it accumulates, so use UFH or reduce the dose."
+            ],
+            [
+              "LMWH stops working; double the dose",
+              "It accumulates, so the dose must come down."
+            ],
+            [
+              "UFH accumulates; use LMWH instead",
+              "UFH is the safer one in renal failure; LMWH accumulates."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thrombolytics",
+      "name": "Thrombolytics",
+      "ex": "alteplase, tenecteplase",
+      "uses": [
+        {
+          "t": "Ischaemic stroke within 4.5 h",
+          "k": "y2-209-27"
+        },
+        {
+          "t": "STEMI when PCI unavailable",
+          "k": "y2-212-25"
+        },
+        {
+          "t": "Massive PE with shock",
+          "k": "y2-213-7"
+        }
+      ],
+      "how": "Convert plasminogen to plasmin → breaks down fibrin clot",
+      "hx": [
+        [
+          "Convert plasmin to plasminogen → breaks down platelet plugs",
+          "They convert plasminogen to plasmin, which digests fibrin."
+        ],
+        [
+          "Activate factor XIII → loosens fibrin cross-links",
+          "Factor XIII cross-links fibrin; thrombolytics make plasmin to digest it."
+        ],
+        [
+          "Convert fibrinogen to fibrin → seals the vessel",
+          "That's thrombin's job; thrombolytics dissolve fibrin."
+        ]
+      ],
+      "se": [
+        "Bleeding (including intracranial)",
+        "Angioedema (alteplase)",
+        "Hypotension",
+        "Reperfusion arrhythmias"
+      ],
+      "sewhy": "Thrombolytics activate plasmin, which breaks down all clots including protective ones, so bleeding (including intracranial) is the major risk; alteplase also raises bradykinin (angioedema).",
+      "ci": [
+        {
+          "c": "Previous intracranial haemorrhage",
+          "k": "y2-209-21",
+          "why": "High risk of a new brain bleed",
+          "cau": false,
+          "x": [
+            [
+              "High risk of a new ischaemic stroke",
+              "Thrombolysis risks bleeding, not new ischaemia."
+            ],
+            [
+              "Scar tissue stops the drug reaching the clot",
+              "Not the reason; a new brain bleed is likely."
+            ],
+            [
+              "Seizures from the old haemorrhage",
+              "The danger is a new bleed."
+            ]
+          ]
+        },
+        {
+          "c": "Ischaemic stroke in last 3 months (for MI), brain tumour or AVM",
+          "k": "y2-209-21",
+          "why": "Fragile vessels bleed",
+          "cau": false,
+          "x": [
+            [
+              "The tumour absorbs the drug",
+              "Not the reason; fragile vessels bleed."
+            ],
+            [
+              "The drug raises intracranial pressure",
+              "The concern is bleeding from fragile vessels."
+            ],
+            [
+              "Old infarcts calcify and embolise",
+              "No; fragile vessels bleed."
+            ]
+          ]
+        },
+        {
+          "c": "Active internal bleeding, recent major surgery or trauma",
+          "k": "y1-138-3",
+          "why": "Dissolves the clots stopping the bleeding",
+          "cau": false,
+          "x": [
+            [
+              "Stops new platelets forming",
+              "It doesn't affect platelet production; it dissolves existing clots."
+            ],
+            [
+              "Raises BP at the bleeding site",
+              "No BP effect; it breaks down the clots sealing wounds."
+            ],
+            [
+              "Stops wounds healing by blocking collagen",
+              "Not collagen; it dissolves the clots that stop bleeding."
+            ]
+          ]
+        },
+        {
+          "c": "Suspected aortic dissection",
+          "k": "y1-134-1",
+          "why": "Catastrophic bleeding into the dissection",
+          "cau": false,
+          "x": [
+            [
+              "Dissolves the intimal flap into an embolus",
+              "The flap isn't clot; bleeding into the dissection is the danger."
+            ],
+            [
+              "Raises BP, extending the tear",
+              "No BP effect; it causes catastrophic bleeding."
+            ],
+            [
+              "Clots the false lumen, blocking branch arteries",
+              "It dissolves clot; bleeding into the dissection is the risk."
+            ]
+          ]
+        },
+        {
+          "c": "Uncontrolled hypertension (>185/110 in stroke)",
+          "k": "y2-209-27",
+          "why": "↑ haemorrhagic transformation",
+          "cau": false,
+          "x": [
+            [
+              "↑ clot propagation",
+              "High BP raises the risk of bleeding into the infarct."
+            ],
+            [
+              "↓ alteplase reaching the clot",
+              "Not the reason; bleeding risk rises."
+            ],
+            [
+              "↑ cerebral vasospasm",
+              "The risk is haemorrhagic transformation."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tranexamic-acid",
+      "name": "Tranexamic acid",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Trauma haemorrhage (within 3 h)",
+          "k": "y1-138-3"
+        },
+        {
+          "t": "Heavy menstrual bleeding",
+          "k": "y2-212-1"
+        },
+        {
+          "t": "Postpartum haemorrhage",
+          "k": "y1-114-3"
+        },
+        {
+          "t": "Haemoptysis",
+          "k": "y2-213-7"
+        }
+      ],
+      "how": "Antifibrinolytic: blocks plasminogen binding to fibrin",
+      "hx": [
+        [
+          "Procoagulant: activates factor X and thrombin",
+          "TXA doesn't make more clot; it stops clot being broken down."
+        ],
+        [
+          "Antifibrinolytic: converts plasmin back to plasminogen",
+          "It blocks plasminogen's lysine-binding sites on fibrin."
+        ],
+        [
+          "Platelet activator: releases ADP from platelets",
+          "No platelet effect; it's an antifibrinolytic."
+        ]
+      ],
+      "se": [
+        "Nausea, diarrhoea",
+        "Thrombosis (rare)",
+        "Seizures at high dose"
+      ],
+      "sewhy": "Tranexamic acid stops clot breakdown, so in rare cases it can promote thrombosis; it irritates the gut and can lower the seizure threshold at high doses.",
+      "ci": [
+        {
+          "c": "Active VTE or arterial thrombosis",
+          "k": "y2-213-3",
+          "why": "Stops the body breaking clots down → propagation",
+          "cau": false,
+          "x": [
+            [
+              "Dissolves the clot into an embolus",
+              "TXA does the opposite: it stops clots being broken down."
+            ],
+            [
+              "Raises the platelet count → new clots",
+              "No platelet effect; it blocks fibrinolysis."
+            ],
+            [
+              "Turns the clot into an infected thrombus",
+              "No; it stops fibrinolysis, so the clot grows."
+            ]
+          ]
+        },
+        {
+          "c": "History of seizures",
+          "k": "y2-230-1",
+          "why": "High doses can trigger seizures",
+          "cau": true,
+          "x": [
+            [
+              "Interacts with all antiepileptics",
+              "Not an interaction; high doses themselves can cause seizures."
+            ],
+            [
+              "Causes hyponatraemia that triggers seizures",
+              "Not through sodium; TXA itself can provoke seizures."
+            ],
+            [
+              "Clots cerebral veins, triggering seizures",
+              "The effect is direct, at high doses."
+            ]
+          ]
+        },
+        {
+          "c": "Severe renal impairment",
+          "k": "y1-135-5",
+          "why": "Renally excreted",
+          "cau": true,
+          "x": [
+            [
+              "Hepatically cleared",
+              "TXA is renally excreted, so reduce the dose."
+            ],
+            [
+              "Nephrotoxic",
+              "Not nephrotoxic; it's renally excreted."
+            ],
+            [
+              "Forms kidney stones",
+              "No; it accumulates because it's renally excreted."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oral-iron",
+      "name": "Oral iron",
+      "ex": "ferrous sulfate, ferrous fumarate",
+      "uses": [
+        {
+          "t": "Iron-deficiency anaemia",
+          "k": "y2-226-5"
+        },
+        {
+          "t": "Anaemia in pregnancy",
+          "k": "y1-114-2"
+        }
+      ],
+      "how": "Replaces iron for haemoglobin synthesis",
+      "hx": [
+        [
+          "Stimulates erythropoietin release from the kidney",
+          "Iron is raw material for haemoglobin; it doesn't raise EPO."
+        ],
+        [
+          "Replaces iron for DNA synthesis in red cell precursors",
+          "Iron goes into haem; DNA synthesis needs B12 and folate."
+        ],
+        [
+          "Binds hepcidin to release stored iron",
+          "It simply replaces iron; hepcidin actually blocks absorption."
+        ]
+      ],
+      "se": [
+        "Nausea, epigastric pain",
+        "Constipation or diarrhoea",
+        "Black stools"
+      ],
+      "sewhy": "Unabsorbed iron irritates the gut (nausea, pain, changed bowel habit) and turns stools black.",
+      "ci": [
+        {
+          "c": "Iron overload / haemochromatosis",
+          "k": "y1-110-6",
+          "why": "Adds to toxic iron deposits (liver, heart, pancreas)",
+          "cau": false,
+          "x": [
+            [
+              "Blocks HFE gene repair, worsening the mutation",
+              "Iron doesn't affect genes; it adds to toxic deposits."
+            ],
+            [
+              "Triggers haemolysis of overloaded red cells",
+              "Not haemolysis; extra iron deposits in organs."
+            ],
+            [
+              "Adds to toxic copper deposits (liver, brain, cornea)",
+              "Copper overload is Wilson's disease; haemochromatosis is iron."
+            ]
+          ]
+        },
+        {
+          "c": "Anaemia not caused by iron deficiency (e.g. thalassaemia trait)",
+          "k": "y2-226-16",
+          "why": "Won't help and risks overload",
+          "cau": false,
+          "x": [
+            [
+              "Turns thalassaemia trait into sickle cell disease",
+              "Impossible; it won't help and may overload."
+            ],
+            [
+              "Causes haemolysis in thalassaemia",
+              "Not haemolysis; it adds iron that isn't needed."
+            ],
+            [
+              "Speeds red cell production too much",
+              "It won't help non-iron anaemia; overload is the risk."
+            ]
+          ]
+        },
+        {
+          "c": "With tetracyclines, levothyroxine, quinolones",
+          "k": "y1-130-5",
+          "why": "Chelation: separate doses by 2 h",
+          "cau": true,
+          "x": [
+            [
+              "Enzyme induction: double their doses",
+              "Iron binds them in the gut (chelation); separate the doses."
+            ],
+            [
+              "Iron toxicity: halve the iron dose",
+              "Not toxicity; they bind each other in the gut."
+            ],
+            [
+              "Hepatotoxicity: monitor liver tests",
+              "Not liver toxicity; they bind each other in the gut."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "folic-acid",
+      "name": "Folic acid",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Folate deficiency",
+          "k": "y2-226-5"
+        },
+        {
+          "t": "Pre-conception (400 μg; 5 mg if high risk)",
+          "k": "y1-114-1"
+        },
+        {
+          "t": "With methotrexate",
+          "k": "y1-115-3"
+        }
+      ],
+      "how": "Replaces folate for DNA synthesis in dividing cells",
+      "hx": [
+        [
+          "Replaces folate for myelin synthesis in nerves",
+          "Myelin depends on B12; folate supports DNA synthesis."
+        ],
+        [
+          "Stimulates erythropoietin to boost red cell production",
+          "It's a building block for DNA, not an EPO stimulant."
+        ],
+        [
+          "Replaces folate for haem synthesis in red cells",
+          "Haem needs iron; folate is for DNA synthesis."
+        ]
+      ],
+      "se": [
+        "Rare (GI upset)"
+      ],
+      "sewhy": "Folic acid is a water-soluble vitamin with very few side effects; the main caution is that it can mask B12 deficiency.",
+      "ci": [
+        {
+          "c": "Untreated vitamin B12 deficiency",
+          "k": "y1-133-1",
+          "why": "Corrects the anaemia while nerve damage (subacute combined degeneration) progresses",
+          "cau": false,
+          "x": [
+            [
+              "Worsens the anaemia while protecting the nerves",
+              "The reverse: it corrects the anaemia while nerve damage progresses."
+            ],
+            [
+              "Triggers an allergic reaction to intrinsic factor antibodies",
+              "Not allergy; it masks B12 deficiency while the nerves degenerate."
+            ],
+            [
+              "Blocks B12 absorption in the terminal ileum, causing pernicious anaemia",
+              "It doesn't block absorption; it hides the anaemia while nerves suffer."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "a-109",
+  "num": "109",
+  "title": "Neuroanatomy",
+  "system": "Nervous",
+  "los": [
+    {
+      "n": 1,
+      "text": "Identify the rostral/anterior, caudal/posterior, inferior/ventral and superior/dorsal aspects of the brain and spinal cord",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Term</th><th>Spinal cord and brainstem</th><th>Cerebrum (forebrain)</th></tr></thead><tbody><tr><td>Rostral</td><td>Superior (towards the head)</td><td>Anterior (towards the nose)</td></tr><tr><td>Caudal</td><td>Inferior</td><td>Posterior (towards the occiput)</td></tr><tr><td>Dorsal</td><td>Posterior</td><td>Superior (top of the head)</td></tr><tr><td>Ventral</td><td>Anterior</td><td>Inferior (base of brain)</td></tr></tbody></table></div><ul><li><strong>Why they differ</strong>: the neuraxis bends about 90° at the junction of midbrain and diencephalon, so \"dorsal\" means posterior in the cord but superior in the cerebrum.</li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Identify the grey and white matter of the brain and spinal cord",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Grey matter</th><td>Neuronal cell bodies, dendrites and synapses (processing). <strong>White matter</strong>: myelinated axon tracts (conduction); white because of myelin.</td></tr><tr><th scope=\"row\">Brain</th><td><ul class=\"cl\"><li>Grey on the <strong>outside</strong> (cerebral and cerebellar cortex) plus deep grey nuclei (basal ganglia, thalamus)</li><li>White matter inside (corona radiata, internal capsule, corpus callosum).</li></ul></td></tr><tr><th scope=\"row\">Spinal cord</th><td>The reverse: <strong>grey inside</strong> (H/butterfly: dorsal horn sensory, ventral horn motor, lateral horn T1–L2 sympathetic) and white outside (dorsal, lateral, ventral columns).</td></tr><tr><th scope=\"row\">MRI</th><td>T1: white matter brighter than grey, CSF dark. T2: CSF bright, grey brighter than white.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Identify the cerebral hemispheres, corpus callosum, midbrain, pons, medulla, cerebellum, ventricles, thalamus, basal ganglia and hypothalamus on a 3D model/prosection of the brain and on MRI brain scans",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Structure</th><th>Where</th><th>Function</th></tr></thead><tbody><tr><td>Cerebral hemispheres</td><td>Largest part, two halves</td><td>Cortex: movement, sensation, language, cognition</td></tr><tr><td><strong>Corpus callosum</strong></td><td>Midline white matter bridge</td><td>Links the two hemispheres</td></tr><tr><td><strong>Thalamus</strong></td><td>Either side of the 3rd ventricle</td><td>Relay of all senses (except smell) to cortex; motor loops; arousal</td></tr><tr><td><strong>Hypothalamus</strong></td><td>Below thalamus, floor of 3rd ventricle</td><td>Homeostasis: temperature, hunger, thirst, sleep, autonomic and pituitary control</td></tr><tr><td><strong>Basal ganglia</strong></td><td>Deep grey nuclei (caudate, putamen, globus pallidus)</td><td>Starting and smoothing movement (Parkinson's, Huntington's)</td></tr><tr><td><strong>Midbrain</strong></td><td>Top of brainstem</td><td>CN III and IV, eye movements, pupil reflexes, substantia nigra, cerebral aqueduct</td></tr><tr><td><strong>Pons</strong></td><td>Middle of brainstem, bulging forwards</td><td>CN V–VIII, relays cortex to cerebellum, breathing rhythm</td></tr><tr><td><strong>Medulla</strong></td><td>Lowest brainstem, to foramen magnum</td><td>CN IX–XII, cardiovascular and respiratory centres, pyramids (corticospinal decussation)</td></tr><tr><td><strong>Cerebellum</strong></td><td>Posterior cranial fossa</td><td>Coordination, balance, motor learning (same side)</td></tr></tbody></table></div><ul><li><strong>Ventricles and CSF</strong>: lateral ventricles<ul><li>→ interventricular foramen</li><li>→ 3rd ventricle</li><li>→ cerebral aqueduct</li><li>→ 4th ventricle</li><li>→ median and lateral apertures</li><li>→ subarachnoid space</li><li>made by choroid plexus (~500 mL/day), absorbed by arachnoid granulations into the venous sinuses.</li></ul></li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Recognise the anatomy of a typical spinal nerve as exemplified by a thoracic spinal nerve, including its origin from the dorsal and ventral spinal roots",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Dorsal root</th><td>Sensory; cell bodies in the <strong>dorsal root ganglion</strong> (pseudounipolar).</td></tr><tr><th scope=\"row\">Ventral root</th><td>Motor (ventral horn); at T1–L2 also preganglionic sympathetic fibres (lateral horn).</td></tr><tr><th scope=\"row\">Spinal nerve</th><td>The two roots join in the intervertebral foramen → a short <strong>mixed</strong> nerve.</td></tr><tr><th scope=\"row\">Dorsal ramus</th><td><ul class=\"cl\"><li>Deep back muscles and skin of the back.</li><li><strong>Ventral ramus</strong>: in the thorax, the <strong>intercostal nerve</strong> (anterolateral wall muscles and skin).</li></ul></td></tr><tr><th scope=\"row\">Rami communicantes</th><td><strong>White</strong> (preganglionic, myelinated, T1–L2 only) to the sympathetic trunk; <strong>grey</strong> (postganglionic) back to every spinal nerve.</td></tr><tr><th scope=\"row\">Count</th><td><ul class=\"cl\"><li>31 pairs (8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal)</li><li>C1–7 exit above their vertebra, C8 below C7, all others below theirs.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Recognise the parts of the developing nervous system and the processes involved in its development",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Neurulation (weeks 3–4)</th><td><ul class=\"cl\"><li>Notochord induces ectoderm</li><li>→ <strong>neural plate</strong></li><li>→ neural folds and groove</li><li>→ folds fuse into the <strong>neural tube</strong> (starts mid-embryo ~day 22; cranial neuropore closes ~day 25, caudal ~day 28).</li></ul></td></tr><tr><th scope=\"row\">Neural tube</th><td>Brain and spinal cord; its lumen → ventricles and central canal.</td></tr><tr><th scope=\"row\">Neural crest<span class=\"paren\">(from the fold edges)</span></th><td>Dorsal root and autonomic ganglia, Schwann cells, <strong>adrenal medulla</strong>, melanocytes, enteric neurons, pia and arachnoid, much of the face skeleton.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Primary vesicle (week 4)</th><th>Secondary vesicle (week 5)</th><th>Becomes</th></tr></thead><tbody><tr><td>Prosencephalon</td><td>Telencephalon</td><td>Cerebral hemispheres</td></tr><tr><td></td><td>Diencephalon</td><td>Thalamus, hypothalamus, retina and optic nerve</td></tr><tr><td>Mesencephalon</td><td>Mesencephalon</td><td>Midbrain</td></tr><tr><td>Rhombencephalon</td><td>Metencephalon</td><td>Pons, cerebellum</td></tr><tr><td></td><td>Myelencephalon</td><td>Medulla</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Plates</th><td>Alar (dorsal) = sensory; basal (ventral) = motor; divided by the sulcus limitans.</td></tr><tr><th scope=\"row\">Defects</th><td>Anencephaly (cranial neuropore fails); <strong>spina bifida</strong> (caudal: occulta, meningocele, myelomeningocele); raised AFP; folic acid prevents many.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Identify the frontal, parietal, temporal and occipital lobes",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Lobe</th><th>Boundaries</th><th>Key areas and functions</th></tr></thead><tbody><tr><td><strong>Frontal</strong></td><td>In front of the central sulcus, above the lateral sulcus</td><td>Primary motor cortex (precentral gyrus), planning, personality, <strong>Broca's area</strong> (speech output, dominant side), frontal eye fields</td></tr><tr><td><strong>Parietal</strong></td><td>Central sulcus to parieto-occipital sulcus</td><td>Primary somatosensory cortex (postcentral gyrus), spatial awareness (neglect if non-dominant), reading, writing, calculation</td></tr><tr><td><strong>Temporal</strong></td><td>Below the lateral (Sylvian) sulcus</td><td>Primary auditory cortex, <strong>Wernicke's area</strong> (comprehension), memory (hippocampus), smell, upper visual field fibres (Meyer's loop)</td></tr><tr><td><strong>Occipital</strong></td><td>Behind the parieto-occipital sulcus</td><td>Primary visual cortex around the calcarine sulcus</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Identify and list the anatomical components of the central nervous system, peripheral nervous system and the autonomic nervous system",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>System</th><th>Parts</th></tr></thead><tbody><tr><td><strong>CNS</strong></td><td>Brain (cerebrum, diencephalon, brainstem, cerebellum) and spinal cord; meninges (dura, arachnoid, pia) and CSF; glia: astrocytes, <strong>oligodendrocytes</strong> (myelin), microglia, ependyma</td></tr><tr><td><strong>PNS</strong></td><td>12 cranial nerves (optic is really CNS), 31 spinal nerves, plexuses, ganglia; <strong>Schwann cells</strong> myelinate</td></tr><tr><td><strong>ANS</strong></td><td><ul class=\"cl\"><li>Sympathetic (<strong>thoracolumbar</strong>, T1–L2; short pre-, long postganglionic; noradrenaline)</li><li>Parasympathetic (<strong>craniosacral</strong>: III, VII, IX, X and S2–4; long pre-, short postganglionic; acetylcholine)</li><li>Enteric (myenteric and submucosal plexuses)</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Identify the components of a spinal reflex arc and recognise the significance of enhanced and absent tendon reflexes",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1. Receptor</th><td>Muscle spindle senses stretch (tendon tap).</td></tr><tr><th scope=\"row\">2. Afferent</th><td>Ia sensory neuron, cell body in the dorsal root ganglion.</td></tr><tr><th scope=\"row\">3. Integration</th><td>Synapse in the spinal cord (stretch reflex is <strong>monosynaptic</strong>).</td></tr><tr><th scope=\"row\">4. Efferent</th><td>α motor neuron from the ventral horn.</td></tr><tr><th scope=\"row\">5. Effector</th><td>The same muscle contracts.</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Absent or reduced</th><td>a <strong>lower motor neuron</strong> problem: a break anywhere in the arc (neuropathy, root compression, anterior horn disease, muscle disease; also spinal shock early on).</td></tr><tr><th scope=\"row\">Brisk</th><td>An <strong>upper motor neuron</strong> lesion (stroke, MS, cord compression above that level): lost descending inhibition, with clonus, spasticity and an up-going plantar.</td></tr><tr><th scope=\"row\">Reinforcement</th><td>Clenching the teeth or pulling the hands apart (Jendrassik) brings out a weak reflex.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Identify the spinal root values of the five main reflexes (biceps, brachioradialis, triceps, knee and ankle)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Reflex</th><th>Root value</th></tr></thead><tbody><tr><td>Biceps</td><td><strong>C5, C6</strong></td></tr><tr><td>Brachioradialis (supinator)</td><td><strong>C5, C6</strong> (mainly C6)</td></tr><tr><td>Triceps</td><td><strong>C7</strong> (C6–8)</td></tr><tr><td>Knee</td><td><strong>L3, L4</strong></td></tr><tr><td>Ankle</td><td><strong>S1</strong> (S1–2)</td></tr></tbody></table></div><ul><li><strong>Rhyme</strong>: \"S1, 2 buckle my shoe; 3, 4 kick the door; 5, 6 pick up sticks; 7, 8 lay them straight.\"</li></ul>"
+    }
+  ]
+}

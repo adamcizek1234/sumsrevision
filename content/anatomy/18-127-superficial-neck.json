@@ -1,0 +1,141 @@
+{
+  "id": "a-127",
+  "num": "127",
+  "title": "Superficial neck",
+  "system": "Nervous",
+  "los": [
+    {
+      "n": 1,
+      "text": "Demonstrate the locations of the sternum, clavicle, hyoid bone, mandible and mastoid process and hence define the boundaries of the neck",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Boundary</th><th>Landmarks</th></tr></thead><tbody><tr><td><strong>Upper</strong></td><td>Lower border of the <strong>mandible</strong>, <strong>mastoid process</strong>, superior nuchal line, external occipital protuberance</td></tr><tr><td><strong>Lower</strong></td><td><strong>Jugular (suprasternal) notch</strong> of the manubrium, <strong>clavicle</strong>, acromion, C7 spinous process</td></tr><tr><td>Vertebral level</td><td>Landmark</td></tr><tr><td>C3</td><td><strong>Hyoid</strong></td></tr><tr><td>C4–5</td><td>Thyroid cartilage (carotid bifurcation at its upper border)</td></tr><tr><td><strong>C6</strong></td><td><strong>Cricoid</strong>: larynx → trachea, pharynx → oesophagus</td></tr><tr><td>C7</td><td>Vertebra prominens</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Identify key spaces of cervical fascia on a cross-sectional diagram, e.g. retropharyngeal, parapharyngeal, and carotid sheath",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Fascia layer</th><th>Encloses</th></tr></thead><tbody><tr><td><strong>Investing</strong></td><td>Whole neck; splits round <strong>SCM and trapezius</strong></td></tr><tr><td><strong>Pretracheal</strong></td><td>Thyroid, trachea, oesophagus (visceral part); infrahyoid muscles (muscular part)</td></tr><tr><td><strong>Prevertebral</strong></td><td>Vertebrae, prevertebral muscles, scalenes, <strong>brachial plexus roots</strong> (continues as the axillary sheath)</td></tr><tr><td><strong>Carotid sheath</strong></td><td>Neurovascular bundle; formed from all three layers</td></tr><tr><td>Space</td><td>Where</td><td>Clinical</td></tr><tr><td><strong>Retropharyngeal</strong></td><td>Behind the pharynx, in front of the prevertebral fascia (alar fascia); skull base to ~T2</td><td><strong>Retropharyngeal abscess</strong> (children): neck stiffness, drooling, stridor</td></tr><tr><td>Danger space</td><td>Between alar and prevertebral fascia; reaches the <strong>diaphragm</strong></td><td>Infection spreads to the posterior mediastinum (<strong>mediastinitis</strong>)</td></tr><tr><td><strong>Parapharyngeal</strong></td><td>Beside the pharynx; inverted pyramid from skull base to hyoid; contains the carotid sheath</td><td>Spread from tonsils and teeth; risk to the carotid sheath</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Describe the boundaries of the anterior triangle of the neck",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Boundary</th><th>Formed by</th></tr></thead><tbody><tr><td>Lateral</td><td><strong>Anterior border of SCM</strong></td></tr><tr><td>Medial</td><td><strong>Midline</strong> of the neck</td></tr><tr><td>Superior (base)</td><td><strong>Lower border of the mandible</strong></td></tr><tr><td>Apex</td><td>Jugular notch</td></tr><tr><td>Roof</td><td>Investing fascia, platysma</td></tr></tbody></table></div><ul><li><strong>Subdivided</strong> by the digastric and omohyoid into submental, submandibular, <strong>carotid</strong> and muscular triangles.</li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Locate the carotid sheath and list its contents",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Carotid sheath</strong>: from the skull base to the aortic arch, deep to SCM.</li></ul><div class=\"tbl\"><table><thead><tr><th>Content</th><th>Position</th></tr></thead><tbody><tr><td><strong>Common / internal carotid artery</strong></td><td>Medial</td></tr><tr><td><strong>Internal jugular vein</strong></td><td>Lateral</td></tr><tr><td><strong>Vagus nerve</strong></td><td>Between and behind them</td></tr><tr><td>Deep cervical lymph nodes</td><td>Along the IJV</td></tr></tbody></table></div><ul><li><strong>Nearby</strong>: ansa cervicalis embedded in the front of the sheath; <strong>sympathetic trunk behind it</strong> (not inside).</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Identify the surface landmarks that are used when inserting a central venous line",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Internal jugular line</th><td>at the apex of the triangle between the <strong>sternal and clavicular heads of SCM</strong>, <strong>lateral to the carotid pulse</strong>, aiming towards the same-side nipple.</td></tr><tr><th scope=\"row\">Right side preferred</th><td>Straight path to the SVC, lower pleural dome, avoids the thoracic duct.</td></tr><tr><th scope=\"row\">Subclavian line</th><td><ul class=\"cl\"><li>Just below the junction of the middle and medial thirds of the clavicle, aiming for the jugular notch</li><li>Higher pneumothorax risk.</li></ul></td></tr><tr><th scope=\"row\">Femoral line</th><td>Medial to the femoral artery pulse below the inguinal ligament.</td></tr><tr><th scope=\"row\">Technique</th><td>Patient head-down to fill the vein and avoid air embolism; <strong>ultrasound guidance</strong> (NICE); chest X-ray afterwards (tip position, pneumothorax).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Describe the origins, courses and major branches of the common, internal and external carotid arteries",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Origins</th><td>Right CCA from the <strong>brachiocephalic trunk</strong> (behind the right sternoclavicular joint); left CCA <strong>directly from the arch</strong>.</td></tr><tr><th scope=\"row\">Bifurcation</th><td>at the <strong>upper border of the thyroid cartilage (C4)</strong> into ICA and ECA.</td></tr><tr><td colspan=\"2\"><strong>Carotid sinus</strong> (ICA origin, baroreceptor, CN IX) and <strong>carotid body</strong> (chemoreceptor).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Artery</th><th>Course</th><th>Branches</th></tr></thead><tbody><tr><td><strong>Internal carotid</strong></td><td>Posterolateral at first; <strong>no branches in the neck</strong> → carotid canal → cavernous sinus</td><td>Ophthalmic, posterior communicating, anterior and middle cerebral</td></tr><tr><td><strong>External carotid</strong></td><td>Anteromedial at first; up into the parotid → splits behind the mandibular neck</td><td>Superior thyroid, ascending pharyngeal, lingual, facial, occipital, posterior auricular, <strong>maxillary, superficial temporal</strong> (\"Some Anatomists Like Freaking Out Poor Medical Students\")</td></tr></tbody></table></div><ul><li><strong>Clinical</strong>: atheroma at the bifurcation → TIA or stroke → carotid endarterectomy (risk to XII and the vagus).</li></ul>"
+    },
+    {
+      "n": 7,
+      "text": "Locate the carotid pulse",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Carotid pulse</th><td>at the <strong>upper border of the thyroid cartilage</strong>, in the groove between the larynx and the <strong>anterior border of SCM</strong>, pressing backwards.</td></tr><tr><th scope=\"row\">Cautions</th><td><ul class=\"cl\"><li>Never press both sides at once</li><li>Firm pressure on the carotid sinus can cause bradycardia (carotid sinus massage is used deliberately for SVT).</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Trace the paths of the vagus, accessory and hypoglossal nerves in the neck",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Nerve</th><th>Path in the neck</th><th>Clinical</th></tr></thead><tbody><tr><td><strong>Vagus (X)</strong></td><td><ul class=\"cl\"><li>Jugular foramen → <strong>in the carotid sheath</strong> between artery and IJV → into the thorax.</li><li>Branches: pharyngeal, <strong>superior laryngeal</strong> (internal: sensation above the cords; external: cricothyroid), cardiac.</li><li><strong>Right RLN</strong> hooks under the right subclavian artery</li><li><strong>Left RLN</strong> under the arch (by the ligamentum arteriosum)</li><li>Both climb in the <strong>tracheo-oesophageal groove</strong></li></ul></td><td>RLN injury → hoarse voice; left RLN can be compressed by lung cancer or an aortic aneurysm</td></tr><tr><td><strong>Accessory (XI)</strong></td><td>Jugular foramen → through/deep to <strong>SCM</strong> (supplies it) → crosses the <strong>posterior triangle</strong> superficially on levator scapulae → <strong>trapezius</strong></td><td>Lymph node biopsy injury → can't shrug, shoulder droops</td></tr><tr><td><strong>Hypoglossal (XII)</strong></td><td><ul class=\"cl\"><li>Hypoglossal canal</li><li>→ down between ICA and IJV</li><li>→ loops forward, crossing <strong>superficial to the ICA and ECA</strong> above the hyoid</li><li>→ floor of mouth</li></ul></td><td>Tongue deviates <strong>towards</strong> the lesion; at risk in carotid endarterectomy</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Compare the internal and external jugular veins and list differences between them",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th></th><th><strong>Internal jugular vein</strong></th><th><strong>External jugular vein</strong></th></tr></thead><tbody><tr><td>Begins</td><td>Jugular foramen (continuation of the sigmoid sinus)</td><td>Near the angle of the mandible (retromandibular + posterior auricular veins)</td></tr><tr><td>Position</td><td><strong>Deep</strong>, in the carotid sheath under SCM</td><td><strong>Superficial</strong>, crosses SCM under platysma</td></tr><tr><td>Ends</td><td>Joins the subclavian vein behind the sternal end of the clavicle → brachiocephalic vein</td><td>Pierces deep fascia above the clavicle → <strong>subclavian vein</strong></td></tr><tr><td>Drains</td><td><strong>Brain</strong>, face, neck</td><td>Scalp and face (outer parts)</td></tr><tr><td>Use</td><td><strong>JVP</strong> (seen, not felt; double waveform), central lines</td><td>Visible when distended (heart failure); peripheral access; unreliable for JVP</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 10,
+      "text": "Name the boundaries (and floor) of the posterior triangle of the neck",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Boundary</th><th>Formed by</th></tr></thead><tbody><tr><td>Anterior</td><td><strong>Posterior border of SCM</strong></td></tr><tr><td>Posterior</td><td><strong>Anterior border of trapezius</strong></td></tr><tr><td>Inferior (base)</td><td><strong>Middle third of the clavicle</strong></td></tr><tr><td>Apex</td><td>Where SCM and trapezius meet on the superior nuchal line</td></tr><tr><td>Roof</td><td>Investing fascia</td></tr><tr><td>Floor</td><td><strong>Prevertebral fascia</strong> over splenius capitis, levator scapulae, scalenus medius and posterior</td></tr></tbody></table></div><ul><li><strong>Inferior belly of omohyoid</strong> divides it into occipital and supraclavicular triangles.</li></ul>"
+    },
+    {
+      "n": 11,
+      "text": "Describe the relationships of the scalenus anterior muscle",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Scalenus anterior</strong>: anterior tubercles of <strong>C3–6</strong> transverse processes → <strong>scalene tubercle of the 1st rib</strong>.</li></ul><div class=\"tbl\"><table><thead><tr><th>Relation</th><th>Structures</th></tr></thead><tbody><tr><td><strong>In front</strong></td><td><ul class=\"cl\"><li><strong>Phrenic nerve</strong> (runs down its surface, lateral → medial, under prevertebral fascia)</li><li><strong>Subclavian vein</strong> (on the 1st rib)</li><li>IJV</li><li>Transverse cervical and suprascapular arteries</li></ul></td></tr><tr><td><strong>Behind</strong></td><td><strong>Subclavian artery</strong> (2nd part), <strong>brachial plexus roots and trunks</strong> (in the gap with scalenus medius), pleural dome</td></tr><tr><td>Medial</td><td>Vertebral artery, thyrocervical trunk</td></tr></tbody></table></div><ul><li><strong>Clinical</strong>: <strong>thoracic outlet syndrome</strong> (cervical rib, tight scalenes) compresses the lower plexus and subclavian artery<ul><li><strong>interscalene block</strong> goes into the groove behind it (and nearly always blocks the phrenic nerve).</li></ul></li></ul>"
+    },
+    {
+      "n": 12,
+      "text": "Locate the spinal accessory nerve within the posterior triangle, the positions of the roots and trunks of the brachial plexus, the external jugular vein and the subclavian vessels",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Structure</th><th>Where in the posterior triangle</th></tr></thead><tbody><tr><td><strong>Accessory nerve</strong></td><td>Crosses the middle <strong>superficially</strong> (just under investing fascia), from the posterior border of SCM (above its midpoint) to trapezius ~5 cm above the clavicle</td></tr><tr><td><strong>Brachial plexus</strong></td><td>Roots appear between scalenus anterior and medius; <strong>trunks</strong> cross the lower part above the clavicle</td></tr><tr><td><strong>External jugular vein</strong></td><td>Crosses SCM, pierces the fascia in the lower part → subclavian vein</td></tr><tr><td><strong>Subclavian artery</strong> (3rd part)</td><td>Lower part, on the 1st rib (pulse felt by pressing down behind the middle of the clavicle)</td></tr><tr><td>Subclavian vein</td><td>Behind the clavicle, mostly below the triangle</td></tr><tr><td>Others</td><td>Cervical plexus cutaneous branches (nerve point), transverse cervical and suprascapular arteries, occipital and supraclavicular nodes</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 13,
+      "text": "Identify the sternocleidomastoid and trapezius muscles, and describe their actions and innervations",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Muscle</th><th>Attachments</th><th>Action</th><th>Nerve</th><th>Test</th></tr></thead><tbody><tr><td><strong>SCM</strong></td><td>Manubrium + medial clavicle → <strong>mastoid process</strong> and superior nuchal line</td><td>One: tilts head to the same side, <strong>turns face to the opposite side</strong>; both: flex neck, assist breathing</td><td><strong>XI</strong> (C2–3 sensory)</td><td>Turn the head against resistance (tests the opposite SCM)</td></tr><tr><td><strong>Trapezius</strong></td><td>Skull, ligamentum nuchae, C7–T12 spines → lateral clavicle, acromion, scapular spine</td><td>Upper: <strong>elevates</strong> scapula (shrug); middle: retracts; lower: depresses; rotates scapula up for abduction above 90°</td><td><strong>XI</strong> (C3–4 sensory)</td><td>Shrug against resistance</td></tr></tbody></table></div><ul><li><strong>Torticollis</strong>: a short, tight SCM (birth trauma); the head tilts to the affected side and the face turns away.</li></ul>"
+    },
+    {
+      "n": 14,
+      "text": "Identify the cervical plexus, and note its relationship to the accessory nerve",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Cervical plexus</strong>: anterior rami of <strong>C1–4</strong>, deep to SCM, on scalenus medius and levator scapulae.</li></ul><div class=\"tbl\"><table><thead><tr><th>Branch type</th><th>Nerves</th></tr></thead><tbody><tr><td><strong>Cutaneous</strong> (emerge at the <strong>nerve point</strong>, midpoint of SCM's posterior border)</td><td>Lesser occipital (C2), <strong>great auricular</strong> (C2–3), transverse cervical (C2–3), supraclavicular (C3–4)</td></tr><tr><td><strong>Motor</strong></td><td><strong>Ansa cervicalis</strong> (C1–3: infrahyoid muscles), <strong>phrenic</strong> (C3–5), branches to prevertebral muscles, scalenes, levator scapulae</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Relation to XI</th><td><ul class=\"cl\"><li>XI emerges from the posterior border of SCM just <strong>above</strong> the nerve point (the great auricular winds round SCM just below), then C3–4 branches join it on the way to trapezius.</li><li>In the posterior triangle, the structures <strong>below XI</strong> (plexus, vessels) lie deep under fascia</li><li>XI itself is superficial and easily cut.</li></ul></td></tr><tr><th scope=\"row\">Superficial cervical plexus block</th><td>Local anaesthetic at the nerve point numbs the skin of the neck.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 15,
+      "text": "Identify the oesophagus and trachea noting their arterial supply and venous drainage",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th></th><th><strong>Trachea</strong> (neck)</th><th><strong>Oesophagus</strong> (neck)</th></tr></thead><tbody><tr><td>Starts</td><td><strong>C6</strong> (below the cricoid)</td><td><strong>C6</strong> (cricopharyngeus: narrowest point, ~15 cm from the teeth)</td></tr><tr><td>Position</td><td>In front; thyroid isthmus over rings 2–4</td><td>Behind the trachea, slightly to the <strong>left</strong> (surgical approach from the left)</td></tr><tr><td>Arteries</td><td><strong>Inferior thyroid</strong> arteries</td><td><strong>Inferior thyroid</strong> arteries</td></tr><tr><td>Veins</td><td><strong>Inferior thyroid</strong> veins → brachiocephalic</td><td>Inferior thyroid veins → brachiocephalic</td></tr></tbody></table></div><ul><li><strong>Between them</strong>: the recurrent laryngeal nerves in the tracheo-oesophageal grooves.</li></ul><div class=\"tbl\"><table><thead><tr><th>Oesophagus part</th><th>Arteries</th><th>Veins</th></tr></thead><tbody><tr><td>Cervical</td><td>Inferior thyroid</td><td>Inferior thyroid</td></tr><tr><td>Thoracic</td><td>Aortic and bronchial branches</td><td>Azygos, hemiazygos</td></tr><tr><td>Abdominal</td><td><strong>Left gastric</strong></td><td>Left gastric → <strong>portal</strong> (portosystemic anastomosis → <strong>varices</strong>)</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 16,
+      "text": "Label a diagram or a model of the arterial trunks that arise from the arch of the aorta in the thorax",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Arch of the aorta</strong> begins and ends at the <strong>sternal angle (T4/5)</strong>.</li></ul><div class=\"tbl\"><table><thead><tr><th>Branch (right → left)</th><th>Gives</th></tr></thead><tbody><tr><td><strong>Brachiocephalic trunk</strong></td><td>Right subclavian + right common carotid (behind the right sternoclavicular joint)</td></tr><tr><td><strong>Left common carotid</strong></td><td></td></tr><tr><td><strong>Left subclavian</strong></td><td></td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Subclavian branches</th><td>Vertebral, internal thoracic, thyrocervical trunk, costocervical trunk, dorsal scapular.</td></tr><tr><th scope=\"row\">Variants</th><td><ul class=\"cl\"><li>\"bovine arch\" (brachiocephalic and left CCA share an origin)</li><li><strong>Aberrant right subclavian</strong> from the end of the arch passing behind the oesophagus (dysphagia lusoria)</li><li>Left vertebral straight from the arch.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 17,
+      "text": "Label a diagram or a model of the veins that drain into the brachiocephalic veins",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Brachiocephalic veins</strong>: <strong>IJV + subclavian vein</strong> behind each sternoclavicular joint.<ul><li>The <strong>left</strong> is longer and crosses behind the manubrium, in front of the arch branches.</li><li>They join behind the <strong>right 1st costal cartilage</strong> to form the <strong>SVC</strong>.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Tributary</th><th>Side</th></tr></thead><tbody><tr><td>Vertebral vein</td><td>Both</td></tr><tr><td>Internal thoracic vein</td><td>Both</td></tr><tr><td><strong>Inferior thyroid veins</strong></td><td>Both (often the left)</td></tr><tr><td>Left superior intercostal vein</td><td>Left</td></tr><tr><td>Thymic, pericardiophrenic veins</td><td>Both</td></tr><tr><td><strong>Thoracic duct</strong></td><td><strong>Left venous angle</strong> (IJV–subclavian junction)</td></tr><tr><td>Right lymphatic duct</td><td>Right venous angle</td></tr></tbody></table></div><ul><li><strong>EJV</strong> ends in the subclavian vein, so it reaches the brachiocephalic indirectly.</li></ul>"
+    },
+    {
+      "n": 18,
+      "text": "Describe the lymphatic drainage of the neck (and head), identifying named lymph node collections and noting potential routes for the spread of malignant disease",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Superficial ring</strong> at the junction of head and neck: submental, submandibular, parotid (preauricular), mastoid (retroauricular), occipital nodes.</li><li><strong>All head and neck lymph</strong> ends in the <strong>deep cervical chain</strong> along the IJV<ul><li>→ jugular trunk</li><li>→ thoracic duct (left) or right lymphatic duct.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Named node</th><th>Drains</th></tr></thead><tbody><tr><td><strong>Jugulodigastric</strong> (angle of the mandible)</td><td><strong>Tonsil</strong> (enlarged in tonsillitis)</td></tr><tr><td>Jugulo-omohyoid</td><td><strong>Tongue</strong></td></tr><tr><td>Submental</td><td>Tip of tongue, lower lip centre, floor of mouth</td></tr><tr><td>Submandibular</td><td>Side of tongue, face, gums</td></tr><tr><td><strong>Virchow's</strong> (left supraclavicular)</td><td>Abdomen via the thoracic duct: <strong>Troisier's sign</strong> of gastric cancer</td></tr><tr><td>Level (neck dissection)</td><td>Area</td></tr><tr><td>I</td><td>Submental, submandibular</td></tr><tr><td>II–IV</td><td>Upper, middle, lower jugular</td></tr><tr><td>V</td><td>Posterior triangle</td></tr><tr><td>VI</td><td>Central (pre- and paratracheal): thyroid cancer</td></tr></tbody></table></div><ul><li><strong>Spread of cancer</strong>: stepwise down the chain<ul><li>posterior 1/3 of the tongue and midline structures drain to <strong>both sides</strong></li><li>a lump in the posterior triangle suggests nasopharyngeal cancer.</li></ul></li></ul>"
+    },
+    {
+      "n": 19,
+      "text": "Identify the phrenic nerves in the neck and recognise the consequences of surgical damage",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Phrenic nerve</th><td><strong>C3, 4, 5</strong> (\"keeps the diaphragm alive\"), mainly C4.</td></tr><tr><th scope=\"row\">Course</th><td><ul class=\"cl\"><li>Forms at the upper lateral border of scalenus anterior</li><li>→ runs down <strong>on its front</strong> (lateral → medial), under the prevertebral fascia, behind the IJV and transverse cervical and suprascapular arteries</li><li>→ enters the thorax between the subclavian artery and vein.</li></ul></td></tr><tr><th scope=\"row\">Supplies</th><td>Motor to the diaphragm; sensory to the central diaphragm, pericardium and mediastinal pleura (<strong>shoulder-tip pain</strong>, C4).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Damage</th><th>Cause</th><th>Result</th></tr></thead><tbody><tr><td>One side</td><td>Neck surgery, <strong>interscalene block</strong>, central lines, tumour</td><td><strong>Raised hemidiaphragm</strong> on CXR, paradoxical movement on sniff test, breathless lying flat</td></tr><tr><td>Both sides</td><td>High cervical cord injury (above C3), motor neurone disease</td><td>Respiratory failure, ventilator dependence</td></tr></tbody></table></div>"
+    }
+  ]
+}

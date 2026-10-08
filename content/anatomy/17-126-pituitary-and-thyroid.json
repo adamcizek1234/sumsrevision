@@ -1,0 +1,50 @@
+{
+  "id": "a-126",
+  "num": "126",
+  "title": "Pituitary and thyroid",
+  "system": "Endocrine",
+  "los": [
+    {
+      "n": 1,
+      "text": "Locate the pituitary gland (hypophysis cerebri) within the sella turcica of the sphenoid bone",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Pituitary (hypophysis cerebri)</th><td>Sits in the <strong>sella turcica</strong> (hypophyseal fossa) on the body of the <strong>sphenoid</strong> bone.</td></tr><tr><th scope=\"row\">Stalk</th><td>The infundibulum joins it to the hypothalamus, passing through the diaphragma sellae.</td></tr><tr><th scope=\"row\">Surgery</th><td>Reached <strong>transsphenoidally</strong> (through the nose and sphenoid sinus).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Label a diagram of the parts of the pituitary gland, namely the anterior lobe (adenohypophysis), pars anterior (pars distalis), pars intermedia, pars tuberalis and posterior lobe (neurohypophysis)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Lobe</th><th>Parts</th><th>Products</th></tr></thead><tbody><tr><td><strong>Anterior (adenohypophysis)</strong></td><td><strong>Pars distalis</strong> (pars anterior): the bulk</td><td>GH, prolactin, ACTH, TSH, FSH, LH</td></tr><tr><td></td><td>Pars intermedia: thin band next to the posterior lobe</td><td>MSH (rudimentary in humans)</td></tr><tr><td></td><td>Pars tuberalis: wraps round the stalk</td><td>Few hormones</td></tr><tr><td><strong>Posterior (neurohypophysis)</strong></td><td>Pars nervosa, infundibular stalk, median eminence</td><td><strong>Stores and releases ADH and oxytocin</strong>, made in the supraoptic and paraventricular nuclei</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Hypophyseal portal system</th><td><ul class=\"cl\"><li>Hypothalamic releasing hormones go via the median eminence and portal veins to the anterior lobe</li><li>The posterior lobe gets axons directly.</li></ul></td></tr><tr><th scope=\"row\">Stalk compression</th><td>Dopamine can't reach the anterior lobe, so prolactin rises (stalk effect).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Describe the anatomical relationships of the pituitary gland (diaphragma sellae, sphenoid, cavernous sinus, dorsum sellae, basilar artery, the pons)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Direction</th><th>Relation</th><th>Clinical</th></tr></thead><tbody><tr><td>Above</td><td><strong>Diaphragma sellae</strong>, then the <strong>optic chiasm</strong>, hypothalamus, 3rd ventricle</td><td>Macroadenoma → <strong>bitemporal hemianopia</strong></td></tr><tr><td>Below</td><td>Sphenoid body and <strong>sphenoid sinus</strong></td><td>Transsphenoidal approach</td></tr><tr><td>Each side</td><td><strong>Cavernous sinus</strong>: ICA, <strong>CN VI</strong> (free in the sinus), III, IV, V1, V2 in the wall</td><td>Lateral spread → ophthalmoplegia (VI often first)</td></tr><tr><td>Behind</td><td><strong>Dorsum sellae</strong>, then the <strong>basilar artery</strong> and <strong>pons</strong></td><td></td></tr><tr><td>In front</td><td>Tuberculum sellae, anterior clinoid processes</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Identify the thyroid and parathyroid glands, noting the arterial supply and venous drainage of each and the relationship of the arteries with the laryngeal nerves and the strap muscles",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Thyroid</strong>: two lobes joined by the <strong>isthmus</strong> over tracheal rings <strong>2–4</strong><ul><li>inside the <strong>pretracheal fascia</strong>, so it moves up on swallowing</li><li>± pyramidal lobe.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Vessel</th><th>Origin / drainage</th><th>Nerve relation</th></tr></thead><tbody><tr><td><strong>Superior thyroid artery</strong></td><td><strong>First branch of the ECA</strong></td><td><strong>External branch of the superior laryngeal nerve</strong> runs close: tie the artery close to the gland (voice pitch, cricothyroid)</td></tr><tr><td><strong>Inferior thyroid artery</strong></td><td><strong>Thyrocervical trunk</strong> (subclavian)</td><td><strong>Recurrent laryngeal nerve</strong> crosses near it: tie the artery away from the gland</td></tr><tr><td>Thyroid ima artery</td><td>Brachiocephalic trunk or arch (~10%)</td><td>Bleeding risk at tracheostomy</td></tr><tr><td>Superior and middle thyroid veins</td><td>→ <strong>IJV</strong></td><td></td></tr><tr><td>Inferior thyroid veins</td><td>→ <strong>brachiocephalic veins</strong></td><td></td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Strap (infrahyoid) muscles</th><td>Sternohyoid, sternothyroid, omohyoid, thyrohyoid lie in front; <strong>ansa cervicalis</strong> (C1–3) enters them low, so cut them high.</td></tr><tr><th scope=\"row\">Parathyroids</th><td>Usually 4, on the back of the thyroid lobes; blood mainly from the <strong>inferior thyroid artery</strong>.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Parathyroid</th><th>Origin</th><th>Position</th></tr></thead><tbody><tr><td>Superior</td><td>4th pouch</td><td>More constant; near the cricothyroid joint and RLN entry</td></tr><tr><td>Inferior</td><td><strong>3rd pouch</strong> (with the thymus)</td><td>Variable: can lie low in the neck or in the mediastinum</td></tr></tbody></table></div><ul><li><strong>RLN damage</strong>: hoarse voice (one side); stridor and airway obstruction (both).</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Identify the processes by which the pituitary gland, thyroid gland and suprarenal glands develop and name the parts of these developing embryonic structures",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Gland</th><th>Part</th><th>Embryonic origin</th><th>Remnants / problems</th></tr></thead><tbody><tr><td><strong>Pituitary</strong></td><td>Anterior</td><td><strong>Rathke's pouch</strong>: ectoderm from the roof of the primitive mouth (stomodeum)</td><td><strong>Craniopharyngioma</strong></td></tr><tr><td></td><td>Posterior</td><td><strong>Infundibulum</strong>: neuroectoderm growing down from the diencephalon</td><td></td></tr><tr><td><strong>Thyroid</strong></td><td>Follicular cells</td><td><ul class=\"cl\"><li><strong>Endoderm</strong> at the <strong>foramen caecum</strong> of the tongue</li><li>Descends in front of the hyoid via the <strong>thyroglossal duct</strong> (to its final place by week 7)</li></ul></td><td><strong>Thyroglossal cyst</strong> (midline, moves up when the tongue is stuck out), lingual thyroid, pyramidal lobe</td></tr><tr><td></td><td>C (parafollicular) cells</td><td>Ultimobranchial body (4th pouch), neural crest</td><td>Medullary thyroid cancer (calcitonin)</td></tr><tr><td><strong>Parathyroids</strong></td><td>Inferior / superior</td><td>3rd / 4th pharyngeal pouches</td><td>Ectopic glands; DiGeorge (3rd and 4th pouches fail)</td></tr><tr><td><strong>Suprarenal</strong></td><td>Cortex</td><td><strong>Mesoderm</strong> (coelomic epithelium of the posterior abdominal wall)</td><td>Large fetal cortex shrinks after birth; congenital adrenal hyperplasia</td></tr><tr><td></td><td>Medulla</td><td><strong>Neural crest</strong> (chromaffin cells = modified sympathetic neurons)</td><td>Phaeochromocytoma, neuroblastoma</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Locate the pineal gland and describe its function",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Pineal gland</th><td>Small midline body on the roof of the <strong>3rd ventricle</strong>, above the <strong>superior colliculi</strong>.</td></tr><tr><th scope=\"row\">Function</th><td><ul class=\"cl\"><li>Secretes <strong>melatonin</strong> in the dark, setting circadian rhythm.</li><li>Pathway: retina → suprachiasmatic nucleus → sympathetic chain (superior cervical ganglion) → pineal.</li></ul></td></tr><tr><th scope=\"row\">Calcifies with age<span class=\"paren\">(\"brain sand\")</span></th><td>a useful midline marker on CT and X-ray.</td></tr><tr><th scope=\"row\">Pineal tumours</th><td>Press on the tectum (<strong>Parinaud's syndrome</strong>: can't look up) and block the aqueduct (obstructive hydrocephalus).</td></tr></tbody></table></div>"
+    }
+  ]
+}

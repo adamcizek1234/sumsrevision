@@ -1,0 +1,1959 @@
+[
+  {
+    "id": "l84e33e75",
+    "lo": "y2-204-3",
+    "title": "Asthma treatment, age 12+ (BTS/NICE/SIGN 2024)",
+    "steps": [
+      "As-needed low-dose ICS/formoterol (AIR)",
+      "Low-dose MART (maintenance and reliever)",
+      "Moderate-dose MART",
+      "Check FeNO/eosinophils: refer if raised, otherwise add LTRA or LAMA",
+      "Specialist care (biologics, high-dose ICS)"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Gives steroid with every reliever dose, cutting attacks compared with SABA alone.",
+      "If still uncontrolled, use the same inhaler regularly as maintenance plus as-needed relief.",
+      "Increase the regular ICS dose before adding anything else.",
+      "Biomarkers show whether type 2 inflammation persists (refer for biologics) or an add-on is more sensible.",
+      "Severe asthma needs specialist assessment, biologics (anti-IL-5, anti-IgE) or high-dose ICS."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "lfaf23169",
+    "lo": "y2-204-2",
+    "title": "Asthma diagnosis in adults",
+    "steps": [
+      "Blood eosinophils or FeNO (≥50 ppb)",
+      "Spirometry with bronchodilator reversibility",
+      "Peak flow variability over 2 weeks",
+      "Refer for bronchial challenge test"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Quick tests of type 2 airway inflammation come first; a high result supports asthma.",
+      "If those aren't conclusive, look for obstruction that improves with a bronchodilator.",
+      "Home peak flow over 2 weeks can show the typical variability.",
+      "If still uncertain, a challenge test (e.g. methacholine) shows airway hyperresponsiveness."
+    ],
+    "decoys": [
+      [
+        "Chest X-ray to confirm the diagnosis",
+        "A chest X-ray rules out other causes but can't diagnose asthma."
+      ],
+      [
+        "Six-week trial of oral steroids",
+        "Not part of the diagnostic pathway; objective tests come first."
+      ]
+    ]
+  },
+  {
+    "id": "lfc5e2e7c",
+    "lo": "y2-204-7",
+    "title": "Acute severe asthma",
+    "steps": [
+      "Oxygen to sats 93–95%",
+      "Nebulised salbutamol 5 mg (back-to-back if needed)",
+      "Add nebulised ipratropium 500 μg",
+      "Prednisolone 40–50 mg or IV hydrocortisone",
+      "IV magnesium sulfate 2 g",
+      "Senior/ICU: IV aminophylline or ventilation"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Correct hypoxia first, aiming for 93–95%.",
+      "Salbutamol relieves bronchospasm fastest; repeat or give back-to-back.",
+      "Ipratropium adds bronchodilation in severe attacks.",
+      "Steroids treat the inflammation; they take hours to work, so give them early.",
+      "Magnesium relaxes bronchial smooth muscle if there's a poor response.",
+      "If still deteriorating, ICU may use aminophylline or ventilation."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "la0e9ba84",
+    "lo": "y1-103-4",
+    "title": "COPD inhalers (NICE)",
+    "steps": [
+      "SABA or SAMA as needed",
+      "LABA + LAMA (no asthmatic features)",
+      "LABA + LAMA + ICS (triple therapy)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Short-acting bronchodilators relieve breathlessness when needed.",
+      "If symptoms persist, two long-acting bronchodilators work better than one.",
+      "Add ICS only with exacerbations or asthmatic features (it raises pneumonia risk)."
+    ],
+    "decoys": [
+      [
+        "LABA + ICS for everyone without asthmatic features",
+        "LABA + ICS is for asthmatic features; without them, LABA + LAMA comes next."
+      ],
+      [
+        "Oral theophylline before any long-acting inhaler",
+        "Theophylline only comes after inhalers have failed."
+      ]
+    ]
+  },
+  {
+    "id": "l8d744c0d",
+    "lo": "y1-134-6",
+    "title": "Hypertension (NICE NG136)",
+    "steps": [
+      "ACEi/ARB (<55 or T2DM) or CCB (≥55 or Black)",
+      "Add the other of ACEi/ARB and CCB, or a thiazide-like diuretic",
+      "ACEi/ARB + CCB + thiazide-like diuretic",
+      "Spironolactone if K⁺ ≤4.5, otherwise α- or β-blocker",
+      "Specialist referral"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Younger and diabetic patients respond to RAAS blockade; over 55 or Black patients respond better to CCBs.",
+      "Add the other first-line class, or a thiazide-like diuretic.",
+      "Triple therapy combines all three mechanisms.",
+      "At step 4, spironolactone works well if potassium allows; otherwise an alpha- or beta-blocker.",
+      "Uncontrolled despite four drugs means resistant hypertension, needing a specialist to look for secondary causes."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l6e0f96b1",
+    "lo": "y1-139-3",
+    "title": "Type 2 diabetes drugs (NICE NG28)",
+    "steps": [
+      "Lifestyle and structured education",
+      "Metformin (add SGLT2i if CVD, HF or high CV risk)",
+      "Add a second drug (DPP-4i, pioglitazone, sulfonylurea or SGLT2i)",
+      "Triple therapy, or GLP-1 RA if BMI ≥35",
+      "Insulin"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Diet, weight loss and education come first and underpin everything else.",
+      "Metformin is first line; add an SGLT2 inhibitor early if there's cardiovascular or heart failure risk.",
+      "If HbA1c is still above target, add a second agent chosen for the patient.",
+      "Triple therapy, or a GLP-1 agonist if obese, comes next.",
+      "Insulin when other options fail or glucose is very high."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l5d41c187",
+    "lo": "y2-211-7",
+    "title": "Heart failure with reduced EF",
+    "steps": [
+      "ACE inhibitor + beta-blocker",
+      "Add a mineralocorticoid receptor antagonist",
+      "Add an SGLT2 inhibitor",
+      "Specialist: switch to sacubitril/valsartan, ivabradine, CRT/ICD"
+    ],
+    "lvl": 2,
+    "whys": [
+      "ACEi and beta-blockers both reduce mortality; start low and increase.",
+      "An MRA adds further mortality benefit if symptoms persist.",
+      "SGLT2 inhibitors cut deaths and admissions whatever the diabetes status.",
+      "Specialists can swap the ACEi for sacubitril/valsartan, add ivabradine, or fit devices."
+    ],
+    "decoys": [
+      [
+        "Add digoxin first-line alongside the ACE inhibitor",
+        "Digoxin is kept for AF or symptoms despite optimal therapy."
+      ],
+      [
+        "Add a rate-limiting calcium channel blocker",
+        "Verapamil and diltiazem worsen HFrEF."
+      ]
+    ]
+  },
+  {
+    "id": "l542f9844",
+    "lo": "y1-134-4",
+    "title": "Stable angina",
+    "steps": [
+      "GTN as needed + aspirin and statin",
+      "Beta-blocker or rate-limiting CCB",
+      "Beta-blocker + dihydropyridine CCB",
+      "Add long-acting nitrate, ivabradine, nicorandil or ranolazine",
+      "Revascularisation (PCI or CABG)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "GTN relieves attacks; aspirin and a statin prevent events.",
+      "A beta-blocker or rate-limiting CCB reduces oxygen demand.",
+      "Combine a beta-blocker with a dihydropyridine CCB (never verapamil) if needed.",
+      "Third-line agents are added if two drugs don't control symptoms.",
+      "Revascularisation if symptoms persist despite medication."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "lceef8557",
+    "lo": "y2-212-25",
+    "title": "STEMI immediate management",
+    "steps": [
+      "ABCDE, 12-lead ECG, monitoring",
+      "Aspirin 300 mg",
+      "IV morphine with antiemetic (± GTN)",
+      "Second antiplatelet (P2Y12 inhibitor)",
+      "Primary PCI within 120 min (otherwise fibrinolysis)",
+      "Secondary prevention and cardiac rehab"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Assess and confirm STEMI on the ECG quickly.",
+      "Aspirin immediately inhibits platelets.",
+      "Treat pain (which raises sympathetic drive) with an antiemetic.",
+      "A second antiplatelet strengthens platelet blockade before PCI.",
+      "Reopening the artery fast saves myocardium; PCI within 120 minutes, otherwise fibrinolysis.",
+      "Long-term drugs and rehab prevent another event."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l236efe1a",
+    "lo": "y1-107-6",
+    "title": "WHO analgesic ladder",
+    "steps": [
+      "Non-opioid (paracetamol ± NSAID) ± adjuvant",
+      "Weak opioid (codeine) + non-opioid",
+      "Strong opioid (morphine) + non-opioid"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Start with simple analgesia plus adjuvants for neuropathic pain.",
+      "If pain persists, add a weak opioid.",
+      "Replace the weak opioid with a strong one if needed."
+    ],
+    "decoys": [
+      [
+        "Strong opioid alone, stopping simple analgesia",
+        "Non-opioids continue at every step."
+      ],
+      [
+        "Weak opioid + strong opioid together",
+        "The weak opioid is replaced, not combined with a strong one."
+      ]
+    ]
+  },
+  {
+    "id": "l4ce95955",
+    "lo": "y1-140-1",
+    "title": "Cardiac arrest: shockable rhythm (ALS)",
+    "steps": [
+      "Confirm arrest, call 2222, start CPR 30:2",
+      "Attach defibrillator: VF/pVT → shock",
+      "Resume CPR for 2 minutes, then reassess",
+      "After the 3rd shock: adrenaline 1 mg + amiodarone 300 mg",
+      "Adrenaline every 3–5 minutes; treat 4 Hs and 4 Ts"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Confirm arrest, call for help and start CPR to keep the brain perfused.",
+      "VF/pVT needs a shock as soon as possible.",
+      "CPR for 2 minutes after each shock before checking the rhythm.",
+      "Adrenaline raises coronary perfusion pressure; amiodarone stabilises the rhythm after the 3rd shock.",
+      "Keep giving adrenaline and look for reversible causes."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l596112f1",
+    "lo": "y2-205-20",
+    "title": "DKA management",
+    "steps": [
+      "ABCDE, VBG, capillary ketones and glucose",
+      "0.9% saline: 1 L over 1 hour",
+      "Fixed-rate insulin 0.1 units/kg/h (continue basal insulin)",
+      "Add KCl to later bags according to K⁺",
+      "Add 10% glucose when glucose <14 mmol/L",
+      "Resolution (ketones <0.6, pH >7.3) → SC insulin with a meal"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Confirm DKA and assess severity.",
+      "Patients are very dehydrated; fluid comes first and starts lowering glucose.",
+      "Fixed-rate insulin switches off ketone production; keep the basal insulin going.",
+      "Insulin drives potassium into cells, so replace it to prevent hypokalaemia.",
+      "Add glucose so insulin can continue clearing ketones without hypoglycaemia.",
+      "Once resolved, switch to subcutaneous insulin with a meal."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l2d8fd734",
+    "lo": "y1-140-3",
+    "title": "Anaphylaxis",
+    "steps": [
+      "Call for help, remove trigger, lie flat",
+      "IM adrenaline 500 μg (1:1000), anterolateral thigh",
+      "High-flow oxygen and IV fluid bolus",
+      "Repeat IM adrenaline after 5 minutes if no better",
+      "Refractory: IV adrenaline infusion (critical care)",
+      "Tryptase, observe, two auto-injectors, allergy referral"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Call for help, remove the trigger and position the patient.",
+      "IM adrenaline reverses vasodilation, swelling and bronchospasm.",
+      "Support airway and circulation with oxygen and fluid.",
+      "Repeat adrenaline if there's no improvement after 5 minutes.",
+      "Refractory anaphylaxis needs an adrenaline infusion in critical care.",
+      "Confirm with tryptase, observe for a biphasic reaction and prevent recurrence."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l1345682c",
+    "lo": "y1-135-4",
+    "title": "Hyperkalaemia with ECG changes",
+    "steps": [
+      "IV calcium gluconate 10% (protects the heart)",
+      "Insulin + glucose infusion",
+      "Nebulised salbutamol",
+      "Treat the cause and remove K⁺ (stop drugs, binders, dialysis)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Calcium stabilises the cardiac membrane within minutes but doesn't lower potassium.",
+      "Insulin drives potassium into cells; glucose prevents hypoglycaemia.",
+      "Salbutamol adds to the shift into cells.",
+      "Then actually remove potassium from the body and treat the cause."
+    ],
+    "decoys": [
+      [
+        "IV furosemide as the first treatment",
+        "Loop diuretics remove K⁺ slowly; protect the heart with calcium first."
+      ],
+      [
+        "IV sodium bicarbonate for everyone",
+        "Bicarbonate is only considered with severe acidosis."
+      ]
+    ]
+  },
+  {
+    "id": "l7582c41c",
+    "lo": "y1-128-3",
+    "title": "Community-acquired pneumonia by CURB-65",
+    "steps": [
+      "Score 0–1: oral amoxicillin at home",
+      "Score 2: consider admission, amoxicillin + clarithromycin",
+      "Score 3–5: admit, IV co-amoxiclav + clarithromycin, consider ICU"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Low risk: treat at home with oral amoxicillin.",
+      "Moderate risk: consider admission and add a macrolide for atypicals.",
+      "High risk: admit, give IV antibiotics and consider ICU."
+    ],
+    "decoys": [
+      [
+        "Score 1: admit for IV antibiotics",
+        "Scores 0–1 are low risk: oral amoxicillin at home."
+      ],
+      [
+        "Score 2: oral clarithromycin alone at home",
+        "Score 2 means considering admission, with amoxicillin plus a macrolide."
+      ]
+    ]
+  },
+  {
+    "id": "l7fc8f6fe",
+    "lo": "y1-125-2",
+    "title": "Gout",
+    "steps": [
+      "Acute flare: NSAID, colchicine or steroid",
+      "Once settled: start allopurinol with colchicine cover",
+      "Titrate monthly to urate <0.36 mmol/L",
+      "Febuxostat if allopurinol not tolerated"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Treat the acute flare first.",
+      "Once settled, start urate-lowering therapy with colchicine cover against flares.",
+      "Increase the dose until urate is on target.",
+      "Use febuxostat if allopurinol isn't tolerated."
+    ],
+    "decoys": [
+      [
+        "Start allopurinol during the acute flare",
+        "Wait until the flare settles (but continue it if already taking it)."
+      ],
+      [
+        "Stop allopurinol once urate is on target",
+        "Urate-lowering therapy is lifelong."
+      ]
+    ]
+  },
+  {
+    "id": "l241f51fd",
+    "lo": "y2-212-1",
+    "title": "Heavy menstrual bleeding (NICE)",
+    "steps": [
+      "LNG-IUS (Mirena)",
+      "Tranexamic acid, NSAID, COCP or cyclical progestogen",
+      "Refer: ablation, uterine artery embolisation or myomectomy",
+      "Hysterectomy"
+    ],
+    "lvl": 2,
+    "whys": [
+      "The LNG-IUS is the most effective medical treatment.",
+      "If unsuitable or declined, use oral options.",
+      "Refer for procedures if medical treatment fails.",
+      "Hysterectomy is the definitive option when family is complete."
+    ],
+    "decoys": [
+      [
+        "Endometrial ablation before any medical treatment",
+        "Medical options (LNG-IUS first) come before procedures."
+      ],
+      [
+        "Long-term oral norethisterone as first line",
+        "The LNG-IUS is first line."
+      ]
+    ]
+  },
+  {
+    "id": "lb12872d1",
+    "lo": "y2-206-2",
+    "title": "Constipation",
+    "steps": [
+      "Lifestyle: fibre, fluids, activity, stop constipating drugs",
+      "Bulk-forming laxative (ispaghula)",
+      "Osmotic laxative (macrogol)",
+      "Add a stimulant (senna)",
+      "Specialist: prucalopride or linaclotide"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Lifestyle measures and stopping culprit drugs come first.",
+      "Bulk-forming laxatives add fibre.",
+      "Osmotic laxatives draw water into the stool.",
+      "Stimulants increase motility.",
+      "Specialist drugs for refractory cases."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l0b3207e2",
+    "lo": "y2-210-9",
+    "title": "AAA screening results",
+    "steps": [
+      "<3.0 cm: discharged",
+      "3.0–4.4 cm: annual scan",
+      "4.5–5.4 cm: 3-monthly scan",
+      "≥5.5 cm: vascular referral within 2 weeks"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Normal aorta: no follow-up needed.",
+      "Small AAA: monitor yearly.",
+      "Medium AAA: monitor every 3 months as rupture risk rises.",
+      "Large AAA: rupture risk outweighs surgical risk, so refer urgently."
+    ],
+    "decoys": [
+      [
+        "3.0–4.4 cm: vascular referral within 2 weeks",
+        "Small AAAs are scanned yearly."
+      ],
+      [
+        "4.5–5.4 cm: discharged",
+        "Medium AAAs need 3-monthly scans."
+      ]
+    ]
+  },
+  {
+    "id": "l72b07d75",
+    "lo": "y2-213-2",
+    "title": "Suspected PE (NICE)",
+    "steps": [
+      "Two-level Wells score",
+      "Wells ≤4: D-dimer",
+      "Positive D-dimer or Wells >4: CTPA",
+      "Confirmed: start a DOAC",
+      "Review at 3 months: stop or continue"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Assess clinical probability.",
+      "If unlikely, a negative D-dimer rules PE out.",
+      "If likely or D-dimer positive, image with CTPA.",
+      "Anticoagulate once confirmed (or while waiting if delayed).",
+      "Review at 3 months to decide whether to stop."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l7d789f10",
+    "lo": "y2-213-8",
+    "title": "Smoking cessation: very brief advice",
+    "steps": [
+      "Ask about smoking status",
+      "Advise the best way to quit (medication + support)",
+      "Act: refer or prescribe"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Ask everyone about smoking.",
+      "Advise that medication plus support is the most effective way to stop.",
+      "Act on the response by referring or prescribing."
+    ],
+    "decoys": [
+      [
+        "Assess readiness to quit before advising",
+        "Very brief advice skips readiness: ask, advise and act for everyone."
+      ],
+      [
+        "Book a follow-up CO test before acting",
+        "Not part of very brief advice; act straight away by referring or prescribing."
+      ]
+    ]
+  },
+  {
+    "id": "l92d81859",
+    "lo": "y2-210-32",
+    "title": "Fracture management",
+    "steps": [
+      "Resuscitate",
+      "Reduce",
+      "Restrict (immobilise or fix)",
+      "Rehabilitate"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Life-threatening injuries come first.",
+      "Restore alignment.",
+      "Hold the fracture still while it heals.",
+      "Restore function."
+    ],
+    "decoys": [
+      [
+        "Refer to orthopaedics only once healed",
+        "Not a step: resuscitate, reduce, restrict, rehabilitate."
+      ],
+      [
+        "Complete rest for 12 weeks",
+        "Not a step; rehabilitation restores function."
+      ]
+    ]
+  },
+  {
+    "id": "lfb9b23f6",
+    "lo": "y1-107-4",
+    "title": "Fracture healing",
+    "steps": [
+      "Haematoma and inflammation",
+      "Soft callus (fibrocartilage)",
+      "Hard callus (woven bone)",
+      "Remodelling (lamellar bone)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Bleeding forms a haematoma and inflammation.",
+      "Fibrocartilage forms a soft callus.",
+      "Woven bone replaces it (hard callus).",
+      "Lamellar bone remodels to restore shape and strength."
+    ],
+    "decoys": [
+      [
+        "Fibrous union (scar tissue)",
+        "Fibrous union is a failure of healing; normal healing ends in lamellar bone."
+      ],
+      [
+        "Osteonecrosis of the fragments",
+        "Bone death is a complication, not a stage of healing."
+      ]
+    ]
+  },
+  {
+    "id": "l09e9faf5",
+    "lo": "y1-105-3",
+    "title": "Neutrophil recruitment",
+    "steps": [
+      "Margination",
+      "Rolling (selectins)",
+      "Firm adhesion (integrins/ICAM-1)",
+      "Transmigration",
+      "Chemotaxis",
+      "Phagocytosis and killing"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Neutrophils move to the vessel edge as blood flow slows.",
+      "Selectins let them roll along the endothelium.",
+      "Integrins bind ICAM-1 so they stop.",
+      "They squeeze between endothelial cells into tissue.",
+      "They follow chemokine gradients to the infection.",
+      "They engulf and kill microbes."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l53fdddd2",
+    "lo": "y1-138-2",
+    "title": "Primary and secondary haemostasis",
+    "steps": [
+      "Vasoconstriction",
+      "Platelet adhesion (vWF–GPIb)",
+      "Platelet activation (ADP, thromboxane A₂)",
+      "Platelet aggregation (GPIIb/IIIa)",
+      "Coagulation cascade → fibrin",
+      "Fibrinolysis (plasmin)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "The vessel constricts to reduce blood flow.",
+      "Platelets stick to exposed collagen via vWF.",
+      "Activated platelets release ADP and thromboxane, recruiting more.",
+      "GPIIb/IIIa links platelets with fibrinogen into a plug.",
+      "The coagulation cascade makes fibrin to reinforce the plug.",
+      "Plasmin breaks the clot down as the vessel heals."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l1cd0835b",
+    "lo": "y1-134-2",
+    "title": "Atherosclerotic plaque formation",
+    "steps": [
+      "Endothelial injury",
+      "LDL enters intima and is oxidised",
+      "Monocytes become foam cells (fatty streak)",
+      "Smooth muscle migration → fibrous cap",
+      "Plaque rupture → thrombosis"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Damage to the endothelium starts the process.",
+      "LDL enters the vessel wall and is oxidised.",
+      "Macrophages take up oxidised LDL and become foam cells.",
+      "Smooth muscle cells form a fibrous cap.",
+      "Rupture of a thin cap exposes the core and triggers thrombosis."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "lf48dcef7",
+    "lo": "y1-114-9",
+    "title": "Menstrual cycle",
+    "steps": [
+      "FSH recruits follicles",
+      "Rising oestradiol (proliferative endometrium)",
+      "LH surge",
+      "Ovulation",
+      "Corpus luteum makes progesterone",
+      "Luteolysis → progesterone falls → menstruation"
+    ],
+    "lvl": 1,
+    "whys": [
+      "FSH recruits a cohort of follicles.",
+      "The dominant follicle makes oestradiol, thickening the endometrium.",
+      "High oestradiol switches to positive feedback, triggering the LH surge.",
+      "The follicle ruptures, releasing the egg.",
+      "The corpus luteum makes progesterone, making the endometrium secretory.",
+      "Without pregnancy the corpus luteum fails, progesterone falls and the endometrium sheds."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l45843153",
+    "lo": "y1-114-3",
+    "title": "Stages of labour",
+    "steps": [
+      "Latent first stage (to 4 cm)",
+      "Established first stage (4–10 cm)",
+      "Second stage (full dilatation → birth)",
+      "Third stage (delivery of placenta)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "The cervix softens and starts to dilate.",
+      "Regular contractions dilate the cervix from 4 to 10 cm.",
+      "Full dilatation to birth of the baby.",
+      "Delivery of the placenta and membranes."
+    ],
+    "decoys": [
+      [
+        "Pre-labour rupture of membranes",
+        "Not a stage of labour; it can happen before labour starts."
+      ],
+      [
+        "Transition stage (10–12 cm)",
+        "The cervix is fully dilated at 10 cm; there's no 10–12 cm stage."
+      ]
+    ]
+  },
+  {
+    "id": "l3844d688",
+    "lo": "y2-203-6",
+    "title": "Child protection process",
+    "steps": [
+      "Discuss concern with senior/safeguarding lead",
+      "Referral to children's social services",
+      "Strategy discussion",
+      "Section 47 enquiry",
+      "Initial child protection conference",
+      "Child protection plan and core group"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Share the concern with a senior or safeguarding lead.",
+      "Refer to children's social care.",
+      "Agencies hold a strategy discussion.",
+      "Social care leads a Section 47 enquiry.",
+      "A conference decides whether a child protection plan is needed.",
+      "A core group carries out the plan."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "le6df675d",
+    "lo": "y1-136-4",
+    "title": "Breaking bad news (SPIKES)",
+    "steps": [
+      "Setting",
+      "Perception",
+      "Invitation",
+      "Knowledge",
+      "Emotions",
+      "Strategy and summary"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Find a private setting with time and the right people.",
+      "Find out what the patient already understands.",
+      "Ask how much they want to know.",
+      "Give the information clearly, with a warning shot.",
+      "Respond to their emotions.",
+      "Agree a plan and summarise."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l4883a660",
+    "lo": "y2-205-18",
+    "title": "A–E assessment",
+    "steps": [
+      "Airway",
+      "Breathing",
+      "Circulation",
+      "Disability",
+      "Exposure"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Airway problems kill fastest.",
+      "Then breathing.",
+      "Then circulation.",
+      "Then neurological status.",
+      "Then examine fully, preventing hypothermia."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "ldee619c6",
+    "lo": "y1-108-6",
+    "title": "Cardiac conduction",
+    "steps": [
+      "SA node",
+      "Atrial muscle",
+      "AV node (delay)",
+      "Bundle of His",
+      "Bundle branches",
+      "Purkinje fibres"
+    ],
+    "lvl": 1,
+    "whys": [
+      "The SA node fires first.",
+      "The impulse spreads across the atria.",
+      "The AV node delays it so the ventricles can fill.",
+      "It passes down the bundle of His.",
+      "It splits into the left and right bundle branches.",
+      "Purkinje fibres spread it through the ventricles."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "lc342bfbc",
+    "lo": "y2-204-11",
+    "title": "Systematic ECG reading",
+    "steps": [
+      "Rate",
+      "Rhythm",
+      "Axis",
+      "P waves and PR interval",
+      "QRS complex",
+      "ST segment and T waves",
+      "QTc"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Rate first.",
+      "Then rhythm.",
+      "Then axis.",
+      "Then P waves and PR interval.",
+      "Then the QRS complex.",
+      "Then ST segments and T waves.",
+      "Then the corrected QT."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "la1f30666",
+    "lo": "y1-142-6",
+    "title": "Visual pathway",
+    "steps": [
+      "Retina",
+      "Optic nerve",
+      "Optic chiasm",
+      "Optic tract",
+      "Lateral geniculate nucleus",
+      "Optic radiations",
+      "Primary visual cortex"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Light hits the retina.",
+      "Signals travel in the optic nerve.",
+      "Nasal fibres cross at the chiasm.",
+      "The optic tract carries the opposite visual field.",
+      "The LGN relays the signal.",
+      "Optic radiations carry it to the cortex.",
+      "The primary visual cortex processes vision."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "lfa58fb60",
+    "lo": "y1-111-5",
+    "title": "Nephron",
+    "steps": [
+      "Glomerulus",
+      "Proximal convoluted tubule",
+      "Loop of Henle",
+      "Distal convoluted tubule",
+      "Collecting duct"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Blood is filtered at the glomerulus.",
+      "The PCT reabsorbs most of the filtrate.",
+      "The loop of Henle concentrates urine.",
+      "The DCT fine-tunes sodium and calcium.",
+      "The collecting duct adjusts water under ADH."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l82fb1763",
+    "lo": "y1-139-5",
+    "title": "Insulin secretion",
+    "steps": [
+      "Glucose enters β-cell via GLUT2",
+      "Glucokinase → glycolysis → ↑ ATP",
+      "K_ATP channels close",
+      "Membrane depolarises",
+      "Voltage-gated Ca²⁺ influx",
+      "Insulin exocytosis"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Glucose enters the beta cell through GLUT2.",
+      "Glucokinase starts glycolysis, raising ATP.",
+      "ATP closes K_ATP channels.",
+      "The membrane depolarises.",
+      "Calcium flows in through voltage-gated channels.",
+      "Calcium triggers insulin release."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l04e299df",
+    "lo": "y1-126-6",
+    "title": "Thyroid hormone synthesis",
+    "steps": [
+      "Iodide trapped (Na⁺/I⁻ symporter)",
+      "Oxidised by thyroid peroxidase",
+      "Iodination of tyrosines on thyroglobulin",
+      "Coupling (MIT + DIT, DIT + DIT)",
+      "Stored in colloid, then released",
+      "T4 → T3 in tissues (deiodinase)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "The sodium–iodide symporter traps iodide.",
+      "Thyroid peroxidase oxidises it.",
+      "Iodine is added to tyrosines on thyroglobulin.",
+      "MIT and DIT couple to form T3 and T4.",
+      "Hormone is stored in colloid and released as needed.",
+      "T4 is converted to active T3 in tissues."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "lafadeb9d",
+    "lo": "y1-113-3",
+    "title": "Neuromuscular junction",
+    "steps": [
+      "Action potential reaches nerve terminal",
+      "Voltage-gated Ca²⁺ influx",
+      "ACh vesicles fuse and release",
+      "ACh binds nicotinic receptors",
+      "End-plate potential → muscle action potential",
+      "Acetylcholinesterase breaks down ACh"
+    ],
+    "lvl": 1,
+    "whys": [
+      "An action potential reaches the nerve terminal.",
+      "Calcium enters through voltage-gated channels.",
+      "ACh vesicles fuse and release ACh.",
+      "ACh binds nicotinic receptors on the muscle.",
+      "This produces an end-plate potential and muscle action potential.",
+      "Acetylcholinesterase ends the signal."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "lad3b6e29",
+    "lo": "y1-113-4",
+    "title": "Skeletal muscle excitation–contraction coupling",
+    "steps": [
+      "Action potential travels down T-tubule",
+      "DHP receptor senses voltage",
+      "Ryanodine receptor releases Ca²⁺ from SR",
+      "Ca²⁺ binds troponin C",
+      "Tropomyosin moves, exposing actin sites",
+      "Cross-bridge cycling",
+      "SERCA pumps Ca²⁺ back (relaxation)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "The action potential travels down T-tubules.",
+      "DHP receptors sense the voltage change.",
+      "Ryanodine receptors release calcium from the SR.",
+      "Calcium binds troponin C.",
+      "Tropomyosin moves, exposing myosin-binding sites.",
+      "Cross-bridge cycling produces contraction.",
+      "SERCA pumps calcium back, causing relaxation."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "la107d3cc",
+    "lo": "y2-209-5",
+    "title": "Alzheimer's tau spread (Braak)",
+    "steps": [
+      "Entorhinal cortex",
+      "Hippocampus",
+      "Association neocortex",
+      "Primary cortices"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Tau tangles start in the entorhinal cortex.",
+      "They spread to the hippocampus, causing memory loss.",
+      "Then to association neocortex, affecting other cognition.",
+      "Finally primary cortices are affected."
+    ],
+    "decoys": [
+      [
+        "Substantia nigra",
+        "That's Lewy body (Parkinson's) spread; Alzheimer's tau starts in the entorhinal cortex."
+      ],
+      [
+        "Cerebellum",
+        "Spared until very late; not part of the Braak tau sequence."
+      ]
+    ]
+  },
+  {
+    "id": "lfd524744",
+    "lo": "y1-128-6",
+    "title": "Lung development",
+    "steps": [
+      "Embryonic",
+      "Pseudoglandular",
+      "Canalicular (surfactant begins)",
+      "Saccular",
+      "Alveolar"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Embryonic: lung buds form.",
+      "Pseudoglandular: conducting airways branch.",
+      "Canalicular: respiratory bronchioles form and surfactant starts.",
+      "Saccular: terminal sacs form.",
+      "Alveolar: alveoli form, continuing after birth."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l5b1f2f95",
+    "lo": "y1-111-5",
+    "title": "Pathway of urine from the kidney",
+    "steps": [
+      "Collecting duct",
+      "Minor calyx",
+      "Major calyx",
+      "Renal pelvis",
+      "Ureter",
+      "Bladder"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Collecting ducts deliver urine.",
+      "It drains into minor calyces.",
+      "These merge into major calyces.",
+      "Then into the renal pelvis.",
+      "The ureter carries it down.",
+      "It's stored in the bladder."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l19a690ab",
+    "lo": "a-111-4",
+    "title": "Path of urine from kidney to outside",
+    "steps": [
+      "Renal papilla (collecting ducts open)",
+      "Minor calyx",
+      "Major calyx",
+      "Renal pelvis",
+      "Ureter",
+      "Bladder",
+      "Urethra"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Collecting ducts empty at the tip of each pyramid.",
+      "Each papilla sits in a minor calyx.",
+      "Two or three major calyces collect the minor ones.",
+      "The funnel at the hilum.",
+      "Peristalsis carries urine to the bladder.",
+      "Enters obliquely at the vesicoureteric junction (flap valve).",
+      "Out through the internal and external sphincters."
+    ],
+    "decoys": [
+      [
+        "Renal sinus",
+        "The fat-filled space around the pelvis, not part of the urine path."
+      ]
+    ]
+  },
+  {
+    "id": "l8b7c07eb",
+    "lo": "a-111-2",
+    "title": "Course of the ureter",
+    "steps": [
+      "Pelviureteric junction at the hilum",
+      "Down on psoas major, behind the gonadal vessels",
+      "Over the pelvic brim at the common iliac bifurcation",
+      "Down the lateral pelvic wall to the ischial spine",
+      "Under the uterine artery or vas deferens",
+      "Vesicoureteric junction"
+    ],
+    "lvl": 1,
+    "whys": [
+      "The first narrowing, where the pelvis becomes the ureter.",
+      "The abdominal course over the lumbar transverse process tips.",
+      "The second narrowing, over the sacroiliac joint.",
+      "In front of the internal iliac artery.",
+      "\"Water under the bridge\".",
+      "The narrowest point, entering the bladder obliquely."
+    ],
+    "decoys": [
+      [
+        "Through the deep inguinal ring",
+        "That's the vas deferens and round ligament, not the ureter."
+      ]
+    ]
+  },
+  {
+    "id": "l02f87a7e",
+    "lo": "a-132-2",
+    "title": "Bile from liver to duodenum",
+    "steps": [
+      "Bile canaliculi between hepatocytes",
+      "Interlobular bile ducts in the portal triads",
+      "Right and left hepatic ducts",
+      "Common hepatic duct",
+      "Cystic duct into the gallbladder (fasting)",
+      "Common bile duct (after CCK release)",
+      "Ampulla of Vater at the major duodenal papilla"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Hepatocytes secrete bile into these tiny channels.",
+      "Canaliculi drain via ductules into the portal tract ducts.",
+      "Each half of the liver drains into one.",
+      "The two hepatic ducts join.",
+      "With the sphincter of Oddi closed, bile backs up to be stored and concentrated.",
+      "The gallbladder contracts and bile flows down behind the duodenum and pancreatic head.",
+      "Joins the main pancreatic duct and enters the 2nd part of the duodenum."
+    ],
+    "decoys": [
+      [
+        "Minor duodenal papilla",
+        "The accessory pancreatic duct opens here, not bile."
+      ]
+    ]
+  },
+  {
+    "id": "lb65b78b3",
+    "lo": "a-141-16",
+    "title": "Path of sperm",
+    "steps": [
+      "Seminiferous tubules",
+      "Rete testis and efferent ductules",
+      "Epididymis",
+      "Vas deferens",
+      "Ejaculatory duct",
+      "Prostatic urethra",
+      "Membranous then spongy urethra"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Sperm are produced here, supported by Sertoli cells.",
+      "Collect sperm in the mediastinum and carry them to the epididymis.",
+      "Sperm mature and gain motility over about 12 days.",
+      "Up the spermatic cord, through the inguinal canal and over the ureter.",
+      "Formed with the seminal vesicle duct, through the prostate.",
+      "Opens on the seminal colliculus.",
+      "Through the external sphincter and the corpus spongiosum to the meatus."
+    ],
+    "decoys": [
+      [
+        "Inguinal lymph nodes",
+        "A lymph destination, not a duct."
+      ]
+    ]
+  },
+  {
+    "id": "l1b2c6936",
+    "lo": "a-119-5",
+    "title": "Corticospinal (motor) pathway",
+    "steps": [
+      "Precentral gyrus (primary motor cortex)",
+      "Corona radiata",
+      "Posterior limb of the internal capsule",
+      "Cerebral peduncle (midbrain)",
+      "Basilar pons",
+      "Medullary pyramid and decussation",
+      "Lateral corticospinal tract to the anterior horn cell"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Upper motor neuron cell bodies (Betz cells).",
+      "Fibres fan down through the white matter.",
+      "A compact bundle: small lacunar strokes cause dense hemiplegia.",
+      "The crus cerebri.",
+      "Broken up by pontine nuclei.",
+      "About 85–90% of fibres cross here.",
+      "Synapse with the lower motor neuron."
+    ],
+    "decoys": [
+      [
+        "Thalamus",
+        "Sensory relay; motor fibres pass beside it in the internal capsule, not through it."
+      ]
+    ]
+  },
+  {
+    "id": "lb473bdef",
+    "lo": "a-142-10",
+    "title": "Visual pathway and lesion sites",
+    "steps": [
+      "Retina",
+      "Optic nerve",
+      "Optic chiasm (nasal fibres cross)",
+      "Optic tract",
+      "Lateral geniculate nucleus",
+      "Optic radiations (Meyer's loop in the temporal lobe)",
+      "Primary visual cortex (occipital, calcarine sulcus)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Each half sees the opposite visual field.",
+      "Lesion: blindness in that eye.",
+      "Lesion: bitemporal hemianopia.",
+      "Lesion: contralateral homonymous hemianopia.",
+      "Thalamic relay.",
+      "Lesion: quadrantanopia.",
+      "Lesion: homonymous hemianopia with macular sparing."
+    ],
+    "decoys": [
+      [
+        "Superior colliculus",
+        "Used for reflex eye movements, not the conscious visual pathway."
+      ]
+    ]
+  },
+  {
+    "id": "l3b0f937c",
+    "lo": "a-133-1",
+    "title": "Dorsal column pathway (fine touch, vibration, proprioception)",
+    "steps": [
+      "Receptor and first-order neuron (cell body in the dorsal root ganglion)",
+      "Up the dorsal column on the same side",
+      "Synapse in the gracile and cuneate nuclei (medulla)",
+      "Cross as internal arcuate fibres",
+      "Medial lemniscus",
+      "Ventral posterolateral nucleus of the thalamus",
+      "Primary somatosensory cortex (postcentral gyrus)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Large myelinated fibres enter the dorsal horn.",
+      "Gracile (legs) and cuneate (arms) fasciculi.",
+      "Second-order neurons start here.",
+      "The decussation is in the medulla.",
+      "Ascends through the brainstem.",
+      "Third-order neurons.",
+      "Conscious perception."
+    ],
+    "decoys": [
+      [
+        "Cross in the anterior white commissure of the cord",
+        "That's the spinothalamic tract."
+      ]
+    ]
+  },
+  {
+    "id": "l4022d67f",
+    "lo": "a-133-12",
+    "title": "Lumbar puncture: layers the needle passes",
+    "steps": [
+      "Skin and subcutaneous fat",
+      "Supraspinous ligament",
+      "Interspinous ligament",
+      "Ligamentum flavum",
+      "Epidural space",
+      "Dura and arachnoid mater",
+      "Subarachnoid space (CSF)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Usually at L3/4 or L4/5.",
+      "Joins the tips of the spinous processes.",
+      "Between adjacent spinous processes.",
+      "The tough \"give\" before the epidural space.",
+      "Fat and veins; where epidural anaesthetic goes.",
+      "A second \"give\".",
+      "CSF drips back; the cauda equina floats out of the way."
+    ],
+    "decoys": [
+      [
+        "Posterior longitudinal ligament",
+        "In front of the cord, on the back of the vertebral bodies; the needle shouldn't reach it."
+      ]
+    ]
+  },
+  {
+    "id": "l9e33126c",
+    "lo": "a-115-15",
+    "title": "Stages of bone repair after a fracture",
+    "steps": [
+      "Haematoma",
+      "Inflammation",
+      "Soft callus (fibrocartilage)",
+      "Hard callus (woven bone)",
+      "Remodelling into lamellar bone"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Bleeding from torn vessels forms a clot within hours.",
+      "Cells and growth factors arrive over days.",
+      "Bridges the gap over 2–3 weeks.",
+      "Endochondral ossification over 6–12 weeks.",
+      "Shaped by load over months to years."
+    ],
+    "decoys": [
+      [
+        "Pannus formation",
+        "Inflamed synovium in rheumatoid arthritis, not bone healing."
+      ]
+    ]
+  },
+  {
+    "id": "lc53fd1af",
+    "lo": "a-115-15",
+    "title": "Endochondral ossification",
+    "steps": [
+      "Hyaline cartilage model",
+      "Chondrocytes in the shaft enlarge and the matrix calcifies",
+      "Primary ossification centre in the diaphysis",
+      "Secondary ossification centres in the epiphyses",
+      "Growth plate closes after puberty"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Mesenchyme forms a cartilage template of the bone.",
+      "A periosteal bone collar forms around the shaft.",
+      "Blood vessels invade and bone is laid on calcified cartilage.",
+      "Mostly after birth.",
+      "Oestrogen closes the plate, leaving the epiphyseal line."
+    ],
+    "decoys": [
+      [
+        "Bone forms directly in a membrane",
+        "That's intramembranous ossification (skull vault, clavicle)."
+      ]
+    ]
+  },
+  {
+    "id": "l519ddd37",
+    "lo": "a-128-1",
+    "title": "Stages of lung development",
+    "steps": [
+      "Embryonic (weeks 4–7)",
+      "Pseudoglandular (weeks 5–17)",
+      "Canalicular (weeks 16–25)",
+      "Saccular (week 24 to birth)",
+      "Alveolar (late fetal to ~8 years)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Lung bud, lobar and segmental bronchi.",
+      "Branching to terminal bronchioles; no gas exchange possible.",
+      "Capillaries and type I/II cells; survival possible from ~24 weeks.",
+      "Terminal sacs; surfactant rises.",
+      "Most alveoli form after birth."
+    ],
+    "decoys": [
+      [
+        "Glandular (weeks 30–40)",
+        "Not a stage: \"pseudoglandular\" is the early branching stage."
+      ]
+    ]
+  },
+  {
+    "id": "l6c1ea89e",
+    "lo": "a-112-1",
+    "title": "Midgut development",
+    "steps": [
+      "Rapid midgut growth (week 5)",
+      "Herniation into the umbilical cord (week 6)",
+      "First 90° anticlockwise rotation around the SMA",
+      "Return to the abdomen with a further 180° rotation (by week 10)",
+      "Caecum descends to the right iliac fossa"
+    ],
+    "lvl": 1,
+    "whys": [
+      "The gut outgrows the abdominal cavity.",
+      "Physiological herniation.",
+      "Happens while outside the abdomen.",
+      "Total rotation 270°.",
+      "Final position of the appendix and caecum."
+    ],
+    "decoys": [
+      [
+        "90° clockwise rotation around the long axis",
+        "That's the stomach, not the midgut."
+      ]
+    ]
+  },
+  {
+    "id": "ldbb9cf01",
+    "lo": "a-142-11",
+    "title": "Aqueous humour flow",
+    "steps": [
+      "Made by the ciliary processes",
+      "Posterior chamber",
+      "Through the pupil",
+      "Anterior chamber",
+      "Trabecular meshwork at the iridocorneal angle",
+      "Canal of Schlemm"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Of the ciliary body.",
+      "Behind the iris, in front of the lens.",
+      "Into the anterior chamber.",
+      "Between the iris and the cornea.",
+      "Blocked in angle-closure glaucoma.",
+      "Then into the episcleral veins."
+    ],
+    "decoys": [
+      [
+        "Vitreous chamber",
+        "Holds the vitreous body behind the lens, not part of aqueous flow."
+      ]
+    ]
+  },
+  {
+    "id": "l1c1c7153",
+    "lo": "a-126-5",
+    "title": "Thyroid descent in the embryo",
+    "steps": [
+      "Thickening of endoderm at the foramen caecum of the tongue",
+      "Descends as the thyroglossal duct",
+      "Passes in front of the hyoid bone",
+      "Reaches its final position below the cricoid (week 7)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Week 4.",
+      "A tube connects it to the tongue.",
+      "So thyroglossal cysts are removed with the middle of the hyoid.",
+      "The duct normally disappears."
+    ],
+    "decoys": [
+      [
+        "Rathke's pouch grows up from the primitive mouth",
+        "That's the anterior pituitary."
+      ]
+    ]
+  },
+  {
+    "id": "l37b75391",
+    "lo": "a-127-18",
+    "title": "Lymph drainage of the head and neck",
+    "steps": [
+      "Superficial ring of nodes (submental, submandibular, parotid, mastoid, occipital)",
+      "Deep cervical nodes along the IJV",
+      "Jugular lymph trunk",
+      "Thoracic duct (left) or right lymphatic duct",
+      "Junction of the internal jugular and subclavian veins"
+    ],
+    "lvl": 1,
+    "whys": [
+      "At the junction of the head and neck.",
+      "All head and neck lymph passes through them.",
+      "Formed from the deep cervical chain.",
+      "Joins the venous angle.",
+      "Lymph returns to the blood."
+    ],
+    "decoys": [
+      [
+        "Para-aortic nodes",
+        "Drain the gonads and kidneys, not the head and neck."
+      ]
+    ]
+  },
+  {
+    "id": "l0875fb53",
+    "lo": "a-136-2",
+    "title": "Permanent tooth eruption",
+    "steps": [
+      "First molars (~6 years)",
+      "Central incisors (~6–8 years)",
+      "Lateral incisors (~7–9 years)",
+      "Canines and premolars (~9–12 years)",
+      "Second molars (~12 years)",
+      "Third molars (17–25 years)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Erupt behind the deciduous teeth.",
+      "Lower usually first.",
+      "Next to the central incisors.",
+      "Premolars replace the deciduous molars.",
+      "The \"12-year molars\".",
+      "Wisdom teeth, often impacted."
+    ],
+    "decoys": [
+      [
+        "Deciduous second molars",
+        "Part of the first set, erupting at 20–30 months."
+      ]
+    ]
+  },
+  {
+    "id": "l5e20c382",
+    "lo": "a-136-9",
+    "title": "Reducing an anterior TMJ dislocation",
+    "steps": [
+      "Sit the patient with the head supported",
+      "Wrap the thumbs and place them on the lower molars",
+      "Press the mandible downwards",
+      "Push the mandible backwards"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Often after sedation or analgesia.",
+      "Protects the thumbs when the jaw snaps shut.",
+      "Frees the head from in front of the articular eminence.",
+      "Guides the head back into the mandibular fossa."
+    ],
+    "decoys": [
+      [
+        "Pull the mandible forwards",
+        "That is the direction it dislocated; it would worsen it."
+      ]
+    ]
+  },
+  {
+    "id": "l448903f5",
+    "lo": "a-141-15",
+    "title": "Male sexual response",
+    "steps": [
+      "Erection (parasympathetic, S2–4)",
+      "Emission (sympathetic, T11–L2)",
+      "Ejaculation (pudendal, bulbospongiosus)",
+      "Detumescence (sympathetic)"
+    ],
+    "lvl": 1,
+    "whys": [
+      "NO relaxes cavernous smooth muscle; \"point\".",
+      "Semen into the prostatic urethra; bladder neck closes; \"shoot\".",
+      "Rhythmic contractions expel semen.",
+      "Arteries constrict, veins drain."
+    ],
+    "decoys": [
+      [
+        "Bladder neck relaxes",
+        "It must close during emission to stop retrograde ejaculation."
+      ]
+    ]
+  },
+  {
+    "id": "l91ce1fdc",
+    "lo": "a-111-6",
+    "title": "Micturition",
+    "steps": [
+      "Filling: sympathetic relaxes detrusor and closes bladder neck",
+      "Stretch afferents signal fullness to the pons",
+      "Cortex allows voiding",
+      "Parasympathetic detrusor contraction",
+      "Pudendal inhibition relaxes the external sphincter"
+    ],
+    "lvl": 1,
+    "whys": [
+      "β3 relaxes the detrusor; α1 contracts the neck.",
+      "Via pelvic nerves S2–4.",
+      "The frontal cortex releases the pontine micturition centre.",
+      "M3 receptors.",
+      "Urine flows."
+    ],
+    "decoys": [
+      [
+        "Sympathetic stimulation contracts the detrusor",
+        "The sympathetic system relaxes the detrusor."
+      ]
+    ]
+  },
+  {
+    "id": "leaf8c9e6",
+    "lo": "a-110-1",
+    "title": "Early embryo",
+    "steps": [
+      "Fertilisation in the ampulla",
+      "Cleavage to a morula",
+      "Blastocyst",
+      "Implantation (end of week 1)",
+      "Bilaminar disc (week 2)",
+      "Gastrulation with the primitive streak (week 3)",
+      "Neurulation"
+    ],
+    "lvl": 1,
+    "whys": [
+      "Forms the zygote.",
+      "Cells divide without growing.",
+      "Inner cell mass and trophoblast.",
+      "Syncytiotrophoblast invades the endometrium.",
+      "Epiblast and hypoblast.",
+      "Three germ layers form.",
+      "The notochord induces the neural plate."
+    ],
+    "decoys": [
+      [
+        "Organogenesis complete (week 3)",
+        "Organs form during weeks 3–8."
+      ]
+    ]
+  },
+  {
+    "id": "lace681e9",
+    "lo": "y2-221-15",
+    "title": "CSF circulation",
+    "steps": [
+      "Choroid plexus (mainly lateral ventricles)",
+      "Lateral ventricles",
+      "Interventricular foramina (of Monro)",
+      "Third ventricle",
+      "Cerebral aqueduct (of Sylvius)",
+      "Fourth ventricle",
+      "Median and lateral apertures (Magendie and Luschka)",
+      "Subarachnoid space and cisterns",
+      "Arachnoid granulations into the superior sagittal sinus"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Makes about 500 mL a day.",
+      "One in each hemisphere.",
+      "Blocked by a colloid cyst → both lateral ventricles dilate.",
+      "Between the two thalami.",
+      "Narrowest point: aqueduct stenosis causes obstructive hydrocephalus.",
+      "In front of the cerebellum.",
+      "Into the subarachnoid space.",
+      "Around the brain and spinal cord.",
+      "Absorption back into venous blood; scarred after meningitis or SAH."
+    ],
+    "decoys": []
+  },
+  {
+    "id": "l24e68662",
+    "lo": "y2-219-31",
+    "title": "Course of the facial nerve",
+    "steps": [
+      "Leaves the brainstem at the cerebellopontine angle",
+      "Internal acoustic meatus",
+      "Geniculate ganglion: greater petrosal nerve",
+      "Tympanic segment on the medial wall of the middle ear",
+      "Mastoid segment: nerve to stapedius, then chorda tympani",
+      "Stylomastoid foramen",
+      "Parotid gland: divides into five branches"
+    ],
+    "lvl": 2,
+    "whys": [
+      "With the vestibulocochlear nerve.",
+      "Enters the temporal bone.",
+      "Lacrimal gland; lesion here gives a dry eye.",
+      "Thin bony cover: at risk in otitis media and surgery.",
+      "Hyperacusis, then lost taste on the anterior two-thirds of the tongue.",
+      "Protected by the mastoid process in adults, not infants.",
+      "Temporal, zygomatic, buccal, marginal mandibular, cervical."
+    ],
+    "decoys": [
+      [
+        "Jugular foramen",
+        "That's IX, X and XI."
+      ]
+    ]
+  },
+  {
+    "id": "l524b8ee6",
+    "lo": "y2-219-36",
+    "title": "Layers of the scalp",
+    "steps": [
+      "Skin",
+      "Dense connective tissue",
+      "Aponeurosis (galea)",
+      "Loose areolar tissue",
+      "Pericranium"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Thick and hairy.",
+      "Holds vessels open, so cuts bleed heavily.",
+      "Cut through it and the wound gapes.",
+      "The danger layer: emissary veins carry infection inwards.",
+      "Periosteum of the skull."
+    ],
+    "decoys": [
+      [
+        "Dura mater",
+        "Inside the skull, not part of the scalp."
+      ]
+    ]
+  },
+  {
+    "id": "lcddfe4a1",
+    "lo": "y2-221-14",
+    "title": "Epidural needle: layers to the epidural space",
+    "steps": [
+      "Skin and subcutaneous fat",
+      "Supraspinous ligament",
+      "Interspinous ligament",
+      "Ligamentum flavum",
+      "Epidural space (loss of resistance)"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Lumbar for labour, any level for surgery.",
+      "Over the tips of the spinous processes.",
+      "Between the spinous processes.",
+      "Tough and elastic: resistance to injection.",
+      "Fat and veins; the catheter is left here."
+    ],
+    "decoys": [
+      [
+        "Arachnoid mater",
+        "Deeper: piercing it means a spinal (subarachnoid) injection."
+      ],
+      [
+        "Posterior longitudinal ligament",
+        "Lies in front of the dural sac, on the back of the vertebral bodies."
+      ]
+    ]
+  },
+  {
+    "id": "l76f49fb0",
+    "lo": "y2-229-19",
+    "title": "Portal blood through the liver",
+    "steps": [
+      "Superior mesenteric and splenic veins join",
+      "Portal vein in the free edge of the lesser omentum",
+      "Porta hepatis: right and left branches",
+      "Hepatic sinusoids",
+      "Central veins",
+      "Hepatic veins",
+      "Inferior vena cava"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Behind the neck of the pancreas at L1.",
+      "With the hepatic artery and bile duct (portal triad).",
+      "Behind the hepatic ducts and artery.",
+      "Mix with hepatic artery blood; hepatocytes process nutrients and drugs.",
+      "At the centre of each lobule.",
+      "Run between the segments.",
+      "Just below the diaphragm."
+    ],
+    "decoys": [
+      [
+        "Left renal vein",
+        "Drains the left kidney, gonad and suprarenal into the IVC, not through the liver."
+      ]
+    ]
+  },
+  {
+    "id": "l98bb31cc",
+    "lo": "y2-220-23",
+    "title": "Arteries of the upper limb",
+    "steps": [
+      "Subclavian artery",
+      "Axillary artery (from the lateral border of the 1st rib)",
+      "Brachial artery (from the lower border of teres major)",
+      "Divides at the neck of the radius in the cubital fossa",
+      "Radial and ulnar arteries",
+      "Superficial and deep palmar arches"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Arches over the 1st rib behind scalenus anterior.",
+      "Three parts around pectoralis minor.",
+      "Runs with the median nerve; profunda brachii follows the radial nerve.",
+      "Into the radial and ulnar arteries.",
+      "Pulses at the wrist.",
+      "Ulnar mainly superficial, radial mainly deep."
+    ],
+    "decoys": [
+      [
+        "Thoracodorsal artery to the forearm",
+        "It supplies latissimus dorsi, not the forearm."
+      ]
+    ]
+  },
+  {
+    "id": "le995438f",
+    "lo": "y2-210-62",
+    "title": "Arteries of the lower limb",
+    "steps": [
+      "External iliac artery",
+      "Common femoral artery (below the inguinal ligament)",
+      "Superficial femoral artery in the adductor canal",
+      "Popliteal artery (through the adductor hiatus)",
+      "Anterior tibial artery",
+      "Dorsalis pedis"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Runs along the pelvic brim.",
+      "Pulse at the midinguinal point; gives the profunda femoris.",
+      "Common site of atherosclerosis.",
+      "Deepest structure in the popliteal fossa.",
+      "Through the interosseous membrane into the anterior compartment.",
+      "Pulse lateral to the extensor hallucis longus tendon."
+    ],
+    "decoys": [
+      [
+        "Inferior gluteal artery",
+        "Supplies the buttock from the internal iliac."
+      ]
+    ]
+  },
+  {
+    "id": "l5d8594a3",
+    "lo": "y2-209-33",
+    "title": "Venous drainage of the brain",
+    "steps": [
+      "Superior sagittal sinus",
+      "Confluence of the sinuses",
+      "Transverse sinus",
+      "Sigmoid sinus",
+      "Internal jugular vein"
+    ],
+    "lvl": 2,
+    "whys": [
+      "In the attached edge of the falx cerebri; receives CSF from arachnoid granulations.",
+      "Near the internal occipital protuberance, joined by the straight sinus.",
+      "In the attached edge of the tentorium.",
+      "S-shaped groove behind the mastoid (mastoiditis can cause thrombosis).",
+      "Leaves through the jugular foramen."
+    ],
+    "decoys": [
+      [
+        "External jugular vein",
+        "Drains the scalp and face, not the dural sinuses."
+      ]
+    ]
+  },
+  {
+    "id": "lf6a1b996",
+    "lo": "y2-208-34",
+    "title": "Path of sound",
+    "steps": [
+      "Auricle and external acoustic meatus",
+      "Tympanic membrane",
+      "Malleus, incus, stapes",
+      "Oval window",
+      "Cochlea: basilar membrane and hair cells",
+      "Cochlear nerve to the brainstem"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Collect and funnel sound.",
+      "Vibrates with sound.",
+      "Ossicles amplify pressure about 20 times.",
+      "Stapes footplate pushes the perilymph.",
+      "Frequency is mapped along its length.",
+      "Then to the auditory cortex via the medial geniculate nucleus."
+    ],
+    "decoys": [
+      [
+        "Round window first",
+        "The round window bulges to release pressure after the wave passes."
+      ]
+    ]
+  },
+  {
+    "id": "ld05a8f2f",
+    "lo": "y2-204-32",
+    "title": "Taste from the front of the tongue",
+    "steps": [
+      "Taste buds on fungiform papillae",
+      "Lingual nerve",
+      "Chorda tympani",
+      "Facial nerve and geniculate ganglion",
+      "Nucleus of the tractus solitarius",
+      "VPM of the thalamus",
+      "Gustatory cortex (insula)"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Anterior two-thirds.",
+      "Taste fibres travel with it at first.",
+      "Leaves the lingual nerve and crosses the middle ear.",
+      "Cell bodies of the taste neurons.",
+      "In the medulla.",
+      "Relay.",
+      "Conscious taste."
+    ],
+    "decoys": [
+      [
+        "Hypoglossal nerve",
+        "Motor only to the tongue."
+      ]
+    ]
+  },
+  {
+    "id": "l7ca160d5",
+    "lo": "y2-204-34",
+    "title": "Parasympathetic supply to the parotid",
+    "steps": [
+      "Inferior salivatory nucleus (medulla)",
+      "Glossopharyngeal nerve",
+      "Tympanic nerve and plexus",
+      "Lesser petrosal nerve",
+      "Otic ganglion",
+      "Auriculotemporal nerve"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Preganglionic cell bodies.",
+      "Leaves through the jugular foramen.",
+      "On the promontory of the middle ear.",
+      "Through the foramen ovale.",
+      "Synapse, below the foramen ovale.",
+      "Carries postganglionic fibres to the gland."
+    ],
+    "decoys": [
+      [
+        "Chorda tympani",
+        "Supplies the submandibular and sublingual glands instead."
+      ]
+    ]
+  },
+  {
+    "id": "l08f5126d",
+    "lo": "y2-231-7",
+    "title": "Spinothalamic pathway (pain and temperature)",
+    "steps": [
+      "Free nerve endings, first neuron in the dorsal root ganglion",
+      "Synapse in the dorsal horn (substantia gelatinosa)",
+      "Cross in the anterior white commissure",
+      "Ascend in the spinothalamic tract (anterolateral)",
+      "VPL of the thalamus",
+      "Postcentral gyrus (somatosensory cortex)"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Thin fibres enter the dorsal horn.",
+      "Second-order neuron starts.",
+      "Within 1–2 segments of entry.",
+      "On the opposite side.",
+      "Third-order neuron.",
+      "Conscious pain and temperature."
+    ],
+    "decoys": [
+      [
+        "Gracile and cuneate nuclei",
+        "Belong to the dorsal column pathway."
+      ]
+    ]
+  },
+  {
+    "id": "l158085e5",
+    "lo": "y2-213-19",
+    "title": "Path of a DVT to a pulmonary embolus",
+    "steps": [
+      "Thrombus in the deep veins of the calf or thigh",
+      "Iliac veins and IVC",
+      "Right atrium and right ventricle",
+      "Pulmonary trunk",
+      "Pulmonary arteries and their branches"
+    ],
+    "lvl": 2,
+    "whys": [
+      "Proximal (popliteal and above) clots embolise most.",
+      "Large veins with no barrier.",
+      "Passes through the tricuspid and pulmonary valves.",
+      "A large clot can sit across its bifurcation (saddle embolus).",
+      "Blocks perfusion of lung segments."
+    ],
+    "decoys": [
+      [
+        "Left atrium",
+        "Only if there is a hole between the atria (paradoxical embolus)."
+      ]
+    ]
+  },
+  {
+    "id": "ld4fca3ca",
+    "lo": "y2-228-24",
+    "title": "Lymph from the breast through the axilla",
+    "steps": [
+      "Pectoral (anterior) nodes",
+      "Central nodes",
+      "Apical nodes",
+      "Subclavian lymph trunk",
+      "Venous angle (or thoracic duct on the left)"
+    ],
+    "lvl": 2,
+    "whys": [
+      "First to receive most breast lymph.",
+      "In the axillary fat.",
+      "At the top of the axilla (level III).",
+      "Leaves the axilla.",
+      "Lymph returns to the blood."
+    ],
+    "decoys": [
+      [
+        "Popliteal nodes",
+        "Behind the knee, draining the lateral foot."
+      ]
+    ]
+  }
+]

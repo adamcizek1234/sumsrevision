@@ -1,0 +1,128 @@
+{
+  "id": "y2-238",
+  "num": "238",
+  "title": "Diabetes Mellitus 1",
+  "lead": "Richard Chudleigh",
+  "system": "GI & endocrine",
+  "date": "2027-05-17",
+  "los": [
+    {
+      "text": "Describe the clinical features of diabetic ketoacidosis and explain how these relate to the underlying pathophysiology and management.",
+      "sessions": [
+        "Case of the week"
+      ],
+      "section": "Lectures",
+      "n": 1,
+      "html": ""
+    },
+    {
+      "text": "Describe the key investigations used in the diagnosis and monitoring of type 1 diabetes and diabetic ketoacidosis.",
+      "sessions": [
+        "Case of the week"
+      ],
+      "section": "Lectures",
+      "n": 2,
+      "html": ""
+    },
+    {
+      "text": "Explain the pathophysiology of type 1 diabetes and how this relates to its clinical presentation, diagnosis, and long-term management.",
+      "sessions": [
+        "Pathology and biochemistry type 1 DM"
+      ],
+      "section": "Lectures",
+      "n": 3,
+      "html": ""
+    },
+    {
+      "text": "Link the key functional and morphological features of type I diabetes to its clinical signs and symptoms.",
+      "sessions": [
+        "Microvascular complications"
+      ],
+      "section": "Lectures",
+      "n": 4,
+      "html": ""
+    },
+    {
+      "text": "Describe how the system in Wales works with regards to the assessment of new drugs and the process to decide their availability (or not) for prescribing.",
+      "sessions": [
+        "Resource Allocation in a Pharmacy context"
+      ],
+      "section": "Lectures",
+      "n": 5,
+      "html": ""
+    },
+    {
+      "text": "Describe the principles of management of type 1 diabetes, including acute and long-term treatment strategies.",
+      "sessions": [
+        "Insulin management and special circumstances"
+      ],
+      "section": "Lectures",
+      "n": 6,
+      "html": ""
+    },
+    {
+      "text": "Apply the pharmacology of insulin and relevant evidence to be able to choose and manage effective treatment for individual patients",
+      "sessions": [
+        "Insulin management and special circumstances"
+      ],
+      "section": "Lectures",
+      "n": 7,
+      "html": ""
+    },
+    {
+      "text": "Interpret clinical data sets (e.g. blood results, ECGs, imaging, observations) within a gamified, interactive format, applying clinical reasoning to select appropriate responses",
+      "sessions": [
+        "Adam's Data Revision Extravaganza"
+      ],
+      "section": "ICM",
+      "n": 8,
+      "html": ""
+    },
+    {
+      "text": "Demonstrate structured wrist and hand examination, hip examination, knee examination and foot and ankle examinations.",
+      "sessions": [
+        "MSK Review"
+      ],
+      "section": "ICM",
+      "n": 9,
+      "html": ""
+    },
+    {
+      "text": "Analyse clinical findings in the context of anatomical knowledge to identify potential underlying pathologies affecting the wrist and hand, hip, knee or foot and ankle.",
+      "sessions": [
+        "MSK Review"
+      ],
+      "section": "ICM",
+      "n": 10,
+      "html": ""
+    },
+    {
+      "text": "Formulate an appropriate plan for further investigation or referral, based on clinical findings and current guidelines.",
+      "sessions": [
+        "MSK Review"
+      ],
+      "section": "ICM",
+      "n": 11,
+      "html": ""
+    },
+    {
+      "text": "Clearly and concisely present clinical findings from a musculoskeletal examination using appropriate medical terminology and structure.",
+      "sessions": [
+        "MSK Review"
+      ],
+      "section": "ICM",
+      "n": 12,
+      "html": ""
+    },
+    {
+      "text": "Predict the effects of pathology on the anatomy of the gastrointestinal tract",
+      "sessions": [
+        "Gastrointestinal Tract Anatomy & Pathology"
+      ],
+      "section": "Anatomy",
+      "n": 13,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Pathology</th><th>Anatomical basis</th><th>Effects you can predict</th></tr></thead><tbody><tr><td><strong>Oesophageal cancer</strong></td><td>Lower third (adenocarcinoma, Barrett's) or middle (squamous); three narrowings</td><td><ul class=\"cl\"><li>Progressive dysphagia (solids then liquids)</li><li>Spread to the <strong>left recurrent laryngeal nerve</strong> (hoarse), trachea (fistula)</li><li>Lymph to mediastinal and <strong>coeliac</strong> nodes</li></ul></td></tr><tr><td><strong>Hiatus hernia</strong></td><td>Stomach through the <strong>oesophageal hiatus (T10)</strong>; crura weak</td><td>Reflux (lost sphincter angle), rolling type can strangulate</td></tr><tr><td><strong>Peptic ulcer</strong></td><td><strong>Posterior duodenal ulcer</strong> next to the <strong>gastroduodenal artery</strong>; anterior ulcer faces the peritoneal cavity</td><td>Posterior: massive <strong>bleeding</strong>; anterior: <strong>perforation</strong> → air under the diaphragm, peritonitis, shoulder-tip pain</td></tr><tr><td><strong>Gastric cancer</strong></td><td>Lymph via the thoracic duct</td><td><strong>Virchow's node</strong> (left supraclavicular), Sister Mary Joseph nodule (umbilicus), Krukenberg (ovaries)</td></tr><tr><td><strong>Pancreatic head cancer</strong></td><td>CBD passes through the head</td><td><strong>Painless obstructive jaundice</strong>, palpable gallbladder (Courvoisier), duodenal obstruction</td></tr><tr><td><strong>Gallstones</strong></td><td>Hartmann's pouch, cystic duct, CBD, ampulla</td><td>Colic, cholecystitis (Murphy's sign), obstructive jaundice, <strong>gallstone pancreatitis</strong>, gallstone ileus (fistula to duodenum, stuck at the ileocaecal valve)</td></tr><tr><td><strong>Appendicitis</strong></td><td>Midgut visceral pain (T10) then <strong>parietal peritoneum</strong> (somatic)</td><td>Periumbilical pain shifting to the <strong>RIF</strong>; retrocaecal → psoas sign; pelvic → urinary and rectal symptoms</td></tr><tr><td><strong>Small bowel obstruction</strong> (adhesions, hernias)</td><td>Narrow points: hernial necks (femoral below and lateral to the pubic tubercle)</td><td>Colicky pain, vomiting, distension; dilated loops with <strong>valvulae conniventes</strong> across the whole width</td></tr><tr><td><strong>Large bowel obstruction</strong> (cancer, volvulus)</td><td><strong>Sigmoid</strong> on a long mesentery; competent ileocaecal valve</td><td><strong>Closed loop</strong>: caecum dilates most and may perforate (&gt;9–12 cm); haustra don't cross the full width; \"coffee-bean\" sigmoid volvulus</td></tr><tr><td><strong>Colorectal cancer</strong></td><td>Watershed and lymph follow arteries</td><td>Right: anaemia, mass; left: change in bowel habit, obstruction; rectal: bleeding, tenesmus; liver metastases via the <strong>portal vein</strong></td></tr><tr><td><strong>Diverticular disease</strong></td><td>Mucosa herniates where vessels pierce the <strong>sigmoid</strong> wall (no complete longitudinal muscle: taeniae)</td><td>LIF pain, bleeding, abscess, fistula (bladder: pneumaturia)</td></tr><tr><td><strong>Ischaemic colitis</strong></td><td><strong>Watershed areas</strong>: <strong>splenic flexure</strong> (Griffiths' point) and rectosigmoid (Sudeck's point)</td><td>Pain and bloody diarrhoea in older vascular patients</td></tr><tr><td><strong>Portal hypertension</strong></td><td>Portosystemic anastomoses</td><td>Oesophageal varices, caput medusae, rectal varices, splenomegaly, ascites</td></tr><tr><td><strong>Haemorrhoids</strong></td><td>Anal cushions <strong>above the pectinate line</strong> (visceral nerves)</td><td>Painless bright red bleeding; perianal haematoma below the line is painful</td></tr><tr><td><strong>Anal fissure / perianal abscess</strong></td><td>Below the pectinate line (somatic, pudendal); ischioanal fossa</td><td>Very painful; abscesses track to the ischioanal fossa, horseshoe round the back</td></tr></tbody></table></div>"
+    }
+  ],
+  "partial": true
+}

@@ -1,0 +1,88 @@
+{
+  "id": "y1-111",
+  "num": "111",
+  "title": "Renal colic",
+  "los": [
+    {
+      "text": "Describe the common causes, pathophysiology and signs and symptoms of haematuria",
+      "sessions": [
+        "Clin 1: Case presentation"
+      ],
+      "section": "Clinical",
+      "n": 1,
+      "html": "<ul><li><strong>Visible (macroscopic)</strong> vs <strong>non-visible</strong> (dipstick/microscopic, ≥1+ on 2 of 3 tests).<ul><li>Exclude false positives: menstruation, myoglobin, beetroot/rifampicin (red urine, dipstick negative), exercise.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Site</th><th>Causes</th></tr></thead><tbody><tr><td><strong>Kidney</strong></td><td>Glomerular (IgA nephropathy, post-infectious GN: dysmorphic RBCs, casts, proteinuria, ↑BP); RCC; stones; polycystic kidneys; trauma; papillary necrosis</td></tr><tr><td><strong>Ureter</strong></td><td>Stones, urothelial carcinoma</td></tr><tr><td><strong>Bladder</strong></td><td><strong>Urothelial (transitional cell) carcinoma</strong>, infection (cystitis), stones, schistosomiasis</td></tr><tr><td><strong>Prostate/urethra</strong></td><td>BPH, prostate cancer, urethritis, trauma, catheter</td></tr><tr><td><strong>Systemic</strong></td><td>Anticoagulation (still investigate), sickle cell, bleeding disorders</td></tr></tbody></table></div><ul><li><strong>Symptoms</strong>: painless visible haematuria (cancer until proven otherwise)<ul><li>with <strong>loin-to-groin colicky pain</strong> (stone)</li><li>with dysuria/frequency (UTI)</li><li>clots (lower tract bleeding, retention risk).</li></ul></li></ul><div class=\"key\">Painless visible haematuria in an adult = urothelial cancer until proven otherwise.</div>"
+    },
+    {
+      "text": "Describe the investigations and principles of treatment and management of haematuria",
+      "sessions": [
+        "Clin 2: Haematuria assessment and management"
+      ],
+      "section": "Clinical",
+      "n": 2,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Initial tests</th><td>Urine dipstick, <strong>MSU culture</strong>, urine ACR/PCR (glomerular), U&amp;E/eGFR, FBC, clotting, PSA (men, after counselling), BP.</td></tr><tr><th scope=\"row\">2-week-wait urology referral (NICE NG12)</th><td><ul class=\"cl\"><li>Age <strong>≥45</strong> with unexplained visible haematuria (without UTI, or persisting after treated UTI)</li><li>Age <strong>≥60</strong> with non-visible haematuria + dysuria or raised WCC.</li></ul></td></tr><tr><th scope=\"row\">Haematuria clinic (\"one-stop\")</th><td><strong>Flexible cystoscopy</strong> (bladder) + upper tract imaging (<strong>CT urogram</strong> for visible haematuria; USS for non-visible/younger patients).</td></tr><tr><td colspan=\"2\"><strong>Nephrology referral</strong> if glomerular features: proteinuria, ↓ eGFR, hypertension, dysmorphic red cells/casts, age &lt;40 with non-visible haematuria.</td></tr><tr><th scope=\"row\">Management</th><td>Treat cause (antibiotics, stone management, TURBT). Clot retention → <strong>3-way catheter + bladder irrigation</strong>. Resuscitate if heavy bleeding; correct coagulopathy.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the types, pathophysiology, presentations, diagnosis and treatment principles for bladder and upper urinary tract cancer",
+      "sessions": [
+        "Clin 3: Bladder cancer"
+      ],
+      "section": "Clinical",
+      "n": 3,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><td colspan=\"2\"><ul class=\"cl\"><li><strong>Urothelial carcinoma</strong> (~90% bladder cancers; also renal pelvis/ureter).</li><li><strong>Risk factors</strong>: <strong>smoking</strong> (biggest), aromatic amines (dye, rubber, leather industries), cyclophosphamide, pelvic radiotherapy.</li><li><strong>Squamous cell</strong> with schistosomiasis and chronic catheter/stones.</li><li><strong>Adenocarcinoma</strong> with urachal remnant.</li></ul></td></tr><tr><th scope=\"row\">Presentation</th><td>Painless visible haematuria; irritative LUTS (carcinoma in situ); upper tract → loin pain, hydronephrosis.</td></tr><tr><th scope=\"row\">Diagnosis</th><td>Cystoscopy → <strong>TURBT</strong> (diagnosis + staging: must include detrusor muscle); CT urogram; urine cytology; CT chest/abdomen/pelvis for staging.</td></tr><tr><th scope=\"row\">Non-muscle-invasive (Ta, T1, CIS; ~75%)</th><td>TURBT + single intravesical <strong>mitomycin C</strong>; intermediate/high risk → <strong>intravesical BCG</strong>; regular surveillance cystoscopy (high recurrence).</td></tr><tr><th scope=\"row\">Muscle-invasive (≥T2)</th><td>Neoadjuvant cisplatin chemotherapy + <strong>radical cystectomy</strong> with ileal conduit or neobladder, or radical radiotherapy (bladder preservation). Metastatic: chemotherapy, immunotherapy.</td></tr><tr><th scope=\"row\">Upper tract urothelial carcinoma</th><td><strong>Nephroureterectomy</strong> (with bladder cuff); ureteroscopy for staging/low-risk lesions. Associated with Lynch syndrome.</td></tr><tr><th scope=\"row\">Renal cell carcinoma<span class=\"paren\">(different, from tubules)</span></th><td>Haematuria, loin pain, mass; often incidental on imaging. Rx: partial/radical nephrectomy.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the investigations and principles of treatment and management of urinary stone disease",
+      "sessions": [
+        "Clin 4: Principles of management of urinary stone disease"
+      ],
+      "section": "Clinical",
+      "n": 4,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Presentation</th><td>Sudden severe <strong>loin-to-groin colic</strong>, restless patient, nausea/vomiting, haematuria. Fever + obstructed kidney = emergency.</td></tr><tr><th scope=\"row\">Ix</th><td><ul class=\"cl\"><li>Urine dipstick (blood), MSU, U&amp;E, Ca²⁺, urate, FBC/CRP.</li><li><strong>Non-contrast CT KUB within 24 h</strong> (gold standard; USS in pregnancy/children).</li><li>Stone analysis.</li></ul></td></tr><tr><th scope=\"row\">Stone types</th><td><strong>Calcium oxalate (~80%)</strong>, calcium phosphate, urate (radiolucent on X-ray, acidic urine; gout, tumour lysis), struvite (Proteus/urease → staghorn), cystine.</td></tr><tr><th scope=\"row\">Acute management</th><td><ul class=\"cl\"><li><strong>NSAID</strong> analgesia first (IM/PR diclofenac or similar) unless contraindicated, then IV paracetamol/opioids; antiemetic.</li><li><strong>&lt;5 mm</strong>: most pass spontaneously → watchful waiting.</li><li><strong>5–10 mm distal ureteric</strong>: <strong>medical expulsive therapy</strong> (alpha-blocker, tamsulosin).</li><li><strong>Larger/failed</strong>: <strong>ureteroscopy</strong> (laser), <strong>shockwave lithotripsy</strong> (ESWL, &lt;2 cm renal), <strong>PCNL</strong> (large/staghorn renal stones).</li></ul></td></tr></tbody></table></div><div class=\"key\">Obstructed <strong>and</strong> infected kidney (fever, sepsis) → urgent decompression: <strong>nephrostomy</strong> or retrograde <strong>JJ stent</strong> + IV antibiotics.</div><ul><li><strong>Prevention</strong>: fluids &gt;2.5 L/day, ↓ salt and animal protein, normal calcium intake; potassium citrate (low citrate), thiazides (hypercalciuria), allopurinol (urate).</li></ul>"
+    },
+    {
+      "text": "Describe the structure and function of the kidneys",
+      "sessions": [
+        "BMS 1: Kidney structure and function"
+      ],
+      "section": "BMS",
+      "n": 5,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Gross</th><td><ul class=\"cl\"><li>Retroperitoneal, T12–L3 (right slightly lower due to liver).</li><li>Capsule → <strong>cortex</strong> (glomeruli) and <strong>medulla</strong> (pyramids) → papillae → minor calyces → major calyces → renal pelvis → ureter.</li><li>Hilum (anterior → posterior): <strong>vein, artery, pelvis</strong>.</li></ul></td></tr><tr><th scope=\"row\">Blood supply</th><td><ul class=\"cl\"><li>Renal artery</li><li>→ segmental</li><li>→ interlobar</li><li>→ arcuate</li><li>→ interlobular</li><li>→ <strong>afferent arteriole → glomerulus → efferent arteriole</strong></li><li>→ peritubular capillaries / <strong>vasa recta</strong> (juxtamedullary nephrons).</li><li>Kidneys get ~20–25% of cardiac output.</li></ul></td></tr><tr><th scope=\"row\">Nephron<span class=\"paren\">(~1 million per kidney)</span></th><td><ul class=\"cl\"><li>Renal corpuscle (glomerulus + Bowman's capsule) → PCT → loop of Henle → DCT → collecting duct.</li><li>Cortical (85%) and juxtamedullary (long loops; concentrate urine) nephrons.</li></ul></td></tr><tr><th scope=\"row\">Juxtaglomerular apparatus</th><td><strong>Macula densa</strong> (senses NaCl in DCT), <strong>JG cells</strong> (renin), mesangial cells.</td></tr><tr><th scope=\"row\">Functions<span class=\"paren\">(\"A WET BED\")</span></th><td><strong>A</strong>cid–base, <strong>W</strong>ater balance, <strong>E</strong>lectrolytes, <strong>T</strong>oxin/waste removal (urea, creatinine, drugs), <strong>B</strong>lood pressure (RAAS, Na⁺), <strong>E</strong>rythropoietin, <strong>D</strong> (1α-hydroxylation → calcitriol). Also gluconeogenesis.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Explain the processes involved in the formation of urine (filtration, secretion and reabsorption)",
+      "sessions": [
+        "BMS 1: Renal filtration"
+      ],
+      "section": "BMS",
+      "n": 6,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Filtration<span class=\"paren\">(glomerulus)</span></th><td>~<strong>180 L/day</strong>; filtrate = plasma minus proteins/cells. Barrier: fenestrated endothelium, negatively charged <strong>glomerular basement membrane</strong>, <strong>podocyte</strong> slit diaphragms (nephrin).</td></tr><tr><th scope=\"row\">Reabsorption</th><td><ul class=\"cl\"><li><strong>PCT</strong> (~65% of Na⁺ and water): <strong>all glucose and amino acids</strong> (SGLT2, SGLT1), ~80% HCO₃⁻ (via carbonic anhydrase), phosphate, K⁺, urea (~50%). Iso-osmotic.</li><li><strong>Loop of Henle</strong>: descending limb permeable to water only; <strong>thick ascending limb</strong> impermeable to water, reabsorbs Na⁺/K⁺/2Cl⁻ (<strong>NKCC2</strong>; loop diuretics) → dilute tubular fluid; creates <strong>medullary concentration gradient</strong> (countercurrent multiplication; ~25% of Na⁺). Ca²⁺ and Mg²⁺ paracellularly.</li><li><strong>DCT</strong>: <strong>NCC</strong> Na⁺/Cl⁻ (thiazides); Ca²⁺ reabsorption (PTH).</li><li><strong>Collecting duct</strong>: principal cells: <strong>ENaC</strong> Na⁺ in, K⁺ out (<strong>aldosterone</strong>; amiloride, spironolactone); <strong>aquaporin-2</strong> water reabsorption (<strong>ADH</strong>); intercalated cells: H⁺/HCO₃⁻ (acid–base).</li></ul></td></tr><tr><th scope=\"row\">Secretion</th><td>H⁺, K⁺, organic acids/bases and drugs (penicillin, methotrexate) in PCT via OAT/OCT transporters; creatinine (small amount).</td></tr><tr><td colspan=\"2\"><strong>Excretion = filtration − reabsorption + secretion.</strong> Urine output ~1–2 L/day.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Explain how glomerular filtrate forms and the regulation of GFR",
+      "sessions": [
+        "BMS 2: GFR"
+      ],
+      "section": "BMS",
+      "n": 7,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Net filtration pressure</th><td><ul class=\"cl\"><li>Glomerular capillary hydrostatic pressure (~55 mmHg) − Bowman's capsule pressure (~15) − plasma oncotic pressure (~30) ≈ <strong>10 mmHg</strong>.</li><li>GFR = Kf × NFP ≈ <strong>125 mL/min</strong> (~180 L/day).</li></ul></td></tr><tr><th scope=\"row\">Afferent vs efferent arteriole</th><td>Afferent constriction ↓ GFR; efferent constriction ↑ GFR (angiotensin II maintains GFR when perfusion falls).</td></tr><tr><th scope=\"row\">Autoregulation<span class=\"paren\">(MAP ~80–180 mmHg keeps GFR steady)</span></th><td><ul class=\"cl\"><li><strong>Myogenic</strong>: ↑ stretch → afferent constriction.</li><li><strong>Tubuloglomerular feedback</strong>: ↑ NaCl at <strong>macula densa</strong> → adenosine → afferent constriction (and ↓ renin).</li></ul></td></tr><tr><th scope=\"row\">Neurohormonal</th><td>Sympathetic (afferent constriction, ↓ GFR in shock), <strong>angiotensin II</strong> (efferent &gt; afferent constriction), <strong>prostaglandins</strong> (afferent dilation), ANP (↑ GFR).</td></tr></tbody></table></div><div class=\"key\">Drugs: <strong>NSAIDs</strong> (block afferent PG dilation) + <strong>ACEi/ARB</strong> (block efferent constriction) + diuretics (\"triple whammy\") → AKI, especially when dehydrated.</div><ul><li><strong>Measurement</strong>: inulin clearance (gold standard), creatinine clearance (overestimates slightly due to secretion), <strong>eGFR</strong> (CKD-EPI equation). Creatinine depends on muscle mass.</li></ul>"
+    },
+    {
+      "text": "Describe the control of micturition and what the composition of urine should be in health",
+      "sessions": [
+        "BMS 2: Micturition"
+      ],
+      "section": "BMS",
+      "n": 8,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Bladder</th><td>Detrusor (smooth muscle), trigone. <strong>Internal sphincter</strong> (smooth muscle, bladder neck; males), <strong>external sphincter</strong> (striated, voluntary; pudendal nerve S2–4).</td></tr><tr><th scope=\"row\">Storage</th><td><ul class=\"cl\"><li><strong>Sympathetic</strong> (hypogastric nerve, T10–L2) → β3 detrusor relaxation + α1 bladder neck contraction</li><li><strong>Somatic</strong> (pudendal) keeps external sphincter closed.</li><li>Spinal guarding reflex.</li></ul></td></tr><tr><th scope=\"row\">Voiding</th><td><ul class=\"cl\"><li>Stretch receptors</li><li>→ pelvic nerve afferents</li><li>→ <strong>pontine micturition centre</strong> (when socially appropriate, frontal cortex releases inhibition)</li><li>→ <strong>parasympathetic</strong> (pelvic splanchnic S2–4, M3) detrusor contraction + sphincter relaxation.</li></ul></td></tr><tr><td colspan=\"2\"><strong>Capacity</strong> ~400–600 mL; first urge ~150–250 mL.</td></tr><tr><th scope=\"row\">Dysfunction</th><td><ul class=\"cl\"><li>Suprasacral spinal cord lesion → detrusor–sphincter dyssynergia (spastic bladder)</li><li>Sacral/cauda equina lesion → atonic bladder, retention with overflow</li><li>Cortical lesion (stroke, dementia) → urge incontinence.</li></ul></td></tr><tr><th scope=\"row\">Normal urine</th><td><ul class=\"cl\"><li>0.8–2 L/day</li><li>pH ~4.5–8 (typically ~6)</li><li>Specific gravity 1.005–1.030</li><li>Osmolality 50–1200 mOsm/kg</li><li>Contains urea, creatinine, Na⁺, K⁺, Cl⁻, urate.</li><li><strong>No</strong> glucose, significant protein (&lt;150 mg/day), blood, nitrites, leucocytes or bilirubin</li><li>Trace urobilinogen.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the fundamental concepts in psychology and sociology relevant to medicine and health",
+      "sessions": [
+        "MHS 1: Medical psychology 2"
+      ],
+      "section": "MHS",
+      "n": 9,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Learning theories</th><td><strong>Classical conditioning</strong> (Pavlov: anticipatory nausea before chemotherapy), <strong>operant conditioning</strong> (Skinner: reinforcement/punishment shapes behaviour, e.g. illness behaviours rewarded), <strong>social learning</strong> (Bandura: modelling, <strong>self-efficacy</strong>).</td></tr><tr><th scope=\"row\">Cognition</th><td><ul class=\"cl\"><li>Attention</li><li>Perception</li><li>Memory (patients forget ~40–80% of medical information quickly; use chunking, written info, teach-back)</li><li>Heuristics and biases in clinical reasoning (anchoring, availability).</li></ul></td></tr><tr><th scope=\"row\">Development across the lifespan</th><td>Attachment (Bowlby, Ainsworth: secure vs insecure), Piaget's cognitive stages, Erikson's psychosocial stages; ageing.</td></tr><tr><th scope=\"row\">Personality and individual differences</th><td>Big Five; type A behaviour; locus of control.</td></tr><tr><th scope=\"row\">Doctor–patient communication</th><td>Patient-centred consultation (Calgary–Cambridge), ICE (ideas, concerns, expectations), shared decision-making.</td></tr><tr><th scope=\"row\">Adherence</th><td><ul class=\"cl\"><li>~30–50% don't take medicines as prescribed.</li><li>Intentional (beliefs about necessity vs concerns) vs unintentional (forgetting, complexity).</li><li>Improve with simpler regimens, explanation and shared decisions.</li></ul></td></tr><tr><th scope=\"row\">Social factors</th><td>Social support buffers stress; social class and gender shape illness experience and healthcare use; labelling and stigma.</td></tr></tbody></table></div>"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "a-135",
+  "num": "135",
+  "title": "Kidneys and suprarenal glands",
+  "system": "Renal",
+  "los": [
+    {
+      "n": 1,
+      "text": "Identify the external features of the kidney and explain its function",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">External features</th><td><ul class=\"cl\"><li>Bean-shaped, ~11 cm long, ~150 g</li><li><strong>Fibrous capsule</strong></li><li>Convex lateral border</li><li><strong>Hilum</strong> on the medial border (renal vein, artery, pelvis: <strong>VAP</strong> front to back)</li><li>Superior and inferior poles.</li></ul></td></tr><tr><th scope=\"row\">Coverings<span class=\"paren\">(inside → out)</span></th><td>Fibrous capsule → <strong>perirenal fat</strong> → <strong>renal (Gerota's) fascia</strong> (also encloses the suprarenal) → pararenal fat.</td></tr><tr><th scope=\"row\">Functions</th><td><ul class=\"cl\"><li>Filter blood and form urine</li><li>Fluid, electrolyte and acid–base balance</li><li>Remove waste and drugs</li><li>Make <strong>renin, erythropoietin</strong> and <strong>activated vitamin D</strong> (1α-hydroxylation)</li><li>Gluconeogenesis.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Recognise the gross internal features of the kidneys",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Feature</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Cortex</strong></td><td>Outer layer; glomeruli, convoluted tubules; dips between pyramids as <strong>renal columns</strong></td></tr><tr><td><strong>Medulla</strong></td><td>8–18 <strong>renal pyramids</strong> (loops of Henle, collecting ducts); apex = <strong>papilla</strong></td></tr><tr><td><strong>Minor calyces</strong></td><td>Cup each papilla</td></tr><tr><td><strong>Major calyces</strong></td><td>2–3, formed by minor calyces</td></tr><tr><td><strong>Renal pelvis</strong></td><td>Funnel → ureter at the pelviureteric junction</td></tr><tr><td><strong>Renal sinus</strong></td><td>Fat-filled space round the pelvis and vessels at the hilum</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Draw and label diagrams of coronal and transverse sections of the kidney through the hilum",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Coronal section through the hilum</th><th>Transverse section through the hilum</th></tr></thead><tbody><tr><td>Capsule and outer cortex</td><td>Hilum facing <strong>anteromedially</strong></td></tr><tr><td>Renal columns between pyramids</td><td>Vein most anterior, artery in the middle, pelvis most posterior (<strong>VAP</strong>)</td></tr><tr><td>Pyramids with papillae pointing into minor calyces</td><td>Cortex and medulla around the renal sinus</td></tr><tr><td>Minor → major calyces → renal pelvis → ureter</td><td>Psoas medially, quadratus lumborum behind</td></tr><tr><td>Segmental arteries and veins in the sinus fat</td><td>Perirenal fat and renal fascia outside</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "List the anterior visceral relationships of both kidneys",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Right kidney (front)</th><th>Left kidney (front)</th></tr></thead><tbody><tr><td><strong>Suprarenal gland</strong> (upper pole)</td><td><strong>Suprarenal gland</strong> (upper pole, medial)</td></tr><tr><td><strong>Liver</strong> (most of the front, via the hepatorenal pouch)</td><td><strong>Stomach</strong></td></tr><tr><td><strong>2nd part of duodenum</strong> (medial, at the hilum)</td><td><strong>Spleen</strong> (lateral)</td></tr><tr><td><strong>Hepatic flexure</strong> of colon (lower pole)</td><td><strong>Pancreas</strong> (tail and body) and splenic vessels</td></tr><tr><td>Small intestine (jejunum)</td><td><strong>Splenic flexure</strong> and descending colon, jejunum</td></tr></tbody></table></div><ul><li><strong>Behind both</strong>: diaphragm (12th rib, pleura), psoas, quadratus lumborum, transversus abdominis; subcostal, iliohypogastric, ilioinguinal nerves.</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "List the autonomic nervous and arterial supply, and venous and lymphatic drainage of the kidney",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Supply</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Arteries</strong></td><td><ul class=\"cl\"><li><strong>Renal arteries</strong> from the aorta at <strong>L1/2</strong></li><li>Right is longer and passes <strong>behind the IVC</strong> → 5 <strong>segmental (end) arteries</strong> → interlobar → arcuate → interlobular → afferent arterioles.</li><li>Accessory arteries are common</li></ul></td></tr><tr><td><strong>Veins</strong></td><td><ul class=\"cl\"><li>Renal veins → <strong>IVC</strong></li><li><strong>Left renal vein is longer</strong>, crosses <strong>in front of the aorta under the SMA</strong> (nutcracker), and receives the left gonadal and left suprarenal veins</li></ul></td></tr><tr><td><strong>Lymph</strong></td><td><strong>Para-aortic (lumbar) nodes</strong></td></tr><tr><td><strong>Sympathetic</strong></td><td>T10–L1 (lesser and least splanchnic, lumbar splanchnic) via the renal plexus: vasoconstriction, <strong>renin</strong> release (β1), Na⁺ reabsorption</td></tr><tr><td><strong>Parasympathetic</strong></td><td>Vagus (little known function)</td></tr><tr><td><strong>Pain</strong></td><td>Visceral afferents with sympathetics → <strong>loin to groin</strong> pain (T10–L1)</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Describe the adrenal glands' form, relations and functions",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th></th><th>Right suprarenal</th><th>Left suprarenal</th></tr></thead><tbody><tr><td>Shape</td><td><strong>Pyramidal</strong> (triangular)</td><td><strong>Crescent</strong> (semilunar)</td></tr><tr><td>Position</td><td>Upper pole of the right kidney</td><td>Medial border above the hilum</td></tr><tr><td>Relations</td><td>Behind the <strong>IVC</strong> (medially) and liver; diaphragm behind</td><td>Behind the stomach, pancreas and splenic artery; diaphragm behind</td></tr></tbody></table></div><ul><li><strong>Inside renal fascia</strong> but separate compartment, so it stays when the kidney is removed.</li></ul><div class=\"tbl\"><table><thead><tr><th>Layer</th><th>Product</th><th>Function</th></tr></thead><tbody><tr><td>Zona <strong>glomerulosa</strong></td><td><strong>Aldosterone</strong></td><td>Salt and water</td></tr><tr><td>Zona <strong>fasciculata</strong></td><td><strong>Cortisol</strong></td><td>Stress, glucose</td></tr><tr><td>Zona <strong>reticularis</strong></td><td><strong>Androgens</strong></td><td>DHEA (\"salt, sugar, sex\": GFR)</td></tr><tr><td><strong>Medulla</strong></td><td><strong>Adrenaline</strong>, noradrenaline</td><td>Fight or flight</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "List the autonomic nervous and arterial supply, and venous and lymphatic drainage of the adrenal glands",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Supply</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Arteries</strong> (3 each side)</td><td><strong>Superior suprarenal</strong> (inferior phrenic), <strong>middle suprarenal</strong> (aorta), <strong>inferior suprarenal</strong> (renal artery)</td></tr><tr><td><strong>Veins</strong> (one each side)</td><td><strong>Right → IVC</strong> directly (very short: risk at adrenalectomy); <strong>left → left renal vein</strong></td></tr><tr><td><strong>Lymph</strong></td><td>Para-aortic (lumbar) nodes</td></tr><tr><td><strong>Nerves</strong></td><td><strong>Preganglionic sympathetic</strong> fibres (greater splanchnic, T5–9 roughly) go <strong>straight to the medulla</strong> with no ganglion: the chromaffin cells act as postganglionic neurons</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Recognise the kidney in normal radiographs and recognise other methods of visualising the kidneys and urinary system",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Plain X-ray (KUB)</strong>: kidney outlines (psoas shadows, perirenal fat); ~90% of stones are radio-opaque; the left kidney is higher.</li></ul><div class=\"tbl\"><table><thead><tr><th>Method</th><th>Use</th></tr></thead><tbody><tr><td><strong>Ultrasound</strong></td><td>First-line: size, hydronephrosis, cysts, masses; no radiation (pregnancy, children)</td></tr><tr><td><strong>CT KUB</strong> (non-contrast)</td><td><strong>Stones</strong></td></tr><tr><td>CT urogram (contrast)</td><td>Haematuria workup: masses, urothelial tumours</td></tr><tr><td>IVU (old)</td><td>Contrast X-ray of calyces, pelvis, ureters</td></tr><tr><td>MRI</td><td>Masses when contrast CT isn't suitable</td></tr><tr><td><strong>DMSA scan</strong></td><td>Scarring, split function (children with UTIs)</td></tr><tr><td>MAG3 renogram</td><td>Drainage and obstruction</td></tr><tr><td>Micturating cystourethrogram</td><td>Vesicoureteric reflux</td></tr><tr><td>Retrograde pyelogram</td><td>Contrast up the ureter at cystoscopy</td></tr><tr><td>Renal angiography</td><td>Renal artery stenosis</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Identify the muscles of the posterior abdominal wall and explain their actions (psoas major, psoas minor, quadratus lumborum)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Muscle</th><th>Attachments</th><th>Action</th><th>Nerve</th></tr></thead><tbody><tr><td><strong>Psoas major</strong></td><td>T12–L5 bodies, discs, transverse processes → <strong>lesser trochanter</strong> (with iliacus)</td><td><strong>Flexes the hip</strong>; bends the trunk</td><td>Anterior rami L1–3</td></tr><tr><td>Psoas minor (absent in ~40%)</td><td>T12–L1 → pectineal line / iliopubic eminence</td><td>Weak trunk flexion</td><td>L1</td></tr><tr><td><strong>Quadratus lumborum</strong></td><td>Iliac crest → <strong>12th rib</strong> and L1–4 transverse processes</td><td><strong>Lateral flexion</strong> of the trunk; fixes the 12th rib in deep breathing; hitches the hip</td><td>T12–L4</td></tr><tr><td>Iliacus</td><td>Iliac fossa → lesser trochanter</td><td>Hip flexion</td><td>Femoral</td></tr></tbody></table></div><ul><li><strong>Clinical</strong>: psoas abscess (spinal TB, Crohn's) tracks down to the groin below the inguinal ligament<ul><li><strong>psoas sign</strong> (pain on hip extension) in retrocaecal appendicitis.</li></ul></li></ul>"
+    },
+    {
+      "n": 10,
+      "text": "Describe the origin, course and major branches of the abdominal aorta",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Course</strong>: enters through the <strong>aortic hiatus at T12</strong><ul><li>→ down on the vertebral bodies, slightly left of midline</li><li>→ <strong>bifurcates at L4</strong> into the common iliac arteries.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Type</th><th>Branches (level)</th></tr></thead><tbody><tr><td><strong>Unpaired, ventral (gut)</strong></td><td><strong>Coeliac trunk (T12)</strong>, <strong>SMA (L1)</strong>, <strong>IMA (L3)</strong></td></tr><tr><td><strong>Paired, lateral (organs)</strong></td><td>Middle suprarenal (L1), <strong>renal (L1/2)</strong>, <strong>gonadal (L2)</strong></td></tr><tr><td><strong>Paired, body wall</strong></td><td>Inferior phrenic (T12), <strong>lumbar arteries</strong> (L1–4)</td></tr><tr><td><strong>Terminal</strong></td><td>Common iliacs (L4), median sacral</td></tr></tbody></table></div><ul><li><strong>AAA</strong>: usually <strong>infrarenal</strong>; screening by ultrasound for men at 65 (NHS AAA screening programme); repair at ≥5.5 cm.</li></ul>"
+    },
+    {
+      "n": 11,
+      "text": "Construct a labelled diagram of the caval venous system, and identify the important anastomoses",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>IVC</strong>: formed by the <strong>common iliac veins at L5</strong> (behind the right common iliac artery)<ul><li>→ up on the right of the aorta</li><li>→ through the <strong>caval opening of the diaphragm at T8</strong> (in the central tendon)</li><li>→ right atrium.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>IVC tributaries</th><th>Notes</th></tr></thead><tbody><tr><td>Common iliacs</td><td>L5</td></tr><tr><td>Lumbar veins</td><td>Linked by ascending lumbar veins to the azygos system</td></tr><tr><td><strong>Right gonadal</strong></td><td>Directly (left goes to the left renal vein)</td></tr><tr><td><strong>Renal veins</strong></td><td>Left crosses in front of the aorta</td></tr><tr><td><strong>Right suprarenal</strong></td><td>Directly (left to the left renal vein)</td></tr><tr><td>Inferior phrenic</td><td></td></tr><tr><td><strong>Hepatic veins</strong></td><td>Just below the diaphragm</td></tr></tbody></table></div><ul><li><strong>Portal vein</strong>: drains gut, spleen and pancreas to the liver, not the IVC.</li></ul><div class=\"tbl\"><table><thead><tr><th>Important anastomosis</th><th>Between</th><th>Clinical</th></tr></thead><tbody><tr><td><strong>Azygos–caval</strong> (ascending lumbar → azygos/hemiazygos)</td><td>IVC and SVC</td><td>Collateral route if the IVC is blocked</td></tr><tr><td><strong>Portosystemic</strong> (oesophagus, rectum, umbilicus, retroperitoneum)</td><td>Portal and systemic</td><td>Varices, caput medusae, haemorrhoids in portal hypertension</td></tr><tr><td><strong>Superficial epigastric–thoracoepigastric</strong></td><td>Femoral and axillary veins</td><td>Dilated abdominal wall veins flowing upwards in IVC obstruction</td></tr><tr><td>Vertebral venous plexus (Batson's)</td><td>Pelvic veins and vertebral veins (valveless)</td><td>Prostate and breast cancer spread to the spine</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 12,
+      "text": "Identify the surface markings of the abdominal aorta and the caval venous system",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Structure</th><th>Surface marking</th></tr></thead><tbody><tr><td><strong>Aortic hiatus</strong></td><td><strong>T12</strong>, midline</td></tr><tr><td><strong>Aortic bifurcation</strong></td><td><strong>L4</strong>: about the level of the <strong>umbilicus</strong> / iliac crests, slightly left of midline</td></tr><tr><td>Aortic pulse</td><td>Felt by deep palpation above and left of the umbilicus; an expansile mass suggests AAA</td></tr><tr><td><strong>IVC</strong></td><td>Right of the midline, from L5 to the 6th right costal cartilage</td></tr><tr><td><strong>Caval opening</strong></td><td><strong>T8</strong>, right of midline</td></tr><tr><td>Common iliac artery</td><td>Line from the aortic bifurcation to the midinguinal point (upper third)</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 13,
+      "text": "Describe the location of the kidneys within the abdomen",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Level</th><td><strong>T12–L3</strong>; the <strong>right kidney is lower</strong> (by about half a vertebra) because of the liver.</td></tr><tr><th scope=\"row\">Hilum</th><td>at <strong>L1</strong> (transpyloric plane), ~5 cm from the midline.</td></tr><tr><td colspan=\"2\"><strong>Upper poles</strong> are protected by the <strong>11th and 12th ribs</strong>; the kidneys move ~2–3 cm with breathing.</td></tr><tr><td colspan=\"2\"><strong>Retroperitoneal</strong>, in the paravertebral gutters on psoas and quadratus lumborum.</td></tr><tr><th scope=\"row\">Renal angle<span class=\"paren\">(between the 12th rib and erector spinae)</span></th><td>Tenderness suggests pyelonephritis.</td></tr><tr><th scope=\"row\">Palpation</th><td>Bimanual (ballotable) when enlarged; the right lower pole may be felt in thin people.</td></tr></tbody></table></div>"
+    }
+  ]
+}

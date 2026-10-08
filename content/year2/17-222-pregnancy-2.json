@@ -1,0 +1,145 @@
+{
+  "id": "y2-222",
+  "num": "222",
+  "title": "Pregnancy 2",
+  "lead": "Jeremy Gasson",
+  "system": "Reproduction and development",
+  "date": "2027-01-25",
+  "los": [
+    {
+      "text": "Describe clinical findings to the investigation and treatment of pre-eclampsia.",
+      "sessions": [
+        "Pre-eclampsia"
+      ],
+      "section": "Lectures",
+      "n": 1,
+      "html": ""
+    },
+    {
+      "text": "Describe the causes, investigations and treatment of bleeding in pregnancy.",
+      "sessions": [
+        "Bleeding in pregnancy"
+      ],
+      "section": "Lectures",
+      "n": 2,
+      "html": ""
+    },
+    {
+      "text": "Describe the physiological changes that occur in pregnancy.",
+      "sessions": [
+        "Physiology of pregnancy"
+      ],
+      "section": "Lectures",
+      "n": 3,
+      "html": ""
+    },
+    {
+      "text": "Recall key legal issues surrounding the area of pregnancy and childbirth.",
+      "sessions": [
+        "Legal issues in pregnancy"
+      ],
+      "section": "Lectures",
+      "n": 4,
+      "html": ""
+    },
+    {
+      "text": "Recall key legislation surrounding the area and of key cases that have created legal precedent in the area.",
+      "sessions": [
+        "Legal issues in pregnancy"
+      ],
+      "section": "Lectures",
+      "n": 5,
+      "html": ""
+    },
+    {
+      "text": "Explain the law in respect of termination of a foetus (and its legal status prior to birth).",
+      "sessions": [
+        "Legal issues in pregnancy"
+      ],
+      "section": "Lectures",
+      "n": 6,
+      "html": ""
+    },
+    {
+      "text": "Discuss legal aspects of the law surrounding wrongful birth (and the matter of clinical negligence).",
+      "sessions": [
+        "Legal issues in pregnancy"
+      ],
+      "section": "Lectures",
+      "n": 7,
+      "html": ""
+    },
+    {
+      "text": "Describe how to interpret genetic tests",
+      "sessions": [
+        "Interpretation of genetic tests"
+      ],
+      "section": "Lectures",
+      "n": 8,
+      "html": ""
+    },
+    {
+      "text": "Identify the indications and procedure of operative delivery.",
+      "sessions": [
+        "Operative delivery"
+      ],
+      "section": "Lectures",
+      "n": 9,
+      "html": ""
+    },
+    {
+      "text": "Describe the variety of presentations seen in pregnancy",
+      "sessions": [
+        "Twins and abnormal lie (Inc. breech delivery)"
+      ],
+      "section": "Lectures",
+      "n": 10,
+      "html": ""
+    },
+    {
+      "text": "Elicit an obstetric history from a pregnant patient",
+      "sessions": [
+        "History and antenatal exam"
+      ],
+      "section": "ICM",
+      "n": 11,
+      "html": ""
+    },
+    {
+      "text": "Perform a comprehensive antenatal examination, ensuring a thorough assessment of maternal and foetal well-being",
+      "sessions": [
+        "History and antenatal exam"
+      ],
+      "section": "ICM",
+      "n": 12,
+      "html": ""
+    },
+    {
+      "text": "Identify and list potential differential diagnoses for a pregnant patient presenting with symptoms of tiredness, breathlessness, and urinary symptoms",
+      "sessions": [
+        "History and antenatal exam"
+      ],
+      "section": "ICM",
+      "n": 13,
+      "html": ""
+    },
+    {
+      "text": "Identify and interpret clinical signs and symptoms of thyroid disease, including hyperthyroidism and hypothyroidism",
+      "sessions": [
+        "Neck & Thyroid status examination and TFT interpretation"
+      ],
+      "section": "ICM",
+      "n": 14,
+      "html": ""
+    },
+    {
+      "text": "Analyze and interpret thyroid function tests (TFTs) in the context of patient history and clinical findings to support diagnosis of thyroid disorders",
+      "sessions": [
+        "Neck & Thyroid status examination and TFT interpretation"
+      ],
+      "section": "ICM",
+      "n": 15,
+      "html": ""
+    }
+  ]
+}

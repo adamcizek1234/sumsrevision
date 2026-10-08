@@ -1,0 +1,79 @@
+{
+  "id": "y1-102",
+  "num": "102",
+  "title": "Diarrhoea",
+  "los": [
+    {
+      "text": "Describe the main signs, investigations, diagnosis and principles of treatment of diarrhoea (osmotic, secretory, inflammatory, abnormal motility)",
+      "sessions": [
+        "Clin 1: Case presentation"
+      ],
+      "section": "Clinical",
+      "n": 1,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Definition</th><td>≥3 loose/watery stools per day. <strong>Acute</strong> &lt;14 days (mostly infective); <strong>persistent</strong> 14–30 d; <strong>chronic</strong> &gt;4 weeks.</td></tr><tr><th scope=\"row\">History</th><td>Onset, frequency, blood/mucus, nocturnal symptoms (organic cause), travel, food contacts, antibiotics (C. difficile), weight loss, FHx of IBD or colorectal cancer.</td></tr><tr><th scope=\"row\">Signs of dehydration</th><td>Dry mucosa, ↓skin turgor, tachycardia, postural hypotension, oliguria, ↑CRT.</td></tr><tr><th scope=\"row\">Investigations</th><td><ul class=\"cl\"><li>Stool MC&amp;S, ova/cysts/parasites, C. difficile toxin</li><li>FBC, U&amp;E (↓K⁺, AKI), CRP</li><li>Faecal calprotectin (IBD vs IBS)</li><li>Coeliac serology (tTG-IgA)</li><li>TFTs</li><li>FIT</li><li>Colonoscopy if red flags.</li></ul></td></tr><tr><th scope=\"row\">Treatment</th><td><ul class=\"cl\"><li>Oral rehydration (glucose-Na⁺ co-transport still works in secretory diarrhoea)</li><li>IV fluids if severe</li><li>Treat cause</li><li>Antibiotics only for specific organisms or systemic illness.</li></ul></td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Type</th><th>Clue</th><th>Examples</th></tr></thead><tbody><tr><td>Osmotic</td><td>Stops on fasting; ↑stool osmotic gap (&gt;125)</td><td>Lactose intolerance, laxatives (lactulose, Mg²⁺), coeliac</td></tr><tr><td>Secretory</td><td>Persists on fasting; large volume; low gap (&lt;50)</td><td>Cholera, ETEC, VIPoma, carcinoid, bile acid diarrhoea</td></tr><tr><td>Inflammatory</td><td>Blood, pus, fever, ↑calprotectin</td><td>IBD, Shigella, Campylobacter, C. difficile</td></tr><tr><td>Motility</td><td>Alternating habit, no blood</td><td>IBS, hyperthyroidism, diabetic neuropathy</td></tr></tbody></table></div><div class=\"key\">Red flags: rectal bleeding, weight loss, age &gt;50 with change in habit, nocturnal diarrhoea, anaemia, FHx bowel cancer → urgent investigation.</div>"
+    },
+    {
+      "text": "Explain the pathophysiology of diarrhoea (osmotic, secretory, inflammatory, abnormal motility)",
+      "sessions": [
+        "Clin 2: Diarrhoea pathogenesis"
+      ],
+      "section": "Clinical",
+      "n": 2,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Osmotic</th><td><ul class=\"cl\"><li>Poorly absorbed solutes stay in the lumen and pull water in.</li><li>Stool osmotic gap = 290 − 2(Na⁺ + K⁺) is high.</li></ul></td></tr><tr><th scope=\"row\">Secretory</th><td><ul class=\"cl\"><li>Active Cl⁻ secretion via <strong>CFTR</strong> in crypts</li><li>Water follows.</li><li>Cholera toxin → Gs stays on → ↑cAMP → CFTR open.</li><li>ETEC heat-labile toxin works the same way</li><li>Heat-stable toxin → ↑cGMP.</li></ul></td></tr><tr><th scope=\"row\">Inflammatory/exudative</th><td>Mucosal damage → loss of absorptive surface, exudation of blood/protein/mucus, cytokine-driven secretion.</td></tr><tr><th scope=\"row\">Abnormal motility</th><td>Rapid transit → too little contact time for absorption (hyperthyroidism, IBS-D, post-vagotomy). Slow transit can cause bacterial overgrowth → diarrhoea.</td></tr><tr><td colspan=\"2\">Often mixed: e.g. coeliac = osmotic (malabsorbed nutrients) + inflammatory.</td></tr></tbody></table></div><div class=\"key\">Secretory diarrhoea continues when fasting; osmotic diarrhoea stops.</div>"
+    },
+    {
+      "text": "Apply the pharmacology of drugs used to treat diarrhoeal disorders and relevant evidence for their benefits to be able to choose and manage effective treatment for individual patients",
+      "sessions": [
+        "Clin 3: Diarrhoea drugs"
+      ],
+      "section": "Clinical",
+      "n": 3,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Oral rehydration salts (ORS)</th><td>Glucose + Na⁺ co-transport (SGLT1) drags water in. First line, especially in children and the elderly.</td></tr><tr><th scope=\"row\">Loperamide</th><td><ul class=\"cl\"><li>Peripheral μ-opioid agonist</li><li>↓peristalsis, ↑anal tone</li><li>Doesn't cross BBB.</li><li>Avoid in bloody diarrhoea/fever (dysentery) and C. difficile (risk of toxic megacolon).</li></ul></td></tr><tr><th scope=\"row\">Codeine phosphate</th><td>Opioid antimotility; central side effects, dependence.</td></tr><tr><th scope=\"row\">Bismuth subsalicylate</th><td>Antisecretory and mildly antimicrobial; black stools.</td></tr><tr><th scope=\"row\">Bile acid sequestrants<span class=\"paren\">(colestyramine)</span></th><td>Bile acid diarrhoea (e.g. post-ileal resection).</td></tr><tr><th scope=\"row\">Antibiotics</th><td><ul class=\"cl\"><li>Only when indicated.</li><li>Clarithromycin/azithromycin for severe Campylobacter</li><li><strong>C. difficile</strong>: oral vancomycin first line, fidaxomicin second line</li><li>Stop the culprit antibiotic and PPIs.</li></ul></td></tr><tr><th scope=\"row\">Probiotics</th><td>Weak evidence; may reduce antibiotic-associated diarrhoea.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the structure and function of the GI, and secretion and reabsorption of sodium, potassium and water in the various segments of the alimentary canal",
+      "sessions": [
+        "BMS 1: GI structure and function"
+      ],
+      "section": "BMS",
+      "n": 4,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Wall layers</th><td>Mucosa (epithelium, lamina propria, muscularis mucosae) → submucosa (Meissner plexus) → muscularis externa (inner circular, outer longitudinal, Auerbach/myenteric plexus between) → serosa/adventitia.</td></tr><tr><th scope=\"row\">Daily fluid</th><td><ul class=\"cl\"><li>About 9 L enters (2 L diet + 7 L secretions).</li><li>The small intestine absorbs about 7.5 L (mostly jejunum), the colon about 1.4 L, and about 0.1 L is lost in stool.</li></ul></td></tr><tr><th scope=\"row\">Jejunum</th><td>Leaky epithelium; Na⁺ absorbed with glucose/amino acids (SGLT1); water follows passively.</td></tr><tr><th scope=\"row\">Ileum</th><td>Na⁺/H⁺ exchange + Cl⁻/HCO₃⁻ exchange; bile salts and B12 absorbed in the terminal ileum.</td></tr><tr><th scope=\"row\">Colon</th><td><ul class=\"cl\"><li>Tight epithelium.</li><li>Electrogenic Na⁺ absorption via ENaC (↑ by aldosterone) and short-chain fatty acid-coupled uptake.</li><li><strong>K⁺ is secreted</strong>, which is why diarrhoea causes hypokalaemia.</li></ul></td></tr><tr><th scope=\"row\">Secretion</th><td>Cl⁻ via CFTR in crypt cells (cAMP/Ca²⁺-driven); HCO₃⁻ from duodenum/pancreas.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe how nutrients are absorbed across the GI tract and the mechanisms controlling large intestine motility and defecation",
+      "sessions": [
+        "BMS 2: Nutrient absorption and large intestine motility"
+      ],
+      "section": "BMS",
+      "n": 5,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Carbohydrates</th><td>Brush-border disaccharidases → glucose/galactose via <strong>SGLT1</strong> (Na⁺-coupled); fructose via <strong>GLUT5</strong>; all exit basolaterally via <strong>GLUT2</strong>.</td></tr><tr><th scope=\"row\">Proteins</th><td>Peptidases → amino acids (Na⁺-coupled carriers) and di/tripeptides (<strong>PepT1</strong>, H⁺-coupled).</td></tr><tr><th scope=\"row\">Fats</th><td>Bile salt micelles → enterocyte → re-esterified → <strong>chylomicrons</strong> → lacteals/lymph.</td></tr><tr><th scope=\"row\">Others</th><td>Iron and calcium in duodenum; folate in jejunum; <strong>B12 + bile salts in terminal ileum</strong>.</td></tr><tr><th scope=\"row\">Colon motility</th><td>Haustral (segmental) mixing; <strong>mass movements</strong> 1–3×/day, often triggered by the <strong>gastrocolic reflex</strong> after meals.</td></tr><tr><th scope=\"row\">Defecation</th><td><ul class=\"cl\"><li>Rectal distension → <strong>rectoanal inhibitory reflex</strong> (internal sphincter relaxes, involuntary, autonomic).</li><li>Voluntary relaxation of the <strong>external sphincter</strong> and puborectalis (pudendal nerve, S2–4), plus Valsalva.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the main components of the intracellular and extracellular fluid, and how hydrostatic and oncotic pressure influence fluid movement",
+      "sessions": [
+        "BMS 3: ECF, ICF and fluid balance"
+      ],
+      "section": "BMS",
+      "n": 6,
+      "html": "<ul><li><strong>Total body water</strong> ≈ 60% of body weight in men (≈ 42 L in a 70 kg man)<ul><li>⅔ ICF, ⅓ ECF.</li><li>ECF splits ¾ interstitial, ¼ plasma.</li></ul></li><li><strong>ICF</strong>: K⁺ (≈150 mmol/L), Mg²⁺, phosphate, proteins. <strong>ECF</strong>: Na⁺ (≈140), Cl⁻, HCO₃⁻. Gradients are maintained by Na⁺/K⁺-ATPase.</li><li><strong>Starling forces</strong> across capillaries: net filtration = Kf[(Pc − Pi) − σ(πc − πi)].<ul><li><strong>Hydrostatic pressure (Pc)</strong> pushes fluid out; higher at the arteriolar end.</li><li><strong>Oncotic pressure (πc)</strong> from plasma proteins (mainly <strong>albumin</strong>) pulls fluid in.</li></ul></li><li>Net filtration at the arteriolar end and net reabsorption at the venular end. The excess (≈2–4 L/day) returns via <strong>lymphatics</strong>.</li><li>Water crosses cell membranes by osmosis (aquaporins), so ICF/ECF shift with ECF osmolality.</li></ul>"
+    },
+    {
+      "text": "Describe the mechanisms for disordered movement of water and solutes and how this may present",
+      "sessions": [
+        "BMS 3: Oedema"
+      ],
+      "section": "BMS",
+      "n": 7,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Oedema</th><td><ul class=\"cl\"><li>Excess interstitial fluid. Mechanisms:</li><li><strong>↑ capillary hydrostatic pressure</strong>: heart failure, DVT, venous insufficiency, fluid overload, Ca²⁺-channel blockers.</li><li><strong>↓ oncotic pressure</strong> (low albumin): nephrotic syndrome, liver cirrhosis, malnutrition, protein-losing enteropathy.</li><li><strong>↑ capillary permeability</strong>: inflammation, sepsis, burns, anaphylaxis.</li><li><strong>Lymphatic obstruction</strong>: lymphoedema (malignancy, node clearance, filariasis), which is non-pitting.</li></ul></td></tr><tr><th scope=\"row\">Presentation</th><td>Pitting peripheral oedema, sacral oedema in bed-bound patients, ascites, pleural effusion, pulmonary oedema (crackles, orthopnoea).</td></tr><tr><th scope=\"row\">Osmotic shifts</th><td><ul class=\"cl\"><li>Hypotonic ECF (hyponatraemia) → water enters cells → cerebral oedema (confusion, seizures).</li><li>Hypertonic ECF (hypernatraemia, hyperglycaemia) → cells shrink.</li><li>Correct chronic hyponatraemia slowly (≤10 mmol/L per 24 h) to avoid osmotic demyelination.</li></ul></td></tr></tbody></table></div><div class=\"key\">Unilateral swelling → think local (DVT, cellulitis, lymphatic). Bilateral → think systemic (heart, liver, kidney, drugs, low albumin).</div>"
+    },
+    {
+      "text": "Identify the parts of the gastrointestinal tract histologically",
+      "sessions": [
+        "Path: Abdominal cavity pathology"
+      ],
+      "section": "Pathology",
+      "n": 8,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Oesophagus</th><td>Non-keratinised stratified squamous epithelium; submucosal glands; muscle is skeletal (upper third) → mixed → smooth (lower third).</td></tr><tr><th scope=\"row\">Stomach</th><td><ul class=\"cl\"><li>Simple columnar mucus-secreting surface</li><li>Gastric pits/glands with <strong>parietal cells</strong> (HCl, intrinsic factor; eosinophilic) and <strong>chief cells</strong> (pepsinogen; basophilic)</li><li>Rugae</li><li>Extra oblique muscle layer.</li></ul></td></tr><tr><th scope=\"row\">Duodenum</th><td>Villi + <strong>Brunner's glands</strong> in submucosa (alkaline mucus).</td></tr><tr><th scope=\"row\">Jejunum</th><td>Tall, numerous villi; prominent plicae circulares; no Brunner's glands, few Peyer's patches.</td></tr><tr><th scope=\"row\">Ileum</th><td>Shorter villi, more goblet cells, <strong>Peyer's patches</strong> in mucosa/submucosa.</td></tr><tr><th scope=\"row\">Colon</th><td>No villi; straight crypts packed with <strong>goblet cells</strong>; taeniae coli.</td></tr><tr><th scope=\"row\">Anal canal</th><td>Columnar → stratified squamous at the dentate (pectinate) line.</td></tr></tbody></table></div>"
+    }
+  ]
+}

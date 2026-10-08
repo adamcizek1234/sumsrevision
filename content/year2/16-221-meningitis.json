@@ -1,0 +1,290 @@
+{
+  "id": "y2-221",
+  "num": "221",
+  "title": "Meningitis",
+  "lead": "Ed Bevan",
+  "system": "The Nervous System",
+  "date": "2027-01-18",
+  "los": [
+    {
+      "text": "Recall the rationale for contact tracing and chemoprophylaxis for meningococcal disease",
+      "sessions": [
+        "Communicable diseases (V): contact tracing, prophylaxis"
+      ],
+      "section": "Lectures",
+      "n": 1,
+      "html": ""
+    },
+    {
+      "text": "Describe how to determine the need for chemoprophylaxis in individuals in contact with a case of meningococcal disease.",
+      "sessions": [
+        "Communicable diseases (V): contact tracing, prophylaxis"
+      ],
+      "section": "Lectures",
+      "n": 2,
+      "html": ""
+    },
+    {
+      "text": "Identify the key symptoms and signs of encephalitis and investigate appropriately",
+      "sessions": [
+        "Encephalitis"
+      ],
+      "section": "Lectures",
+      "n": 3,
+      "html": ""
+    },
+    {
+      "text": "Identify the CSF changes consistent with viral encephalitis",
+      "sessions": [
+        "Encephalitis"
+      ],
+      "section": "Lectures",
+      "n": 4,
+      "html": ""
+    },
+    {
+      "text": "Identify the main symptoms and signs of Herpes Simplex Encephalitis, select appropriate investigations and plan treatment",
+      "sessions": [
+        "Encephalitis"
+      ],
+      "section": "Lectures",
+      "n": 5,
+      "html": ""
+    },
+    {
+      "text": "Identify the common complications of HSV encephalitis",
+      "sessions": [
+        "Encephalitis"
+      ],
+      "section": "Lectures",
+      "n": 6,
+      "html": ""
+    },
+    {
+      "text": "Recall other causes of encephalitis, both infective and antibody mediated, and select appropriate investigations",
+      "sessions": [
+        "Encephalitis"
+      ],
+      "section": "Lectures",
+      "n": 7,
+      "html": ""
+    },
+    {
+      "text": "Describe when it is safe to undertake a lumbar puncture",
+      "sessions": [
+        "Encephalitis"
+      ],
+      "section": "Lectures",
+      "n": 8,
+      "html": ""
+    },
+    {
+      "text": "Identify the main bacterial and viral pathogens affecting the CNS in different age groups and link them to why the infections differ in those age groups.",
+      "sessions": [
+        "Infective agents in CNS infections"
+      ],
+      "section": "Lectures",
+      "n": 9,
+      "html": ""
+    },
+    {
+      "text": "Link the use of specific vaccines to specific indications, intended outcomes and side effects.",
+      "sessions": [
+        "Diagnosis, treatment, sequelae, prevention intracranial infections"
+      ],
+      "section": "Lectures",
+      "n": 10,
+      "html": ""
+    },
+    {
+      "text": "Link pathological changes in the cranial cavity with symptoms, signs and complications.",
+      "sessions": [
+        "Diagnosis, treatment, sequelae, prevention intracranial infections"
+      ],
+      "section": "Lectures",
+      "n": 11,
+      "html": ""
+    },
+    {
+      "text": "Identify, describe and label the three layers of meninges: the dura mater, the arachnoid mater, and the pia mater and the important structures relating to them.",
+      "sessions": [
+        "Meninges & Ventricles"
+      ],
+      "section": "Anatomy",
+      "n": 12,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Layer</th><th>Structure</th><th>Spaces and features</th></tr></thead><tbody><tr><td><strong>Dura mater</strong></td><td>Tough outer layer; two layers in the skull, one in the spine</td><td><strong>Extradural space</strong> (potential in the skull, real in the spine with fat and veins); dural venous sinuses between its layers</td></tr><tr><td><strong>Arachnoid mater</strong></td><td>Thin, avascular, lies against the dura</td><td><strong>Subdural space</strong> (potential; bridging veins cross it); <strong>arachnoid granulations</strong> project into the sinuses (CSF absorption)</td></tr><tr><td><strong>Pia mater</strong></td><td>Delicate, follows every sulcus; carries vessels</td><td><strong>Subarachnoid space</strong> between arachnoid and pia: <strong>CSF</strong>, cerebral arteries; cisterns where it widens</td></tr></tbody></table></div><ul><li><strong>Spinal cord</strong>: pia forms <strong>denticulate ligaments</strong> (anchor the cord laterally) and the <strong>filum terminale</strong><ul><li>cord ends at <strong>L1/2</strong>, dural sac at <strong>S2</strong>.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Bleed</th><th>Space</th><th>Vessel</th></tr></thead><tbody><tr><td><strong>Extradural</strong></td><td>Between skull and dura</td><td><strong>Middle meningeal artery</strong> (pterion)</td></tr><tr><td><strong>Subdural</strong></td><td>Between dura and arachnoid</td><td><strong>Bridging veins</strong></td></tr><tr><td><strong>Subarachnoid</strong></td><td>Under the arachnoid</td><td><strong>Berry aneurysm</strong> (circle of Willis), trauma</td></tr></tbody></table></div><ul><li><strong>Meningitis</strong> inflames the arachnoid and pia (leptomeninges) and the CSF in between.</li></ul>"
+    },
+    {
+      "text": "Describe the endosteal and meningeal layers of the dura mater, the four septa created by it dividing up the cranial cavity, and the relationship with the major venous sinuses (falx cerebri, tentorium cerebelli, falx cerebelli, diaphragma sellae).",
+      "sessions": [
+        "Meninges & Ventricles"
+      ],
+      "section": "Anatomy",
+      "n": 13,
+      "html": "<ul><li><strong>Cranial dura</strong>: <strong>endosteal layer</strong> (the periosteum of the skull, continuous with pericranium through foramina) and <strong>meningeal layer</strong> (continuous with the spinal dura).<ul><li>They are fused except where they <strong>separate to enclose the dural venous sinuses</strong>, and where the meningeal layer folds inwards as <strong>septa</strong>.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Septum</th><th>Position</th><th>Sinuses in its edges</th></tr></thead><tbody><tr><td><strong>Falx cerebri</strong></td><td>Sickle between the cerebral hemispheres, attached to crista galli in front</td><td><strong>Superior sagittal</strong> (attached edge), <strong>inferior sagittal</strong> (free edge), <strong>straight sinus</strong> (where it meets the tentorium)</td></tr><tr><td><strong>Tentorium cerebelli</strong></td><td>Tent over the cerebellum, under the occipital lobes; free edge forms the <strong>tentorial notch</strong> around the midbrain</td><td><strong>Transverse sinuses</strong> (attached edge), superior petrosal sinuses, straight sinus</td></tr><tr><td><strong>Falx cerebelli</strong></td><td>Small midline fold between the cerebellar hemispheres</td><td><strong>Occipital sinus</strong></td></tr><tr><td><strong>Diaphragma sellae</strong></td><td>Roof over the pituitary fossa, pierced by the stalk</td><td><strong>Intercavernous sinuses</strong></td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Herniation</th><td>Uncus through the tentorial notch (compresses III → dilated pupil); cingulate gyrus under the falx; tonsils through the foramen magnum.</td></tr><tr><th scope=\"row\">Nerve supply</th><td>Dura is pain-sensitive (V above the tentorium, C1–3 and X below): headache.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the anatomical structures encountered during the following procedures: lumbar puncture, spinal (subarachnoid) anaesthetic block, epidural (peridural) anaesthetic block. Explain the indications and risks associated with these techniques.",
+      "sessions": [
+        "Meninges & Ventricles"
+      ],
+      "section": "Anatomy",
+      "n": 14,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Procedure</th><th>Level</th><th>Layers passed</th><th>Needle end point</th></tr></thead><tbody><tr><td><strong>Lumbar puncture</strong></td><td><strong>L3/4 or L4/5</strong> (Tuffier's line at L4)</td><td>Skin, fat, supraspinous, interspinous ligament, <strong>ligamentum flavum</strong>, epidural space, <strong>dura and arachnoid</strong></td><td><strong>Subarachnoid space</strong> (CSF drips back)</td></tr><tr><td><strong>Spinal (subarachnoid) block</strong></td><td>Same, below L1/2</td><td>Same</td><td>Subarachnoid space: small dose of anaesthetic mixes with CSF</td></tr><tr><td><strong>Epidural block</strong></td><td>Any level (lumbar for labour)</td><td>Up to <strong>ligamentum flavum</strong>, then <strong>loss of resistance</strong></td><td><strong>Epidural space</strong> (outside the dura); catheter left in</td></tr><tr><td></td><td>Lumbar puncture</td><td>Spinal block</td><td>Epidural</td></tr><tr><td><strong>Uses</strong></td><td>Diagnose meningitis, SAH (xanthochromia), measure pressure, give drugs</td><td>Caesarean section, lower limb and lower abdominal surgery</td><td>Labour analgesia, post-operative pain relief, surgery</td></tr><tr><td><strong>Onset / dose</strong></td><td>n/a</td><td>Fast, dense, small dose</td><td>Slower, larger volume, can be topped up</td></tr><tr><td><strong>Risks</strong></td><td><strong>Post-dural puncture headache</strong>, infection, bleeding, <strong>coning</strong> if raised ICP with a mass (CT first)</td><td>Hypotension (sympathetic block), high block, headache</td><td>Hypotension, accidental <strong>dural tap</strong>, <strong>epidural haematoma</strong> (anticoagulants) or <strong>abscess</strong> → cord compression, local anaesthetic toxicity</td></tr></tbody></table></div><ul><li><strong>Contraindications</strong>: raised ICP with a mass lesion, coagulopathy, infection at the site, patient refusal.</li></ul>"
+    },
+    {
+      "text": "Identify the components of the ventricular system and link to the production and circulation of cerebrospinal fluid and the functional consequences of obstruction of cerebrospinal fluid drainage.",
+      "sessions": [
+        "Meninges & Ventricles"
+      ],
+      "section": "Anatomy",
+      "n": 15,
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1. Production</th><td><strong>Choroid plexus</strong> (mainly in the lateral ventricles), ~500 mL/day; ~150 mL present at any time.</td></tr><tr><th scope=\"row\">2. Lateral ventricles</th><td><strong>Interventricular foramina (of Monro)</strong> → <strong>3rd ventricle</strong>.</td></tr><tr><th scope=\"row\">3</th><td><strong>Cerebral aqueduct (of Sylvius)</strong> in the midbrain → <strong>4th ventricle</strong>.</td></tr><tr><th scope=\"row\">4</th><td><strong>Median aperture (Magendie)</strong> and <strong>two lateral apertures (Luschka)</strong> → <strong>subarachnoid space</strong> (cisterns, around the brain and cord).</td></tr><tr><th scope=\"row\">5</th><td><strong>Absorption</strong> through <strong>arachnoid granulations</strong> into the <strong>superior sagittal sinus</strong> (venous blood).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Problem</th><th>Type</th><th>Causes</th></tr></thead><tbody><tr><td>Block within the ventricles</td><td><strong>Obstructive (non-communicating) hydrocephalus</strong></td><td><strong>Aqueduct stenosis</strong> (narrowest point), colloid cyst at the foramen of Monro, posterior fossa tumours, Chiari malformation</td></tr><tr><td>Poor absorption</td><td><strong>Communicating hydrocephalus</strong></td><td>After <strong>meningitis</strong> or <strong>SAH</strong> (granulations scarred)</td></tr><tr><td></td><td><strong>Normal pressure hydrocephalus</strong></td><td>Older adults: <strong>gait apraxia, urinary incontinence, dementia</strong> (\"wet, wobbly, wacky\")</td></tr></tbody></table></div><ul><li><strong>Effects</strong>: raised ICP (headache worse lying down and in the morning, vomiting, papilloedema, VI palsy)<ul><li>in infants, an enlarging head and bulging fontanelle (sutures open).</li><li>Treat with a <strong>ventriculoperitoneal shunt</strong> or endoscopic third ventriculostomy.</li></ul></li><li><strong>Never</strong> do an LP when obstructive hydrocephalus or a mass is suspected (risk of coning).</li></ul>"
+    },
+    {
+      "text": "Assess a patient with tremor and determine if the tremor is Benign Essential Tremor or Parkinsonian",
+      "sessions": [
+        "Tremor & Movement disorders"
+      ],
+      "section": "Neuro SDL",
+      "n": 16,
+      "html": ""
+    },
+    {
+      "text": "Identify the key features of idiopathic Parkinson's disease, including common non-motor symptoms",
+      "sessions": [
+        "Tremor & Movement disorders"
+      ],
+      "section": "Neuro SDL",
+      "n": 17,
+      "html": ""
+    },
+    {
+      "text": "Recognise ‘red flag’ symptoms that should prompt consideration of a different diagnosis",
+      "sessions": [
+        "Tremor & Movement disorders"
+      ],
+      "section": "Neuro SDL",
+      "n": 18,
+      "html": ""
+    },
+    {
+      "text": "Formulate an appropriate management plan for someone with PD and understand the role of drugs in the treatment of this condition",
+      "sessions": [
+        "Tremor & Movement disorders"
+      ],
+      "section": "Neuro SDL",
+      "n": 19,
+      "html": ""
+    },
+    {
+      "text": "Recognise the key features of other common movement disorders",
+      "sessions": [
+        "Tremor & Movement disorders"
+      ],
+      "section": "Neuro SDL",
+      "n": 20,
+      "html": ""
+    },
+    {
+      "text": "Describe the main clinical features and principles of management of migraine and cluster headache",
+      "sessions": [
+        "Primary headache disorders"
+      ],
+      "section": "Neuro SDL",
+      "n": 21,
+      "html": ""
+    },
+    {
+      "text": "Describe the assessment and management of a person with neuro-ophthalmological symptoms including: double vision, ptosis, visual field defects, painful visual loss, papilloedema",
+      "sessions": [
+        "Neuro-ophthalmology"
+      ],
+      "section": "Neuro SDL",
+      "n": 22,
+      "html": ""
+    },
+    {
+      "text": "Identify the classic signs and symptoms of MS",
+      "sessions": [
+        "Multiple Sclerosis"
+      ],
+      "section": "Neuro SDL",
+      "n": 23,
+      "html": ""
+    },
+    {
+      "text": "Select appropriate investigations that would enable you to confirm the diagnosis",
+      "sessions": [
+        "Multiple Sclerosis"
+      ],
+      "section": "Neuro SDL",
+      "n": 24,
+      "html": ""
+    },
+    {
+      "text": "Describe the main types of disease course",
+      "sessions": [
+        "Multiple Sclerosis"
+      ],
+      "section": "Neuro SDL",
+      "n": 25,
+      "html": ""
+    },
+    {
+      "text": "Describe principles of treatment",
+      "sessions": [
+        "Multiple Sclerosis"
+      ],
+      "section": "Neuro SDL",
+      "n": 26,
+      "html": ""
+    },
+    {
+      "text": "Identify the precipitants for relapse and disease worsening",
+      "sessions": [
+        "Multiple Sclerosis"
+      ],
+      "section": "Neuro SDL",
+      "n": 27,
+      "html": ""
+    },
+    {
+      "text": "Assess a person presenting with headache and identify the “red flag” features that may indicate a secondary headache disorder",
+      "sessions": [
+        "Acute and serious headaches"
+      ],
+      "section": "Neuro SDL",
+      "n": 28,
+      "html": ""
+    },
+    {
+      "text": "Assess a patient presenting with a primary headache disorder, specifically migraine and cluster headaches and provide a plan for investigation and management",
+      "sessions": [
+        "Acute and serious headaches"
+      ],
+      "section": "Neuro SDL",
+      "n": 29,
+      "html": ""
+    },
+    {
+      "text": "Identify the symptoms and signs of common neurological conditions, investigate and manage appropriately",
+      "sessions": [
+        "Acute and serious headaches"
+      ],
+      "section": "Neuro SDL",
+      "n": 30,
+      "html": ""
+    },
+    {
+      "text": "Describe the assessment and management of a person presenting with dysfunction of the lower cranial nerves, including disorders of the production of speech, swallowing and tongue dysfunction.",
+      "sessions": [
+        "Brain stem dysfunction, including speech and swallowing"
+      ],
+      "section": "Neuro SDL",
+      "n": 31,
+      "html": ""
+    }
+  ],
+  "partial": true
+}

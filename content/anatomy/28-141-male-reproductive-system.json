@@ -1,0 +1,134 @@
+{
+  "id": "a-141",
+  "num": "141",
+  "title": "Male reproductive system",
+  "system": "Reproductive",
+  "los": [
+    {
+      "n": 1,
+      "text": "Describe the anatomical features of the male external genitalia",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Penis</th><td><ul class=\"cl\"><li><strong>Root</strong> (fixed in the superficial perineal pouch: two crura + bulb), <strong>body</strong> (shaft: two corpora cavernosa + corpus spongiosum), <strong>glans</strong> (expanded end of the corpus spongiosum) with the <strong>external urethral meatus</strong></li><li>Corona, prepuce (foreskin), frenulum.</li></ul></td></tr><tr><th scope=\"row\">Scrotum</th><td>Skin pouch holding the testes, divided by a septum; dartos muscle.</td></tr><tr><th scope=\"row\">Supporting ligaments</th><td>Fundiform and suspensory ligaments of the penis.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Identify the components of the male internal genital organs, recall their functions and anatomical relationships, and predict sites of referred pain from pelvic viscera",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Organ</th><th>Function</th><th>Relations</th></tr></thead><tbody><tr><td><strong>Testis</strong></td><td>Sperm and testosterone</td><td>In the scrotum; descended from the posterior abdominal wall</td></tr><tr><td><strong>Epididymis</strong></td><td>Stores and matures sperm</td><td>Along the back of the testis (head, body, tail)</td></tr><tr><td><strong>Vas deferens</strong></td><td>Carries sperm to the ejaculatory duct</td><td>Spermatic cord → deep ring → crosses <strong>over the ureter</strong> → behind the bladder (ampulla)</td></tr><tr><td><strong>Seminal vesicles</strong></td><td>~70% of semen volume (fructose, prostaglandins)</td><td>Behind the bladder, in front of the <strong>rectum</strong>, lateral to the vas ampullae</td></tr><tr><td><strong>Ejaculatory ducts</strong></td><td>Vas + seminal vesicle duct</td><td>Through the prostate → seminal colliculus (prostatic urethra)</td></tr><tr><td><strong>Prostate</strong></td><td>~30% of semen (PSA, zinc, citrate)</td><td>Below the bladder, <strong>in front of the rectum</strong> (felt on DRE), on the pelvic floor</td></tr><tr><td><strong>Bulbourethral glands</strong></td><td>Pre-ejaculate mucus</td><td>Deep perineal pouch</td></tr><tr><td>Referred pain from</td><td>Felt in</td><td>Why</td></tr><tr><td><strong>Testis</strong></td><td><strong>Periumbilical / T10</strong> region and loin</td><td>Testis develops at T10 level, its nerves come with the testicular artery</td></tr><tr><td>Ureter (stone)</td><td>Loin to groin, scrotum</td><td>T11–L2 and genitofemoral nerve</td></tr><tr><td>Prostate, seminal vesicles</td><td>Perineum, lower back, rectum</td><td>S2–4, T11–L2</td></tr><tr><td>Bladder</td><td>Suprapubic area (fundus), perineum and penis tip (neck)</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Label a cross-sectional diagram of the penis taken at any level",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Cross-section of the body of the penis</strong> (dorsal surface at the top):</li></ul><div class=\"tbl\"><table><thead><tr><th>Position</th><th>Structure</th></tr></thead><tbody><tr><td>Dorsal midline (outside Buck's fascia)</td><td><strong>Superficial dorsal vein</strong></td></tr><tr><td>Dorsal midline (inside Buck's fascia)</td><td><strong>Deep dorsal vein</strong> (midline), <strong>dorsal arteries</strong> (either side), <strong>dorsal nerves</strong> (most lateral)</td></tr><tr><td>Paired, dorsal</td><td><strong>Corpora cavernosa</strong>, each with a <strong>deep (cavernosal) artery</strong> in the centre, wrapped in <strong>tunica albuginea</strong></td></tr><tr><td>Single, ventral</td><td><strong>Corpus spongiosum</strong> containing the <strong>spongy urethra</strong></td></tr><tr><td>Around all three</td><td><strong>Deep (Buck's) fascia</strong></td></tr><tr><td>Outside</td><td>Superficial (dartos) fascia, skin</td></tr></tbody></table></div><ul><li><strong>Root (perineum)</strong>: crura (covered by ischiocavernosus) attached to the ischiopubic rami<ul><li>bulb (covered by bulbospongiosus) on the perineal membrane, with the urethra entering it from above.</li></ul></li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Identify the dorsal surface of the penis",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Dorsal surface</th><td><ul class=\"cl\"><li>The surface that faces <strong>forwards/upwards when flaccid</strong> (the opposite side from the urethra).</li><li>It carries the <strong>deep dorsal vein</strong>, <strong>dorsal arteries</strong> and <strong>dorsal nerves</strong>.</li></ul></td></tr><tr><th scope=\"row\">Why \"dorsal\"</th><td>in the erect (anatomical) position the penis points up, so this surface is the back.</td></tr><tr><th scope=\"row\">Ventral (urethral) surface</th><td>The corpus spongiosum and urethra; the frenulum is on this side.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Describe the innervation, arterial supply, venous and lymphatic drainage of the penis",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Supply</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Arteries</strong></td><td><strong>Internal pudendal artery</strong> → <strong>dorsal artery</strong> (skin, glans), <strong>deep artery</strong> (corpora cavernosa: helicine arteries → erection), <strong>artery of the bulb</strong> (spongiosum)</td></tr><tr><td><strong>Veins</strong></td><td><ul class=\"cl\"><li><strong>Deep dorsal vein</strong> → under the pubic symphysis → <strong>prostatic venous plexus</strong></li><li>Superficial dorsal vein → external pudendal → great saphenous</li></ul></td></tr><tr><td><strong>Lymph</strong></td><td>Skin of penis → <strong>superficial inguinal</strong> nodes; glans and erectile tissue → <strong>deep inguinal</strong> and <strong>internal iliac</strong> nodes</td></tr><tr><td><strong>Nerves</strong></td><td><ul class=\"cl\"><li><strong>Sensory</strong>: <strong>dorsal nerve of the penis (pudendal, S2–4)</strong></li><li>Ilioinguinal to the root.</li><li><strong>Autonomic</strong>: cavernous nerves (parasympathetic S2–4: erection; sympathetic T11–L2: emission and detumescence) from the prostatic plexus</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Explain the anatomy of the perineal membrane and superficial perineal pouch in relation to the accumulation of fluids in the male",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Perineal membrane</th><td>Strong fascial sheet across the urogenital triangle between the ischiopubic rami; <strong>separates the deep and superficial pouches</strong>.</td></tr><tr><th scope=\"row\">Superficial perineal pouch</th><td><ul class=\"cl\"><li>Between the perineal membrane and the <strong>membranous layer of superficial fascia (Colles')</strong>.</li><li>Contains the root of the penis, ischiocavernosus, bulbospongiosus, superficial transverse perineal muscles.</li></ul></td></tr><tr><th scope=\"row\">Colles' fascia attachments</th><td><ul class=\"cl\"><li>Fused to the <strong>perineal membrane</strong> behind and the <strong>fascia lata</strong> below the inguinal ligament at the sides</li><li>Continuous with <strong>dartos</strong> (scrotum, penis) and <strong>Scarpa's fascia</strong> of the abdominal wall.</li></ul></td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Injury</th><th>What happens</th></tr></thead><tbody><tr><td><strong>Rupture of the spongy urethra</strong> (straddle injury on the bulb)</td><td><ul class=\"cl\"><li>Urine <strong>extravasates into the superficial pouch</strong> → spreads into the <strong>scrotum, penis and up the anterior abdominal wall</strong> (under Scarpa's fascia)</li><li><strong>Not into the thighs</strong> (attachment to fascia lata) or the anal triangle (attachment to perineal membrane)</li></ul></td></tr><tr><td>Membranous urethra rupture (pelvic fracture)</td><td>Urine collects in the deep pouch and extraperitoneal pelvis</td></tr></tbody></table></div><ul><li><strong>Clinical</strong>: blood at the meatus after trauma → don't catheterise (retrograde urethrogram first).</li></ul>"
+    },
+    {
+      "n": 7,
+      "text": "Identify the scrotum and describe its structure, attachments, innervation, arterial supply, venous and lymphatic drainage",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Layers<span class=\"paren\">(out → in)</span></th><td><ul class=\"cl\"><li><strong>Skin</strong></li><li><strong>Dartos</strong> (smooth muscle, wrinkles skin in cold)</li><li>External spermatic fascia</li><li>Cremaster muscle and fascia</li><li>Internal spermatic fascia</li><li><strong>Tunica vaginalis</strong> (parietal and visceral).</li></ul></td></tr><tr><th scope=\"row\">Attachments</th><td>Continuous with the perineum; septum divides it; gubernaculum remnant (scrotal ligament) tethers the testis to the scrotal floor.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Supply</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Arteries</strong></td><td><strong>External pudendal</strong> (femoral) in front; <strong>posterior scrotal</strong> (internal pudendal) behind; cremasteric artery</td></tr><tr><td><strong>Veins</strong></td><td>Follow the arteries → great saphenous and internal pudendal veins</td></tr><tr><td><strong>Lymph</strong></td><td><strong>Superficial inguinal</strong> nodes (not the testis's para-aortic nodes)</td></tr><tr><td><strong>Nerves</strong></td><td>Front: <strong>ilioinguinal</strong> (L1) and <strong>genital branch of genitofemoral</strong> (L1–2); back: <strong>posterior scrotal (pudendal, S3)</strong> and posterior femoral cutaneous (S2)</td></tr></tbody></table></div><ul><li><strong>Temperature</strong>: dartos and cremaster pull the testes up in the cold<ul><li>the <strong>pampiniform plexus</strong> cools arterial blood (counter-current) to ~2–3 °C below core.</li></ul></li></ul>"
+    },
+    {
+      "n": 8,
+      "text": "Identify structures within the spermatic cord",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Contents of the spermatic cord</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Vas deferens</strong></td><td>Firm, cord-like, felt at the back of the cord</td></tr><tr><td><strong>Testicular artery</strong></td><td>From the aorta (L2)</td></tr><tr><td><strong>Pampiniform plexus</strong></td><td>Becomes the testicular vein</td></tr><tr><td>Artery to the vas</td><td>Inferior vesical artery</td></tr><tr><td>Cremasteric artery</td><td>Inferior epigastric</td></tr><tr><td><strong>Genital branch of genitofemoral nerve</strong></td><td>Cremaster muscle (cremasteric reflex)</td></tr><tr><td>Autonomic nerves</td><td>Sympathetic (T10)</td></tr><tr><td>Lymphatics</td><td>To para-aortic nodes</td></tr><tr><td>Processus vaginalis remnant</td><td>Patent → indirect hernia, hydrocele</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Coverings<span class=\"paren\">(from the abdominal wall layers)</span></th><td>External spermatic fascia (external oblique), cremasteric fascia and muscle (internal oblique), internal spermatic fascia (transversalis fascia).</td></tr><tr><th scope=\"row\">Ilioinguinal nerve</th><td>Runs <strong>outside</strong> the cord in the inguinal canal.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Explain the structure of the tunica vaginalis testis",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Tunica vaginalis</th><td>Closed serous sac from the <strong>processus vaginalis</strong> (peritoneum carried down with the testis), which normally closes above.</td></tr><tr><th scope=\"row\">Layers</th><td><strong>Visceral</strong> (on the front and sides of the testis and epididymis) and <strong>parietal</strong> (lining the scrotal layers), with a potential space between.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Abnormality</th><th>Cause</th></tr></thead><tbody><tr><td><strong>Hydrocele</strong></td><td>Fluid in the tunica vaginalis; <strong>transilluminates</strong>; can get above it</td></tr><tr><td>Communicating hydrocele / <strong>indirect inguinal hernia</strong></td><td>Processus vaginalis stays open</td></tr><tr><td>Bell-clapper deformity</td><td>Tunica vaginalis surrounds the whole testis, so it can twist → <strong>torsion</strong></td></tr><tr><td>Haematocele</td><td>Blood after trauma</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 10,
+      "text": "Describe the structure of the testis, epididymis and their coverings",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Structure</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Coverings</strong></td><td>Tunica vaginalis (outside), <strong>tunica albuginea</strong> (tough capsule), tunica vasculosa</td></tr><tr><td><strong>Testis</strong></td><td>Septa divide it into ~250 lobules; each holds <strong>seminiferous tubules</strong> (sperm; Sertoli cells) with <strong>Leydig cells</strong> between (testosterone)</td></tr><tr><td>Ducts</td><td>Tubules → <strong>rete testis</strong> (mediastinum) → <strong>efferent ductules</strong> → <strong>epididymis</strong></td></tr><tr><td><strong>Epididymis</strong></td><td><ul class=\"cl\"><li>Head (on top, receives efferent ductules), body, tail → <strong>vas deferens</strong></li><li>a single coiled duct ~6 m long</li><li>Sperm mature and gain motility over ~12 days</li></ul></td></tr></tbody></table></div><ul><li><strong>Appendix testis</strong> (paramesonephric remnant): can twist (blue dot sign), mimicking torsion.</li></ul>"
+    },
+    {
+      "n": 11,
+      "text": "Describe the autonomic nervous, arterial supply, venous and lymph drainage of the testis and epididymis",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Supply</th><th>Testis and epididymis</th></tr></thead><tbody><tr><td><strong>Arteries</strong></td><td><strong>Testicular artery</strong> (aorta, <strong>L2</strong>); artery to the vas; cremasteric artery</td></tr><tr><td><strong>Veins</strong></td><td><strong>Pampiniform plexus</strong> → testicular vein: <strong>right → IVC</strong>, <strong>left → left renal vein</strong></td></tr><tr><td><strong>Lymph</strong></td><td><strong>Para-aortic (lumbar) nodes</strong> at L1–2</td></tr><tr><td><strong>Autonomic nerves</strong></td><td><ul class=\"cl\"><li>Sympathetic from <strong>T10</strong> (via the renal and aortic plexuses along the testicular artery)</li><li>Visceral afferents → pain referred to the periumbilical region</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 12,
+      "text": "Explain the significance of the arterial supply of the testis in relation to torsion, the venous drainage in relation to varicocoele and the lymphatic drainage in relation to tumour spread",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Feature</th><th>Significance</th></tr></thead><tbody><tr><td><strong>Arterial supply</strong>: one main testicular artery, an end artery in effect</td><td><ul class=\"cl\"><li><strong>Torsion</strong> twists the cord and cuts off the supply → infarction within ~6 hours.</li><li>Sudden severe pain, high-riding horizontal testis, lost cremasteric reflex.</li><li><strong>Emergency surgery</strong>: untwist and fix both testes</li></ul></td></tr><tr><td><strong>Venous drainage</strong>: left testicular vein enters the left renal vein at a right angle; longer; no/fewer valves</td><td><ul class=\"cl\"><li><strong>Varicocele</strong> (bag of worms) usually <strong>left-sided</strong></li><li>a <strong>new left varicocele</strong> in an older man can signal a <strong>left renal tumour</strong> blocking the renal vein</li></ul></td></tr><tr><td><strong>Lymph</strong>: to <strong>para-aortic</strong> nodes (testis descended from there)</td><td><strong>Testicular cancer</strong> spreads to <strong>para-aortic</strong> nodes first (not inguinal); so never biopsy through the scrotum (inguinal orchidectomy)</td></tr><tr><td>Scrotal skin lymph → inguinal nodes</td><td>Scrotal skin cancers spread to inguinal nodes</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 13,
+      "text": "Describe the structure and function of the prostate",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Prostate</strong>: fibromuscular gland around the <strong>prostatic urethra</strong>, below the bladder neck<ul><li>walnut-sized (~20 g)</li><li>base above, apex below on the pelvic floor.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Zone</th><th>% of gland</th><th>Disease</th></tr></thead><tbody><tr><td><strong>Peripheral</strong></td><td>~70% (back and sides)</td><td><strong>Cancer</strong> (~70%); felt on DRE</td></tr><tr><td><strong>Transition</strong></td><td>~5% (around the urethra)</td><td><strong>BPH</strong></td></tr><tr><td>Central</td><td>~25% (around the ejaculatory ducts)</td><td></td></tr><tr><td>Anterior fibromuscular stroma</td><td>Non-glandular</td><td></td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Function</th><td>Secretes ~30% of semen (PSA liquefies semen, zinc, citrate); smooth muscle helps expel semen; contributes to continence (bladder neck).</td></tr><tr><th scope=\"row\">Relations</th><td><ul class=\"cl\"><li>Front = pubic symphysis (retropubic space, prostatic venous plexus)</li><li>Back = <strong>rectum</strong> (separated by <strong>Denonvilliers' fascia</strong>)</li><li>Below = external sphincter, pelvic floor</li><li>Above = bladder neck, seminal vesicles.</li></ul></td></tr><tr><th scope=\"row\">Blood</th><td><ul class=\"cl\"><li>Inferior vesical artery</li><li><strong>Prostatic venous plexus</strong> → internal iliac veins and the <strong>vertebral venous plexus (Batson's)</strong> → spread of cancer to the spine.</li><li><strong>Lymph</strong>: internal iliac nodes.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 14,
+      "text": "Describe the normal form of the prostate when examined per rectum and changes in relation to hypertrophy and malignancy",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th></th><th>Normal</th><th>BPH</th><th>Cancer</th></tr></thead><tbody><tr><td>Size</td><td>Walnut, ~3–4 cm</td><td><strong>Enlarged</strong></td><td>Normal or enlarged</td></tr><tr><td>Surface</td><td><strong>Smooth</strong></td><td><strong>Smooth</strong></td><td><strong>Hard, irregular, craggy nodule(s)</strong></td></tr><tr><td>Consistency</td><td>Rubbery, firm</td><td>Rubbery</td><td>Hard</td></tr><tr><td><strong>Median sulcus</strong></td><td><strong>Palpable</strong> between two lateral lobes</td><td>Often still felt (may be lost)</td><td><strong>Lost/obliterated</strong> in advanced disease</td></tr><tr><td>Edges</td><td>Distinct</td><td>Distinct</td><td>Indistinct, fixed</td></tr><tr><td>Rectal mucosa</td><td>Moves freely over it</td><td>Moves freely</td><td>May be fixed</td></tr></tbody></table></div><ul><li><strong>DRE</strong>: patient on left side, knees up; feel through the anterior rectal wall.</li></ul>"
+    },
+    {
+      "n": 15,
+      "text": "Describe the innervation and mechanisms involved in erection of cavernous tissue and emission and ejaculation",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Stage</th><th>Nerves</th><th>Mechanism</th></tr></thead><tbody><tr><td><strong>Erection</strong></td><td><strong>Parasympathetic</strong> pelvic splanchnic nerves (<strong>S2–4</strong>) → cavernous nerves</td><td><ul class=\"cl\"><li>NO</li><li>→ cGMP</li><li>→ smooth muscle of helicine arteries and sinusoids relaxes</li><li>→ blood fills the corpora cavernosa</li><li>→ veins compressed against the tunica albuginea (venous occlusion)</li><li>Ischiocavernosus and bulbospongiosus (<strong>pudendal</strong>) increase rigidity</li></ul></td></tr><tr><td><strong>Emission</strong></td><td><strong>Sympathetic</strong> (<strong>T11–L2</strong>)</td><td><ul class=\"cl\"><li>Smooth muscle of the epididymis, vas, seminal vesicles and prostate contracts → semen into the prostatic urethra</li><li><strong>Bladder neck closes</strong> (no retrograde ejaculation)</li></ul></td></tr><tr><td><strong>Ejaculation</strong></td><td><strong>Somatic: pudendal</strong> (S2–4) + sympathetic</td><td><strong>Rhythmic contraction of bulbospongiosus</strong> expels semen from the urethra</td></tr><tr><td>Detumescence</td><td>Sympathetic</td><td>Arteries constrict, veins drain</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">\"Point and shoot\"</th><td>Parasympathetic points, Sympathetic shoots (emission), Somatic squirts.</td></tr><tr><th scope=\"row\">Clinical</th><td><ul class=\"cl\"><li>PDE5 inhibitors (sildenafil) keep cGMP high</li><li>Radical prostatectomy and rectal surgery can damage the cavernous nerves</li><li>α-blockers can cause retrograde ejaculation.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 16,
+      "text": "Trace the path of sperm and fluids through the male reproductive tracts",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td><strong>Seminiferous tubules</strong> (sperm produced).</td></tr><tr><th scope=\"row\">2. Rete testis</th><td><strong>Efferent ductules</strong>.</td></tr><tr><th scope=\"row\">3. Epididymis<span class=\"paren\">(head → body → tail)</span></th><td>Storage and maturation.</td></tr><tr><th scope=\"row\">4. Vas deferens</th><td><ul class=\"cl\"><li>Up the spermatic cord</li><li>→ superficial ring</li><li>→ inguinal canal</li><li>→ deep ring</li><li>→ over the external iliac vessels</li><li>→ down the pelvic side wall</li><li>→ crosses <strong>over the ureter</strong></li><li>→ <strong>ampulla</strong> behind the bladder.</li></ul></td></tr><tr><th scope=\"row\">5</th><td><strong>Ejaculatory duct</strong> (vas + seminal vesicle duct) through the prostate.</td></tr><tr><th scope=\"row\">6. Prostatic urethra<span class=\"paren\">(prostatic secretions added)</span></th><td><strong>Membranous urethra</strong> → <strong>spongy urethra</strong> (bulbourethral gland secretions) → <strong>external urethral meatus</strong>.</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Fluids</th><td>Seminal vesicles ~70% (fructose), prostate ~30% (PSA), bulbourethral glands (pre-ejaculate), sperm &lt;5%.</td></tr><tr><th scope=\"row\">Mnemonic<span class=\"paren\">(path)</span></th><td><strong>SEVEN UP</strong>: Seminiferous tubules, Epididymis, Vas deferens, Ejaculatory duct, (Nothing), Urethra, Penis.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 17,
+      "text": "Describe the path of the male urethra and recognise its three parts (prostatic, membranous and spongy), and the position of the external urethral sphincter",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Part</th><th>Length</th><th>Features</th></tr></thead><tbody><tr><td>Preprostatic (bladder neck)</td><td>~1 cm</td><td>Internal urethral sphincter (smooth, sympathetic): prevents retrograde ejaculation</td></tr><tr><td><strong>Prostatic</strong></td><td>~3–4 cm</td><td><strong>Widest, most dilatable</strong>; seminal colliculus with ejaculatory duct openings and prostatic utricle; prostatic ducts</td></tr><tr><td><strong>Membranous</strong></td><td>~1–2 cm</td><td><ul class=\"cl\"><li><strong>Shortest, narrowest, least dilatable</strong></li><li>Passes through the deep perineal pouch, surrounded by the <strong>external urethral sphincter</strong> (voluntary, pudendal)</li><li>Torn in pelvic fractures</li></ul></td></tr><tr><td><strong>Spongy (penile)</strong></td><td>~15 cm</td><td>Longest; in the corpus spongiosum; <strong>bulbourethral gland</strong> ducts open into its proximal part; navicular fossa in the glans</td></tr></tbody></table></div><ul><li><strong>Total</strong> ~18–22 cm; two curves (fixed at the bulb, mobile in the flaccid penis).</li><li><strong>External urethral sphincter</strong>: in the <strong>deep perineal pouch</strong>, around the membranous urethra.</li></ul>"
+    },
+    {
+      "n": 18,
+      "text": "Explain the functions of the bulbourethral glands",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Bulbourethral (Cowper's) glands</th><td><ul class=\"cl\"><li>Pea-sized pair in the <strong>deep perineal pouch</strong>, beside the membranous urethra</li><li>Ducts pierce the perineal membrane to open into the <strong>proximal spongy urethra</strong>.</li></ul></td></tr><tr><th scope=\"row\">Function</th><td>Secrete clear <strong>mucus</strong> (pre-ejaculate) during arousal that <strong>lubricates</strong> the urethra and <strong>neutralises acidic urine</strong> residue before ejaculation, protecting sperm.</td></tr><tr><th scope=\"row\">Female homologue</th><td>Greater vestibular (Bartholin's) glands.</td></tr></tbody></table></div>"
+    }
+  ]
+}

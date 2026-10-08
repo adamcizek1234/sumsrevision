@@ -1,0 +1,64 @@
+{
+  "id": "a-132",
+  "num": "132",
+  "title": "Pancreas and gallbladder",
+  "system": "Gastrointestinal",
+  "los": [
+    {
+      "n": 1,
+      "text": "Describe the position, form and functional anatomy of the gall bladder and biliary tree; their relations in the abdomen and the significance of these relations to gall bladder inflammation and biliary stones",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Gallbladder</th><td><ul class=\"cl\"><li>Pear-shaped sac under the right lobe of the liver (gallbladder fossa)</li><li>Fundus, body, neck (<strong>Hartmann's pouch</strong>, where stones lodge), cystic duct (spiral valves of Heister).</li><li>Stores and concentrates bile (~50 mL).</li></ul></td></tr><tr><th scope=\"row\">Surface marking</th><td>Fundus at the <strong>tip of the right 9th costal cartilage</strong> (where the midclavicular line meets the costal margin).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Relation</th><th>Structure</th><th>Significance</th></tr></thead><tbody><tr><td>Above</td><td>Liver</td><td>Inflammation spreads to the liver bed</td></tr><tr><td>Below / behind</td><td><strong>Duodenum</strong> (1st and 2nd parts), <strong>transverse colon</strong> (hepatic flexure)</td><td>Cholecystoenteric fistula → <strong>gallstone ileus</strong> (stone impacts at the ileocaecal valve)</td></tr><tr><td>In front</td><td>Anterior abdominal wall, peritoneum</td><td>Murphy's sign (somatic pain once the parietal peritoneum is inflamed)</td></tr><tr><td>Diaphragm (via liver)</td><td>Phrenic nerve</td><td>Shoulder-tip pain</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Biliary colic</th><td>Visceral pain in the epigastrium/right upper quadrant (foregut, T6–9), often after fatty food.</td></tr><tr><th scope=\"row\">Cystic artery</th><td><ul class=\"cl\"><li>Usually from the <strong>right hepatic artery</strong>, in <strong>Calot's triangle</strong> (cystic duct, common hepatic duct, inferior border of liver)</li><li>Tied at cholecystectomy.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Describe the journey of bile from the liver to the gallbladder and from the gallbladder to the duodenum",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td><strong>Hepatocytes</strong> secrete bile into <strong>bile canaliculi</strong>.</td></tr><tr><th scope=\"row\">2. Bile ductules<span class=\"paren\">(canals of Hering)</span></th><td><strong>Interlobular bile ducts</strong> in the portal triads.</td></tr><tr><th scope=\"row\">3. Right and left hepatic ducts</th><td><strong>Common hepatic duct</strong>.</td></tr><tr><th scope=\"row\">4</th><td>Sphincter of Oddi closed (fasting) → bile backs up the <strong>cystic duct</strong> into the <strong>gallbladder</strong>, which concentrates it.</td></tr><tr><th scope=\"row\">5</th><td>Food (fat) in the duodenum → <strong>CCK</strong> → gallbladder contracts and the sphincter of Oddi relaxes.</td></tr><tr><th scope=\"row\">6</th><td>Bile flows down the cystic duct → <strong>common bile duct</strong> (behind the 1st part of duodenum, in or behind the head of pancreas).</td></tr><tr><th scope=\"row\">7</th><td>Joins the main pancreatic duct at the <strong>hepatopancreatic ampulla (of Vater)</strong> → <strong>major duodenal papilla</strong> in the <strong>2nd part of the duodenum</strong>.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Identify the head, neck, body and tail of the pancreas",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Part</th><th>Position</th></tr></thead><tbody><tr><td><strong>Head</strong></td><td>In the C-shaped curve of the duodenum, right of the SMV; <strong>uncinate process</strong> hooks behind the SMV/SMA</td></tr><tr><td><strong>Neck</strong></td><td>In front of the <strong>SMV/portal vein</strong> junction (L1, transpyloric plane)</td></tr><tr><td><strong>Body</strong></td><td>Crosses the aorta and left kidney, behind the stomach</td></tr><tr><td><strong>Tail</strong></td><td>Ends in the <strong>splenic hilum</strong> (splenorenal ligament): only intraperitoneal part</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Describe the relationships of the pancreas with other abdominal organs",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Direction</th><th>Relations</th></tr></thead><tbody><tr><td>In front</td><td><strong>Stomach</strong> (separated by the lesser sac), transverse mesocolon</td></tr><tr><td>Behind</td><td><ul class=\"cl\"><li><strong>IVC</strong></li><li><strong>Aorta</strong></li><li><strong>SMA and SMV</strong> (behind the neck, in front of the uncinate)</li><li><strong>Portal vein</strong> formation</li><li><strong>Common bile duct</strong> (behind the head)</li><li>Left renal vein</li><li>Left kidney and suprarenal</li><li><strong>Splenic vein</strong> runs along the back of the body</li></ul></td></tr><tr><td>Right</td><td>2nd part of duodenum</td></tr><tr><td>Left</td><td>Spleen</td></tr></tbody></table></div><ul><li><strong>Retroperitoneal</strong> (except the tail).</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Discuss the significance of these relationships with respect to pancreatitis and biliary stone disease",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Relationship</th><th>Consequence</th></tr></thead><tbody><tr><td>CBD runs through/behind the head and shares the ampulla</td><td><strong>Gallstones</strong> obstructing the ampulla → <strong>acute pancreatitis</strong>; head cancer → <strong>painless obstructive jaundice</strong> with a palpable gallbladder (Courvoisier)</td></tr><tr><td>Behind the stomach, in the lesser sac</td><td>Inflammatory fluid collects there → <strong>pseudocyst</strong>; pain radiates to the <strong>back</strong></td></tr><tr><td>On the coeliac plexus and aorta</td><td>Severe epigastric pain through to the back; coeliac plexus block for cancer pain</td></tr><tr><td>Splenic vein along the back</td><td><strong>Splenic vein thrombosis</strong> → gastric varices</td></tr><tr><td>Neck over the SMV/portal vein</td><td>Tumour invasion decides whether it can be removed</td></tr><tr><td>Retroperitoneal</td><td>Bleeding tracks to the flanks (<strong>Grey Turner's</strong>) and umbilicus (<strong>Cullen's</strong>)</td></tr><tr><td>Head next to the duodenum</td><td>Large tumours or annular pancreas → duodenal obstruction</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Recognise the main duct of the pancreas running the full length of the organ, beginning in the tail and ending in the duodenum at the major duodenal papilla with the bile duct (hepato-pancreatic ampulla of Vater)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Main pancreatic duct (of Wirsung)</th><td>Begins in the <strong>tail</strong>, runs the full length, turns down in the head and joins the <strong>bile duct</strong> at the <strong>hepatopancreatic ampulla (of Vater)</strong> → <strong>major duodenal papilla</strong> (2nd part of the duodenum, ~10 cm from the pylorus).</td></tr><tr><th scope=\"row\">Sphincter of Oddi</th><td>Controls outflow; ERCP passes through it.</td></tr><tr><th scope=\"row\">Accessory duct (of Santorini)</th><td>Drains the upper head via the <strong>minor papilla</strong> (about 2 cm above).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Recognise the arterial supply and venous and lymphatic drainage of the pancreas",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th></th><th>Head</th><th>Neck, body, tail</th></tr></thead><tbody><tr><td><strong>Arteries</strong></td><td><strong>Superior pancreaticoduodenal</strong> (gastroduodenal → coeliac) and <strong>inferior pancreaticoduodenal</strong> (<strong>SMA</strong>): a coeliac–SMA anastomosis</td><td><strong>Splenic artery</strong> branches (dorsal and great pancreatic)</td></tr><tr><td><strong>Veins</strong></td><td>Pancreaticoduodenal veins → SMV and portal vein</td><td><strong>Splenic vein</strong> → portal vein</td></tr><tr><td><strong>Lymph</strong></td><td>Pancreaticoduodenal nodes → superior mesenteric and coeliac nodes</td><td>Pancreaticosplenic nodes → coeliac nodes</td></tr></tbody></table></div><ul><li><strong>Foregut/midgut boundary</strong>: the head sits where coeliac and SMA territories meet, so it has a double supply.</li><li><strong>Endocrine output</strong> (insulin, glucagon) drains into the <strong>portal</strong> system, reaching the liver first.</li></ul>"
+    },
+    {
+      "n": 8,
+      "text": "Recognise the anatomy of the gall bladder and biliary tree on radiographic images and recognise biliary stones",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Test</th><th>Shows</th><th>Use</th></tr></thead><tbody><tr><td><strong>Ultrasound</strong></td><td>Gallstones (bright with an <strong>acoustic shadow</strong>), wall thickening, pericholecystic fluid, dilated ducts</td><td><strong>First-line</strong> for biliary disease</td></tr><tr><td>Plain X-ray</td><td>Only ~10–15% of gallstones are radio-opaque; porcelain gallbladder; air in the biliary tree</td><td>Not used to find stones</td></tr><tr><td><strong>MRCP</strong></td><td>Bile and pancreatic ducts without contrast or instruments</td><td>Duct stones, strictures (diagnostic)</td></tr><tr><td><strong>ERCP</strong></td><td>Ducts filled with contrast via an endoscope</td><td><strong>Treats</strong> CBD stones (sphincterotomy, stone removal, stent); risk of pancreatitis</td></tr><tr><td>CT</td><td>Pancreatitis complications, tumours</td><td>Staging</td></tr></tbody></table></div><ul><li><strong>Normal CBD</strong>: up to ~6 mm (larger after cholecystectomy and with age)<ul><li>dilated ducts above a block suggest a stone or tumour.</li></ul></li></ul>"
+    }
+  ]
+}

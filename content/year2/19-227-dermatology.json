@@ -1,0 +1,227 @@
+{
+  "id": "y2-227",
+  "num": "227",
+  "title": "Dermatology",
+  "lead": "Avad Mughal",
+  "system": "MSK",
+  "date": "2027-03-01",
+  "los": [
+    {
+      "text": "Know epidemiology, pathophysiology and common presentation and relate to structure and function of skin.",
+      "sessions": [
+        "Case presentation: psoriasis"
+      ],
+      "section": "Lectures",
+      "n": 1,
+      "html": ""
+    },
+    {
+      "text": "Assess and diagnose patients with dermatological disease and formulate initial management plan.",
+      "sessions": [
+        "Case presentation: psoriasis"
+      ],
+      "section": "Lectures",
+      "n": 2,
+      "html": ""
+    },
+    {
+      "text": "Know the possibility of comorbidities such as psoriatic arthritis and metabolic syndrome.",
+      "sessions": [
+        "Case presentation: psoriasis"
+      ],
+      "section": "Lectures",
+      "n": 3,
+      "html": ""
+    },
+    {
+      "text": "Know the structure and function of normal skin and relate this knowledge to alterations in the context of disease.",
+      "sessions": [
+        "Structure and function of skin"
+      ],
+      "section": "Lectures",
+      "n": 4,
+      "html": ""
+    },
+    {
+      "text": "Describe pathophysiology related to barrier dysfunction, epidemiology and common presentations (diagnostic features)",
+      "sessions": [
+        "Skin diseases (eczema, psoriasis)"
+      ],
+      "section": "Lectures",
+      "n": 5,
+      "html": ""
+    },
+    {
+      "text": "Describe pathophysiology and epidemiology of skin tumours, link to structure and function. Formulate appropriate management plan",
+      "sessions": [
+        "Skin tumours and Benign skin conditions"
+      ],
+      "section": "Lectures",
+      "n": 6,
+      "html": ""
+    },
+    {
+      "text": "Know the epidemiology, pathophysiology and presentation of benign skin tumours.",
+      "sessions": [
+        "Skin tumours and Benign skin conditions"
+      ],
+      "section": "Lectures",
+      "n": 7,
+      "html": ""
+    },
+    {
+      "text": "Know the aetiology of pruritus (including systemic causes) which investigations are needed and commence management.",
+      "sessions": [
+        "Skin and systemic disease"
+      ],
+      "section": "Lectures",
+      "n": 8,
+      "html": ""
+    },
+    {
+      "text": "Know cutaneous manifestations of paraneoplasia, autoimmune (vitiligo, alopaecia areata), vascular diseases (ulceration and oedema) and others",
+      "sessions": [
+        "Skin and systemic disease"
+      ],
+      "section": "Lectures",
+      "n": 9,
+      "html": ""
+    },
+    {
+      "text": "Apply existing knowledge of microbiology to skin and relate to structure and function",
+      "sessions": [
+        "Skin infections"
+      ],
+      "section": "Lectures",
+      "n": 10,
+      "html": ""
+    },
+    {
+      "text": "Understand pathophysiology and diagnosis of urticaria, TEN/SJS, drug reactions, blistering, erythroderma, eczema herpeticum",
+      "sessions": [
+        "Skin failure and emergency dermatology"
+      ],
+      "section": "Lectures",
+      "n": 11,
+      "html": ""
+    },
+    {
+      "text": "Know the epidemiology, pathophysiology and diagnosis of acne and rosacea and commence management.",
+      "sessions": [
+        "Acne and rosacea"
+      ],
+      "section": "Lectures",
+      "n": 12,
+      "html": ""
+    },
+    {
+      "text": "Appreciate the challenge of dermatology in the junior doctor setting and how to deal with it.",
+      "sessions": [
+        "Virtual skin clinics"
+      ],
+      "section": "Lectures",
+      "n": 13,
+      "html": ""
+    },
+    {
+      "text": "Diagnose common inflammatory skin diseases and formulate management",
+      "sessions": [
+        "Virtual skin clinics"
+      ],
+      "section": "Lectures",
+      "n": 14,
+      "html": ""
+    },
+    {
+      "text": "Formulate the diagnosis and management plan on virtual cases.",
+      "sessions": [
+        "Virtual skin clinics"
+      ],
+      "section": "Lectures",
+      "n": 15,
+      "html": ""
+    },
+    {
+      "text": "Elicit a focused neurological history from a patient with speech impairment, using adapted communication strategies as needed",
+      "sessions": [
+        "Neuro history and exams- cranial, arms and legs with dysarthric patient"
+      ],
+      "section": "ICM",
+      "n": 16,
+      "html": ""
+    },
+    {
+      "text": "Perform a structured neurological examination and propose additional relevant examinations (e.g. cranial nerve, cognitive, or speech assessments) based on clinical findings",
+      "sessions": [
+        "Neuro history and exams- cranial, arms and legs with dysarthric patient"
+      ],
+      "section": "ICM",
+      "n": 17,
+      "html": ""
+    },
+    {
+      "text": "Present the findings of the neurological history and examination using structured and concise medical terminology",
+      "sessions": [
+        "Neuro history and exams- cranial, arms and legs with dysarthric patient"
+      ],
+      "section": "ICM",
+      "n": 18,
+      "html": ""
+    },
+    {
+      "text": "Formulate a list of differential diagnoses based on the neurological history and examination findings",
+      "sessions": [
+        "Neuro history and exams- cranial, arms and legs with dysarthric patient"
+      ],
+      "section": "ICM",
+      "n": 19,
+      "html": ""
+    },
+    {
+      "text": "Define and explain commonly used dermatological descriptive terms (e.g., macule, papule, pustule) to accurately describe skin findings",
+      "sessions": [
+        "Dermatological Examination"
+      ],
+      "section": "ICM",
+      "n": 20,
+      "html": ""
+    },
+    {
+      "text": "Perform a systematic dermatological examination, identifying relevant skin lesions, and present findings in a structured and clear manner",
+      "sessions": [
+        "Dermatological Examination"
+      ],
+      "section": "ICM",
+      "n": 21,
+      "html": ""
+    },
+    {
+      "text": "Identify and classify common dermatological conditions (e.g., eczema, psoriasis, basal cell carcinoma) and recognise characteristic skin lesions",
+      "sessions": [
+        "Dermatological Examination"
+      ],
+      "section": "ICM",
+      "n": 22,
+      "html": ""
+    },
+    {
+      "text": "Perform a swab collection appropriately, ensuring the correct technique, type of swab and site",
+      "sessions": [
+        "Swabs"
+      ],
+      "section": "ICM",
+      "n": 23,
+      "html": ""
+    },
+    {
+      "text": "To be able to identify the layers of the skin histologically and link with function",
+      "sessions": [
+        "Skin"
+      ],
+      "section": "Anatomy",
+      "n": 24,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Layer</th><th>Histology</th><th>Function</th><th>Linked disease</th></tr></thead><tbody><tr><td><strong>Epidermis</strong></td><td>Keratinised stratified squamous epithelium; avascular</td><td>Barrier against water loss, microbes, UV</td><td></td></tr><tr><td>↳ Stratum <strong>basale</strong></td><td>Single row of dividing keratinocytes on the basement membrane; <strong>melanocytes</strong>, <strong>Merkel cells</strong></td><td>Renewal (~4 weeks to reach the surface), pigment, touch</td><td>Basal cell carcinoma; melanoma (melanocytes)</td></tr><tr><td>↳ Stratum <strong>spinosum</strong></td><td>Cells joined by <strong>desmosomes</strong> (\"prickles\"); <strong>Langerhans cells</strong></td><td>Strength; antigen presentation</td><td><strong>Pemphigus</strong> (antibodies to desmosomes); squamous cell carcinoma</td></tr><tr><td>↳ Stratum <strong>granulosum</strong></td><td>Keratohyalin granules; lipid lamellar granules</td><td>Waterproof lipid barrier</td><td>Ichthyosis, eczema (filaggrin)</td></tr><tr><td>↳ Stratum <strong>lucidum</strong></td><td>Clear layer, <strong>thick skin only</strong> (palms, soles)</td><td>Friction resistance</td><td></td></tr><tr><td>↳ Stratum <strong>corneum</strong></td><td>Dead flattened keratin-filled cells</td><td>Main barrier, shed constantly</td><td>Psoriasis (thickened, nuclei retained: parakeratosis)</td></tr><tr><td><strong>Basement membrane / dermo-epidermal junction</strong></td><td><strong>Hemidesmosomes</strong>, rete ridges</td><td>Anchors epidermis</td><td><strong>Bullous pemphigoid</strong> (antibodies to hemidesmosomes)</td></tr><tr><td><strong>Dermis: papillary</strong></td><td>Loose connective tissue in dermal papillae; capillary loops, <strong>Meissner's corpuscles</strong></td><td>Nourishes epidermis, fine touch</td><td></td></tr><tr><td><strong>Dermis: reticular</strong></td><td>Dense irregular connective tissue (<strong>collagen I</strong>, elastin); hair follicles, <strong>sebaceous and sweat glands</strong>, <strong>Pacinian corpuscles</strong>, vessels, nerves</td><td>Strength, elasticity, <strong>thermoregulation</strong> (sweat, vessels)</td><td>Ageing and UV damage (elastosis), striae, Ehlers–Danlos</td></tr><tr><td><strong>Hypodermis (subcutis)</strong></td><td>Adipose tissue, larger vessels</td><td>Insulation, energy store, cushioning</td><td>Cellulitis spreads here; panniculitis</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Thick vs thin skin</th><td><ul class=\"cl\"><li>Thick skin (palms and soles) has a stratum lucidum, a thick corneum and <strong>no hair follicles</strong></li><li>Thin skin has hair and sebaceous glands.</li></ul></td></tr><tr><th scope=\"row\">Glands</th><td>Eccrine sweat glands (everywhere, thermoregulation), apocrine (axilla, groin; open into hair follicles), sebaceous (sebum; acne).</td></tr><tr><td colspan=\"2\"><strong>Mnemonic</strong> for the epidermis from deep to superficial: \"<strong>B</strong>ritish <strong>S</strong>oldiers <strong>G</strong>et <strong>L</strong>ots of <strong>C</strong>ash\".</td></tr></tbody></table></div>"
+    }
+  ],
+  "partial": true
+}

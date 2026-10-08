@@ -1,0 +1,85 @@
+{
+  "id": "a-125",
+  "num": "125",
+  "title": "Hip",
+  "system": "Musculoskeletal",
+  "los": [
+    {
+      "n": 1,
+      "text": "Recognise the structure and describe movements of the hip joint (including the bones fused to create the acetabulum)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Type</th><td>Synovial <strong>ball and socket</strong>; the femoral head sits deep in the acetabulum.</td></tr><tr><th scope=\"row\">Acetabulum</th><td>Formed by the <strong>ilium, ischium and pubis</strong>, which meet at the Y-shaped <strong>triradiate cartilage</strong> (fuses around 15–17 years).</td></tr><tr><th scope=\"row\">Deepened by</th><td>The fibrocartilage <strong>labrum</strong> and the transverse acetabular ligament.</td></tr><tr><th scope=\"row\">Ligament of the head (ligamentum teres)</th><td>Carries a small artery, important in children, minor in adults.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Movement</th><th>Range</th></tr></thead><tbody><tr><td>Flexion</td><td>~120° (knee bent)</td></tr><tr><td>Extension</td><td>~20°</td></tr><tr><td>Abduction / adduction</td><td>~45° / ~30°</td></tr><tr><td>Medial / lateral rotation</td><td>~35° / ~45°</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Identify and explain the actions of the muscles on the hip joint, including flexors, extensors, abductors, medial rotators, adductors and lateral rotators",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Movement</th><th>Muscles</th><th>Nerve</th></tr></thead><tbody><tr><td><strong>Flexion</strong></td><td><strong>Iliopsoas</strong> (strongest), rectus femoris, sartorius, pectineus</td><td>Femoral; psoas from L1–3 directly</td></tr><tr><td><strong>Extension</strong></td><td><strong>Gluteus maximus</strong> (climbing, rising from sitting), hamstrings</td><td>Inferior gluteal (L5–S2); sciatic</td></tr><tr><td><strong>Abduction</strong></td><td><strong>Gluteus medius and minimus</strong>, tensor fasciae latae</td><td><strong>Superior gluteal</strong> (L4–S1)</td></tr><tr><td><strong>Adduction</strong></td><td>Adductor longus, brevis and magnus, gracilis, pectineus</td><td><strong>Obturator</strong> (hamstring part of magnus: tibial)</td></tr><tr><td><strong>Medial rotation</strong></td><td>Anterior fibres of gluteus medius and minimus, TFL</td><td>Superior gluteal</td></tr><tr><td><strong>Lateral rotation</strong></td><td>Piriformis, obturator internus, gemelli, quadratus femoris, obturator externus, gluteus maximus</td><td>Nerves from the sacral plexus</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Describe the structures responsible for the stability of the hip joint and their relative contribution to maintaining the lower limb in different positions",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Bony fit</strong>: the deep acetabulum and labrum hold more than half the head; the most stable joint in the body.</li></ul><div class=\"tbl\"><table><thead><tr><th>Ligament</th><th>Attaches</th><th>Limits</th></tr></thead><tbody><tr><td><strong>Iliofemoral</strong> (Y ligament of Bigelow)</td><td>AIIS → intertrochanteric line</td><td><strong>Hyperextension</strong>; strongest ligament in the body</td></tr><tr><td>Pubofemoral</td><td>Pubis → neck</td><td>Abduction</td></tr><tr><td>Ischiofemoral</td><td>Ischium → neck</td><td>Medial rotation</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Standing</th><td>The line of gravity falls <strong>behind</strong> the hip, so body weight pushes the hip into extension and the iliofemoral ligament takes the load with little muscle work.</td></tr><tr><th scope=\"row\">Close-packed (most stable)</th><td>Extension, medial rotation, abduction. <strong>Least stable</strong>: flexed and adducted (dashboard injury → <strong>posterior dislocation</strong>, sciatic nerve at risk).</td></tr><tr><th scope=\"row\">Single-leg stance</th><td><strong>Gluteus medius and minimus</strong> of the standing leg hold the pelvis level (Trendelenburg).</td></tr><tr><th scope=\"row\">Femoral head blood supply</th><td>Mainly the <strong>medial circumflex femoral artery</strong> (retinacular branches along the neck) → displaced intracapsular neck fractures cause <strong>avascular necrosis</strong> (hence hemiarthroplasty).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Describe the sites of venous access that can be used for 'cut-down' procedures in emergencies",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Site</th><th>Landmark</th><th>Note</th></tr></thead><tbody><tr><td><strong>Great saphenous vein at the ankle</strong></td><td>~1 cm in front of and above the <strong>medial malleolus</strong></td><td>Most reliable site; saphenous nerve lies with it</td></tr><tr><td>Great saphenous at the groin</td><td>~3–4 cm below and lateral to the pubic tubercle (saphenous opening)</td><td>Large vein, high flow</td></tr><tr><td>Femoral vein</td><td><strong>Medial</strong> to the femoral artery pulse just below the inguinal ligament</td><td>NAVY lateral → medial: nerve, artery, vein, Y-fronts</td></tr><tr><td>Basilic / cephalic / median cubital veins</td><td>Antecubital fossa</td><td>Upper limb alternatives</td></tr></tbody></table></div><ul><li><strong>Femoral artery pulse</strong>: at the <strong>midinguinal point</strong> (halfway between ASIS and pubic symphysis).</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Describe the anatomy of the gluteal (buttock) region and the course of the sciatic nerve within it, explaining how to avoid it when giving intramuscular injections",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Muscles</strong>: gluteus maximus (superficial), medius, minimus; <strong>piriformis</strong> is the landmark of the region.</li></ul><div class=\"tbl\"><table><thead><tr><th>Above piriformis (greater sciatic foramen)</th><th>Below piriformis</th></tr></thead><tbody><tr><td><strong>Superior gluteal</strong> nerve and vessels</td><td><ul class=\"cl\"><li>Inferior gluteal nerve and vessels</li><li><strong>Sciatic nerve</strong></li><li>Posterior femoral cutaneous nerve</li><li>Pudendal nerve and internal pudendal vessels</li><li>Nerves to obturator internus and quadratus femoris</li></ul></td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Sciatic nerve course</th><td><ul class=\"cl\"><li>Leaves below piriformis</li><li>→ runs down <strong>midway between the greater trochanter and ischial tuberosity</strong>, deep to gluteus maximus</li><li>→ back of the thigh on adductor magnus</li><li>→ splits above the popliteal fossa.</li></ul></td></tr><tr><th scope=\"row\">IM injections</th><td><ul class=\"cl\"><li>Use the <strong>upper outer quadrant</strong> of the buttock (or the ventrogluteal site in gluteus medius, between ASIS, iliac tubercle and greater trochanter).</li><li>The sciatic nerve lies below a line from the <strong>PSIS to the greater trochanter</strong>, in the lower medial area.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Outline the origin of the lumbosacral plexus, the formation of its major branches and the structures they supply",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Plexus</th><th>Roots</th><th>Branches</th></tr></thead><tbody><tr><td><strong>Lumbar</strong> (forms in psoas)</td><td>T12–L4 anterior rami</td><td>Iliohypogastric (L1), ilioinguinal (L1), genitofemoral (L1–2), lateral femoral cutaneous (L2–3), <strong>femoral (L2–4, posterior divisions)</strong>, <strong>obturator (L2–4, anterior divisions)</strong></td></tr><tr><td><strong>Sacral</strong> (on piriformis)</td><td>L4–S4 (lumbosacral trunk L4–5 joins)</td><td><strong>Sciatic (L4–S3)</strong>, superior gluteal (L4–S1), inferior gluteal (L5–S2), posterior femoral cutaneous (S1–3), <strong>pudendal (S2–4)</strong></td></tr></tbody></table></div><ul><li><strong>Femoral nerve</strong> emerges <strong>lateral</strong> to psoas; <strong>obturator</strong> medial; the lumbosacral trunk crosses the pelvic brim to the sacral plexus.</li></ul>"
+    },
+    {
+      "n": 7,
+      "text": "Recognise the origin, course and function of the sciatic, femoral, obturator, common peroneal (fibular) and tibial nerves, sural and saphenous nerves and summarise the muscles and muscle groups that each supplies as well as their sensory distribution",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Nerve</th><th>Course</th><th>Motor</th><th>Sensory</th></tr></thead><tbody><tr><td><strong>Femoral</strong> (L2–4)</td><td>Lateral to psoas → under the inguinal ligament <strong>lateral to the femoral artery</strong></td><td>Quadriceps, sartorius, pectineus, iliacus</td><td>Anterior thigh</td></tr><tr><td><strong>Saphenous</strong> (femoral)</td><td>Adductor canal → with the great saphenous vein</td><td>None</td><td><strong>Medial leg and foot</strong></td></tr><tr><td><strong>Obturator</strong> (L2–4)</td><td>Medial to psoas → obturator canal</td><td>Adductors, gracilis, obturator externus</td><td>Patch of medial thigh</td></tr><tr><td><strong>Sciatic</strong> (L4–S3)</td><td>Below piriformis → back of thigh → splits at the top of the popliteal fossa</td><td>Hamstrings, hamstring part of adductor magnus</td><td>Via its branches</td></tr><tr><td><strong>Tibial</strong> (L4–S3)</td><td>Popliteal fossa → deep to soleus → behind the medial malleolus (tarsal tunnel) → plantar nerves</td><td>Calf (plantarflexors, toe flexors, tibialis posterior), sole</td><td><strong>Sole</strong></td></tr><tr><td><strong>Common fibular</strong> (L4–S2)</td><td>Along biceps → round the <strong>fibular neck</strong> → splits</td><td>Superficial: fibularis longus and brevis (eversion); deep: tibialis anterior, EHL, EDL (dorsiflexion)</td><td>Superficial: lateral leg and dorsum of foot; deep: <strong>1st web space</strong></td></tr><tr><td><strong>Sural</strong></td><td>From tibial and common fibular branches → with the small saphenous vein behind the lateral malleolus</td><td>None</td><td><strong>Lateral foot</strong>; used for nerve grafts and biopsy</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Explain the anatomical basis for the loss of function resulting from common nerve injuries in the lower limb (sciatic, superior gluteal, tibial and common peroneal (fibular) nerves)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Nerve injured</th><th>Common cause</th><th>Loss</th><th>Sign</th></tr></thead><tbody><tr><td><strong>Sciatic</strong></td><td>Posterior hip dislocation, hip replacement, misplaced injection</td><td>Knee flexion, all movement below the knee</td><td>Foot drop; numb below the knee except the medial side (saphenous)</td></tr><tr><td><strong>Superior gluteal</strong></td><td>Injection, hip surgery</td><td>Gluteus medius and minimus</td><td><strong>Trendelenburg sign</strong>: pelvis drops on the <strong>opposite</strong> side when standing on the affected leg; waddling gait</td></tr><tr><td><strong>Tibial</strong></td><td>Popliteal fossa injury, tarsal tunnel</td><td>Plantarflexion, toe flexion</td><td>Can't stand on tiptoe; numb sole</td></tr><tr><td><strong>Common fibular</strong></td><td><strong>Fibular neck fracture</strong>, tight cast, crossed legs</td><td>Dorsiflexion and eversion</td><td><strong>Foot drop</strong>, high-stepping gait, foot inverted; numb dorsum of foot</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Describe the dermatomes of the lower limb and outline the sensory nerve supply with respect to assessing spinal injuries",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Dermatome</th><th>Area</th></tr></thead><tbody><tr><td>L1</td><td>Groin</td></tr><tr><td>L2</td><td>Upper anterior thigh</td></tr><tr><td>L3</td><td>Lower anterior thigh, knee</td></tr><tr><td><strong>L4</strong></td><td>Medial leg, medial malleolus</td></tr><tr><td><strong>L5</strong></td><td>Lateral leg, dorsum of foot, <strong>big toe</strong></td></tr><tr><td><strong>S1</strong></td><td>Lateral foot, <strong>little toe</strong>, heel</td></tr><tr><td>S2</td><td>Back of the thigh</td></tr><tr><td><strong>S3–5</strong></td><td>Perianal (<strong>saddle</strong>) area</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Spinal injury</th><td>Map the lowest normal dermatome; saddle anaesthesia suggests cauda equina syndrome.</td></tr><tr><th scope=\"row\">Dermatome vs nerve</th><td>L5 root loss covers the big toe and dorsum; common fibular loss spares the sole and adds weak eversion.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 10,
+      "text": "Outline the segmental values for movements and reflexes at the hip, knee, ankle and foot",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Movement</th><th>Root</th><th>Movement</th><th>Root</th></tr></thead><tbody><tr><td>Hip flexion</td><td><strong>L2–3</strong></td><td>Hip extension</td><td><strong>L4–5</strong> (L5–S1)</td></tr><tr><td>Hip adduction</td><td>L2–3</td><td>Hip abduction</td><td>L4–5</td></tr><tr><td>Knee extension</td><td><strong>L3–4</strong></td><td>Knee flexion</td><td><strong>L5–S1</strong></td></tr><tr><td>Ankle dorsiflexion</td><td><strong>L4–5</strong></td><td>Ankle plantarflexion</td><td><strong>S1–2</strong></td></tr><tr><td>Big toe extension</td><td><strong>L5</strong></td><td>Inversion / eversion</td><td>L4 / L5–S1</td></tr><tr><td>Reflex</td><td>Root</td></tr><tr><td>Knee jerk</td><td><strong>L3–4</strong></td></tr><tr><td>Ankle jerk</td><td><strong>S1–2</strong></td></tr><tr><td>Plantar (Babinski)</td><td>L5–S1</td></tr><tr><td>Cremasteric</td><td>L1–2</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 11,
+      "text": "Recognise structures of the hip and lower limb on radiographs",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">AP pelvis</th><td>Femoral head, neck, greater and lesser trochanters, acetabulum, obturator foramen, pubic rami, pubic symphysis, sacroiliac joints, sacrum.</td></tr><tr><th scope=\"row\">Shenton's line</th><td><ul class=\"cl\"><li>Smooth arc along the underside of the femoral neck and top of the obturator foramen</li><li>Broken in a <strong>neck of femur fracture</strong>, dislocation or developmental dysplasia.</li></ul></td></tr><tr><th scope=\"row\">Lesser trochanter</th><td>Looks bigger when the leg is externally rotated (as in a hip fracture: shortened, externally rotated leg).</td></tr><tr><th scope=\"row\">Always</th><td>Look at both hips, and get a lateral view; fractures can be hidden on one view.</td></tr></tbody></table></div>"
+    }
+  ]
+}

@@ -1,0 +1,723 @@
+{
+  "id": "resp",
+  "title": "Respiratory & smoking",
+  "items": [
+    {
+      "id": "short-acting-2-agonists",
+      "name": "Short-acting β2 agonists",
+      "ex": "salbutamol, terbutaline",
+      "uses": [
+        {
+          "t": "Asthma reliever",
+          "k": "y2-204-7"
+        },
+        {
+          "t": "COPD",
+          "k": "y1-103-4"
+        },
+        {
+          "t": "Acute asthma (nebulised)",
+          "k": "y2-204-8"
+        },
+        {
+          "t": "Hyperkalaemia (nebulised)",
+          "k": "y1-135-4"
+        }
+      ],
+      "how": "β2 agonist → ↑ cAMP → bronchial smooth-muscle relaxation",
+      "hx": [
+        [
+          "β2 antagonist → ↓ cAMP → bronchial smooth-muscle relaxation",
+          "It's an agonist; raised cAMP relaxes the muscle."
+        ],
+        [
+          "β1 agonist → ↑ cAMP → bronchial smooth-muscle relaxation",
+          "Airway relaxation is through β2; β1 drives the heart."
+        ],
+        [
+          "Mast-cell stabiliser → ↓ histamine → bronchial smooth-muscle relaxation",
+          "That's cromoglicate; salbutamol relaxes muscle directly through β2."
+        ]
+      ],
+      "se": [
+        "Tremor",
+        "Tachycardia, palpitations",
+        "Hypokalaemia",
+        "Headache",
+        "Muscle cramps",
+        "Lactic acidosis (high dose)"
+      ],
+      "sewhy": "Systemic β2 stimulation causes tremor in skeletal muscle, tachycardia (partly via β1), and drives potassium into cells (hypokalaemia); high doses raise lactate.",
+      "ci": [
+        {
+          "c": "Tachyarrhythmias",
+          "k": "y1-108-3",
+          "why": "Direct β stimulation of the heart",
+          "cau": true,
+          "x": [
+            [
+              "Vagal stimulation of the AV node",
+              "Vagal effects slow the heart; salbutamol stimulates β receptors."
+            ],
+            [
+              "Coronary vasoconstriction",
+              "It doesn't constrict coronaries; it stimulates cardiac β receptors."
+            ],
+            [
+              "QT shortening",
+              "Not the mechanism; direct β stimulation speeds the heart."
+            ]
+          ]
+        },
+        {
+          "c": "Hypokalaemia",
+          "k": "y1-135-4",
+          "why": "Drives K⁺ into cells",
+          "cau": true,
+          "x": [
+            [
+              "Increases urinary K⁺ loss",
+              "The fall is a shift into cells (Na⁺/K⁺-ATPase), not renal loss."
+            ],
+            [
+              "Blocks K⁺ absorption from the gut",
+              "No; it shifts K⁺ into cells."
+            ],
+            [
+              "Drives K⁺ out of cells",
+              "The opposite: it drives K⁺ in (which is why it treats hyperkalaemia)."
+            ]
+          ]
+        },
+        {
+          "c": "Hyperthyroidism",
+          "k": "y1-126-2",
+          "why": "Adds to sympathetic overactivity",
+          "cau": true,
+          "x": [
+            [
+              "Raises thyroxine production",
+              "It doesn't affect the thyroid; it adds to sympathetic effects."
+            ],
+            [
+              "Blocks carbimazole absorption",
+              "No interaction; it adds sympathetic stimulation."
+            ],
+            [
+              "Causes thyroid eye disease",
+              "No; it worsens tremor and tachycardia."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long-acting-2-agonists",
+      "name": "Long-acting β2 agonists",
+      "ex": "salmeterol, formoterol",
+      "uses": [
+        {
+          "t": "Asthma with ICS (incl. MART/AIR)",
+          "k": "y2-204-7"
+        },
+        {
+          "t": "COPD (with LAMA)",
+          "k": "y1-103-4"
+        }
+      ],
+      "how": "Long-acting β2 agonism (12 h); formoterol also works fast",
+      "hx": [
+        [
+          "Long-acting β2 antagonism (12 h); salmeterol also works fast",
+          "LABAs are agonists, and formoterol is the fast one."
+        ],
+        [
+          "Long-acting β2 agonism (24 h); salmeterol also works fast",
+          "About 12 h, and salmeterol is slow; formoterol is fast."
+        ],
+        [
+          "Long-acting anti-inflammatory (12 h); formoterol also reduces eosinophils",
+          "LABAs relax smooth muscle; they don't treat inflammation (hence the ICS)."
+        ]
+      ],
+      "se": [
+        "Same as SABAs: tremor, palpitations, hypokalaemia"
+      ],
+      "sewhy": "They act on the same receptors as SABAs for longer, so the effects are the same: tremor, palpitations and low potassium.",
+      "ci": [
+        {
+          "c": "Asthma without an inhaled steroid",
+          "k": "y2-204-7",
+          "why": "LABA alone masks worsening inflammation → ↑ asthma deaths",
+          "cau": false,
+          "x": [
+            [
+              "LABA alone causes tachyphylaxis → no bronchodilation",
+              "The danger is masking inflammation, which raised deaths."
+            ],
+            [
+              "LABA alone thickens airway mucus → plugging",
+              "No; it masks worsening inflammation."
+            ],
+            [
+              "LABA alone triggers eosinophilia → ↑ exacerbations",
+              "LABAs don't cause eosinophilia; they hide worsening inflammation."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inhaled-corticosteroids",
+      "name": "Inhaled corticosteroids",
+      "ex": "beclometasone, budesonide, fluticasone",
+      "uses": [
+        {
+          "t": "Asthma preventer",
+          "k": "y2-204-7"
+        },
+        {
+          "t": "COPD with exacerbations or eosinophils",
+          "k": "y1-103-4"
+        }
+      ],
+      "how": "Anti-inflammatory gene effects in airway: ↓ cytokines and eosinophils",
+      "hx": [
+        [
+          "Antihistamine effects in airway: block H1 receptors on smooth muscle",
+          "Not H1 block; they switch off inflammatory gene expression."
+        ],
+        [
+          "Anti-inflammatory gene effects in airway: ↑ cytokines and eosinophils",
+          "They reduce cytokines and eosinophils."
+        ],
+        [
+          "Leukotriene synthesis block in airway: inhibit 5-lipoxygenase",
+          "That's zileuton; ICS act through glucocorticoid receptors on genes."
+        ]
+      ],
+      "se": [
+        "Oral thrush",
+        "Hoarse voice",
+        "Pneumonia (COPD)",
+        "Adrenal suppression, growth slowing, bone loss (high dose)"
+      ],
+      "sewhy": "Steroid deposited in the mouth and throat suppresses local immunity (thrush) and affects the vocal cords (hoarseness); absorbed steroid at high doses suppresses the adrenals, growth and bone, and in COPD it impairs lung defence (pneumonia).",
+      "ci": [
+        {
+          "c": "Untreated TB",
+          "k": "y1-128-4",
+          "why": "Local immunosuppression",
+          "cau": true,
+          "x": [
+            [
+              "Lowers TB drug levels",
+              "No interaction; local immune suppression is the concern."
+            ],
+            [
+              "Causes lung fibrosis",
+              "Not the concern; they suppress local immunity."
+            ],
+            [
+              "Masks a positive Mantoux test",
+              "Not the reason; they suppress local airway immunity."
+            ]
+          ]
+        },
+        {
+          "c": "COPD with recurrent pneumonia",
+          "k": "y1-103-3",
+          "why": "ICS increases pneumonia risk",
+          "cau": true,
+          "x": [
+            [
+              "ICS reduces antibiotic penetration",
+              "No; ICS themselves raise pneumonia risk."
+            ],
+            [
+              "ICS causes bronchiectasis",
+              "No; they raise pneumonia risk."
+            ],
+            [
+              "ICS masks fever in pneumonia",
+              "Not the concern; ICS increase pneumonia risk."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inhaled-antimuscarinics",
+      "name": "Inhaled antimuscarinics",
+      "ex": "tiotropium (LAMA), ipratropium (SAMA)",
+      "uses": [
+        {
+          "t": "COPD",
+          "k": "y1-103-4"
+        },
+        {
+          "t": "Asthma add-on and acute severe asthma",
+          "k": "y2-204-8"
+        }
+      ],
+      "how": "Block M3 receptors → ↓ bronchoconstriction and mucus",
+      "hx": [
+        [
+          "Stimulate M3 receptors → ↓ bronchoconstriction and mucus",
+          "They block M3; acetylcholine normally constricts airways."
+        ],
+        [
+          "Block M2 receptors → ↑ acetylcholine release and mucus clearance",
+          "M2 block would raise ACh release; they target M3."
+        ],
+        [
+          "Block nicotinic receptors → ↓ bronchoconstriction and mucus",
+          "The receptors are muscarinic (M3)."
+        ]
+      ],
+      "se": [
+        "Dry mouth",
+        "Urinary retention",
+        "Constipation",
+        "Blurred vision"
+      ],
+      "sewhy": "Some absorbed drug blocks muscarinic receptors elsewhere: salivary glands (dry mouth), bladder (retention), gut (constipation) and eyes (blurred vision).",
+      "ci": [
+        {
+          "c": "Angle-closure glaucoma",
+          "k": "y1-142-4",
+          "why": "Pupil dilation blocks the drainage angle (nebuliser mist)",
+          "cau": false,
+          "x": [
+            [
+              "Pupil constriction blocks the drainage angle (nebuliser mist)",
+              "Antimuscarinics dilate the pupil; the iris crowds the angle."
+            ],
+            [
+              "Raised aqueous production floods the eye",
+              "Not production; the dilated iris blocks drainage."
+            ],
+            [
+              "Dry eyes scar the trabecular meshwork",
+              "No; pupil dilation closes the angle."
+            ]
+          ]
+        },
+        {
+          "c": "Urinary retention, bladder outflow obstruction",
+          "k": "y1-141-3",
+          "why": "Weakens detrusor contraction",
+          "cau": false,
+          "x": [
+            [
+              "Constricts the prostate",
+              "No; it weakens detrusor contraction."
+            ],
+            [
+              "Increases urine production",
+              "Not diuresis; the detrusor contracts less."
+            ],
+            [
+              "Causes bladder spasm",
+              "The opposite: detrusor contraction weakens."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "montelukast",
+      "name": "Montelukast",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Asthma add-on",
+          "k": "y2-204-7"
+        },
+        {
+          "t": "Exercise-induced asthma",
+          "k": "y2-204-6"
+        },
+        {
+          "t": "Preschool wheeze",
+          "k": "y2-204-5"
+        }
+      ],
+      "how": "Blocks leukotriene (CysLT1) receptors",
+      "hx": [
+        [
+          "Blocks leukotriene synthesis (5-lipoxygenase)",
+          "That's zileuton; montelukast blocks the CysLT1 receptor."
+        ],
+        [
+          "Blocks histamine (H1) receptors",
+          "It blocks leukotriene receptors."
+        ],
+        [
+          "Stimulates leukotriene (CysLT1) receptors",
+          "It's an antagonist."
+        ]
+      ],
+      "se": [
+        "Headache",
+        "Abdominal pain",
+        "Nightmares, agitation, depression, suicidal thoughts"
+      ],
+      "sewhy": "Blocking leukotriene receptors is generally well tolerated, but it can cause neuropsychiatric effects (nightmares, agitation, depression), which carry an MHRA warning.",
+      "ci": [
+        {
+          "c": "Depression or previous neuropsychiatric reactions",
+          "k": "y1-119-1",
+          "why": "MHRA warning on mood and behaviour changes",
+          "cau": true,
+          "x": [
+            [
+              "MHRA warning on liver failure",
+              "The warning is neuropsychiatric (mood, sleep, behaviour)."
+            ],
+            [
+              "Interacts with SSRIs",
+              "No interaction; montelukast itself can alter mood."
+            ],
+            [
+              "MHRA warning on weight gain and diabetes",
+              "The warning is about mood and behaviour."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theophylline",
+      "name": "Theophylline",
+      "ex": "aminophylline (IV)",
+      "uses": [
+        {
+          "t": "COPD/asthma add-on",
+          "k": "y1-103-4"
+        },
+        {
+          "t": "Severe acute asthma (IV, senior)",
+          "k": "y2-204-8"
+        }
+      ],
+      "how": "Phosphodiesterase inhibition and adenosine antagonism",
+      "hx": [
+        [
+          "Phosphodiesterase activation and adenosine agonism",
+          "It inhibits PDE (↑ cAMP) and blocks adenosine."
+        ],
+        [
+          "Histamine (H1) antagonism and mast-cell stabilisation",
+          "Not an antihistamine; it inhibits phosphodiesterase and blocks adenosine."
+        ],
+        [
+          "Carbonic anhydrase inhibition and respiratory stimulation",
+          "It inhibits phosphodiesterase and blocks adenosine."
+        ]
+      ],
+      "se": [
+        "Nausea",
+        "Palpitations, arrhythmias",
+        "Seizures",
+        "Hypokalaemia",
+        "Narrow therapeutic index"
+      ],
+      "sewhy": "Theophylline inhibits phosphodiesterase and blocks adenosine, stimulating heart and brain; the safe range is narrow, so small level rises cause nausea, arrhythmias and seizures.",
+      "ci": [
+        {
+          "c": "Epilepsy",
+          "k": "y2-230-1",
+          "why": "Lowers the seizure threshold",
+          "cau": true,
+          "x": [
+            [
+              "Raises the seizure threshold",
+              "It lowers it (adenosine is a natural anticonvulsant)."
+            ],
+            [
+              "Speeds up antiepileptic metabolism",
+              "Not the issue; it lowers the seizure threshold."
+            ],
+            [
+              "Causes hyponatraemia",
+              "Not through sodium; it lowers the seizure threshold."
+            ]
+          ]
+        },
+        {
+          "c": "Arrhythmias",
+          "k": "y1-108-3",
+          "why": "Pro-arrhythmic",
+          "cau": true,
+          "x": [
+            [
+              "Bradycardic",
+              "It speeds the heart and is pro-arrhythmic."
+            ],
+            [
+              "Negatively inotropic",
+              "It's pro-arrhythmic (tachyarrhythmias)."
+            ],
+            [
+              "QT-shortening",
+              "Not the issue; it's pro-arrhythmic."
+            ]
+          ]
+        },
+        {
+          "c": "Clarithromycin, ciprofloxacin",
+          "k": "y1-130-5",
+          "why": "Raise theophylline levels → toxicity",
+          "cau": true,
+          "x": [
+            [
+              "Lower theophylline levels → loss of effect",
+              "They inhibit its metabolism, raising levels."
+            ],
+            [
+              "Raise antibiotic levels → ototoxicity",
+              "Theophylline levels rise, risking toxicity."
+            ],
+            [
+              "Block theophylline absorption → treatment failure",
+              "No absorption effect; levels rise."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oxygen-controlled",
+      "name": "Oxygen (controlled)",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Hypoxaemia (target 94–98%)",
+          "k": "y2-207-5"
+        },
+        {
+          "t": "COPD exacerbation (target 88–92%)",
+          "k": "y1-103-4"
+        },
+        {
+          "t": "LTOT",
+          "k": "y1-103-4"
+        }
+      ],
+      "how": "Raises inspired O₂ fraction",
+      "hx": [
+        [
+          "Raises haemoglobin concentration",
+          "Oxygen doesn't make more haemoglobin; it raises FiO₂."
+        ],
+        [
+          "Stimulates the respiratory centre",
+          "It raises inspired oxygen, not respiratory drive."
+        ],
+        [
+          "Lowers alveolar CO₂ directly",
+          "It raises inspired O₂; CO₂ may rise in retainers."
+        ]
+      ],
+      "se": [
+        "Hypercapnia in CO₂ retainers",
+        "Dry mucosa",
+        "Fire risk with smoking"
+      ],
+      "sewhy": "In CO₂ retainers, high oxygen worsens V/Q mismatch and reduces ventilatory drive, so CO₂ rises; dry gas irritates mucosa, and oxygen makes fires burn fiercely.",
+      "ci": [
+        {
+          "c": "Type 2 respiratory failure / CO₂ retainers",
+          "k": "y2-207-4",
+          "why": "High-flow O₂ worsens hypercapnia via V/Q mismatch and the Haldane effect",
+          "cau": true,
+          "x": [
+            [
+              "High-flow O₂ causes oxygen toxicity in the brain within minutes",
+              "The issue is CO₂ retention from V/Q mismatch and the Haldane effect."
+            ],
+            [
+              "High-flow O₂ dries secretions, causing mucus plugging and hypoxia",
+              "Not mucus; it worsens hypercapnia."
+            ],
+            [
+              "High-flow O₂ lowers CO₂ too fast, causing alkalosis",
+              "CO₂ rises, not falls."
+            ]
+          ]
+        },
+        {
+          "c": "Smoking with home oxygen",
+          "k": "y2-213-8",
+          "why": "Burns and fires",
+          "cau": true,
+          "x": [
+            [
+              "Oxygen toxicity",
+              "The danger is fire and burns."
+            ],
+            [
+              "Carbon monoxide poisoning",
+              "Not CO; oxygen feeds fires."
+            ],
+            [
+              "Worse CO₂ retention",
+              "The danger is burns and fires."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "varenicline",
+      "name": "Varenicline",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Smoking cessation",
+          "k": "y2-213-8"
+        }
+      ],
+      "how": "Partial agonist at α4β2 nicotinic receptors: reduces cravings and the reward from smoking",
+      "hx": [
+        [
+          "Full agonist at α4β2 nicotinic receptors: replaces nicotine's reward completely",
+          "As a partial agonist it eases cravings and blunts the reward."
+        ],
+        [
+          "Antagonist at μ-opioid receptors: blocks the pleasure of smoking",
+          "That's naltrexone-like; varenicline is a nicotinic partial agonist."
+        ],
+        [
+          "Inhibits dopamine reuptake: reduces cravings and withdrawal",
+          "That's bupropion's action; varenicline works at α4β2 nicotinic receptors."
+        ]
+      ],
+      "se": [
+        "Nausea",
+        "Vivid dreams, insomnia",
+        "Headache",
+        "Mood change"
+      ],
+      "sewhy": "Partial stimulation of nicotinic receptors in the gut and brain causes nausea and vivid dreams or sleep disturbance.",
+      "ci": [
+        {
+          "c": "Pregnancy, breastfeeding",
+          "k": "y1-114-1",
+          "why": "No safety data; use NRT",
+          "cau": false,
+          "x": [
+            [
+              "Proven teratogen; use bupropion",
+              "No proven harm, just no data; NRT is preferred (bupropion is avoided too)."
+            ],
+            [
+              "Causes fetal nicotine addiction; use e-cigarettes",
+              "Not the reason; there's no safety data, so NRT is used."
+            ],
+            [
+              "Triggers preterm labour; stop smoking unaided",
+              "No; there's no safety data, so use NRT."
+            ]
+          ]
+        },
+        {
+          "c": "History of psychiatric illness",
+          "k": "y1-119-1",
+          "why": "Monitor mood",
+          "cau": true,
+          "x": [
+            [
+              "Monitor lithium levels",
+              "No lithium interaction; watch for mood change."
+            ],
+            [
+              "Monitor liver function",
+              "The concern is mood and behaviour."
+            ],
+            [
+              "Monitor blood glucose",
+              "Watch mood, not glucose."
+            ]
+          ]
+        },
+        {
+          "c": "End-stage renal disease",
+          "k": "y1-135-5",
+          "why": "Renally cleared",
+          "cau": true,
+          "x": [
+            [
+              "Nephrotoxic",
+              "Not nephrotoxic; it accumulates."
+            ],
+            [
+              "Hepatically cleared",
+              "It's renally cleared, so reduce the dose."
+            ],
+            [
+              "Causes hyperkalaemia",
+              "Not the issue; it's renally cleared."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nicotine-replacement",
+      "name": "Nicotine replacement",
+      "ex": "patches, gum, inhalator, spray",
+      "uses": [
+        {
+          "t": "Smoking cessation (combination NRT)",
+          "k": "y2-213-8"
+        }
+      ],
+      "how": "Replaces nicotine without tar and carbon monoxide",
+      "hx": [
+        [
+          "Blocks nicotine receptors so smoking gives no reward",
+          "NRT supplies nicotine; it doesn't block receptors."
+        ],
+        [
+          "Replaces nicotine and tar but without carbon monoxide",
+          "There's no tar in NRT."
+        ],
+        [
+          "Speeds nicotine metabolism to shorten withdrawal",
+          "It replaces nicotine to ease withdrawal."
+        ]
+      ],
+      "se": [
+        "Skin irritation (patch)",
+        "Nausea",
+        "Hiccups",
+        "Vivid dreams (overnight patch)"
+      ],
+      "sewhy": "Nicotine stimulates nicotinic receptors: patches irritate skin, oral forms cause nausea and hiccups, and overnight patches disturb sleep.",
+      "ci": [
+        {
+          "c": "Recent MI or stroke, unstable arrhythmia",
+          "k": "y1-134-1",
+          "why": "Nicotine raises HR and BP, but smoking is worse: specialist advice",
+          "cau": true,
+          "x": [
+            [
+              "Nicotine causes coronary thrombosis; never use after MI",
+              "Smoking is worse than NRT; get specialist advice rather than avoiding it."
+            ],
+            [
+              "Nicotine lowers BP dangerously; halve the dose",
+              "It raises heart rate and BP."
+            ],
+            [
+              "Patches interact with antiplatelets: stop aspirin",
+              "No interaction; nicotine raises HR and BP, but smoking is worse."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

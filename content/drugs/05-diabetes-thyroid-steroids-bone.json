@@ -1,0 +1,1352 @@
+{
+  "id": "endo",
+  "title": "Diabetes, thyroid, steroids & bone",
+  "items": [
+    {
+      "id": "metformin",
+      "name": "Metformin",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Type 2 diabetes, first line",
+          "k": "y1-139-8"
+        },
+        {
+          "t": "PCOS",
+          "k": "y2-212-2"
+        },
+        {
+          "t": "Gestational diabetes",
+          "k": "y1-114-2"
+        }
+      ],
+      "how": "↓ hepatic gluconeogenesis, ↑ insulin sensitivity (AMPK)",
+      "hx": [
+        [
+          "↑ hepatic gluconeogenesis, ↓ insulin sensitivity (AMPK)",
+          "Both arrows are reversed: it cuts liver glucose output and improves sensitivity."
+        ],
+        [
+          "↓ intestinal carbohydrate digestion (α-glucosidase block)",
+          "That's acarbose; metformin cuts hepatic glucose output."
+        ],
+        [
+          "Replaces insulin action at GLUT2 in the liver",
+          "It isn't an insulin substitute; it reduces liver glucose output and improves sensitivity."
+        ]
+      ],
+      "se": [
+        "Diarrhoea, nausea",
+        "Metallic taste",
+        "B12 deficiency",
+        "Lactic acidosis (rare)"
+      ],
+      "sewhy": "Metformin concentrates in gut cells, causing GI upset; it reduces B12 absorption, and because it inhibits mitochondrial lactate use, it can accumulate in renal failure and cause lactic acidosis.",
+      "ci": [
+        {
+          "c": "eGFR <30",
+          "k": "y1-135-5",
+          "why": "Renally cleared → accumulates → lactic acidosis",
+          "cau": false,
+          "x": [
+            [
+              "Builds up and stimulates insulin release → hypoglycaemia",
+              "Metformin doesn't release insulin and alone rarely causes hypos; accumulation risks lactic acidosis."
+            ],
+            [
+              "Nephrotoxic → speeds CKD progression",
+              "Not nephrotoxic; it accumulates and risks lactic acidosis."
+            ],
+            [
+              "Hepatically cleared, so no change is needed",
+              "It's renally cleared; stop it below eGFR 30."
+            ]
+          ]
+        },
+        {
+          "c": "Acute illness, dehydration, sepsis, shock",
+          "k": "y1-140-2",
+          "why": "Hypoxic tissues make lactate the kidneys can't clear: pause (sick day rules)",
+          "cau": false,
+          "x": [
+            [
+              "Illness raises glucose so much that metformin fails: double the dose",
+              "Pause it: hypoxia and AKI raise the risk of lactic acidosis."
+            ],
+            [
+              "Vomiting stops absorption: switch to IV metformin",
+              "There's no IV metformin; pause it during acute illness."
+            ],
+            [
+              "Infection makes metformin cause hypos: pause until eating",
+              "The danger is lactic acidosis, not hypos."
+            ]
+          ]
+        },
+        {
+          "c": "Iodinated contrast (withhold)",
+          "k": "y2-220-2",
+          "why": "Contrast nephropathy can trap metformin",
+          "cau": false,
+          "x": [
+            [
+              "Contrast binds metformin and inactivates it",
+              "No binding; contrast-induced AKI can make metformin accumulate."
+            ],
+            [
+              "Metformin makes contrast directly nephrotoxic",
+              "The risk is AKI trapping metformin (lactic acidosis)."
+            ],
+            [
+              "Contrast triggers hypoglycaemia with metformin",
+              "Not hypos; lactic acidosis if AKI develops."
+            ]
+          ]
+        },
+        {
+          "c": "Severe liver disease, alcohol excess",
+          "k": "y2-229-3",
+          "why": "The liver normally clears lactate",
+          "cau": false,
+          "x": [
+            [
+              "The liver normally activates metformin",
+              "Metformin isn't a prodrug; the liver clears lactate."
+            ],
+            [
+              "Metformin is hepatotoxic in cirrhosis",
+              "Not hepatotoxic; impaired lactate clearance risks acidosis."
+            ],
+            [
+              "Alcohol speeds metformin excretion",
+              "No; poor liver lactate clearance is the issue."
+            ]
+          ]
+        },
+        {
+          "c": "Diabetic ketoacidosis",
+          "k": "y2-205-20",
+          "why": "Adds to metabolic acidosis",
+          "cau": false,
+          "x": [
+            [
+              "Adds to the ketone load",
+              "It doesn't make ketones; it adds lactic acidosis risk."
+            ],
+            [
+              "Causes hyperkalaemia",
+              "Not the reason; it adds to acidosis."
+            ],
+            [
+              "Blocks insulin absorption",
+              "No; it adds to metabolic acidosis."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sulfonylureas",
+      "name": "Sulfonylureas",
+      "ex": "gliclazide",
+      "uses": [
+        {
+          "t": "Type 2 diabetes",
+          "k": "y1-139-8"
+        }
+      ],
+      "how": "Close β-cell K_ATP channels → insulin release regardless of glucose",
+      "hx": [
+        [
+          "Open β-cell K_ATP channels → insulin release only when glucose is high",
+          "They close K_ATP channels, releasing insulin whatever the glucose (hence hypos)."
+        ],
+        [
+          "Close β-cell K_ATP channels → insulin release only when glucose is high",
+          "Release happens regardless of glucose, which is why hypos occur."
+        ],
+        [
+          "Block glucagon release from α-cells → lower glucose",
+          "They act on β-cells to release insulin."
+        ]
+      ],
+      "se": [
+        "Hypoglycaemia",
+        "Weight gain",
+        "GI upset",
+        "Hyponatraemia"
+      ],
+      "sewhy": "They make beta cells release insulin whatever the glucose level, causing hypoglycaemia and weight gain (insulin is anabolic).",
+      "ci": [
+        {
+          "c": "Type 1 diabetes / DKA",
+          "k": "y2-205-20",
+          "why": "Needs working β-cells",
+          "cau": false,
+          "x": [
+            [
+              "Needs working α-cells",
+              "They act on β-cells, which type 1 lacks."
+            ],
+            [
+              "Needs normal kidneys",
+              "Not the reason; type 1 has no β-cells to stimulate."
+            ],
+            [
+              "Needs insulin resistance",
+              "No; it needs functioning β-cells."
+            ]
+          ]
+        },
+        {
+          "c": "Severe renal or hepatic impairment",
+          "k": "y1-135-5",
+          "why": "Prolonged action → severe hypoglycaemia",
+          "cau": false,
+          "x": [
+            [
+              "Shortened action → hyperglycaemia",
+              "They accumulate, causing prolonged hypos."
+            ],
+            [
+              "Direct nephrotoxicity → AKI",
+              "Not nephrotoxic; accumulation causes severe hypos."
+            ],
+            [
+              "Prolonged action → weight loss",
+              "They cause weight gain; accumulation causes hypos."
+            ]
+          ]
+        },
+        {
+          "c": "Pregnancy, breastfeeding",
+          "k": "y1-114-1",
+          "why": "Neonatal hypoglycaemia; use insulin",
+          "cau": false,
+          "x": [
+            [
+              "Neonatal hyperglycaemia; use metformin",
+              "They cross the placenta and cause neonatal hypos; insulin is used."
+            ],
+            [
+              "Fetal macrosomia; use a DPP-4 inhibitor",
+              "The concern is neonatal hypoglycaemia; insulin is the safe choice."
+            ],
+            [
+              "Fetal kidney damage; use an SGLT2 inhibitor",
+              "No; neonatal hypoglycaemia, so use insulin."
+            ]
+          ]
+        },
+        {
+          "c": "Elderly, drivers, irregular meals",
+          "k": "y1-139-6",
+          "why": "Hypoglycaemia risk",
+          "cau": true,
+          "x": [
+            [
+              "Weight loss risk",
+              "They cause weight gain; hypos are the concern."
+            ],
+            [
+              "Ketoacidosis risk",
+              "The concern is hypoglycaemia."
+            ],
+            [
+              "Dehydration risk",
+              "Not dehydration; hypos."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sglt2-inhibitors",
+      "name": "SGLT2 inhibitors",
+      "ex": "dapagliflozin, empagliflozin",
+      "uses": [
+        {
+          "t": "Type 2 diabetes with CVD/HF/CKD",
+          "k": "y1-139-8"
+        },
+        {
+          "t": "Heart failure (any EF)",
+          "k": "y2-211-3"
+        },
+        {
+          "t": "CKD",
+          "k": "y1-135-5"
+        }
+      ],
+      "how": "Block glucose (and Na⁺) reabsorption in the proximal tubule → glycosuria",
+      "hx": [
+        [
+          "Block glucose (and Na⁺) reabsorption in the collecting duct → glycosuria",
+          "SGLT2 sits in the proximal tubule."
+        ],
+        [
+          "Block glucose absorption in the small intestine → osmotic diarrhoea",
+          "They act in the kidney, not the gut."
+        ],
+        [
+          "Stimulate glucose secretion into the loop of Henle → glycosuria",
+          "They stop glucose being reabsorbed; they don't secrete it."
+        ]
+      ],
+      "se": [
+        "Genital thrush",
+        "UTI",
+        "Volume depletion, postural hypotension",
+        "Euglycaemic DKA",
+        "Fournier's gangrene (rare)"
+      ],
+      "sewhy": "Glucose in the urine feeds genital and urinary infections; the osmotic diuresis causes volume depletion; lower insulin needs favour ketone production (DKA with near-normal glucose).",
+      "ci": [
+        {
+          "c": "Type 1 diabetes or previous DKA",
+          "k": "y2-205-20",
+          "why": "Risk of DKA with near-normal glucose",
+          "cau": false,
+          "x": [
+            [
+              "Risk of severe hypoglycaemia",
+              "Alone they rarely cause hypos; the danger is DKA with near-normal glucose."
+            ],
+            [
+              "Risk of a hyperosmolar state with very high glucose",
+              "The DKA they cause can have near-normal glucose."
+            ],
+            [
+              "Risk of worsening insulin resistance",
+              "No; the risk is DKA with near-normal glucose."
+            ]
+          ]
+        },
+        {
+          "c": "Acute illness or dehydration (sick day rules)",
+          "k": "y1-135-1",
+          "why": "Osmotic diuresis worsens dehydration; ketosis risk",
+          "cau": false,
+          "x": [
+            [
+              "Glucose retention worsens hyperglycaemia; hypo risk",
+              "They cause glucose and water loss (osmotic diuresis) and ketosis."
+            ],
+            [
+              "Sodium retention worsens oedema; heart failure risk",
+              "They lose sodium and water; dehydration and ketosis are the risks."
+            ],
+            [
+              "Osmotic diuresis worsens dehydration; hypoglycaemia risk",
+              "The other risk is ketosis (DKA), not hypos."
+            ]
+          ]
+        },
+        {
+          "c": "Pregnancy, breastfeeding",
+          "k": "y1-114-1",
+          "why": "No safety data",
+          "cau": false,
+          "x": [
+            [
+              "Proven teratogen",
+              "No proven harm; there's no safety data, so insulin is used."
+            ],
+            [
+              "Causes fetal glycosuria",
+              "Not the stated reason; there's no safety data."
+            ],
+            [
+              "Causes preterm labour",
+              "No; there's simply no safety data."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glp-1-receptor-agonists",
+      "name": "GLP-1 receptor agonists",
+      "ex": "semaglutide, liraglutide, tirzepatide (GIP/GLP-1)",
+      "uses": [
+        {
+          "t": "Type 2 diabetes (BMI ≥35)",
+          "k": "y1-139-8"
+        },
+        {
+          "t": "Obesity",
+          "k": "y1-112-3"
+        }
+      ],
+      "how": "Glucose-dependent insulin release, ↓ glucagon, slower gastric emptying, ↓ appetite",
+      "hx": [
+        [
+          "Stimulate insulin receptors directly, ↑ glucose uptake into muscle",
+          "They act on GLP-1 receptors, boosting insulin only when glucose is high."
+        ],
+        [
+          "Glucose-dependent insulin release, ↓ glucagon, faster gastric emptying, ↑ appetite",
+          "They slow gastric emptying and reduce appetite (hence weight loss)."
+        ],
+        [
+          "Block liver glucagon receptors, ↓ glucose output only",
+          "They lower glucagon release, but also boost insulin, slow emptying and reduce appetite."
+        ]
+      ],
+      "se": [
+        "Nausea, vomiting, diarrhoea",
+        "Gallstones",
+        "Pancreatitis",
+        "Injection-site reactions"
+      ],
+      "sewhy": "Slowing gastric emptying and acting on brain satiety centres cause nausea and vomiting; rapid weight loss promotes gallstones, and pancreatitis has been reported.",
+      "ci": [
+        {
+          "c": "Previous pancreatitis",
+          "k": "y1-132-1",
+          "why": "Can trigger acute pancreatitis; stop if suspected",
+          "cau": true,
+          "x": [
+            [
+              "Can cause chronic pancreatic insufficiency; add enzymes",
+              "The risk is acute pancreatitis; stop if suspected."
+            ],
+            [
+              "Can cause pancreatic cancer; screen yearly",
+              "No proven link; the caution is acute pancreatitis."
+            ],
+            [
+              "Can cause hypoglycaemia; halve the dose",
+              "Not the reason; acute pancreatitis risk."
+            ]
+          ]
+        },
+        {
+          "c": "Personal/family history of medullary thyroid cancer or MEN2",
+          "k": "y1-126-2",
+          "why": "C-cell tumours in animal studies (a formal contraindication in US labelling)",
+          "cau": true,
+          "x": [
+            [
+              "Follicular cell tumours in human trials (a formal contraindication in UK labelling)",
+              "The signal was C-cell tumours in rodents; it's a formal contraindication only in the US."
+            ],
+            [
+              "Iodine content worsens thyroid cancer (a contraindication worldwide)",
+              "No iodine; the concern is rodent C-cell tumours."
+            ],
+            [
+              "TSH suppression speeds tumour growth (a contraindication in all labelling)",
+              "Not through TSH; C-cell tumours were seen in animals."
+            ]
+          ]
+        },
+        {
+          "c": "Pregnancy, breastfeeding",
+          "k": "y1-114-1",
+          "why": "Stop before conception",
+          "cau": false,
+          "x": [
+            [
+              "Double the dose in pregnancy",
+              "They're stopped before conception."
+            ],
+            [
+              "Switch to a sulfonylurea",
+              "Stop before conception; insulin is used if needed."
+            ],
+            [
+              "Continue: proven safe",
+              "Not proven safe; stop before conception."
+            ]
+          ]
+        },
+        {
+          "c": "Diabetic retinopathy (semaglutide)",
+          "k": "y1-139-7",
+          "why": "Rapid glucose fall can worsen retinopathy",
+          "cau": true,
+          "x": [
+            [
+              "Raised BP can worsen retinopathy",
+              "They lower BP if anything; a rapid glucose fall is the concern."
+            ],
+            [
+              "A slow glucose fall can worsen retinopathy",
+              "It's a rapid fall (early worsening) that's the problem."
+            ],
+            [
+              "Drug deposits build up in the retina",
+              "No; rapid glucose lowering can worsen retinopathy."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dpp-4-inhibitors",
+      "name": "DPP-4 inhibitors",
+      "ex": "sitagliptin, linagliptin",
+      "uses": [
+        {
+          "t": "Type 2 diabetes",
+          "k": "y1-139-8"
+        }
+      ],
+      "how": "Block breakdown of endogenous GLP-1 and GIP",
+      "hx": [
+        [
+          "Speed breakdown of endogenous glucagon",
+          "They block DPP-4, which breaks down GLP-1 and GIP."
+        ],
+        [
+          "Block breakdown of endogenous insulin in the liver",
+          "They protect incretins (GLP-1, GIP), not insulin."
+        ],
+        [
+          "Block GLP-1 and GIP receptors",
+          "They raise incretin levels; blocking receptors would do the opposite."
+        ]
+      ],
+      "se": [
+        "Pancreatitis (rare)",
+        "Headache",
+        "Nasopharyngitis"
+      ],
+      "sewhy": "They raise endogenous incretins modestly, so side effects are few; pancreatitis is rare.",
+      "ci": [
+        {
+          "c": "Previous pancreatitis",
+          "k": "y1-132-1",
+          "why": "Associated with acute pancreatitis",
+          "cau": true,
+          "x": [
+            [
+              "Associated with gallstone ileus",
+              "The association is with acute pancreatitis."
+            ],
+            [
+              "Associated with pancreatic insufficiency",
+              "No; acute pancreatitis."
+            ],
+            [
+              "Associated with hypercalcaemia",
+              "Not the reason; acute pancreatitis."
+            ]
+          ]
+        },
+        {
+          "c": "Type 1 diabetes / DKA",
+          "k": "y2-205-20",
+          "why": "Insufficient on their own",
+          "cau": false,
+          "x": [
+            [
+              "Cause DKA in type 1",
+              "They don't cause DKA; they're just not enough without insulin."
+            ],
+            [
+              "Destroy any remaining β-cells",
+              "No; they're insufficient on their own."
+            ],
+            [
+              "Cause severe hypos in type 1",
+              "Alone they rarely cause hypos; they're insufficient."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pioglitazone",
+      "name": "Pioglitazone",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Type 2 diabetes",
+          "k": "y1-139-8"
+        }
+      ],
+      "how": "PPAR-γ agonist → ↑ insulin sensitivity",
+      "hx": [
+        [
+          "PPAR-α agonist → ↓ triglycerides",
+          "That's fibrates; pioglitazone activates PPAR-γ."
+        ],
+        [
+          "PPAR-γ antagonist → ↑ insulin secretion",
+          "It activates PPAR-γ, improving insulin sensitivity."
+        ],
+        [
+          "Insulin receptor agonist → ↑ glucose uptake",
+          "It works through PPAR-γ gene effects."
+        ]
+      ],
+      "se": [
+        "Fluid retention",
+        "Weight gain",
+        "Fractures",
+        "Bladder cancer",
+        "Hepatotoxicity"
+      ],
+      "sewhy": "PPAR-γ activation makes the kidney retain sodium and water (oedema, heart failure), promotes fat storage (weight gain) and shifts bone precursors away from bone (fractures).",
+      "ci": [
+        {
+          "c": "Heart failure (any history)",
+          "k": "y2-211-5",
+          "why": "Fluid retention precipitates failure",
+          "cau": false,
+          "x": [
+            [
+              "Negative inotropy precipitates failure",
+              "It causes fluid retention, not weaker contraction."
+            ],
+            [
+              "Hypokalaemia precipitates arrhythmias",
+              "No; fluid retention precipitates failure."
+            ],
+            [
+              "Raised afterload precipitates failure",
+              "The issue is fluid retention."
+            ]
+          ]
+        },
+        {
+          "c": "Bladder cancer or uninvestigated haematuria",
+          "k": "y1-111-3",
+          "why": "Linked to bladder cancer",
+          "cau": false,
+          "x": [
+            [
+              "Linked to kidney stones",
+              "The link is with bladder cancer."
+            ],
+            [
+              "Linked to renal cell cancer",
+              "No; bladder cancer."
+            ],
+            [
+              "Linked to UTIs",
+              "That's SGLT2 inhibitors; pioglitazone is linked to bladder cancer."
+            ]
+          ]
+        },
+        {
+          "c": "Hepatic impairment",
+          "k": "y2-229-3",
+          "why": "Hepatotoxic",
+          "cau": false,
+          "x": [
+            [
+              "Nephrotoxic",
+              "The concern is liver toxicity."
+            ],
+            [
+              "Causes hypoglycaemia",
+              "Not the reason; it's hepatotoxic."
+            ],
+            [
+              "Raises ammonia",
+              "No; it's hepatotoxic."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "insulin",
+      "name": "Insulin",
+      "ex": "rapid-acting, long-acting, fixed-rate IV",
+      "uses": [
+        {
+          "t": "Type 1 diabetes",
+          "k": "y2-238-7"
+        },
+        {
+          "t": "Type 2 diabetes",
+          "k": "y1-139-8"
+        },
+        {
+          "t": "DKA (0.1 units/kg/h)",
+          "k": "y2-205-20"
+        },
+        {
+          "t": "Hyperkalaemia (with glucose)",
+          "k": "y1-135-4"
+        }
+      ],
+      "how": "Replaces insulin: glucose uptake (GLUT4), ↓ gluconeogenesis, drives K⁺ into cells",
+      "hx": [
+        [
+          "Replaces insulin: glucose uptake (GLUT2), ↑ gluconeogenesis, drives K⁺ out of cells",
+          "Insulin drives glucose in through GLUT4, suppresses gluconeogenesis and moves K⁺ into cells."
+        ],
+        [
+          "Stimulates the pancreas: more insulin release, ↓ glucagon, drives K⁺ into cells",
+          "It's given as insulin itself; it doesn't stimulate the pancreas."
+        ],
+        [
+          "Blocks glucagon: ↓ glycogenolysis only, drives K⁺ out of cells",
+          "It acts on insulin receptors and moves K⁺ into cells."
+        ]
+      ],
+      "se": [
+        "Hypoglycaemia",
+        "Weight gain",
+        "Lipohypertrophy",
+        "Hypokalaemia (IV)"
+      ],
+      "sewhy": "Too much insulin relative to food causes hypoglycaemia; it's anabolic (weight gain), injecting in the same spot causes fatty lumps, and it drives potassium into cells.",
+      "ci": [
+        {
+          "c": "Hypoglycaemia",
+          "k": "y1-139-6",
+          "why": "Will drop glucose further",
+          "cau": false,
+          "x": [
+            [
+              "Will raise glucose too fast",
+              "It lowers glucose further."
+            ],
+            [
+              "Won't work until glucose is normal",
+              "It still works, lowering glucose further."
+            ],
+            [
+              "Causes hyperkalaemia",
+              "It lowers K⁺; the issue is glucose falling further."
+            ]
+          ]
+        },
+        {
+          "c": "Hypokalaemia (IV insulin)",
+          "k": "y1-135-4",
+          "why": "Pushes K⁺ into cells → arrhythmias; replace K⁺ in DKA",
+          "cau": true,
+          "x": [
+            [
+              "Pulls K⁺ out of cells → hyperkalaemia; withhold K⁺ in DKA",
+              "Insulin pushes K⁺ into cells; replace K⁺ as you treat DKA."
+            ],
+            [
+              "Increases urinary K⁺ loss → cramps; give spironolactone",
+              "The fall is a shift into cells; replace K⁺."
+            ],
+            [
+              "Pushes K⁺ into cells → seizures; give calcium in DKA",
+              "The danger is arrhythmias; replace K⁺."
+            ]
+          ]
+        },
+        {
+          "c": "Driving",
+          "k": "y1-139-6",
+          "why": "Inform DVLA; check glucose before driving",
+          "cau": true,
+          "x": [
+            [
+              "Banned from all driving; surrender the licence",
+              "Most insulin users can drive: inform the DVLA and check glucose first."
+            ],
+            [
+              "Tell the GP only; no glucose checks needed",
+              "The DVLA must be told, and glucose checked before driving."
+            ],
+            [
+              "Take an extra dose before driving",
+              "That would cause hypos; check glucose (≥5 mmol/L) before driving."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "levothyroxine",
+      "name": "Levothyroxine",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Hypothyroidism",
+          "k": "y1-126-2"
+        }
+      ],
+      "how": "Synthetic T4, converted to T3 in tissues",
+      "hx": [
+        [
+          "Synthetic T3, converted to T4 in tissues",
+          "It's T4, converted to the active T3 in tissues."
+        ],
+        [
+          "Stimulates TSH release to boost the thyroid",
+          "It replaces T4; TSH falls as a result."
+        ],
+        [
+          "Synthetic TSH, stimulating the thyroid gland",
+          "It's synthetic T4 hormone."
+        ]
+      ],
+      "se": [
+        "Over-replacement: palpitations, AF, weight loss, tremor, osteoporosis, angina"
+      ],
+      "sewhy": "Side effects are those of too much thyroid hormone: palpitations and AF, tremor, weight loss, angina and bone loss, so dose by TSH.",
+      "ci": [
+        {
+          "c": "Thyrotoxicosis",
+          "k": "y1-126-2",
+          "why": "Adds more thyroid hormone",
+          "cau": false,
+          "x": [
+            [
+              "Triggers thyroid eye disease",
+              "Not the reason; it adds more hormone."
+            ],
+            [
+              "Lowers TSH receptor antibodies",
+              "No; it adds more hormone."
+            ],
+            [
+              "Causes hypothyroidism",
+              "It adds thyroid hormone, worsening thyrotoxicosis."
+            ]
+          ]
+        },
+        {
+          "c": "Untreated adrenal insufficiency",
+          "k": "y1-126-3",
+          "why": "Speeds cortisol clearance → adrenal crisis; give steroids first",
+          "cau": false,
+          "x": [
+            [
+              "Blocks ACTH release → adrenal crisis; give levothyroxine first",
+              "Thyroxine speeds cortisol breakdown; replace steroids first."
+            ],
+            [
+              "Raises aldosterone → hypertension; give spironolactone first",
+              "Not aldosterone; cortisol clearance rises."
+            ],
+            [
+              "Speeds cortisol clearance → Cushing's; cut the steroid dose",
+              "Faster clearance worsens the deficiency (crisis); give steroids first."
+            ]
+          ]
+        },
+        {
+          "c": "Ischaemic heart disease, elderly",
+          "k": "y1-134-1",
+          "why": "Raised O₂ demand → angina or MI; start low (25 μg)",
+          "cau": true,
+          "x": [
+            [
+              "Coronary vasospasm → MI; avoid completely",
+              "It raises O₂ demand; start low rather than avoiding it."
+            ],
+            [
+              "Raised O₂ demand → angina; start high to get it over quickly",
+              "Start low (25 μg) and titrate slowly."
+            ],
+            [
+              "Bradycardia → heart block; start low",
+              "It speeds the heart, raising O₂ demand."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carbimazole",
+      "name": "Carbimazole",
+      "ex": "propylthiouracil (PTU)",
+      "uses": [
+        {
+          "t": "Hyperthyroidism (Graves', toxic nodules)",
+          "k": "y1-126-2"
+        }
+      ],
+      "how": "Inhibit thyroid peroxidase → ↓ T4/T3 synthesis",
+      "hx": [
+        [
+          "Block TSH receptors → ↓ T4/T3 release",
+          "They inhibit thyroid peroxidase, stopping hormone synthesis."
+        ],
+        [
+          "Destroy thyroid follicular cells → ↓ T4/T3 synthesis",
+          "That's radioiodine; carbimazole blocks thyroid peroxidase."
+        ],
+        [
+          "Inhibit thyroid peroxidase → ↑ T4/T3 release",
+          "Blocking the enzyme reduces hormone production."
+        ]
+      ],
+      "se": [
+        "Agranulocytosis (sore throat → urgent FBC)",
+        "Rash, itch",
+        "Hepatotoxicity (PTU)"
+      ],
+      "sewhy": "An idiosyncratic immune reaction can suddenly stop neutrophil production (agranulocytosis), so a sore throat or fever needs an urgent FBC.",
+      "ci": [
+        {
+          "c": "Previous agranulocytosis on the drug",
+          "k": "y1-126-2",
+          "why": "Life-threatening neutropenia recurs",
+          "cau": false,
+          "x": [
+            [
+              "Thrombocytopenia recurs",
+              "The risk is neutropenia (agranulocytosis)."
+            ],
+            [
+              "Hepatitis recurs",
+              "Not the reason; agranulocytosis recurs."
+            ],
+            [
+              "Neutropenia was mild and self-limiting",
+              "It's life-threatening and recurs."
+            ]
+          ]
+        },
+        {
+          "c": "First trimester of pregnancy (carbimazole)",
+          "k": "y1-114-1",
+          "why": "Teratogenic (aplasia cutis); use PTU in the first trimester",
+          "cau": false,
+          "x": [
+            [
+              "Teratogenic (cleft palate); use carbimazole in the first trimester",
+              "Carbimazole is the teratogen (aplasia cutis); PTU is used."
+            ],
+            [
+              "Causes fetal hyperthyroidism; use radioiodine",
+              "Radioiodine is contraindicated in pregnancy; PTU is used in the first trimester."
+            ],
+            [
+              "Not teratogenic, but causes miscarriage; stop all treatment",
+              "It's teratogenic, and untreated hyperthyroidism is dangerous; use PTU."
+            ]
+          ]
+        },
+        {
+          "c": "Severe liver disease (PTU)",
+          "k": "y2-229-3",
+          "why": "PTU can cause liver failure",
+          "cau": false,
+          "x": [
+            [
+              "PTU can cause kidney failure",
+              "The risk is liver failure."
+            ],
+            [
+              "PTU accumulates in bile",
+              "Not the reason; PTU is hepatotoxic."
+            ],
+            [
+              "PTU can cause agranulocytosis only",
+              "Agranulocytosis is a risk of both, but PTU's specific risk is liver failure."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "systemic-corticosteroids",
+      "name": "Systemic corticosteroids",
+      "ex": "prednisolone, hydrocortisone, dexamethasone",
+      "uses": [
+        {
+          "t": "Asthma/COPD exacerbations",
+          "k": "y2-204-8"
+        },
+        {
+          "t": "IBD flares",
+          "k": "y1-145-4"
+        },
+        {
+          "t": "RA and GCA",
+          "k": "y2-237-6"
+        },
+        {
+          "t": "Adrenal insufficiency",
+          "k": "y1-126-3"
+        },
+        {
+          "t": "Severe COVID (dexamethasone)",
+          "k": "y1-116-4"
+        },
+        {
+          "t": "MSCC and cerebral oedema",
+          "k": "y1-133-1"
+        }
+      ],
+      "how": "Glucocorticoid receptor → broad anti-inflammatory and immunosuppressive gene effects",
+      "hx": [
+        [
+          "Mineralocorticoid receptor → broad anti-inflammatory gene effects",
+          "The anti-inflammatory effects come through the glucocorticoid receptor."
+        ],
+        [
+          "Histamine receptor block → broad anti-allergic effects",
+          "They act through the glucocorticoid receptor on many genes."
+        ],
+        [
+          "Glucocorticoid receptor → broad pro-inflammatory and immune-boosting gene effects",
+          "They suppress inflammation and immunity."
+        ]
+      ],
+      "se": [
+        "Hyperglycaemia",
+        "Hypertension",
+        "Osteoporosis",
+        "Infection",
+        "Peptic ulcer",
+        "Mood change, psychosis, insomnia",
+        "Cushingoid features",
+        "Adrenal suppression",
+        "Cataract, glaucoma",
+        "Proximal myopathy"
+      ],
+      "sewhy": "Excess glucocorticoid raises glucose, retains salt (hypertension), breaks down bone and muscle (osteoporosis, myopathy), suppresses immunity, impairs mucosal protection and affects mood. It also suppresses the HPA axis, so stopping suddenly causes adrenal crisis.",
+      "ci": [
+        {
+          "c": "Untreated systemic infection or TB",
+          "k": "y1-128-4",
+          "why": "Immunosuppression lets infection spread",
+          "cau": false,
+          "x": [
+            [
+              "Steroids inactivate antibiotics",
+              "No; immunosuppression lets infection spread."
+            ],
+            [
+              "Steroids raise fever dangerously",
+              "They mask fever; immunosuppression is the danger."
+            ],
+            [
+              "Steroids cause bacterial resistance",
+              "Not resistance; immunosuppression."
+            ]
+          ]
+        },
+        {
+          "c": "Live vaccines at immunosuppressive doses",
+          "k": "y1-131-1",
+          "why": "Vaccine strain can cause disease",
+          "cau": false,
+          "x": [
+            [
+              "Vaccine has no effect at all",
+              "Response may be weak, but the danger is the live strain causing disease."
+            ],
+            [
+              "Vaccine triggers an adrenal crisis",
+              "No; the live strain can cause disease."
+            ],
+            [
+              "Vaccine causes steroid resistance",
+              "No; the live strain can cause disease."
+            ]
+          ]
+        },
+        {
+          "c": "Stopping abruptly after >3 weeks",
+          "k": "y1-126-3",
+          "why": "Suppressed adrenals can't respond → adrenal crisis; taper",
+          "cau": false,
+          "x": [
+            [
+              "Rebound inflammation is the only risk; stop at once",
+              "Suppressed adrenals risk a crisis; taper."
+            ],
+            [
+              "Overactive adrenals → Cushing's crisis; stop at once",
+              "The adrenals are suppressed, not overactive; taper."
+            ],
+            [
+              "Suppressed thyroid can't respond → myxoedema; taper",
+              "It's the adrenals (HPA axis) that are suppressed."
+            ]
+          ]
+        },
+        {
+          "c": "Diabetes",
+          "k": "y1-139-2",
+          "why": "Raises glucose",
+          "cau": true,
+          "x": [
+            [
+              "Lowers glucose",
+              "Steroids raise glucose."
+            ],
+            [
+              "Raises ketones directly",
+              "They raise glucose."
+            ],
+            [
+              "Blocks insulin absorption",
+              "No; they raise glucose (insulin resistance, gluconeogenesis)."
+            ]
+          ]
+        },
+        {
+          "c": "Peptic ulcer (especially with NSAIDs)",
+          "k": "y1-104-1",
+          "why": "↑ ulcer and bleeding risk",
+          "cau": true,
+          "x": [
+            [
+              "↑ gastric emptying and diarrhoea",
+              "The concern is ulcers and bleeding."
+            ],
+            [
+              "↓ PPI absorption",
+              "No interaction; ulcer and bleeding risk rises."
+            ],
+            [
+              "↑ H. pylori resistance",
+              "No; ulcer and bleeding risk."
+            ]
+          ]
+        },
+        {
+          "c": "Psychiatric history",
+          "k": "y2-239-6",
+          "why": "Steroid psychosis",
+          "cau": true,
+          "x": [
+            [
+              "Lithium toxicity",
+              "No interaction; steroids can cause psychosis."
+            ],
+            [
+              "Benzodiazepine withdrawal",
+              "Not related; steroids can cause psychosis."
+            ],
+            [
+              "Dementia",
+              "Not dementia; steroid psychosis (and mood change)."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bisphosphonates",
+      "name": "Bisphosphonates",
+      "ex": "alendronic acid, zoledronic acid",
+      "uses": [
+        {
+          "t": "Osteoporosis, fracture prevention",
+          "k": "y2-210-31"
+        },
+        {
+          "t": "Hypercalcaemia of malignancy (IV)",
+          "k": "y1-126-4"
+        },
+        {
+          "t": "Bone metastases",
+          "k": null
+        }
+      ],
+      "how": "Bind bone mineral and inhibit osteoclasts",
+      "hx": [
+        [
+          "Bind bone mineral and stimulate osteoblasts",
+          "They inhibit osteoclasts (less resorption); they don't build bone directly."
+        ],
+        [
+          "Mimic PTH to build new bone",
+          "That's teriparatide; bisphosphonates inhibit osteoclasts."
+        ],
+        [
+          "Block RANKL to stop osteoclasts forming",
+          "That's denosumab; bisphosphonates bind bone and poison osteoclasts."
+        ]
+      ],
+      "se": [
+        "Oesophagitis and ulcers",
+        "Osteonecrosis of the jaw",
+        "Atypical femoral fractures",
+        "Hypocalcaemia",
+        "Flu-like symptoms (IV)"
+      ],
+      "sewhy": "Tablets irritate the oesophagus if they lodge (take upright with water). Strongly suppressing bone turnover impairs repair (jaw osteonecrosis, atypical fractures), and lowering resorption can drop calcium.",
+      "ci": [
+        {
+          "c": "Oesophageal disorders (stricture, achalasia)",
+          "k": "y1-104-7",
+          "why": "Tablet lodges → oesophageal ulceration",
+          "cau": false,
+          "x": [
+            [
+              "Tablet lodges → oesophageal varices",
+              "Varices come from portal hypertension; the tablet causes ulceration."
+            ],
+            [
+              "Absorption fails, so no effect",
+              "The danger is the tablet ulcerating the oesophagus."
+            ],
+            [
+              "The tablet triggers achalasia",
+              "No; it lodges and ulcerates."
+            ]
+          ]
+        },
+        {
+          "c": "Can't stay upright for 30 minutes",
+          "k": "y1-104-7",
+          "why": "Reflux of the tablet damages the oesophagus",
+          "cau": false,
+          "x": [
+            [
+              "Lying down blocks absorption completely",
+              "The reason is oesophageal damage from reflux."
+            ],
+            [
+              "Lying down causes postural hypotension",
+              "Not BP; reflux damages the oesophagus."
+            ],
+            [
+              "Lying down raises jaw osteonecrosis risk",
+              "No; reflux of the tablet damages the oesophagus."
+            ]
+          ]
+        },
+        {
+          "c": "Hypocalcaemia",
+          "k": "y1-126-4",
+          "why": "Lowers calcium further; correct first (and vitamin D)",
+          "cau": false,
+          "x": [
+            [
+              "Raises calcium too fast; correct first",
+              "They lower calcium; correct it (and vitamin D) first."
+            ],
+            [
+              "Lowers phosphate dangerously; give phosphate",
+              "The concern is calcium falling."
+            ],
+            [
+              "Lowers calcium further; give vitamin D afterwards",
+              "Correct calcium and vitamin D before starting."
+            ]
+          ]
+        },
+        {
+          "c": "Severe renal impairment (eGFR <35)",
+          "k": "y1-135-5",
+          "why": "Renally excreted; nephrotoxic IV",
+          "cau": false,
+          "x": [
+            [
+              "Hepatically excreted; hepatotoxic IV",
+              "They're renally excreted, and IV doses are nephrotoxic."
+            ],
+            [
+              "Renally excreted; causes hyperkalaemia",
+              "The concern is accumulation and IV nephrotoxicity."
+            ],
+            [
+              "Accumulates in bone, causing fractures",
+              "Not the reason; renal excretion and nephrotoxicity."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calcium-vitamin-d",
+      "name": "Calcium + vitamin D",
+      "ex": "Adcal-D3",
+      "uses": [
+        {
+          "t": "Osteoporosis prevention",
+          "k": "y2-210-31"
+        },
+        {
+          "t": "With bisphosphonates",
+          "k": "y2-210-31"
+        }
+      ],
+      "how": "Replaces calcium and colecalciferol",
+      "hx": [
+        [
+          "Replaces calcium and calcitriol (active vitamin D)",
+          "Adcal-D3 contains colecalciferol (inactive vitamin D3), not calcitriol."
+        ],
+        [
+          "Replaces calcium and phosphate",
+          "It replaces calcium and vitamin D3."
+        ],
+        [
+          "Blocks PTH to retain calcium",
+          "It simply replaces calcium and vitamin D."
+        ]
+      ],
+      "se": [
+        "GI upset",
+        "Constipation"
+      ],
+      "sewhy": "Calcium salts commonly cause constipation and GI upset.",
+      "ci": [
+        {
+          "c": "Hypercalcaemia",
+          "k": "y1-126-4",
+          "why": "Raises calcium further",
+          "cau": false,
+          "x": [
+            [
+              "Lowers calcium too fast",
+              "It raises calcium further."
+            ],
+            [
+              "Raises phosphate further",
+              "The concern is calcium."
+            ],
+            [
+              "Causes vitamin D deficiency",
+              "No; it raises calcium further."
+            ]
+          ]
+        },
+        {
+          "c": "Calcium kidney stones",
+          "k": "y1-111-4",
+          "why": "More calcium in the urine",
+          "cau": false,
+          "x": [
+            [
+              "More oxalate in the urine",
+              "The issue is extra urinary calcium."
+            ],
+            [
+              "Less urine output",
+              "No; more calcium in the urine."
+            ],
+            [
+              "More urate in the urine",
+              "No; more calcium."
+            ]
+          ]
+        },
+        {
+          "c": "Sarcoidosis",
+          "k": "y1-126-4",
+          "why": "Granulomas make extra active vitamin D → hypercalcaemia",
+          "cau": true,
+          "x": [
+            [
+              "Granulomas absorb calcium → hypocalcaemia",
+              "Granulomas activate vitamin D, raising calcium."
+            ],
+            [
+              "Granulomas make PTH → hypercalcaemia",
+              "They make active vitamin D (1α-hydroxylase), not PTH."
+            ],
+            [
+              "Steroids for sarcoid block calcium absorption",
+              "Not the reason; granulomas make active vitamin D."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "a-204",
+  "num": "204",
+  "title": "Oral cavity and salivary glands",
+  "system": "Respiratory",
+  "link": "y2-204",
+  "pick": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "los": []
+}

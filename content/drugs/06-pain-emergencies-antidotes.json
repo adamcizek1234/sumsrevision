@@ -1,0 +1,933 @@
+{
+  "id": "pain",
+  "title": "Pain, emergencies & antidotes",
+  "items": [
+    {
+      "id": "paracetamol",
+      "name": "Paracetamol",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Mild pain, fever",
+          "k": "y2-219-2"
+        },
+        {
+          "t": "Step 1 of analgesic ladder",
+          "k": "y1-107-6"
+        }
+      ],
+      "how": "Central COX inhibition; weak peripheral anti-inflammatory effect",
+      "hx": [
+        [
+          "Peripheral COX inhibition; strong anti-inflammatory effect",
+          "It acts mainly centrally, with little anti-inflammatory effect (unlike NSAIDs)."
+        ],
+        [
+          "Central μ-opioid agonism; weak peripheral effect",
+          "It isn't an opioid; it inhibits COX centrally."
+        ],
+        [
+          "Central 5-HT3 antagonism; weak peripheral anti-inflammatory effect",
+          "Its main action is central COX inhibition."
+        ]
+      ],
+      "se": [
+        "Rare at normal doses",
+        "Hepatotoxicity in overdose"
+      ],
+      "sewhy": "At normal doses it's well tolerated; in overdose glutathione runs out and the toxic metabolite NAPQI damages the liver.",
+      "ci": [
+        {
+          "c": "Liver disease, alcohol dependence, weight <50 kg",
+          "k": "y2-229-3",
+          "why": "Less glutathione to detoxify NAPQI: reduce dose",
+          "cau": true,
+          "x": [
+            [
+              "More glutathione speeds clearance: increase the dose",
+              "Glutathione stores are low, so NAPQI builds up: reduce the dose."
+            ],
+            [
+              "Paracetamol is renally excreted: reduce the dose",
+              "It's metabolised by the liver; low glutathione lets NAPQI build up."
+            ],
+            [
+              "Alcohol blocks paracetamol absorption: increase the dose",
+              "No; less glutathione means NAPQI accumulates."
+            ]
+          ]
+        },
+        {
+          "c": "Overdose",
+          "k": "y1-127-2",
+          "why": "Treat with acetylcysteine",
+          "cau": true,
+          "x": [
+            [
+              "Treat with naloxone",
+              "Naloxone reverses opioids; paracetamol overdose needs acetylcysteine."
+            ],
+            [
+              "Treat with activated charcoal alone",
+              "Charcoal may help within an hour, but acetylcysteine is the antidote."
+            ],
+            [
+              "Treat with flumazenil",
+              "That's for benzodiazepines; use acetylcysteine."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nsaids",
+      "name": "NSAIDs",
+      "ex": "ibuprofen, naproxen, diclofenac",
+      "uses": [
+        {
+          "t": "Musculoskeletal pain, OA",
+          "k": "y1-115-3"
+        },
+        {
+          "t": "Gout flare",
+          "k": "y1-125-3"
+        },
+        {
+          "t": "Renal colic",
+          "k": "y1-111-4"
+        },
+        {
+          "t": "Dysmenorrhoea, HMB",
+          "k": "y2-212-1"
+        }
+      ],
+      "how": "Inhibit COX-1 and COX-2 → ↓ prostaglandins",
+      "hx": [
+        [
+          "Inhibit lipoxygenase → ↓ leukotrienes",
+          "They inhibit COX; blocking COX can actually shunt arachidonic acid towards leukotrienes."
+        ],
+        [
+          "Inhibit COX-1 and COX-2 → ↑ prostaglandins",
+          "Blocking COX lowers prostaglandin production."
+        ],
+        [
+          "Inhibit phospholipase A2 → ↓ arachidonic acid release",
+          "That's closer to a steroid effect; NSAIDs inhibit COX."
+        ]
+      ],
+      "se": [
+        "Dyspepsia, GI ulcers and bleeding",
+        "AKI",
+        "Fluid retention, ↑ BP",
+        "CV events (diclofenac, COX-2)",
+        "Bronchospasm",
+        "Hyperkalaemia"
+      ],
+      "sewhy": "Blocking prostaglandins removes stomach protection (ulcers, bleeding), constricts the afferent arteriole (AKI, salt retention, raised BP) and shifts arachidonic acid towards leukotrienes (bronchospasm); COX-2 selectivity raises thrombotic risk.",
+      "ci": [
+        {
+          "c": "Active or previous peptic ulcer / GI bleeding",
+          "k": "y1-104-1",
+          "why": "COX-1 block removes protective prostaglandins",
+          "cau": false,
+          "x": [
+            [
+              "COX-2 block raises gastric acid directly",
+              "COX-1 makes the protective gastric prostaglandins; losing them is the issue."
+            ],
+            [
+              "NSAIDs promote H. pylori growth",
+              "No; they strip prostaglandin protection."
+            ],
+            [
+              "NSAIDs raise gastrin release",
+              "No; COX-1 block removes protective prostaglandins."
+            ]
+          ]
+        },
+        {
+          "c": "Severe heart failure",
+          "k": "y2-211-5",
+          "why": "Sodium and water retention",
+          "cau": false,
+          "x": [
+            [
+              "Negative inotropy",
+              "They don't weaken the heart directly; they retain sodium and water."
+            ],
+            [
+              "Coronary vasospasm",
+              "No; sodium and water retention."
+            ],
+            [
+              "Potassium loss",
+              "They retain K⁺ if anything; the issue is Na⁺ and water."
+            ]
+          ]
+        },
+        {
+          "c": "AKI or significant renal impairment",
+          "k": "y2-220-2",
+          "why": "Block prostaglandin dilation of the afferent arteriole → ↓ GFR",
+          "cau": false,
+          "x": [
+            [
+              "Block prostaglandin constriction of the efferent arteriole → ↓ GFR",
+              "Prostaglandins dilate the afferent arteriole; losing that drops GFR."
+            ],
+            [
+              "Crystallise in the tubules → obstruction",
+              "No crystals; afferent vasoconstriction lowers GFR."
+            ],
+            [
+              "Raise angiotensin II at the afferent arteriole → ↑ GFR",
+              "They lower GFR by removing prostaglandin vasodilation."
+            ]
+          ]
+        },
+        {
+          "c": "NSAID-sensitive asthma",
+          "k": "y2-204-6",
+          "why": "Shunting to leukotrienes → bronchospasm",
+          "cau": false,
+          "x": [
+            [
+              "Shunting to thromboxane → airway oedema",
+              "Arachidonic acid is shunted to leukotrienes."
+            ],
+            [
+              "Histamine release from mast cells → bronchospasm",
+              "Not histamine; COX block shunts to leukotrienes."
+            ],
+            [
+              "Prostaglandin excess → bronchospasm",
+              "Prostaglandins fall; leukotrienes rise."
+            ]
+          ]
+        },
+        {
+          "c": "Third trimester of pregnancy",
+          "k": "y1-114-1",
+          "why": "Premature closure of the ductus arteriosus",
+          "cau": false,
+          "x": [
+            [
+              "Premature opening of the foramen ovale",
+              "The risk is the ductus closing early."
+            ],
+            [
+              "Delayed closure of the ductus arteriosus",
+              "Prostaglandins keep the ductus open; NSAIDs close it early."
+            ],
+            [
+              "Fetal kidney stones",
+              "No; ductus closure (and oligohydramnios)."
+            ]
+          ]
+        },
+        {
+          "c": "Established CVD (diclofenac, COX-2 inhibitors)",
+          "k": "y1-134-1",
+          "why": "↑ MI and stroke",
+          "cau": false,
+          "x": [
+            [
+              "↓ statin efficacy",
+              "The concern is more MIs and strokes."
+            ],
+            [
+              "↑ heart block",
+              "No; ↑ MI and stroke."
+            ],
+            [
+              "↑ VTE only",
+              "The excess is arterial: MI and stroke."
+            ]
+          ]
+        },
+        {
+          "c": "With anticoagulants, SSRIs, steroids",
+          "k": "y1-138-3",
+          "why": "↑ GI bleeding; give a PPI",
+          "cau": true,
+          "x": [
+            [
+              "↑ renal clearance of warfarin; double the dose",
+              "The risk is GI bleeding; add a PPI."
+            ],
+            [
+              "↑ hyperkalaemia; check U&E daily",
+              "Not the main concern; GI bleeding is."
+            ],
+            [
+              "↑ GI bleeding; give H. pylori eradication",
+              "Protect the stomach with a PPI."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weak-opioids",
+      "name": "Weak opioids",
+      "ex": "codeine, tramadol",
+      "uses": [
+        {
+          "t": "Moderate pain",
+          "k": "y2-219-2"
+        }
+      ],
+      "how": "μ-opioid agonists (codeine is converted to morphine by CYP2D6; tramadol also inhibits 5-HT/NA reuptake)",
+      "hx": [
+        [
+          "κ-opioid antagonists (codeine is converted to morphine by CYP3A4; tramadol also blocks NMDA)",
+          "They're μ agonists; codeine needs CYP2D6, and tramadol inhibits 5-HT/NA reuptake."
+        ],
+        [
+          "μ-opioid agonists (morphine is converted to codeine by CYP2D6; tramadol also releases dopamine)",
+          "Codeine is converted to morphine, and tramadol inhibits 5-HT/NA reuptake."
+        ],
+        [
+          "δ-opioid agonists (codeine acts unchanged; tramadol also inhibits COX)",
+          "Codeine is a prodrug (CYP2D6 → morphine); tramadol inhibits 5-HT/NA reuptake."
+        ]
+      ],
+      "se": [
+        "Constipation",
+        "Nausea",
+        "Drowsiness",
+        "Dependence",
+        "Seizures and serotonin syndrome (tramadol)"
+      ],
+      "sewhy": "μ-opioid effects cause constipation, nausea and drowsiness; tramadol also blocks serotonin and noradrenaline reuptake (serotonin syndrome, lowered seizure threshold).",
+      "ci": [
+        {
+          "c": "Children under 12, or under 18 after tonsillectomy (codeine)",
+          "k": "y1-110-1",
+          "why": "Ultra-rapid metabolisers make excess morphine → respiratory arrest",
+          "cau": false,
+          "x": [
+            [
+              "Poor metabolisers make no morphine → uncontrolled pain",
+              "The danger is ultra-rapid metabolisers making too much morphine."
+            ],
+            [
+              "Children can't convert codeine, so it causes seizures",
+              "Some convert it too fast, making excess morphine."
+            ],
+            [
+              "Ultra-rapid metabolisers make excess morphine → severe constipation",
+              "The dangerous effect is respiratory depression."
+            ]
+          ]
+        },
+        {
+          "c": "Breastfeeding (codeine)",
+          "k": "y1-114-1",
+          "why": "Morphine passes to the baby",
+          "cau": false,
+          "x": [
+            [
+              "Codeine stops milk production",
+              "Not the reason; morphine reaches the baby."
+            ],
+            [
+              "Codeine causes neonatal jaundice",
+              "No; morphine passes to the baby (sedation, apnoea)."
+            ],
+            [
+              "Codeine makes milk taste bitter",
+              "No; morphine passes into milk."
+            ]
+          ]
+        },
+        {
+          "c": "Epilepsy (tramadol)",
+          "k": "y2-230-1",
+          "why": "Lowers the seizure threshold",
+          "cau": false,
+          "x": [
+            [
+              "Raises antiepileptic levels",
+              "No; tramadol lowers the seizure threshold."
+            ],
+            [
+              "Blocks antiepileptic absorption",
+              "No; it lowers the seizure threshold."
+            ],
+            [
+              "Raises the seizure threshold",
+              "It lowers it."
+            ]
+          ]
+        },
+        {
+          "c": "With SSRIs or MAOIs (tramadol)",
+          "k": "y1-119-2",
+          "why": "Serotonin syndrome",
+          "cau": false,
+          "x": [
+            [
+              "Neuroleptic malignant syndrome",
+              "That's antipsychotics; tramadol plus SSRIs causes serotonin syndrome."
+            ],
+            [
+              "Malignant hyperthermia",
+              "That comes from anaesthetic agents; tramadol plus SSRIs causes serotonin syndrome."
+            ],
+            [
+              "Respiratory depression",
+              "Not the combination's main risk; serotonin syndrome."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "strong-opioids",
+      "name": "Strong opioids",
+      "ex": "morphine, oxycodone",
+      "uses": [
+        {
+          "t": "Severe pain",
+          "k": "y2-219-2"
+        },
+        {
+          "t": "Palliative pain and breathlessness",
+          "k": "y1-146-3"
+        },
+        {
+          "t": "ACS pain (with antiemetic)",
+          "k": "y2-212-25"
+        }
+      ],
+      "how": "μ-opioid receptor agonists in brain and spinal cord",
+      "hx": [
+        [
+          "κ-opioid receptor antagonists in brain and spinal cord",
+          "Morphine and oxycodone are μ agonists."
+        ],
+        [
+          "μ-opioid receptor antagonists in the gut only",
+          "They're agonists acting centrally (and in the gut)."
+        ],
+        [
+          "NMDA receptor antagonists in the spinal cord",
+          "That's ketamine; strong opioids are μ agonists."
+        ]
+      ],
+      "se": [
+        "Constipation (always prescribe a laxative)",
+        "Nausea, vomiting",
+        "Drowsiness, confusion",
+        "Respiratory depression",
+        "Itch",
+        "Urinary retention",
+        "Dependence"
+      ],
+      "sewhy": "μ-receptors in the gut (constipation), CTZ (nausea), brainstem (respiratory depression), cortex (sedation) and bladder (retention), plus histamine release (itch); tolerance and dependence develop.",
+      "ci": [
+        {
+          "c": "Respiratory depression or acute type 2 respiratory failure",
+          "k": "y2-207-4",
+          "why": "Further suppresses the respiratory drive",
+          "cau": false,
+          "x": [
+            [
+              "Triggers bronchospasm through histamine release",
+              "The issue is reduced respiratory drive."
+            ],
+            [
+              "Raises the brainstem's sensitivity to CO₂",
+              "They blunt the response to CO₂."
+            ],
+            [
+              "Paralyses the diaphragm directly",
+              "No; they suppress the brainstem's respiratory drive."
+            ]
+          ]
+        },
+        {
+          "c": "Paralytic ileus",
+          "k": "y2-206-27",
+          "why": "Stops gut motility",
+          "cau": false,
+          "x": [
+            [
+              "Speeds gut motility",
+              "Opioids slow the gut."
+            ],
+            [
+              "Causes gut ischaemia",
+              "No; they stop motility."
+            ],
+            [
+              "Raises gut secretions",
+              "They reduce secretions and motility."
+            ]
+          ]
+        },
+        {
+          "c": "Head injury, raised ICP",
+          "k": "y2-209-21",
+          "why": "CO₂ retention raises ICP; masks pupils and GCS",
+          "cau": true,
+          "x": [
+            [
+              "CO₂ loss lowers ICP; dilates pupils",
+              "Opioids cause CO₂ retention (raising ICP) and pinpoint pupils."
+            ],
+            [
+              "Raises BP, increasing ICP; masks headache",
+              "The issue is CO₂ retention and masking pupils and GCS."
+            ],
+            [
+              "Causes seizures that raise ICP",
+              "Not seizures; CO₂ retention and masked neuro signs."
+            ]
+          ]
+        },
+        {
+          "c": "Renal impairment (morphine)",
+          "k": "y2-220-16",
+          "why": "Active metabolites accumulate; use oxycodone or alfentanil",
+          "cau": true,
+          "x": [
+            [
+              "Morphine is nephrotoxic; use codeine",
+              "Not nephrotoxic; its active metabolites build up (and codeine is worse)."
+            ],
+            [
+              "Active metabolites are lost in urine; double the dose",
+              "They accumulate, so switch to oxycodone or alfentanil."
+            ],
+            [
+              "Inactive metabolites accumulate; no change needed",
+              "Morphine-6-glucuronide is active and accumulates."
+            ]
+          ]
+        },
+        {
+          "c": "With benzodiazepines or gabapentinoids",
+          "k": "y2-207-4",
+          "why": "Combined respiratory depression",
+          "cau": true,
+          "x": [
+            [
+              "Combined hypertension",
+              "The risk is combined respiratory depression."
+            ],
+            [
+              "Combined seizures",
+              "No; respiratory depression."
+            ],
+            [
+              "Combined hepatotoxicity",
+              "No; combined respiratory depression."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "naloxone",
+      "name": "Naloxone",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Opioid overdose",
+          "k": "y1-127-2"
+        }
+      ],
+      "how": "Competitive μ-opioid antagonist",
+      "hx": [
+        [
+          "Non-competitive κ-opioid agonist",
+          "It's a competitive μ antagonist."
+        ],
+        [
+          "Partial μ-opioid agonist",
+          "That's buprenorphine; naloxone is a pure antagonist."
+        ],
+        [
+          "Respiratory stimulant at the brainstem",
+          "It works by displacing opioids from μ receptors."
+        ]
+      ],
+      "se": [
+        "Acute withdrawal (agitation, vomiting)",
+        "Hypertension",
+        "Pulmonary oedema (rare)"
+      ],
+      "sewhy": "Naloxone displaces opioids from their receptors, so a big dose triggers sudden withdrawal and a sympathetic surge (agitation, hypertension, pulmonary oedema).",
+      "ci": [
+        {
+          "c": "Opioid dependence",
+          "k": "y1-127-2",
+          "why": "Precipitates withdrawal: titrate small doses",
+          "cau": true,
+          "x": [
+            [
+              "Causes respiratory arrest: avoid completely",
+              "It reverses respiratory depression; titrate to avoid withdrawal."
+            ],
+            [
+              "Has no effect in dependence: give large doses",
+              "It works, but precipitates withdrawal; titrate small doses."
+            ],
+            [
+              "Precipitates seizures: give diazepam first",
+              "The issue is acute withdrawal; titrate."
+            ]
+          ]
+        },
+        {
+          "c": "Long-acting opioids",
+          "k": "y1-127-2",
+          "why": "Naloxone wears off first → re-sedation; may need an infusion",
+          "cau": true,
+          "x": [
+            [
+              "Naloxone lasts longer → prolonged withdrawal; give one dose",
+              "Naloxone is shorter-acting, so sedation can return."
+            ],
+            [
+              "Long-acting opioids block naloxone completely",
+              "It works, but wears off first."
+            ],
+            [
+              "Naloxone converts to an opioid → re-sedation",
+              "No; it wears off before the opioid does."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acetylcysteine",
+      "name": "Acetylcysteine",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Paracetamol overdose",
+          "k": "y1-127-2"
+        }
+      ],
+      "how": "Replenishes glutathione to detoxify NAPQI",
+      "hx": [
+        [
+          "Blocks paracetamol absorption from the gut",
+          "That's activated charcoal; acetylcysteine replenishes glutathione."
+        ],
+        [
+          "Binds paracetamol in the blood for renal excretion",
+          "It restores glutathione, which neutralises NAPQI."
+        ],
+        [
+          "Inhibits CYP2E1 so less NAPQI forms",
+          "It replenishes glutathione to mop up NAPQI."
+        ]
+      ],
+      "se": [
+        "Anaphylactoid reaction (rash, flushing, bronchospasm, hypotension)"
+      ],
+      "sewhy": "The IV infusion causes histamine release (anaphylactoid, not true allergy), with rash, flushing or bronchospasm, usually early; slowing or pausing the infusion helps.",
+      "ci": [
+        {
+          "c": "Asthma",
+          "k": "y2-204-6",
+          "why": "Higher risk of bronchospasm; still give if indicated",
+          "cau": true,
+          "x": [
+            [
+              "Higher risk of bronchospasm; never give",
+              "Still give it if indicated: liver failure is far worse."
+            ],
+            [
+              "Interacts with salbutamol; withhold inhalers",
+              "No; anaphylactoid bronchospasm is more likely, but still treat."
+            ],
+            [
+              "Raises theophylline levels; check levels first",
+              "Not the reason; bronchospasm risk, but still give."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adrenaline",
+      "name": "Adrenaline",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Anaphylaxis (IM 500 μg 1:1000)",
+          "k": "y1-140-3"
+        },
+        {
+          "t": "Cardiac arrest (1 mg IV)",
+          "k": "y1-140-1"
+        },
+        {
+          "t": "Refractory shock",
+          "k": "y1-140-4"
+        }
+      ],
+      "how": "α1 vasoconstriction, β1 ↑ heart rate and force, β2 bronchodilation, mast-cell stabilisation",
+      "hx": [
+        [
+          "α1 vasodilation, β1 ↓ heart rate and force, β2 bronchoconstriction, mast-cell activation",
+          "Each effect is reversed: it constricts vessels, speeds the heart, opens airways and stabilises mast cells."
+        ],
+        [
+          "α2 vasoconstriction only, with no cardiac or airway effects",
+          "It acts on α1, β1 and β2 receptors."
+        ],
+        [
+          "H1 receptor block, β1 ↑ heart rate, β2 bronchodilation, mast-cell stabilisation",
+          "No antihistamine action; α1 vasoconstriction is key."
+        ]
+      ],
+      "se": [
+        "Tachycardia",
+        "Arrhythmias",
+        "Hypertension",
+        "Anxiety, tremor",
+        "Hyperglycaemia"
+      ],
+      "sewhy": "Stimulating α and β receptors raises heart rate and BP and can cause arrhythmias; β effects cause tremor and anxiety, and glycogenolysis raises glucose.",
+      "ci": [
+        {
+          "c": "Patients on beta-blockers",
+          "k": "y1-140-3",
+          "why": "May respond poorly; glucagon can help. No contraindication in anaphylaxis or arrest",
+          "cau": true,
+          "x": [
+            [
+              "Contraindicated: give chlorphenamine instead in anaphylaxis",
+              "Adrenaline is never contraindicated in anaphylaxis or arrest; give glucagon if the response is poor."
+            ],
+            [
+              "Response is exaggerated, so halve the dose",
+              "Response may be poor, not exaggerated; glucagon can help."
+            ],
+            [
+              "May respond poorly; give insulin to help",
+              "Glucagon (not insulin) bypasses the β receptor."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "noradrenaline",
+      "name": "Noradrenaline",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Septic shock (MAP ≥65)",
+          "k": "y1-140-4"
+        }
+      ],
+      "how": "Mainly α1 agonist → vasoconstriction, ↑ SVR",
+      "hx": [
+        [
+          "Mainly β2 agonist → vasodilation, ↓ SVR",
+          "It's mainly α1: vasoconstriction raising SVR."
+        ],
+        [
+          "Mainly β1 agonist → ↑ heart rate, ↓ SVR",
+          "Its main effect is α1 vasoconstriction."
+        ],
+        [
+          "Mainly α2 agonist → ↓ sympathetic outflow, ↓ SVR",
+          "That's clonidine; noradrenaline constricts vessels through α1."
+        ]
+      ],
+      "se": [
+        "Hypertension",
+        "Arrhythmias",
+        "Peripheral and gut ischaemia",
+        "Extravasation necrosis"
+      ],
+      "sewhy": "Strong α1 vasoconstriction raises BP but can starve fingers, toes and gut of blood; leaking from the vein causes local necrosis.",
+      "ci": [
+        {
+          "c": "Uncorrected hypovolaemia",
+          "k": "y1-135-1",
+          "why": "Constricting an empty circulation → organ ischaemia; give fluids first",
+          "cau": false,
+          "x": [
+            [
+              "Dilating an empty circulation → hypotension; give fluids first",
+              "It constricts vessels; in an empty circulation that starves organs."
+            ],
+            [
+              "Causes fluid overload → pulmonary oedema; give diuretics first",
+              "The circulation is empty; fill it before constricting."
+            ],
+            [
+              "Raises heart rate → arrhythmias; give beta-blockers first",
+              "The issue is constricting an empty circulation; give fluids first."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atropine",
+      "name": "Atropine",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Symptomatic bradycardia (500 μg)",
+          "k": "y1-108-3"
+        },
+        {
+          "t": "Organophosphate poisoning",
+          "k": "y1-127-2"
+        }
+      ],
+      "how": "Muscarinic antagonist → removes vagal slowing",
+      "hx": [
+        [
+          "Muscarinic agonist → increases vagal slowing",
+          "It blocks muscarinic receptors, removing vagal tone."
+        ],
+        [
+          "β1 agonist → directly speeds the SA node",
+          "It works by blocking vagal (muscarinic) input."
+        ],
+        [
+          "Nicotinic antagonist → blocks sympathetic ganglia",
+          "It's antimuscarinic."
+        ]
+      ],
+      "se": [
+        "Tachycardia",
+        "Dry mouth",
+        "Urinary retention",
+        "Confusion",
+        "Blurred vision"
+      ],
+      "sewhy": "Blocking muscarinic receptors removes parasympathetic tone: tachycardia, dry mouth, urinary retention, blurred vision and, in older people, confusion.",
+      "ci": [
+        {
+          "c": "Angle-closure glaucoma, urinary retention",
+          "k": "y1-142-4",
+          "why": "Antimuscarinic effects; in emergencies benefit usually outweighs this",
+          "cau": true,
+          "x": [
+            [
+              "Cholinergic effects; never use in emergencies",
+              "It's antimuscarinic, and in emergencies the benefit usually wins."
+            ],
+            [
+              "α-adrenergic effects; use half-dose in emergencies",
+              "The issue is antimuscarinic effects; benefit usually outweighs risk."
+            ],
+            [
+              "Antimuscarinic effects; always contraindicated, even in emergencies",
+              "In emergencies the benefit usually outweighs this."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entonox",
+      "name": "Entonox",
+      "ex": "50% nitrous oxide / oxygen",
+      "uses": [
+        {
+          "t": "Short painful procedures, trauma, labour",
+          "k": "y1-107-6"
+        }
+      ],
+      "how": "Inhaled analgesic gas",
+      "hx": [
+        [
+          "Inhaled anaesthetic vapour",
+          "It's a 50:50 N₂O/O₂ analgesic gas, not a volatile anaesthetic."
+        ],
+        [
+          "Inhaled bronchodilator gas",
+          "It's an analgesic."
+        ],
+        [
+          "Inhaled opioid aerosol",
+          "It's nitrous oxide and oxygen."
+        ]
+      ],
+      "se": [
+        "Nausea",
+        "Dizziness",
+        "B12 inactivation with prolonged or recreational use"
+      ],
+      "sewhy": "Nitrous oxide causes nausea and dizziness; it oxidises the cobalt in B12, so prolonged or recreational use causes deficiency and neuropathy.",
+      "ci": [
+        {
+          "c": "Pneumothorax",
+          "k": "y1-106-1",
+          "why": "N₂O diffuses into air spaces and expands them",
+          "cau": false,
+          "x": [
+            [
+              "N₂O constricts the pleura and traps air",
+              "N₂O enters gas spaces faster than nitrogen leaves, expanding them."
+            ],
+            [
+              "Oxygen dissolves the air, shrinking it too fast",
+              "No; N₂O expands air spaces."
+            ],
+            [
+              "N₂O causes bronchospasm",
+              "No; it expands air-filled spaces."
+            ]
+          ]
+        },
+        {
+          "c": "Bowel obstruction",
+          "k": "y2-206-27",
+          "why": "Expands gas in the bowel",
+          "cau": false,
+          "x": [
+            [
+              "Stops bowel peristalsis",
+              "The issue is gas expansion."
+            ],
+            [
+              "Causes bowel ischaemia directly",
+              "No; N₂O expands gas in the bowel."
+            ],
+            [
+              "Speeds bowel peristalsis",
+              "No; it expands bowel gas."
+            ]
+          ]
+        },
+        {
+          "c": "Head injury with reduced GCS",
+          "k": "y2-209-21",
+          "why": "Can raise ICP and confuse assessment",
+          "cau": false,
+          "x": [
+            [
+              "Can lower ICP and mask fractures",
+              "It can raise ICP and cloud the neuro assessment."
+            ],
+            [
+              "Can cause seizures in any head injury",
+              "Not the reason; raised ICP and a confused assessment."
+            ],
+            [
+              "Can cause hypoxia from bronchospasm",
+              "No; it can raise ICP and confuse assessment."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

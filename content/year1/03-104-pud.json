@@ -1,0 +1,70 @@
+{
+  "id": "y1-104",
+  "num": "104",
+  "title": "PUD",
+  "los": [
+    {
+      "text": "Describe the causes (eg. Helicobacter pylori, non-steroidal anti-inflammatory drugs, smoking), signs and symptoms, and diagnosis of peptic ulcer disease (PUD) and gastro-oesophageal reflux disease (GORD)",
+      "sessions": [
+        "Clin 1: Case presentation"
+      ],
+      "section": "Clinical",
+      "n": 1,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">PUD causes</th><td><strong><em>H. pylori</em></strong> (~90% DU, ~70% GU), <strong>NSAIDs/aspirin</strong>, smoking, alcohol, steroids + NSAID, SSRIs + NSAID, Zollinger–Ellison (gastrinoma), stress (ICU, burns: Curling's).</td></tr><tr><th scope=\"row\">Symptoms</th><td><ul class=\"cl\"><li>Epigastric pain</li><li><strong>Duodenal</strong> typically better with food and worse at night</li><li><strong>Gastric</strong> worse with food.</li><li>Bloating, nausea.</li><li>Complications: haematemesis/melaena, perforation (sudden severe pain, peritonism), gastric outlet obstruction (vomiting).</li></ul></td></tr><tr><th scope=\"row\">GORD</th><td>Heartburn, acid regurgitation, worse lying flat/after meals; atypical: chronic cough, hoarseness, nocturnal asthma, dental erosion.</td></tr><tr><th scope=\"row\">Risk factors (GORD)</th><td>Obesity, hiatus hernia, pregnancy, smoking, alcohol, fatty meals, drugs relaxing the LOS (CCBs, nitrates, anticholinergics).</td></tr><tr><th scope=\"row\">Diagnosis</th><td><ul class=\"cl\"><li>H. pylori <strong>urea breath test</strong> or <strong>stool antigen</strong> (stop PPI 2 weeks, antibiotics 4 weeks before).</li><li><strong>OGD</strong> if red flags (ALARMS: Anaemia, Loss of weight, Anorexia, Recent onset/progressive, Melaena/haematemesis, Swallowing difficulty) or age ≥55 with weight loss.</li><li>GORD is often a clinical diagnosis</li><li>pH/impedance monitoring if unclear.</li></ul></td></tr></tbody></table></div><div class=\"key\">NICE 2-week-wait OGD: dysphagia at any age, or ≥55 with weight loss + upper abdominal pain/reflux/dyspepsia.</div>"
+    },
+    {
+      "text": "Explain the pathophysiology of PUD and GORD",
+      "sessions": [
+        "Clin 2: Oesophageal and gastric functions"
+      ],
+      "section": "Clinical",
+      "n": 2,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><td colspan=\"2\"><strong>Ulcers form when aggressive factors outweigh mucosal defence.</strong></td></tr><tr><th scope=\"row\">Defences</th><td>Mucus–bicarbonate layer, tight junctions, epithelial renewal, mucosal blood flow, <strong>prostaglandins (PGE2/PGI2)</strong> which ↑ mucus/HCO₃⁻ and blood flow and ↓ acid.</td></tr><tr><td colspan=\"2\"><ul class=\"cl\"><li><strong><em>H. pylori</em></strong>: urease makes NH₃ (neutralises local acid), flagella, adhesins</li><li>CagA/VacA toxins → inflammation.</li><li><strong>Antral gastritis</strong> → ↓ somatostatin → ↑ gastrin → ↑ acid → <strong>duodenal ulcer</strong>.</li><li>Pangastritis → atrophy → gastric ulcer, adenocarcinoma, MALT lymphoma.</li></ul></td></tr><tr><th scope=\"row\">NSAIDs</th><td>COX-1 inhibition → ↓ protective prostaglandins + direct topical injury.</td></tr><tr><th scope=\"row\">GORD</th><td><ul class=\"cl\"><li>Transient LOS relaxations, ↓ LOS tone, hiatus hernia (loss of crural diaphragm), impaired oesophageal clearance, delayed gastric emptying</li><li>→ acid/pepsin/bile damage squamous mucosa</li><li>→ oesophagitis</li><li>→ stricture or <strong>Barrett's</strong> (intestinal metaplasia → adenocarcinoma risk).</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Apply the pharmacology of drugs used to treat PUD and GORD and relevant evidence for their benefits to be able to choose and manage effective treatment for individual patients",
+      "sessions": [
+        "Clin 3: GORD / PUD drugs"
+      ],
+      "section": "Clinical",
+      "n": 3,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Class</th><th>Example</th><th>Mechanism</th><th>Notes</th></tr></thead><tbody><tr><td>PPI</td><td>Omeprazole, lansoprazole</td><td>Irreversibly block H⁺/K⁺-ATPase in parietal cells (prodrug activated by acid)</td><td>Most effective. Long-term: C. difficile, hypomagnesaemia, ↓B12, fractures, hyponatraemia. Omeprazole ↓ clopidogrel activation (CYP2C19)</td></tr><tr><td>H2 antagonist</td><td>Famotidine</td><td>Block parietal H2 receptors → ↓ histamine-driven acid</td><td>Less potent; tachyphylaxis</td></tr><tr><td>Antacid/alginate</td><td>Gaviscon</td><td>Neutralise acid; alginate raft over stomach contents</td><td>Quick symptom relief</td></tr><tr><td>Prostaglandin analogue</td><td>Misoprostol</td><td>Restores PGE1 protection</td><td>Diarrhoea; abortifacient (avoid in pregnancy)</td></tr><tr><td>Prokinetic</td><td>Metoclopramide</td><td>D2 antagonism</td><td>Extrapyramidal effects; short courses only</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">H. pylori eradication (UK)</th><td><ul class=\"cl\"><li>7-day triple therapy = <strong>PPI + amoxicillin + clarithromycin or metronidazole</strong> (penicillin allergy: PPI + clarithromycin + metronidazole).</li><li>Retest with UBT if symptoms persist.</li></ul></td></tr><tr><th scope=\"row\">Bleeding ulcer</th><td>Resuscitate, Glasgow–Blatchford score, endoscopy within 24 h (endoscopic therapy), PPI after endoscopy if high-risk stigmata.</td></tr><tr><th scope=\"row\">GORD</th><td><ul class=\"cl\"><li>Lifestyle (weight loss, raise bed head, avoid late meals) → full-dose PPI 4–8 weeks (8 weeks if oesophagitis) → lowest effective dose.</li><li>Surgery: laparoscopic fundoplication.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the basic mechanisms of swallowing, gastroesophageal reflux and vomiting",
+      "sessions": [
+        "BMS 1: Swallowing and vomiting"
+      ],
+      "section": "BMS",
+      "n": 4,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Swallowing</th><td><ul class=\"cl\"><li>(1) <strong>oral</strong> (voluntary): bolus pushed back by tongue.</li><li>(2) <strong>Pharyngeal</strong> (reflex, swallowing centre in medulla): soft palate seals nasopharynx</li><li>Larynx elevates</li><li>Epiglottis covers it</li><li>Vocal cords close</li><li>Breathing stops</li><li>UOS (cricopharyngeus) relaxes.</li><li>(3) <strong>Oesophageal</strong>: primary peristalsis (vagus, myenteric plexus)</li><li>LOS relaxes via NO/VIP (receptive relaxation).</li></ul></td></tr><tr><th scope=\"row\">Anti-reflux barrier</th><td>LOS tone, crural diaphragm \"pinchcock\", acute angle of His, intra-abdominal oesophagus, phrenoesophageal ligament.</td></tr><tr><th scope=\"row\">Reflux</th><td>Mostly during <strong>transient LOS relaxations</strong>; cleared by secondary peristalsis and swallowed salivary bicarbonate.</td></tr><tr><th scope=\"row\">Vomiting</th><td><ul class=\"cl\"><li>Coordinated by the <strong>vomiting centre</strong> (medulla, nucleus tractus solitarius).</li><li>Inputs: <strong>chemoreceptor trigger zone</strong> (area postrema, outside BBB: D2, 5-HT3, NK1; drugs and toxins)</li><li><strong>Vagal afferents from the gut</strong> (5-HT3; chemotherapy, distension)</li><li><strong>Vestibular</strong> system (H1, muscarinic; motion)</li><li>Higher centres (anxiety, smells).</li></ul></td></tr><tr><th scope=\"row\">Sequence</th><td>Salivation, retching, deep breath, glottis closes, diaphragm and abdominal muscles contract against a relaxed LOS/stomach.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the role of the stomach in the digestion and absorption of nutrients",
+      "sessions": [
+        "BMS 2: Digestion in the stomach"
+      ],
+      "section": "BMS",
+      "n": 5,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><td colspan=\"2\"><strong>Storage</strong> (receptive relaxation via vagus) and <strong>mixing/grinding</strong> (antral peristalsis) to form chyme; pylorus meters small amounts into duodenum.</td></tr><tr><th scope=\"row\">Secretions</th><td><ul class=\"cl\"><li><strong>HCl</strong> from parietal cells (kills microbes, denatures protein, activates pepsin, aids iron absorption Fe³⁺ → Fe²⁺)</li><li><strong>Pepsinogen</strong> from chief cells → pepsin (protein digestion begins)</li><li><strong>Intrinsic factor</strong> (B12 absorption in ileum)</li><li><strong>Gastric lipase</strong></li><li>Mucus/HCO₃⁻</li><li>Gastrin (G cells), somatostatin (D cells).</li></ul></td></tr><tr><th scope=\"row\">Acid regulation</th><td><ul class=\"cl\"><li>Cephalic (vagal ACh, ~30%), gastric (distension, peptides → gastrin, ~60%), intestinal (inhibitory: secretin, CCK, GIP, somatostatin).</li><li>Parietal cells are stimulated by <strong>ACh (M3), gastrin (CCK2) and histamine (H2, from ECL cells)</strong>.</li></ul></td></tr><tr><th scope=\"row\">Absorption</th><td>Minimal. Only lipid-soluble substances such as <strong>alcohol and aspirin</strong>.</td></tr><tr><th scope=\"row\">Emptying</th><td>Slowed by fat, acid and hyperosmolar chyme in the duodenum (enterogastric reflex, CCK, GIP).</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Explain the role of the small intestine in the digestion of proteins, fats and carbohydrates",
+      "sessions": [
+        "BMS 2: Digestion in the small GI"
+      ],
+      "section": "BMS",
+      "n": 6,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Proteins</th><td><ul class=\"cl\"><li>Pepsin starts it.</li><li>Pancreatic <strong>trypsinogen</strong> is activated by brush-border <strong>enteropeptidase (enterokinase)</strong> → trypsin, which activates chymotrypsin, elastase, carboxypeptidases.</li><li>Brush-border peptidases → amino acids (Na⁺-coupled transporters) and di/tripeptides (PepT1, H⁺-coupled), hydrolysed inside the cell.</li></ul></td></tr><tr><th scope=\"row\">Carbohydrates</th><td><ul class=\"cl\"><li>Salivary + pancreatic <strong>α-amylase</strong> → maltose, maltotriose, α-limit dextrins.</li><li>Brush border: <strong>lactase, sucrase-isomaltase, maltase</strong>.</li><li>Glucose/galactose via <strong>SGLT1</strong>, fructose via <strong>GLUT5</strong>, out via <strong>GLUT2</strong>.</li></ul></td></tr><tr><th scope=\"row\">Fats</th><td><ul class=\"cl\"><li><strong>Bile salts emulsify</strong></li><li>Pancreatic <strong>lipase + colipase</strong></li><li>→ monoglycerides + free fatty acids</li><li>→ <strong>micelles</strong></li><li>→ diffuse into enterocyte</li><li>→ re-esterified in SER</li><li>→ <strong>chylomicrons</strong> (with apoB-48)</li><li>→ lacteals</li><li>→ thoracic duct.</li><li>Short/medium-chain FAs go straight to portal blood.</li></ul></td></tr><tr><th scope=\"row\">Hormonal control</th><td><strong>CCK</strong> (fat/protein in duodenum → pancreatic enzymes + gallbladder contraction), <strong>secretin</strong> (acid → pancreatic HCO₃⁻).</td></tr><tr><th scope=\"row\">Malabsorption causes</th><td>Pancreatic insufficiency (CF, chronic pancreatitis → steatorrhoea), bile salt deficiency (cholestasis, ileal resection), mucosal disease (coeliac), lactase deficiency.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the pathology of diseases of the oesophagus (achalasia, varices, oesophagitis, tumours) and stomach (gastritis, ulcers, gastric tumours)",
+      "sessions": [
+        "Path: Oesophagus and stomach"
+      ],
+      "section": "Pathology",
+      "n": 7,
+      "html": "<h4>Oesophagus</h4><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Achalasia</th><td><ul class=\"cl\"><li>Loss of inhibitory neurons in myenteric plexus → LOS fails to relax + aperistalsis.</li><li>Dysphagia to <strong>solids and liquids</strong> from the start, regurgitation.</li><li>Barium \"bird's beak\"</li><li>Manometry diagnostic.</li><li>Rx: pneumatic dilatation, Heller myotomy, POEM, botox.</li></ul></td></tr><tr><th scope=\"row\">Varices</th><td>Portal hypertension → dilated submucosal veins at the porto-systemic anastomosis (left gastric → azygos). Massive haematemesis.</td></tr><tr><th scope=\"row\">Oesophagitis</th><td>Reflux (basal hyperplasia, elongated papillae, eosinophils), eosinophilic (atopic, &gt;15 eos/hpf, food bolus), infective (Candida, HSV, CMV in immunosuppressed), pill-induced.</td></tr><tr><th scope=\"row\">Barrett's</th><td>Squamous → columnar epithelium with <strong>goblet cells</strong> (intestinal metaplasia).</td></tr><tr><th scope=\"row\">Tumours</th><td><strong>Squamous cell carcinoma</strong> (upper/middle third; smoking, alcohol, hot drinks, achalasia) vs <strong>adenocarcinoma</strong> (lower third; GORD, Barrett's, obesity; now commoner in UK).</td></tr></tbody></table></div><h4>Stomach</h4><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Gastritis</th><td><ul class=\"cl\"><li>Acute (NSAIDs, alcohol, stress)</li><li>Chronic <strong>type A</strong> autoimmune (body/fundus, anti-parietal cell &amp; anti-IF antibodies → pernicious anaemia, achlorhydria, ↑gastrin), <strong>type B</strong> bacterial (<em>H. pylori</em>, antrum), chemical/reactive (bile, NSAIDs).</li></ul></td></tr><tr><th scope=\"row\">Peptic ulcer</th><td><ul class=\"cl\"><li>Punched-out defect through muscularis mucosae</li><li>Base of necrotic debris → granulation tissue → fibrosis.</li><li>Complications: bleeding (posterior DU erodes gastroduodenal artery), perforation, stricture.</li><li>Biopsy gastric ulcers to exclude cancer.</li></ul></td></tr><tr><th scope=\"row\">Tumours</th><td><ul class=\"cl\"><li><strong>Adenocarcinoma</strong> (intestinal type, linked to H. pylori/atrophy; diffuse type with <strong>signet ring cells</strong> → linitis plastica; Virchow's node)</li><li><strong>MALT lymphoma</strong> (H. pylori; may regress with eradication)</li><li><strong>GIST</strong> (c-KIT, interstitial cells of Cajal)</li><li>Neuroendocrine tumours.</li></ul></td></tr></tbody></table></div>"
+    }
+  ]
+}

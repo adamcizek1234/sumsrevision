@@ -1,0 +1,124 @@
+{
+  "id": "y1-105",
+  "num": "105",
+  "title": "Swelling",
+  "los": [
+    {
+      "text": "Describe the common causes, signs and symptoms, pathophysiology and differential diagnosis in a patient presenting with a swollen limb",
+      "sessions": [
+        "Clin 1: Case presentation"
+      ],
+      "section": "Clinical",
+      "n": 1,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Cause</th><th>Clues</th><th>Key test</th></tr></thead><tbody><tr><td><strong>DVT</strong></td><td>Unilateral, calf pain/tenderness, ≥3 cm calf difference, pitting; risk factors (immobility, surgery, cancer, OCP, pregnancy)</td><td>Two-level <strong>Wells</strong> → D-dimer (if unlikely) or proximal leg <strong>ultrasound</strong></td></tr><tr><td><strong>Cellulitis</strong></td><td>Spreading erythema, warmth, tenderness, fever; portal of entry (tinea, ulcer)</td><td>Clinical; mark margins; bloods if systemic</td></tr><tr><td><strong>Ruptured Baker's cyst</strong></td><td>Hx of knee OA/RA, sudden calf pain</td><td>USS</td></tr><tr><td><strong>Lymphoedema</strong></td><td>Non-pitting (late), Stemmer's sign, post-surgery/radiotherapy</td><td>Clinical ± lymphoscintigraphy</td></tr><tr><td><strong>Venous insufficiency</strong></td><td>Bilateral, varicosities, haemosiderin staining, lipodermatosclerosis</td><td>Duplex</td></tr><tr><td><strong>Systemic</strong> (bilateral)</td><td>HF (↑JVP, crackles), nephrotic (proteinuria), liver (low albumin), drugs (amlodipine), hypothyroid (myxoedema)</td><td>BNP, urine ACR, LFTs/albumin, TFTs</td></tr><tr><td><strong>MSK</strong></td><td>Muscle tear, compartment syndrome (pain on passive stretch, surgical emergency)</td><td>Clinical, compartment pressures</td></tr></tbody></table></div><ul><li><strong>Pathophysiology</strong>: Starling imbalance (↑ venous pressure, ↓ oncotic pressure, ↑ permeability) or lymphatic failure.</li></ul><div class=\"key\">Never miss DVT (→ PE), necrotising fasciitis (pain out of proportion, crepitus, rapid spread) or compartment syndrome.</div>"
+    },
+    {
+      "text": "Describe the treatment of infectious diseases (antibiotics, antivirals, antifungals) and the principles of antimicrobial stewardship",
+      "sessions": [
+        "Clin 2: Antibiotics"
+      ],
+      "section": "Clinical",
+      "n": 2,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Antibacterial targets</th><td><ul class=\"cl\"><li>Cell wall (<strong>β-lactams</strong>: penicillins, cephalosporins, carbapenems; <strong>glycopeptides</strong>: vancomycin)</li><li>Protein synthesis (<strong>30S</strong>: aminoglycosides, tetracyclines; <strong>50S</strong>: macrolides, clindamycin, chloramphenicol, linezolid)</li><li>DNA (<strong>quinolones</strong>: DNA gyrase; <strong>metronidazole</strong>: DNA damage in anaerobes)</li><li>Folate (<strong>trimethoprim</strong>, sulfonamides)</li><li>Membrane (colistin, daptomycin).</li></ul></td></tr><tr><td colspan=\"2\"><strong>Bactericidal vs bacteriostatic</strong>; <strong>time-dependent</strong> (β-lactams: time above MIC) vs <strong>concentration-dependent</strong> (aminoglycosides: peak/MIC).</td></tr><tr><th scope=\"row\">Antivirals</th><td>Nucleoside analogues (<strong>aciclovir</strong> for HSV/VZV, activated by viral thymidine kinase; ganciclovir for CMV), <strong>neuraminidase inhibitors</strong> (oseltamivir), antiretrovirals (NRTIs, NNRTIs, protease, integrase inhibitors).</td></tr><tr><th scope=\"row\">Antifungals</th><td><strong>Azoles</strong> (inhibit ergosterol synthesis; CYP450 inhibitors), <strong>polyenes</strong> (amphotericin, nystatin: bind ergosterol, pore formation), <strong>echinocandins</strong> (caspofungin: β-glucan synthesis), terbinafine (squalene epoxidase).</td></tr><tr><th scope=\"row\">Antimicrobial stewardship (\"Start Smart then Focus\")</th><td><ul class=\"cl\"><li>Take cultures before antibiotics</li><li>Follow local guidelines</li><li>Document indication, dose, route and <strong>review/stop date</strong></li><li><strong>48–72 h review</strong> (stop, IV→oral switch, narrow spectrum, continue, OPAT)</li><li>Avoid antibiotics for viral illness</li><li>Shortest effective course.</li></ul></td></tr></tbody></table></div><div class=\"key\">Goal: right drug, right dose, right route, right duration, to cut resistance and C. difficile.</div>"
+    },
+    {
+      "text": "Explain the function of inflammation in the body and the events that occur during inflammation",
+      "sessions": [
+        "Clin 3: Inflammation and immune dysfunction"
+      ],
+      "section": "Clinical",
+      "n": 3,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Function</th><td>Contain and eliminate injurious agents (microbes, necrotic tissue) and start repair. Can cause harm when excessive or chronic.</td></tr><tr><th scope=\"row\">Cardinal signs</th><td>Rubor, calor, tumor, dolor, functio laesa.</td></tr><tr><th scope=\"row\">Acute inflammation events</th><td><ul class=\"cl\"><li><strong>Vascular</strong>: transient vasoconstriction → <strong>vasodilatation</strong> (histamine, NO, PGs) → ↑ blood flow (redness, heat) → <strong>↑ permeability</strong> (endothelial contraction) → protein-rich <strong>exudate</strong> (swelling) → stasis.</li><li><strong>Cellular</strong> (neutrophils first, 6–24 h): <strong>margination → rolling</strong> (selectins) → <strong>firm adhesion</strong> (integrins/ICAM-1) → <strong>transmigration (diapedesis)</strong> → <strong>chemotaxis</strong> (C5a, IL-8, LTB4, bacterial peptides) → <strong>phagocytosis</strong> (opsonins: IgG, C3b) → killing (respiratory burst, lysosomal enzymes).</li></ul></td></tr><tr><th scope=\"row\">Mediators</th><td>Histamine (mast cells), prostaglandins (pain, fever, vasodilation), leukotrienes, bradykinin (pain), complement (C3a/C5a anaphylatoxins), cytokines (IL-1, TNF-α, IL-6: fever, acute-phase response).</td></tr><tr><th scope=\"row\">Outcomes</th><td>Resolution, abscess, healing by fibrosis, or <strong>chronic inflammation</strong> (macrophages, lymphocytes, plasma cells; granulomas in TB/sarcoid).</td></tr><tr><th scope=\"row\">Systemic</th><td>Fever, ↑CRP, neutrophilia, ↑ESR.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Explain the importance of infection control in healthcare settings (include principles of standard infection control and transmission-based precautions)",
+      "sessions": [
+        "Clin 4: Infection control"
+      ],
+      "section": "Clinical",
+      "n": 4,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Standard infection control precautions (SICPs)</th><td><ul class=\"cl\"><li>Apply to <strong>all patients, all the time</strong>.</li><li><strong>Hand hygiene</strong>: WHO 5 moments (before patient contact, before aseptic task, after body fluid exposure, after patient contact, after contact with surroundings). Soap and water for C. difficile and norovirus (spores not killed by alcohol gel).</li><li>Patient placement/risk assessment, respiratory and cough hygiene, PPE, safe care equipment, environment cleaning, linen, <strong>blood/body fluid spills</strong>, waste, <strong>sharps</strong> (don't resheath), occupational exposure management.</li></ul></td></tr><tr><th scope=\"row\">Transmission-based precautions (TBPs)</th><td><ul class=\"cl\"><li>Added for known/suspected infections.</li><li><strong>Contact</strong>: MRSA, C. difficile, CPE, scabies: gloves + apron, single room.</li><li><strong>Droplet</strong> (&gt;5 μm, ≤1–2 m): influenza, meningococcus, pertussis: fluid-resistant surgical mask.</li><li><strong>Airborne</strong> (&lt;5 μm): TB, measles, VZV, and aerosol-generating procedures: <strong>FFP3</strong> respirator, negative-pressure room.</li></ul></td></tr><tr><th scope=\"row\">Chain of infection</th><td><ul class=\"cl\"><li>Agent → reservoir → portal of exit → mode of transmission → portal of entry → susceptible host.</li><li>Break any link.</li></ul></td></tr><tr><th scope=\"row\">Why it matters</th><td>Healthcare-associated infections increase mortality, length of stay and cost, and spread resistance.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the structure (bone marrow, spleen, thymus, lymph nodes) and functions of the immune system (overview of innate and adaptive responses)",
+      "sessions": [
+        "BMS 1: Innate immunity"
+      ],
+      "section": "BMS",
+      "n": 5,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Primary lymphoid organs<span class=\"paren\">(lymphocytes develop)</span></th><td><strong>Bone marrow</strong> (haematopoiesis; B-cell maturation) and <strong>thymus</strong> (T-cell maturation: positive selection in cortex for MHC recognition, negative selection in medulla removes self-reactive cells → central tolerance).</td></tr><tr><th scope=\"row\">Secondary lymphoid organs</th><td>Where immune responses start.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Organ</th><th>Filters</th><th>Key features</th></tr></thead><tbody><tr><td><strong>Lymph nodes</strong></td><td>Lymph</td><td>B cells in cortical follicles/germinal centres; T cells in paracortex</td></tr><tr><td><strong>Spleen</strong></td><td>Blood</td><td>Red pulp removes old RBCs; white pulp = lymphoid tissue; protects against <strong>encapsulated bacteria</strong></td></tr><tr><td><strong>MALT</strong></td><td>Mucosal surfaces</td><td>Tonsils, Peyer's patches</td></tr><tr><td></td><td>Innate</td><td>Adaptive</td></tr><tr><td>Speed</td><td>Minutes–hours</td><td>Days (first exposure)</td></tr><tr><td>Specificity</td><td>Pattern recognition (PAMPs via TLRs)</td><td>Antigen-specific (TCR, BCR)</td></tr><tr><td>Memory</td><td>No</td><td>Yes</td></tr><tr><td>Components</td><td>Barriers, complement, neutrophils, macrophages, NK cells, dendritic cells</td><td>T cells (CD4, CD8), B cells/antibodies</td></tr></tbody></table></div><ul><li><strong>Link</strong>: dendritic cells capture antigen and present it to naïve T cells in lymph nodes.</li></ul>"
+    },
+    {
+      "text": "Describe the main bacterial pathogens encountered in clinical practice, the associated sites of infection, and the main signs and symptoms experienced by patients",
+      "sessions": [
+        "BMS 2: Pathogens and clinical infections"
+      ],
+      "section": "BMS",
+      "n": 6,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Organism</th><th>Gram</th><th>Typical infections</th></tr></thead><tbody><tr><td><em>Staphylococcus aureus</em></td><td>+ cocci, clusters</td><td>Skin/soft tissue, abscess, osteomyelitis, septic arthritis, endocarditis, line infections (MRSA)</td></tr><tr><td><em>Streptococcus pyogenes</em> (GAS)</td><td>+ cocci, chains</td><td>Tonsillitis, cellulitis, necrotising fasciitis, scarlet fever; rheumatic fever, post-strep GN</td></tr><tr><td><em>Streptococcus pneumoniae</em></td><td>+ diplococci</td><td>Pneumonia, otitis media, meningitis</td></tr><tr><td><em>Enterococcus</em></td><td>+ cocci</td><td>UTI, endocarditis (VRE)</td></tr><tr><td><em>Clostridioides difficile</em></td><td>+ rod, spore-forming</td><td>Antibiotic-associated colitis</td></tr><tr><td><em>Escherichia coli</em></td><td>− rod</td><td>UTI, gram-negative sepsis, neonatal meningitis, gastroenteritis (EHEC → HUS)</td></tr><tr><td><em>Klebsiella</em>, <em>Pseudomonas</em></td><td>− rods</td><td>Hospital pneumonia, UTI; Pseudomonas in CF, burns</td></tr><tr><td><em>Neisseria meningitidis</em></td><td>− diplococci</td><td>Meningitis, septicaemia (non-blanching rash)</td></tr><tr><td><em>Haemophilus influenzae</em></td><td>− coccobacillus</td><td>COPD exacerbation, epiglottitis</td></tr><tr><td><em>Campylobacter</em>, <em>Salmonella</em></td><td>− rods</td><td>Gastroenteritis</td></tr><tr><td><em>Mycobacterium tuberculosis</em></td><td>Acid-fast</td><td>TB</td></tr></tbody></table></div><ul><li><strong>Systemic features</strong>: fever, rigors, tachycardia, hypotension (sepsis). Local: pain, swelling, pus, loss of function.</li></ul>"
+    },
+    {
+      "text": "Explain the pharmacokinetic processes of absorption, distribution, metabolism and excretion",
+      "sessions": [
+        "BMS 3: Pharmacokinetics"
+      ],
+      "section": "BMS",
+      "n": 7,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Absorption</th><td><ul class=\"cl\"><li>Movement into blood.</li><li>Affected by route, lipid solubility, ionisation (pKa and pH), gut motility and blood flow.</li><li><strong>Bioavailability (F)</strong> = fraction reaching systemic circulation (IV = 100%)</li><li>Reduced by <strong>first-pass metabolism</strong> (gut wall + liver), e.g. GTN, morphine, propranolol.</li></ul></td></tr><tr><th scope=\"row\">Distribution</th><td><ul class=\"cl\"><li>Depends on plasma protein binding (albumin binds acidic drugs, e.g. warfarin; α1-acid glycoprotein binds basic drugs)</li><li>Lipid solubility</li><li>Tissue perfusion</li><li>Barriers (BBB, placenta).</li><li>Described by <strong>volume of distribution (Vd)</strong>.</li></ul></td></tr><tr><th scope=\"row\">Metabolism<span class=\"paren\">(mainly liver)</span></th><td><ul class=\"cl\"><li><strong>Phase I</strong> (oxidation, reduction, hydrolysis; <strong>CYP450</strong>, e.g. CYP3A4) and <strong>Phase II</strong> (conjugation: glucuronidation, sulfation, acetylation → water-soluble).</li><li>Prodrugs need activation (codeine → morphine via CYP2D6, clopidogrel).</li></ul></td></tr><tr><th scope=\"row\">Excretion</th><td><ul class=\"cl\"><li>Mainly <strong>renal</strong> (glomerular filtration of free drug, active tubular secretion, passive reabsorption of lipid-soluble/unionised drug) and <strong>biliary</strong> (enterohepatic recycling).</li><li>Also lungs and breast milk.</li></ul></td></tr></tbody></table></div><div class=\"key\">Elderly, renal and hepatic impairment alter PK. Check dose adjustments for narrow therapeutic index drugs (gentamicin, digoxin, lithium).</div>"
+    },
+    {
+      "text": "Identify the components of the immune system and link them to function",
+      "sessions": [
+        "Prac: Immune system"
+      ],
+      "section": "Practical",
+      "n": 8,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Physical/chemical barriers</th><td>Skin, mucous membranes, mucus, cilia, stomach acid, lysozyme, normal flora.</td></tr><tr><th scope=\"row\">Phagocytes</th><td>Neutrophils (acute bacterial killing), macrophages (phagocytosis, antigen presentation, cytokines, repair).</td></tr><tr><th scope=\"row\">Dendritic cells</th><td>Link innate and adaptive immunity (antigen presentation to naïve T cells).</td></tr><tr><th scope=\"row\">NK cells</th><td>Kill virus-infected and tumour cells that have ↓ MHC class I.</td></tr><tr><th scope=\"row\">Complement</th><td>Opsonisation, inflammation, lysis.</td></tr><tr><th scope=\"row\">Mast cells/basophils/eosinophils</th><td>Allergy and antiparasitic defence.</td></tr><tr><th scope=\"row\">T cells</th><td>CD4 helper cells coordinate; CD8 cytotoxic cells kill infected cells; Tregs suppress.</td></tr><tr><th scope=\"row\">B cells/plasma cells</th><td>Antibodies for neutralisation, opsonisation and complement activation.</td></tr><tr><th scope=\"row\">Organs</th><td>Marrow, thymus (production/maturation); nodes, spleen, MALT (where responses are mounted).</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the overall structure and function of the lymphatic system with reference to how it is linked to the circulatory system and the organs/tissues of the body",
+      "sessions": [
+        "Prac: Immune system"
+      ],
+      "section": "Practical",
+      "n": 9,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Structure</th><td><ul class=\"cl\"><li>Blind-ended lymphatic capillaries (overlapping endothelial \"flap valves\", anchoring filaments)</li><li>→ collecting vessels (valves, smooth muscle)</li><li>→ lymph nodes</li><li>→ trunks</li><li>→ <strong>thoracic duct</strong> (drains everything below the diaphragm and the left upper body into the <strong>left venous angle</strong>: left subclavian/internal jugular junction) and <strong>right lymphatic duct</strong> (right arm, right head/neck, right thorax).</li></ul></td></tr><tr><th scope=\"row\">Functions</th><td><ul class=\"cl\"><li>Return ~2–4 L/day of filtered interstitial fluid and protein to the circulation (maintains plasma volume; stops oedema).</li><li><strong>Fat absorption</strong>: lacteals carry chylomicrons (chyle).</li><li><strong>Immune surveillance</strong>: lymph carries antigen and dendritic cells to nodes.</li></ul></td></tr><tr><td colspan=\"2\"><strong>Lymph flow</strong> is driven by intrinsic contraction of vessels, skeletal muscle pump, respiratory pressure changes and valves.</td></tr><tr><th scope=\"row\">Clinical</th><td>Lymphoedema (surgery, radiotherapy, filariasis), lymphatic spread of cancer (sentinel node), chylothorax.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "List the cells of the immune system and differentiate between them according to structure, function and lineage/origins",
+      "sessions": [
+        "Prac: Immune system"
+      ],
+      "section": "Practical",
+      "n": 10,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Myeloid lineage<span class=\"paren\">(common myeloid progenitor)</span></th><td><ul class=\"cl\"><li><strong>Neutrophil</strong>: multilobed nucleus, fine granules. 40–75% of WBC. Acute bacterial infection.</li><li><strong>Monocyte → macrophage</strong>: kidney-shaped nucleus. Phagocytosis, antigen presentation, cytokines. Tissue names: Kupffer cells (liver), microglia (CNS), alveolar macrophages, osteoclasts.</li><li><strong>Eosinophil</strong>: bilobed nucleus, red/orange granules (major basic protein). Parasites, allergy.</li><li><strong>Basophil/mast cell</strong>: dark blue granules (histamine, heparin). IgE-mediated allergy.</li><li><strong>Dendritic cell</strong>: long processes; professional antigen-presenting cell.</li><li>Also erythrocytes and megakaryocytes → platelets.</li></ul></td></tr><tr><th scope=\"row\">Lymphoid lineage<span class=\"paren\">(common lymphoid progenitor)</span></th><td><ul class=\"cl\"><li><strong>B cell</strong>: BCR (surface Ig), CD19/CD20 → <strong>plasma cell</strong> (eccentric \"clock-face\" nucleus, abundant RER, perinuclear halo) secretes antibody.</li><li><strong>T cell</strong>: TCR + CD3. <strong>CD4</strong> helper (MHC II) and <strong>CD8</strong> cytotoxic (MHC I); matures in thymus.</li><li><strong>NK cell</strong>: large granular lymphocyte, CD56; innate killing.</li></ul></td></tr><tr><td colspan=\"2\">Lymphocytes: small round nucleus with thin rim of cytoplasm.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the major cytokines in terms of their origins, function and triggers for production",
+      "sessions": [
+        "Prac: Immune system"
+      ],
+      "section": "Practical",
+      "n": 11,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Cytokine</th><th>Main source</th><th>Main actions</th></tr></thead><tbody><tr><td><strong>IL-1</strong></td><td>Macrophages</td><td>Fever, acute-phase response, endothelial activation</td></tr><tr><td><strong>TNF-α</strong></td><td>Macrophages, T cells</td><td>Fever, endothelial activation, cachexia; septic shock</td></tr><tr><td><strong>IL-6</strong></td><td>Macrophages, T cells</td><td>Acute-phase proteins (<strong>CRP</strong>), fever, B-cell growth</td></tr><tr><td><strong>IL-8 (CXCL8)</strong></td><td>Macrophages, endothelium</td><td>Neutrophil chemotaxis</td></tr><tr><td><strong>IL-12</strong></td><td>Macrophages, DCs</td><td>Drives Th1 differentiation, activates NK cells</td></tr><tr><td><strong>IFN-γ</strong></td><td>Th1, NK cells</td><td>Activates macrophages, ↑ MHC expression</td></tr><tr><td><strong>IL-2</strong></td><td>T cells</td><td>T-cell proliferation (autocrine)</td></tr><tr><td><strong>IL-4, IL-5, IL-13</strong></td><td>Th2 cells</td><td>IgE class switch (IL-4), eosinophils (IL-5); allergy, parasites</td></tr><tr><td><strong>IL-17</strong></td><td>Th17</td><td>Neutrophil recruitment; autoimmunity</td></tr><tr><td><strong>IL-10, TGF-β</strong></td><td>Tregs, macrophages</td><td>Anti-inflammatory, suppress responses</td></tr><tr><td><strong>Type I IFN (α/β)</strong></td><td>Virus-infected cells, pDCs</td><td>Antiviral state in neighbouring cells; ↑ MHC I</td></tr></tbody></table></div><ul><li><strong>Triggers</strong>: PAMPs (e.g. LPS on TLR4) and DAMPs activate innate cells → IL-1, TNF, IL-6.<ul><li>Antigen recognition by T cells → IL-2 and subset-specific cytokines.</li></ul></li></ul>"
+    },
+    {
+      "text": "Outline the 3 different pathways of complement activation and describe 3 different ways in which complement fragments contribute to the destruction of a microbe",
+      "sessions": [
+        "Prac: Immune system"
+      ],
+      "section": "Practical",
+      "n": 12,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Classical pathway</th><td>Antigen–antibody complexes (IgM, IgG) bind <strong>C1q</strong> → C4, C2 → C3 convertase <strong>C4b2a</strong>.</td></tr><tr><th scope=\"row\">Lectin pathway</th><td><strong>Mannose-binding lectin (MBL)</strong> binds microbial sugars → MASPs cleave C4 and C2 → same C3 convertase C4b2a.</td></tr><tr><th scope=\"row\">Alternative pathway</th><td>Spontaneous C3 hydrolysis (\"tickover\") on microbial surfaces with factor B, D and <strong>properdin</strong> → C3 convertase <strong>C3bBb</strong> (amplification loop).</td></tr><tr><td colspan=\"2\">All converge on <strong>C3 → C3a + C3b</strong>, then C5 convertase → C5a + C5b.</td></tr><tr><th scope=\"row\">Three ways complement destroys microbes</th><td><ul class=\"cl\"><li><strong>Opsonisation</strong>: C3b (and iC3b) coats microbes → phagocytosis via complement receptors.</li><li><strong>Inflammation/chemotaxis</strong>: <strong>C3a, C5a</strong> (anaphylatoxins) → mast-cell degranulation, ↑ permeability; C5a recruits neutrophils.</li><li><strong>Lysis</strong>: <strong>membrane attack complex (C5b–C9)</strong> forms pores. Especially important against <em>Neisseria</em> (late complement deficiency → recurrent neisserial infection).</li></ul></td></tr><tr><td colspan=\"2\">Also clears immune complexes (C3b on RBCs to spleen).</td></tr><tr><th scope=\"row\">Regulation</th><td>C1 inhibitor (deficiency → hereditary angioedema), DAF/CD55, CD59 (loss → PNH).</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the social determinants of health and causes of health inequalities, and the key strategies for reducing these health inequalities",
+      "sessions": [
+        "MHS 1: Inequalities in health: Concepts and policy"
+      ],
+      "section": "MHS",
+      "n": 13,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Social determinants of health</th><td><ul class=\"cl\"><li>Conditions in which people are born, grow, live, work and age.</li><li><strong>Dahlgren &amp; Whitehead \"rainbow\" model</strong>: individual factors (age, sex, genes)</li><li>→ lifestyle</li><li>→ social and community networks</li><li>→ living and working conditions (education, work, housing, healthcare, water, food)</li><li>→ general socioeconomic, cultural and environmental conditions.</li></ul></td></tr><tr><th scope=\"row\">Health inequalities</th><td><ul class=\"cl\"><li>Avoidable, unfair, systematic differences in health between groups.</li><li>In the UK the life-expectancy gap between most and least deprived areas is ~10 years for men</li><li><strong>Healthy</strong> life expectancy gap is ~19 years.</li></ul></td></tr><tr><th scope=\"row\">Social gradient</th><td>Health improves stepwise with each rise in socioeconomic position, not only in the poorest group.</td></tr><tr><th scope=\"row\">Causes</th><td><ul class=\"cl\"><li>Material (income, housing)</li><li>Psychosocial (stress, control)</li><li>Behavioural (smoking more common in deprived groups)</li><li>Access to care (<strong>inverse care law</strong>, Tudor Hart: those most in need get the least care).</li></ul></td></tr><tr><th scope=\"row\">Marmot Review (2010) strategies</th><td><ul class=\"cl\"><li>Give every child the best start</li><li>Maximise education and control over lives</li><li>Fair employment</li><li>Healthy standard of living</li><li>Healthy, sustainable communities</li><li>Strengthen ill-health prevention.</li><li><strong>Proportionate universalism</strong>: universal action scaled to need.</li></ul></td></tr><tr><th scope=\"row\">Wales</th><td>Well-being of Future Generations (Wales) Act 2015.</td></tr></tbody></table></div>"
+    }
+  ]
+}

@@ -1,0 +1,2036 @@
+{
+  "id": "neuro",
+  "title": "Mental health & neurology",
+  "items": [
+    {
+      "id": "ssris",
+      "name": "SSRIs",
+      "ex": "sertraline, citalopram, fluoxetine",
+      "uses": [
+        {
+          "t": "Depression",
+          "k": "y1-119-2"
+        },
+        {
+          "t": "Anxiety, GAD, OCD, PTSD",
+          "k": "y2-239-14"
+        },
+        {
+          "t": "Depression after MI (sertraline)",
+          "k": "y2-212-27"
+        }
+      ],
+      "how": "Block serotonin reuptake (SERT)",
+      "hx": [
+        [
+          "Block serotonin 5-HT2A receptors",
+          "They block the reuptake transporter (SERT), raising synaptic serotonin."
+        ],
+        [
+          "Stimulate serotonin release (5-HT1A)",
+          "They block reuptake."
+        ],
+        [
+          "Block dopamine reuptake (DAT)",
+          "That's bupropion-like; SSRIs block SERT."
+        ]
+      ],
+      "se": [
+        "Nausea, GI upset",
+        "Headache",
+        "Sexual dysfunction",
+        "Hyponatraemia (elderly)",
+        "↑ bleeding risk",
+        "Early agitation and suicidality (<25)",
+        "QT prolongation (citalopram)",
+        "Discontinuation symptoms"
+      ],
+      "sewhy": "Serotonin in the gut (nausea), sexual pathways (dysfunction) and platelets (less serotonin uptake, more bleeding); SIADH lowers sodium in older people, and early activation can raise suicidality in under-25s.",
+      "ci": [
+        {
+          "c": "Mania",
+          "k": "y2-239-11",
+          "why": "Can trigger a manic switch",
+          "cau": false,
+          "x": [
+            [
+              "Can trigger catatonia",
+              "The risk is switching into mania."
+            ],
+            [
+              "Lowers lithium levels",
+              "No; it can trigger a manic switch."
+            ],
+            [
+              "Can trigger psychotic depression",
+              "No; a manic switch."
+            ]
+          ]
+        },
+        {
+          "c": "With MAOIs or within 2 weeks (5 for fluoxetine)",
+          "k": "y1-119-2",
+          "why": "Serotonin syndrome",
+          "cau": false,
+          "x": [
+            [
+              "Malignant hyperthermia",
+              "That comes from anaesthetic agents; SSRIs with MAOIs cause serotonin syndrome."
+            ],
+            [
+              "Lithium toxicity",
+              "No; serotonin syndrome."
+            ],
+            [
+              "Anticholinergic syndrome",
+              "No; serotonin syndrome."
+            ]
+          ]
+        },
+        {
+          "c": "Long QT (citalopram, escitalopram)",
+          "k": "y1-108-3",
+          "why": "Dose-dependent QT prolongation",
+          "cau": false,
+          "x": [
+            [
+              "Dose-dependent PR shortening",
+              "Citalopram prolongs QT, dose-dependently."
+            ],
+            [
+              "Dose-dependent bradycardia only",
+              "The risk is QT prolongation."
+            ],
+            [
+              "Dose-dependent coronary spasm",
+              "No; QT prolongation."
+            ]
+          ]
+        },
+        {
+          "c": "With NSAIDs or anticoagulants",
+          "k": "y1-104-1",
+          "why": "↑ GI bleeding; add a PPI",
+          "cau": true,
+          "x": [
+            [
+              "↑ serotonin syndrome; stop the NSAID",
+              "NSAIDs don't add serotonin; the risk is GI bleeding."
+            ],
+            [
+              "↑ renal failure; check U&E weekly",
+              "The concern is GI bleeding."
+            ],
+            [
+              "↓ anticoagulant effect; raise the warfarin dose",
+              "Bleeding rises; add a PPI."
+            ]
+          ]
+        },
+        {
+          "c": "Under 25",
+          "k": "y1-127-2",
+          "why": "Review within 1 week for suicidality",
+          "cau": true,
+          "x": [
+            [
+              "Review within 6 months for weight gain",
+              "Under-25s need review within a week for suicidal thoughts."
+            ],
+            [
+              "Never prescribe under 25",
+              "They can be used, with early review for suicidality."
+            ],
+            [
+              "Review within 1 week for serotonin syndrome",
+              "The early review is for suicidality."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snris",
+      "name": "SNRIs",
+      "ex": "venlafaxine, duloxetine",
+      "uses": [
+        {
+          "t": "Depression",
+          "k": "y1-119-2"
+        },
+        {
+          "t": "GAD",
+          "k": "y2-239-14"
+        },
+        {
+          "t": "Neuropathic pain (duloxetine)",
+          "k": "y1-109-2"
+        }
+      ],
+      "how": "Block serotonin and noradrenaline reuptake",
+      "hx": [
+        [
+          "Block serotonin and dopamine reuptake",
+          "SNRIs block serotonin and noradrenaline reuptake."
+        ],
+        [
+          "Block serotonin and noradrenaline receptors",
+          "They block reuptake, raising levels; blocking receptors would do the opposite."
+        ],
+        [
+          "Release serotonin and noradrenaline from vesicles",
+          "That's amphetamine-like; SNRIs block reuptake."
+        ]
+      ],
+      "se": [
+        "Nausea",
+        "Raised BP (venlafaxine)",
+        "Sweating",
+        "Hyponatraemia",
+        "Severe discontinuation symptoms"
+      ],
+      "sewhy": "As well as serotonergic effects, raising noradrenaline increases BP and sweating; short half-lives (venlafaxine) cause severe discontinuation symptoms.",
+      "ci": [
+        {
+          "c": "Uncontrolled hypertension",
+          "k": "y1-134-5",
+          "why": "Noradrenergic effect raises BP",
+          "cau": false,
+          "x": [
+            [
+              "Serotonergic effect lowers BP",
+              "The noradrenaline effect raises BP."
+            ],
+            [
+              "Fluid retention raises BP",
+              "No; the noradrenergic effect raises BP."
+            ],
+            [
+              "Renal artery spasm raises BP",
+              "No; the noradrenergic effect."
+            ]
+          ]
+        },
+        {
+          "c": "With MAOIs",
+          "k": "y1-119-2",
+          "why": "Serotonin syndrome",
+          "cau": false,
+          "x": [
+            [
+              "Neuroleptic malignant syndrome",
+              "That's antipsychotics; SNRIs with MAOIs cause serotonin syndrome."
+            ],
+            [
+              "Lithium toxicity",
+              "No; serotonin syndrome."
+            ],
+            [
+              "Cholinergic crisis",
+              "No; serotonin syndrome."
+            ]
+          ]
+        },
+        {
+          "c": "High arrhythmia risk, recent MI (venlafaxine)",
+          "k": "y2-212-27",
+          "why": "Pro-arrhythmic and raises BP",
+          "cau": false,
+          "x": [
+            [
+              "Negatively inotropic and lowers BP",
+              "Venlafaxine is pro-arrhythmic and raises BP."
+            ],
+            [
+              "Causes coronary vasospasm",
+              "Not the reason; pro-arrhythmic and raises BP."
+            ],
+            [
+              "Raises cholesterol",
+              "No; pro-arrhythmic and raises BP."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mirtazapine",
+      "name": "Mirtazapine",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Depression (useful with insomnia, poor appetite)",
+          "k": "y1-119-2"
+        }
+      ],
+      "how": "α2 antagonist (↑ NA and 5-HT release) and H1 antagonist",
+      "hx": [
+        [
+          "α2 agonist (↓ NA release) and H1 agonist",
+          "It blocks α2 autoreceptors, increasing release, and blocks H1."
+        ],
+        [
+          "α1 antagonist (↓ BP) and D2 antagonist",
+          "It blocks α2 (and H1)."
+        ],
+        [
+          "5-HT3 agonist (↑ 5-HT release) and H2 antagonist",
+          "It's an α2 antagonist and H1 antagonist."
+        ]
+      ],
+      "se": [
+        "Sedation",
+        "Increased appetite, weight gain",
+        "Agranulocytosis (rare)"
+      ],
+      "sewhy": "It blocks H1 receptors strongly (sedation, appetite, weight gain), most noticeably at low doses.",
+      "ci": [
+        {
+          "c": "With MAOIs",
+          "k": "y1-119-2",
+          "why": "Serotonin syndrome",
+          "cau": false,
+          "x": [
+            [
+              "Agranulocytosis",
+              "Rare with mirtazapine alone; with MAOIs the risk is serotonin syndrome."
+            ],
+            [
+              "Anticholinergic syndrome",
+              "No; serotonin syndrome."
+            ],
+            [
+              "Malignant hyperthermia",
+              "No; serotonin syndrome."
+            ]
+          ]
+        },
+        {
+          "c": "Obesity, diabetes",
+          "k": "y1-112-3",
+          "why": "Weight gain",
+          "cau": true,
+          "x": [
+            [
+              "Weight loss",
+              "Mirtazapine causes weight gain (H1 block)."
+            ],
+            [
+              "Hair loss",
+              "No; weight gain."
+            ],
+            [
+              "Hyponatraemia",
+              "Possible, but the concern here is weight gain."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tricyclic-antidepressants",
+      "name": "Tricyclic antidepressants",
+      "ex": "amitriptyline, lofepramine",
+      "uses": [
+        {
+          "t": "Neuropathic pain",
+          "k": "y1-109-2"
+        },
+        {
+          "t": "Migraine prophylaxis",
+          "k": "y1-109-3"
+        },
+        {
+          "t": "IBS (low dose)",
+          "k": "y2-206-9"
+        },
+        {
+          "t": "Depression (rarely now)",
+          "k": "y1-119-2"
+        }
+      ],
+      "how": "Block serotonin and noradrenaline reuptake; also antimuscarinic, antihistamine, α1-blocking",
+      "hx": [
+        [
+          "Block serotonin and dopamine reuptake; also cholinergic, antihistamine, β1-blocking",
+          "They block 5-HT/NA reuptake and are antimuscarinic and α1-blocking."
+        ],
+        [
+          "Block serotonin and noradrenaline release; also muscarinic and α1 agonists",
+          "They block reuptake, and block (not stimulate) muscarinic and α1 receptors."
+        ],
+        [
+          "Open K⁺ channels in neurons; also antimuscarinic and antihistamine",
+          "Their antidepressant action is 5-HT/NA reuptake block."
+        ]
+      ],
+      "se": [
+        "Dry mouth, constipation, urinary retention, blurred vision",
+        "Sedation",
+        "Postural hypotension",
+        "Weight gain",
+        "QT prolongation, arrhythmias",
+        "Lethal in overdose"
+      ],
+      "sewhy": "TCAs block muscarinic (dry mouth, constipation, retention), H1 (sedation, weight gain), α1 (postural hypotension) and cardiac sodium channels (QRS widening, arrhythmias), which is why overdose is lethal.",
+      "ci": [
+        {
+          "c": "Recent MI",
+          "k": "y2-212-27",
+          "why": "Pro-arrhythmic",
+          "cau": false,
+          "x": [
+            [
+              "Hypertensive",
+              "They're pro-arrhythmic (and lower BP through α1 block)."
+            ],
+            [
+              "Prothrombotic",
+              "No; pro-arrhythmic."
+            ],
+            [
+              "Negatively chronotropic",
+              "They speed the heart and are pro-arrhythmic."
+            ]
+          ]
+        },
+        {
+          "c": "Heart block or arrhythmias",
+          "k": "y1-108-3",
+          "why": "Na⁺-channel block widens QRS",
+          "cau": false,
+          "x": [
+            [
+              "K⁺-channel opening shortens QT",
+              "They block Na⁺ channels, widening QRS."
+            ],
+            [
+              "Ca²⁺-channel block slows the SA node",
+              "The key effect is Na⁺-channel block (wide QRS)."
+            ],
+            [
+              "Na⁺-channel opening narrows QRS",
+              "Block, not opening; QRS widens."
+            ]
+          ]
+        },
+        {
+          "c": "Mania",
+          "k": "y2-239-11",
+          "why": "Can trigger a manic switch",
+          "cau": false,
+          "x": [
+            [
+              "Can trigger a seizure",
+              "Possible in overdose, but the concern in mania is a manic switch."
+            ],
+            [
+              "Lowers lithium levels",
+              "No; a manic switch."
+            ],
+            [
+              "Can trigger catatonia",
+              "No; a manic switch."
+            ]
+          ]
+        },
+        {
+          "c": "Suicide risk",
+          "k": "y1-127-2",
+          "why": "Dangerous in overdose (seizures, broad QRS)",
+          "cau": true,
+          "x": [
+            [
+              "Safe in overdose (mild sedation only)",
+              "TCAs are very dangerous in overdose."
+            ],
+            [
+              "Dangerous in overdose (liver failure, jaundice)",
+              "TCA overdose causes seizures and broad-QRS arrhythmias."
+            ],
+            [
+              "Dangerous in overdose (hypoglycaemia, coma)",
+              "No; seizures and broad QRS."
+            ]
+          ]
+        },
+        {
+          "c": "Angle-closure glaucoma, urinary retention, BPH",
+          "k": "y1-141-3",
+          "why": "Antimuscarinic effects",
+          "cau": true,
+          "x": [
+            [
+              "Antihistamine effects",
+              "The issue is antimuscarinic effects."
+            ],
+            [
+              "Serotonergic effects",
+              "No; antimuscarinic."
+            ],
+            [
+              "Cholinergic effects",
+              "They're anticholinergic."
+            ]
+          ]
+        },
+        {
+          "c": "Elderly",
+          "k": "y1-116-2",
+          "why": "Falls and confusion",
+          "cau": true,
+          "x": [
+            [
+              "Weight loss and insomnia",
+              "TCAs cause sedation, postural hypotension and confusion, so falls."
+            ],
+            [
+              "Hypertension and tremor",
+              "No; falls and confusion."
+            ],
+            [
+              "Diarrhoea and dehydration",
+              "They constipate; falls and confusion."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maois",
+      "name": "MAOIs",
+      "ex": "phenelzine",
+      "uses": [
+        {
+          "t": "Treatment-resistant depression (specialist)",
+          "k": "y1-119-2"
+        }
+      ],
+      "how": "Block monoamine oxidase → ↑ serotonin, noradrenaline and dopamine",
+      "hx": [
+        [
+          "Activate monoamine oxidase → ↓ serotonin, noradrenaline and dopamine",
+          "They block MAO, raising monoamines."
+        ],
+        [
+          "Block COMT → ↑ dopamine only",
+          "That's entacapone; MAOIs block monoamine oxidase."
+        ],
+        [
+          "Block monoamine oxidase → ↑ acetylcholine and GABA",
+          "MAO breaks down monoamines (5-HT, NA, dopamine)."
+        ]
+      ],
+      "se": [
+        "Postural hypotension",
+        "Hypertensive crisis with tyramine",
+        "Insomnia"
+      ],
+      "sewhy": "MAO normally breaks down tyramine from food; blocking it lets tyramine release noradrenaline, causing a hypertensive crisis.",
+      "ci": [
+        {
+          "c": "With SSRIs, SNRIs, TCAs, triptans or tramadol",
+          "k": "y1-119-2",
+          "why": "Serotonin syndrome",
+          "cau": false,
+          "x": [
+            [
+              "Anticholinergic syndrome",
+              "No; serotonin syndrome."
+            ],
+            [
+              "Neuroleptic malignant syndrome",
+              "That's antipsychotics; here it's serotonin syndrome."
+            ],
+            [
+              "Malignant hyperthermia",
+              "No; serotonin syndrome."
+            ]
+          ]
+        },
+        {
+          "c": "Tyramine-rich foods (mature cheese, cured meat)",
+          "k": "y1-130-5",
+          "why": "Unmetabolised tyramine → hypertensive crisis",
+          "cau": false,
+          "x": [
+            [
+              "Unmetabolised tyramine → hypotensive collapse",
+              "Tyramine releases noradrenaline, causing a hypertensive crisis."
+            ],
+            [
+              "Tyramine blocks the MAOI → depression relapse",
+              "No; unmetabolised tyramine causes a hypertensive crisis."
+            ],
+            [
+              "Unmetabolised histamine → anaphylaxis",
+              "The culprit is tyramine (noradrenaline release → hypertensive crisis)."
+            ]
+          ]
+        },
+        {
+          "c": "Phaeochromocytoma",
+          "k": "y1-134-5",
+          "why": "Hypertensive crisis",
+          "cau": false,
+          "x": [
+            [
+              "Hypoglycaemic crisis",
+              "Extra catecholamines → hypertensive crisis."
+            ],
+            [
+              "Adrenal crisis",
+              "No; hypertensive crisis."
+            ],
+            [
+              "Thyroid storm",
+              "No; hypertensive crisis."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lithium",
+      "name": "Lithium",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Bipolar disorder (prophylaxis and mania)",
+          "k": "y2-239-11"
+        },
+        {
+          "t": "Augmenting antidepressants",
+          "k": "y1-119-2"
+        }
+      ],
+      "how": "Not fully understood (inositol depletion, GSK-3 inhibition); narrow range 0.4–1.0 mmol/L",
+      "hx": [
+        [
+          "Blocks D2 receptors; wide range 2–4 mmol/L",
+          "Its mechanism isn't fully known (inositol depletion, GSK-3), and the range is narrow: 0.4–1.0."
+        ],
+        [
+          "Enhances GABA-A receptors; narrow range 1.5–3.0 mmol/L",
+          "The target is 0.4–1.0 mmol/L; above 1.5 is toxic."
+        ],
+        [
+          "Blocks serotonin reuptake; no level monitoring needed",
+          "Lithium needs regular levels (0.4–1.0 mmol/L)."
+        ]
+      ],
+      "se": [
+        "Fine tremor",
+        "Polyuria (nephrogenic DI)",
+        "Hypothyroidism",
+        "Weight gain",
+        "Renal impairment",
+        "Toxicity: coarse tremor, ataxia, confusion, vomiting, seizures"
+      ],
+      "sewhy": "Lithium blocks ADH action in the collecting duct (polyuria, nephrogenic DI) and thyroid hormone release (hypothyroidism); the therapeutic range is narrow, so dehydration or interacting drugs cause toxicity.",
+      "ci": [
+        {
+          "c": "Significant renal impairment",
+          "k": "y1-135-5",
+          "why": "Renally cleared → toxicity",
+          "cau": false,
+          "x": [
+            [
+              "Hepatically cleared → toxicity",
+              "Lithium is cleared by the kidneys."
+            ],
+            [
+              "Renally cleared → subtherapeutic levels",
+              "It accumulates, causing toxicity."
+            ],
+            [
+              "Directly causes hyperkalaemia",
+              "No; it accumulates."
+            ]
+          ]
+        },
+        {
+          "c": "Untreated hypothyroidism",
+          "k": "y1-126-2",
+          "why": "Lithium causes hypothyroidism",
+          "cau": false,
+          "x": [
+            [
+              "Lithium causes hyperthyroidism",
+              "It causes hypothyroidism (and goitre)."
+            ],
+            [
+              "Thyroxine blocks lithium absorption",
+              "No; lithium itself causes hypothyroidism."
+            ],
+            [
+              "Hypothyroidism speeds lithium clearance",
+              "No; lithium worsens hypothyroidism."
+            ]
+          ]
+        },
+        {
+          "c": "Cardiac disease (Brugada, sinus node dysfunction)",
+          "k": "y1-108-3",
+          "why": "Conduction effects",
+          "cau": false,
+          "x": [
+            [
+              "Coronary vasospasm",
+              "Lithium affects cardiac conduction (sinus node, Brugada)."
+            ],
+            [
+              "Cardiomyopathy",
+              "No; conduction effects."
+            ],
+            [
+              "Valve calcification",
+              "No; conduction effects."
+            ]
+          ]
+        },
+        {
+          "c": "Addison's disease or low-sodium states",
+          "k": "y1-126-3",
+          "why": "Sodium depletion → more lithium reabsorbed → toxicity",
+          "cau": false,
+          "x": [
+            [
+              "Sodium excess → more lithium excreted → relapse",
+              "Low sodium makes the kidney hold lithium → toxicity."
+            ],
+            [
+              "Cortisol deficiency → lithium can't be absorbed",
+              "No; sodium depletion raises lithium reabsorption."
+            ],
+            [
+              "Sodium depletion → less lithium reabsorbed → relapse",
+              "More lithium is reabsorbed with sodium, raising levels."
+            ]
+          ]
+        },
+        {
+          "c": "First trimester of pregnancy",
+          "k": "y1-114-1",
+          "why": "Ebstein's anomaly",
+          "cau": true,
+          "x": [
+            [
+              "Tetralogy of Fallot",
+              "Lithium is linked to Ebstein's anomaly (tricuspid valve)."
+            ],
+            [
+              "Transposition of the great arteries",
+              "No; Ebstein's anomaly."
+            ],
+            [
+              "Patent ductus arteriosus",
+              "No; Ebstein's anomaly."
+            ]
+          ]
+        },
+        {
+          "c": "With NSAIDs, ACE inhibitors/ARBs, thiazides",
+          "k": "y1-130-5",
+          "why": "Reduce lithium clearance → toxicity",
+          "cau": true,
+          "x": [
+            [
+              "Increase lithium clearance → relapse",
+              "They reduce clearance, raising levels."
+            ],
+            [
+              "Block lithium absorption → relapse",
+              "No; levels rise."
+            ],
+            [
+              "Cause additive hypothyroidism",
+              "No; reduced clearance → toxicity."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antipsychotics",
+      "name": "Antipsychotics",
+      "ex": "haloperidol, risperidone, olanzapine, quetiapine, clozapine",
+      "uses": [
+        {
+          "t": "Schizophrenia and psychosis",
+          "k": "y2-239-6"
+        },
+        {
+          "t": "Mania",
+          "k": "y2-239-11"
+        },
+        {
+          "t": "Delirium (short term, low dose)",
+          "k": "y2-209-7"
+        },
+        {
+          "t": "Severe BPSD (risperidone)",
+          "k": "y2-209-7"
+        }
+      ],
+      "how": "Block D2 receptors (atypicals also block 5-HT2A)",
+      "hx": [
+        [
+          "Stimulate D2 receptors (atypicals also stimulate 5-HT2A)",
+          "They block D2 (and atypicals block 5-HT2A)."
+        ],
+        [
+          "Block D1 receptors (atypicals also block GABA-A)",
+          "The key target is D2."
+        ],
+        [
+          "Block dopamine reuptake (atypicals also block serotonin reuptake)",
+          "They block D2 receptors."
+        ]
+      ],
+      "se": [
+        "Extrapyramidal effects (typicals)",
+        "Raised prolactin",
+        "Weight gain and metabolic syndrome (olanzapine, clozapine)",
+        "Sedation",
+        "QT prolongation",
+        "NMS",
+        "Clozapine: agranulocytosis, myocarditis, constipation"
+      ],
+      "sewhy": "D2 blockade in the basal ganglia causes extrapyramidal effects and in the pituitary raises prolactin; H1, muscarinic and α1 effects cause sedation and weight gain; clozapine adds agranulocytosis and myocarditis.",
+      "ci": [
+        {
+          "c": "Dementia with Lewy bodies, Parkinson's disease",
+          "k": "y2-209-1",
+          "why": "Severe neuroleptic sensitivity: rigidity, falls, death",
+          "cau": false,
+          "x": [
+            [
+              "Mild sedation only: safe at normal doses",
+              "People with DLB can have severe, even fatal, sensitivity."
+            ],
+            [
+              "Severe hallucinations: worse psychosis",
+              "Not worse psychosis; severe rigidity, falls and death."
+            ],
+            [
+              "Severe hypertension: stroke",
+              "No; severe neuroleptic sensitivity."
+            ]
+          ]
+        },
+        {
+          "c": "Long QT or recent MI (especially haloperidol)",
+          "k": "y1-108-3",
+          "why": "Torsades risk",
+          "cau": false,
+          "x": [
+            [
+              "Heart block risk",
+              "QT prolongation → torsades."
+            ],
+            [
+              "Bradycardia risk",
+              "Torsades."
+            ],
+            [
+              "Myocarditis risk",
+              "Myocarditis is a clozapine risk; here it's torsades."
+            ]
+          ]
+        },
+        {
+          "c": "Previous neuroleptic malignant syndrome",
+          "k": "y1-130-6",
+          "why": "Recurrence can be fatal",
+          "cau": false,
+          "x": [
+            [
+              "Recurrence is always mild",
+              "Recurrence can be fatal."
+            ],
+            [
+              "It causes permanent tardive dyskinesia",
+              "No; NMS recurrence can be fatal."
+            ],
+            [
+              "It triggers agranulocytosis on re-exposure",
+              "No; NMS can recur and be fatal."
+            ]
+          ]
+        },
+        {
+          "c": "Dementia",
+          "k": "y2-209-7",
+          "why": "↑ stroke and death: lowest dose, review at 6 weeks",
+          "cau": true,
+          "x": [
+            [
+              "↑ falls only: no review needed",
+              "They raise stroke and death risk; use the lowest dose and review at 6 weeks."
+            ],
+            [
+              "↑ stroke and death: double the dose, review at 6 months",
+              "Lowest dose, review at 6 weeks."
+            ],
+            [
+              "↑ Alzheimer's progression: stop at once",
+              "The risk is stroke and death; review rather than stopping abruptly."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "benzodiazepines",
+      "name": "Benzodiazepines",
+      "ex": "diazepam, lorazepam, chlordiazepoxide, midazolam",
+      "uses": [
+        {
+          "t": "Status epilepticus",
+          "k": "y2-230-4"
+        },
+        {
+          "t": "Alcohol withdrawal (chlordiazepoxide)",
+          "k": "y2-229-7"
+        },
+        {
+          "t": "Severe anxiety (2–4 weeks max)",
+          "k": "y2-239-14"
+        },
+        {
+          "t": "Agitation, rapid tranquillisation",
+          "k": "y2-239-6"
+        }
+      ],
+      "how": "Enhance GABA-A receptor (↑ Cl⁻ channel opening frequency)",
+      "hx": [
+        [
+          "Enhance GABA-A receptor (↑ Cl⁻ channel opening duration)",
+          "Longer opening is barbiturates; benzodiazepines increase opening frequency."
+        ],
+        [
+          "Block GABA-A receptor (↓ Cl⁻ channel opening)",
+          "They enhance GABA-A."
+        ],
+        [
+          "Activate GABA-B receptor (↑ K⁺ efflux)",
+          "That's baclofen; benzodiazepines act on GABA-A."
+        ]
+      ],
+      "se": [
+        "Drowsiness",
+        "Falls, confusion (elderly)",
+        "Respiratory depression",
+        "Dependence and tolerance",
+        "Withdrawal seizures"
+      ],
+      "sewhy": "Enhancing GABA depresses the CNS (drowsiness, falls, respiratory depression, especially with opioids or alcohol); receptors adapt, so dependence develops and abrupt withdrawal can cause seizures.",
+      "ci": [
+        {
+          "c": "Respiratory depression or type 2 respiratory failure",
+          "k": "y2-207-4",
+          "why": "Further suppresses breathing",
+          "cau": false,
+          "x": [
+            [
+              "Causes bronchospasm",
+              "They suppress breathing."
+            ],
+            [
+              "Increases CO₂ sensitivity",
+              "They blunt breathing."
+            ],
+            [
+              "Thickens airway secretions",
+              "No; they suppress breathing."
+            ]
+          ]
+        },
+        {
+          "c": "Obstructive sleep apnoea",
+          "k": "y2-207-5",
+          "why": "Relaxes upper airway muscles",
+          "cau": false,
+          "x": [
+            [
+              "Tightens upper airway muscles",
+              "They relax them, worsening obstruction."
+            ],
+            [
+              "Increases airway secretions",
+              "No; muscle relaxation."
+            ],
+            [
+              "Raises BP during sleep",
+              "No; relaxes upper airway muscles."
+            ]
+          ]
+        },
+        {
+          "c": "Myasthenia gravis",
+          "k": "y1-113-3",
+          "why": "Muscle relaxation worsens weakness",
+          "cau": false,
+          "x": [
+            [
+              "Cholinergic excess worsens weakness",
+              "Their muscle-relaxant effect worsens weakness."
+            ],
+            [
+              "Destroys ACh receptors",
+              "No; muscle relaxation worsens weakness."
+            ],
+            [
+              "Lowers pyridostigmine levels",
+              "No; muscle relaxation."
+            ]
+          ]
+        },
+        {
+          "c": "Severe liver disease",
+          "k": "y2-229-3",
+          "why": "Can precipitate hepatic encephalopathy (lorazepam safer)",
+          "cau": true,
+          "x": [
+            [
+              "Directly hepatotoxic (diazepam safer)",
+              "They precipitate encephalopathy; lorazepam (no active metabolites) is safer."
+            ],
+            [
+              "Can precipitate variceal bleeding (midazolam safer)",
+              "No; hepatic encephalopathy."
+            ],
+            [
+              "Can precipitate hepatic encephalopathy (diazepam safer)",
+              "Diazepam has long-acting metabolites; lorazepam is safer."
+            ]
+          ]
+        },
+        {
+          "c": "With opioids",
+          "k": "y2-207-4",
+          "why": "Combined respiratory depression",
+          "cau": true,
+          "x": [
+            [
+              "Combined hypotension only",
+              "The main danger is respiratory depression."
+            ],
+            [
+              "Combined seizure risk",
+              "No; respiratory depression."
+            ],
+            [
+              "Combined liver toxicity",
+              "No; respiratory depression."
+            ]
+          ]
+        },
+        {
+          "c": "Elderly",
+          "k": "y1-116-2",
+          "why": "Falls and delirium",
+          "cau": true,
+          "x": [
+            [
+              "Hypertension and tremor",
+              "No; falls and delirium."
+            ],
+            [
+              "Weight gain and diabetes",
+              "No; falls and delirium."
+            ],
+            [
+              "Diarrhoea and dehydration",
+              "No; falls and delirium."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "acetylcholinesterase-inhibitors",
+      "name": "Acetylcholinesterase inhibitors",
+      "ex": "donepezil, rivastigmine, galantamine",
+      "uses": [
+        {
+          "t": "Mild–moderate Alzheimer's",
+          "k": "y2-209-7"
+        },
+        {
+          "t": "Dementia with Lewy bodies, Parkinson's dementia",
+          "k": "y2-209-1"
+        }
+      ],
+      "how": "↑ synaptic acetylcholine",
+      "hx": [
+        [
+          "↓ synaptic acetylcholine",
+          "They block its breakdown, raising synaptic ACh."
+        ],
+        [
+          "↑ synaptic dopamine",
+          "No; acetylcholine."
+        ],
+        [
+          "↑ synaptic GABA",
+          "No; acetylcholine."
+        ]
+      ],
+      "se": [
+        "Nausea, diarrhoea",
+        "Bradycardia, heart block, syncope",
+        "Vivid dreams, insomnia",
+        "Urinary incontinence"
+      ],
+      "sewhy": "More acetylcholine in the gut (nausea, diarrhoea), at the heart's SA and AV nodes (bradycardia, heart block, syncope) and in the bladder (incontinence).",
+      "ci": [
+        {
+          "c": "Sick sinus syndrome, heart block, bradycardia",
+          "k": "y1-108-3",
+          "why": "↑ vagal tone → syncope",
+          "cau": false,
+          "x": [
+            [
+              "↓ vagal tone → tachycardia",
+              "More ACh raises vagal tone, slowing the heart."
+            ],
+            [
+              "↑ sympathetic tone → arrhythmias",
+              "No; vagal tone rises."
+            ],
+            [
+              "QT shortening → VF",
+              "No; ↑ vagal tone → bradycardia and syncope."
+            ]
+          ]
+        },
+        {
+          "c": "Asthma or COPD",
+          "k": "y2-204-6",
+          "why": "Cholinergic bronchoconstriction",
+          "cau": true,
+          "x": [
+            [
+              "Anticholinergic mucus thickening",
+              "They're cholinergic, constricting airways."
+            ],
+            [
+              "Histamine-driven bronchoconstriction",
+              "No; cholinergic."
+            ],
+            [
+              "Adrenergic airway oedema",
+              "No; cholinergic bronchoconstriction."
+            ]
+          ]
+        },
+        {
+          "c": "Peptic ulcer",
+          "k": "y1-104-1",
+          "why": "↑ gastric acid",
+          "cau": true,
+          "x": [
+            [
+              "↓ gastric acid",
+              "Cholinergic effects raise acid."
+            ],
+            [
+              "↑ H. pylori growth",
+              "No; ↑ gastric acid."
+            ],
+            [
+              "↓ platelet function",
+              "No; ↑ gastric acid."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "memantine",
+      "name": "Memantine",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Moderate–severe Alzheimer's",
+          "k": "y2-209-7"
+        }
+      ],
+      "how": "NMDA receptor antagonist (↓ glutamate excitotoxicity)",
+      "hx": [
+        [
+          "NMDA receptor agonist (↑ glutamate signalling)",
+          "It blocks NMDA receptors."
+        ],
+        [
+          "GABA-B agonist (↓ glutamate release)",
+          "It's an NMDA antagonist."
+        ],
+        [
+          "Dopamine agonist (↑ frontal dopamine)",
+          "It's an NMDA antagonist."
+        ]
+      ],
+      "se": [
+        "Dizziness",
+        "Headache",
+        "Constipation",
+        "Hypertension"
+      ],
+      "sewhy": "Partial NMDA blockade is well tolerated; dizziness, headache, constipation and raised BP are the main effects.",
+      "ci": [
+        {
+          "c": "Epilepsy",
+          "k": "y2-230-1",
+          "why": "May lower seizure threshold",
+          "cau": true,
+          "x": [
+            [
+              "May raise seizure threshold",
+              "It may lower it."
+            ],
+            [
+              "Raises antiepileptic levels",
+              "No; it may lower the seizure threshold."
+            ],
+            [
+              "Causes hyponatraemic seizures",
+              "No; it lowers the threshold."
+            ]
+          ]
+        },
+        {
+          "c": "Severe renal impairment",
+          "k": "y1-135-5",
+          "why": "Reduce dose",
+          "cau": true,
+          "x": [
+            [
+              "Double the dose",
+              "It's renally cleared: reduce."
+            ],
+            [
+              "No change needed",
+              "Reduce the dose."
+            ],
+            [
+              "Give it intravenously instead",
+              "No; reduce the dose."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "triptans",
+      "name": "Triptans",
+      "ex": "sumatriptan",
+      "uses": [
+        {
+          "t": "Acute migraine",
+          "k": "y1-109-3"
+        },
+        {
+          "t": "Cluster headache (SC or nasal)",
+          "k": "y1-109-3"
+        }
+      ],
+      "how": "5-HT1B/1D agonist → cranial vasoconstriction, ↓ CGRP release",
+      "hx": [
+        [
+          "5-HT1B/1D antagonist → cranial vasodilation, ↑ CGRP release",
+          "They're agonists: cranial vasoconstriction and less CGRP."
+        ],
+        [
+          "CGRP receptor antibody → blocks cranial vasodilation",
+          "That's a migraine preventer (e.g. erenumab); triptans are 5-HT1B/1D agonists."
+        ],
+        [
+          "Ergot alkaloid → generalised vasoconstriction",
+          "Triptans are selective 5-HT1B/1D agonists, not ergots."
+        ]
+      ],
+      "se": [
+        "Tingling",
+        "Chest tightness",
+        "Flushing",
+        "Dizziness"
+      ],
+      "sewhy": "5-HT1B/1D agonism constricts cranial and, to a lesser extent, coronary vessels (chest tightness), and causes tingling and flushing; avoid in coronary disease.",
+      "ci": [
+        {
+          "c": "Ischaemic heart disease, coronary vasospasm, previous MI",
+          "k": "y1-134-1",
+          "why": "5-HT1B constricts coronary arteries",
+          "cau": false,
+          "x": [
+            [
+              "5-HT1D dilates coronary arteries",
+              "5-HT1B receptors constrict coronaries."
+            ],
+            [
+              "5-HT1B raises heart rate",
+              "The issue is coronary constriction."
+            ],
+            [
+              "Triptans raise cholesterol",
+              "No; coronary vasoconstriction."
+            ]
+          ]
+        },
+        {
+          "c": "Uncontrolled hypertension",
+          "k": "y1-134-5",
+          "why": "Vasoconstriction raises BP",
+          "cau": false,
+          "x": [
+            [
+              "Vasodilation lowers BP",
+              "They constrict vessels, raising BP."
+            ],
+            [
+              "Fluid retention raises BP",
+              "No; vasoconstriction."
+            ],
+            [
+              "Renin release raises BP",
+              "No; vasoconstriction."
+            ]
+          ]
+        },
+        {
+          "c": "Previous stroke/TIA or PAD",
+          "k": "y2-231-1",
+          "why": "Vasoconstriction → ischaemia",
+          "cau": false,
+          "x": [
+            [
+              "Vasodilation → haemorrhage",
+              "They constrict vessels, risking ischaemia."
+            ],
+            [
+              "Platelet activation → clots",
+              "No; vasoconstriction."
+            ],
+            [
+              "Hypotension → ischaemia",
+              "They raise BP; vasoconstriction causes ischaemia."
+            ]
+          ]
+        },
+        {
+          "c": "With SSRIs or MAOIs",
+          "k": "y1-119-2",
+          "why": "Serotonin syndrome",
+          "cau": true,
+          "x": [
+            [
+              "Anticholinergic syndrome",
+              "No; serotonin syndrome."
+            ],
+            [
+              "Neuroleptic malignant syndrome",
+              "No; serotonin syndrome."
+            ],
+            [
+              "Lithium toxicity",
+              "No; serotonin syndrome."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sodium-valproate",
+      "name": "Sodium valproate",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Generalised epilepsy",
+          "k": "y2-230-4"
+        },
+        {
+          "t": "Bipolar disorder",
+          "k": "y2-239-11"
+        }
+      ],
+      "how": "↑ GABA, blocks Na⁺ and T-type Ca²⁺ channels",
+      "hx": [
+        [
+          "↓ GABA, opens Na⁺ and L-type Ca²⁺ channels",
+          "It boosts GABA and blocks Na⁺ and T-type Ca²⁺ channels."
+        ],
+        [
+          "Enhances glycine receptors in the spinal cord",
+          "It raises GABA and blocks Na⁺ and T-type Ca²⁺ channels."
+        ],
+        [
+          "↑ glutamate, blocks K⁺ channels",
+          "It increases GABA, not glutamate."
+        ]
+      ],
+      "se": [
+        "Weight gain",
+        "Tremor",
+        "Hair loss",
+        "Hepatotoxicity",
+        "Pancreatitis",
+        "Thrombocytopenia"
+      ],
+      "sewhy": "Valproate causes weight gain, tremor and hair thinning; it can cause idiosyncratic liver failure and pancreatitis, low platelets, and it's highly teratogenic.",
+      "ci": [
+        {
+          "c": "Women and girls who could become pregnant (unless on Pregnancy Prevention Programme)",
+          "k": "y2-230-4",
+          "why": "~10% major malformations (neural tube defects) and ~30–40% neurodevelopmental problems",
+          "cau": false,
+          "x": [
+            [
+              "~1% minor malformations (skin tags) and no neurodevelopmental effects",
+              "Valproate is highly teratogenic: ~10% malformations and 30–40% neurodevelopmental problems."
+            ],
+            [
+              "~10% major malformations (cardiac only) and no neurodevelopmental effects",
+              "Neural tube defects are typical, and 30–40% have neurodevelopmental problems."
+            ],
+            [
+              "~50% miscarriage, but no malformations in survivors",
+              "The main risks are malformations and neurodevelopmental problems."
+            ]
+          ]
+        },
+        {
+          "c": "Liver disease",
+          "k": "y2-229-3",
+          "why": "Hepatotoxic",
+          "cau": false,
+          "x": [
+            [
+              "Nephrotoxic",
+              "Valproate is hepatotoxic."
+            ],
+            [
+              "Causes hypoglycaemia",
+              "No; hepatotoxic."
+            ],
+            [
+              "Ototoxic",
+              "No; hepatotoxic."
+            ]
+          ]
+        },
+        {
+          "c": "With carbapenems",
+          "k": "y1-130-5",
+          "why": "Valproate levels collapse → seizures",
+          "cau": false,
+          "x": [
+            [
+              "Valproate levels soar → liver failure",
+              "They fall sharply."
+            ],
+            [
+              "Carbapenem levels fall → treatment failure",
+              "Valproate levels collapse."
+            ],
+            [
+              "Combined marrow suppression",
+              "No; valproate levels collapse."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carbamazepine",
+      "name": "Carbamazepine",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Focal epilepsy",
+          "k": "y2-230-4"
+        },
+        {
+          "t": "Trigeminal neuralgia",
+          "k": "y1-109-2"
+        }
+      ],
+      "how": "Blocks voltage-gated Na⁺ channels",
+      "hx": [
+        [
+          "Opens voltage-gated Na⁺ channels",
+          "It blocks them."
+        ],
+        [
+          "Blocks T-type Ca²⁺ channels",
+          "That's ethosuximide; carbamazepine blocks Na⁺ channels."
+        ],
+        [
+          "Blocks voltage-gated K⁺ channels",
+          "It blocks Na⁺ channels."
+        ]
+      ],
+      "se": [
+        "Hyponatraemia (SIADH)",
+        "Rash, SJS/TEN",
+        "Diplopia, ataxia",
+        "Leucopenia",
+        "Enzyme induction"
+      ],
+      "sewhy": "It enhances ADH action (SIADH, low sodium), causes HLA-linked severe skin reactions (SJS/TEN), affects the cerebellum and vestibular system (diplopia, ataxia), and induces liver enzymes.",
+      "ci": [
+        {
+          "c": "AV conduction abnormalities",
+          "k": "y1-108-3",
+          "why": "Slows cardiac conduction",
+          "cau": false,
+          "x": [
+            [
+              "Speeds cardiac conduction",
+              "It slows it."
+            ],
+            [
+              "Causes coronary vasospasm",
+              "No; it slows conduction."
+            ],
+            [
+              "Raises potassium",
+              "No; it slows conduction."
+            ]
+          ]
+        },
+        {
+          "c": "HLA-B 15:02 positive (Han Chinese, Thai)",
+          "k": "y2-227-11",
+          "why": "High risk of SJS/TEN: test first",
+          "cau": false,
+          "x": [
+            [
+              "High risk of liver failure: test first",
+              "HLA-B*15:02 predicts SJS/TEN."
+            ],
+            [
+              "High risk of agranulocytosis: check the FBC first",
+              "The HLA risk is SJS/TEN."
+            ],
+            [
+              "Low risk of side effects: no test needed",
+              "High SJS/TEN risk; test first."
+            ]
+          ]
+        },
+        {
+          "c": "Absence or myoclonic seizures",
+          "k": "y2-230-1",
+          "why": "Makes them worse",
+          "cau": false,
+          "x": [
+            [
+              "Makes them better",
+              "Carbamazepine can worsen absence and myoclonic seizures."
+            ],
+            [
+              "Has no effect on them",
+              "It worsens them."
+            ],
+            [
+              "Only works at double dose",
+              "It worsens them."
+            ]
+          ]
+        },
+        {
+          "c": "Combined pill, warfarin",
+          "k": "y1-130-5",
+          "why": "Enzyme induction → reduced effect",
+          "cau": true,
+          "x": [
+            [
+              "Enzyme inhibition → toxicity",
+              "Carbamazepine induces enzymes, reducing their effect."
+            ],
+            [
+              "Chelation → reduced absorption",
+              "No; enzyme induction."
+            ],
+            [
+              "Protein binding → increased effect",
+              "No; enzyme induction reduces their effect."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lamotrigine-and-levetiracetam",
+      "name": "Lamotrigine and levetiracetam",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Epilepsy (levetiracetam broad; lamotrigine safer in pregnancy)",
+          "k": "y2-230-4"
+        }
+      ],
+      "how": "Lamotrigine: Na⁺ channel block; levetiracetam: SV2A binding",
+      "hx": [
+        [
+          "Lamotrigine: SV2A binding; levetiracetam: Na⁺ channel block",
+          "Swapped: lamotrigine blocks Na⁺ channels; levetiracetam binds SV2A."
+        ],
+        [
+          "Lamotrigine: GABA-A enhancement; levetiracetam: T-type Ca²⁺ block",
+          "Lamotrigine blocks Na⁺ channels; levetiracetam binds SV2A."
+        ],
+        [
+          "Lamotrigine: carbonic anhydrase inhibition; levetiracetam: NMDA antagonism",
+          "Lamotrigine: Na⁺ channels; levetiracetam: SV2A."
+        ]
+      ],
+      "se": [
+        "Lamotrigine: rash, SJS (titrate slowly)",
+        "Levetiracetam: irritability, low mood, aggression"
+      ],
+      "sewhy": "Lamotrigine can cause serious rashes (SJS), especially with fast dose increases or valproate; levetiracetam commonly causes irritability and low mood.",
+      "ci": [
+        {
+          "c": "Lamotrigine with valproate",
+          "k": "y2-230-4",
+          "why": "Valproate doubles lamotrigine levels → rash risk",
+          "cau": true,
+          "x": [
+            [
+              "Valproate halves lamotrigine levels → seizures",
+              "Valproate inhibits its metabolism, doubling levels."
+            ],
+            [
+              "Lamotrigine doubles valproate levels → liver failure",
+              "It's lamotrigine levels that rise."
+            ],
+            [
+              "Valproate doubles lamotrigine levels → kidney stones",
+              "The danger is rash (SJS)."
+            ]
+          ]
+        },
+        {
+          "c": "Levetiracetam with depression",
+          "k": "y1-119-1",
+          "why": "Can worsen mood",
+          "cau": true,
+          "x": [
+            [
+              "Can improve mood",
+              "It can worsen mood (irritability, depression)."
+            ],
+            [
+              "Lowers antidepressant levels",
+              "No interaction; it can worsen mood."
+            ],
+            [
+              "Causes weight gain",
+              "No; it can worsen mood."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phenytoin",
+      "name": "Phenytoin",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Status epilepticus (IV)",
+          "k": "y2-230-4"
+        }
+      ],
+      "how": "Blocks Na⁺ channels; zero-order kinetics at therapeutic levels",
+      "hx": [
+        [
+          "Blocks Na⁺ channels; first-order kinetics at therapeutic levels",
+          "Its metabolism saturates, so kinetics turn zero-order: small dose rises cause big level jumps."
+        ],
+        [
+          "Opens Cl⁻ channels; first-order kinetics",
+          "It blocks Na⁺ channels, with zero-order kinetics."
+        ],
+        [
+          "Blocks Ca²⁺ channels; zero-order kinetics only in overdose",
+          "Na⁺ channel block, and zero-order within the therapeutic range."
+        ]
+      ],
+      "se": [
+        "Gum hypertrophy",
+        "Hirsutism",
+        "Ataxia, nystagmus",
+        "Teratogenic",
+        "Arrhythmias and hypotension (IV)"
+      ],
+      "sewhy": "Phenytoin stimulates fibroblasts (gum overgrowth, coarse features, hirsutism), causes cerebellar signs when levels rise (zero-order kinetics) and is teratogenic; IV, it depresses the heart.",
+      "ci": [
+        {
+          "c": "Sinus bradycardia or heart block (IV)",
+          "k": "y1-108-3",
+          "why": "Depresses cardiac conduction",
+          "cau": false,
+          "x": [
+            [
+              "Speeds cardiac conduction",
+              "It depresses conduction."
+            ],
+            [
+              "Causes coronary vasospasm",
+              "No; it depresses conduction."
+            ],
+            [
+              "Raises potassium",
+              "No; it depresses conduction."
+            ]
+          ]
+        },
+        {
+          "c": "Pregnancy",
+          "k": "y1-114-1",
+          "why": "Fetal hydantoin syndrome",
+          "cau": true,
+          "x": [
+            [
+              "Fetal alcohol syndrome",
+              "Phenytoin causes fetal hydantoin syndrome."
+            ],
+            [
+              "Fetal warfarin syndrome",
+              "No; fetal hydantoin syndrome."
+            ],
+            [
+              "Fetal valproate syndrome",
+              "No; hydantoin syndrome."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "levodopa",
+      "name": "Levodopa",
+      "ex": "co-careldopa, co-beneldopa",
+      "uses": [
+        {
+          "t": "Parkinson's disease motor symptoms",
+          "k": "y2-221-19"
+        }
+      ],
+      "how": "Dopamine precursor; carbidopa/benserazide stop peripheral breakdown",
+      "hx": [
+        [
+          "Dopamine agonist; carbidopa/benserazide boost central breakdown",
+          "It's a precursor; the add-ons stop peripheral conversion."
+        ],
+        [
+          "Dopamine precursor; carbidopa/benserazide stop central breakdown",
+          "They act peripherally (they don't cross the BBB)."
+        ],
+        [
+          "MAO-B inhibitor; carbidopa/benserazide block COMT",
+          "Levodopa is a dopamine precursor; carbidopa blocks peripheral dopa decarboxylase."
+        ]
+      ],
+      "se": [
+        "Nausea",
+        "Postural hypotension",
+        "Dyskinesia",
+        "On–off fluctuations",
+        "Hallucinations, confusion"
+      ],
+      "sewhy": "Dopamine outside the brain causes nausea and postural hypotension; fluctuating levels cause dyskinesia and on–off swings; excess dopamine in limbic areas causes hallucinations.",
+      "ci": [
+        {
+          "c": "Angle-closure glaucoma",
+          "k": "y1-142-4",
+          "why": "Mydriasis can block drainage",
+          "cau": false,
+          "x": [
+            [
+              "Miosis can block drainage",
+              "Levodopa can dilate the pupil (mydriasis)."
+            ],
+            [
+              "Raises aqueous production",
+              "No; mydriasis blocks drainage."
+            ],
+            [
+              "Causes retinal detachment",
+              "No; mydriasis."
+            ]
+          ]
+        },
+        {
+          "c": "With non-selective MAOIs",
+          "k": "y1-130-5",
+          "why": "Hypertensive crisis",
+          "cau": false,
+          "x": [
+            [
+              "Hypotensive collapse",
+              "MAOIs stop dopamine and NA breakdown → hypertensive crisis."
+            ],
+            [
+              "Neuroleptic malignant syndrome",
+              "No; hypertensive crisis."
+            ],
+            [
+              "Heart block",
+              "No; hypertensive crisis."
+            ]
+          ]
+        },
+        {
+          "c": "Stopping abruptly or missing doses",
+          "k": "y2-221-19",
+          "why": "Severe rigidity and hyperthermia (like NMS); time-critical medicine",
+          "cau": false,
+          "x": [
+            [
+              "Rebound dyskinesia; safe to miss a few doses",
+              "Missed doses risk rigidity and hyperthermia; give on time."
+            ],
+            [
+              "Severe hypotension; restart at half dose",
+              "The risk is NMS-like rigidity and hyperthermia."
+            ],
+            [
+              "Withdrawal seizures; give a benzodiazepine",
+              "No; parkinsonism–hyperpyrexia (NMS-like)."
+            ]
+          ]
+        },
+        {
+          "c": "Psychosis",
+          "k": "y2-239-6",
+          "why": "Dopamine worsens psychosis",
+          "cau": true,
+          "x": [
+            [
+              "Dopamine improves psychosis",
+              "It worsens it."
+            ],
+            [
+              "Serotonin worsens psychosis",
+              "The issue is extra dopamine."
+            ],
+            [
+              "Acetylcholine worsens psychosis",
+              "No; dopamine."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gabapentinoids",
+      "name": "Gabapentinoids",
+      "ex": "gabapentin, pregabalin",
+      "uses": [
+        {
+          "t": "Neuropathic pain",
+          "k": "y1-109-2"
+        },
+        {
+          "t": "Focal epilepsy",
+          "k": "y2-230-4"
+        },
+        {
+          "t": "GAD (pregabalin)",
+          "k": "y2-239-14"
+        }
+      ],
+      "how": "Bind α2δ subunit of Ca²⁺ channels → ↓ excitatory neurotransmitter release",
+      "hx": [
+        [
+          "Bind GABA-A receptors → ↑ inhibitory signalling",
+          "Despite the name, they don't act on GABA receptors; they bind α2δ."
+        ],
+        [
+          "Bind α2δ subunit of Na⁺ channels → ↑ excitatory neurotransmitter release",
+          "α2δ belongs to Ca²⁺ channels, and release falls."
+        ],
+        [
+          "Block substance P (NK1) receptors → ↓ pain signalling",
+          "They bind the α2δ subunit of Ca²⁺ channels."
+        ]
+      ],
+      "se": [
+        "Dizziness",
+        "Drowsiness",
+        "Weight gain",
+        "Dependence and misuse (Class C)",
+        "Respiratory depression with opioids"
+      ],
+      "sewhy": "They reduce neuronal calcium entry, depressing the CNS (dizziness, drowsiness) and adding to opioid respiratory depression; they're misused, so they're controlled drugs.",
+      "ci": [
+        {
+          "c": "Renal impairment",
+          "k": "y2-220-16",
+          "why": "Renally cleared: reduce dose",
+          "cau": true,
+          "x": [
+            [
+              "Hepatically cleared: no change",
+              "Renally cleared; reduce the dose."
+            ],
+            [
+              "Nephrotoxic: avoid",
+              "Not nephrotoxic; reduce the dose."
+            ],
+            [
+              "Renally cleared: increase dose",
+              "Reduce it."
+            ]
+          ]
+        },
+        {
+          "c": "With opioids",
+          "k": "y2-207-4",
+          "why": "Combined respiratory depression",
+          "cau": true,
+          "x": [
+            [
+              "Combined hypertension",
+              "No; respiratory depression."
+            ],
+            [
+              "Combined liver toxicity",
+              "No; respiratory depression."
+            ],
+            [
+              "Opioids block gabapentin absorption",
+              "No; combined respiratory depression."
+            ]
+          ]
+        },
+        {
+          "c": "History of substance misuse",
+          "k": "y2-229-7",
+          "why": "Misuse potential",
+          "cau": true,
+          "x": [
+            [
+              "Liver toxicity with alcohol",
+              "The concern is misuse (they're controlled drugs)."
+            ],
+            [
+              "Seizures on the first dose",
+              "No; misuse potential."
+            ],
+            [
+              "Interacts with methadone metabolism",
+              "Not the key reason; misuse potential."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topiramate",
+      "name": "Topiramate",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Migraine prophylaxis",
+          "k": "y1-109-3"
+        },
+        {
+          "t": "Epilepsy",
+          "k": "y2-230-4"
+        }
+      ],
+      "how": "Na⁺ channel block, ↑ GABA, AMPA antagonism, carbonic anhydrase inhibition",
+      "hx": [
+        [
+          "Na⁺ channel opening, ↓ GABA, AMPA agonism, carbonic anhydrase activation",
+          "Every effect is reversed."
+        ],
+        [
+          "SV2A binding, D2 blockade, NMDA agonism",
+          "Topiramate: Na⁺ block, ↑ GABA, AMPA antagonism, carbonic anhydrase inhibition."
+        ],
+        [
+          "GABA reuptake inhibition only",
+          "It has several actions: Na⁺ block, ↑ GABA, AMPA antagonism, carbonic anhydrase inhibition."
+        ]
+      ],
+      "se": [
+        "Paraesthesia",
+        "Weight loss",
+        "Cognitive slowing",
+        "Kidney stones",
+        "Acute angle-closure glaucoma"
+      ],
+      "sewhy": "Topiramate inhibits carbonic anhydrase (paraesthesia, kidney stones), slows cognition and suppresses appetite; it can cause acute angle closure by swelling the ciliary body.",
+      "ci": [
+        {
+          "c": "Pregnancy, or could become pregnant without effective contraception",
+          "k": "y1-114-1",
+          "why": "Teratogenic (cleft lip/palate, low birthweight)",
+          "cau": false,
+          "x": [
+            [
+              "Teratogenic (limb shortening, deafness)",
+              "Topiramate is linked to cleft lip/palate and low birthweight."
+            ],
+            [
+              "Not teratogenic (only preterm birth)",
+              "It is teratogenic."
+            ],
+            [
+              "Teratogenic (cataracts, microphthalmia)",
+              "No; cleft lip/palate and low birthweight."
+            ]
+          ]
+        },
+        {
+          "c": "Kidney stones",
+          "k": "y1-111-4",
+          "why": "Carbonic anhydrase inhibition → stones",
+          "cau": true,
+          "x": [
+            [
+              "Carbonic anhydrase activation → stones",
+              "It inhibits carbonic anhydrase."
+            ],
+            [
+              "Hypercalcaemia → stones",
+              "No; carbonic anhydrase inhibition (alkaline urine, low citrate)."
+            ],
+            [
+              "Uric acid excess → stones",
+              "No; carbonic anhydrase inhibition."
+            ]
+          ]
+        },
+        {
+          "c": "Combined pill",
+          "k": "y1-130-5",
+          "why": "Reduces contraceptive effect at higher doses",
+          "cau": true,
+          "x": [
+            [
+              "Increases contraceptive effect at higher doses",
+              "It reduces it (enzyme induction)."
+            ],
+            [
+              "Causes VTE with the pill",
+              "No; reduced contraceptive effect."
+            ],
+            [
+              "Reduces contraceptive effect at any dose",
+              "Mainly at higher doses (over 200 mg a day)."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

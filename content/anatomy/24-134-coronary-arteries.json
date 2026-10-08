@@ -1,0 +1,99 @@
+{
+  "id": "a-134",
+  "num": "134",
+  "title": "Coronary arteries",
+  "system": "Cardiovascular",
+  "los": [
+    {
+      "n": 1,
+      "text": "Describe the course of the ascending aorta, the arch of the aorta and the descending thoracic aorta, naming the major branches of each division",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Part</th><th>Course</th><th>Branches</th></tr></thead><tbody><tr><td><strong>Ascending aorta</strong></td><td>From the aortic valve (behind the left half of the sternum, level of the 3rd costal cartilage) up and right, inside the pericardium, to the <strong>sternal angle</strong></td><td><strong>Right and left coronary arteries</strong> (from the aortic sinuses)</td></tr><tr><td><strong>Arch</strong></td><td><ul class=\"cl\"><li>Arches back and to the left over the left main bronchus and pulmonary bifurcation</li><li>Begins and ends at the <strong>sternal angle (T4/5)</strong></li></ul></td><td><strong>Brachiocephalic trunk</strong>, <strong>left common carotid</strong>, <strong>left subclavian</strong>; ligamentum arteriosum attaches underneath (left RLN hooks round it)</td></tr><tr><td><strong>Descending thoracic</strong></td><td>From T4/5 down the left of the vertebral bodies, moving to the midline, through the <strong>aortic hiatus at T12</strong></td><td>Posterior intercostal arteries (3rd–11th), subcostal, bronchial, oesophageal, pericardial, mediastinal, superior phrenic</td></tr></tbody></table></div><ul><li><strong>Clinical</strong>: aortic dissection (tearing pain through to the back), coarctation (just after the left subclavian: rib notching, radiofemoral delay), aneurysm compressing the left RLN (hoarseness).</li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Describe the origins, courses and main branches of the left and right coronary arteries and discuss the functional consequences of their obstruction",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Artery</th><th>Origin and course</th><th>Main branches</th><th>Supplies</th></tr></thead><tbody><tr><td><strong>Right coronary (RCA)</strong></td><td>Right aortic sinus → <strong>right atrioventricular groove</strong> → round the inferior border → back of the heart</td><td><strong>SA nodal</strong> (~60%), right marginal, <strong>AV nodal</strong> (~80%), <strong>posterior descending (interventricular)</strong> in right-dominant hearts</td><td>Right atrium and ventricle, <strong>inferior</strong> wall of LV, posterior septum, SA and AV nodes</td></tr><tr><td><strong>Left main stem</strong></td><td>Left aortic sinus → behind the pulmonary trunk; short</td><td>Splits into LAD and circumflex</td><td></td></tr><tr><td><strong>LAD</strong> (anterior interventricular)</td><td>Down the anterior interventricular groove to the apex</td><td>Diagonal branches, <strong>septal</strong> perforators</td><td><strong>Anterior</strong> wall of LV, anterior <strong>2/3 of the septum</strong>, apex; bundle branches</td></tr><tr><td><strong>Circumflex</strong></td><td>Left atrioventricular groove round to the back</td><td><strong>Obtuse marginal</strong> branches; PDA in left-dominant hearts</td><td><strong>Lateral</strong> and posterior LV, left atrium</td></tr></tbody></table></div><ul><li><strong>Dominance</strong>: whichever artery gives the posterior descending artery (right-dominant in ~70%).</li></ul><div class=\"tbl\"><table><thead><tr><th>Blocked artery</th><th>Infarct</th><th>ECG leads</th><th>Typical problems</th></tr></thead><tbody><tr><td><strong>LAD</strong> (\"widow-maker\")</td><td><strong>Anterior</strong> / anteroseptal</td><td><strong>V1–V4</strong></td><td>Large LV loss → heart failure, cardiogenic shock; bundle branch block</td></tr><tr><td><strong>Circumflex</strong></td><td><strong>Lateral</strong></td><td>I, aVL, V5–6</td><td>Mitral regurgitation (papillary muscle)</td></tr><tr><td><strong>RCA</strong></td><td><strong>Inferior</strong> (+ right ventricle)</td><td><strong>II, III, aVF</strong></td><td><strong>Bradycardia and heart block</strong> (AV node), RV infarct → hypotension (avoid nitrates)</td></tr></tbody></table></div><ul><li><strong>Coronary filling</strong> happens mainly in <strong>diastole</strong> (LV muscle squeezes vessels in systole), so tachycardia reduces supply.</li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Explain the venous drainage of the heart",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Vein</th><th>Runs with</th><th>Drains into</th></tr></thead><tbody><tr><td><strong>Great cardiac vein</strong></td><td>LAD, then the circumflex in the left AV groove</td><td><strong>Coronary sinus</strong></td></tr><tr><td><strong>Middle cardiac vein</strong></td><td>Posterior descending artery</td><td>Coronary sinus</td></tr><tr><td><strong>Small cardiac vein</strong></td><td>Right marginal artery, right AV groove</td><td>Coronary sinus</td></tr><tr><td>Posterior vein of LV, oblique vein of LA</td><td>Back of LV / LA</td><td>Coronary sinus</td></tr><tr><td><strong>Anterior cardiac veins</strong></td><td>Over the RV</td><td><strong>Directly into the right atrium</strong></td></tr><tr><td><strong>Venae cordis minimae</strong> (Thebesian)</td><td>In the wall</td><td>Directly into all chambers</td></tr></tbody></table></div><ul><li><strong>Coronary sinus</strong>: in the posterior AV groove<ul><li>opens into the <strong>right atrium</strong> between the IVC opening and the tricuspid valve.</li><li>Used for pacing leads (cardiac resynchronisation).</li></ul></li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Recognise a coronary angiogram",
+      "section": "Practical",
+      "sessions": [],
+      "html": ""
+    },
+    {
+      "n": 5,
+      "text": "Define the term 'anastomosis'",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Anastomosis</strong>: a connection between two blood vessels (arteries, veins, or artery to vein) so that blood can reach a region by more than one route.</li></ul><div class=\"tbl\"><table><thead><tr><th>Type</th><th>Example</th></tr></thead><tbody><tr><td>Arterial (collateral)</td><td>Circle of Willis, palmar arches, scapular anastomosis, genicular anastomosis</td></tr><tr><td>Potential (small, opens slowly)</td><td><strong>Coronary arteries</strong>: functional end arteries, so sudden blockage causes infarction; slow narrowing can grow collaterals</td></tr><tr><td>Portosystemic</td><td>Lower oesophagus, rectum, umbilicus (varices in portal hypertension)</td></tr><tr><td>Arteriovenous</td><td>Skin (temperature), surgical AV fistula for dialysis</td></tr><tr><td><strong>End arteries</strong> (none)</td><td>Central artery of retina, renal and splenic segmental arteries</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Describe the functions of the pericardium",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Fixes</strong> the heart in the mediastinum (attached to the diaphragm's central tendon and the back of the sternum).</li><li><strong>Prevents over-distension</strong> of the heart (tough fibrous layer).</li><li><strong>Lubricates</strong>: serous fluid (~20–50 mL) lets the heart beat with little friction.</li><li><strong>Barrier</strong> against infection and spread of disease from the lungs and mediastinum.</li></ul>"
+    },
+    {
+      "n": 7,
+      "text": "Describe the layout of the pericardium (in relation to cardiac tamponade) and its sinuses",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Layer</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Fibrous pericardium</strong></td><td>Tough, non-stretch outer sac; fused to the <strong>central tendon of the diaphragm</strong> and the great vessels' adventitia</td></tr><tr><td><strong>Parietal serous</strong></td><td>Lines the fibrous pericardium</td></tr><tr><td><strong>Pericardial cavity</strong></td><td>Potential space with a thin film of fluid</td></tr><tr><td><strong>Visceral serous (epicardium)</strong></td><td>On the heart surface; reflects onto the parietal layer around the great vessels</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Transverse sinus</th><td><ul class=\"cl\"><li>Passage <strong>behind the aorta and pulmonary trunk</strong>, in front of the SVC and pulmonary veins.</li><li>Surgeons pass a finger or clamp through it to clamp the great arteries in bypass surgery.</li></ul></td></tr><tr><th scope=\"row\">Oblique sinus</th><td>Blind pocket <strong>behind the left atrium</strong>, bounded by the pulmonary veins and IVC.</td></tr><tr><th scope=\"row\">Cardiac tamponade</th><td><ul class=\"cl\"><li>Fluid or blood fills the cavity</li><li>Because the fibrous layer can't stretch, a small rapid volume (~100–200 mL) squeezes the heart and stops filling.</li><li><strong>Beck's triad</strong>: low BP, raised JVP, muffled heart sounds</li><li>Pulsus paradoxus.</li><li>Treat with <strong>pericardiocentesis</strong> (needle from the <strong>left xiphocostal angle</strong>, aiming towards the left shoulder).</li></ul></td></tr><tr><th scope=\"row\">Slow effusion</th><td>The sac can stretch to hold litres before tamponade.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Explain the concept of pericardial sac and potential space",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Pericardial sac</th><td>The fibrous pericardium + parietal serous layer, enclosing the heart like a fist pushed into a balloon (visceral layer on the heart, parietal layer outside).</td></tr><tr><th scope=\"row\">Potential space</th><td><ul class=\"cl\"><li>The pericardial cavity normally holds only a film of fluid</li><li>The layers touch.</li><li>It becomes a real space only when fluid, blood, pus or air collects (effusion, haemopericardium, purulent pericarditis, pneumopericardium).</li></ul></td></tr><tr><th scope=\"row\">Same idea elsewhere</th><td>Pleural and peritoneal cavities.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Recall that the phrenic nerves supply sensation from the pericardium",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Fibrous pericardium and parietal serous layer</th><td>Supplied by the <strong>phrenic nerves (C3–5)</strong>, so they feel sharp, localised pain.</td></tr><tr><th scope=\"row\">Visceral layer (epicardium)</th><td>Autonomic supply only; insensitive to pain.</td></tr><tr><th scope=\"row\">Course</th><td>Both phrenic nerves run down <strong>in front of the lung roots</strong>, between the fibrous pericardium and mediastinal pleura (pericardiacophrenic vessels with them), to the diaphragm.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 10,
+      "text": "Explain that pain from the pericardium (pericarditis) may be referred to the shoulder tip because of the common innervation (C3, 4, 5)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Pericarditis pain</th><td><ul class=\"cl\"><li>Sharp, central, <strong>worse lying flat and breathing in, eased by sitting forward</strong></li><li>Can spread to the <strong>shoulder tip / trapezius ridge</strong>.</li></ul></td></tr><tr><th scope=\"row\">Why the shoulder</th><td>The phrenic nerve's sensory fibres enter the cord at <strong>C3–5</strong>, the same segments as the supraclavicular nerves (C3–4) supplying shoulder skin, so the brain maps the pain there (referred pain).</td></tr><tr><th scope=\"row\">Distinguish from MI</th><td>MI pain is visceral (cardiac sympathetic T1–4: chest, left arm, jaw) and not affected by position.</td></tr><tr><th scope=\"row\">Other phrenic referral</th><td>Subphrenic abscess, splenic rupture (Kehr's sign), diaphragmatic pleurisy.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 11,
+      "text": "Recognise soft tissue structures on radiographic images of the thorax",
+      "section": "Practical",
+      "sessions": [],
+      "html": ""
+    },
+    {
+      "n": 12,
+      "text": "Recognise coronary arteries on CT reconstruction images",
+      "section": "Practical",
+      "sessions": [],
+      "html": ""
+    },
+    {
+      "n": 13,
+      "text": "Recognise the pericardium and associated structures and spaces on radiographs",
+      "section": "Practical",
+      "sessions": [],
+      "html": ""
+    }
+  ]
+}

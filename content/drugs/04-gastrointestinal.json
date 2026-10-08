@@ -1,0 +1,1256 @@
+{
+  "id": "gi",
+  "title": "Gastrointestinal",
+  "items": [
+    {
+      "id": "proton-pump-inhibitors",
+      "name": "Proton pump inhibitors",
+      "ex": "omeprazole, lansoprazole",
+      "uses": [
+        {
+          "t": "Peptic ulcer, GORD",
+          "k": "y1-104-3"
+        },
+        {
+          "t": "H. pylori eradication",
+          "k": "y1-104-3"
+        },
+        {
+          "t": "Gastroprotection with NSAIDs/DAPT",
+          "k": "y2-212-26"
+        }
+      ],
+      "how": "Irreversibly block the parietal-cell H⁺/K⁺-ATPase",
+      "hx": [
+        [
+          "Reversibly block parietal-cell H₂ receptors",
+          "That's how famotidine works; PPIs irreversibly block the proton pump."
+        ],
+        [
+          "Neutralise acid already secreted into the stomach",
+          "That's antacids; PPIs stop acid being secreted."
+        ],
+        [
+          "Block gastrin release from G cells",
+          "Gastrin actually rises on PPIs; they block the final acid pump."
+        ]
+      ],
+      "se": [
+        "Headache",
+        "Diarrhoea",
+        "C. difficile",
+        "Hypomagnesaemia",
+        "Hyponatraemia",
+        "Low B12",
+        "Fractures"
+      ],
+      "sewhy": "Less acid allows C. difficile spores to survive and reduces absorption of B12, magnesium and calcium (fractures); hyponatraemia is a less common effect.",
+      "ci": [
+        {
+          "c": "Previous C. difficile",
+          "k": "y1-145-2",
+          "why": "Less gastric acid lets spores survive",
+          "cau": true,
+          "x": [
+            [
+              "More gastric acid damages the colon lining",
+              "PPIs reduce acid, which lets spores survive the stomach."
+            ],
+            [
+              "PPIs kill normal gut flora directly",
+              "They aren't antibiotics; less acid lets spores through."
+            ],
+            [
+              "PPIs stop C. difficile toxin being cleared in bile",
+              "No; acid suppression lets spores survive."
+            ]
+          ]
+        },
+        {
+          "c": "With clopidogrel (omeprazole, esomeprazole)",
+          "k": "y1-130-5",
+          "why": "Reduces clopidogrel activation; use lansoprazole",
+          "cau": true,
+          "x": [
+            [
+              "Raises clopidogrel levels → bleeding; use omeprazole",
+              "Omeprazole lowers activation (CYP2C19); lansoprazole is preferred."
+            ],
+            [
+              "Blocks clopidogrel absorption; separate by 4 hours",
+              "It's metabolic (CYP2C19), so spacing doesn't help; switch PPI."
+            ],
+            [
+              "Increases GI bleeding; stop the PPI",
+              "PPIs protect against GI bleeding; the problem is less clopidogrel activation."
+            ]
+          ]
+        },
+        {
+          "c": "Osteoporosis",
+          "k": "y2-210-31",
+          "why": "Long-term use ↑ fracture risk",
+          "cau": true,
+          "x": [
+            [
+              "Long-term use ↑ vitamin D toxicity",
+              "No; less acid reduces calcium absorption, raising fracture risk."
+            ],
+            [
+              "Short-term use ↑ calcium levels",
+              "The concern is long-term fracture risk."
+            ],
+            [
+              "Long-term use ↑ osteonecrosis of the jaw",
+              "Jaw osteonecrosis is a bisphosphonate risk; PPIs raise fracture risk."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "loperamide",
+      "name": "Loperamide",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Acute or chronic diarrhoea",
+          "k": "y1-102-3"
+        },
+        {
+          "t": "IBS-D",
+          "k": "y2-206-9"
+        }
+      ],
+      "how": "Peripheral μ-opioid agonist: slows gut motility, ↑ anal tone; doesn't cross the BBB",
+      "hx": [
+        [
+          "Central μ-opioid agonist: slows gut motility, ↓ anal tone; crosses the BBB",
+          "It acts on gut μ receptors and doesn't reach the brain at normal doses."
+        ],
+        [
+          "Peripheral κ-opioid antagonist: speeds gut motility, ↓ anal tone",
+          "It's a μ-opioid agonist that slows motility."
+        ],
+        [
+          "Binds bile acids in the gut: firms stool, ↑ anal tone",
+          "That's colestyramine; loperamide is a peripheral μ-opioid agonist."
+        ]
+      ],
+      "se": [
+        "Constipation",
+        "Cramps",
+        "Bloating",
+        "Arrhythmias in overdose"
+      ],
+      "sewhy": "As a gut μ-opioid agonist it slows transit (constipation, cramps, bloating); in large overdoses it blocks cardiac channels, causing arrhythmias.",
+      "ci": [
+        {
+          "c": "Bloody diarrhoea or fever (dysentery)",
+          "k": "y1-102-1",
+          "why": "Keeps invasive bacteria and toxins in the gut",
+          "cau": false,
+          "x": [
+            [
+              "Masks the fever, delaying diagnosis",
+              "It doesn't affect fever; slowing the gut traps invasive bacteria and toxins."
+            ],
+            [
+              "Kills protective gut flora",
+              "It's not antibacterial; it keeps pathogens in the gut."
+            ],
+            [
+              "Causes rebound diarrhoea when stopped",
+              "Not the reason; it traps invasive bacteria and toxins."
+            ]
+          ]
+        },
+        {
+          "c": "C. difficile or antibiotic-associated colitis",
+          "k": "y1-145-2",
+          "why": "Risk of toxic megacolon",
+          "cau": false,
+          "x": [
+            [
+              "Risk of a perforated ulcer",
+              "The danger is toxic megacolon."
+            ],
+            [
+              "Risk of C. difficile resistance",
+              "Not resistance; toxic megacolon."
+            ],
+            [
+              "Risk of dehydration",
+              "It reduces fluid loss; the danger is toxic megacolon."
+            ]
+          ]
+        },
+        {
+          "c": "Acute ulcerative colitis",
+          "k": "y1-145-3",
+          "why": "Can precipitate toxic megacolon",
+          "cau": false,
+          "x": [
+            [
+              "Can precipitate a relapse months later",
+              "The danger is immediate: toxic megacolon."
+            ],
+            [
+              "Can precipitate small-bowel obstruction",
+              "In acute colitis the danger is toxic megacolon."
+            ],
+            [
+              "Can precipitate colorectal cancer",
+              "No; it can precipitate toxic megacolon."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bulk-forming-laxatives",
+      "name": "Bulk-forming laxatives",
+      "ex": "ispaghula husk",
+      "uses": [
+        {
+          "t": "Chronic constipation",
+          "k": "y2-206-3"
+        },
+        {
+          "t": "IBS-C",
+          "k": "y2-206-9"
+        }
+      ],
+      "how": "Retain water → bulkier stool → stimulates peristalsis",
+      "hx": [
+        [
+          "Coat the stool with oil → easier passage, no change in bulk",
+          "That's a lubricant (liquid paraffin); ispaghula holds water and adds bulk."
+        ],
+        [
+          "Absorb water from stool → firmer stool → slower transit",
+          "They retain water in the stool, making it bulkier and softer."
+        ],
+        [
+          "Ferment to gas → distend the colon → trigger the defecation reflex",
+          "Gas is a side effect, not the mechanism; they add bulk."
+        ]
+      ],
+      "se": [
+        "Bloating",
+        "Flatulence",
+        "Obstruction if taken without enough fluid"
+      ],
+      "sewhy": "Fibre is fermented by gut bacteria (gas, bloating) and swells with water, so without enough fluid it can cause obstruction.",
+      "ci": [
+        {
+          "c": "Bowel obstruction or faecal impaction",
+          "k": "y2-206-27",
+          "why": "Adds bulk behind a blockage",
+          "cau": false,
+          "x": [
+            [
+              "Speeds transit past the blockage",
+              "It can't pass; it adds bulk behind it."
+            ],
+            [
+              "Causes rebound constipation",
+              "No; it adds bulk behind the blockage."
+            ],
+            [
+              "Irritates the bowel wall → ischaemia",
+              "Not irritation; bulk builds up behind the blockage."
+            ]
+          ]
+        },
+        {
+          "c": "Opioid-induced constipation",
+          "k": "y2-206-3",
+          "why": "Won't overcome reduced motility",
+          "cau": false,
+          "x": [
+            [
+              "Interacts with opioids to cause sedation",
+              "No interaction; bulk can't overcome slowed motility."
+            ],
+            [
+              "Speeds opioid absorption",
+              "No; they just don't overcome reduced motility."
+            ],
+            [
+              "Triggers opioid withdrawal",
+              "No; they're simply ineffective against an opioid-slowed gut."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "osmotic-laxatives",
+      "name": "Osmotic laxatives",
+      "ex": "macrogol, lactulose",
+      "uses": [
+        {
+          "t": "Constipation and faecal impaction (macrogol)",
+          "k": "y2-206-3"
+        },
+        {
+          "t": "Hepatic encephalopathy (lactulose)",
+          "k": "y2-229-3"
+        }
+      ],
+      "how": "Hold water in the bowel lumen by osmosis",
+      "hx": [
+        [
+          "Draw water out of the bowel lumen into the blood",
+          "They hold water in the lumen, softening stool."
+        ],
+        [
+          "Block water reabsorption channels (aquaporins) in the colon",
+          "They work by osmosis, not by blocking channels."
+        ],
+        [
+          "Neutralise colonic acid to soften stool",
+          "They hold water osmotically."
+        ]
+      ],
+      "se": [
+        "Bloating, flatulence (lactulose)",
+        "Cramps",
+        "Diarrhoea",
+        "Electrolyte disturbance"
+      ],
+      "sewhy": "Unabsorbed sugars or polymers hold water in the bowel; bacteria ferment lactulose (gas), and excess water loss can disturb electrolytes.",
+      "ci": [
+        {
+          "c": "Bowel obstruction or perforation",
+          "k": "y2-206-27",
+          "why": "Increases pressure behind the obstruction",
+          "cau": false,
+          "x": [
+            [
+              "Reduces bowel blood flow by osmosis",
+              "The concern is fluid and pressure building behind the blockage."
+            ],
+            [
+              "Causes electrolyte loss → ileus",
+              "Not the main reason; it raises pressure behind the obstruction."
+            ],
+            [
+              "Speeds transit through the blockage",
+              "It can't pass; pressure builds behind it."
+            ]
+          ]
+        },
+        {
+          "c": "Severe inflammatory bowel disease / toxic megacolon",
+          "k": "y1-145-3",
+          "why": "Risk of perforation",
+          "cau": false,
+          "x": [
+            [
+              "Risk of dehydration",
+              "The danger is perforating a fragile colon."
+            ],
+            [
+              "Risk of fistula",
+              "Perforation is the risk."
+            ],
+            [
+              "Risk of IBD relapse",
+              "Not relapse; perforation."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stimulant-laxatives",
+      "name": "Stimulant laxatives",
+      "ex": "senna, bisacodyl, sodium picosulfate",
+      "uses": [
+        {
+          "t": "Constipation, including opioid-induced",
+          "k": "y2-206-3"
+        }
+      ],
+      "how": "Stimulate enteric nerves → ↑ colonic motility and secretion",
+      "hx": [
+        [
+          "Block enteric nerves → ↓ colonic water absorption",
+          "They stimulate enteric nerves, increasing motility and secretion."
+        ],
+        [
+          "Stimulate colonic μ-opioid receptors → ↑ motility",
+          "μ-opioid stimulation slows the gut; they act on enteric nerves."
+        ],
+        [
+          "Stimulate gastric acid → a faster gastrocolic reflex",
+          "No; they stimulate colonic enteric nerves."
+        ]
+      ],
+      "se": [
+        "Abdominal cramps",
+        "Diarrhoea",
+        "Hypokalaemia (overuse)"
+      ],
+      "sewhy": "They stimulate colonic nerves and muscle (cramps, diarrhoea); chronic overuse causes potassium loss.",
+      "ci": [
+        {
+          "c": "Bowel obstruction",
+          "k": "y2-206-27",
+          "why": "Forceful peristalsis against a blockage → perforation",
+          "cau": false,
+          "x": [
+            [
+              "Gentle peristalsis can't pass the blockage, so no effect",
+              "Stimulants drive forceful peristalsis, risking perforation."
+            ],
+            [
+              "Electrolyte loss causes paralytic ileus",
+              "Not the reason; forceful contraction against a blockage can perforate."
+            ],
+            [
+              "The bowel wall absorbs the drug → toxicity",
+              "No; it's forceful peristalsis against a blockage."
+            ]
+          ]
+        },
+        {
+          "c": "Acute IBD or toxic megacolon",
+          "k": "y1-145-3",
+          "why": "Risk of perforation",
+          "cau": false,
+          "x": [
+            [
+              "Risk of colonic melanosis",
+              "Melanosis coli is harmless pigmentation; the danger is perforation."
+            ],
+            [
+              "Risk of rebound constipation",
+              "The danger is perforation."
+            ],
+            [
+              "Risk of IBD relapse",
+              "Not relapse; perforation."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metoclopramide",
+      "name": "Metoclopramide",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Nausea and vomiting",
+          "k": "y2-228-10"
+        },
+        {
+          "t": "Migraine-associated nausea",
+          "k": "y1-109-3"
+        }
+      ],
+      "how": "D2 antagonist (CTZ) with prokinetic effect",
+      "hx": [
+        [
+          "D2 agonist (CTZ) with antimotility effect",
+          "It blocks D2 and speeds gastric emptying."
+        ],
+        [
+          "NK1 antagonist (brainstem) with antisecretory effect",
+          "That's aprepitant-like; metoclopramide blocks D2 and is prokinetic."
+        ],
+        [
+          "D2 antagonist (basal ganglia only) with sedative effect",
+          "Its antiemetic effect is at the CTZ, and it speeds gut emptying."
+        ]
+      ],
+      "se": [
+        "Acute dystonia (young women)",
+        "Tardive dyskinesia",
+        "Raised prolactin",
+        "Drowsiness",
+        "Max 5 days"
+      ],
+      "sewhy": "Blocking dopamine D2 receptors in the basal ganglia causes dystonia (especially in young women) and tardive dyskinesia with long use, and in the pituitary raises prolactin; hence the 5-day limit.",
+      "ci": [
+        {
+          "c": "Bowel obstruction or perforation",
+          "k": "y2-206-27",
+          "why": "Prokinetic drive against a blockage",
+          "cau": false,
+          "x": [
+            [
+              "Antimotility effect hides the blockage",
+              "It's prokinetic, pushing against the blockage."
+            ],
+            [
+              "Causes hypokalaemia → ileus",
+              "Not the reason; it drives peristalsis against the blockage."
+            ],
+            [
+              "D2 blockade raises gut secretions → perforation",
+              "The issue is its prokinetic drive."
+            ]
+          ]
+        },
+        {
+          "c": "Parkinson's disease",
+          "k": "y2-221-17",
+          "why": "D2 blockade worsens parkinsonism; use domperidone",
+          "cau": false,
+          "x": [
+            [
+              "D2 stimulation worsens dyskinesia; use haloperidol",
+              "It blocks D2 centrally (and haloperidol is worse); domperidone doesn't cross the BBB."
+            ],
+            [
+              "Interferes with levodopa absorption; use ondansetron",
+              "The issue is central D2 blockade; domperidone is the usual choice."
+            ],
+            [
+              "Causes hypotension with levodopa; use cyclizine",
+              "The issue is central D2 blockade worsening parkinsonism."
+            ]
+          ]
+        },
+        {
+          "c": "Phaeochromocytoma",
+          "k": "y1-134-5",
+          "why": "Can trigger a hypertensive crisis",
+          "cau": false,
+          "x": [
+            [
+              "Can trigger a hypoglycaemic crisis",
+              "It can release catecholamines, causing a hypertensive crisis."
+            ],
+            [
+              "Can trigger an adrenal crisis",
+              "Not adrenal insufficiency; a catecholamine surge."
+            ],
+            [
+              "Can trigger a thyroid storm",
+              "No; it can cause a hypertensive crisis."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ondansetron",
+      "name": "Ondansetron",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Chemotherapy and post-op nausea",
+          "k": "y2-228-10"
+        },
+        {
+          "t": "Hyperemesis gravidarum (second line)",
+          "k": "y1-114-1"
+        }
+      ],
+      "how": "5-HT3 antagonist (gut vagal afferents and CTZ)",
+      "hx": [
+        [
+          "5-HT4 agonist (gut wall) with prokinetic effect",
+          "It blocks 5-HT3 receptors on vagal afferents and the CTZ."
+        ],
+        [
+          "5-HT3 agonist (vomiting centre and cortex)",
+          "It's an antagonist, acting on vagal afferents and the CTZ."
+        ],
+        [
+          "Muscarinic antagonist (vestibular nuclei)",
+          "That's hyoscine's motion-sickness action; ondansetron blocks 5-HT3."
+        ]
+      ],
+      "se": [
+        "Constipation",
+        "Headache",
+        "QT prolongation"
+      ],
+      "sewhy": "Blocking 5-HT3 receptors in the gut slows transit (constipation) and causes headache; it can prolong QT.",
+      "ci": [
+        {
+          "c": "Congenital long QT syndrome",
+          "k": "y1-108-3",
+          "why": "Further QT prolongation → torsades",
+          "cau": false,
+          "x": [
+            [
+              "QT shortening → VF",
+              "It prolongs QT."
+            ],
+            [
+              "Further PR prolongation → heart block",
+              "The concern is QT prolongation and torsades."
+            ],
+            [
+              "Further QT prolongation → complete heart block",
+              "QT prolongation leads to torsades, not heart block."
+            ]
+          ]
+        },
+        {
+          "c": "First trimester of pregnancy",
+          "k": "y1-114-1",
+          "why": "Small ↑ risk of cleft lip/palate",
+          "cau": true,
+          "x": [
+            [
+              "Small ↑ risk of limb reduction defects",
+              "The signal was a small rise in cleft lip/palate."
+            ],
+            [
+              "Large ↑ risk of miscarriage",
+              "No; there's a small orofacial cleft signal."
+            ],
+            [
+              "Small ↑ risk of hyperemesis",
+              "It treats hyperemesis; the concern is a small rise in clefts."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cyclizine",
+      "name": "Cyclizine",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Nausea and vomiting, vestibular and post-op",
+          "k": "y2-228-10"
+        }
+      ],
+      "how": "H1 antihistamine (also antimuscarinic) acting on the vomiting centre",
+      "hx": [
+        [
+          "H2 antihistamine (also antiemetic) acting on the stomach",
+          "It's an H1 antihistamine acting centrally."
+        ],
+        [
+          "Dopamine antagonist (also antihistamine) acting on the gut wall",
+          "It's an H1 antihistamine with antimuscarinic effects."
+        ],
+        [
+          "H1 agonist (also cholinergic) acting on the vestibular nuclei",
+          "It blocks H1 (and muscarinic) receptors."
+        ]
+      ],
+      "se": [
+        "Drowsiness",
+        "Dry mouth",
+        "Urinary retention",
+        "Tachycardia"
+      ],
+      "sewhy": "As an antihistamine with antimuscarinic effects it causes drowsiness, dry mouth, urinary retention and tachycardia.",
+      "ci": [
+        {
+          "c": "Severe heart failure",
+          "k": "y2-211-5",
+          "why": "Raises heart rate and afterload",
+          "cau": true,
+          "x": [
+            [
+              "Causes fluid retention",
+              "The concern is raised heart rate and afterload."
+            ],
+            [
+              "Lowers heart rate and contractility",
+              "It raises heart rate and afterload."
+            ],
+            [
+              "Interacts with diuretics → hypokalaemia",
+              "No; it raises heart rate and afterload."
+            ]
+          ]
+        },
+        {
+          "c": "Angle-closure glaucoma, urinary retention",
+          "k": "y1-142-4",
+          "why": "Antimuscarinic effects",
+          "cau": true,
+          "x": [
+            [
+              "Antihistamine sedation",
+              "The problem is its antimuscarinic action."
+            ],
+            [
+              "Cholinergic effects",
+              "It's anticholinergic (antimuscarinic)."
+            ],
+            [
+              "Dopamine blockade",
+              "Not dopamine; antimuscarinic effects."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mesalazine-5-asa",
+      "name": "Mesalazine (5-ASA)",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Ulcerative colitis induction and maintenance",
+          "k": "y1-145-4"
+        }
+      ],
+      "how": "Topical anti-inflammatory in the colon (↓ prostaglandins, leukotrienes, NF-κB)",
+      "hx": [
+        [
+          "Systemic immunosuppressant (↓ T-cell proliferation)",
+          "It acts topically on the colonic lining."
+        ],
+        [
+          "Topical antibacterial in the colon (kills invasive bacteria)",
+          "It's anti-inflammatory, not antibacterial."
+        ],
+        [
+          "Topical steroid in the colon (glucocorticoid receptors)",
+          "It's an aminosalicylate, not a steroid."
+        ]
+      ],
+      "se": [
+        "GI upset",
+        "Headache",
+        "Interstitial nephritis",
+        "Blood dyscrasias",
+        "Pancreatitis"
+      ],
+      "sewhy": "Most adverse effects are idiosyncratic: interstitial nephritis (monitor renal function), blood dyscrasias (report unexplained bleeding or sore throat) and pancreatitis.",
+      "ci": [
+        {
+          "c": "Severe renal impairment",
+          "k": "y1-135-5",
+          "why": "Can cause interstitial nephritis",
+          "cau": false,
+          "x": [
+            [
+              "Can cause kidney stones",
+              "The renal risk is interstitial nephritis."
+            ],
+            [
+              "Can cause hyperkalaemia",
+              "Not the reason; interstitial nephritis."
+            ],
+            [
+              "Can cause renal artery stenosis",
+              "No; interstitial nephritis."
+            ]
+          ]
+        },
+        {
+          "c": "Salicylate hypersensitivity",
+          "k": "y1-131-3",
+          "why": "Structurally related to aspirin",
+          "cau": false,
+          "x": [
+            [
+              "Structurally related to penicillin",
+              "Mesalazine is a salicylate, like aspirin."
+            ],
+            [
+              "Releases histamine directly",
+              "Not the reason; it's a salicylate."
+            ],
+            [
+              "Contains a sulfa group",
+              "That's sulfasalazine; mesalazine is related to aspirin."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thiopurines",
+      "name": "Thiopurines",
+      "ex": "azathioprine, mercaptopurine",
+      "uses": [
+        {
+          "t": "IBD maintenance",
+          "k": "y1-145-4"
+        },
+        {
+          "t": "Autoimmune disease, transplant",
+          "k": "y1-115-3"
+        }
+      ],
+      "how": "Purine antimetabolite → ↓ lymphocyte proliferation",
+      "hx": [
+        [
+          "Pyrimidine antimetabolite → ↓ neutrophil production",
+          "They're purine analogues that stop lymphocytes proliferating."
+        ],
+        [
+          "Calcineurin inhibitor → ↓ IL-2 and T-cell activation",
+          "That's ciclosporin and tacrolimus; thiopurines block purine synthesis."
+        ],
+        [
+          "Monoclonal antibody → depletes B lymphocytes",
+          "That's rituximab; thiopurines are oral purine antimetabolites."
+        ]
+      ],
+      "se": [
+        "Bone marrow suppression",
+        "Hepatotoxicity",
+        "Pancreatitis",
+        "Infections",
+        "Skin cancer, lymphoma",
+        "Nausea"
+      ],
+      "sewhy": "Thiopurines block purine synthesis in dividing cells, so they suppress the marrow and immunity (infections, skin cancer, lymphoma); they can also damage the liver and pancreas. Low TPMT increases toxicity.",
+      "ci": [
+        {
+          "c": "Absent TPMT activity",
+          "k": "y1-145-4",
+          "why": "Can't metabolise the drug → severe marrow failure; check TPMT first",
+          "cau": false,
+          "x": [
+            [
+              "Can't activate the drug → no effect; check TPMT after a month",
+              "Without TPMT, toxic metabolites build up → marrow failure."
+            ],
+            [
+              "Can't excrete the drug → kidney failure; check eGFR first",
+              "The issue is marrow toxicity from absent TPMT."
+            ],
+            [
+              "Can't metabolise the drug → severe pancreatitis; check amylase first",
+              "Pancreatitis is a side effect unrelated to TPMT; the risk is marrow failure."
+            ]
+          ]
+        },
+        {
+          "c": "With allopurinol (unless dose cut)",
+          "k": "y1-125-3",
+          "why": "Xanthine oxidase is blocked → toxic thiopurine levels",
+          "cau": false,
+          "x": [
+            [
+              "TPMT is induced → thiopurines stop working",
+              "Allopurinol blocks xanthine oxidase, so thiopurine levels rise."
+            ],
+            [
+              "Urate crystals form in the marrow",
+              "No; blocking xanthine oxidase raises thiopurine levels."
+            ],
+            [
+              "Xanthine oxidase is activated → low thiopurine levels",
+              "It's inhibited, so levels rise to toxic."
+            ]
+          ]
+        },
+        {
+          "c": "Live vaccines",
+          "k": "y1-131-1",
+          "why": "Immunosuppressed patients can be infected by the vaccine strain",
+          "cau": true,
+          "x": [
+            [
+              "The vaccine lowers thiopurine levels",
+              "No interaction; the live strain can infect an immunosuppressed host."
+            ],
+            [
+              "Vaccines trigger a flare of IBD",
+              "Not the concern; the vaccine strain can cause infection."
+            ],
+            [
+              "Vaccine antibodies attack the bone marrow",
+              "No; the live strain can cause disease."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anti-tnf-biologics",
+      "name": "Anti-TNF biologics",
+      "ex": "infliximab, adalimumab",
+      "uses": [
+        {
+          "t": "Moderate–severe IBD",
+          "k": "y1-145-4"
+        },
+        {
+          "t": "Rheumatoid arthritis",
+          "k": "y1-115-3"
+        },
+        {
+          "t": "Psoriasis, ankylosing spondylitis",
+          "k": "y1-115-3"
+        }
+      ],
+      "how": "Monoclonal antibodies that neutralise TNF-α",
+      "hx": [
+        [
+          "Monoclonal antibodies that neutralise IL-6",
+          "That's tocilizumab; infliximab and adalimumab target TNF-α."
+        ],
+        [
+          "Small molecules that block JAK signalling",
+          "That's tofacitinib; these are anti-TNF antibodies."
+        ],
+        [
+          "Recombinant TNF-α that desensitises its receptor",
+          "They neutralise TNF-α rather than replace it."
+        ]
+      ],
+      "se": [
+        "Serious infections",
+        "TB reactivation",
+        "Infusion reactions",
+        "Demyelination",
+        "Lupus-like syndrome",
+        "Skin cancer"
+      ],
+      "sewhy": "TNF holds granulomas together and fights infection, so blocking it reactivates latent TB and raises serious infection risk; immune dysregulation can cause demyelination and lupus-like syndromes.",
+      "ci": [
+        {
+          "c": "Active or untreated latent TB",
+          "k": "y1-128-4",
+          "why": "TNF holds granulomas together → reactivation",
+          "cau": false,
+          "x": [
+            [
+              "TNF triggers granuloma breakdown → spread",
+              "TNF maintains granulomas; blocking it lets TB reactivate."
+            ],
+            [
+              "The antibody binds TB drugs and inactivates them",
+              "No interaction; losing TNF lets granulomas fall apart."
+            ],
+            [
+              "TB bacteria make TNF that neutralises the drug",
+              "No; TNF holds granulomas together."
+            ]
+          ]
+        },
+        {
+          "c": "Active serious infection / sepsis",
+          "k": "y1-140-2",
+          "why": "Removes a key defence",
+          "cau": false,
+          "x": [
+            [
+              "Raises fever dangerously",
+              "It removes a key immune defence."
+            ],
+            [
+              "Causes bacterial resistance",
+              "Not resistance; it removes a key defence."
+            ],
+            [
+              "Triggers a cytokine storm",
+              "It blocks a cytokine; the issue is losing that defence."
+            ]
+          ]
+        },
+        {
+          "c": "Moderate–severe heart failure",
+          "k": "y2-211-5",
+          "why": "Worsens heart failure",
+          "cau": false,
+          "x": [
+            [
+              "Causes heart block",
+              "The concern is worsening heart failure."
+            ],
+            [
+              "Causes pericarditis",
+              "No; it worsens heart failure."
+            ],
+            [
+              "Raises potassium",
+              "No; trials showed worsening heart failure."
+            ]
+          ]
+        },
+        {
+          "c": "Multiple sclerosis / demyelinating disease",
+          "k": "y1-133-3",
+          "why": "Can trigger or worsen demyelination",
+          "cau": false,
+          "x": [
+            [
+              "Can trigger optic nerve infection",
+              "The concern is demyelination."
+            ],
+            [
+              "Can trigger PML in most patients",
+              "PML is natalizumab's risk; anti-TNF can worsen demyelination."
+            ],
+            [
+              "Can block MS treatments",
+              "No interaction; it can worsen demyelination."
+            ]
+          ]
+        },
+        {
+          "c": "Hepatitis B (screen first)",
+          "k": "y1-131-4",
+          "why": "Viral reactivation",
+          "cau": true,
+          "x": [
+            [
+              "Viral resistance",
+              "The risk is hepatitis B reactivation."
+            ],
+            [
+              "Drug hepatotoxicity alone",
+              "The concern is hep B reactivating."
+            ],
+            [
+              "Vaccine failure",
+              "Not the reason; viral reactivation."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hyoscine-butylbromide",
+      "name": "Hyoscine butylbromide",
+      "ex": "Buscopan",
+      "uses": [
+        {
+          "t": "IBS cramps",
+          "k": "y2-206-9"
+        },
+        {
+          "t": "Colic",
+          "k": null
+        },
+        {
+          "t": "Palliative secretions",
+          "k": "y1-146-3"
+        }
+      ],
+      "how": "Antimuscarinic: relaxes GI smooth muscle; doesn't cross the BBB",
+      "hx": [
+        [
+          "Antimuscarinic: relaxes GI smooth muscle; crosses the BBB to stop nausea",
+          "Butylbromide is quaternary, so it doesn't reach the brain (unlike hyoscine hydrobromide)."
+        ],
+        [
+          "Muscarinic agonist: contracts GI smooth muscle; doesn't cross the BBB",
+          "It blocks muscarinic receptors, relaxing gut muscle."
+        ],
+        [
+          "Nicotinic antagonist: paralyses gut skeletal muscle; doesn't cross the BBB",
+          "The gut wall is smooth muscle; it's antimuscarinic."
+        ]
+      ],
+      "se": [
+        "Dry mouth",
+        "Tachycardia",
+        "Urinary retention",
+        "Blurred vision"
+      ],
+      "sewhy": "It blocks muscarinic receptors, so it causes dry mouth, tachycardia, urinary retention and blurred vision (it doesn't cross the blood–brain barrier, so no sedation).",
+      "ci": [
+        {
+          "c": "Angle-closure glaucoma",
+          "k": "y1-142-4",
+          "why": "Pupil dilation blocks drainage",
+          "cau": false,
+          "x": [
+            [
+              "Pupil constriction blocks drainage",
+              "Antimuscarinics dilate the pupil."
+            ],
+            [
+              "Raised aqueous production",
+              "Not production; the dilated pupil blocks drainage."
+            ],
+            [
+              "Raised venous pressure in the eye",
+              "No; pupil dilation blocks drainage."
+            ]
+          ]
+        },
+        {
+          "c": "Myasthenia gravis",
+          "k": "y1-113-3",
+          "why": "Worsens weakness",
+          "cau": false,
+          "x": [
+            [
+              "Causes a cholinergic crisis",
+              "It's anticholinergic; it worsens weakness."
+            ],
+            [
+              "Blocks pyridostigmine absorption",
+              "Not absorption; its antimuscarinic action worsens weakness."
+            ],
+            [
+              "Triggers thymoma growth",
+              "No; it worsens weakness."
+            ]
+          ]
+        },
+        {
+          "c": "Mechanical bowel obstruction or toxic megacolon",
+          "k": "y1-145-3",
+          "why": "Stops motility → dilatation and perforation",
+          "cau": false,
+          "x": [
+            [
+              "Speeds motility → perforation at the blockage",
+              "It stops motility, letting the bowel dilate."
+            ],
+            [
+              "Raises gut secretions → dilatation",
+              "It reduces secretions; the problem is stopped motility."
+            ],
+            [
+              "Constricts mesenteric vessels → bowel ischaemia",
+              "No vascular effect; stopped motility lets the bowel dilate."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "misoprostol",
+      "name": "Misoprostol",
+      "ex": "",
+      "uses": [
+        {
+          "t": "NSAID ulcer prevention",
+          "k": "y1-104-3"
+        },
+        {
+          "t": "Medical miscarriage and termination management",
+          "k": "y1-114-4"
+        },
+        {
+          "t": "Postpartum haemorrhage",
+          "k": "y1-114-3"
+        }
+      ],
+      "how": "Prostaglandin E1 analogue: protects gastric mucosa; contracts the uterus",
+      "hx": [
+        [
+          "Prostaglandin E1 antagonist: reduces gastric acid; relaxes the uterus",
+          "It mimics PGE1, so it contracts the uterus."
+        ],
+        [
+          "H₂ antagonist: reduces gastric acid; no uterine effect",
+          "It's a prostaglandin analogue with strong uterine effects."
+        ],
+        [
+          "Oxytocin analogue: protects the gastric mucosa; contracts the uterus",
+          "It's a prostaglandin E1 analogue, not oxytocin."
+        ]
+      ],
+      "se": [
+        "Diarrhoea",
+        "Abdominal pain",
+        "Uterine cramps and bleeding"
+      ],
+      "sewhy": "As a prostaglandin E1 analogue it stimulates gut motility (diarrhoea, cramps) and uterine contraction (cramps, bleeding).",
+      "ci": [
+        {
+          "c": "Pregnancy (when used for ulcers)",
+          "k": "y1-114-1",
+          "why": "Uterine contractions → miscarriage",
+          "cau": false,
+          "x": [
+            [
+              "Uterine relaxation → bleeding",
+              "It contracts the uterus, causing miscarriage."
+            ],
+            [
+              "Fetal gastric ulcers → bleeding",
+              "No; uterine contractions cause miscarriage."
+            ],
+            [
+              "Maternal hypertension → pre-eclampsia",
+              "No; it causes uterine contractions."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orlistat",
+      "name": "Orlistat",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Obesity (with diet)",
+          "k": "y1-112-3"
+        }
+      ],
+      "how": "Inhibits pancreatic lipase → ~30% less fat absorbed",
+      "hx": [
+        [
+          "Inhibits pancreatic amylase → ~30% less carbohydrate absorbed",
+          "It inhibits lipase, reducing fat absorption."
+        ],
+        [
+          "Suppresses appetite centrally → ~30% fewer calories eaten",
+          "It acts in the gut lumen, not the brain."
+        ],
+        [
+          "Blocks bile acid reabsorption → ~30% less cholesterol absorbed",
+          "That's colestyramine-like; orlistat blocks lipase."
+        ]
+      ],
+      "se": [
+        "Oily stools",
+        "Faecal urgency, incontinence",
+        "Fat-soluble vitamin deficiency"
+      ],
+      "sewhy": "Blocking pancreatic lipase leaves fat undigested in the gut (oily stools, urgency) and reduces absorption of fat-soluble vitamins A, D, E and K.",
+      "ci": [
+        {
+          "c": "Chronic malabsorption",
+          "k": "y2-206-13",
+          "why": "Worsens malabsorption and deficiencies",
+          "cau": false,
+          "x": [
+            [
+              "Causes coeliac antibodies to form",
+              "No; it worsens fat malabsorption."
+            ],
+            [
+              "Blocks gluten digestion",
+              "No; it worsens existing malabsorption."
+            ],
+            [
+              "Speeds weight gain",
+              "No; it worsens malabsorption and deficiencies."
+            ]
+          ]
+        },
+        {
+          "c": "Cholestasis",
+          "k": "y2-229-3",
+          "why": "Bile flow is already impaired",
+          "cau": false,
+          "x": [
+            [
+              "Bile flow is already excessive",
+              "In cholestasis bile flow is reduced."
+            ],
+            [
+              "Raises bilirubin directly",
+              "Not the reason; bile flow is already impaired."
+            ],
+            [
+              "Causes gallstones in everyone",
+              "No; bile flow is already impaired."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

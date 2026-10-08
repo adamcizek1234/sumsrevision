@@ -1,0 +1,71 @@
+{
+  "id": "y1-107",
+  "num": "107",
+  "title": "Shoulder",
+  "los": [
+    {
+      "text": "Describe the clinical signs and symptoms, likely diagnosis, investigations and treatment following upper arm/shoulder trauma",
+      "sessions": [
+        "Clin 1: Case presentation"
+      ],
+      "section": "Clinical",
+      "n": 1,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Injury</th><th>Mechanism / features</th><th>Ix &amp; treatment</th></tr></thead><tbody><tr><td><strong>Anterior shoulder dislocation</strong> (95%)</td><td>Fall on outstretched/abducted, externally rotated arm. Squared-off shoulder, arm held in slight abduction</td><td><ul class=\"cl\"><li>X-ray (AP + axillary/Y view) before and after reduction.</li><li>Check <strong>axillary nerve</strong> (regimental badge sensation, deltoid).</li><li>Closed reduction under analgesia/sedation, sling</li></ul></td></tr><tr><td><strong>Posterior dislocation</strong></td><td>Seizures, electric shock. Arm internally rotated; \"light bulb\" sign on AP</td><td>Easily missed; reduce</td></tr><tr><td><strong>Proximal humerus fracture</strong></td><td>Elderly, osteoporotic, FOOSH</td><td>X-ray; most treated in collar and cuff + early physio; displaced → ORIF/arthroplasty</td></tr><tr><td><strong>Humeral shaft fracture</strong></td><td>Direct blow/twist</td><td>Check <strong>radial nerve</strong> (wrist drop, sensory loss over first dorsal web space). Functional brace</td></tr><tr><td><strong>Clavicle fracture</strong></td><td>Fall on shoulder; middle third</td><td>Sling; surgery if open, skin tenting, NV compromise</td></tr><tr><td><strong>Rotator cuff tear</strong></td><td>&gt;40, fall or degenerative; weak abduction/external rotation</td><td>USS/MRI; physio or repair</td></tr><tr><td><strong>ACJ dislocation</strong></td><td>Fall on point of shoulder; step deformity</td><td>Sling; surgery for high grades</td></tr></tbody></table></div><ul><li><strong>Assessment</strong>: ATLS if high energy; inspect, palpate, ROM; <strong>neurovascular status</strong> before and after any manipulation; X-ray two views.</li></ul><div class=\"key\">Always document axillary nerve function before and after reducing a shoulder dislocation.</div>"
+    },
+    {
+      "text": "Describe the structure and function of musculoskeletal connective tissues (bone, cartilage, ligaments, tendons)",
+      "sessions": [
+        "Clin 2: Bone biology",
+        "Clin 4: Cartilage"
+      ],
+      "section": "Clinical",
+      "n": 2,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Bone</th><td><ul class=\"cl\"><li>Osteoblasts (build; osteoid), osteocytes (mechanosensing, in lacunae, connected by canaliculi), osteoclasts (resorb; from monocyte lineage, RANKL-driven).</li><li>Matrix: type I collagen (tensile strength) + hydroxyapatite (compressive strength).</li><li><strong>Cortical</strong> (Haversian osteons; 80% mass) vs <strong>trabecular/cancellous</strong> (metabolically active; vertebrae, metaphyses).</li><li>Functions: support, protection, movement, mineral store (Ca²⁺, PO₄³⁻), haematopoiesis.</li></ul></td></tr><tr><th scope=\"row\">Hyaline (articular) cartilage</th><td><ul class=\"cl\"><li>Avascular, aneural</li><li>Chondrocytes in lacunae</li><li><strong>Type II collagen</strong> + proteoglycans (<strong>aggrecan</strong>, hyaluronan) hold water → resists compression</li><li>Low friction.</li><li>Nutrition by diffusion from synovial fluid</li><li>Poor repair.</li><li>Zones: superficial (tangential), middle, deep, calcified.</li></ul></td></tr><tr><th scope=\"row\">Fibrocartilage<span class=\"paren\">(type I + II collagen)</span></th><td>Menisci, IV discs, labrum, pubic symphysis.</td></tr><tr><td colspan=\"2\"><ul class=\"cl\"><li><strong>Ligaments</strong> (bone→bone) and <strong>tendons</strong> (muscle→bone): dense regular connective tissue</li><li>Parallel <strong>type I collagen</strong> + fibroblasts (tenocytes)</li><li>Poor blood supply → slow healing.</li><li>Tendons transmit force</li><li>Ligaments stabilise joints and give proprioception.</li><li>Tendon–bone insertion = <strong>enthesis</strong>.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the structural and physiological changes that occur in articular cartilage during common disease states and normal ageing",
+      "sessions": [
+        "Clin 5: Cartilage and joint disease"
+      ],
+      "section": "Clinical",
+      "n": 3,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Normal ageing</th><td><ul class=\"cl\"><li>↓ water content</li><li>↓ proteoglycan size/aggregation</li><li>↑ collagen cross-linking (advanced glycation end-products → yellowing, stiffness)</li><li>↓ chondrocyte number and response to growth factors.</li><li>Cartilage thins but surface stays intact.</li><li>This is <strong>not</strong> the same as OA.</li></ul></td></tr><tr><th scope=\"row\">Osteoarthritis</th><td><ul class=\"cl\"><li>Early ↑ water content and swelling, <strong>proteoglycan loss</strong>, collagen network breakdown (MMPs, ADAMTS aggrecanases driven by IL-1, TNF-α)</li><li>→ <strong>fibrillation</strong> and fissuring</li><li>→ full-thickness loss and eburnation of bone.</li><li>Chondrocytes cluster (\"cloning\").</li><li>Bone: subchondral <strong>sclerosis</strong>, <strong>cysts</strong>, <strong>osteophytes</strong>.</li><li>Synovium: low-grade inflammation.</li></ul></td></tr><tr><th scope=\"row\">Rheumatoid arthritis</th><td>Synovial <strong>pannus</strong> invades cartilage and bone at the margins; cytokine-driven enzymatic destruction → <strong>periarticular erosions</strong>, uniform joint space loss.</td></tr><tr><th scope=\"row\">Septic arthritis</th><td>Rapid cartilage destruction by bacterial and neutrophil enzymes (days).</td></tr><tr><th scope=\"row\">Crystal arthropathies</th><td>Urate (gout) or CPPD (pseudogout, chondrocalcinosis) deposits damage cartilage.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the main causes and different types of fracture, and explain the processes involved in fracture healing",
+      "sessions": [
+        "BMS 1: Bone repair"
+      ],
+      "section": "BMS",
+      "n": 4,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Causes</th><td><strong>Traumatic</strong> (high or low energy), <strong>pathological</strong> (weakened bone: osteoporosis, metastases, myeloma, Paget's, osteomalacia), <strong>stress/fatigue</strong> (repetitive loading: metatarsals, tibia in runners/military).</td></tr><tr><th scope=\"row\">Description</th><td><ul class=\"cl\"><li>Open vs closed</li><li>Site</li><li>Pattern (<strong>transverse</strong> = bending, <strong>oblique/spiral</strong> = twisting, <strong>comminuted</strong> = &gt;2 fragments, high energy, <strong>avulsion</strong>, <strong>compression/impacted</strong>, <strong>greenstick/buckle</strong> in children, <strong>Salter–Harris</strong> physeal injuries)</li><li>Displacement, angulation, rotation, shortening.</li></ul></td></tr><tr><th scope=\"row\">Healing (secondary/indirect, with callus)</th><td><ul class=\"cl\"><li><strong>Haematoma and inflammation</strong> (days 1–7): clot, cytokines, macrophages, necrotic bone ends.</li><li><strong>Soft callus</strong> (weeks 2–3): granulation tissue → fibrocartilage; fibroblasts, chondroblasts, angiogenesis.</li><li><strong>Hard callus</strong> (weeks 3–12): endochondral ossification → woven bone.</li><li><strong>Remodelling</strong> (months–years): woven → lamellar bone (Wolff's law).</li></ul></td></tr><tr><th scope=\"row\">Primary (direct) healing</th><td>Rigid fixation with anatomical reduction (compression plates) → cutting cones, no callus.</td></tr><tr><th scope=\"row\">Impaired healing</th><td>Smoking, diabetes, NSAIDs (debated), steroids, infection, poor blood supply (scaphoid, femoral neck, distal tibia), excessive movement, malnutrition → delayed union, non-union, malunion.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the structure and main functions of the integumentary system",
+      "sessions": [
+        "BMS 2: Integumentary system"
+      ],
+      "section": "BMS",
+      "n": 5,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Epidermis<span class=\"paren\">(keratinised stratified squamous; avascular)</span></th><td><ul class=\"cl\"><li>Stratum basale (stem cells, melanocytes, Merkel cells)</li><li>→ spinosum (Langerhans cells, desmosomes)</li><li>→ granulosum (keratohyalin, lamellar bodies, barrier lipids)</li><li>→ lucidum (thick skin only)</li><li>→ corneum.</li><li>Turnover ~4 weeks.</li></ul></td></tr><tr><th scope=\"row\">Dermis</th><td><ul class=\"cl\"><li>Papillary (loose; capillaries, Meissner corpuscles) and reticular (dense irregular collagen, elastin).</li><li>Contains vessels, nerves, hair follicles, sweat and sebaceous glands, Pacinian corpuscles.</li></ul></td></tr><tr><th scope=\"row\">Hypodermis</th><td>Adipose tissue (insulation, energy store, cushioning).</td></tr><tr><th scope=\"row\">Appendages</th><td>Hair, nails, <strong>eccrine</strong> sweat glands (thermoregulation; sympathetic <strong>cholinergic</strong>), <strong>apocrine</strong> glands (axilla, groin), <strong>sebaceous</strong> glands (sebum, holocrine).</td></tr><tr><th scope=\"row\">Functions</th><td><ul class=\"cl\"><li>Barrier (physical, chemical, microbial, UV via melanin)</li><li><strong>Thermoregulation</strong> (sweat, vasodilation/constriction)</li><li>Sensation</li><li><strong>Vitamin D synthesis</strong> (7-dehydrocholesterol + UVB)</li><li>Immune surveillance (Langerhans cells)</li><li>Water retention</li><li>Communication/appearance.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the analgesic treatment of upper arm trauma",
+      "sessions": [
+        "BMS 3: Analgesic treatment of trauma"
+      ],
+      "section": "BMS",
+      "n": 6,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><td colspan=\"2\"><strong>Assess</strong> pain (scale), neurovascular status and contraindications. <strong>Immobilise</strong> (sling, splint): this is analgesic in itself. Ice and elevation.</td></tr><tr><th scope=\"row\">WHO analgesic ladder<span class=\"paren\">(adapted for acute pain)</span></th><td><ul class=\"cl\"><li>Paracetamol ± NSAID → weak opioid (codeine) → strong opioid (morphine).</li><li>In severe acute trauma go straight to <strong>IV morphine</strong>, titrated in small increments (e.g. 1–2 mg) with antiemetic and monitoring of RR/sedation.</li></ul></td></tr><tr><th scope=\"row\">Paracetamol</th><td>1 g QDS (reduce if &lt;50 kg or hepatic risk).</td></tr><tr><th scope=\"row\">NSAIDs<span class=\"paren\">(ibuprofen, naproxen)</span></th><td>Avoid in renal impairment, GI bleed/ulcer, asthma sensitivity, anticoagulation, late pregnancy, elderly; give PPI cover. Theoretical concern about fracture healing.</td></tr><tr><th scope=\"row\">Entonox<span class=\"paren\">(50% N₂O/O₂)</span></th><td>Short procedures; avoid with pneumothorax, bowel obstruction, head injury.</td></tr><tr><th scope=\"row\">Regional anaesthesia</th><td>e.g. <strong>interscalene</strong> or haematoma block; <strong>Bier's block</strong> for forearm.</td></tr><tr><td colspan=\"2\"><strong>Procedural sedation</strong> for dislocation reduction (e.g. midazolam, propofol, ketamine) with airway monitoring.</td></tr><tr><td colspan=\"2\">Opioid side effects: nausea, constipation, sedation, respiratory depression (reversal: <strong>naloxone</strong>).</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the fundamental principles of evidence-based practice",
+      "sessions": [
+        "MHS 1: Evidence-based practice"
+      ],
+      "section": "MHS",
+      "n": 7,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">EBP<span class=\"paren\">(Sackett)</span></th><td>Using the current best evidence conscientiously and judiciously in decisions about individual patients.</td></tr><tr><th scope=\"row\">Three components</th><td>Best research evidence + clinical expertise + patient values and preferences.</td></tr><tr><th scope=\"row\">5 steps (5 A's)</th><td><ul class=\"cl\"><li><strong>Ask</strong> (PICO question: Population, Intervention, Comparison, Outcome)</li><li>→ <strong>Acquire</strong> (search: Cochrane, PubMed, NICE)</li><li>→ <strong>Appraise</strong> (validity, results, applicability)</li><li>→ <strong>Apply</strong></li><li>→ <strong>Assess/audit</strong> outcomes.</li></ul></td></tr><tr><th scope=\"row\">Hierarchy of evidence</th><td><ul class=\"cl\"><li>Systematic reviews/meta-analyses of RCTs &gt; RCTs &gt; cohort &gt; case–control &gt; case series/reports &gt; expert opinion.</li><li>Quality matters more than design alone (<strong>GRADE</strong>).</li></ul></td></tr><tr><th scope=\"row\">Key statistics</th><td>Relative risk, absolute risk reduction, <strong>NNT = 1/ARR</strong>, sensitivity/specificity, confidence intervals, p-values.</td></tr><tr><th scope=\"row\">Limitations</th><td>Evidence may not apply to your patient (multimorbidity, elderly excluded from trials); publication bias; industry funding; guidelines lag behind.</td></tr></tbody></table></div>"
+    }
+  ]
+}

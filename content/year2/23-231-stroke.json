@@ -1,0 +1,85 @@
+{
+  "id": "y2-231",
+  "num": "231",
+  "title": "Stroke",
+  "lead": "Tal Anjum",
+  "system": "The Nervous System",
+  "date": "2027-03-29",
+  "los": [
+    {
+      "text": "Identify the investigations and treatment strategies underpinning the approach to acute and post-acute stroke disease.",
+      "sessions": [
+        "Introduction, LOs",
+        "Clinical evaluation of stroke disease part 2 + investigations",
+        "SDL speaking clinically"
+      ],
+      "section": "Lectures",
+      "n": 1,
+      "html": ""
+    },
+    {
+      "text": "Identify the pathological changes that are associated with intracerebral vascular disease and link to the recognised risk factors for stroke",
+      "sessions": [
+        "Pathology of cerebrovascular disease"
+      ],
+      "section": "Lectures",
+      "n": 2,
+      "html": ""
+    },
+    {
+      "text": "Identify the relevant history and examination appropriate to a patient with an acute cerebrovascular event.",
+      "sessions": [
+        "Clinical evaluation of stroke disease part 1"
+      ],
+      "section": "Lectures",
+      "n": 3,
+      "html": ""
+    },
+    {
+      "text": "Identify the investigations and treatment strategies that underpin the current approach to acute and post-acute stroke disease",
+      "sessions": [
+        "Investigation and management of cerebrovascular disease"
+      ],
+      "section": "Lectures",
+      "n": 4,
+      "html": ""
+    },
+    {
+      "text": "Identify the major tracts of the brainstem in transverse section.",
+      "sessions": [
+        "Spinal Tracts"
+      ],
+      "section": "Anatomy",
+      "n": 5,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Level</th><th>Front (ventral)</th><th>Middle</th><th>Back (dorsal)</th></tr></thead><tbody><tr><td><strong>Midbrain</strong> (superior colliculus)</td><td><strong>Cerebral peduncles</strong> (corticospinal and corticobulbar), <strong>substantia nigra</strong>, CN III nucleus and fibres, <strong>red nucleus</strong></td><td><strong>Medial lemniscus</strong>, <strong>spinothalamic</strong> tract (lateral)</td><td><strong>Cerebral aqueduct</strong>, periaqueductal grey, superior colliculi</td></tr><tr><td><strong>Pons</strong></td><td><strong>Basilar pons</strong>: corticospinal fibres broken up by pontine nuclei; transverse pontocerebellar fibres</td><td><strong>Medial lemniscus</strong> (now horizontal), spinothalamic, <strong>MLF</strong>, VI and VII nuclei</td><td><strong>4th ventricle</strong> floor</td></tr><tr><td><strong>Medulla</strong> (open, upper)</td><td><strong>Pyramids</strong> (corticospinal), <strong>inferior olive</strong></td><td><strong>Medial lemniscus</strong> (vertical, beside the midline), <strong>spinothalamic</strong> (lateral), XII nucleus, nucleus ambiguus, spinal trigeminal nucleus and tract</td><td>4th ventricle, vagal nuclei, nucleus solitarius</td></tr><tr><td><strong>Medulla</strong> (closed, lower)</td><td>Pyramidal <strong>decussation</strong></td><td>Spinothalamic, spinal trigeminal</td><td><strong>Gracile and cuneate nuclei</strong> and fasciculi; sensory decussation (internal arcuate fibres)</td></tr></tbody></table></div><ul><li><strong>MLF</strong> (medial longitudinal fasciculus) links III, IV and VI nuclei: damage (MS) → <strong>internuclear ophthalmoplegia</strong>.</li><li><strong>Rule of 4s</strong> for brainstem syndromes: 4 midline structures start with M (motor tract, medial lemniscus, MLF, motor nuclei III, IV, VI, XII)<ul><li>4 lateral ones with S (spinocerebellar, spinothalamic, sensory V nucleus, sympathetic).</li></ul></li></ul>"
+    },
+    {
+      "text": "Identify the pathway of the corticospinal tract from the pre-central gyrus to the anterior horn cell and link to the functional consequences of damage at different points along that pathway.",
+      "sessions": [
+        "Spinal Tracts"
+      ],
+      "section": "Anatomy",
+      "n": 6,
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td><strong>Precentral gyrus</strong> (primary motor cortex, Betz cells; leg medially, face laterally).</td></tr><tr><th scope=\"row\">2. Corona radiata</th><td><strong>Posterior limb of the internal capsule</strong>.</td></tr><tr><th scope=\"row\">3. Cerebral peduncle<span class=\"paren\">(midbrain)</span></th><td><strong>Basilar pons</strong> → <strong>medullary pyramid</strong>.</td></tr><tr><th scope=\"row\">4. Pyramidal decussation<span class=\"paren\">(~85–90% cross)</span></th><td><strong>Lateral corticospinal tract</strong> (the rest: anterior corticospinal tract, cross at their level).</td></tr><tr><th scope=\"row\">5</th><td>Synapse on the <strong>anterior horn cell</strong> (lower motor neuron) → muscle.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Lesion site</th><th>Effect</th></tr></thead><tbody><tr><td><strong>Motor cortex</strong> (e.g. MCA stroke)</td><td>Contralateral weakness of face and arm more than leg (ACA: leg)</td></tr><tr><td><strong>Internal capsule</strong> (lacunar)</td><td><strong>Dense contralateral hemiplegia</strong> (face, arm, leg equally)</td></tr><tr><td><strong>Brainstem</strong></td><td>Contralateral hemiplegia + <strong>ipsilateral cranial nerve palsy</strong> (crossed signs, e.g. Weber's)</td></tr><tr><td><strong>Spinal cord</strong> (above the anterior horn)</td><td><strong>Ipsilateral</strong> UMN weakness below the lesion</td></tr><tr><td><strong>Anterior horn / nerve</strong></td><td>LMN signs at that level</td></tr><tr><td><strong>UMN signs</strong></td><td><strong>LMN signs</strong></td></tr><tr><td>Spasticity (clasp-knife), hyperreflexia, <strong>upgoing plantar</strong> (Babinski), clonus, no wasting early, pyramidal pattern (extensors weak in arms, flexors in legs)</td><td><strong>Flaccid</strong>, hyporeflexia, <strong>wasting</strong>, <strong>fasciculations</strong>, downgoing plantar</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Identify the routes of the two principal sensory pathways from the dorsal root ganglion to the thalamus and parietal lobe and link to the functional consequences of damage at different points along that pathway.",
+      "sessions": [
+        "Spinal Tracts"
+      ],
+      "section": "Anatomy",
+      "n": 7,
+      "html": "<div class=\"tbl\"><table><thead><tr><th></th><th><strong>Dorsal column–medial lemniscus</strong></th><th><strong>Spinothalamic (anterolateral)</strong></th></tr></thead><tbody><tr><td><strong>Modalities</strong></td><td>Fine touch, <strong>vibration</strong>, <strong>proprioception</strong></td><td><strong>Pain, temperature</strong>, crude touch</td></tr><tr><td>1st neuron</td><td>DRG → <strong>up the dorsal column on the same side</strong> (gracile: legs, medial; cuneate: arms, lateral)</td><td>DRG → synapse in the <strong>dorsal horn</strong> (substantia gelatinosa)</td></tr><tr><td><strong>Crosses</strong></td><td><strong>Medulla</strong> (internal arcuate fibres) after synapsing in the gracile/cuneate nuclei</td><td><strong>Spinal cord</strong>, within <strong>1–2 segments</strong> (anterior white commissure)</td></tr><tr><td>2nd neuron</td><td><strong>Medial lemniscus</strong> → thalamus</td><td><strong>Spinothalamic tract</strong> → thalamus</td></tr><tr><td>3rd neuron</td><td><strong>VPL</strong> → <strong>postcentral gyrus</strong> (parietal lobe)</td><td><strong>VPL</strong> → postcentral gyrus</td></tr><tr><td>Lesion site</td><td>Effect</td></tr><tr><td><strong>Hemisection (Brown-Séquard)</strong></td><td><strong>Same side</strong>: proprioception/vibration loss and weakness; <strong>opposite side</strong>: pain and temperature loss (from 1–2 levels below)</td></tr><tr><td><strong>Central cord</strong> (syringomyelia)</td><td><strong>Cape-like</strong> bilateral pain and temperature loss (crossing fibres); dorsal columns spared</td></tr><tr><td><strong>Dorsal columns</strong> (B12 deficiency, tabes dorsalis)</td><td>Lost vibration and proprioception; <strong>sensory ataxia, positive Romberg's</strong></td></tr><tr><td><strong>Anterior spinal artery</strong></td><td>Weakness and pain/temperature loss; <strong>dorsal columns spared</strong></td></tr><tr><td><strong>Above the medulla</strong> (brainstem, thalamus, cortex)</td><td>All sensation lost on the <strong>opposite</strong> side</td></tr><tr><td><strong>Thalamus</strong></td><td>Contralateral loss; thalamic pain syndrome</td></tr><tr><td><strong>Parietal cortex</strong></td><td>Contralateral loss of fine discrimination (astereognosis, two-point), neglect (non-dominant)</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Recognise the normal brainstem and cerebellum, and common pathology on radiological images.",
+      "sessions": [
+        "Spinal Tracts"
+      ],
+      "section": "Anatomy",
+      "n": 8,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Imaging</th><th>Normal features</th><th>Common pathology</th></tr></thead><tbody><tr><td><strong>CT</strong> (first in acute stroke, trauma)</td><td><ul class=\"cl\"><li>Brainstem and cerebellum in the posterior fossa</li><li><strong>4th ventricle</strong> (CSF dark) in front of the cerebellum</li><li>Streak artefact from the petrous bones limits detail</li></ul></td><td><strong>Cerebellar haemorrhage</strong> (bright: surgical emergency if &gt;3 cm or hydrocephalus); <strong>infarct</strong> (dark, often missed early on CT); hydrocephalus (dilated ventricles)</td></tr><tr><td><strong>MRI</strong> (best for the posterior fossa)</td><td>Midbrain (peduncles, aqueduct), pons (bulging basilar part), medulla (pyramids, olives); cerebellar hemispheres, vermis, folia; tonsils above the foramen magnum</td><td><ul class=\"cl\"><li><strong>Posterior circulation stroke</strong> (bright on diffusion-weighted imaging)</li><li><strong>MS plaques</strong></li><li><strong>Vestibular schwannoma</strong> at the cerebellopontine angle</li><li><strong>Chiari malformation</strong> (tonsils &gt;5 mm below foramen magnum)</li><li>Tumours (medulloblastoma in children, metastases, haemangioblastoma)</li></ul></td></tr></tbody></table></div><ul><li><strong>Warning sign</strong>: a swollen cerebellum (infarct or bleed) compresses the <strong>4th ventricle</strong> (obstructive hydrocephalus) and the <strong>brainstem</strong> (coning).</li></ul>"
+    }
+  ],
+  "partial": true
+}

@@ -1,0 +1,13 @@
+GEM Revision: how to install and open
+
+1. Drag "GEM Revision" onto the Applications folder in this window.
+2. Open Applications and double-click GEM Revision.
+   macOS will say it can't check the app for malicious software. Click Done (or OK).
+3. Open System Settings > Privacy & Security, scroll down to the Security section,
+   and click "Open Anyway" next to "GEM Revision". Confirm with your password or Touch ID.
+
+You only need to do this once. After that it opens normally.
+
+Why the warning? The app isn't signed with a paid Apple developer certificate.
+It's a simple offline revision app: notes, drugs and quiz, no internet or account needed.
+Needs macOS 12 (Monterey) or newer, on any Apple silicon or Intel Mac.

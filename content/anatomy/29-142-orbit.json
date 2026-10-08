@@ -1,0 +1,85 @@
+{
+  "id": "a-142",
+  "num": "142",
+  "title": "Orbit",
+  "system": "Nervous",
+  "los": [
+    {
+      "n": 1,
+      "text": "Recognise the bones that comprise the orbit",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Wall</th><th>Bones</th><th>Clinical</th></tr></thead><tbody><tr><td><strong>Roof</strong></td><td><strong>Frontal</strong> (orbital plate), lesser wing of sphenoid</td><td>Anterior cranial fossa above</td></tr><tr><td><strong>Floor</strong></td><td><strong>Maxilla</strong>, zygoma, palatine</td><td><strong>Blowout fracture</strong> (thinnest with the medial wall): infraorbital nerve numbness, trapped inferior rectus</td></tr><tr><td><strong>Medial wall</strong></td><td><strong>Ethmoid</strong> (lamina papyracea, paper-thin), lacrimal, maxilla (frontal process), sphenoid</td><td>Orbital cellulitis spreads from ethmoid sinusitis</td></tr><tr><td><strong>Lateral wall</strong></td><td><strong>Zygoma</strong>, greater wing of sphenoid</td><td>Strongest</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Seven bones</th><td>Frontal, sphenoid, ethmoid, lacrimal, maxilla, zygomatic, palatine.</td></tr><tr><th scope=\"row\">Openings</th><td>Optic canal (apex), superior and inferior orbital fissures, nasolacrimal canal.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Locate the superior orbital fissure and name the structures that pass through it",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Superior orbital fissure</strong>: gap between the <strong>greater and lesser wings of the sphenoid</strong>.</li></ul><div class=\"tbl\"><table><thead><tr><th>Passes through</th><th>Above the common tendinous ring</th><th>Through the ring</th></tr></thead><tbody><tr><td>Nerves</td><td><strong>Lacrimal, frontal (V1)</strong>, <strong>trochlear (IV)</strong></td><td><strong>Oculomotor (III)</strong> (superior and inferior divisions), <strong>nasociliary (V1)</strong>, <strong>abducens (VI)</strong></td></tr><tr><td>Veins</td><td><strong>Superior ophthalmic vein</strong> (to the cavernous sinus)</td><td></td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Mnemonic<span class=\"paren\">(\"Lazy French Tarts Lie Naked In Anticipation\")</span></th><td>Lacrimal, Frontal, Trochlear, (Lateral → Superior division III), Nasociliary, Inferior division III, Abducens.</td></tr><tr><th scope=\"row\">Superior orbital fissure syndrome</th><td>III, IV, V1, VI lesions together → ophthalmoplegia, ptosis, numb forehead.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Name the muscles of the orbit, their actions and innervations",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Muscle</th><th>Primary action</th><th>Nerve</th></tr></thead><tbody><tr><td><strong>Superior rectus</strong></td><td>Elevation (also adduction, intorsion)</td><td>III</td></tr><tr><td><strong>Inferior rectus</strong></td><td>Depression (also adduction, extorsion)</td><td>III</td></tr><tr><td><strong>Medial rectus</strong></td><td>Adduction</td><td>III</td></tr><tr><td><strong>Lateral rectus</strong></td><td><strong>Abduction</strong></td><td><strong>VI</strong></td></tr><tr><td><strong>Superior oblique</strong></td><td><strong>Depression in adduction</strong> (and intorsion, abduction)</td><td><strong>IV</strong></td></tr><tr><td><strong>Inferior oblique</strong></td><td>Elevation in adduction (and extorsion, abduction)</td><td>III</td></tr><tr><td><strong>Levator palpebrae superioris</strong></td><td>Raises upper eyelid</td><td>III (+ sympathetic: superior tarsal muscle)</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><td colspan=\"2\"><strong>LR6 SO4, rest 3</strong>.</td></tr><tr><th scope=\"row\">Clinical testing (H pattern)</th><td><ul class=\"cl\"><li>in <strong>abduction</strong>, superior and inferior recti act as pure elevator/depressor</li><li>in <strong>adduction</strong>, the obliques do (superior oblique looks <strong>down and in</strong>).</li></ul></td></tr><tr><th scope=\"row\">Origins</th><td><ul class=\"cl\"><li>Four recti from the <strong>common tendinous ring</strong> around the optic canal</li><li>Superior oblique from the sphenoid body, passes through the <strong>trochlea</strong></li><li>Inferior oblique from the orbital floor (only one not from the apex).</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Identify the branches of the ophthalmic division of the trigeminal nerve and recognise their functions",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Branch of V1</th><th>Supplies</th></tr></thead><tbody><tr><td><strong>Frontal</strong> → supraorbital, supratrochlear</td><td>Forehead, scalp to the vertex, upper eyelid, frontal sinus</td></tr><tr><td><strong>Lacrimal</strong></td><td>Lacrimal gland area, lateral upper eyelid (carries parasympathetic fibres from VII to the lacrimal gland)</td></tr><tr><td><strong>Nasociliary</strong> → long ciliary, anterior and posterior ethmoidal, infratrochlear, external nasal</td><td><strong>Cornea</strong> (long ciliary: <strong>afferent limb of the corneal reflex</strong>), ethmoid and sphenoid sinuses, side and tip of the nose</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Hutchinson's sign</th><td>Shingles vesicles on the <strong>tip of the nose</strong> (nasociliary) predict eye involvement.</td></tr><tr><th scope=\"row\">Corneal reflex</th><td>Afferent V1 (nasociliary), efferent VII (orbicularis oculi).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Describe the anatomy of the optic nerve and chiasm",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Optic nerve</th><td>Axons of retinal ganglion cells; actually a <strong>CNS tract</strong> (oligodendrocytes, wrapped in <strong>meninges</strong> with CSF around it).</td></tr><tr><th scope=\"row\">Course</th><td><ul class=\"cl\"><li>From the back of the eyeball</li><li>→ through the orbit within the cone of muscles</li><li>→ <strong>optic canal</strong> (with the ophthalmic artery)</li><li>→ middle cranial fossa</li><li>→ <strong>optic chiasm</strong> above the pituitary.</li></ul></td></tr><tr><th scope=\"row\">Chiasm</th><td><strong>Nasal fibres cross</strong> (they see the temporal fields); temporal fibres stay on the same side → optic tracts.</td></tr><tr><th scope=\"row\">Clinical</th><td><strong>Papilloedema</strong> (raised ICP transmitted along the nerve sheath), optic neuritis (MS), compression at the chiasm (pituitary tumour → bitemporal hemianopia).</td></tr><tr><th scope=\"row\">Central retinal artery</th><td>Branch of the ophthalmic artery running in the nerve; an end artery (occlusion → sudden painless monocular blindness, cherry-red spot).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Describe the arterial supply and venous drainage of the orbit",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Supply</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Arterial</strong></td><td><ul class=\"cl\"><li><strong>Ophthalmic artery</strong> (first branch of the <strong>ICA</strong>) through the <strong>optic canal</strong> → <strong>central retinal artery</strong>, ciliary arteries, lacrimal, supraorbital, supratrochlear, ethmoidal arteries</li><li>Anastomoses with ECA branches on the face</li></ul></td></tr><tr><td><strong>Venous</strong></td><td><strong>Superior and inferior ophthalmic veins</strong> → <strong>cavernous sinus</strong> (also pterygoid plexus and facial vein); <strong>valveless</strong></td></tr></tbody></table></div><ul><li><strong>Clinical</strong>: infection on the face (the \"danger triangle\") can spread via valveless ophthalmic veins to the cavernous sinus → <strong>cavernous sinus thrombosis</strong>.</li></ul>"
+    },
+    {
+      "n": 7,
+      "text": "Describe the origins, courses and functions of the oculomotor, trochlear and abducent nerves and predict the consequences of injury to them",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Nerve</th><th>Origin</th><th>Course</th><th>Supplies</th><th>Lesion</th></tr></thead><tbody><tr><td><strong>Oculomotor (III)</strong></td><td>Midbrain (in front, between cerebral peduncles)</td><td><ul class=\"cl\"><li>Between the posterior cerebral and superior cerebellar arteries</li><li>→ past the <strong>PCom artery</strong></li><li>→ lateral wall of cavernous sinus</li><li>→ SOF (in the ring)</li></ul></td><td>SR, IR, MR, IO, LPS; <strong>parasympathetic to sphincter pupillae and ciliary muscle</strong> (ciliary ganglion)</td><td><ul class=\"cl\"><li><strong>Down and out</strong>, <strong>ptosis</strong>, <strong>dilated pupil</strong> (compressive lesions affect the outer pupillary fibres first: PCom aneurysm, uncal herniation)</li><li>Diabetes often spares the pupil</li></ul></td></tr><tr><td><strong>Trochlear (IV)</strong></td><td>Midbrain, <strong>back</strong> (only one), crosses</td><td>Longest intracranial course → lateral wall of cavernous sinus → SOF (above the ring)</td><td><strong>Superior oblique</strong></td><td><strong>Vertical diplopia</strong>, worse looking down and in (stairs, reading); head tilt away from the lesion</td></tr><tr><td><strong>Abducens (VI)</strong></td><td>Pontomedullary junction</td><td>Long climb over the petrous apex → <strong>inside the cavernous sinus</strong> beside the ICA → SOF (in the ring)</td><td><strong>Lateral rectus</strong></td><td><strong>Can't abduct</strong>, horizontal diplopia worse looking to that side; <strong>false localising sign</strong> of raised ICP</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Describe the anatomical relations of the cavernous sinus and common pathologies relating (anatomically) to it",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Cavernous sinus</strong>: venous sinus on each side of the <strong>sella turcica</strong> (pituitary) and body of the sphenoid, from the SOF to the petrous apex.</li></ul><div class=\"tbl\"><table><thead><tr><th>Position</th><th>Structures</th></tr></thead><tbody><tr><td><strong>Lateral wall</strong> (top → bottom)</td><td><strong>III, IV, V1, V2</strong></td></tr><tr><td><strong>Inside</strong> the sinus</td><td><strong>Internal carotid artery</strong> (with its sympathetic plexus), <strong>VI</strong> (beside the ICA)</td></tr><tr><td>Medial</td><td><strong>Pituitary</strong>, sphenoid sinus</td></tr></tbody></table></div><ul><li><strong>Drains</strong>: ophthalmic veins, sphenoparietal sinus → superior and inferior petrosal sinuses → IJV<ul><li>links to the pterygoid plexus and facial veins (valveless).</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Pathology</th><th>Features</th></tr></thead><tbody><tr><td><strong>Cavernous sinus thrombosis</strong> (spread from facial or sinus infection)</td><td>Proptosis, chemosis, painful ophthalmoplegia (VI first), numb forehead/cheek (V1, V2), fever; can spread to the other side</td></tr><tr><td><strong>Carotid–cavernous fistula</strong> (trauma)</td><td><strong>Pulsatile proptosis</strong>, bruit, red eye</td></tr><tr><td>ICA aneurysm in the sinus</td><td>VI palsy, then other nerves</td></tr><tr><td><strong>Pituitary tumour</strong> growing sideways</td><td>Cranial nerve palsies</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Identify the ciliary ganglion and its branches and recognise consequences of pathology to it and its branches",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Ciliary ganglion</strong>: parasympathetic ganglion lateral to the optic nerve, near the orbital apex.</li></ul><div class=\"tbl\"><table><thead><tr><th>Root</th><th>Fibres</th><th>Effect</th></tr></thead><tbody><tr><td><strong>Parasympathetic</strong> (from III, inferior division)</td><td>Synapse here → <strong>short ciliary nerves</strong></td><td><strong>Sphincter pupillae</strong> (constriction) and <strong>ciliary muscle</strong> (accommodation)</td></tr><tr><td>Sympathetic (from the ICA plexus)</td><td>Pass through without synapsing</td><td>Dilator pupillae (mostly via long ciliary nerves)</td></tr><tr><td>Sensory (from nasociliary)</td><td>Pass through</td><td>Cornea and eyeball</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Adie's (tonic) pupil</th><td>Ganglion damage → large pupil reacting slowly to light, better to near.</td></tr><tr><td colspan=\"2\"><strong>Light reflex</strong> efferent runs through it: III → ciliary ganglion → short ciliary nerves.</td></tr><tr><th scope=\"row\">Horner's<span class=\"paren\">(sympathetic loss)</span></th><td>Ptosis (superior tarsal), <strong>miosis</strong>, anhidrosis; not a ciliary ganglion lesion.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 10,
+      "text": "Recall the route of the visual pathways from the eye to the occipital lobe and link to the functional consequences of damage at different points along that pathway",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1. Retina</th><td>Nasal and temporal halves. Each half sees the opposite visual field.</td></tr><tr><th scope=\"row\">2. Optic nerve</th><td><strong>Optic chiasm</strong>: nasal fibres cross.</td></tr><tr><th scope=\"row\">3. Optic tract</th><td><strong>Lateral geniculate nucleus</strong> (thalamus).</td></tr><tr><th scope=\"row\">4. Optic radiations</th><td><strong>Meyer's loop</strong> (lower fibres, upper field) through the <strong>temporal lobe</strong>; upper fibres (lower field) through the <strong>parietal lobe</strong>.</td></tr><tr><th scope=\"row\">5</th><td><strong>Primary visual cortex</strong> (occipital lobe, calcarine sulcus).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Lesion site</th><th>Field defect</th></tr></thead><tbody><tr><td><strong>Optic nerve</strong></td><td><strong>Monocular blindness</strong> (same eye)</td></tr><tr><td><strong>Optic chiasm</strong> (pituitary tumour)</td><td><strong>Bitemporal hemianopia</strong></td></tr><tr><td><strong>Optic tract</strong></td><td><strong>Contralateral homonymous hemianopia</strong></td></tr><tr><td><strong>Meyer's loop</strong> (temporal lobe)</td><td><strong>Contralateral upper quadrantanopia</strong> (\"pie in the sky\")</td></tr><tr><td>Parietal radiations</td><td>Contralateral lower quadrantanopia (\"pie on the floor\")</td></tr><tr><td><strong>Occipital cortex</strong> (PCA stroke)</td><td>Contralateral homonymous hemianopia <strong>with macular sparing</strong> (dual MCA supply)</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 11,
+      "text": "Identify the parts of the eye",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Layer</th><th>Parts</th><th>Function</th></tr></thead><tbody><tr><td><strong>Fibrous</strong> (outer)</td><td><strong>Sclera</strong> (white, opaque), <strong>cornea</strong> (clear front, most refractive power)</td><td>Protection, shape, focusing</td></tr><tr><td><strong>Vascular (uvea)</strong></td><td><strong>Choroid</strong> (behind), <strong>ciliary body</strong> (ciliary muscle: accommodation; ciliary processes: aqueous humour), <strong>iris</strong> (pupil size)</td><td>Nourishes retina, focusing, light control</td></tr><tr><td><strong>Inner</strong></td><td><strong>Retina</strong>: photoreceptors (rods, cones), <strong>macula</strong> and <strong>fovea</strong> (sharpest vision, cones only), <strong>optic disc</strong> (blind spot)</td><td>Detects light</td></tr><tr><td>Contents</td><td><strong>Lens</strong> (held by <strong>suspensory ligaments / zonules</strong>), <strong>aqueous humour</strong> (anterior and posterior chambers), <strong>vitreous</strong> body</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Aqueous humour</th><td><ul class=\"cl\"><li>Made by the ciliary body</li><li>→ posterior chamber</li><li>→ through the pupil</li><li>→ anterior chamber</li><li>→ drains at the <strong>iridocorneal angle</strong> (trabecular meshwork → <strong>canal of Schlemm</strong>).</li><li>Blocked → <strong>raised intraocular pressure (glaucoma)</strong>.</li></ul></td></tr><tr><th scope=\"row\">Accommodation</th><td>Ciliary muscle contracts → zonules relax → lens rounds up for near vision.</td></tr></tbody></table></div>"
+    }
+  ]
+}

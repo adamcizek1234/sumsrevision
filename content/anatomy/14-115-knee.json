@@ -1,0 +1,113 @@
+{
+  "id": "a-115",
+  "num": "115",
+  "title": "Knee",
+  "system": "Musculoskeletal",
+  "los": [
+    {
+      "n": 1,
+      "text": "Identify and side a tibia, describing the main anatomical landmarks on bones and radiographs",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Proximal</th><td><ul class=\"cl\"><li>Medial and lateral <strong>condyles</strong> (plateaus; medial larger and oval)</li><li>Intercondylar eminence (cruciates and menisci attach in front of and behind it)</li><li><strong>Tibial tuberosity</strong> (patellar ligament)</li><li>Gerdy's tubercle (iliotibial tract)</li><li>Fibular facet under the lateral condyle.</li></ul></td></tr><tr><th scope=\"row\">Shaft</th><td>Triangular; <strong>anterior border and medial surface are subcutaneous</strong> (shin: open fractures common); soleal line behind.</td></tr><tr><th scope=\"row\">Distal</th><td><strong>Medial malleolus</strong>, fibular notch (inferior tibiofibular syndesmosis), surface for the talus.</td></tr><tr><th scope=\"row\">Siding</th><td>Medial malleolus on the inner side; tuberosity at the front; fibular facet behind and lateral.</td></tr><tr><th scope=\"row\">On X-ray</th><td>Lateral plateau fractures (valgus force); tibial tuberosity irregularity (Osgood–Schlatter in adolescents).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Identify and side a fibula, describing the main anatomical landmarks and associations with the tibia on bones and radiographs",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Head</strong> (biceps femoris and lateral collateral ligament attach)<ul><li><strong>neck</strong> (the <strong>common fibular nerve</strong> winds round it)</li><li>shaft (muscle attachment; carries only ~10–15% of body weight)</li><li><strong>lateral malleolus</strong> (lower than the medial; fibular tendons groove behind it).</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Joint with tibia</th><th>Type</th></tr></thead><tbody><tr><td>Superior tibiofibular</td><td>Synovial plane</td></tr><tr><td>Interosseous membrane</td><td>Fibrous</td></tr><tr><td>Inferior tibiofibular</td><td>Fibrous <strong>syndesmosis</strong>: holds the ankle mortise</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><td colspan=\"2\"><strong>Not part of the knee joint</strong>.</td></tr><tr><th scope=\"row\">Siding</th><td>The lateral malleolus's flat articular facet faces medially, with the malleolar fossa behind.</td></tr><tr><th scope=\"row\">On X-ray</th><td>Weber ankle fractures by level of the fibular fracture (A below, B at, C above the syndesmosis).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Identify a patella, locating attachments of quadriceps femoris and ligamentum patellae",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><td colspan=\"2\"><strong>Largest sesamoid bone</strong>, in the quadriceps tendon.</td></tr><tr><th scope=\"row\">Base<span class=\"paren\">(top)</span></th><td>Quadriceps tendon attaches. <strong>Apex</strong> (bottom): <strong>patellar ligament</strong> begins → tibial tuberosity.</td></tr><tr><th scope=\"row\">Back</th><td><ul class=\"cl\"><li>Larger <strong>lateral facet</strong> and medial facet against the femoral trochlea</li><li>The prominent lateral femoral condyle and vastus medialis obliquus resist lateral dislocation.</li></ul></td></tr><tr><th scope=\"row\">Functions</th><td>Lengthens the quadriceps lever arm (mechanical advantage); protects the joint.</td></tr><tr><th scope=\"row\">Clinical</th><td>Lateral dislocation; fracture from a direct blow; bipartite patella (superolateral) can mimic a fracture on X-ray.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Describe the movements of the knee joint",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Type</th><td>Synovial <strong>modified hinge</strong> (two tibiofemoral joints + patellofemoral joint).</td></tr><tr><th scope=\"row\">Movements</th><td>Flexion (~135°), extension to 0°, and a little rotation when flexed.</td></tr><tr><th scope=\"row\">Locking (screw-home)</th><td>in the last few degrees of extension the femur <strong>medially rotates</strong> on the planted tibia.</td></tr><tr><th scope=\"row\">Unlocking</th><td><strong>Popliteus</strong> laterally rotates the femur to begin flexion.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Label a diagram of the key ligaments and deep structures of the knee joint",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Structure</th><th>Attachments</th><th>Role / test</th></tr></thead><tbody><tr><td><strong>ACL</strong></td><td>Anterior tibial intercondylar area → lateral femoral condyle (inner side, back)</td><td>Stops the tibia sliding <strong>forwards</strong>; Lachman, anterior drawer</td></tr><tr><td><strong>PCL</strong></td><td>Posterior tibial intercondylar area → medial femoral condyle (inner side, front)</td><td>Stops the tibia sliding <strong>backwards</strong> (stronger); posterior sag</td></tr><tr><td><strong>MCL</strong> (tibial collateral)</td><td>Medial epicondyle → medial tibia; <strong>fused to the medial meniscus</strong></td><td>Resists <strong>valgus</strong></td></tr><tr><td><strong>LCL</strong> (fibular collateral)</td><td>Lateral epicondyle → fibular head; separate from the lateral meniscus (popliteus tendon between)</td><td>Resists <strong>varus</strong></td></tr><tr><td><strong>Medial meniscus</strong></td><td>C-shaped, bigger, tethered to the MCL</td><td>Less mobile → <strong>torn more often</strong></td></tr><tr><td>Lateral meniscus</td><td>Nearly O-shaped, mobile</td><td></td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Menisci</th><td>Deepen the surfaces, absorb shock, spread load; only the outer \"red zone\" has a blood supply (heals).</td></tr><tr><th scope=\"row\">Others</th><td>Patellar ligament, oblique popliteal ligament, infrapatellar fat pad, transverse ligament.</td></tr><tr><th scope=\"row\">Unhappy triad</th><td>ACL + MCL + medial meniscus.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Identify and describe the actions of the muscles at the knee joint (flexors and extensors) summarising their innervations and main attachments",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Group</th><th>Muscles</th><th>Attachments</th><th>Nerve</th></tr></thead><tbody><tr><td><strong>Extensors</strong></td><td><strong>Quadriceps femoris</strong>: rectus femoris (AIIS; also flexes hip), vastus lateralis, medialis, intermedius</td><td>→ quadriceps tendon → patella → patellar ligament → tibial tuberosity</td><td><strong>Femoral</strong> (L2–4)</td></tr><tr><td><strong>Flexors</strong></td><td><strong>Hamstrings</strong>: biceps femoris (long head ischial tuberosity, short head linea aspera → fibular head), semitendinosus, semimembranosus (ischial tuberosity → medial tibia)</td><td></td><td><strong>Sciatic</strong>: tibial part (short head of biceps: common fibular)</td></tr><tr><td>Other flexors</td><td>Gastrocnemius (femoral condyles → calcaneus), sartorius, gracilis, popliteus</td><td></td><td>Tibial; femoral; obturator; tibial</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Rotation (knee flexed)</th><td>Medial = semitendinosus, semimembranosus, sartorius, gracilis, popliteus; lateral = biceps femoris.</td></tr><tr><th scope=\"row\">Pes anserinus<span class=\"paren\">(medial tibia)</span></th><td>Sartorius, gracilis, semitendinosus (\"Say Grace before Tea\").</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Describe the factors that are responsible for the stability at the knee joint including the locking mechanism close to full extension of the lower limb",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Bony stability is poor</strong> (flat tibial plateaus), so the knee relies on soft tissues.</li></ul><div class=\"tbl\"><table><thead><tr><th>Stabiliser</th><th>Contribution</th></tr></thead><tbody><tr><td>Cruciate ligaments</td><td>Front-to-back</td></tr><tr><td>Collateral ligaments</td><td>Side-to-side</td></tr><tr><td>Menisci</td><td>Deepen the surfaces</td></tr><tr><td>Capsule and posterior ligaments</td><td>Resist hyperextension</td></tr><tr><td><strong>Quadriceps</strong> (especially vastus medialis)</td><td>The most important muscular stabiliser</td></tr><tr><td>Hamstrings, iliotibial tract</td><td>Dynamic support</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Locking mechanism</th><td><ul class=\"cl\"><li>in the last ~30° of extension the femur rotates medially on the tibia because the medial condyle's surface is longer</li><li>The ligaments wind tight and the knee locks, so you can stand with little muscle effort.</li></ul></td></tr><tr><th scope=\"row\">Unlocking</th><td>Popliteus laterally rotates the femur (or medially rotates the tibia when off the ground).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Explain what structures in close relation to the knee joint (including bursae) may be injured with trauma to the knee (including fractures, dislocation and ruptured cruciate ligaments)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Injury</th><th>Mechanism</th><th>Structures hurt</th></tr></thead><tbody><tr><td><strong>ACL rupture</strong></td><td>Pivoting on a planted foot, hyperextension; \"pop\", swelling within ~2 h (haemarthrosis)</td><td>± MCL and medial meniscus</td></tr><tr><td>PCL tear</td><td>Dashboard: backward blow on the flexed knee</td><td>PCL</td></tr><tr><td>MCL sprain</td><td>Valgus blow to the outer knee</td><td>MCL ± medial meniscus</td></tr><tr><td><strong>Meniscal tear</strong></td><td>Twisting on a flexed, loaded knee</td><td>Locking, slower swelling, joint line tenderness</td></tr><tr><td><strong>Fibular neck fracture</strong></td><td>Direct blow</td><td><strong>Common fibular nerve</strong> → foot drop, numb dorsum of foot</td></tr><tr><td><strong>Knee dislocation</strong></td><td>High energy</td><td><strong>Popliteal artery</strong> (tethered above and below): check pulses and ABPI; common fibular nerve</td></tr><tr><td>Supracondylar femur fracture</td><td>Fall in the elderly</td><td>Gastrocnemius pulls the fragment back onto the popliteal artery</td></tr><tr><td>Bursa</td><td>Problem</td></tr><tr><td>Prepatellar</td><td>\"Housemaid's knee\" (kneeling)</td></tr><tr><td>Superficial infrapatellar</td><td>\"Clergyman's knee\"</td></tr><tr><td>Suprapatellar</td><td>Communicates with the joint: fills with an effusion</td></tr><tr><td>Semimembranosus–gastrocnemius</td><td><strong>Baker's cyst</strong> behind the knee</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Locate the popliteal fossa and identify its boundaries and the structures within it",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Boundary</th><th>Formed by</th></tr></thead><tbody><tr><td>Superomedial</td><td>Semimembranosus and semitendinosus</td></tr><tr><td>Superolateral</td><td>Biceps femoris</td></tr><tr><td>Inferomedial / inferolateral</td><td>Medial / lateral heads of gastrocnemius</td></tr><tr><td>Roof</td><td>Skin, popliteal fascia (pierced by the small saphenous vein)</td></tr><tr><td>Floor</td><td>Popliteal surface of femur, capsule, popliteus</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Contents (superficial → deep)</th><td><ul class=\"cl\"><li><strong>Tibial nerve</strong></li><li>Common fibular nerve (along the biceps tendon)</li><li><strong>Popliteal vein</strong></li><li><strong>Popliteal artery</strong> (deepest, on the femur)</li><li>Small saphenous vein ending</li><li>Popliteal lymph nodes</li><li>Fat.</li></ul></td></tr><tr><th scope=\"row\">Clinical</th><td>Feel the popliteal pulse deep with the knee flexed; <strong>popliteal aneurysm</strong> (the commonest peripheral aneurysm); Baker's cyst; DVT.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 10,
+      "text": "Discuss the functions and importance of joints",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Functions of joints</th><td><ul class=\"cl\"><li>Allow movement (range depends on type)</li><li>Transmit and absorb load</li><li>Give stability</li><li>Allow growth (cartilaginous growth plates)</li><li>Provide proprioception</li><li>Let the skull mould at birth.</li></ul></td></tr><tr><th scope=\"row\">Trade-off</th><td>More mobility means less stability (shoulder vs hip).</td></tr><tr><th scope=\"row\">Importance</th><td>Joint disease (arthritis) is a leading cause of pain and long-term disability.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 11,
+      "text": "Recognise synovial, cartilaginous and fibrous joints, giving examples of each",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Class</th><th>Subtype</th><th>Movement</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Fibrous</strong></td><td>Suture</td><td>None</td><td>Skull</td></tr><tr><td></td><td>Syndesmosis</td><td>Slight</td><td>Inferior tibiofibular, interosseous membrane</td></tr><tr><td></td><td>Gomphosis</td><td>None</td><td>Tooth in socket</td></tr><tr><td><strong>Cartilaginous</strong></td><td>Primary (synchondrosis, hyaline)</td><td>None, often temporary</td><td>Growth plates, 1st sternocostal joint</td></tr><tr><td></td><td>Secondary (symphysis, fibrocartilage)</td><td>Slight, midline</td><td>Pubic symphysis, intervertebral discs, manubriosternal</td></tr><tr><td><strong>Synovial</strong></td><td>Plane</td><td>Gliding</td><td>Acromioclavicular, facet joints</td></tr><tr><td></td><td>Hinge</td><td>Flex/extend</td><td>Elbow, interphalangeal</td></tr><tr><td></td><td>Pivot</td><td>Rotation</td><td>Proximal radioulnar, atlantoaxial</td></tr><tr><td></td><td>Condyloid / ellipsoid</td><td>Two axes</td><td>Wrist, MCP</td></tr><tr><td></td><td>Saddle</td><td>Two axes + opposition</td><td>Thumb CMC</td></tr><tr><td></td><td>Ball and socket</td><td>Three axes</td><td>Hip, shoulder</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 12,
+      "text": "Describe the basic structure, biomechanics, nerve and blood supply of synovial joints, and be able to label a diagram of such",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Structure</th><td><ul class=\"cl\"><li>Hyaline <strong>articular cartilage</strong> on the bone ends</li><li><strong>Joint cavity</strong> with synovial fluid</li><li><strong>Fibrous capsule</strong> lined by <strong>synovial membrane</strong> (which doesn't cover the cartilage)</li><li>Ligaments</li><li>± discs/menisci, labra, fat pads, bursae.</li></ul></td></tr><tr><th scope=\"row\">Biomechanics</th><td>Very low friction (cartilage + fluid: hyaluronan and lubricin); spreads load; stability from bone shape, ligaments and muscles (dynamic).</td></tr><tr><th scope=\"row\">Blood supply</th><td>Periarticular arterial anastomoses (e.g. the genicular anastomosis) to the capsule and synovium; cartilage is <strong>avascular</strong>, fed by synovial fluid.</td></tr><tr><th scope=\"row\">Nerve supply (Hilton's law)</th><td><ul class=\"cl\"><li>The nerves to the muscles moving a joint also supply the joint and its overlying skin</li><li>Capsule rich in proprioceptors and pain fibres</li><li>Cartilage has none.</li></ul></td></tr><tr><th scope=\"row\">Referred pain</th><td>Hip disease can present as knee pain (shared obturator and femoral supply).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 13,
+      "text": "Explain the significance of bursae and ligaments",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Bursae</th><td><ul class=\"cl\"><li>Closed synovial-lined sacs of fluid that cut friction where tendon, muscle or skin moves over bone (prepatellar, subacromial, olecranon, trochanteric)</li><li>Some open into the joint (suprapatellar).</li></ul></td></tr><tr><th scope=\"row\">Bursitis</th><td>Friction and overuse, infection, gout (\"housemaid's knee\", \"student's elbow\").</td></tr><tr><th scope=\"row\">Ligaments</th><td>Dense regular connective tissue (type I collagen), bone to bone: stabilise and guide movement, limit range, give proprioception.</td></tr><tr><th scope=\"row\">Healing</th><td>Poor blood supply → slow; sprains graded I–III; laxity → instability.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 14,
+      "text": "Link the structure of the synovium with its function",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Intima</th><td>1–3 cell layers of <strong>synoviocytes</strong> with <strong>no basement membrane</strong>: type A (macrophage-like, clear debris), type B (fibroblast-like, make <strong>hyaluronan</strong> and <strong>lubricin</strong>).</td></tr><tr><th scope=\"row\">Subintima</th><td>Loose connective tissue rich in fenestrated capillaries and lymphatics.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Structure</th><th>Function it gives</th></tr></thead><tbody><tr><td>Type B cells</td><td>Synovial fluid: hyaluronan (viscosity), lubricin (boundary lubrication)</td></tr><tr><td>Fenestrated capillaries, no basement membrane</td><td>Fast exchange; nourishes the avascular cartilage; but lets bacteria and inflammatory cells in (septic arthritis, RA pannus)</td></tr><tr><td>Type A cells</td><td>Remove debris</td></tr></tbody></table></div><ul><li><strong>Normal fluid</strong>: clear, viscous, few cells (&lt;200/μL); aspiration looks for crystals and infection.</li></ul>"
+    },
+    {
+      "n": 15,
+      "text": "Describe the processes involved in endochondral ossification and their roles in longitudinal bone growth and fracture healing",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1. Cartilage model</th><td>Mesenchyme forms a hyaline cartilage template of the bone.</td></tr><tr><th scope=\"row\">2. Hypertrophy</th><td>Chondrocytes in the shaft enlarge and the matrix calcifies; a <strong>periosteal bone collar</strong> forms round the shaft.</td></tr><tr><th scope=\"row\">3. Primary ossification centre</th><td>a periosteal bud of vessels invades the diaphysis (fetal weeks 7–12); bone is laid on calcified cartilage.</td></tr><tr><th scope=\"row\">4. Secondary centres</th><td>in the epiphyses, mostly after birth.</td></tr><tr><th scope=\"row\">5. Leftover cartilage</th><td>Articular cartilage and the <strong>growth plate</strong> between epiphysis and diaphysis.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Growth plate zone (epiphysis → shaft)</th><th>Event</th></tr></thead><tbody><tr><td>Resting</td><td>Reserve cells</td></tr><tr><td>Proliferative</td><td>Columns of dividing chondrocytes: <strong>length growth</strong></td></tr><tr><td>Hypertrophic</td><td>Cells enlarge</td></tr><tr><td>Calcification</td><td>Matrix calcifies, cells die</td></tr><tr><td>Ossification</td><td>Bone laid down</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Plate closure</th><td>After puberty (oestrogen) it becomes the epiphyseal line; width grows by periosteal apposition.</td></tr><tr><th scope=\"row\">Fracture healing repeats it</th><td><ul class=\"cl\"><li>Haematoma → inflammation → <strong>soft callus</strong> (fibrocartilage) → <strong>hard callus</strong> (woven bone by endochondral ossification) → remodelling (lamellar bone).</li><li>Rigid fixation allows direct (primary) healing without callus.</li></ul></td></tr><tr><th scope=\"row\">Clinical</th><td>Salter–Harris growth plate fractures; achondroplasia (FGFR3, poor proliferation); rickets (failed mineralisation at the plate).</td></tr></tbody></table></div>"
+    }
+  ]
+}

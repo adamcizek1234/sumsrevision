@@ -1,0 +1,2901 @@
+[
+  {
+    "id": "n47c1b85a",
+    "lo": "y1-102-1",
+    "q": "Chronic diarrhoea lasts longer than how many weeks?",
+    "shown": ">4 weeks",
+    "nums": [
+      "4"
+    ],
+    "wrong": [
+      ">1 week",
+      ">2 weeks",
+      ">12 weeks"
+    ],
+    "lvl": 1,
+    "why": "Acute is under 14 days (mostly infective), persistent 14–30 days, chronic over 4 weeks, which shifts the differential towards IBD, coeliac, malabsorption and cancer."
+  },
+  {
+    "id": "n36c59a19",
+    "lo": "y1-102-6",
+    "q": "Total body water in a 70 kg man is about how many litres?",
+    "shown": "~42 L (60% of body weight)",
+    "nums": [
+      "42"
+    ],
+    "wrong": [
+      "~28 L (40% of body weight)",
+      "~35 L (50% of body weight)",
+      "~56 L (80% of body weight)"
+    ],
+    "lvl": 1,
+    "why": "Water is about 60% of body weight in an adult man (70 × 0.6 ≈ 42 L): two-thirds intracellular, one-third extracellular."
+  },
+  {
+    "id": "nf5bd1e90",
+    "lo": "y1-103-3",
+    "q": "FEV1/FVC ratio below which airflow obstruction is diagnosed?",
+    "shown": "<0.7",
+    "nums": [
+      "0.7"
+    ],
+    "wrong": [
+      "<0.5",
+      "<0.6",
+      "<0.8"
+    ],
+    "lvl": 1,
+    "why": "A ratio under 0.7 means FEV1 is disproportionately reduced, the hallmark of airflow obstruction."
+  },
+  {
+    "id": "ne1ae0dcc",
+    "lo": "y1-103-4",
+    "q": "LTOT is offered if PaO₂ is below what (kPa) on two readings?",
+    "shown": "<7.3 kPa",
+    "nums": [
+      "7.3"
+    ],
+    "wrong": [
+      "<5.5 kPa",
+      "<6.5 kPa",
+      "<8.5 kPa"
+    ],
+    "lvl": 1,
+    "why": "Long-term oxygen improves survival in COPD only if PaO₂ is below 7.3 kPa (or 7.3–8 with polycythaemia, pulmonary hypertension or oedema), measured twice 3 weeks apart when stable."
+  },
+  {
+    "id": "n353fcf83",
+    "lo": "y1-103-4",
+    "q": "Target oxygen saturations in a COPD patient at risk of CO₂ retention?",
+    "shown": "88–92%",
+    "nums": [
+      "88",
+      "92"
+    ],
+    "wrong": [
+      "85–88%",
+      "90–94%",
+      "92–96%"
+    ],
+    "lvl": 1,
+    "why": "A lower target of 88–92% avoids worsening hypercapnia in patients who retain CO₂."
+  },
+  {
+    "id": "na8b03e83",
+    "lo": "y1-103-4",
+    "q": "Prednisolone dose for a COPD exacerbation?",
+    "shown": "30 mg daily for 5 days",
+    "nums": [
+      "30",
+      "5"
+    ],
+    "wrong": [
+      "10 mg daily for 5 days",
+      "40 mg daily for 14 days",
+      "60 mg daily for 3 days"
+    ],
+    "lvl": 1,
+    "why": "30 mg for 5 days speeds recovery and reduces treatment failure in COPD exacerbations; longer courses add side effects without benefit."
+  },
+  {
+    "id": "neb81aaf6",
+    "lo": "y1-103-9",
+    "q": "Normal adult tidal volume?",
+    "shown": "~500 mL",
+    "nums": [
+      "500"
+    ],
+    "wrong": [
+      "~250 mL",
+      "~1000 mL",
+      "~2000 mL"
+    ],
+    "lvl": 1,
+    "why": "A normal breath is about 500 mL (roughly 7 mL/kg), of which about 150 mL stays in the dead space."
+  },
+  {
+    "id": "na1e12121",
+    "lo": "y1-103-9",
+    "q": "Anatomical dead space in an adult?",
+    "shown": "~150 mL",
+    "nums": [
+      "150"
+    ],
+    "wrong": [
+      "~50 mL",
+      "~300 mL",
+      "~1000 mL"
+    ],
+    "lvl": 1,
+    "why": "About 150 mL (roughly 2 mL/kg) fills the conducting airways and never reaches the alveoli."
+  },
+  {
+    "id": "n8f331d3a",
+    "lo": "y1-103-6",
+    "q": "Normal anion gap (with K⁺)?",
+    "shown": "~10–18 mmol/L",
+    "nums": [
+      "10",
+      "18"
+    ],
+    "wrong": [
+      "~4–8 mmol/L",
+      "~20–30 mmol/L",
+      "~30–40 mmol/L"
+    ],
+    "lvl": 1,
+    "why": "Anion gap = (Na⁺ + K⁺) − (Cl⁻ + HCO₃⁻), normally about 10–18 mmol/L; a high gap means unmeasured acids such as ketones or lactate."
+  },
+  {
+    "id": "n2cefaced",
+    "lo": "y1-105-1",
+    "q": "Calf circumference difference that scores on the Wells DVT score?",
+    "shown": "≥3 cm",
+    "nums": [
+      "3"
+    ],
+    "wrong": [
+      "≥1 cm",
+      "≥5 cm",
+      "≥10 cm"
+    ],
+    "lvl": 1,
+    "why": "A calf swollen 3 cm or more than the other side (measured 10 cm below the tibial tuberosity) scores a point on the Wells DVT score."
+  },
+  {
+    "id": "nd41c73ac",
+    "lo": "y1-106-1",
+    "q": "Pleural effusion pH below which a chest drain is needed (empyema)?",
+    "shown": "<7.2",
+    "nums": [
+      "7.2"
+    ],
+    "wrong": [
+      "<6.8",
+      "<7.35",
+      "<7.45"
+    ],
+    "lvl": 1,
+    "why": "A pleural pH below 7.2 in a parapneumonic effusion means an empyema is developing and needs a chest drain."
+  },
+  {
+    "id": "na7ab4058",
+    "lo": "y1-106-1",
+    "q": "Light's criteria: pleural/serum protein ratio above which it's an exudate?",
+    "shown": ">0.5",
+    "nums": [
+      "0.5"
+    ],
+    "wrong": [
+      ">0.2",
+      ">0.8",
+      ">1.0"
+    ],
+    "lvl": 3,
+    "why": "If the pleural:serum protein ratio is above 0.5, the effusion is an exudate (leaky capillaries or inflammation), not a transudate."
+  },
+  {
+    "id": "n67880daa",
+    "lo": "y1-106-4",
+    "q": "Steady state is reached after about how many half-lives?",
+    "shown": "4–5",
+    "nums": [
+      "4",
+      "5"
+    ],
+    "wrong": [
+      "1–2",
+      "2–3",
+      "8–10"
+    ],
+    "lvl": 1,
+    "why": "Each half-life closes half the remaining gap to steady state, so after 4–5 half-lives you're at about 94–97% (the same applies to elimination)."
+  },
+  {
+    "id": "n90179f07",
+    "lo": "y1-108-6",
+    "q": "Normal PR interval (seconds)?",
+    "shown": "0.12–0.20 s",
+    "nums": [
+      "0.12",
+      "0.2"
+    ],
+    "wrong": [
+      "0.04–0.08 s",
+      "0.20–0.30 s",
+      "0.30–0.40 s"
+    ],
+    "lvl": 1,
+    "why": "The PR interval of 0.12–0.20 s (3–5 small squares) reflects AV nodal delay; longer is heart block, shorter suggests pre-excitation."
+  },
+  {
+    "id": "n3e6273e2",
+    "lo": "y1-108-6",
+    "q": "QRS duration above which it's broad?",
+    "shown": "≥0.12 s (120 ms)",
+    "nums": [
+      "0.12"
+    ],
+    "wrong": [
+      "≥0.08 s (80 ms)",
+      "≥0.10 s (100 ms)",
+      "≥0.16 s (160 ms)"
+    ],
+    "lvl": 1,
+    "why": "A QRS of 0.12 s (3 small squares) or more means slow ventricular conduction (bundle branch block, ventricular rhythm or hyperkalaemia)."
+  },
+  {
+    "id": "nf95a8cb3",
+    "lo": "y1-108-6",
+    "q": "Upper limit of normal QTc in men?",
+    "shown": "440 ms",
+    "nums": [
+      "440"
+    ],
+    "wrong": [
+      "400 ms",
+      "470 ms",
+      "520 ms"
+    ],
+    "lvl": 1,
+    "why": "QTc above 440 ms in men (460 in women) is prolonged and raises the risk of torsades de pointes."
+  },
+  {
+    "id": "n3493a4a3",
+    "lo": "y1-108-3",
+    "q": "1st-degree heart block: PR interval above?",
+    "shown": ">200 ms",
+    "nums": [
+      "200"
+    ],
+    "wrong": [
+      ">120 ms",
+      ">250 ms",
+      ">300 ms"
+    ],
+    "lvl": 1,
+    "why": "First-degree heart block is a PR over 200 ms (one large square) with every P wave conducted."
+  },
+  {
+    "id": "n246950c6",
+    "lo": "y1-110-1",
+    "q": "Age by which a child should walk (upper limit)?",
+    "shown": "18 months",
+    "nums": [
+      "18"
+    ],
+    "wrong": [
+      "12 months",
+      "24 months",
+      "30 months"
+    ],
+    "lvl": 1,
+    "why": "Most children walk by 12–15 months; not walking by 18 months needs assessment (check CK in boys for Duchenne)."
+  },
+  {
+    "id": "n1e6bfbdb",
+    "lo": "y1-110-1",
+    "q": "Age by which a baby should sit unsupported (upper limit)?",
+    "shown": "9 months",
+    "nums": [
+      "9"
+    ],
+    "wrong": [
+      "6 months",
+      "12 months",
+      "15 months"
+    ],
+    "lvl": 1,
+    "why": "Most babies sit unsupported by 6–8 months as trunk control develops from the head down; not sitting by 9 months is a red flag for referral."
+  },
+  {
+    "id": "n434c3a66",
+    "lo": "y1-110-1",
+    "q": "Age of the first social smile?",
+    "shown": "6 weeks",
+    "nums": [
+      "6"
+    ],
+    "wrong": [
+      "2 weeks",
+      "3 months",
+      "6 months"
+    ],
+    "lvl": 1,
+    "why": "The first social smile appears at about 6 weeks; no smile by 8 weeks warrants review."
+  },
+  {
+    "id": "n0cc1ef6c",
+    "lo": "y1-110-5",
+    "q": "Folic acid dose for a woman at high risk of a neural tube defect?",
+    "shown": "5 mg daily",
+    "nums": [
+      "5"
+    ],
+    "wrong": [
+      "400 μg daily",
+      "1 mg daily",
+      "10 mg daily"
+    ],
+    "lvl": 1,
+    "why": "High-risk women (previous NTD, diabetes, epilepsy drugs, BMI ≥30) take 5 mg daily rather than 400 μg, from before conception to 12 weeks."
+  },
+  {
+    "id": "nf2af4d0c",
+    "lo": "y1-111-7",
+    "q": "Normal GFR?",
+    "shown": "~125 mL/min (180 L/day)",
+    "nums": [
+      "125"
+    ],
+    "wrong": [
+      "~60 mL/min (86 L/day)",
+      "~90 mL/min (130 L/day)",
+      "~250 mL/min (360 L/day)"
+    ],
+    "lvl": 1,
+    "why": "Normal GFR is about 125 mL/min (180 L/day), so most filtrate is reabsorbed to leave about 1.5 L of urine."
+  },
+  {
+    "id": "nca513cfe",
+    "lo": "y1-111-4",
+    "q": "Ureteric stone size most likely to pass spontaneously?",
+    "shown": "<5 mm",
+    "nums": [
+      "5"
+    ],
+    "wrong": [
+      "<10 mm",
+      "<15 mm",
+      "<20 mm"
+    ],
+    "lvl": 1,
+    "why": "Stones under 5 mm usually pass on their own; larger ones are less likely to and may need intervention."
+  },
+  {
+    "id": "nc3830ba9",
+    "lo": "y1-112-1",
+    "q": "BMI defining obesity class III?",
+    "shown": "≥40",
+    "nums": [
+      "40"
+    ],
+    "wrong": [
+      "≥30",
+      "≥45",
+      "≥50"
+    ],
+    "lvl": 1,
+    "why": "BMI 30–34.9 is class I, 35–39.9 class II and 40 or above class III (severe) obesity."
+  },
+  {
+    "id": "n01b60709",
+    "lo": "y1-112-3",
+    "q": "BMI threshold for bariatric surgery with significant comorbidity?",
+    "shown": "35",
+    "nums": [
+      "35"
+    ],
+    "wrong": [
+      "25",
+      "30",
+      "45"
+    ],
+    "lvl": 1,
+    "why": "Bariatric surgery is considered at BMI 35 or above with significant comorbidity (40 without), after non-surgical measures."
+  },
+  {
+    "id": "n3bfa8544",
+    "lo": "y1-112-4",
+    "q": "QRISK3 above which atorvastatin 20 mg is offered for primary prevention?",
+    "shown": "≥10%",
+    "nums": [
+      "10"
+    ],
+    "wrong": [
+      "≥5%",
+      "≥20%",
+      "≥30%"
+    ],
+    "lvl": 1,
+    "why": "NICE offers atorvastatin 20 mg when 10-year cardiovascular risk is 10% or more."
+  },
+  {
+    "id": "n04ef69cb",
+    "lo": "y1-112-4",
+    "q": "Atorvastatin dose for secondary prevention?",
+    "shown": "80 mg",
+    "nums": [
+      "80"
+    ],
+    "wrong": [
+      "10 mg",
+      "20 mg",
+      "40 mg"
+    ],
+    "lvl": 1,
+    "why": "High-intensity atorvastatin 80 mg is used for secondary prevention after cardiovascular events to lower LDL as much as possible."
+  },
+  {
+    "id": "n7448446d",
+    "lo": "y1-114-1",
+    "q": "Dating scan window (weeks)?",
+    "shown": "10+0 to 13+6",
+    "nums": [
+      "10",
+      "13"
+    ],
+    "wrong": [
+      "6+0 to 8+6",
+      "18+0 to 20+6",
+      "24+0 to 27+6"
+    ],
+    "lvl": 1,
+    "why": "The dating scan is done at 10+0 to 13+6 weeks, when crown–rump length is most accurate and nuchal translucency can be measured."
+  },
+  {
+    "id": "n6ffafa40",
+    "lo": "y1-114-2",
+    "q": "Gestational diabetes thresholds on a 75 g OGTT (fasting, 2 h)?",
+    "shown": "Fasting ≥5.6, 2 h ≥7.8 mmol/L",
+    "nums": [
+      "5.6",
+      "7.8"
+    ],
+    "wrong": [
+      "Fasting ≥6.1, 2 h ≥9.0 mmol/L",
+      "Fasting ≥5.0, 2 h ≥7.0 mmol/L",
+      "Fasting ≥6.5, 2 h ≥10.0 mmol/L"
+    ],
+    "lvl": 3,
+    "why": "NICE diagnoses gestational diabetes with fasting glucose of 5.6 or more, or a 2-hour level of 7.8 or more, on a 75 g OGTT."
+  },
+  {
+    "id": "n94bb77c0",
+    "lo": "y1-114-2",
+    "q": "Aspirin for pre-eclampsia prevention starts at how many weeks?",
+    "shown": "12 weeks",
+    "nums": [
+      "12"
+    ],
+    "wrong": [
+      "6 weeks",
+      "20 weeks",
+      "28 weeks"
+    ],
+    "lvl": 1,
+    "why": "Low-dose aspirin from 12 weeks reduces pre-eclampsia in high-risk women by improving placental development."
+  },
+  {
+    "id": "nf3a058cc",
+    "lo": "y1-114-2",
+    "q": "Hb threshold for anaemia in the 1st trimester?",
+    "shown": "<110 g/L",
+    "nums": [
+      "110"
+    ],
+    "wrong": [
+      "<90 g/L",
+      "<100 g/L",
+      "<120 g/L"
+    ],
+    "lvl": 3,
+    "why": "Haemoglobin naturally falls in pregnancy as plasma expands, so the anaemia cut-off is lower than usual: below 110 g/L in the first trimester."
+  },
+  {
+    "id": "ndc0a79bc",
+    "lo": "y1-114-3",
+    "q": "PPH is blood loss over how many mL?",
+    "shown": ">500 mL",
+    "nums": [
+      "500"
+    ],
+    "wrong": [
+      ">250 mL",
+      ">1000 mL",
+      ">1500 mL"
+    ],
+    "lvl": 1,
+    "why": "PPH is blood loss over 500 mL after a vaginal birth; over 1000 mL is major."
+  },
+  {
+    "id": "n276d016f",
+    "lo": "y1-114-4",
+    "q": "Legal time limit for most terminations under the Abortion Act?",
+    "shown": "24 weeks",
+    "nums": [
+      "24"
+    ],
+    "wrong": [
+      "16 weeks",
+      "20 weeks",
+      "28 weeks"
+    ],
+    "lvl": 1,
+    "why": "Most terminations are legal up to 24 weeks; beyond that, only for serious risk to the woman or serious fetal anomaly."
+  },
+  {
+    "id": "nae36ebab",
+    "lo": "y1-116-5",
+    "q": "Oseltamivir works best when started within how many hours?",
+    "shown": "48 hours",
+    "nums": [
+      "48"
+    ],
+    "wrong": [
+      "12 hours",
+      "24 hours",
+      "96 hours"
+    ],
+    "lvl": 1,
+    "why": "Oseltamivir stops viral release, so it helps most within 48 hours, when the virus is still replicating rapidly."
+  },
+  {
+    "id": "ne7b98756",
+    "lo": "y1-116-4",
+    "q": "Dexamethasone dose for COVID-19 needing oxygen?",
+    "shown": "6 mg daily for 10 days",
+    "nums": [
+      "6",
+      "10"
+    ],
+    "wrong": [
+      "2 mg daily for 5 days",
+      "10 mg daily for 3 days",
+      "20 mg daily for 14 days"
+    ],
+    "lvl": 3,
+    "why": "RECOVERY used dexamethasone 6 mg daily for 10 days in hospitalised patients needing oxygen."
+  },
+  {
+    "id": "n8ae0cfb8",
+    "lo": "y1-119-2",
+    "q": "Continue an antidepressant for at least how long after remission?",
+    "shown": "6 months",
+    "nums": [
+      "6"
+    ],
+    "wrong": [
+      "1 month",
+      "2 years",
+      "5 years"
+    ],
+    "lvl": 1,
+    "why": "Continuing an antidepressant for at least 6 months after remission halves the risk of relapse."
+  },
+  {
+    "id": "n373ec5c9",
+    "lo": "y1-125-2",
+    "q": "Target serum urate on allopurinol?",
+    "shown": "<0.36 mmol/L",
+    "nums": [
+      "0.36"
+    ],
+    "wrong": [
+      "<0.18 mmol/L",
+      "<0.48 mmol/L",
+      "<0.60 mmol/L"
+    ],
+    "lvl": 1,
+    "why": "Below 0.36 mmol/L urate dissolves existing crystals and prevents new ones (below 0.30 if tophi or frequent flares)."
+  },
+  {
+    "id": "n75df890d",
+    "lo": "y1-126-4",
+    "q": "Corrected calcium formula: add 0.02 × (40 − albumin). Normal range?",
+    "shown": "2.2–2.6 mmol/L",
+    "nums": [
+      "2.2",
+      "2.6"
+    ],
+    "wrong": [
+      "1.8–2.1 mmol/L",
+      "2.7–3.0 mmol/L",
+      "3.1–3.5 mmol/L"
+    ],
+    "lvl": 1,
+    "why": "Normal adjusted calcium is about 2.2–2.6 mmol/L; correct for albumin because half of calcium is protein-bound."
+  },
+  {
+    "id": "n3b1fbc84",
+    "lo": "y1-126-3",
+    "q": "IV/IM hydrocortisone dose in adrenal crisis?",
+    "shown": "100 mg",
+    "nums": [
+      "100"
+    ],
+    "wrong": [
+      "10 mg",
+      "25 mg",
+      "500 mg"
+    ],
+    "lvl": 1,
+    "why": "Adrenal crisis needs 100 mg hydrocortisone IV or IM immediately, then fluids and further doses."
+  },
+  {
+    "id": "n0d1de08c",
+    "lo": "y1-128-2",
+    "q": "CURB-65: urea above?",
+    "shown": ">7 mmol/L",
+    "nums": [
+      "7"
+    ],
+    "wrong": [
+      ">5 mmol/L",
+      ">10 mmol/L",
+      ">15 mmol/L"
+    ],
+    "lvl": 1,
+    "why": "Urea above 7 mmol/L reflects dehydration and sepsis severity and scores a point."
+  },
+  {
+    "id": "nae241a7b",
+    "lo": "y1-128-2",
+    "q": "CURB-65: respiratory rate of at least?",
+    "shown": "≥30",
+    "nums": [
+      "30"
+    ],
+    "wrong": [
+      "≥20",
+      "≥25",
+      "≥40"
+    ],
+    "lvl": 1,
+    "why": "A respiratory rate of 30 or more scores a point, reflecting respiratory compromise."
+  },
+  {
+    "id": "n95e47dc9",
+    "lo": "y1-128-4",
+    "q": "Length of standard TB treatment (months)?",
+    "shown": "6 months",
+    "nums": [
+      "6"
+    ],
+    "wrong": [
+      "2 months",
+      "9 months",
+      "12 months"
+    ],
+    "lvl": 1,
+    "why": "Standard TB treatment is 6 months: 2 months of four drugs (RIPE), then 4 months of rifampicin and isoniazid."
+  },
+  {
+    "id": "n4a06260e",
+    "lo": "y1-135-2",
+    "q": "Fluid bolus volume for resuscitation (crystalloid)?",
+    "shown": "500 mL over <15 min",
+    "nums": [
+      "500",
+      "15"
+    ],
+    "wrong": [
+      "100 mL over <15 min",
+      "1000 mL over 1 h",
+      "2000 mL over <15 min"
+    ],
+    "lvl": 1,
+    "why": "A 500 mL crystalloid bolus over less than 15 minutes, then reassess, avoids fluid overload while restoring perfusion."
+  },
+  {
+    "id": "nebbe2b0e",
+    "lo": "y1-135-3",
+    "q": "Daily maintenance water for adults?",
+    "shown": "25–30 mL/kg/day",
+    "nums": [
+      "25",
+      "30"
+    ],
+    "wrong": [
+      "5–10 mL/kg/day",
+      "50–60 mL/kg/day",
+      "80–100 mL/kg/day"
+    ],
+    "lvl": 1,
+    "why": "Adults need about 25–30 mL/kg/day of water, plus about 1 mmol/kg/day each of sodium, potassium and chloride."
+  },
+  {
+    "id": "n6bbf8757",
+    "lo": "y1-135-3",
+    "q": "Max IV potassium rate through a peripheral line?",
+    "shown": "10 mmol/h",
+    "nums": [
+      "10"
+    ],
+    "wrong": [
+      "2 mmol/h",
+      "20 mmol/h",
+      "40 mmol/h"
+    ],
+    "lvl": 1,
+    "why": "Faster potassium through a peripheral line risks arrhythmias and vein irritation, so 10 mmol/h is the usual maximum."
+  },
+  {
+    "id": "n44691d64",
+    "lo": "y1-135-4",
+    "q": "AKI (KDIGO): rise in creatinine within 48 h?",
+    "shown": "≥26 μmol/L",
+    "nums": [
+      "26"
+    ],
+    "wrong": [
+      "≥10 μmol/L",
+      "≥50 μmol/L",
+      "≥100 μmol/L"
+    ],
+    "lvl": 1,
+    "why": "A creatinine rise of 26 μmol/L or more within 48 hours (or 1.5× baseline within 7 days) defines AKI."
+  },
+  {
+    "id": "n7b8d0699",
+    "lo": "y1-135-4",
+    "q": "AKI: urine output below what for 6 hours?",
+    "shown": "<0.5 mL/kg/h",
+    "nums": [
+      "0.5"
+    ],
+    "wrong": [
+      "<0.1 mL/kg/h",
+      "<1.0 mL/kg/h",
+      "<2.0 mL/kg/h"
+    ],
+    "lvl": 1,
+    "why": "Urine output below 0.5 mL/kg/h for over 6 hours defines AKI."
+  },
+  {
+    "id": "ne94506b9",
+    "lo": "y1-135-4",
+    "q": "Potassium at which emergency treatment is needed?",
+    "shown": "≥6.5 mmol/L",
+    "nums": [
+      "6.5"
+    ],
+    "wrong": [
+      "≥5.5 mmol/L",
+      "≥6.0 mmol/L",
+      "≥7.5 mmol/L"
+    ],
+    "lvl": 1,
+    "why": "Potassium of 6.5 or above (or any level with ECG changes) needs emergency treatment: calcium, insulin–glucose and salbutamol."
+  },
+  {
+    "id": "n9d854010",
+    "lo": "y1-135-5",
+    "q": "CKD: albuminuria defined by urine ACR of at least?",
+    "shown": "≥3 mg/mmol",
+    "nums": [
+      "3"
+    ],
+    "wrong": [
+      "≥0.3 mg/mmol",
+      "≥30 mg/mmol",
+      "≥70 mg/mmol"
+    ],
+    "lvl": 1,
+    "why": "An ACR of 3 mg/mmol or more means albuminuria, which marks kidney damage and raises cardiovascular risk."
+  },
+  {
+    "id": "nc38aa61f",
+    "lo": "y1-138-4",
+    "q": "Target INR for VTE or AF on warfarin?",
+    "shown": "2.5 (range 2–3)",
+    "nums": [
+      "2.5"
+    ],
+    "wrong": [
+      "1.5 (range 1–2)",
+      "3.5 (range 3–4)",
+      "4.5 (range 4–5)"
+    ],
+    "lvl": 1,
+    "why": "For VTE and AF the INR target is 2.5 (range 2–3), balancing clot prevention against bleeding; mechanical valves need higher."
+  },
+  {
+    "id": "n1953c8ff",
+    "lo": "y1-139-2",
+    "q": "HbA1c diagnostic of diabetes?",
+    "shown": "≥48 mmol/mol (6.5%)",
+    "nums": [
+      "48"
+    ],
+    "wrong": [
+      "≥38 mmol/mol (5.6%)",
+      "≥42 mmol/mol (6.0%)",
+      "≥58 mmol/mol (7.5%)"
+    ],
+    "lvl": 1,
+    "why": "HbA1c 48 mmol/mol (6.5%) or above diagnoses diabetes, reflecting average glucose over about 3 months."
+  },
+  {
+    "id": "n3d3e9830",
+    "lo": "y1-139-2",
+    "q": "Fasting glucose diagnostic of diabetes?",
+    "shown": "≥7.0 mmol/L",
+    "nums": [
+      "7"
+    ],
+    "wrong": [
+      "≥5.6 mmol/L",
+      "≥6.1 mmol/L",
+      "≥8.0 mmol/L"
+    ],
+    "lvl": 1,
+    "why": "Fasting glucose of 7.0 mmol/L or more diagnoses diabetes; 6.1–6.9 is impaired fasting glucose."
+  },
+  {
+    "id": "n0ca80aba",
+    "lo": "y1-139-2",
+    "q": "Random glucose diagnostic of diabetes (with symptoms)?",
+    "shown": "≥11.1 mmol/L",
+    "nums": [
+      "11.1"
+    ],
+    "wrong": [
+      "≥9.0 mmol/L",
+      "≥10.0 mmol/L",
+      "≥15.0 mmol/L"
+    ],
+    "lvl": 1,
+    "why": "A random glucose of 11.1 or more with symptoms diagnoses diabetes."
+  },
+  {
+    "id": "nf6b84cb2",
+    "lo": "y1-139-6",
+    "q": "Hypoglycaemia is glucose below?",
+    "shown": "<4 mmol/L",
+    "nums": [
+      "4"
+    ],
+    "wrong": [
+      "<2 mmol/L",
+      "<3 mmol/L",
+      "<5 mmol/L"
+    ],
+    "lvl": 1,
+    "why": "Glucose below 4 mmol/L is hypoglycaemia (\"four is the floor\"), when symptoms start and treatment is needed."
+  },
+  {
+    "id": "nf7836f93",
+    "lo": "y1-139-6",
+    "q": "HHS: osmolality above?",
+    "shown": ">320 mOsm/kg",
+    "nums": [
+      "320"
+    ],
+    "wrong": [
+      ">280 mOsm/kg",
+      ">300 mOsm/kg",
+      ">400 mOsm/kg"
+    ],
+    "lvl": 3,
+    "why": "HHS is defined by marked hyperglycaemia, osmolality above 320 mOsm/kg and dehydration without significant ketosis."
+  },
+  {
+    "id": "n70fc192d",
+    "lo": "y1-139-8",
+    "q": "Metformin is stopped when eGFR falls below?",
+    "shown": "<30",
+    "nums": [
+      "30"
+    ],
+    "wrong": [
+      "<15",
+      "<45",
+      "<60"
+    ],
+    "lvl": 1,
+    "why": "Metformin is stopped when eGFR falls below 30 because it builds up and raises the risk of lactic acidosis (review the dose below 45)."
+  },
+  {
+    "id": "nb5042864",
+    "lo": "y1-140-3",
+    "q": "IM adrenaline dose in adult anaphylaxis?",
+    "shown": "500 μg (0.5 mL of 1:1000)",
+    "nums": [
+      "500"
+    ],
+    "wrong": [
+      "50 μg (0.5 mL of 1:10,000)",
+      "250 μg (0.25 mL of 1:1000)",
+      "1 mg (1 mL of 1:1000)"
+    ],
+    "lvl": 1,
+    "why": "500 μg (0.5 mL of 1:1000) IM is the adult dose: enough to reverse vasodilation and airway swelling quickly."
+  },
+  {
+    "id": "nb08d526e",
+    "lo": "y1-140-3",
+    "q": "Repeat IM adrenaline after how many minutes?",
+    "shown": "5 minutes",
+    "nums": [
+      "5"
+    ],
+    "wrong": [
+      "1 minute",
+      "15 minutes",
+      "30 minutes"
+    ],
+    "lvl": 1,
+    "why": "Repeat IM adrenaline after 5 minutes if there's no improvement; two doses without response is refractory anaphylaxis."
+  },
+  {
+    "id": "nb58ea056",
+    "lo": "y1-140-5",
+    "q": "Lactate above which septic shock is defined (with vasopressors)?",
+    "shown": ">2 mmol/L",
+    "nums": [
+      "2"
+    ],
+    "wrong": [
+      ">1 mmol/L",
+      ">4 mmol/L",
+      ">8 mmol/L"
+    ],
+    "lvl": 1,
+    "why": "Septic shock is sepsis needing vasopressors to keep MAP ≥65 with lactate above 2 mmol/L despite fluids."
+  },
+  {
+    "id": "nec4b4613",
+    "lo": "y1-140-4",
+    "q": "MAP target in septic shock on noradrenaline?",
+    "shown": "≥65 mmHg",
+    "nums": [
+      "65"
+    ],
+    "wrong": [
+      "≥45 mmHg",
+      "≥85 mmHg",
+      "≥100 mmHg"
+    ],
+    "lvl": 1,
+    "why": "A MAP of 65 mmHg keeps organs perfused while avoiding excessive vasopressor use."
+  },
+  {
+    "id": "n9dd6ab5c",
+    "lo": "y1-141-4",
+    "q": "Window for testicular salvage in torsion?",
+    "shown": "6 hours",
+    "nums": [
+      "6"
+    ],
+    "wrong": [
+      "1 hour",
+      "24 hours",
+      "48 hours"
+    ],
+    "lvl": 1,
+    "why": "Testicular salvage rates are high within 6 hours of torsion and fall sharply after, so surgery shouldn't wait for scans."
+  },
+  {
+    "id": "n15dab912",
+    "lo": "y1-142-4",
+    "q": "Normal intraocular pressure?",
+    "shown": "10–21 mmHg",
+    "nums": [
+      "10",
+      "21"
+    ],
+    "wrong": [
+      "5–9 mmHg",
+      "22–30 mmHg",
+      "30–40 mmHg"
+    ],
+    "lvl": 1,
+    "why": "Normal pressure is 10–21 mmHg; higher pressure is the main modifiable risk factor for glaucomatous nerve damage."
+  },
+  {
+    "id": "nef8d8281",
+    "lo": "y1-147-2",
+    "q": "Severe aortic stenosis: mean gradient above?",
+    "shown": ">40 mmHg",
+    "nums": [
+      "40"
+    ],
+    "wrong": [
+      ">10 mmHg",
+      ">30 mmHg",
+      ">80 mmHg"
+    ],
+    "lvl": 3,
+    "why": "A mean gradient above 40 mmHg across the valve marks severe aortic stenosis, a trigger for valve replacement if symptomatic."
+  },
+  {
+    "id": "nd7142279",
+    "lo": "y1-147-2",
+    "q": "Severe aortic stenosis: valve area below?",
+    "shown": "<1.0 cm²",
+    "nums": [
+      "1.0"
+    ],
+    "wrong": [
+      "<0.3 cm²",
+      "<2.0 cm²",
+      "<3.0 cm²"
+    ],
+    "lvl": 3,
+    "why": "A valve area below 1.0 cm² (normal is 3–4) defines severe aortic stenosis."
+  },
+  {
+    "id": "n25d1bb34",
+    "lo": "y1-147-4",
+    "q": "Number of blood culture sets in suspected endocarditis?",
+    "shown": "3",
+    "nums": [
+      "3"
+    ],
+    "wrong": [
+      "1",
+      "2",
+      "6"
+    ],
+    "lvl": 1,
+    "why": "Three sets of blood cultures from separate sites and times maximise the chance of catching continuous bacteraemia and spotting contaminants."
+  },
+  {
+    "id": "n88612625",
+    "lo": "y2-201-11",
+    "q": "Parasitaemia above which UK guidance calls falciparum malaria severe?",
+    "shown": ">2%",
+    "nums": [
+      "2"
+    ],
+    "wrong": [
+      ">0.5%",
+      ">1%",
+      ">20%"
+    ],
+    "lvl": 3,
+    "why": "UK guidance treats falciparum malaria as severe if parasitaemia is above 2% (or with severe features), needing IV artesunate."
+  },
+  {
+    "id": "n819bdfd2",
+    "lo": "y2-201-6",
+    "q": "SDG target for maternal mortality ratio (per 100,000 live births)?",
+    "shown": "<70",
+    "nums": [
+      "70"
+    ],
+    "wrong": [
+      "<10",
+      "<250",
+      "<500"
+    ],
+    "lvl": 3,
+    "why": "The Sustainable Development Goals aim to cut the global maternal mortality ratio below 70 per 100,000 live births by 2030."
+  },
+  {
+    "id": "n0d320e60",
+    "lo": "y2-202-11",
+    "q": "Gestation below which magnesium sulfate is given for neuroprotection?",
+    "shown": "<30 weeks",
+    "nums": [
+      "30"
+    ],
+    "wrong": [
+      "<24 weeks",
+      "<34 weeks",
+      "<37 weeks"
+    ],
+    "lvl": 3,
+    "why": "Magnesium sulfate given before birth under 30 weeks protects the fetal brain and reduces cerebral palsy."
+  },
+  {
+    "id": "n465bf148",
+    "lo": "y2-202-13",
+    "q": "Extremely preterm means born before how many weeks?",
+    "shown": "<28 weeks",
+    "nums": [
+      "28"
+    ],
+    "wrong": [
+      "<24 weeks",
+      "<32 weeks",
+      "<37 weeks"
+    ],
+    "lvl": 2,
+    "why": "Babies born before 28 weeks are extremely preterm, with the highest risks of death and disability."
+  },
+  {
+    "id": "nbf6b6dd8",
+    "lo": "y2-203-3",
+    "q": "TEN-4: any bruise in an infant younger than how many months is suspicious?",
+    "shown": "4 months",
+    "nums": [
+      "4"
+    ],
+    "wrong": [
+      "2 months",
+      "6 months",
+      "12 months"
+    ],
+    "lvl": 3,
+    "why": "TEN-4-FACESp flags bruising on torso, ears or neck in under-4s, and any bruise in an infant under 4 months."
+  },
+  {
+    "id": "n020b8df6",
+    "lo": "y2-204-2",
+    "q": "FeNO level diagnostic of asthma in adults?",
+    "shown": "≥50 ppb",
+    "nums": [
+      "50"
+    ],
+    "wrong": [
+      "≥10 ppb",
+      "≥25 ppb",
+      "≥100 ppb"
+    ],
+    "lvl": 2,
+    "why": "FeNO of 50 ppb or more in adults supports asthma by showing eosinophilic airway inflammation."
+  },
+  {
+    "id": "nf6e0e096",
+    "lo": "y2-204-2",
+    "q": "Bronchodilator reversibility: FEV1 rise of at least?",
+    "shown": "12% and 200 mL",
+    "nums": [
+      "12",
+      "200"
+    ],
+    "wrong": [
+      "5% and 100 mL",
+      "20% and 400 mL",
+      "30% and 500 mL"
+    ],
+    "lvl": 2,
+    "why": "An FEV1 rise of 12% and 200 mL after a bronchodilator supports asthma."
+  },
+  {
+    "id": "n426f38d9",
+    "lo": "y2-204-2",
+    "q": "Peak flow variability that supports asthma?",
+    "shown": ">20%",
+    "nums": [
+      "20"
+    ],
+    "wrong": [
+      ">5%",
+      ">10%",
+      ">50%"
+    ],
+    "lvl": 2,
+    "why": "Peak flow variability above 20% over 2 weeks supports asthma."
+  },
+  {
+    "id": "nf195bd2f",
+    "lo": "y2-204-8",
+    "q": "Acute severe asthma: PEF as % best?",
+    "shown": "33–50%",
+    "nums": [
+      "33",
+      "50"
+    ],
+    "wrong": [
+      "10–20%",
+      "50–75%",
+      "75–90%"
+    ],
+    "lvl": 2,
+    "why": "PEF 33–50% of best or predicted defines acute severe asthma; below 33% is life-threatening."
+  },
+  {
+    "id": "ne40034d3",
+    "lo": "y2-204-8",
+    "q": "Life-threatening asthma: sats below?",
+    "shown": "<92%",
+    "nums": [
+      "92"
+    ],
+    "wrong": [
+      "<85%",
+      "<88%",
+      "<95%"
+    ],
+    "lvl": 2,
+    "why": "Sats below 92% in acute asthma are a life-threatening feature, so check a blood gas."
+  },
+  {
+    "id": "n2e53dc99",
+    "lo": "y2-204-7",
+    "q": "IV magnesium sulfate dose in acute severe asthma?",
+    "shown": "2 g over 20 minutes",
+    "nums": [
+      "2",
+      "20"
+    ],
+    "wrong": [
+      "1 g over 2 minutes",
+      "4 g over 5 minutes",
+      "8 g over 1 hour"
+    ],
+    "lvl": 2,
+    "why": "A single 2 g IV dose of magnesium sulfate over 20 minutes relaxes bronchial smooth muscle in acute severe asthma."
+  },
+  {
+    "id": "n88052e9a",
+    "lo": "y2-204-19",
+    "q": "Cardiothoracic ratio above which the heart is enlarged (PA film)?",
+    "shown": ">0.5",
+    "nums": [
+      "0.5"
+    ],
+    "wrong": [
+      ">0.4",
+      ">0.6",
+      ">0.75"
+    ],
+    "lvl": 2,
+    "why": "On a PA film, a heart wider than half the chest width (CTR above 0.5) means cardiomegaly; AP films exaggerate heart size."
+  },
+  {
+    "id": "n81c735ad",
+    "lo": "y2-205-1",
+    "q": "Neutropenic sepsis: neutrophils below?",
+    "shown": "<0.5 × 10⁹/L",
+    "nums": [
+      "0.5"
+    ],
+    "wrong": [
+      "<0.1 × 10⁹/L",
+      "<1.5 × 10⁹/L",
+      "<4.0 × 10⁹/L"
+    ],
+    "lvl": 2,
+    "why": "Neutrophils below 0.5 × 10⁹/L with fever or sepsis means neutropenic sepsis, needing IV antibiotics within an hour."
+  },
+  {
+    "id": "n2f39db4b",
+    "lo": "y2-205-11",
+    "q": "AIDS-defining CD4 count?",
+    "shown": "<200 cells/μL",
+    "nums": [
+      "200"
+    ],
+    "wrong": [
+      "<50 cells/μL",
+      "<500 cells/μL",
+      "<1000 cells/μL"
+    ],
+    "lvl": 2,
+    "why": "A CD4 count below 200 cells/μL defines AIDS and greatly raises the risk of opportunistic infections such as PCP."
+  },
+  {
+    "id": "n7efc21bd",
+    "lo": "y2-205-12",
+    "q": "PEP must start within how many hours?",
+    "shown": "72 hours",
+    "nums": [
+      "72"
+    ],
+    "wrong": [
+      "12 hours",
+      "24 hours",
+      "7 days"
+    ],
+    "lvl": 2,
+    "why": "PEP must start within 72 hours, ideally within 24, to stop the virus establishing infection."
+  },
+  {
+    "id": "n92601539",
+    "lo": "y2-205-20",
+    "q": "Fixed-rate insulin dose in DKA?",
+    "shown": "0.1 units/kg/h",
+    "nums": [
+      "0.1"
+    ],
+    "wrong": [
+      "0.05 units/kg/h",
+      "0.5 units/kg/h",
+      "1 unit/kg/h"
+    ],
+    "lvl": 2,
+    "why": "A fixed-rate infusion of 0.1 units/kg/h switches off ketone production regardless of glucose level."
+  },
+  {
+    "id": "n30189904",
+    "lo": "y2-205-20",
+    "q": "Add 10% glucose in DKA when glucose falls below?",
+    "shown": "14 mmol/L",
+    "nums": [
+      "14"
+    ],
+    "wrong": [
+      "4 mmol/L",
+      "8 mmol/L",
+      "20 mmol/L"
+    ],
+    "lvl": 2,
+    "why": "Once glucose falls below 14 mmol/L, 10% glucose is added so insulin can continue clearing ketones without causing hypoglycaemia."
+  },
+  {
+    "id": "n6182b9be",
+    "lo": "y2-205-20",
+    "q": "DKA: ketones of at least?",
+    "shown": "≥3.0 mmol/L",
+    "nums": [
+      "3"
+    ],
+    "wrong": [
+      "≥1.0 mmol/L",
+      "≥1.5 mmol/L",
+      "≥6.0 mmol/L"
+    ],
+    "lvl": 2,
+    "why": "Ketones of 3.0 mmol/L or more (with acidosis and hyperglycaemia or known diabetes) define DKA."
+  },
+  {
+    "id": "n39113643",
+    "lo": "y2-205-20",
+    "q": "DKA resolution: ketones below and pH above?",
+    "shown": "Ketones <0.6, pH >7.3",
+    "nums": [
+      "0.6",
+      "7.3"
+    ],
+    "wrong": [
+      "Ketones <1.5, pH >7.2",
+      "Ketones <1.0, pH >7.35",
+      "Ketones <0.3, pH >7.45"
+    ],
+    "lvl": 2,
+    "why": "DKA has resolved when ketones are below 0.6 mmol/L and pH above 7.3; then switch to subcutaneous insulin."
+  },
+  {
+    "id": "ne21f9ac3",
+    "lo": "y2-206-6",
+    "q": "IBS: symptoms for how many months before diagnosis?",
+    "shown": "6 months",
+    "nums": [
+      "6"
+    ],
+    "wrong": [
+      "1 month",
+      "3 weeks",
+      "2 years"
+    ],
+    "lvl": 2,
+    "why": "Rome IV requires symptoms for the last 3 months with onset at least 6 months before diagnosis."
+  },
+  {
+    "id": "n1d275ff1",
+    "lo": "y2-206-10",
+    "q": "Starting feed rate in high refeeding risk?",
+    "shown": "5–10 kcal/kg/day",
+    "nums": [
+      "5",
+      "10"
+    ],
+    "wrong": [
+      "20–25 kcal/kg/day",
+      "30–35 kcal/kg/day",
+      "45–50 kcal/kg/day"
+    ],
+    "lvl": 3,
+    "why": "High-risk patients start at 5–10 kcal/kg/day and increase slowly to avoid refeeding syndrome."
+  },
+  {
+    "id": "nbbfbeb44",
+    "lo": "y2-206-26",
+    "q": "Upper normal diameters: small bowel / colon / caecum?",
+    "shown": "3 / 6 / 9 cm",
+    "nums": [
+      "3",
+      "6",
+      "9"
+    ],
+    "wrong": [
+      "2 / 4 / 6 cm",
+      "5 / 8 / 12 cm",
+      "1 / 3 / 5 cm"
+    ],
+    "lvl": 2,
+    "why": "The 3/6/9 rule: small bowel above 3 cm, colon above 6 cm and caecum above 9 cm are dilated."
+  },
+  {
+    "id": "n13564779",
+    "lo": "y2-207-2",
+    "q": "Severe OSA: AHI above?",
+    "shown": ">30 events/h",
+    "nums": [
+      "30"
+    ],
+    "wrong": [
+      ">5 events/h",
+      ">15 events/h",
+      ">60 events/h"
+    ],
+    "lvl": 3,
+    "why": "AHI counts apnoeas and hypopnoeas per hour: 5–14 mild, 15–30 moderate, above 30 severe."
+  },
+  {
+    "id": "n775cad7a",
+    "lo": "y2-207-1",
+    "q": "Epworth score above which sleepiness is excessive?",
+    "shown": ">10",
+    "nums": [
+      "10"
+    ],
+    "wrong": [
+      ">3",
+      ">16",
+      ">20"
+    ],
+    "lvl": 2,
+    "why": "An Epworth score above 10 (out of 24) means excessive daytime sleepiness."
+  },
+  {
+    "id": "ncae3a34f",
+    "lo": "y2-207-6",
+    "q": "NIV criteria in COPD: pH and PaCO₂?",
+    "shown": "pH <7.35, PaCO₂ >6.5 kPa",
+    "nums": [
+      "7.35",
+      "6.5"
+    ],
+    "wrong": [
+      "pH <7.0, PaCO₂ >9 kPa",
+      "pH <7.45, PaCO₂ >4.5 kPa",
+      "pH <7.25, PaCO₂ >12 kPa"
+    ],
+    "lvl": 2,
+    "why": "NIV is indicated for acute hypercapnic respiratory failure with pH below 7.35 and PaCO₂ above 6.5 kPa despite optimal treatment."
+  },
+  {
+    "id": "ne8995359",
+    "lo": "y2-209-13",
+    "q": "ACE-III total score?",
+    "shown": "100",
+    "nums": [
+      "100"
+    ],
+    "wrong": [
+      "50",
+      "120",
+      "150"
+    ],
+    "lvl": 2,
+    "why": "ACE-III is scored out of 100 across five cognitive domains."
+  },
+  {
+    "id": "n62355c9a",
+    "lo": "y2-209-13",
+    "q": "ACE-III cut-off with high specificity for dementia?",
+    "shown": "≤82",
+    "nums": [
+      "82"
+    ],
+    "wrong": [
+      "≤70",
+      "≤88",
+      "≤95"
+    ],
+    "lvl": 2,
+    "why": "A score of 82 or below has high specificity for dementia; 88 is the more sensitive cut-off."
+  },
+  {
+    "id": "n6f457e65",
+    "lo": "y2-209-27",
+    "q": "Thrombolysis window in ischaemic stroke?",
+    "shown": "4.5 hours",
+    "nums": [
+      "4.5"
+    ],
+    "wrong": [
+      "1 hour",
+      "3 hours",
+      "12 hours"
+    ],
+    "lvl": 2,
+    "why": "Alteplase is licensed within 4.5 hours of stroke onset; benefit falls and bleeding risk rises after that."
+  },
+  {
+    "id": "nddaad59e",
+    "lo": "y2-210-9",
+    "q": "AAA referral threshold?",
+    "shown": "≥5.5 cm",
+    "nums": [
+      "5.5"
+    ],
+    "wrong": [
+      "≥4.0 cm",
+      "≥4.5 cm",
+      "≥7.0 cm"
+    ],
+    "lvl": 2,
+    "why": "AAAs of 5.5 cm or more have a rupture risk that outweighs surgical risk, so they're referred within 2 weeks."
+  },
+  {
+    "id": "n4cf7a2b0",
+    "lo": "y2-210-9",
+    "q": "Age of men offered one-off AAA screening?",
+    "shown": "65",
+    "nums": [
+      "65"
+    ],
+    "wrong": [
+      "50",
+      "55",
+      "75"
+    ],
+    "lvl": 2,
+    "why": "Men are offered a one-off AAA screening ultrasound in the year they turn 65."
+  },
+  {
+    "id": "n0fc95f33",
+    "lo": "y2-210-41",
+    "q": "ABPI below which PAD is diagnosed?",
+    "shown": "<0.9",
+    "nums": [
+      "0.9"
+    ],
+    "wrong": [
+      "<0.5",
+      "<1.2",
+      "<1.4"
+    ],
+    "lvl": 2,
+    "why": "An ABPI below 0.9 indicates peripheral arterial disease."
+  },
+  {
+    "id": "n4ba89575",
+    "lo": "y2-210-41",
+    "q": "ABPI at or above which full compression is safe?",
+    "shown": "≥0.8",
+    "nums": [
+      "0.8"
+    ],
+    "wrong": [
+      "≥0.3",
+      "≥0.5",
+      "≥1.0"
+    ],
+    "lvl": 2,
+    "why": "Full compression is generally safe when ABPI is 0.8 or above; below that, arterial supply may be too poor."
+  },
+  {
+    "id": "n3f1c4700",
+    "lo": "y2-210-41",
+    "q": "ABPI suggesting calcified incompressible arteries?",
+    "shown": ">1.3",
+    "nums": [
+      "1.3"
+    ],
+    "wrong": [
+      ">0.9",
+      ">1.0",
+      ">1.1"
+    ],
+    "lvl": 2,
+    "why": "An ABPI above 1.3 suggests calcified, incompressible arteries (diabetes, CKD) and is unreliable."
+  },
+  {
+    "id": "n283361e6",
+    "lo": "y2-210-12",
+    "q": "Compartment syndrome: ΔP (diastolic − compartment) below?",
+    "shown": "<30 mmHg",
+    "nums": [
+      "30"
+    ],
+    "wrong": [
+      "<5 mmHg",
+      "<60 mmHg",
+      "<90 mmHg"
+    ],
+    "lvl": 3,
+    "why": "A perfusion pressure (diastolic minus compartment pressure) below 30 mmHg indicates compartment syndrome needing fasciotomy."
+  },
+  {
+    "id": "nac1a6702",
+    "lo": "y2-210-29",
+    "q": "Hip fracture surgery should happen within?",
+    "shown": "36 hours",
+    "nums": [
+      "36"
+    ],
+    "wrong": [
+      "6 hours",
+      "72 hours",
+      "7 days"
+    ],
+    "lvl": 2,
+    "why": "Surgery within 36 hours reduces mortality and complications after hip fracture."
+  },
+  {
+    "id": "n69bc9cd2",
+    "lo": "y2-211-2",
+    "q": "NT-proBNP above which echo is needed within 2 weeks?",
+    "shown": ">2000 ng/L",
+    "nums": [
+      "2000"
+    ],
+    "wrong": [
+      ">125 ng/L",
+      ">400 ng/L",
+      ">10000 ng/L"
+    ],
+    "lvl": 2,
+    "why": "NT-proBNP above 2000 ng/L means a high chance of heart failure, so echo and specialist review within 2 weeks."
+  },
+  {
+    "id": "n1bf8b381",
+    "lo": "y2-211-2",
+    "q": "HFrEF: LVEF at or below?",
+    "shown": "≤40%",
+    "nums": [
+      "40"
+    ],
+    "wrong": [
+      "≤20%",
+      "≤55%",
+      "≤65%"
+    ],
+    "lvl": 2,
+    "why": "An LVEF of 40% or below defines HFrEF."
+  },
+  {
+    "id": "nd5023c64",
+    "lo": "y2-211-4",
+    "q": "ICD for primary prevention if LVEF at or below?",
+    "shown": "≤35%",
+    "nums": [
+      "35"
+    ],
+    "wrong": [
+      "≤15%",
+      "≤45%",
+      "≤55%"
+    ],
+    "lvl": 3,
+    "why": "An ICD is considered for primary prevention when LVEF is 35% or below despite optimal treatment, because the risk of sudden arrhythmic death is high."
+  },
+  {
+    "id": "n79c68ab6",
+    "lo": "y2-212-3",
+    "q": "Methotrexate for ectopic pregnancy if hCG is below?",
+    "shown": "<1500 IU/L",
+    "nums": [
+      "1500"
+    ],
+    "wrong": [
+      "<100 IU/L",
+      "<10,000 IU/L",
+      "<50,000 IU/L"
+    ],
+    "lvl": 3,
+    "why": "Methotrexate works best for small, unruptured ectopics with hCG below 1500 IU/L, no heartbeat and little pain."
+  },
+  {
+    "id": "nd5a86c0e",
+    "lo": "y2-212-10",
+    "q": "Average age of menopause in the UK?",
+    "shown": "51",
+    "nums": [
+      "51"
+    ],
+    "wrong": [
+      "41",
+      "45",
+      "58"
+    ],
+    "lvl": 2,
+    "why": "The average age of menopause in the UK is 51."
+  },
+  {
+    "id": "n58d58c44",
+    "lo": "y2-212-11",
+    "q": "Premature ovarian insufficiency: before what age?",
+    "shown": "<40",
+    "nums": [
+      "40"
+    ],
+    "wrong": [
+      "<30",
+      "<45",
+      "<50"
+    ],
+    "lvl": 2,
+    "why": "Menopause before 40 is premature ovarian insufficiency."
+  },
+  {
+    "id": "nf42f9ad1",
+    "lo": "y2-212-8",
+    "q": "Down's screening \"higher chance\" cut-off?",
+    "shown": "≥1 in 150",
+    "nums": [
+      "150"
+    ],
+    "wrong": [
+      "≥1 in 10",
+      "≥1 in 1000",
+      "≥1 in 5000"
+    ],
+    "lvl": 3,
+    "why": "A combined test result of 1 in 150 or higher counts as a \"higher chance\", leading to the offer of NIPT or invasive testing."
+  },
+  {
+    "id": "n13ee60ef",
+    "lo": "y2-213-2",
+    "q": "Wells PE score above which CTPA is first?",
+    "shown": ">4",
+    "nums": [
+      "4"
+    ],
+    "wrong": [
+      ">1",
+      ">2",
+      ">6"
+    ],
+    "lvl": 2,
+    "why": "A Wells score over 4 means PE is likely, so request CTPA straight away."
+  },
+  {
+    "id": "neee5005b",
+    "lo": "y2-213-7",
+    "q": "Anticoagulation for a provoked PE?",
+    "shown": "3 months",
+    "nums": [
+      "3"
+    ],
+    "wrong": [
+      "2 weeks",
+      "6 months",
+      "lifelong"
+    ],
+    "lvl": 2,
+    "why": "Three months of anticoagulation is usually enough for a PE with a clear temporary trigger."
+  },
+  {
+    "id": "n0d23ca8b",
+    "lo": "y2-213-5",
+    "q": "Pulmonary hypertension: mean PA pressure above (2022)?",
+    "shown": ">20 mmHg",
+    "nums": [
+      "20"
+    ],
+    "wrong": [
+      ">15 mmHg",
+      ">25 mmHg",
+      ">35 mmHg"
+    ],
+    "lvl": 3,
+    "why": "The 2022 ESC/ERS definition lowered the threshold to mean PA pressure above 20 mmHg at rest."
+  },
+  {
+    "id": "n8e232282",
+    "lo": "y2-213-15",
+    "q": "Normal PaCO₂ range (kPa)?",
+    "shown": "4.7–6.0",
+    "nums": [
+      "4.7",
+      "6"
+    ],
+    "wrong": [
+      "2.0–3.5",
+      "6.5–8.0",
+      "9.0–12.0"
+    ],
+    "lvl": 2,
+    "why": "Normal PaCO₂ is 4.7–6.0 kPa; above that is hypercapnia (respiratory acidosis if acute)."
+  },
+  {
+    "id": "n4c50507c",
+    "lo": "y2-213-15",
+    "q": "Normal PaO₂ on air (kPa)?",
+    "shown": "10–13",
+    "nums": [
+      "10",
+      "13"
+    ],
+    "wrong": [
+      "4–6",
+      "6–8",
+      "15–20"
+    ],
+    "lvl": 2,
+    "why": "Normal PaO₂ breathing air is about 10–13 kPa."
+  },
+  {
+    "id": "n81f83e79",
+    "lo": "y2-213-15",
+    "q": "Respiratory failure: PaO₂ below (kPa)?",
+    "shown": "<8",
+    "nums": [
+      "8"
+    ],
+    "wrong": [
+      "<4",
+      "<10",
+      "<12"
+    ],
+    "lvl": 2,
+    "why": "Respiratory failure is PaO₂ below 8 kPa; it's type 2 if PaCO₂ is above 6."
+  },
+  {
+    "id": "n1a2fe812",
+    "lo": "y2-212-25",
+    "q": "Primary PCI if it can be delivered within how many minutes?",
+    "shown": "120 minutes",
+    "nums": [
+      "120"
+    ],
+    "wrong": [
+      "30 minutes",
+      "60 minutes",
+      "240 minutes"
+    ],
+    "lvl": 2,
+    "why": "Primary PCI is preferred if it can be delivered within 120 minutes of when fibrinolysis could have been given; otherwise give fibrinolysis."
+  },
+  {
+    "id": "ne4a663e4",
+    "lo": "y2-212-25",
+    "q": "Aspirin loading dose in ACS?",
+    "shown": "300 mg",
+    "nums": [
+      "300"
+    ],
+    "wrong": [
+      "75 mg",
+      "150 mg",
+      "600 mg"
+    ],
+    "lvl": 2,
+    "why": "300 mg aspirin rapidly inhibits platelet thromboxane in acute coronary syndromes."
+  },
+  {
+    "id": "n11a90b8e",
+    "lo": "y2-212-26",
+    "q": "Length of dual antiplatelet therapy after ACS?",
+    "shown": "12 months",
+    "nums": [
+      "12"
+    ],
+    "wrong": [
+      "1 month",
+      "2 years",
+      "lifelong"
+    ],
+    "lvl": 2,
+    "why": "Dual antiplatelet therapy usually lasts 12 months after ACS."
+  },
+  {
+    "id": "nb614c115",
+    "lo": "y2-212-28",
+    "q": "Driving after successful PCI for ACS (LVEF >40%)?",
+    "shown": "1 week",
+    "nums": [
+      "1"
+    ],
+    "wrong": [
+      "24 hours",
+      "6 weeks",
+      "6 months"
+    ],
+    "lvl": 3,
+    "why": "After successful PCI with LVEF above 40%, car drivers can usually resume after 1 week (4 weeks otherwise)."
+  },
+  {
+    "id": "n5a300cc8",
+    "lo": "a-102-2",
+    "q": "Vertebral level of the transpyloric plane?",
+    "shown": "L1",
+    "nums": [
+      "1"
+    ],
+    "wrong": [
+      "L3",
+      "T10",
+      "T12"
+    ],
+    "lvl": 1,
+    "why": "Halfway between the jugular notch and the pubic symphysis, it crosses the pylorus, pancreatic neck, renal hila and SMA origin."
+  },
+  {
+    "id": "n3f17e9c9",
+    "lo": "a-102-2",
+    "q": "Vertebral level of the umbilicus (in a slim adult)?",
+    "shown": "L3/4",
+    "nums": [
+      "3",
+      "4"
+    ],
+    "wrong": [
+      "L1/2",
+      "T10/11",
+      "L5/S1"
+    ],
+    "lvl": 1,
+    "why": "The umbilicus lies at about the L3/4 disc, in the T10 dermatome; it moves down with obesity and age."
+  },
+  {
+    "id": "nfe2c7f33",
+    "lo": "a-111-4",
+    "q": "Approximate length of the adult ureter?",
+    "shown": "~25 cm",
+    "nums": [
+      "25"
+    ],
+    "wrong": [
+      "~10 cm",
+      "~40 cm",
+      "~55 cm"
+    ],
+    "lvl": 1,
+    "why": "About 25 cm, half in the abdomen and half in the pelvis; it narrows at the PUJ, pelvic brim and VUJ."
+  },
+  {
+    "id": "n508f9bc3",
+    "lo": "a-111-5",
+    "q": "Normal adult bladder capacity?",
+    "shown": "~500 mL",
+    "nums": [
+      "500"
+    ],
+    "wrong": [
+      "~150 mL",
+      "~1000 mL",
+      "~1500 mL"
+    ],
+    "lvl": 1,
+    "why": "Roughly 400–600 mL; the first urge to void comes at about 150–300 mL."
+  },
+  {
+    "id": "nd374815f",
+    "lo": "a-111-7",
+    "q": "Length of the female urethra?",
+    "shown": "~4 cm",
+    "nums": [
+      "4"
+    ],
+    "wrong": [
+      "~1 cm",
+      "~8 cm",
+      "~12 cm"
+    ],
+    "lvl": 1,
+    "why": "Short and straight, so UTIs are commoner in women and catheterisation is easier."
+  },
+  {
+    "id": "n16877e52",
+    "lo": "a-111-7",
+    "q": "Total length of the male urethra?",
+    "shown": "~20 cm",
+    "nums": [
+      "20"
+    ],
+    "wrong": [
+      "~6 cm",
+      "~10 cm",
+      "~35 cm"
+    ],
+    "lvl": 1,
+    "why": "About 18–22 cm: prostatic (3–4 cm), membranous (1–2 cm) and spongy (~15 cm) parts."
+  },
+  {
+    "id": "neeae94b3",
+    "lo": "a-112-1",
+    "q": "Total degrees of midgut rotation around the SMA?",
+    "shown": "270°",
+    "nums": [
+      "270"
+    ],
+    "wrong": [
+      "90°",
+      "180°",
+      "360°"
+    ],
+    "lvl": 1,
+    "why": "90° while herniated and 180° on returning, all anticlockwise viewed from the front."
+  },
+  {
+    "id": "nae5a0323",
+    "lo": "a-112-1",
+    "q": "Week by which the herniated midgut has returned to the abdomen?",
+    "shown": "Week 10",
+    "nums": [
+      "10"
+    ],
+    "wrong": [
+      "Week 4",
+      "Week 6",
+      "Week 16"
+    ],
+    "lvl": 1,
+    "why": "It herniates in week 6, rotates, and is back by the end of week 10."
+  },
+  {
+    "id": "n2301a485",
+    "lo": "a-112-1",
+    "q": "Meckel's diverticulum lies about how far from the ileocaecal valve?",
+    "shown": "~60 cm (2 feet)",
+    "nums": [
+      "60",
+      "2"
+    ],
+    "wrong": [
+      "~6 cm (2 inches)",
+      "~150 cm (5 feet)",
+      "~3 cm (1 inch)"
+    ],
+    "lvl": 1,
+    "why": "Rule of 2s: 2% of people, 2 feet from the ileocaecal valve, 2 inches long, 2 tissue types."
+  },
+  {
+    "id": "n9b2e1e1d",
+    "lo": "a-113-4",
+    "q": "Number of tendons passing through the carpal tunnel?",
+    "shown": "9",
+    "nums": [
+      "9"
+    ],
+    "wrong": [
+      "4",
+      "6",
+      "12"
+    ],
+    "lvl": 1,
+    "why": "Four FDS, four FDP and FPL, plus the median nerve."
+  },
+  {
+    "id": "nc465718b",
+    "lo": "a-113-14",
+    "q": "Number of carpal bones in one wrist?",
+    "shown": "8",
+    "nums": [
+      "8"
+    ],
+    "wrong": [
+      "5",
+      "7",
+      "10"
+    ],
+    "lvl": 1,
+    "why": "Proximal row: scaphoid, lunate, triquetrum, pisiform; distal row: trapezium, trapezoid, capitate, hamate."
+  },
+  {
+    "id": "n695e797c",
+    "lo": "a-113-15",
+    "q": "Number of phalanges in one hand?",
+    "shown": "14",
+    "nums": [
+      "14"
+    ],
+    "wrong": [
+      "10",
+      "12",
+      "15"
+    ],
+    "lvl": 1,
+    "why": "Two in the thumb and three in each finger."
+  },
+  {
+    "id": "nd13b623c",
+    "lo": "a-114-7",
+    "q": "Gestation at which the uterine fundus reaches the umbilicus?",
+    "shown": "~20 weeks",
+    "nums": [
+      "20"
+    ],
+    "wrong": [
+      "~12 weeks",
+      "~28 weeks",
+      "~36 weeks"
+    ],
+    "lvl": 1,
+    "why": "It reaches the symphysis at ~12 weeks and the xiphisternum at ~36 weeks."
+  },
+  {
+    "id": "n591f7ae0",
+    "lo": "a-114-7",
+    "q": "Distance of the ureter from the cervix?",
+    "shown": "~2 cm",
+    "nums": [
+      "2"
+    ],
+    "wrong": [
+      "~0.5 cm",
+      "~5 cm",
+      "~8 cm"
+    ],
+    "lvl": 1,
+    "why": "About 1.5–2 cm lateral to the supravaginal cervix, under the uterine artery, so it is at risk at hysterectomy."
+  },
+  {
+    "id": "n03cb4e2b",
+    "lo": "a-115-8",
+    "q": "Swelling within how many hours of a knee injury suggests haemarthrosis?",
+    "shown": "~2 hours",
+    "nums": [
+      "2"
+    ],
+    "wrong": [
+      "~12 hours",
+      "~24 hours",
+      "~48 hours"
+    ],
+    "lvl": 1,
+    "why": "Rapid swelling means bleeding (ACL tear, fracture); a meniscal tear swells slowly over a day."
+  },
+  {
+    "id": "n124afe77",
+    "lo": "a-125-3",
+    "q": "Age at which the triradiate cartilage of the acetabulum fuses?",
+    "shown": "~15–17 years",
+    "nums": [
+      "15",
+      "17"
+    ],
+    "wrong": [
+      "~2–4 years",
+      "~6–8 years",
+      "~20–25 years"
+    ],
+    "lvl": 1,
+    "why": "The ilium, ischium and pubis meet here; it fuses after puberty."
+  },
+  {
+    "id": "n6943c53e",
+    "lo": "a-125-4",
+    "q": "Position of the great saphenous vein at the ankle relative to the medial malleolus?",
+    "shown": "~1 cm anterior and superior",
+    "nums": [
+      "1"
+    ],
+    "wrong": [
+      "~3 cm anterior and superior",
+      "~5 cm posterior and inferior",
+      "~3 cm posterior and inferior"
+    ],
+    "lvl": 1,
+    "why": "A constant position, used for emergency venous cut-down even when veins are collapsed."
+  },
+  {
+    "id": "nea8a9abc",
+    "lo": "a-126-4",
+    "q": "Tracheal rings covered by the thyroid isthmus?",
+    "shown": "Rings 2–4",
+    "nums": [
+      "2",
+      "4"
+    ],
+    "wrong": [
+      "Rings 1–2",
+      "Rings 5–7",
+      "Rings 7–9"
+    ],
+    "lvl": 1,
+    "why": "The isthmus may need dividing at surgical tracheostomy."
+  },
+  {
+    "id": "n9eb540a9",
+    "lo": "a-127-1",
+    "q": "Vertebral level of the hyoid bone?",
+    "shown": "C3",
+    "nums": [
+      "3"
+    ],
+    "wrong": [
+      "C1",
+      "C5",
+      "C7"
+    ],
+    "lvl": 1,
+    "why": "The thyroid cartilage is at C4–5 and the cricoid at C6."
+  },
+  {
+    "id": "n6c46037e",
+    "lo": "a-127-6",
+    "q": "Vertebral level of the common carotid bifurcation?",
+    "shown": "C4",
+    "nums": [
+      "4"
+    ],
+    "wrong": [
+      "C2",
+      "C6",
+      "T1"
+    ],
+    "lvl": 1,
+    "why": "At the upper border of the thyroid cartilage."
+  },
+  {
+    "id": "ne7c64a22",
+    "lo": "a-127-12",
+    "q": "Distance above the clavicle at which the accessory nerve enters trapezius?",
+    "shown": "~5 cm",
+    "nums": [
+      "5"
+    ],
+    "wrong": [
+      "~1 cm",
+      "~10 cm",
+      "~20 cm"
+    ],
+    "lvl": 1,
+    "why": "It crosses the posterior triangle superficially and is easily cut in lymph node biopsy."
+  },
+  {
+    "id": "n4a871302",
+    "lo": "a-127-15",
+    "q": "Distance from the incisor teeth to the upper oesophageal sphincter?",
+    "shown": "~15 cm",
+    "nums": [
+      "15"
+    ],
+    "wrong": [
+      "~8 cm",
+      "~25 cm",
+      "~40 cm"
+    ],
+    "lvl": 1,
+    "why": "Cricopharyngeus at C6; the lower sphincter is about 40 cm from the teeth."
+  },
+  {
+    "id": "n164f7c2b",
+    "lo": "a-128-1",
+    "q": "Gestation from which surfactant is adequate in most fetuses?",
+    "shown": "~34–35 weeks",
+    "nums": [
+      "34",
+      "35"
+    ],
+    "wrong": [
+      "~20–24 weeks",
+      "~28–29 weeks",
+      "~38–40 weeks"
+    ],
+    "lvl": 1,
+    "why": "Type II pneumocytes start making it at ~20–24 weeks; antenatal steroids are given if preterm birth is expected."
+  },
+  {
+    "id": "n965411c7",
+    "lo": "a-128-1",
+    "q": "Age by which most alveoli have formed?",
+    "shown": "~8 years",
+    "nums": [
+      "8"
+    ],
+    "wrong": [
+      "~6 months",
+      "~2 years",
+      "~16 years"
+    ],
+    "lvl": 1,
+    "why": "Most alveoli form after birth, through early childhood."
+  },
+  {
+    "id": "nfe32a158",
+    "lo": "a-133-2",
+    "q": "Number of pairs of spinal nerves?",
+    "shown": "31",
+    "nums": [
+      "31"
+    ],
+    "wrong": [
+      "24",
+      "33",
+      "36"
+    ],
+    "lvl": 1,
+    "why": "8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal."
+  },
+  {
+    "id": "n333b9102",
+    "lo": "a-133-12",
+    "q": "Vertebral level at which the adult spinal cord ends?",
+    "shown": "L1/2",
+    "nums": [
+      "1",
+      "2"
+    ],
+    "wrong": [
+      "T11/12",
+      "L3/4",
+      "L5/S1"
+    ],
+    "lvl": 1,
+    "why": "It ends at about L3 at birth; lumbar puncture is done at L3/4 or L4/5."
+  },
+  {
+    "id": "n841287f5",
+    "lo": "a-133-12",
+    "q": "Vertebral level at which the dural sac ends?",
+    "shown": "S2",
+    "nums": [
+      "2"
+    ],
+    "wrong": [
+      "L1",
+      "L5",
+      "S4"
+    ],
+    "lvl": 1,
+    "why": "The subarachnoid space with the cauda equina continues down to S2."
+  },
+  {
+    "id": "n572cd8c6",
+    "lo": "a-134-1",
+    "q": "Vertebral level at which the arch of the aorta begins and ends?",
+    "shown": "T4/5",
+    "nums": [
+      "4",
+      "5"
+    ],
+    "wrong": [
+      "T1/2",
+      "T7/8",
+      "T9/10"
+    ],
+    "lvl": 1,
+    "why": "At the sternal angle, which also marks the tracheal bifurcation and the 2nd costal cartilage."
+  },
+  {
+    "id": "nb859f8ba",
+    "lo": "a-134-7",
+    "q": "Volume of rapidly collecting fluid that can cause cardiac tamponade?",
+    "shown": "~100–200 mL",
+    "nums": [
+      "100",
+      "200"
+    ],
+    "wrong": [
+      "~10–20 mL",
+      "~500–1000 mL",
+      "~1500–2000 mL"
+    ],
+    "lvl": 1,
+    "why": "The fibrous pericardium can't stretch quickly; a slow effusion can reach litres before tamponade."
+  },
+  {
+    "id": "nd2aeb2a7",
+    "lo": "a-134-2",
+    "q": "Proportion of hearts that are right-dominant?",
+    "shown": "~70%",
+    "nums": [
+      "70"
+    ],
+    "wrong": [
+      "~10%",
+      "~30%",
+      "~50%"
+    ],
+    "lvl": 1,
+    "why": "The RCA gives the posterior descending artery in most people; ~10% are left-dominant, the rest co-dominant."
+  },
+  {
+    "id": "n471bb79c",
+    "lo": "a-135-10",
+    "q": "Vertebral level of the aortic bifurcation?",
+    "shown": "L4",
+    "nums": [
+      "4"
+    ],
+    "wrong": [
+      "L1",
+      "L2",
+      "S1"
+    ],
+    "lvl": 1,
+    "why": "About the level of the umbilicus and iliac crests."
+  },
+  {
+    "id": "n7dbe93b1",
+    "lo": "a-135-10",
+    "q": "Vertebral level of the coeliac trunk?",
+    "shown": "T12",
+    "nums": [
+      "12"
+    ],
+    "wrong": [
+      "T6",
+      "T10",
+      "L2"
+    ],
+    "lvl": 1,
+    "why": "SMA at L1, renal arteries at L1/2, gonadal at L2, IMA at L3."
+  },
+  {
+    "id": "n05196bae",
+    "lo": "a-135-10",
+    "q": "Vertebral level of the inferior mesenteric artery?",
+    "shown": "L3",
+    "nums": [
+      "3"
+    ],
+    "wrong": [
+      "T10",
+      "L1",
+      "S1"
+    ],
+    "lvl": 1,
+    "why": "Coeliac T12, SMA L1, IMA L3."
+  },
+  {
+    "id": "nd4442163",
+    "lo": "a-135-11",
+    "q": "Vertebral level at which the IVC passes through the diaphragm?",
+    "shown": "T8",
+    "nums": [
+      "8"
+    ],
+    "wrong": [
+      "T4",
+      "T6",
+      "T10"
+    ],
+    "lvl": 1,
+    "why": "\"I 8 10 eggs at 12\": IVC T8, oesophagus T10, aorta T12."
+  },
+  {
+    "id": "n387681ed",
+    "lo": "a-135-11",
+    "q": "Vertebral level at which the IVC is formed?",
+    "shown": "L5",
+    "nums": [
+      "5"
+    ],
+    "wrong": [
+      "L1",
+      "L2",
+      "S2"
+    ],
+    "lvl": 1,
+    "why": "The common iliac veins join behind the right common iliac artery."
+  },
+  {
+    "id": "n4c358fb5",
+    "lo": "a-135-10",
+    "q": "Aortic diameter at which elective AAA repair is usually considered?",
+    "shown": "≥5.5 cm",
+    "nums": [
+      "5.5"
+    ],
+    "wrong": [
+      "≥3.0 cm",
+      "≥4.0 cm",
+      "≥7.5 cm"
+    ],
+    "lvl": 1,
+    "why": "Above 5.5 cm the rupture risk outweighs the risk of surgery; 3.0 cm defines an aneurysm."
+  },
+  {
+    "id": "nc4d35715",
+    "lo": "a-135-1",
+    "q": "Approximate length of an adult kidney?",
+    "shown": "~11 cm",
+    "nums": [
+      "11"
+    ],
+    "wrong": [
+      "~5 cm",
+      "~20 cm",
+      "~25 cm"
+    ],
+    "lvl": 1,
+    "why": "About 10–12 cm; a difference of more than 2 cm between sides is significant."
+  },
+  {
+    "id": "n7d6906ed",
+    "lo": "a-136-2",
+    "q": "Number of deciduous teeth?",
+    "shown": "20",
+    "nums": [
+      "20"
+    ],
+    "wrong": [
+      "16",
+      "24",
+      "32"
+    ],
+    "lvl": 1,
+    "why": "Five per quadrant: 2 incisors, 1 canine, 2 molars."
+  },
+  {
+    "id": "n620218b6",
+    "lo": "a-136-2",
+    "q": "Age at which the first permanent molars erupt?",
+    "shown": "~6 years",
+    "nums": [
+      "6"
+    ],
+    "wrong": [
+      "~2 years",
+      "~10 years",
+      "~14 years"
+    ],
+    "lvl": 1,
+    "why": "They erupt behind the deciduous teeth without replacing any."
+  },
+  {
+    "id": "n6812d903",
+    "lo": "a-136-13",
+    "q": "Age at which the anterior fontanelle usually closes?",
+    "shown": "~18 months",
+    "nums": [
+      "18"
+    ],
+    "wrong": [
+      "~2 months",
+      "~6 months",
+      "~36 months"
+    ],
+    "lvl": 1,
+    "why": "The posterior fontanelle closes at about 2–3 months."
+  },
+  {
+    "id": "ne1aa6a1e",
+    "lo": "a-139-11",
+    "q": "Vertebral level of cricopharyngeus?",
+    "shown": "C6",
+    "nums": [
+      "6"
+    ],
+    "wrong": [
+      "C2",
+      "C4",
+      "T2"
+    ],
+    "lvl": 1,
+    "why": "The pharynx becomes the oesophagus and the larynx becomes the trachea at C6."
+  },
+  {
+    "id": "ncb4f534e",
+    "lo": "a-141-12",
+    "q": "Time within which a torted testis should be untwisted to give the best chance of saving it?",
+    "shown": "~6 hours",
+    "nums": [
+      "6"
+    ],
+    "wrong": [
+      "~1 hour",
+      "~24 hours",
+      "~72 hours"
+    ],
+    "lvl": 1,
+    "why": "Salvage falls sharply after 6 hours; both testes are fixed at surgery."
+  },
+  {
+    "id": "n3f300c52",
+    "lo": "a-141-11",
+    "q": "Vertebral level of origin of the testicular arteries?",
+    "shown": "L2",
+    "nums": [
+      "2"
+    ],
+    "wrong": [
+      "T10",
+      "L4",
+      "S1"
+    ],
+    "lvl": 1,
+    "why": "The testes develop on the posterior abdominal wall and bring their arteries with them."
+  },
+  {
+    "id": "n997b3aaf",
+    "lo": "a-141-7",
+    "q": "How far below core temperature are the testes kept?",
+    "shown": "~2–3 °C",
+    "nums": [
+      "2",
+      "3"
+    ],
+    "wrong": [
+      "~0.5–1 °C",
+      "~5–6 °C",
+      "~8–10 °C"
+    ],
+    "lvl": 1,
+    "why": "The pampiniform plexus and the dartos and cremaster muscles keep the testes cool for spermatogenesis."
+  },
+  {
+    "id": "nc1ae670b",
+    "lo": "a-142-1",
+    "q": "Number of bones forming the orbit?",
+    "shown": "7",
+    "nums": [
+      "7"
+    ],
+    "wrong": [
+      "4",
+      "5",
+      "9"
+    ],
+    "lvl": 1,
+    "why": "Frontal, sphenoid, ethmoid, lacrimal, maxilla, zygomatic and palatine."
+  },
+  {
+    "id": "n88ad968e",
+    "lo": "y2-204-28",
+    "q": "Proportion of salivary stones that form in the submandibular gland?",
+    "shown": "~80%",
+    "nums": [
+      "80"
+    ],
+    "wrong": [
+      "~10%",
+      "~30%",
+      "~50%"
+    ],
+    "lvl": 2,
+    "why": "Its saliva is thicker and more alkaline, and its duct is long and runs uphill."
+  },
+  {
+    "id": "nbaed9430",
+    "lo": "y2-204-30",
+    "q": "Number of circumvallate papillae on the tongue?",
+    "shown": "8–12",
+    "nums": [
+      "8",
+      "12"
+    ],
+    "wrong": [
+      "2–4",
+      "20–30",
+      "50–60"
+    ],
+    "lvl": 2,
+    "why": "They form a V in front of the sulcus terminalis and carry many taste buds; supplied by the glossopharyngeal nerve."
+  },
+  {
+    "id": "nca710516",
+    "lo": "y2-208-34",
+    "q": "Roughly how much does the middle ear increase sound pressure?",
+    "shown": "~20 times",
+    "nums": [
+      "20"
+    ],
+    "wrong": [
+      "~2 times",
+      "~5 times",
+      "~100 times"
+    ],
+    "lvl": 2,
+    "why": "The eardrum is about 17 times the area of the stapes footplate, and the ossicles add a small lever gain, matching air to fluid."
+  },
+  {
+    "id": "n24df4182",
+    "lo": "y2-208-25",
+    "q": "Length of the adult auditory tube?",
+    "shown": "~3.5 cm",
+    "nums": [
+      "3.5"
+    ],
+    "wrong": [
+      "~1 cm",
+      "~7 cm",
+      "~10 cm"
+    ],
+    "lvl": 2,
+    "why": "In infants it is about half as long and more horizontal, so middle ear infections are commoner."
+  },
+  {
+    "id": "nbca0e589",
+    "lo": "y2-212-35",
+    "q": "Typical subpubic angle in a female pelvis?",
+    "shown": "~90°",
+    "nums": [
+      "90"
+    ],
+    "wrong": [
+      "~30°",
+      "~60°",
+      "~120°"
+    ],
+    "lvl": 2,
+    "why": "The male angle is narrower (about 50–60°), like the angle between two spread fingers versus thumb and index finger."
+  },
+  {
+    "id": "n1c21241a",
+    "lo": "y2-213-22",
+    "q": "Normal pulmonary artery pressure?",
+    "shown": "~25/10 mmHg",
+    "nums": [
+      "25",
+      "10"
+    ],
+    "wrong": [
+      "~60/30 mmHg",
+      "~120/80 mmHg",
+      "~180/110 mmHg"
+    ],
+    "lvl": 2,
+    "why": "The pulmonary circulation is a low-pressure, low-resistance system, so the right ventricle is thin-walled."
+  },
+  {
+    "id": "n51fb9ee9",
+    "lo": "y2-213-26",
+    "q": "Thickness of the alveolar–capillary barrier?",
+    "shown": "~0.5 µm",
+    "nums": [
+      "0.5"
+    ],
+    "wrong": [
+      "~5 µm",
+      "~20 µm",
+      "~50 µm"
+    ],
+    "lvl": 2,
+    "why": "Type I pneumocytes and capillary endothelium share a fused basement membrane, so gases diffuse quickly."
+  },
+  {
+    "id": "n6031a77c",
+    "lo": "y2-213-26",
+    "q": "Approximate number of alveoli in adult lungs?",
+    "shown": "~300 million",
+    "nums": [
+      "300"
+    ],
+    "wrong": [
+      "~3 million",
+      "~30 million",
+      "~3000 million"
+    ],
+    "lvl": 2,
+    "why": "They give a gas exchange surface of about 70 m²."
+  },
+  {
+    "id": "nd8577685",
+    "lo": "y2-220-19",
+    "q": "Normal carrying angle of the elbow?",
+    "shown": "~10–15°",
+    "nums": [
+      "10",
+      "15"
+    ],
+    "wrong": [
+      "~0–5°",
+      "~25–30°",
+      "~40–45°"
+    ],
+    "lvl": 2,
+    "why": "The forearm angles outwards in extension, more in women; a changed angle after a supracondylar fracture gives cubitus varus or valgus."
+  },
+  {
+    "id": "nb2cb38da",
+    "lo": "y2-221-15",
+    "q": "Daily production of cerebrospinal fluid?",
+    "shown": "~500 mL/day",
+    "nums": [
+      "500"
+    ],
+    "wrong": [
+      "~50 mL/day",
+      "~1500 mL/day",
+      "~3000 mL/day"
+    ],
+    "lvl": 2,
+    "why": "Made by the choroid plexus; the CSF is replaced about 3–4 times a day."
+  },
+  {
+    "id": "nb2c15f82",
+    "lo": "y2-221-15",
+    "q": "Total volume of cerebrospinal fluid at any time?",
+    "shown": "~150 mL",
+    "nums": [
+      "150"
+    ],
+    "wrong": [
+      "~30 mL",
+      "~75 mL",
+      "~1000 mL"
+    ],
+    "lvl": 2,
+    "why": "About 25 mL is in the ventricles and the rest in the subarachnoid space."
+  },
+  {
+    "id": "n3a597c60",
+    "lo": "y2-221-14",
+    "q": "Normal CSF opening pressure at lumbar puncture (lying on the side)?",
+    "shown": "10–20 cmH₂O",
+    "nums": [
+      "10",
+      "20"
+    ],
+    "wrong": [
+      "1–5 cmH₂O",
+      "30–40 cmH₂O",
+      "50–60 cmH₂O"
+    ],
+    "lvl": 2,
+    "why": "Raised in idiopathic intracranial hypertension, meningitis and venous sinus thrombosis."
+  },
+  {
+    "id": "n7146844b",
+    "lo": "y2-228-25",
+    "q": "How often are women screened with mammography in the NHS?",
+    "shown": "Every 3 years",
+    "nums": [
+      "3"
+    ],
+    "wrong": [
+      "Every 1 year",
+      "Every 2 years",
+      "Every 5 years"
+    ],
+    "lvl": 2,
+    "why": "From 50 up to the 71st birthday; younger high-risk women may be screened yearly with MRI."
+  },
+  {
+    "id": "n4ca8af95",
+    "lo": "y2-229-20",
+    "q": "Typical length of the adult spleen?",
+    "shown": "~12 cm",
+    "nums": [
+      "12"
+    ],
+    "wrong": [
+      "~5 cm",
+      "~20 cm",
+      "~30 cm"
+    ],
+    "lvl": 2,
+    "why": "\"1, 3, 5, 7, 9, 11\": about 1 × 3 × 5 inches, 7 oz, lying under ribs 9–11; over ~13 cm on ultrasound is splenomegaly."
+  },
+  {
+    "id": "n848df5e2",
+    "lo": "y2-229-24",
+    "q": "Vertebral level of the oesophageal hiatus?",
+    "shown": "T10",
+    "nums": [
+      "10"
+    ],
+    "wrong": [
+      "T6",
+      "T8",
+      "T12"
+    ],
+    "lvl": 2,
+    "why": "\"I 8 10 Eggs At 12\": IVC T8, oesophagus T10, aorta T12."
+  },
+  {
+    "id": "n1b62c486",
+    "lo": "y2-229-19",
+    "q": "Portal hypertension is a hepatic venous pressure gradient above what?",
+    "shown": ">5 mmHg",
+    "nums": [
+      "5"
+    ],
+    "wrong": [
+      ">1 mmHg",
+      ">20 mmHg",
+      ">40 mmHg"
+    ],
+    "lvl": 2,
+    "why": "At 10 mmHg or more it is clinically significant (varices can form); above 12 mmHg varices can bleed."
+  },
+  {
+    "id": "n6b7e039d",
+    "lo": "y2-210-61",
+    "q": "Distance of the saphenous opening below and lateral to the pubic tubercle?",
+    "shown": "~3 cm",
+    "nums": [
+      "3"
+    ],
+    "wrong": [
+      "~0.5 cm",
+      "~8 cm",
+      "~12 cm"
+    ],
+    "lvl": 2,
+    "why": "The great saphenous vein passes through it to join the femoral vein (saphenofemoral junction)."
+  }
+]

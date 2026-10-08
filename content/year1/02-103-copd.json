@@ -1,0 +1,97 @@
+{
+  "id": "y1-103",
+  "num": "103",
+  "title": "COPD",
+  "los": [
+    {
+      "text": "Describe the main respiratory causes of a patient with wheeze and describe the most common and appropriate investigations to aid diagnosis of respiratory disorders",
+      "sessions": [
+        "Clin 1: Case presentation"
+      ],
+      "section": "Clinical",
+      "n": 1,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Wheeze</th><td>Polyphonic (diffuse airway narrowing) or monophonic (single fixed obstruction, e.g. tumour or foreign body). Stridor is inspiratory and upper airway.</td></tr><tr><th scope=\"row\">Causes</th><td>Asthma, COPD, bronchiectasis, LRTI/viral bronchiolitis, heart failure (\"cardiac asthma\"), anaphylaxis, tumour/foreign body, vocal cord dysfunction.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Feature</th><th>Asthma</th><th>COPD</th></tr></thead><tbody><tr><td>Onset</td><td>Often young, atopic</td><td>&gt;35, smoker/exposure</td></tr><tr><td>Variability</td><td>Marked, diurnal, triggers</td><td>Persistent, progressive</td></tr><tr><td>Night symptoms</td><td>Common</td><td>Uncommon</td></tr><tr><td>Sputum</td><td>Uncommon</td><td>Chronic productive cough</td></tr><tr><td>Reversibility</td><td>Significant</td><td>Limited</td></tr></tbody></table></div><ul><li><strong>Investigations</strong>: spirometry (FEV1/FVC &lt;0.7 = obstruction) with bronchodilator reversibility<ul><li>PEFR diary (variability)</li><li><strong>FeNO</strong> (eosinophilic inflammation)</li><li>CXR (hyperinflation, exclude cancer/HF)</li><li>FBC (eosinophils, polycythaemia)</li><li>ABG if hypoxic</li><li>α1-antitrypsin if young/never smoked</li><li>BNP/echo if HF suspected</li><li>CT if bronchiectasis or nodules.</li></ul></li></ul>"
+    },
+    {
+      "text": "Describe the structure and functions of the upper and lower respiratory tract",
+      "sessions": [
+        "Clin 2: Introduction to the respiratory system"
+      ],
+      "section": "Clinical",
+      "n": 2,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Upper tract<span class=\"paren\">(nose → larynx)</span></th><td>Warms, humidifies and filters air (turbinates, mucus, cilia); olfaction; phonation (larynx); protects airway (epiglottis, cough reflex).</td></tr><tr><th scope=\"row\">Lower tract</th><td><ul class=\"cl\"><li>Trachea (C-shaped cartilage rings)</li><li>→ main bronchi (right is wider, shorter, more vertical, so aspirated objects go right)</li><li>→ lobar</li><li>→ segmental</li><li>→ bronchioles (no cartilage)</li><li>→ terminal bronchioles (end of <strong>conducting zone</strong>, ≈150 mL anatomical dead space)</li><li>→ respiratory bronchioles</li><li>→ alveolar ducts</li><li>→ alveoli (<strong>respiratory zone</strong>).</li></ul></td></tr><tr><th scope=\"row\">Epithelium</th><td><ul class=\"cl\"><li>Pseudostratified ciliated columnar with goblet cells</li><li>→ cuboidal (Club cells) in bronchioles</li><li>→ <strong>type I pneumocytes</strong> (thin, gas exchange, ~95% of surface) and <strong>type II</strong> (surfactant, progenitors).</li><li>Alveolar macrophages clear debris.</li></ul></td></tr><tr><td colspan=\"2\"><strong>Mucociliary escalator</strong> clears particles; impaired by smoking and in CF/PCD.</td></tr><tr><td colspan=\"2\"><strong>Surfactant</strong> (DPPC) lowers surface tension → prevents alveolar collapse (Laplace) and increases compliance.</td></tr><tr><th scope=\"row\">Functions</th><td>Gas exchange, acid–base (CO₂), ACE conversion of angiotensin I, filter for emboli, reservoir of blood.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the signs, symptoms, pathophysiology and common morphological changes in patients with chronic airway obstruction, with particular reference to COPD (chronic bronchitis and emphysema)",
+      "sessions": [
+        "Clin 3: Chronic bronchitis and emphysema"
+      ],
+      "section": "Clinical",
+      "n": 3,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">COPD</th><td>Persistent airflow limitation (post-bronchodilator FEV1/FVC &lt;0.7) that is progressive, usually from smoking (also biomass fuel, occupational dusts, α1-antitrypsin deficiency).</td></tr><tr><th scope=\"row\">Symptoms</th><td>Exertional breathlessness, chronic cough, sputum, frequent winter \"bronchitis\", wheeze.</td></tr><tr><th scope=\"row\">Signs</th><td><ul class=\"cl\"><li>Hyperinflated barrel chest, pursed-lip breathing, accessory muscles, ↓ cricosternal distance, hyper-resonance, quiet breath sounds, wheeze</li><li>Cor pulmonale (raised JVP, peripheral oedema)</li><li>CO₂ retention flap</li><li>Tar staining.</li></ul></td></tr><tr><th scope=\"row\">Chronic bronchitis<span class=\"paren\">(clinical definition)</span></th><td><ul class=\"cl\"><li>Productive cough ≥3 months in 2 consecutive years.</li><li>Morphology: mucous gland hypertrophy (<strong>Reid index &gt;0.4</strong>), goblet cell hyperplasia, squamous metaplasia, small-airway fibrosis and narrowing.</li></ul></td></tr><tr><th scope=\"row\">Emphysema<span class=\"paren\">(pathological definition)</span></th><td><ul class=\"cl\"><li>Permanent enlargement of airspaces distal to terminal bronchioles with wall destruction.</li><li><strong>Centriacinar</strong> (upper lobes, smoking) vs <strong>panacinar</strong> (lower lobes, α1-antitrypsin deficiency).</li><li>Bullae.</li></ul></td></tr><tr><th scope=\"row\">Pathophysiology</th><td><ul class=\"cl\"><li>Smoke</li><li>→ neutrophils/macrophages</li><li>→ <strong>protease (elastase) &gt; antiprotease</strong> imbalance + oxidative stress</li><li>→ loss of elastic recoil</li><li>→ airways collapse on expiration</li><li>→ air trapping, hyperinflation, V/Q mismatch</li><li>→ hypoxaemia ± hypercapnia</li><li>→ pulmonary vasoconstriction</li><li>→ pulmonary hypertension</li><li>→ cor pulmonale.</li></ul></td></tr><tr><td colspan=\"2\">Old labels: \"pink puffer\" (emphysema) vs \"blue bloater\" (bronchitis).</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Apply the pharmacology of drugs used to treat COPD and relevant evidence for their benefits to be able to choose and manage effective treatment for individual patients",
+      "sessions": [
+        "Clin 4: COPD therapies"
+      ],
+      "section": "Clinical",
+      "n": 4,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Non-drug first</th><td>Smoking cessation (the only thing that slows FEV1 decline, with LTOT for survival), pulmonary rehabilitation (MRC ≥3), flu/pneumococcal/COVID vaccines, inhaler technique.</td></tr><tr><th scope=\"row\">Step 1</th><td>SABA (salbutamol) or SAMA (ipratropium) as needed.</td></tr><tr><th scope=\"row\">Step 2 (NICE NG115)</th><td>No asthmatic features → <strong>LABA + LAMA</strong> (e.g. salmeterol/formoterol + tiotropium). Asthmatic/steroid-responsive features (eosinophilia, variability, atopy) → <strong>LABA + ICS</strong>.</td></tr><tr><th scope=\"row\">Step 3</th><td>Triple therapy <strong>LABA + LAMA + ICS</strong> if still exacerbating or symptomatic.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Drug</th><th>Mechanism</th><th>Key side effects</th></tr></thead><tbody><tr><td>β2 agonists (SABA/LABA)</td><td>β2 → Gs → ↑cAMP → bronchial smooth muscle relaxation</td><td>Tremor, tachycardia, ↓K⁺</td></tr><tr><td>Antimuscarinics (SAMA/LAMA)</td><td>Block M3 → ↓ bronchoconstriction and mucus</td><td>Dry mouth, urinary retention, glaucoma</td></tr><tr><td>ICS</td><td>Anti-inflammatory gene effects</td><td>Oral candidiasis, dysphonia, <strong>↑ pneumonia risk</strong> in COPD</td></tr><tr><td>Theophylline</td><td>PDE inhibition</td><td>Narrow therapeutic index; arrhythmias, seizures; CYP450 interactions</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Others</th><td>Roflumilast (PDE4i), prophylactic azithromycin (non-smokers with frequent exacerbations; check ECG/QTc and LFTs), mucolytics (carbocisteine).</td></tr><tr><th scope=\"row\">Exacerbation</th><td><ul class=\"cl\"><li>Increase bronchodilators, <strong>prednisolone 30 mg for 5 days</strong>, antibiotics if purulent sputum (amoxicillin, doxycycline or clarithromycin).</li><li>Controlled O₂ target <strong>88–92%</strong></li><li>NIV if pH &lt;7.35 with ↑PaCO₂ despite treatment.</li></ul></td></tr><tr><th scope=\"row\">LTOT</th><td>PaO₂ &lt;7.3 kPa (or &lt;8 kPa with polycythaemia, peripheral oedema or pulmonary hypertension) on two readings, in non-smokers; ≥15 h/day.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Explain how carbon dioxide is transported in blood and describe the effects of hypo- and hyper-ventilation on PCO2 levels and their relationship with pH",
+      "sessions": [
+        "BMS 1: Acid-base balance"
+      ],
+      "section": "BMS",
+      "n": 5,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">CO₂ carriage</th><td>~70% as <strong>bicarbonate</strong>, ~20–23% as <strong>carbamino compounds</strong> (bound to Hb), ~7–10% <strong>dissolved</strong>.</td></tr><tr><td colspan=\"2\"><ul class=\"cl\"><li>In RBCs: CO₂ + H₂O ⇌ H₂CO₃ (via <strong>carbonic anhydrase</strong>) ⇌ H⁺ + HCO₃⁻.</li><li>HCO₃⁻ leaves in exchange for Cl⁻ (<strong>chloride shift</strong>, band 3).</li><li>H⁺ is buffered by deoxy-Hb.</li></ul></td></tr><tr><th scope=\"row\">Haldane effect</th><td>Deoxygenated Hb carries more CO₂ (tissues load CO₂; lungs unload it).</td></tr><tr><td colspan=\"2\">PaCO₂ is inversely proportional to <strong>alveolar ventilation</strong>: PaCO₂ ∝ VCO₂ / VA.</td></tr><tr><th scope=\"row\">Hypoventilation</th><td>↑PaCO₂ → ↑H⁺ → <strong>↓pH (respiratory acidosis)</strong>.</td></tr><tr><th scope=\"row\">Hyperventilation</th><td>↓PaCO₂ → <strong>↑pH (respiratory alkalosis)</strong> → ↓ ionised Ca²⁺ → tingling, carpopedal spasm.</td></tr><tr><th scope=\"row\">Henderson–Hasselbalch</th><td>pH = 6.1 + log([HCO₃⁻] / (0.03 × PaCO₂ in mmHg)), i.e. pH depends on the HCO₃⁻ : CO₂ ratio.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Explain the causes of ‘metabolic’ and ‘respiratory’ acidosis and alkalosis and the body’s compensatory mechanisms",
+      "sessions": [
+        "BMS 1: ABGs"
+      ],
+      "section": "BMS",
+      "n": 6,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Disorder</th><th>Primary change</th><th>Causes</th><th>Compensation</th></tr></thead><tbody><tr><td>Respiratory acidosis</td><td>↑PaCO₂</td><td>COPD, opioids, neuromuscular weakness, chest wall disease, obesity hypoventilation</td><td>Kidneys ↑ HCO₃⁻ reabsorption and H⁺ excretion (days)</td></tr><tr><td>Respiratory alkalosis</td><td>↓PaCO₂</td><td>Anxiety, PE, pain, early asthma, high altitude, salicylate (early)</td><td>Kidneys ↓ HCO₃⁻ reabsorption</td></tr><tr><td>Metabolic acidosis</td><td>↓HCO₃⁻</td><td>DKA, lactic acidosis, AKI, toxins; diarrhoea, RTA</td><td>Hyperventilation (Kussmaul), within minutes</td></tr><tr><td>Metabolic alkalosis</td><td>↑HCO₃⁻</td><td>Vomiting, diuretics, hypokalaemia, Conn's</td><td>Hypoventilation (limited by hypoxia)</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Anion gap</th><td><ul class=\"cl\"><li>(Na⁺ + K⁺) − (Cl⁻ + HCO₃⁻), normal ≈ 10–18 (or 8–12 without K⁺).</li><li><strong>High gap</strong> (added acid, \"MUDPILES\"): methanol, uraemia, DKA, paraldehyde, iron/isoniazid, lactate, ethylene glycol, salicylates.</li><li><strong>Normal gap (hyperchloraemic)</strong>: loss of HCO₃⁻ (diarrhoea, ileostomy), renal tubular acidosis, Addison's, acetazolamide, excess saline.</li></ul></td></tr><tr><th scope=\"row\">Buffers</th><td>Bicarbonate (main ECF), Hb, proteins, phosphate; then lungs (minutes) and kidneys (days).</td></tr></tbody></table></div><div class=\"key\">Compensation never overcorrects. A \"normal\" pH with abnormal CO₂ and HCO₃⁻ suggests a mixed disorder.</div>"
+    },
+    {
+      "text": "Describe the mechanisms of oxygen transport in the blood and summarise the factors that affect this",
+      "sessions": [
+        "BMS 2: Oxygen transport in the blood"
+      ],
+      "section": "BMS",
+      "n": 7,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><td colspan=\"2\"><strong>98.5% bound to haemoglobin</strong>, ~1.5% dissolved (Henry's law: 0.003 mL O₂/dL/mmHg).</td></tr><tr><td colspan=\"2\">Each Hb binds 4 O₂ cooperatively → <strong>sigmoid dissociation curve</strong>. 1 g Hb carries 1.34 mL O₂.</td></tr><tr><th scope=\"row\">O₂ content</th><td>(1.34 × Hb × SaO₂) + (0.003 × PaO₂). <strong>O₂ delivery</strong> = cardiac output × content.</td></tr><tr><th scope=\"row\">Right shift<span class=\"paren\">(↓ affinity, unloads O₂ in tissues)</span></th><td>↑CO₂, ↑H⁺ (<strong>Bohr effect</strong>), ↑temperature, ↑<strong>2,3-BPG</strong> (altitude, anaemia), exercise.</td></tr><tr><th scope=\"row\">Left shift<span class=\"paren\">(↑ affinity)</span></th><td>Opposite changes, <strong>fetal Hb (HbF)</strong>, <strong>carbon monoxide</strong>, methaemoglobin.</td></tr><tr><th scope=\"row\">CO poisoning</th><td>CO binds Hb ~240× more avidly and left-shifts the curve. Pulse oximetry reads falsely normal; use co-oximetry (COHb).</td></tr><tr><th scope=\"row\">Anaemia</th><td>Normal PaO₂ and SaO₂ but low O₂ content.</td></tr><tr><th scope=\"row\">Myoglobin</th><td>Single chain, hyperbolic curve, stores O₂ in muscle.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the mechanisms of ventilation (inhalation and exhalation)",
+      "sessions": [
+        "BMS 3: Mechanisms of ventilation"
+      ],
+      "section": "BMS",
+      "n": 8,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Inspiration (active)</th><td><ul class=\"cl\"><li>Diaphragm contracts and descends (phrenic nerve C3–5) + external intercostals lift ribs (pump-handle and bucket-handle movements)</li><li>→ ↑ thoracic volume</li><li>→ intrapleural pressure falls (≈ −5 to −8 cmH₂O)</li><li>→ alveolar pressure below atmospheric</li><li>→ air flows in (<strong>Boyle's law</strong>).</li></ul></td></tr><tr><th scope=\"row\">Expiration (quiet, passive)</th><td>Elastic recoil of lungs and chest wall.</td></tr><tr><th scope=\"row\">Forced expiration</th><td>Internal intercostals + abdominal muscles. <strong>Forced inspiration</strong>: accessory muscles (SCM, scalenes, pectorals).</td></tr><tr><th scope=\"row\">Compliance</th><td>ΔV/ΔP. ↓ in fibrosis, oedema, ARDS, surfactant deficiency. ↑ in emphysema (loss of elastic tissue).</td></tr><tr><th scope=\"row\">Pleura</th><td>The fluid film couples the lung to the chest wall; negative intrapleural pressure keeps lungs expanded (lost in pneumothorax).</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Explain the regulation of airflow in and out of the lungs and define respiratory cycle, respiratory rate, tidal volume, alveolar ventilation, and minute volume",
+      "sessions": [
+        "BMS 3: Airflow regulation and volume definitions"
+      ],
+      "section": "BMS",
+      "n": 9,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><td colspan=\"2\"><ul class=\"cl\"><li><strong>Airway resistance</strong> (Poiseuille: R ∝ 1/r⁴) is greatest in <strong>medium-sized bronchi</strong>.</li><li>Small airways contribute little because there are so many in parallel.</li></ul></td></tr><tr><th scope=\"row\">Bronchoconstriction</th><td>Parasympathetic (vagus, M3, ACh), histamine, leukotrienes, cold air, irritants.</td></tr><tr><th scope=\"row\">Bronchodilation</th><td>β2 stimulation (circulating adrenaline; little direct sympathetic innervation), NO, ↑ lung volume (radial traction).</td></tr><tr><th scope=\"row\">Dynamic compression</th><td>in forced expiration, airways collapse at the equal pressure point; worse with loss of elastic recoil (emphysema).</td></tr><tr><th scope=\"row\">Respiratory cycle</th><td>One inspiration + one expiration.</td></tr><tr><th scope=\"row\">Respiratory rate</th><td>12–20 breaths/min in adults.</td></tr><tr><th scope=\"row\">Tidal volume (VT)</th><td>~500 mL (≈7 mL/kg) per quiet breath.</td></tr><tr><th scope=\"row\">Minute ventilation</th><td>VT × RR ≈ 6 L/min.</td></tr><tr><th scope=\"row\">Alveolar ventilation</th><td><ul class=\"cl\"><li>(VT − dead space) × RR ≈ (500 − 150) × 12 ≈ 4.2 L/min.</li><li>Rapid shallow breathing wastes more as dead space.</li></ul></td></tr><tr><td colspan=\"2\"><ul class=\"cl\"><li>Other volumes: IRV ~3 L, ERV ~1.2 L, RV ~1.2 L</li><li>FRC = ERV + RV</li><li>VC = IRV + VT + ERV</li><li>TLC ≈ 6 L.</li><li>RV and FRC (and TLC) can't be measured by spirometry.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Explain the concept of public health (the public health approach)",
+      "sessions": [
+        "MHS 1: Communicable diseases 1: The public health approach"
+      ],
+      "section": "MHS",
+      "n": 10,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Public health<span class=\"paren\">(Acheson)</span></th><td>\"the science and art of preventing disease, prolonging life and promoting health through the organised efforts of society.\"</td></tr><tr><td colspan=\"2\">Focus on <strong>populations</strong> rather than individuals; addresses the wider determinants of health.</td></tr><tr><th scope=\"row\">Three domains</th><td>Health protection (communicable disease, environmental hazards), health improvement (lifestyle, inequalities, education), healthcare quality (service planning, efficiency, audit).</td></tr><tr><th scope=\"row\">Public health approach</th><td>Define the problem (surveillance, epidemiology) → identify risk and protective factors → develop and test interventions → implement at scale and evaluate.</td></tr><tr><th scope=\"row\">Levels of prevention</th><td>Primary (stop disease: vaccines, smoking cessation), secondary (detect early: screening), tertiary (reduce impact: rehab).</td></tr><tr><th scope=\"row\">Rose's prevention paradox</th><td><ul class=\"cl\"><li>a measure that brings large benefit to the population offers little to each individual.</li><li>Population strategies shift the whole risk curve.</li></ul></td></tr><tr><td colspan=\"2\">For communicable disease: surveillance, notification, outbreak control, contact tracing, immunisation. UK bodies: UKHSA (England), Public Health Wales.</td></tr></tbody></table></div>"
+    }
+  ]
+}

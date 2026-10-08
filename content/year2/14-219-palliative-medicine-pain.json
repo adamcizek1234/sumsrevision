@@ -1,0 +1,380 @@
+{
+  "id": "y2-219",
+  "num": "219",
+  "title": "Palliative Medicine & Pain",
+  "lead": "Idris Baker and Steve Young",
+  "system": "The Nervous System",
+  "date": "2027-01-04",
+  "los": [
+    {
+      "text": "Describe the importance of pain management and palliative care in clinical settings",
+      "sessions": [
+        "Introduction to week"
+      ],
+      "section": "Lectures",
+      "n": 1,
+      "html": ""
+    },
+    {
+      "text": "Identify the indications, mechanisms and side effects of analgesic drugs.",
+      "sessions": [
+        "Pain – analgesics pharmacology"
+      ],
+      "section": "Lectures",
+      "n": 2,
+      "html": ""
+    },
+    {
+      "text": "Describe the assessment of acute, persistent and palliative pain in various clinical settings",
+      "sessions": [
+        "Assessment of pain: acute, persistent, palliative"
+      ],
+      "section": "Lectures",
+      "n": 3,
+      "html": ""
+    },
+    {
+      "text": "Describe the role of palliative care and when it is appropriate",
+      "sessions": [
+        "Introduction to palliative care"
+      ],
+      "section": "Lectures",
+      "n": 4,
+      "html": ""
+    },
+    {
+      "text": "Link the anatomical structures, biochemical process, control mechanism of the nociceptive pathways to their clinical signs, symptoms and treatment.",
+      "sessions": [
+        "Physiology of pain"
+      ],
+      "section": "Lectures",
+      "n": 5,
+      "html": ""
+    },
+    {
+      "text": "Describe the management of acute, persistent and palliative pain in various clinical settings",
+      "sessions": [
+        "Specific treatment: acute, persistent, palliative pain"
+      ],
+      "section": "Lectures",
+      "n": 6,
+      "html": ""
+    },
+    {
+      "text": "Describe the assessment and management of pain in palliative care",
+      "sessions": [
+        "Palliation of pain"
+      ],
+      "section": "Lectures",
+      "n": 7,
+      "html": ""
+    },
+    {
+      "text": "Describe the role of holistic care in palliation",
+      "sessions": [
+        "Holistic assessment care"
+      ],
+      "section": "Lectures",
+      "n": 8,
+      "html": ""
+    },
+    {
+      "text": "Describe the role and importance of advanced care planning in clinical care",
+      "sessions": [
+        "Advanced care planning"
+      ],
+      "section": "Lectures",
+      "n": 9,
+      "html": ""
+    },
+    {
+      "text": "Describe the assessment and management of symptoms other than pain in palliative care",
+      "sessions": [
+        "Symptoms other than pain"
+      ],
+      "section": "Lectures",
+      "n": 10,
+      "html": ""
+    },
+    {
+      "text": "Describe the importance of a range of services in care of a patient's last days",
+      "sessions": [
+        "Care in the last days of life"
+      ],
+      "section": "Lectures",
+      "n": 11,
+      "html": ""
+    },
+    {
+      "text": "Describe the assessment and management of persistent pain in various clinical settings",
+      "sessions": [
+        "Persistent pain self-management/ psychology"
+      ],
+      "section": "Lectures",
+      "n": 12,
+      "html": ""
+    },
+    {
+      "text": "Conduct a comprehensive, patient-centred assessment in end-of-life care, addressing physical, emotional, social, and spiritual needs",
+      "sessions": [
+        "End of life care"
+      ],
+      "section": "ICM",
+      "n": 13,
+      "html": ""
+    },
+    {
+      "text": "Identify and understand the key processes involved in end-of-life care planning, including advanced care planning and decision-making",
+      "sessions": [
+        "End of life care"
+      ],
+      "section": "ICM",
+      "n": 14,
+      "html": ""
+    },
+    {
+      "text": "Communicate with sensitivity and empathy, addressing complex emotional and ethical issues in end-of-life care discussions with patients and their families",
+      "sessions": [
+        "End of life care"
+      ],
+      "section": "ICM",
+      "n": 15,
+      "html": ""
+    },
+    {
+      "text": "Distinguish between various types of back pain (e.g., musculoskeletal, neuropathic, visceral) and recognise their unique clinical presentations",
+      "sessions": [
+        "Chronic Pain"
+      ],
+      "section": "ICM",
+      "n": 16,
+      "html": ""
+    },
+    {
+      "text": "Identify and list key differences in physical examination findings for different types of back pain",
+      "sessions": [
+        "Chronic Pain"
+      ],
+      "section": "ICM",
+      "n": 17,
+      "html": ""
+    },
+    {
+      "text": "Apply examination findings and clinical reasoning to select appropriate interventional pathways, including conservative, medical, or surgical options",
+      "sessions": [
+        "Chronic Pain"
+      ],
+      "section": "ICM",
+      "n": 18,
+      "html": ""
+    },
+    {
+      "text": "Describe the legal classification of controlled drugs.",
+      "sessions": [
+        "Prescribing Controlled Drugs"
+      ],
+      "section": "ICM",
+      "n": 19,
+      "html": ""
+    },
+    {
+      "text": "Prescribe controlled drugs on inpatient prescriptions and for discharge in accordance with current legal prescription requirements.",
+      "sessions": [
+        "Prescribing Controlled Drugs"
+      ],
+      "section": "ICM",
+      "n": 20,
+      "html": ""
+    },
+    {
+      "text": "Convert between different opioids.",
+      "sessions": [
+        "Prescribing Controlled Drugs"
+      ],
+      "section": "ICM",
+      "n": 21,
+      "html": ""
+    },
+    {
+      "text": "Prescribe on a syringe driver chart.",
+      "sessions": [
+        "Prescribing Controlled Drugs"
+      ],
+      "section": "ICM",
+      "n": 22,
+      "html": ""
+    },
+    {
+      "text": "Elicit a focused falls history, and identify common causes of falls in older adults.",
+      "sessions": [
+        "History of falls and Osteoporosis explaining"
+      ],
+      "section": "ICM",
+      "n": 23,
+      "html": ""
+    },
+    {
+      "text": "Describe appropriate investigations to determine underlying causes",
+      "sessions": [
+        "History of falls and Osteoporosis explaining"
+      ],
+      "section": "ICM",
+      "n": 24,
+      "html": ""
+    },
+    {
+      "text": "Explain the pathophysiology, risk factors, and consequences of osteoporosis, and describe evidence-based prevention and treatment options in a way any patient can understand",
+      "sessions": [
+        "History of falls and Osteoporosis explaining"
+      ],
+      "section": "ICM",
+      "n": 25,
+      "html": ""
+    },
+    {
+      "text": "Identify in detail the nerves that carry cutaneous innervation of the skin of the face and scalp.",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 26,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Region</th><th>Nerve</th><th>Division</th></tr></thead><tbody><tr><td>Forehead, upper eyelid, scalp to the vertex</td><td><strong>Supraorbital, supratrochlear</strong></td><td><strong>V1</strong> (frontal nerve)</td></tr><tr><td>Side and tip of nose (dorsum)</td><td>Infratrochlear, <strong>external nasal</strong></td><td>V1 (nasociliary)</td></tr><tr><td>Lower eyelid, cheek, side of nose, upper lip</td><td><strong>Infraorbital</strong></td><td><strong>V2</strong></td></tr><tr><td>Over the zygoma / anterior temple</td><td>Zygomaticofacial, zygomaticotemporal</td><td>V2</td></tr><tr><td>Lower lip, chin</td><td><strong>Mental</strong></td><td><strong>V3</strong> (inferior alveolar)</td></tr><tr><td>Cheek over the buccinator</td><td>Buccal</td><td>V3</td></tr><tr><td>Temple, front of the ear</td><td><strong>Auriculotemporal</strong></td><td>V3</td></tr><tr><td><strong>Angle of the jaw</strong>, parotid area, lower ear</td><td><strong>Great auricular (C2–3)</strong></td><td>Cervical plexus, not trigeminal</td></tr><tr><td>Back of the scalp</td><td><strong>Greater occipital (C2)</strong>, lesser occipital (C2), third occipital (C3)</td><td>Posterior/anterior rami</td></tr></tbody></table></div><ul><li><strong>Clinical</strong>: the angle of the mandible is spared in trigeminal lesions (C2–3).<ul><li>Shingles follows one division</li><li>trigeminal neuralgia is usually V2 or V3.</li><li>Supraorbital, infraorbital and mental foramina lie on one vertical line (nerve blocks).</li></ul></li></ul>"
+    },
+    {
+      "text": "Explain that the face has no deep fascia, only superficial fascia.",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 27,
+      "html": "<ul><li><strong>No deep fascia</strong> in the face: the muscles of expression lie in the <strong>superficial fascia</strong>, attached to skin.</li><li><strong>Why it matters</strong>:</li></ul><div class=\"tbl\"><table><thead><tr><th>Consequence</th><th>Detail</th></tr></thead><tbody><tr><td>Muscles move skin</td><td>Fine facial expression</td></tr><tr><td>Swelling spreads easily</td><td>Loose tissue: eyelids swell a lot (allergy, trauma, nephrotic syndrome); bruising tracks</td></tr><tr><td>Wounds gape</td><td>Muscle pull opens lacerations; repair in layers</td></tr><tr><td>Infection spreads</td><td>No fascial barrier, so cellulitis spreads freely</td></tr></tbody></table></div><ul><li><strong>Exception</strong>: the parotid is wrapped in a tough parotid fascia (from the investing layer), so parotitis is very painful.</li></ul>"
+    },
+    {
+      "text": "Recognise the extracranial courses of the branches of the facial nerve.",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 28,
+      "html": "<ul><li><strong>Exit</strong>: stylomastoid foramen<ul><li>→ gives posterior auricular nerve and branches to the posterior belly of digastric and stylohyoid</li><li>→ enters the <strong>parotid gland</strong></li><li>→ divides (pes anserinus) <strong>superficial to the retromandibular vein and external carotid artery</strong> into five branches.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Branch</th><th>Course</th><th>Supplies</th></tr></thead><tbody><tr><td><strong>Temporal</strong></td><td>Crosses the zygomatic arch</td><td>Frontalis, upper orbicularis oculi</td></tr><tr><td><strong>Zygomatic</strong></td><td>Along the zygomatic arch to the lateral eye</td><td>Orbicularis oculi (eye closure)</td></tr><tr><td><strong>Buccal</strong></td><td>Across the masseter with the parotid duct</td><td>Buccinator, upper lip muscles</td></tr><tr><td><strong>Marginal mandibular</strong></td><td>Along the lower border of the mandible (can dip below it)</td><td>Lower lip depressors</td></tr><tr><td><strong>Cervical</strong></td><td>Down into the neck</td><td>Platysma</td></tr></tbody></table></div><ul><li><strong>Mnemonic</strong>: \"To Zanzibar By Motor Car\".</li></ul>"
+    },
+    {
+      "text": "Link the muscles of facial expression to each branch of the facial nerve and describe the consequences of injury to each branch",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 29,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Branch</th><th>Key muscles</th><th>Injury</th></tr></thead><tbody><tr><td><strong>Temporal</strong></td><td>Frontalis, corrugator</td><td>Can't raise the eyebrow; brow droops (e.g. temple surgery, forehead lacerations)</td></tr><tr><td><strong>Zygomatic</strong></td><td>Orbicularis oculi</td><td>Can't close the eye fully → exposure keratitis</td></tr><tr><td><strong>Buccal</strong></td><td>Buccinator, zygomaticus, orbicularis oris (upper)</td><td>Food collects in the cheek; weak smile</td></tr><tr><td><strong>Marginal mandibular</strong></td><td>Depressor anguli oris, depressor labii inferioris, mentalis</td><td>Asymmetric lower lip when smiling (submandibular gland surgery, neck incisions)</td></tr><tr><td><strong>Cervical</strong></td><td>Platysma</td><td>Little functional loss</td></tr></tbody></table></div><ul><li><strong>Whole nerve (LMN, e.g. Bell's palsy)</strong>: whole half of the face, including the forehead.<ul><li><strong>UMN (stroke)</strong>: forehead spared (bilateral cortical supply to the upper face).</li></ul></li></ul>"
+    },
+    {
+      "text": "Name the facial muscles of expression as either sphincters or dilators by describing their actions (and innervations).",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 30,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Group</th><th>Muscle</th><th>Action</th><th>Nerve</th></tr></thead><tbody><tr><td><strong>Sphincters</strong></td><td><strong>Orbicularis oculi</strong></td><td>Closes the eye (gentle: palpebral; tight: orbital part)</td><td>Temporal, zygomatic</td></tr><tr><td></td><td><strong>Orbicularis oris</strong></td><td>Closes and purses the lips</td><td>Buccal, marginal mandibular</td></tr><tr><td></td><td>Compressor naris</td><td>Narrows the nostril</td><td>Buccal</td></tr><tr><td><strong>Dilators</strong></td><td>Levator labii superioris, zygomaticus major and minor</td><td>Raise the lip, smile</td><td>Zygomatic, buccal</td></tr><tr><td></td><td>Depressor anguli oris, depressor labii inferioris</td><td>Lower the mouth corner and lip</td><td>Marginal mandibular</td></tr><tr><td></td><td>Dilator naris</td><td>Widens the nostril</td><td>Buccal</td></tr><tr><td></td><td>Frontalis, corrugator supercilii</td><td>Raise the brow / frown</td><td>Temporal</td></tr><tr><td>Others</td><td><strong>Buccinator</strong></td><td>Keeps food between the teeth, blowing</td><td>Buccal</td></tr><tr><td></td><td>Platysma</td><td>Tenses neck skin, lowers the mandible</td><td>Cervical</td></tr></tbody></table></div><ul><li><strong>All are supplied by the facial nerve</strong> (2nd pharyngeal arch); muscles of mastication are V3 (1st arch).</li></ul>"
+    },
+    {
+      "text": "Describe the intracranial and intrapetrous course of the facial nerve and the relationships of its major branches to the middle ear in relation to damage of the nerve within the facial canal.",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 31,
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1. Intracranial</th><td>Leaves the brainstem at the <strong>cerebellopontine angle</strong> with VIII (motor root + nervus intermedius) → <strong>internal acoustic meatus</strong>.</td></tr><tr><th scope=\"row\">2. Labyrinthine segment<span class=\"paren\">(narrowest part of the facial canal)</span></th><td><strong>Geniculate ganglion</strong>: gives the <strong>greater petrosal nerve</strong> (lacrimal gland, nasal and palatal glands).</td></tr><tr><th scope=\"row\">3. Tympanic segment</th><td><ul class=\"cl\"><li>Runs horizontally on the <strong>medial wall of the middle ear</strong>, above the oval window</li><li>Its bony covering can be thin or missing → spread of otitis media, injury in middle ear surgery.</li></ul></td></tr><tr><th scope=\"row\">4. Mastoid segment</th><td><ul class=\"cl\"><li>Turns down behind the middle ear</li><li>Gives the <strong>nerve to stapedius</strong> then the <strong>chorda tympani</strong> (crosses the inner eardrum between the malleus and incus).</li></ul></td></tr><tr><th scope=\"row\">5</th><td><strong>Exits</strong> at the stylomastoid foramen.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Lesion level</th><th>Extra features beyond facial weakness</th></tr></thead><tbody><tr><td>Above the geniculate ganglion</td><td>Dry eye, hyperacusis, lost taste</td></tr><tr><td>Between ganglion and stapedius nerve</td><td>Hyperacusis, lost taste (tears normal)</td></tr><tr><td>Between stapedius and chorda tympani</td><td>Lost taste on the anterior 2/3 of the tongue</td></tr><tr><td>Below the chorda tympani (stylomastoid / parotid)</td><td>Facial weakness only</td></tr></tbody></table></div><ul><li><strong>Ramsay Hunt syndrome</strong>: VZV at the geniculate ganglion: vesicles in the ear canal, facial palsy, ± deafness and vertigo.</li></ul>"
+    },
+    {
+      "text": "Describe the origin, functions and major branches of the sensory and motor components of the facial nerve.",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 32,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Component</th><th>Fibres</th><th>Route</th><th>Function</th></tr></thead><tbody><tr><td><strong>Branchial motor</strong></td><td>Facial motor nucleus (pons)</td><td>Main trunk → 5 branches; stapedius, posterior digastric, stylohyoid</td><td>Facial expression, damps loud sound</td></tr><tr><td><strong>Parasympathetic</strong></td><td>Superior salivatory nucleus</td><td><strong>Greater petrosal</strong> → pterygopalatine ganglion</td><td><strong>Lacrimal</strong>, nasal and palatal glands</td></tr><tr><td></td><td></td><td><strong>Chorda tympani</strong> → lingual nerve → submandibular ganglion</td><td><strong>Submandibular and sublingual</strong> glands</td></tr><tr><td><strong>Special sense (taste)</strong></td><td>Nucleus of the solitary tract</td><td>Chorda tympani (and greater petrosal for the palate)</td><td><strong>Taste, anterior 2/3 of tongue</strong></td></tr><tr><td>General sensation</td><td>Spinal trigeminal nucleus</td><td>Small branch</td><td>Skin of the concha and ear canal</td></tr></tbody></table></div><ul><li><strong>Nervus intermedius</strong>: the sensory and parasympathetic root.<ul><li>The <strong>parotid gland</strong> is supplied by IX (via the otic ganglion), not VII, even though VII runs through it.</li></ul></li></ul>"
+    },
+    {
+      "text": "Describe the facial artery and transverse facial artery, their origins and courses.",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 33,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Artery</th><th>Origin</th><th>Course</th><th>Clinical</th></tr></thead><tbody><tr><td><strong>Facial artery</strong></td><td><strong>ECA</strong> (just above the lingual, often a common trunk)</td><td><ul class=\"cl\"><li>Deep to the posterior digastric and stylohyoid</li><li>→ grooves the <strong>submandibular gland</strong></li><li>→ hooks over the <strong>lower border of the mandible</strong> at the <strong>front of masseter</strong> (pulse here)</li><li>→ tortuous course past the angle of the mouth (superior and inferior labial branches)</li><li>→ <strong>angular artery</strong> at the medial eye</li></ul></td><td>Lip lacerations bleed briskly from both sides (labial arteries anastomose)</td></tr><tr><td><strong>Transverse facial artery</strong></td><td><strong>Superficial temporal artery</strong> (inside the parotid)</td><td>Forward across the masseter, <strong>above the parotid duct</strong>, below the zygomatic arch</td><td>Supplies the parotid, its duct and masseter</td></tr></tbody></table></div><ul><li><strong>Rich anastomoses</strong> across the midline and with ICA branches (angular–ophthalmic), so facial wounds bleed freely but heal well.</li></ul>"
+    },
+    {
+      "text": "Describe the facial veins and their tributaries, explaining the risks of the spread of infection intracranially",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 34,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Facial vein</th><td><ul class=\"cl\"><li>Begins as the <strong>angular vein</strong> at the medial eye</li><li>→ runs down behind the facial artery (straighter)</li><li>→ crosses the mandible</li><li>→ joins the anterior division of the retromandibular vein</li><li>→ <strong>internal jugular vein</strong>.</li></ul></td></tr><tr><th scope=\"row\">Tributaries</th><td>Supraorbital and supratrochlear veins, labial veins, <strong>deep facial vein</strong> (from the <strong>pterygoid plexus</strong>).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Route to the brain</th><th>Path</th></tr></thead><tbody><tr><td><strong>Superior ophthalmic vein</strong></td><td>Angular vein → superior ophthalmic vein → <strong>cavernous sinus</strong></td></tr><tr><td><strong>Deep facial vein</strong></td><td>Facial vein → pterygoid plexus → emissary veins → cavernous sinus</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Why infection spreads</th><td>The veins have <strong>few or no valves</strong>, so blood can flow backwards when the face is swollen.</td></tr><tr><th scope=\"row\">\"Danger triangle\"</th><td>Corners of the mouth to the bridge of the nose: squeezing spots or infections here can cause <strong>cavernous sinus thrombosis</strong> (proptosis, ophthalmoplegia, fever).</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Describe the relationship of the termination of the facial vein (draining into the internal jugular vein) and the mandibular branch of the retromandibular vein (draining facial muscles controlling the angle of the mouth) to the submandibular gland and related upper jugular lymph nodes in relation to exploration of this area.",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 35,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Facial vein termination</th><td><ul class=\"cl\"><li>Crosses the <strong>superficial surface of the submandibular gland</strong>, joined by the anterior division of the retromandibular vein, then drains into the <strong>IJV</strong> near the level of the hyoid</li><li>The <strong>upper jugular (jugulodigastric) nodes</strong> lie here.</li></ul></td></tr><tr><th scope=\"row\">Marginal mandibular nerve</th><td>Runs <strong>deep to platysma but superficial to the facial vein and artery</strong>, along or up to ~2 cm <strong>below the mandible</strong>.</td></tr><tr><th scope=\"row\">In practice<span class=\"paren\">(submandibular gland excision, node biopsy, neck dissection)</span></th><td></td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Step</th><th>Reason</th></tr></thead><tbody><tr><td>Incise <strong>2–3 finger-breadths below the mandible</strong></td><td>Avoids the marginal mandibular nerve</td></tr><tr><td>Tie the <strong>facial vein low and reflect it upwards</strong> (Hayes Martin manoeuvre)</td><td>Lifts the nerve, lying on the vein, out of harm's way</td></tr><tr><td>Expect upper jugular nodes beside the vein and gland</td><td>Common sites of metastases</td></tr></tbody></table></div><ul><li><strong>Injury</strong>: weak depressor anguli oris → drooping lower lip on smiling.</li></ul>"
+    },
+    {
+      "text": "Describe the anatomy of the scalp, naming its individual layers.",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 36,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Layer (SCALP)</th><th>Detail</th><th>Clinical</th></tr></thead><tbody><tr><td><strong>S</strong>kin</td><td>Thick, hairy, many sebaceous glands</td><td>Sebaceous cysts</td></tr><tr><td><strong>C</strong>onnective tissue (dense)</td><td>Fibrous septa hold the <strong>vessels</strong>, which can't retract</td><td><strong>Profuse bleeding</strong> from cuts</td></tr><tr><td><strong>A</strong>poneurosis (epicranial)</td><td>Galea joining <strong>occipitofrontalis</strong> bellies</td><td>Wounds through it <strong>gape</strong></td></tr><tr><td><strong>L</strong>oose areolar tissue</td><td>Allows the scalp to move; <strong>emissary veins</strong> cross it</td><td>\"<strong>Danger layer</strong>\": blood and pus spread here and infection reaches the dural sinuses; subgaleal haemorrhage in neonates</td></tr><tr><td><strong>P</strong>ericranium</td><td>Periosteum of the skull, attached at sutures</td><td>Cephalohaematoma stays within one bone</td></tr></tbody></table></div><ul><li><strong>Scalping injuries</strong> separate through the loose areolar layer.</li></ul>"
+    },
+    {
+      "text": "Describe the blood supply of the scalp and its significance in laceration injuries.",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 37,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Arteries (from front to back)</th><th>Origin</th></tr></thead><tbody><tr><td><strong>Supratrochlear, supraorbital</strong></td><td><strong>ICA</strong> (ophthalmic artery)</td></tr><tr><td><strong>Superficial temporal</strong></td><td>ECA</td></tr><tr><td><strong>Posterior auricular</strong></td><td>ECA</td></tr><tr><td><strong>Occipital</strong></td><td>ECA</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Anastomoses</th><td>Rich, across the midline and between ICA and ECA territories, so a scalp flap survives on a narrow pedicle.</td></tr><tr><th scope=\"row\">Lacerations bleed heavily</th><td><ul class=\"cl\"><li>Vessels are held open by the dense connective tissue and can't contract</li><li>Control with <strong>pressure, then suture through the dense layer</strong> (or haemostatic clips).</li></ul></td></tr><tr><td colspan=\"2\"><strong>Veins</strong> follow the arteries; <strong>emissary veins</strong> link them to the dural sinuses.</td></tr><tr><th scope=\"row\">Lymph</th><td>Front of the scalp to parotid nodes, back to mastoid and occipital nodes.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Locate the occipitofrontalis muscle and describe its actions.",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 38,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Occipitofrontalis</th><td>Two <strong>frontal bellies</strong> (no bony origin: blend with the skin of the eyebrows) and two <strong>occipital bellies</strong> (superior nuchal line), joined by the <strong>epicranial aponeurosis (galea)</strong>.</td></tr><tr><th scope=\"row\">Actions</th><td><ul class=\"cl\"><li>Frontal belly <strong>raises the eyebrows and wrinkles the forehead</strong> (surprise)</li><li>Occipital belly pulls the scalp back</li><li>Together they move the scalp.</li></ul></td></tr><tr><th scope=\"row\">Nerve</th><td>Facial nerve (temporal branch to frontalis, posterior auricular branch to occipitalis).</td></tr><tr><th scope=\"row\">Testing</th><td>\"raise your eyebrows\": preserved in a UMN facial palsy, lost in a LMN palsy.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Trace the path and distribution of the maxillary artery and its main branches in the infratemporal fossa.",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 39,
+      "html": "<ul><li><strong>Maxillary artery</strong>: larger terminal branch of the ECA, starts behind the <strong>neck of the mandible</strong> in the parotid<ul><li>→ through the <strong>infratemporal fossa</strong> (superficial or deep to the lateral pterygoid)</li><li>→ enters the <strong>pterygopalatine fossa</strong> through the pterygomaxillary fissure.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Part</th><th>Main branches</th><th>Supply</th></tr></thead><tbody><tr><td><strong>1st (mandibular)</strong>, behind the mandibular neck</td><td><strong>Middle meningeal</strong> (through foramen spinosum), <strong>inferior alveolar</strong> (mandibular foramen), deep auricular, anterior tympanic</td><td>Dura and skull; lower teeth, chin</td></tr><tr><td><strong>2nd (pterygoid)</strong>, on the lateral pterygoid</td><td>Deep temporal, masseteric, pterygoid, <strong>buccal</strong></td><td>Muscles of mastication</td></tr><tr><td><strong>3rd (pterygopalatine)</strong></td><td>Posterior superior alveolar, <strong>infraorbital</strong>, descending palatine, <strong>sphenopalatine</strong></td><td>Upper teeth, face, palate, <strong>nasal cavity</strong> (posterior epistaxis)</td></tr></tbody></table></div><ul><li><strong>Clinical</strong>: middle meningeal → <strong>extradural haematoma</strong>; sphenopalatine → posterior nosebleeds (ligated endoscopically).</li></ul>"
+    },
+    {
+      "text": "Describe the pterygoid venous plexus.",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 40,
+      "html": "<ul><li><strong>Pterygoid venous plexus</strong>: network around the <strong>lateral pterygoid</strong> in the infratemporal fossa<ul><li>drains the territory of the maxillary artery and empties into the <strong>maxillary vein</strong> (→ retromandibular vein).</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Connection</th><th>Significance</th></tr></thead><tbody><tr><td><strong>Deep facial vein</strong> → facial vein</td><td>Facial infection can reach the plexus</td></tr><tr><td><strong>Emissary veins</strong> (foramen ovale, foramen lacerum) → <strong>cavernous sinus</strong></td><td>Route for spread of infection intracranially</td></tr><tr><td>Inferior ophthalmic vein</td><td>Orbital link</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Function</th><td>Acts as a pump: chewing squeezes blood out of it.</td></tr><tr><th scope=\"row\">Clinical</th><td><ul class=\"cl\"><li>a posterior superior alveolar nerve block can puncture it → <strong>haematoma</strong> in the cheek</li><li>Dental and facial infections → cavernous sinus thrombosis.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Recognise structures of the face on radiographic images.",
+      "sessions": [
+        "Face"
+      ],
+      "section": "Anatomy",
+      "n": 41,
+      "html": "<ul><li><strong>Plain films</strong>: <strong>occipitomental (OM) views</strong> (15° and 30°) show the orbits<ul><li>maxillary sinuses</li><li>zygomatic arches and nasal bones: check the \"<strong>elephant's head</strong>\" outline of the zygoma</li><li>orbital margins and the dental lines (<strong>McGrigor's lines</strong>).</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Finding</th><th>Suggests</th></tr></thead><tbody><tr><td>Fluid level in a maxillary sinus after trauma</td><td>Fracture (blood in the sinus)</td></tr><tr><td>\"<strong>Teardrop</strong>\" soft tissue hanging from the orbital roof into the maxillary sinus</td><td><strong>Orbital floor blowout</strong> fracture</td></tr><tr><td>Step in the orbital rim or zygomatic arch</td><td>Zygomatic (tripod) fracture</td></tr><tr><td>Fluid level or opacified sinus without trauma</td><td>Sinusitis</td></tr></tbody></table></div><ul><li><strong>Orthopantomogram (OPG)</strong>: mandible, teeth, condyles (mandibular fractures).</li><li><strong>CT</strong> is now standard for facial fractures (Le Fort I, II, III patterns).</li></ul>"
+    }
+  ],
+  "partial": true
+}

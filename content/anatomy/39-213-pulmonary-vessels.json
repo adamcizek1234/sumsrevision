@@ -1,0 +1,18 @@
+{
+  "id": "a-213",
+  "num": "213",
+  "title": "Pulmonary vessels",
+  "system": "Respiratory",
+  "link": "y2-213",
+  "pick": [
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "los": []
+}

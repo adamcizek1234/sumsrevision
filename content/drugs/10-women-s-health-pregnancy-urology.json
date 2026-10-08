@@ -1,0 +1,1397 @@
+{
+  "id": "women",
+  "title": "Women's health, pregnancy & urology",
+  "items": [
+    {
+      "id": "combined-hormonal-contraception",
+      "name": "Combined hormonal contraception",
+      "ex": "COCP, patch, ring",
+      "uses": [
+        {
+          "t": "Contraception",
+          "k": "y1-114-4"
+        },
+        {
+          "t": "Heavy menstrual bleeding",
+          "k": "y2-212-1"
+        },
+        {
+          "t": "PCOS, acne",
+          "k": "y2-212-2"
+        }
+      ],
+      "how": "Oestrogen + progestogen suppress ovulation (no LH surge)",
+      "hx": [
+        [
+          "Oestrogen + progestogen block implantation only (ovulation continues)",
+          "They mainly stop ovulation by suppressing the LH surge."
+        ],
+        [
+          "Oestrogen + progestogen trigger an early LH surge (premature ovulation)",
+          "They suppress the LH surge, so there's no ovulation."
+        ],
+        [
+          "Oestrogen + testosterone suppress ovulation (no FSH)",
+          "It's oestrogen plus a progestogen."
+        ]
+      ],
+      "se": [
+        "Nausea",
+        "Breast tenderness",
+        "Breakthrough bleeding",
+        "Headache",
+        "Mood change",
+        "Raised BP",
+        "VTE"
+      ],
+      "sewhy": "Oestrogen raises clotting factors (VTE) and angiotensinogen (BP), and causes nausea and breast tenderness; changing hormone levels cause breakthrough bleeding and mood change.",
+      "ci": [
+        {
+          "c": "Migraine with aura",
+          "k": "y1-109-3",
+          "why": "↑ ischaemic stroke",
+          "cau": false,
+          "x": [
+            [
+              "↑ haemorrhagic stroke",
+              "The risk is ischaemic stroke."
+            ],
+            [
+              "↑ migraine frequency only",
+              "The danger is ischaemic stroke."
+            ],
+            [
+              "↑ retinal detachment",
+              "No; ischaemic stroke."
+            ]
+          ]
+        },
+        {
+          "c": "Previous VTE or known thrombophilia",
+          "k": "y2-213-3",
+          "why": "Oestrogen raises clotting factors",
+          "cau": false,
+          "x": [
+            [
+              "Oestrogen lowers clotting factors",
+              "It raises them."
+            ],
+            [
+              "Progestogen raises the platelet count",
+              "The issue is oestrogen raising clotting factors."
+            ],
+            [
+              "Oestrogen damages vein valves",
+              "No; it raises clotting factors."
+            ]
+          ]
+        },
+        {
+          "c": "Smoker aged ≥35 (≥15/day)",
+          "k": "y2-213-8",
+          "why": "Arterial thrombosis (MI, stroke)",
+          "cau": false,
+          "x": [
+            [
+              "Venous thrombosis only (DVT)",
+              "In older smokers the concern is arterial (MI, stroke)."
+            ],
+            [
+              "Lung cancer",
+              "No; arterial thrombosis."
+            ],
+            [
+              "Reduced contraceptive effect",
+              "No; arterial thrombosis."
+            ]
+          ]
+        },
+        {
+          "c": "BP ≥160/100 or vascular disease",
+          "k": "y1-134-5",
+          "why": "Arterial thrombosis",
+          "cau": false,
+          "x": [
+            [
+              "Hypokalaemia",
+              "No; arterial thrombosis."
+            ],
+            [
+              "Reduced pill efficacy",
+              "No; arterial thrombosis."
+            ],
+            [
+              "Renal artery stenosis",
+              "No; arterial thrombosis."
+            ]
+          ]
+        },
+        {
+          "c": "Current breast cancer",
+          "k": "y2-228-1",
+          "why": "Hormone-sensitive tumour",
+          "cau": false,
+          "x": [
+            [
+              "Interacts with chemotherapy",
+              "The reason is hormone sensitivity."
+            ],
+            [
+              "Masks lumps on examination",
+              "No; the tumour is hormone-sensitive."
+            ],
+            [
+              "Causes lymphoedema",
+              "No; the tumour is hormone-sensitive."
+            ]
+          ]
+        },
+        {
+          "c": "Under 3 weeks postpartum",
+          "k": "y1-114-1",
+          "why": "Postpartum hypercoagulability",
+          "cau": false,
+          "x": [
+            [
+              "Postpartum anaemia",
+              "No; postpartum hypercoagulability."
+            ],
+            [
+              "Delayed uterine involution",
+              "No; hypercoagulability."
+            ],
+            [
+              "Worse postnatal depression",
+              "No; hypercoagulability."
+            ]
+          ]
+        },
+        {
+          "c": "Major surgery with prolonged immobility",
+          "k": "y2-213-3",
+          "why": "Stop 4 weeks before",
+          "cau": false,
+          "x": [
+            [
+              "Stop 1 day before",
+              "Stop 4 weeks before (VTE risk)."
+            ],
+            [
+              "Continue throughout",
+              "Stop 4 weeks before."
+            ],
+            [
+              "Stop 6 months before",
+              "Four weeks is enough."
+            ]
+          ]
+        },
+        {
+          "c": "Severe liver disease",
+          "k": "y2-229-3",
+          "why": "Oestrogen is liver-metabolised and worsens liver tumours",
+          "cau": false,
+          "x": [
+            [
+              "Oestrogen is renally excreted and damages the kidneys",
+              "It's metabolised in the liver and can worsen liver tumours."
+            ],
+            [
+              "Progestogen reactivates hepatitis B",
+              "No; oestrogen is liver-metabolised and worsens liver tumours."
+            ],
+            [
+              "Oestrogen lowers albumin and causes ascites",
+              "No; liver metabolism and tumour growth are the issues."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "progestogen-only-methods",
+      "name": "Progestogen-only methods",
+      "ex": "POP, implant, injection, LNG-IUS",
+      "uses": [
+        {
+          "t": "Contraception, including when oestrogen is contraindicated",
+          "k": "y1-114-4"
+        },
+        {
+          "t": "Heavy menstrual bleeding (LNG-IUS)",
+          "k": "y2-212-1"
+        },
+        {
+          "t": "Endometrial protection in HRT",
+          "k": "y2-212-13"
+        }
+      ],
+      "how": "Thicken cervical mucus, thin endometrium (± inhibit ovulation)",
+      "hx": [
+        [
+          "Thin cervical mucus, thicken endometrium (± trigger ovulation)",
+          "They thicken mucus and thin the endometrium."
+        ],
+        [
+          "Kill sperm in the uterus (spermicidal)",
+          "No; they change the mucus and endometrium."
+        ],
+        [
+          "Release copper ions that are toxic to sperm",
+          "That's the copper IUD; progestogens thicken mucus."
+        ]
+      ],
+      "se": [
+        "Irregular bleeding",
+        "Mood change",
+        "Acne",
+        "Injection: bone loss, weight gain, delayed return of fertility"
+      ],
+      "sewhy": "Progestogen alone makes the endometrium unstable (irregular bleeding) and has androgenic effects (acne); the injection suppresses oestrogen (bone loss) and its effect wears off slowly (delayed fertility).",
+      "ci": [
+        {
+          "c": "Current breast cancer",
+          "k": "y2-228-1",
+          "why": "Hormone-sensitive tumour",
+          "cau": false,
+          "x": [
+            [
+              "Progestogen interacts with tamoxifen",
+              "The reason is hormone sensitivity."
+            ],
+            [
+              "Causes breast cysts",
+              "No; hormone-sensitive tumour."
+            ],
+            [
+              "Increases bleeding during surgery",
+              "No; hormone-sensitive tumour."
+            ]
+          ]
+        },
+        {
+          "c": "Current PID or STI (LNG-IUS)",
+          "k": "y2-212-21",
+          "why": "Insertion spreads infection upwards",
+          "cau": false,
+          "x": [
+            [
+              "Progestogen weakens immunity",
+              "No; insertion carries infection upwards."
+            ],
+            [
+              "The device can't be inserted through pus",
+              "No; insertion spreads infection."
+            ],
+            [
+              "Antibiotics stop the device working",
+              "No; insertion spreads infection upwards."
+            ]
+          ]
+        },
+        {
+          "c": "Distorted uterine cavity, e.g. large fibroids (LNG-IUS)",
+          "k": "y2-212-1",
+          "why": "Can't sit correctly → expulsion",
+          "cau": false,
+          "x": [
+            [
+              "Fibroids absorb the progestogen",
+              "No; the device can't sit correctly."
+            ],
+            [
+              "Progestogen makes fibroids grow",
+              "No; a distorted cavity → expulsion."
+            ],
+            [
+              "Insertion makes fibroids degenerate",
+              "No; it can't sit correctly."
+            ]
+          ]
+        },
+        {
+          "c": "Unexplained vaginal bleeding (LNG-IUS)",
+          "k": "y2-228-7",
+          "why": "Could mask endometrial or cervical cancer",
+          "cau": false,
+          "x": [
+            [
+              "Could cause endometrial cancer",
+              "It protects the endometrium; the issue is masking cancer."
+            ],
+            [
+              "Bleeding expels the device",
+              "No; it could mask cancer."
+            ],
+            [
+              "Bleeding means pregnancy",
+              "Investigate first, as it could mask cancer."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hrt",
+      "name": "HRT",
+      "ex": "oestrogen ± progestogen",
+      "uses": [
+        {
+          "t": "Menopausal symptoms",
+          "k": "y2-212-13"
+        },
+        {
+          "t": "Premature ovarian insufficiency until ~51",
+          "k": "y2-212-10"
+        },
+        {
+          "t": "Osteoporosis prevention (younger women)",
+          "k": "y2-210-31"
+        }
+      ],
+      "how": "Replaces oestrogen; progestogen protects the endometrium if the uterus is present",
+      "hx": [
+        [
+          "Replaces progesterone; oestrogen protects the endometrium if the uterus is present",
+          "It replaces oestrogen; the progestogen protects the endometrium."
+        ],
+        [
+          "Replaces oestrogen; progestogen protects the breast from cancer",
+          "Progestogen protects the endometrium (combined HRT slightly raises breast risk)."
+        ],
+        [
+          "Replaces testosterone; oestrogen protects bones only",
+          "It replaces oestrogen, with progestogen for women with a uterus."
+        ]
+      ],
+      "se": [
+        "Breast tenderness",
+        "Bleeding",
+        "Nausea",
+        "Headache",
+        "Small ↑ breast cancer (combined), VTE and stroke (oral)"
+      ],
+      "sewhy": "Oestrogen and progestogen cause breast tenderness, bleeding and nausea; oral oestrogen raises clotting factors (VTE, stroke), and combined HRT slightly increases breast cancer risk with duration.",
+      "ci": [
+        {
+          "c": "Current or past breast cancer",
+          "k": "y2-228-1",
+          "why": "Oestrogen drives hormone-sensitive tumours",
+          "cau": false,
+          "x": [
+            [
+              "Oestrogen causes lymphoedema",
+              "No; it drives hormone-sensitive tumours."
+            ],
+            [
+              "Progestogen interacts with chemotherapy",
+              "No; oestrogen drives the tumour."
+            ],
+            [
+              "Oestrogen raises clotting in the breast",
+              "No; it drives hormone-sensitive tumours."
+            ]
+          ]
+        },
+        {
+          "c": "Undiagnosed vaginal bleeding",
+          "k": "y2-228-7",
+          "why": "May be endometrial cancer: investigate first",
+          "cau": false,
+          "x": [
+            [
+              "May be pregnancy: do a test and continue",
+              "Postmenopausal bleeding may be endometrial cancer; investigate first."
+            ],
+            [
+              "May be fibroids: start HRT to shrink them",
+              "Investigate first: it may be cancer."
+            ],
+            [
+              "May be atrophy: start HRT straight away",
+              "Investigate before starting."
+            ]
+          ]
+        },
+        {
+          "c": "Active or recent VTE (oral HRT)",
+          "k": "y2-213-3",
+          "why": "Oral oestrogen raises clotting factors; transdermal doesn't",
+          "cau": false,
+          "x": [
+            [
+              "Transdermal oestrogen raises clotting factors; oral doesn't",
+              "It's the other way round: oral oestrogen passes through the liver."
+            ],
+            [
+              "Progestogen dissolves clots, so stop it",
+              "No; oral oestrogen raises clotting factors."
+            ],
+            [
+              "All HRT raises clotting factors equally",
+              "Transdermal doesn't raise them."
+            ]
+          ]
+        },
+        {
+          "c": "Active arterial disease (recent MI or stroke)",
+          "k": "y1-134-1",
+          "why": "↑ arterial events",
+          "cau": false,
+          "x": [
+            [
+              "↓ arterial events",
+              "HRT doesn't protect; it can raise arterial events."
+            ],
+            [
+              "↑ heart block",
+              "No; ↑ arterial events."
+            ],
+            [
+              "↑ cholesterol",
+              "No; ↑ arterial events."
+            ]
+          ]
+        },
+        {
+          "c": "Active liver disease",
+          "k": "y2-229-3",
+          "why": "Impaired metabolism",
+          "cau": false,
+          "x": [
+            [
+              "Increased metabolism",
+              "Metabolism is impaired."
+            ],
+            [
+              "Causes gallstones in everyone",
+              "No; impaired metabolism."
+            ],
+            [
+              "Reactivates hepatitis B",
+              "No; impaired metabolism."
+            ]
+          ]
+        },
+        {
+          "c": "Oestrogen alone with a uterus",
+          "k": "y2-212-13",
+          "why": "Unopposed oestrogen → endometrial hyperplasia and cancer",
+          "cau": false,
+          "x": [
+            [
+              "Unopposed oestrogen → ovarian cysts",
+              "The risk is endometrial hyperplasia and cancer."
+            ],
+            [
+              "Unopposed progestogen → endometrial atrophy",
+              "It's unopposed oestrogen that causes hyperplasia."
+            ],
+            [
+              "Unopposed oestrogen → cervical cancer",
+              "It's the endometrium at risk."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ovulation-induction",
+      "name": "Ovulation induction",
+      "ex": "letrozole, clomifene",
+      "uses": [
+        {
+          "t": "Anovulatory infertility, PCOS",
+          "k": "y2-212-2"
+        }
+      ],
+      "how": "Letrozole: aromatase inhibitor; clomifene: anti-oestrogen at hypothalamus → ↑ FSH",
+      "hx": [
+        [
+          "Letrozole: anti-oestrogen at hypothalamus; clomifene: aromatase inhibitor → ↑ FSH",
+          "Swapped: letrozole inhibits aromatase; clomifene is the anti-oestrogen."
+        ],
+        [
+          "Letrozole: FSH analogue; clomifene: LH analogue → direct ovarian stimulation",
+          "Both act indirectly, raising the body's own FSH."
+        ],
+        [
+          "Letrozole: progesterone antagonist; clomifene: GnRH antagonist → ↓ FSH",
+          "They raise FSH: letrozole by cutting oestrogen, clomifene by blocking its feedback."
+        ]
+      ],
+      "se": [
+        "Hot flushes",
+        "Multiple pregnancy",
+        "Ovarian hyperstimulation",
+        "Visual disturbance (clomifene)"
+      ],
+      "sewhy": "Clomifene blocks oestrogen receptors (hot flushes, visual disturbance); stimulating several follicles causes multiple pregnancy and ovarian hyperstimulation.",
+      "ci": [
+        {
+          "c": "Pregnancy",
+          "k": "y1-114-1",
+          "why": "No benefit and possible fetal harm",
+          "cau": false,
+          "x": [
+            [
+              "Causes twins in every pregnancy",
+              "Multiple pregnancy is a treatment risk, but once pregnant there's no benefit and possible harm."
+            ],
+            [
+              "Proven to prevent miscarriage",
+              "No benefit; possible harm."
+            ],
+            [
+              "Causes maternal hypertension",
+              "No; no benefit and possible fetal harm."
+            ]
+          ]
+        },
+        {
+          "c": "Liver disease",
+          "k": "y2-229-3",
+          "why": "Impaired metabolism",
+          "cau": false,
+          "x": [
+            [
+              "Increased metabolism",
+              "Impaired."
+            ],
+            [
+              "Direct nephrotoxicity",
+              "No; impaired metabolism."
+            ],
+            [
+              "Causes gallstones",
+              "No; impaired metabolism."
+            ]
+          ]
+        },
+        {
+          "c": "Ovarian cysts (clomifene)",
+          "k": "y2-212-2",
+          "why": "Cyst enlargement",
+          "cau": true,
+          "x": [
+            [
+              "Prevents cyst rupture",
+              "It can enlarge cysts."
+            ],
+            [
+              "Ovarian cancer",
+              "The concern is cyst enlargement."
+            ],
+            [
+              "Cyst shrinkage",
+              "It can enlarge them."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mifepristone-misoprostol",
+      "name": "Mifepristone + misoprostol",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Medical termination of pregnancy",
+          "k": "y1-114-4"
+        },
+        {
+          "t": "Management of missed miscarriage",
+          "k": "y2-212-3"
+        }
+      ],
+      "how": "Mifepristone: progesterone receptor antagonist; misoprostol: prostaglandin → contractions",
+      "hx": [
+        [
+          "Mifepristone: oestrogen receptor antagonist; misoprostol: oxytocin analogue → contractions",
+          "Mifepristone blocks progesterone; misoprostol is a prostaglandin."
+        ],
+        [
+          "Mifepristone: progesterone receptor agonist; misoprostol: prostaglandin antagonist → relaxation",
+          "Mifepristone blocks progesterone; misoprostol causes contractions."
+        ],
+        [
+          "Mifepristone: prostaglandin → contractions; misoprostol: progesterone receptor antagonist",
+          "Swapped."
+        ]
+      ],
+      "se": [
+        "Cramping",
+        "Bleeding",
+        "Nausea",
+        "Diarrhoea"
+      ],
+      "sewhy": "Mifepristone blocks progesterone and misoprostol makes the uterus contract, which causes the expected cramping and bleeding; misoprostol also stimulates the gut.",
+      "ci": [
+        {
+          "c": "Suspected ectopic pregnancy",
+          "k": "y2-212-3",
+          "why": "Won't treat it and delays diagnosis → rupture",
+          "cau": false,
+          "x": [
+            [
+              "Treats it but causes heavy bleeding",
+              "It won't treat an ectopic; the delay risks rupture."
+            ],
+            [
+              "Moves the ectopic into the uterus",
+              "Impossible; it delays diagnosis → rupture."
+            ],
+            [
+              "Triggers maternal hypertension",
+              "No; it won't treat it and delays diagnosis."
+            ]
+          ]
+        },
+        {
+          "c": "Chronic adrenal failure (mifepristone)",
+          "k": "y1-126-3",
+          "why": "Also blocks glucocorticoid receptors",
+          "cau": false,
+          "x": [
+            [
+              "Also blocks mineralocorticoid receptors only",
+              "It blocks glucocorticoid receptors, worsening adrenal failure."
+            ],
+            [
+              "Stimulates ACTH release",
+              "No; it blocks glucocorticoid receptors."
+            ],
+            [
+              "Raises cortisol to toxic levels",
+              "No; it blocks cortisol's receptor."
+            ]
+          ]
+        },
+        {
+          "c": "Severe asthma needing oral steroids (mifepristone)",
+          "k": "y2-204-6",
+          "why": "Blocks steroid effects",
+          "cau": false,
+          "x": [
+            [
+              "Causes bronchospasm through prostaglandins",
+              "Mifepristone blocks glucocorticoid receptors, undoing steroid control."
+            ],
+            [
+              "Raises steroid levels to toxicity",
+              "It blocks steroid effects."
+            ],
+            [
+              "Interacts with salbutamol",
+              "No; it blocks steroid effects."
+            ]
+          ]
+        },
+        {
+          "c": "Bleeding disorders or anticoagulation",
+          "k": "y1-138-3",
+          "why": "Heavy bleeding",
+          "cau": false,
+          "x": [
+            [
+              "Thrombosis",
+              "The risk is heavy bleeding."
+            ],
+            [
+              "Failed abortion",
+              "Not the reason; heavy bleeding."
+            ],
+            [
+              "Infection",
+              "No; heavy bleeding."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oxytocin",
+      "name": "Oxytocin",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Induction and augmentation of labour",
+          "k": "y1-114-3"
+        },
+        {
+          "t": "Third stage and postpartum haemorrhage",
+          "k": "y1-114-3"
+        }
+      ],
+      "how": "Stimulates uterine oxytocin receptors → contractions",
+      "hx": [
+        [
+          "Blocks uterine oxytocin receptors → relaxation",
+          "It stimulates them, causing contractions."
+        ],
+        [
+          "Stimulates uterine prostaglandin receptors → cervical softening only",
+          "It acts on oxytocin receptors to cause contractions."
+        ],
+        [
+          "Stimulates uterine β2 receptors → contractions",
+          "β2 stimulation relaxes the uterus; oxytocin acts on its own receptors."
+        ]
+      ],
+      "se": [
+        "Uterine hyperstimulation → fetal distress",
+        "Water intoxication, hyponatraemia",
+        "Hypotension (bolus)"
+      ],
+      "sewhy": "Oxytocin makes the uterus contract, and too much reduces placental blood flow (fetal distress); it resembles ADH, so large doses with fluids cause water retention and hyponatraemia.",
+      "ci": [
+        {
+          "c": "Obstructed labour or cephalopelvic disproportion",
+          "k": "y1-114-3",
+          "why": "Forced contractions → uterine rupture",
+          "cau": false,
+          "x": [
+            [
+              "Weak contractions → prolonged labour",
+              "Contractions against an obstruction risk rupture."
+            ],
+            [
+              "Fetal macrosomia",
+              "No; uterine rupture."
+            ],
+            [
+              "Postpartum haemorrhage only",
+              "The danger is uterine rupture."
+            ]
+          ]
+        },
+        {
+          "c": "Fetal distress",
+          "k": "y1-114-3",
+          "why": "Further compromises placental blood flow",
+          "cau": false,
+          "x": [
+            [
+              "Improves placental blood flow",
+              "Contractions reduce placental flow."
+            ],
+            [
+              "Causes fetal tachycardia only",
+              "No; it further compromises placental flow."
+            ],
+            [
+              "Triggers fetal seizures",
+              "No; it further reduces placental flow."
+            ]
+          ]
+        },
+        {
+          "c": "Placenta praevia",
+          "k": "y2-212-24",
+          "why": "Contractions over the os → massive haemorrhage",
+          "cau": false,
+          "x": [
+            [
+              "Contractions push the placenta up → safe delivery",
+              "Contractions over a low placenta cause massive bleeding."
+            ],
+            [
+              "Contractions → amniotic fluid embolism",
+              "No; massive haemorrhage."
+            ],
+            [
+              "Oxytocin thins the placenta",
+              "No; contractions over the os cause haemorrhage."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labetalol",
+      "name": "Labetalol",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Hypertension in pregnancy and pre-eclampsia (first line)",
+          "k": "y1-114-2"
+        }
+      ],
+      "how": "α1 + non-selective β blocker",
+      "hx": [
+        [
+          "α1 agonist + β1-selective blocker",
+          "It blocks α1 and both β receptors."
+        ],
+        [
+          "α2 agonist + non-selective β blocker",
+          "The α2 part is methyldopa-like; labetalol blocks α1."
+        ],
+        [
+          "Calcium channel blocker + β2 agonist",
+          "It's an α1 and non-selective β blocker."
+        ]
+      ],
+      "se": [
+        "Postural hypotension",
+        "Scalp tingling",
+        "Bradycardia",
+        "Hepatotoxicity (rare)"
+      ],
+      "sewhy": "As an α and β blocker it lowers BP on standing (α), slows the heart (β) and characteristically causes scalp tingling.",
+      "ci": [
+        {
+          "c": "Asthma",
+          "k": "y2-204-6",
+          "why": "Non-selective β-blockade → bronchospasm; use nifedipine",
+          "cau": false,
+          "x": [
+            [
+              "β1-selective blockade → bronchospasm; use bisoprolol",
+              "It's non-selective, and nifedipine is the alternative."
+            ],
+            [
+              "α1 blockade → bronchospasm; use doxazosin",
+              "The problem is β2 blockade."
+            ],
+            [
+              "Non-selective β-blockade → bronchospasm; cover it with salbutamol",
+              "Avoid labetalol and use nifedipine."
+            ]
+          ]
+        },
+        {
+          "c": "Heart block",
+          "k": "y1-108-3",
+          "why": "Slows conduction",
+          "cau": false,
+          "x": [
+            [
+              "Speeds conduction",
+              "It slows conduction."
+            ],
+            [
+              "Causes coronary spasm",
+              "No; it slows conduction."
+            ],
+            [
+              "Raises potassium",
+              "No; it slows conduction."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tamsulosin",
+      "name": "Tamsulosin",
+      "ex": "alpha-1 blockers",
+      "uses": [
+        {
+          "t": "BPH / LUTS",
+          "k": "y1-141-3"
+        },
+        {
+          "t": "Ureteric stones 5–10 mm (expulsive therapy)",
+          "k": "y1-111-4"
+        }
+      ],
+      "how": "Blocks α1A receptors → relaxes prostate and bladder-neck smooth muscle",
+      "hx": [
+        [
+          "Stimulates α1A receptors → contracts the bladder neck",
+          "It blocks α1A, relaxing the prostate and bladder neck."
+        ],
+        [
+          "Blocks β3 receptors → contracts the detrusor",
+          "It acts on α1A receptors in the prostate."
+        ],
+        [
+          "Blocks α1B receptors → relaxes arterioles mainly",
+          "It's selective for α1A (prostate), so it has less effect on BP."
+        ]
+      ],
+      "se": [
+        "Postural hypotension, dizziness",
+        "Retrograde ejaculation",
+        "Floppy iris syndrome",
+        "Nasal congestion"
+      ],
+      "sewhy": "α1 blockade lowers BP on standing, relaxes the bladder neck (retrograde ejaculation) and the iris dilator (floppy iris during cataract surgery).",
+      "ci": [
+        {
+          "c": "Postural hypotension or micturition syncope",
+          "k": "y1-108-1",
+          "why": "Worsens BP on standing",
+          "cau": false,
+          "x": [
+            [
+              "Causes urinary retention on standing",
+              "It relieves retention; BP drops on standing."
+            ],
+            [
+              "Slows the heart",
+              "No; it worsens postural BP."
+            ],
+            [
+              "Raises BP on standing",
+              "It lowers it."
+            ]
+          ]
+        },
+        {
+          "c": "Planned cataract surgery",
+          "k": "y1-142-1",
+          "why": "Floppy iris syndrome: tell the surgeon",
+          "cau": true,
+          "x": [
+            [
+              "Raised intraocular pressure: stop a week before",
+              "The issue is floppy iris syndrome during surgery: tell the surgeon."
+            ],
+            [
+              "Retinal detachment: avoid surgery",
+              "No; floppy iris syndrome."
+            ],
+            [
+              "Corneal oedema: double the dose",
+              "No; floppy iris syndrome."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5-reductase-inhibitors",
+      "name": "5α-reductase inhibitors",
+      "ex": "finasteride, dutasteride",
+      "uses": [
+        {
+          "t": "BPH with large prostate",
+          "k": "y1-141-3"
+        }
+      ],
+      "how": "Block testosterone → DHT conversion → prostate shrinks over ~6 months",
+      "hx": [
+        [
+          "Block testosterone receptors → prostate shrinks within days",
+          "They block conversion to DHT, and it takes about 6 months."
+        ],
+        [
+          "Block DHT → testosterone conversion → prostate grows",
+          "They block testosterone becoming DHT, shrinking the prostate."
+        ],
+        [
+          "Block oestrogen synthesis → prostate shrinks over ~6 months",
+          "They block testosterone → DHT conversion."
+        ]
+      ],
+      "se": [
+        "↓ libido",
+        "Erectile dysfunction",
+        "Gynaecomastia",
+        "Halves PSA"
+      ],
+      "sewhy": "Reduced DHT lowers libido and erectile function and can cause gynaecomastia; it halves PSA, so readings must be doubled.",
+      "ci": [
+        {
+          "c": "Women who are or may become pregnant (handling crushed tablets)",
+          "k": "y1-114-1",
+          "why": "Blocks DHT → feminises a male fetus",
+          "cau": false,
+          "x": [
+            [
+              "Blocks oestrogen → masculinises a female fetus",
+              "Blocking DHT under-virilises a male fetus."
+            ],
+            [
+              "Causes miscarriage",
+              "No; it feminises a male fetus's genitals."
+            ],
+            [
+              "Blocks DHT → hair loss in the mother",
+              "The danger is to a male fetus."
+            ]
+          ]
+        },
+        {
+          "c": "PSA monitoring",
+          "k": "y1-141-2",
+          "why": "Double the PSA value when interpreting",
+          "cau": true,
+          "x": [
+            [
+              "Halve the PSA value when interpreting",
+              "They halve PSA, so double the reading."
+            ],
+            [
+              "PSA becomes unreliable: stop testing",
+              "Just double the value."
+            ],
+            [
+              "PSA rises: expect false positives",
+              "PSA falls by about half."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bladder-antimuscarinics",
+      "name": "Bladder antimuscarinics",
+      "ex": "oxybutynin, solifenacin",
+      "uses": [
+        {
+          "t": "Overactive bladder, urge incontinence",
+          "k": "y2-212-7"
+        }
+      ],
+      "how": "Block M3 receptors on the detrusor",
+      "hx": [
+        [
+          "Stimulate M3 receptors on the detrusor",
+          "They block M3, relaxing the detrusor."
+        ],
+        [
+          "Block nicotinic receptors on the urethral sphincter",
+          "They block muscarinic M3 receptors on the detrusor."
+        ],
+        [
+          "Block M2 receptors in the bladder lining only",
+          "The key target is M3 on the detrusor."
+        ]
+      ],
+      "se": [
+        "Dry mouth",
+        "Constipation",
+        "Blurred vision",
+        "Confusion and cognitive decline (elderly)"
+      ],
+      "sewhy": "Blocking muscarinic receptors beyond the bladder causes dry mouth, constipation and blurred vision; those crossing into the brain worsen cognition in older people.",
+      "ci": [
+        {
+          "c": "Angle-closure glaucoma",
+          "k": "y1-142-4",
+          "why": "Mydriasis blocks drainage",
+          "cau": false,
+          "x": [
+            [
+              "Miosis blocks drainage",
+              "Antimuscarinics dilate the pupil."
+            ],
+            [
+              "Raises aqueous production",
+              "No; mydriasis."
+            ],
+            [
+              "Dries the eye",
+              "No; mydriasis blocks drainage."
+            ]
+          ]
+        },
+        {
+          "c": "Urinary retention or outflow obstruction",
+          "k": "y1-141-3",
+          "why": "Weakens the detrusor further",
+          "cau": false,
+          "x": [
+            [
+              "Strengthens the detrusor",
+              "They weaken it."
+            ],
+            [
+              "Constricts the urethra",
+              "No; it weakens the detrusor."
+            ],
+            [
+              "Increases urine production",
+              "No; it weakens the detrusor."
+            ]
+          ]
+        },
+        {
+          "c": "Myasthenia gravis",
+          "k": "y1-113-3",
+          "why": "Worsens weakness",
+          "cau": false,
+          "x": [
+            [
+              "Improves weakness",
+              "They worsen it."
+            ],
+            [
+              "Causes a cholinergic crisis",
+              "They're anticholinergic; they worsen weakness."
+            ],
+            [
+              "Causes thymus growth",
+              "No; worsens weakness."
+            ]
+          ]
+        },
+        {
+          "c": "Severe ulcerative colitis or toxic megacolon",
+          "k": "y1-145-3",
+          "why": "Reduces gut motility",
+          "cau": false,
+          "x": [
+            [
+              "Increases gut motility",
+              "They reduce it."
+            ],
+            [
+              "Increases gut secretions",
+              "No; they reduce motility."
+            ],
+            [
+              "Causes bowel ischaemia",
+              "No; they reduce motility."
+            ]
+          ]
+        },
+        {
+          "c": "Frail elderly, dementia",
+          "k": "y2-209-1",
+          "why": "Anticholinergic burden → confusion; prefer mirabegron",
+          "cau": true,
+          "x": [
+            [
+              "Cholinergic excess → falls; prefer oxybutynin",
+              "They're anticholinergic, and oxybutynin is the worst for confusion."
+            ],
+            [
+              "Anticholinergic burden → confusion; prefer oxybutynin",
+              "Oxybutynin is the most likely to confuse; mirabegron avoids it."
+            ],
+            [
+              "Hypertension → stroke; prefer tamsulosin",
+              "No; anticholinergic confusion, so prefer mirabegron."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mirabegron",
+      "name": "Mirabegron",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Overactive bladder",
+          "k": "y2-212-7"
+        }
+      ],
+      "how": "β3 agonist → detrusor relaxation",
+      "hx": [
+        [
+          "β3 antagonist → detrusor contraction",
+          "It's an agonist, relaxing the detrusor."
+        ],
+        [
+          "β2 agonist → detrusor relaxation",
+          "It's selective for β3."
+        ],
+        [
+          "β3 agonist → urethral sphincter contraction",
+          "It relaxes the detrusor."
+        ]
+      ],
+      "se": [
+        "Raised BP",
+        "Tachycardia",
+        "UTI"
+      ],
+      "sewhy": "As a β3 agonist it relaxes the bladder but can raise BP and heart rate, so check BP.",
+      "ci": [
+        {
+          "c": "Severe uncontrolled hypertension",
+          "k": "y1-134-5",
+          "why": "Raises BP further",
+          "cau": false,
+          "x": [
+            [
+              "Lowers BP too far",
+              "It can raise BP."
+            ],
+            [
+              "Causes heart block",
+              "No; it raises BP."
+            ],
+            [
+              "Causes fluid overload",
+              "No; it raises BP."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pde5-inhibitors",
+      "name": "PDE5 inhibitors",
+      "ex": "sildenafil, tadalafil",
+      "uses": [
+        {
+          "t": "Erectile dysfunction",
+          "k": "y1-141-1"
+        },
+        {
+          "t": "Pulmonary arterial hypertension",
+          "k": "y2-213-5"
+        },
+        {
+          "t": "BPH (tadalafil)",
+          "k": "y1-141-3"
+        }
+      ],
+      "how": "Inhibit PDE5 → ↑ cGMP → smooth-muscle relaxation and vasodilation",
+      "hx": [
+        [
+          "Inhibit PDE3 → ↑ cAMP → increased contractility",
+          "They inhibit PDE5, raising cGMP."
+        ],
+        [
+          "Activate PDE5 → ↓ cGMP → smooth-muscle contraction",
+          "Inhibit, not activate."
+        ],
+        [
+          "Block α1 receptors → penile vasodilation",
+          "They inhibit PDE5, raising cGMP."
+        ]
+      ],
+      "se": [
+        "Headache",
+        "Flushing",
+        "Dyspepsia",
+        "Blue-tinged vision",
+        "Priapism"
+      ],
+      "sewhy": "Raising cGMP dilates vessels elsewhere (headache, flushing, nasal congestion), affects retinal PDE6 (blue-tinged vision) and can cause prolonged erections.",
+      "ci": [
+        {
+          "c": "Taking nitrates (GTN, ISMN) or nicorandil",
+          "k": "y1-134-4",
+          "why": "Both raise cGMP → profound hypotension",
+          "cau": false,
+          "x": [
+            [
+              "Both lower cGMP → priapism",
+              "Both raise cGMP; together BP falls profoundly."
+            ],
+            [
+              "Nitrates block sildenafil metabolism → visual loss",
+              "No; additive cGMP → hypotension."
+            ],
+            [
+              "Both cause tachyarrhythmias",
+              "No; profound hypotension."
+            ]
+          ]
+        },
+        {
+          "c": "Recent MI or stroke, unstable angina, hypotension",
+          "k": "y1-134-1",
+          "why": "Can't tolerate the vasodilation",
+          "cau": false,
+          "x": [
+            [
+              "Can't tolerate the bradycardia",
+              "The issue is vasodilation (and the BP drop)."
+            ],
+            [
+              "Raises clot risk",
+              "No; vasodilation."
+            ],
+            [
+              "Raises BP dangerously",
+              "It lowers BP."
+            ]
+          ]
+        },
+        {
+          "c": "Previous NAION (sudden optic nerve ischaemia)",
+          "k": "y1-142-1",
+          "why": "Can recur",
+          "cau": false,
+          "x": [
+            [
+              "Can cause retinal detachment",
+              "NAION can recur."
+            ],
+            [
+              "Can cause cataracts",
+              "No; NAION can recur."
+            ],
+            [
+              "Can cause glaucoma",
+              "No; it can recur."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gnrh-agonists-for-prostate-cancer",
+      "name": "GnRH agonists for prostate cancer",
+      "ex": "goserelin, leuprorelin",
+      "uses": [
+        {
+          "t": "Prostate cancer (androgen deprivation)",
+          "k": "y1-141-2"
+        },
+        {
+          "t": "Precocious puberty",
+          "k": null
+        },
+        {
+          "t": "Fibroids before surgery",
+          "k": "y2-212-1"
+        }
+      ],
+      "how": "Continuous GnRH stimulation down-regulates the pituitary → ↓ testosterone",
+      "hx": [
+        [
+          "Pulsatile GnRH stimulation boosts the pituitary → ↑ testosterone",
+          "Continuous stimulation down-regulates GnRH receptors, cutting testosterone."
+        ],
+        [
+          "Block androgen receptors in the prostate → ↓ testosterone action",
+          "That's anti-androgens (e.g. bicalutamide); GnRH agonists switch off the pituitary."
+        ],
+        [
+          "Inhibit adrenal androgen synthesis (CYP17) → ↓ testosterone",
+          "That's abiraterone; GnRH agonists down-regulate the pituitary."
+        ]
+      ],
+      "se": [
+        "Hot flushes",
+        "↓ libido",
+        "Osteoporosis",
+        "Metabolic syndrome",
+        "Tumour flare (first weeks)"
+      ],
+      "sewhy": "Lowering testosterone causes hot flushes, low libido, bone loss and metabolic syndrome; an initial testosterone surge can flare the tumour.",
+      "ci": [
+        {
+          "c": "Starting in prostate cancer without anti-androgen cover",
+          "k": "y1-141-2",
+          "why": "Initial LH surge → tumour flare: bone pain, spinal cord compression",
+          "cau": false,
+          "x": [
+            [
+              "Initial LH drop → hot flushes only",
+              "There's an initial LH surge, which can flare the tumour."
+            ],
+            [
+              "Immediate castration → osteoporotic fractures",
+              "Bone loss is long-term; the start-up danger is tumour flare."
+            ],
+            [
+              "Initial FSH surge → testicular swelling",
+              "The danger is an LH (testosterone) surge flaring the tumour."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

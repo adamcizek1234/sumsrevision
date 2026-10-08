@@ -1,0 +1,146 @@
+{
+  "id": "y2-237",
+  "num": "237",
+  "title": "Rheumatoid arthritis",
+  "lead": "Shaun Smale",
+  "system": "MSK",
+  "date": "2027-05-10",
+  "los": [
+    {
+      "text": "Describe the effects of rheumatoid arthritis and its treatments on patients' daily lives.",
+      "sessions": [
+        "Rheumatoid Arthritis"
+      ],
+      "section": "Lectures",
+      "n": 1,
+      "html": ""
+    },
+    {
+      "text": "Know the pathophysiology, clinical features, investigation and management of rheumatoid arthritis",
+      "sessions": [
+        "Investigation and management RA"
+      ],
+      "section": "Lectures",
+      "n": 2,
+      "html": ""
+    },
+    {
+      "text": "Link the clinical features, investigation and management of metabolic bone diseases including: osteoporosis, osteomalacia / rickets, Paget's disease of bone",
+      "sessions": [
+        "Investigation and management of bone diseases"
+      ],
+      "section": "Lectures",
+      "n": 3,
+      "html": ""
+    },
+    {
+      "text": "Apply the pharmacology of corticosteroids to be able to use them safely and effectively in the treatment of a range of conditions",
+      "sessions": [
+        "Therapeutic uses of corticosteroids"
+      ],
+      "section": "Lectures",
+      "n": 4,
+      "html": ""
+    },
+    {
+      "text": "Know the clinical features, investigation and management of a range of connective tissue diseases (systemic lupus erythematosus, systemic sclerosis, inflammatory muscle disease, Sjögren's syndrome).",
+      "sessions": [
+        "Investigation and management of connective tissue disorders"
+      ],
+      "section": "Lectures",
+      "n": 5,
+      "html": ""
+    },
+    {
+      "text": "Know the clinical features, investigation and management of vasculitis (temporal arteritis, polymyalgia rheumatica, Wegener's granulomatosis, polyarteritis nodosa).",
+      "sessions": [
+        "Investigation and management of vasculitis"
+      ],
+      "section": "Lectures",
+      "n": 6,
+      "html": ""
+    },
+    {
+      "text": "Link the clinical aspects, investigation and management of rheumatoid arthritis.",
+      "sessions": [
+        "Expert forum"
+      ],
+      "section": "Lectures",
+      "n": 7,
+      "html": ""
+    },
+    {
+      "text": "To go over questions submitted in advance following neuro SDL",
+      "sessions": [
+        "Neuro SDL Q&A session"
+      ],
+      "section": "Lectures",
+      "n": 8,
+      "html": ""
+    },
+    {
+      "text": "Differentiate between shockable and non-shockable cardiac rhythms and explain the clinical significance of each in the context of cardiac arrest management",
+      "sessions": [
+        "ALS and ABCDE"
+      ],
+      "section": "ICM",
+      "n": 9,
+      "html": ""
+    },
+    {
+      "text": "Perform adult resuscitation competently, adhering to current UK Resuscitation Council guidelines, including team roles, airway management, defibrillation, and drug administration",
+      "sessions": [
+        "ALS and ABCDE"
+      ],
+      "section": "ICM",
+      "n": 10,
+      "html": ""
+    },
+    {
+      "text": "Perform structured foot and ankle examination",
+      "sessions": [
+        "Lower limb MSK exam – Foot and Ankle - applied clinical reasoning"
+      ],
+      "section": "ICM",
+      "n": 11,
+      "html": ""
+    },
+    {
+      "text": "Analyse clinical findings in the context of anatomical knowledge to identify potential underlying pathologies affecting the foot and ankle.",
+      "sessions": [
+        "Lower limb MSK exam – Foot and Ankle - applied clinical reasoning"
+      ],
+      "section": "ICM",
+      "n": 12,
+      "html": ""
+    },
+    {
+      "text": "Formulate an appropriate plan for further investigation or referral, based on clinical findings and current guidelines.",
+      "sessions": [
+        "Lower limb MSK exam – Foot and Ankle - applied clinical reasoning"
+      ],
+      "section": "ICM",
+      "n": 13,
+      "html": ""
+    },
+    {
+      "text": "Clearly and concisely present clinical findings from a musculoskeletal examination using appropriate medical terminology and structure.",
+      "sessions": [
+        "Lower limb MSK exam – Foot and Ankle - applied clinical reasoning"
+      ],
+      "section": "ICM",
+      "n": 14,
+      "html": ""
+    },
+    {
+      "text": "Predict the effects of pathology on the anatomy of the cardiovascular and respiratory system",
+      "sessions": [
+        "Cardiovascular & Respiratory Anatomy & Pathology"
+      ],
+      "section": "Anatomy",
+      "n": 15,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Pathology</th><th>Anatomical change</th><th>Effects you can predict</th></tr></thead><tbody><tr><td><strong>Left ventricular hypertrophy</strong> (hypertension, aortic stenosis)</td><td>Thick LV wall, stiff ventricle</td><td>Diastolic dysfunction, ischaemia (more muscle, same arteries), apex beat <strong>heaving</strong> but not displaced</td></tr><tr><td><strong>Dilated heart / LV failure</strong></td><td>Dilated LV, stretched mitral ring</td><td><strong>Displaced apex</strong>, functional mitral regurgitation, pulmonary oedema (Kerley B lines, bat-wing shadowing, <strong>upper lobe diversion</strong>)</td></tr><tr><td><strong>Right heart failure / cor pulmonale</strong></td><td>Dilated RV and RA</td><td>Raised JVP, <strong>hepatomegaly</strong> (hepatic veins → IVC), ankle oedema, ascites</td></tr><tr><td><strong>Left atrial enlargement</strong> (mitral stenosis)</td><td>Big LA behind the heart</td><td><strong>Splayed carina</strong>, double right heart border, <strong>dysphagia</strong> (oesophagus), hoarseness (<strong>left recurrent laryngeal</strong> stretched: Ortner's), AF and thrombus</td></tr><tr><td><strong>Pericardial effusion / tamponade</strong></td><td>Fluid in the fibrous sac</td><td>Globular \"water-bottle\" heart, Beck's triad, pulsus paradoxus</td></tr><tr><td><strong>Aortic aneurysm / dissection</strong> (arch)</td><td>Dilated arch</td><td>Compresses the <strong>left recurrent laryngeal nerve</strong> (hoarse), trachea, oesophagus; dissection can block coronary, carotid, subclavian or renal branches</td></tr><tr><td><strong>Coarctation</strong></td><td>Narrowing near the ligamentum arteriosum</td><td>Radiofemoral delay; collateral intercostal arteries cause <strong>rib notching</strong></td></tr><tr><td><strong>Lung cancer</strong> (apex: <strong>Pancoast</strong>)</td><td>Tumour at the thoracic inlet</td><td><strong>Horner's</strong> (sympathetic chain), <strong>T1 root</strong> (wasting of hand muscles), brachial plexus pain</td></tr><tr><td>Central lung cancer / mediastinal nodes</td><td>Mass at the hilum</td><td><strong>SVC obstruction</strong> (facial swelling, dilated chest veins), <strong>phrenic palsy</strong> (raised hemidiaphragm), recurrent laryngeal palsy (left)</td></tr><tr><td><strong>Pleural effusion</strong></td><td>Fluid in the pleural space</td><td><strong>Stony dull</strong> base, reduced breath sounds, <strong>mediastinum pushed away</strong> (large)</td></tr><tr><td><strong>Pneumothorax / tension</strong></td><td>Air in the pleural space</td><td>Collapse; tension pushes the <strong>trachea and mediastinum away</strong>, kinks great veins → shock</td></tr><tr><td><strong>Lobar collapse</strong></td><td>Volume loss</td><td>Trachea and mediastinum pulled <strong>towards</strong> the affected side; raised hemidiaphragm</td></tr><tr><td><strong>COPD / emphysema</strong></td><td>Hyperinflation, bullae</td><td>Flat diaphragms, barrel chest, more than 6 anterior ribs visible, narrow heart</td></tr><tr><td><strong>Aspiration</strong></td><td>Right main bronchus wider, shorter, more vertical</td><td>Aspiration pneumonia in the <strong>right lower lobe</strong> (upright) or posterior segments (lying)</td></tr></tbody></table></div><ul><li><strong>Approach</strong>: think about where the structure lies<ul><li>what it touches (nerves, vessels, airways, oesophagus) and what happens if it grows</li><li>shrinks</li><li>blocks or bleeds.</li></ul></li></ul>"
+    }
+  ],
+  "partial": true
+}

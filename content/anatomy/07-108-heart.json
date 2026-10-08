@@ -1,0 +1,92 @@
+{
+  "id": "a-108",
+  "num": "108",
+  "title": "Heart",
+  "system": "Cardiovascular",
+  "los": [
+    {
+      "n": 1,
+      "text": "Identify the parts of the adult heart, both externally and internally, and explain their functional significance",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Outside</strong>: apex (LV, 5th left intercostal space)<ul><li>base (posterior surface, mainly <strong>left atrium</strong>)</li><li>sternocostal surface mainly <strong>right ventricle</strong></li><li>diaphragmatic surface both ventricles</li><li>coronary (AV) and interventricular sulci carry the vessels.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Chamber</th><th>Key features</th><th>Function</th></tr></thead><tbody><tr><td>Right atrium</td><td><ul class=\"cl\"><li>Smooth sinus venarum vs rough <strong>pectinate muscles</strong>, divided by the <strong>crista terminalis</strong></li><li>Openings of SVC, IVC, <strong>coronary sinus</strong></li><li><strong>Fossa ovalis</strong></li><li>SA node</li></ul></td><td>Receives systemic venous blood</td></tr><tr><td>Right ventricle</td><td>Trabeculae carneae, 3 papillary muscles, <strong>moderator band</strong> (carries right bundle branch), smooth <strong>infundibulum</strong> to pulmonary valve</td><td>Low-pressure pump to lungs</td></tr><tr><td>Left atrium</td><td>Mostly smooth; 4 pulmonary veins; left auricle (clot forms here in AF)</td><td>Receives oxygenated blood</td></tr><tr><td>Left ventricle</td><td><strong>Thickest wall</strong> (~3× RV), 2 papillary muscles, aortic vestibule</td><td>High-pressure systemic pump</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Septa</th><td>Interatrial (fossa ovalis = old foramen ovale); interventricular (muscular, plus a thin <strong>membranous</strong> upper part where VSDs are common).</td></tr><tr><th scope=\"row\">Valves</th><td><ul class=\"cl\"><li>AV valves (tricuspid, mitral) tethered by chordae and papillary muscles</li><li>Semilunar valves (pulmonary, aortic) with 3 cusps</li><li>Coronary arteries arise from the aortic sinuses.</li></ul></td></tr><tr><th scope=\"row\">Fibrous skeleton</th><td>Rings anchor the valves and <strong>insulate atria from ventricles</strong> electrically, except through the AV bundle.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Locate the atrio-ventricular, pulmonary and aortic valves on an intact heart, demonstrate their surface markings in the living and how they relate to clinical and radiological examinations and describe their role in the prevention of regurgitation of blood, and know where they can best be auscultated",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Valve</th><th>Lies behind</th><th>Best heard</th></tr></thead><tbody><tr><td>Pulmonary</td><td>Left 3rd costal cartilage (the highest valve)</td><td><strong>2nd left</strong> intercostal space beside the sternum</td></tr><tr><td>Aortic</td><td>Sternum at the 3rd intercostal space</td><td><strong>2nd right</strong> intercostal space beside the sternum</td></tr><tr><td>Mitral</td><td>Left 4th costal cartilage</td><td><strong>Apex</strong> (5th intercostal space, midclavicular line)</td></tr><tr><td>Tricuspid</td><td>Sternum at the 4th intercostal space</td><td><strong>Lower left sternal edge</strong> (4th–5th space)</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Why the difference</th><td>Sound carries downstream with the blood, so each valve is heard where its outflow comes nearest the chest wall (\"All People Enjoy Time Magazine\": aortic, pulmonary, Erb's point, tricuspid, mitral).</td></tr><tr><th scope=\"row\">Preventing backflow</th><td><ul class=\"cl\"><li>AV valves close at the start of systole (S1)</li><li>Papillary muscles pull on chordae so the cusps don't evert.</li><li>Semilunar cusps fill and meet at the end of systole (S2).</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Label the parts of the conducting system of the heart on a diagram",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1. SA node</th><td>in the right atrial wall where the SVC meets the top of the crista terminalis.</td></tr><tr><th scope=\"row\">2. Atrial pathways</th><td>Internodal tracts; Bachmann's bundle to the left atrium.</td></tr><tr><th scope=\"row\">3. AV node</th><td>in the interatrial septum near the coronary sinus opening (triangle of Koch).</td></tr><tr><th scope=\"row\">4. AV bundle (of His)</th><td>Pierces the fibrous skeleton into the membranous septum.</td></tr><tr><th scope=\"row\">5. Bundle branches</th><td>Right (via the moderator band) and left (anterior and posterior fascicles).</td></tr><tr><th scope=\"row\">6. Purkinje fibres</th><td>Under the endocardium of both ventricles.</td></tr></tbody></table></div><ul><li><strong>Blood supply</strong>: SA node from the RCA in ~60%<ul><li>AV node from the RCA in ~80–90%, which is why <strong>inferior MI causes heart block</strong>.</li></ul></li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Describe the anatomical course of the spread of excitation through the chambers of the heart",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1. SA node fires<span class=\"paren\">(60–100/min)</span></th><td>The pacemaker because it is the fastest.</td></tr><tr><th scope=\"row\">2</th><td><strong>Atria depolarise</strong> cell to cell and contract (P wave).</td></tr><tr><th scope=\"row\">3. AV node delay<span class=\"paren\">(~0.1 s)</span></th><td>Lets the ventricles fill; the only electrical route through the fibrous skeleton (PR interval).</td></tr><tr><th scope=\"row\">4. His bundle and bundle branches</th><td>Down the septum (septum depolarises left to right first).</td></tr><tr><th scope=\"row\">5. Purkinje fibres</th><td>Apex first, then up the walls, so the ventricles squeeze from <strong>apex to base</strong> towards the outflow tracts (QRS).</td></tr></tbody></table></div><ul><li><strong>Backup rates</strong>: AV junction 40–60/min, ventricles 20–40/min.</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Locate surface anatomy landmarks with respect to the heart (and great vessels), being aware of how they relate to clinical and radiological examinations including the placement of ECG electrodes",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Heart outline</th><td><ul class=\"cl\"><li>Upper border 2nd left to 3rd right costal cartilage</li><li>Right border 3rd–6th right cartilage just beside the sternum (right atrium)</li><li>Inferior border 6th right cartilage to the apex (mainly RV)</li><li>Left border apex up to the 2nd left space (LV).</li></ul></td></tr><tr><th scope=\"row\">Great vessels</th><td>SVC behind the right 1st–3rd cartilages; aortic arch behind the manubrium; pulmonary trunk at the 2nd left space.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>ECG lead</th><th>Position</th></tr></thead><tbody><tr><td>V1</td><td>4th intercostal space, right sternal edge</td></tr><tr><td>V2</td><td>4th intercostal space, left sternal edge</td></tr><tr><td>V3</td><td>Midway between V2 and V4</td></tr><tr><td>V4</td><td>5th intercostal space, midclavicular line</td></tr><tr><td>V5</td><td>Anterior axillary line, level with V4</td></tr><tr><td>V6</td><td>Mid-axillary line, level with V4</td></tr></tbody></table></div><ul><li><strong>Limb leads</strong>: right arm, left arm, left leg (right leg = neutral).</li></ul>"
+    },
+    {
+      "n": 6,
+      "text": "Describe the effects of sympathetic and parasympathetic innervation on the heart",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Effect</th><th>Sympathetic</th><th>Parasympathetic</th></tr></thead><tbody><tr><td>Source</td><td>T1–4/5 via cardiac nerves from the sympathetic trunk</td><td><strong>Vagus</strong> cardiac branches</td></tr><tr><td>Receptor</td><td>β1</td><td>M2</td></tr><tr><td>Heart rate</td><td>↑</td><td>↓</td></tr><tr><td>Contractility</td><td>↑ (atria and ventricles)</td><td>Little (atria only)</td></tr><tr><td>AV conduction</td><td>↑</td><td>↓</td></tr></tbody></table></div><ul><li><strong>At rest</strong>: vagal tone dominates (intrinsic SA rate ~100/min, resting rate 60–80).</li></ul>"
+    },
+    {
+      "n": 7,
+      "text": "Locate the cardiac plexus and recall that it contains both sympathetic and parasympathetic (from the vagus nerve) fibres",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Location</th><td>Superficial part below the aortic arch; deep part in front of the tracheal bifurcation (behind the arch).</td></tr><tr><th scope=\"row\">Contents</th><td><strong>Sympathetic</strong> cardiac nerves (cervical and upper thoracic ganglia) + <strong>parasympathetic</strong> cardiac branches of the <strong>vagus</strong> (including from the recurrent laryngeal nerves) + visceral afferents.</td></tr><tr><th scope=\"row\">Distribution</th><td>Along the coronary arteries to the SA and AV nodes, atria and ventricles.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Explain the mechanism of 'referred pain' as it relates to myocardial ischaemia",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Mechanism</th><td>Pain afferents from the heart run back with <strong>sympathetic</strong> fibres to spinal segments <strong>T1–T4(5)</strong>.</td></tr><tr><th scope=\"row\">Convergence</th><td>The same segments carry skin sensation from the chest wall and <strong>medial arm</strong> (T1–T2, intercostobrachial nerve), so the brain reads the pain as coming from there.</td></tr><tr><th scope=\"row\">Typical pattern</th><td>Central chest, down the <strong>left arm</strong> (medial side), into the neck and jaw, sometimes epigastrium.</td></tr><tr><th scope=\"row\">Silent MI</th><td>Diabetics and the elderly (autonomic neuropathy) may feel little pain.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Identify the right and left vagus nerves, right and left recurrent laryngeal nerves and sympathetic chains",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Right vagus</th><td><ul class=\"cl\"><li>Crosses in front of the right subclavian artery</li><li>→ <strong>right recurrent laryngeal nerve</strong> hooks under the <strong>right subclavian artery</strong></li><li>→ vagus runs behind the right lung root onto the oesophagus (posterior vagal trunk).</li></ul></td></tr><tr><th scope=\"row\">Left vagus</th><td><ul class=\"cl\"><li>Between left common carotid and subclavian</li><li>→ crosses the aortic arch</li><li>→ <strong>left recurrent laryngeal nerve</strong> hooks under the <strong>aortic arch</strong> beside the ligamentum arteriosum</li><li>→ behind the left lung root (anterior vagal trunk).</li></ul></td></tr><tr><th scope=\"row\">Recurrent laryngeal nerves</th><td>Up the tracheo-oesophageal grooves to all intrinsic laryngeal muscles except cricothyroid.</td></tr><tr><td colspan=\"2\"><ul class=\"cl\"><li><strong>Left RLN is longer and in the chest</strong></li><li>So hoarseness can come from lung cancer</li><li>Aortic aneurysm</li><li>Mediastinal nodes or a huge left atrium.</li></ul></td></tr><tr><th scope=\"row\">Sympathetic chains</th><td>Beside the vertebral bodies (over the rib heads in the thorax); cervical ganglia (superior, middle, inferior/stellate) give cardiac nerves.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 10,
+      "text": "Identify right, inferior and left heart borders and their constituent parts on a chest radiograph",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Border</th><th>Formed by</th></tr></thead><tbody><tr><td>Right</td><td>SVC (upper), <strong>right atrium</strong> (lower)</td></tr><tr><td>Left</td><td>Aortic knuckle, pulmonary trunk, left atrial appendage, <strong>left ventricle</strong></td></tr><tr><td>Inferior</td><td><strong>Right ventricle</strong> (mostly), LV apex</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Silhouette sign</th><td>Right heart border lost → right <strong>middle lobe</strong> problem; left border lost → <strong>lingula</strong>; hemidiaphragm lost → lower lobe.</td></tr><tr><th scope=\"row\">Left atrial enlargement</th><td>Double right heart border, splayed carina.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 11,
+      "text": "Recognise chest radiographs that are taken in two ways: posteroanterior (PA) and anteroposterior (AP)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>View</th><th>Beam</th><th>Effect</th></tr></thead><tbody><tr><td><strong>PA</strong> (standard)</td><td>Back to front; detector against the front of the chest; standing</td><td>Heart close to the detector → little magnification; scapulae rotated out of the lung fields</td></tr><tr><td><strong>AP</strong></td><td>Front to back; bedside or supine, unwell patients</td><td>Heart further from the detector → <strong>magnified</strong>; scapulae over the lungs; often poorer inspiration</td></tr></tbody></table></div><ul><li><strong>Rule</strong>: you can't reliably judge heart size on an AP film.</li></ul>"
+    },
+    {
+      "n": 12,
+      "text": "Describe how the cardiothoracic ratio is determined on a PA chest radiograph",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Cardiothoracic ratio</th><td>Widest horizontal heart diameter ÷ widest internal thoracic diameter (inner rib edges, usually at the diaphragm), on a <strong>PA</strong> film.</td></tr><tr><th scope=\"row\">Heart width</th><td>Midline to right border + midline to left border.</td></tr><tr><th scope=\"row\">Normal</th><td><strong>&lt; 0.5</strong>; above 0.5 suggests cardiomegaly.</td></tr><tr><th scope=\"row\">Only valid on PA</th><td>AP films magnify the heart.</td></tr></tbody></table></div>"
+    }
+  ]
+}

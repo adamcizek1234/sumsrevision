@@ -1,0 +1,2221 @@
+{
+  "id": "infection",
+  "title": "Antibiotics, antivirals & antifungals",
+  "items": [
+    {
+      "id": "penicillins",
+      "name": "Penicillins",
+      "ex": "amoxicillin, benzylpenicillin, phenoxymethylpenicillin",
+      "uses": [
+        {
+          "t": "Community-acquired pneumonia",
+          "k": "y1-128-3"
+        },
+        {
+          "t": "H. pylori",
+          "k": "y1-104-3"
+        },
+        {
+          "t": "Meningitis and endocarditis (benzylpenicillin)",
+          "k": "y2-205-3"
+        },
+        {
+          "t": "Syphilis",
+          "k": "y2-212-5"
+        }
+      ],
+      "how": "Bind penicillin-binding proteins → block cell-wall synthesis (bactericidal)",
+      "hx": [
+        [
+          "Bind penicillin-binding proteins → block cell-membrane synthesis (bacteriostatic)",
+          "They block cell-wall (peptidoglycan) cross-linking and are bactericidal."
+        ],
+        [
+          "Inhibit β-lactamase → protect other antibiotics (no killing of their own)",
+          "That's clavulanic acid's role; penicillins kill by blocking cell-wall synthesis."
+        ],
+        [
+          "Disrupt the bacterial cell membrane → leakage of contents (bactericidal)",
+          "That's more like polymyxins; penicillins bind PBPs to block cell-wall synthesis."
+        ]
+      ],
+      "se": [
+        "Hypersensitivity, anaphylaxis",
+        "Rash",
+        "Diarrhoea",
+        "C. difficile"
+      ],
+      "sewhy": "Penicillin can act as a hapten and trigger IgE allergy (rash, anaphylaxis); disrupting gut flora causes diarrhoea and C. difficile.",
+      "ci": [
+        {
+          "c": "Penicillin allergy",
+          "k": "y1-140-3",
+          "why": "IgE-mediated anaphylaxis; small cross-reactivity with cephalosporins",
+          "cau": false,
+          "x": [
+            [
+              "T-cell-mediated rash only; no cross-reactivity with cephalosporins",
+              "The danger is IgE-mediated anaphylaxis, with small cephalosporin cross-reactivity."
+            ],
+            [
+              "IgE-mediated anaphylaxis; complete cross-reactivity with cephalosporins",
+              "Cross-reactivity is small (about 1–2%)."
+            ],
+            [
+              "Direct mast-cell toxicity releasing histamine; cross-reacts with macrolides",
+              "It's IgE-mediated; macrolides don't cross-react."
+            ]
+          ]
+        },
+        {
+          "c": "Glandular fever (amoxicillin)",
+          "k": "y1-131-3",
+          "why": "Widespread rash in most people with EBV",
+          "cau": false,
+          "x": [
+            [
+              "Splenic rupture in most people with EBV",
+              "Splenic rupture comes from EBV itself (avoid contact sport); amoxicillin causes a rash."
+            ],
+            [
+              "Liver failure in most people with EBV",
+              "No; a widespread rash."
+            ],
+            [
+              "Anaphylaxis in most people with EBV",
+              "It's a non-allergic rash, not anaphylaxis."
+            ]
+          ]
+        },
+        {
+          "c": "Renal impairment (high doses)",
+          "k": "y2-220-16",
+          "why": "Accumulation → seizures; adjust dose",
+          "cau": true,
+          "x": [
+            [
+              "Nephrotoxicity → AKI; avoid completely",
+              "They aren't significantly nephrotoxic; high doses accumulate and can cause seizures."
+            ],
+            [
+              "Accumulation → ototoxicity; adjust dose",
+              "Ototoxicity is an aminoglycoside problem; penicillins can cause seizures."
+            ],
+            [
+              "Rapid clearance → treatment failure; double the dose",
+              "They accumulate, so reduce the dose."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flucloxacillin",
+      "name": "Flucloxacillin",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Cellulitis, impetigo",
+          "k": "y1-130-13"
+        },
+        {
+          "t": "Osteomyelitis, septic arthritis",
+          "k": "y1-125-3"
+        },
+        {
+          "t": "S. aureus endocarditis",
+          "k": "y2-205-3"
+        }
+      ],
+      "how": "Penicillinase-resistant penicillin (anti-staphylococcal)",
+      "hx": [
+        [
+          "Penicillinase-sensitive penicillin (anti-streptococcal only)",
+          "It resists staphylococcal penicillinase, which is why it treats Staph."
+        ],
+        [
+          "Macrolide active against atypical bacteria",
+          "It's a penicillin, anti-staphylococcal."
+        ],
+        [
+          "Penicillinase-resistant cephalosporin (anti-MRSA)",
+          "It's a penicillin, and MRSA is resistant to it."
+        ]
+      ],
+      "se": [
+        "GI upset",
+        "Cholestatic jaundice (can be delayed, more in elderly)",
+        "Hypersensitivity"
+      ],
+      "sewhy": "It can cause cholestatic jaundice weeks after the course, especially in older people and with longer courses.",
+      "ci": [
+        {
+          "c": "Penicillin allergy",
+          "k": "y1-140-3",
+          "why": "It is a penicillin",
+          "cau": false,
+          "x": [
+            [
+              "It's a cephalosporin",
+              "It's a penicillin."
+            ],
+            [
+              "It contains clavulanic acid",
+              "That's co-amoxiclav; flucloxacillin itself is a penicillin."
+            ],
+            [
+              "It's derived from sulfonamides",
+              "No; it's a penicillin."
+            ]
+          ]
+        },
+        {
+          "c": "Previous flucloxacillin-associated jaundice",
+          "k": "y2-229-3",
+          "why": "Cholestatic hepatitis recurs",
+          "cau": false,
+          "x": [
+            [
+              "Haemolytic anaemia recurs",
+              "The risk is cholestatic hepatitis recurring."
+            ],
+            [
+              "Gallstones recur",
+              "No; cholestatic hepatitis."
+            ],
+            [
+              "Viral hepatitis reactivates",
+              "No; drug-induced cholestatic hepatitis."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "co-amoxiclav",
+      "name": "Co-amoxiclav",
+      "ex": "amoxicillin + clavulanic acid",
+      "uses": [
+        {
+          "t": "Aspiration pneumonia, severe CAP",
+          "k": "y1-128-3"
+        },
+        {
+          "t": "Bites",
+          "k": null
+        },
+        {
+          "t": "Pyelonephritis (if sensitive)",
+          "k": "y2-205-10"
+        }
+      ],
+      "how": "Amoxicillin plus a β-lactamase inhibitor",
+      "hx": [
+        [
+          "Amoxicillin plus a protein-synthesis inhibitor",
+          "Clavulanic acid inhibits β-lactamase."
+        ],
+        [
+          "Amoxicillin plus a cephalosporin",
+          "It's amoxicillin plus clavulanic acid."
+        ],
+        [
+          "Amoxicillin plus a DNA gyrase inhibitor",
+          "Clavulanic acid inhibits β-lactamase."
+        ]
+      ],
+      "se": [
+        "Diarrhoea",
+        "C. difficile (high risk)",
+        "Cholestatic jaundice",
+        "Rash"
+      ],
+      "sewhy": "Broad-spectrum activity disrupts gut flora (diarrhoea, C. difficile), and the clavulanate component causes cholestatic jaundice.",
+      "ci": [
+        {
+          "c": "Penicillin allergy",
+          "k": "y1-140-3",
+          "why": "Contains amoxicillin",
+          "cau": false,
+          "x": [
+            [
+              "Contains a cephalosporin",
+              "It contains amoxicillin (a penicillin)."
+            ],
+            [
+              "Contains a sulfonamide",
+              "No; amoxicillin."
+            ],
+            [
+              "Contains clavulanic acid only",
+              "It contains amoxicillin."
+            ]
+          ]
+        },
+        {
+          "c": "Previous co-amoxiclav jaundice",
+          "k": "y2-229-3",
+          "why": "Cholestatic hepatitis recurs",
+          "cau": false,
+          "x": [
+            [
+              "Hepatitis B reactivates",
+              "No; drug-induced cholestatic hepatitis recurs."
+            ],
+            [
+              "Pancreatitis recurs",
+              "No; cholestatic hepatitis."
+            ],
+            [
+              "Haemolysis recurs",
+              "The risk is cholestatic hepatitis."
+            ]
+          ]
+        },
+        {
+          "c": "History of C. difficile",
+          "k": "y1-145-2",
+          "why": "Broad spectrum disrupts gut flora",
+          "cau": true,
+          "x": [
+            [
+              "Narrow spectrum selects resistant flora",
+              "It's broad-spectrum, which disrupts gut flora."
+            ],
+            [
+              "Clavulanic acid feeds C. difficile",
+              "No; broad-spectrum killing disrupts flora."
+            ],
+            [
+              "Raises gastric acid",
+              "No; broad spectrum disrupts gut flora."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "piperacillin-tazobactam",
+      "name": "Piperacillin–tazobactam",
+      "ex": "Tazocin",
+      "uses": [
+        {
+          "t": "Neutropenic sepsis (within 1 h)",
+          "k": "y2-205-1"
+        },
+        {
+          "t": "Hospital-acquired pneumonia",
+          "k": "y1-128-3"
+        },
+        {
+          "t": "Severe sepsis",
+          "k": "y1-140-2"
+        }
+      ],
+      "how": "Broad-spectrum anti-pseudomonal penicillin + β-lactamase inhibitor",
+      "hx": [
+        [
+          "Narrow-spectrum anti-staphylococcal penicillin + β-lactamase inhibitor",
+          "It's broad-spectrum and covers Pseudomonas."
+        ],
+        [
+          "Broad-spectrum anti-pseudomonal cephalosporin + aminoglycoside",
+          "It's a penicillin (piperacillin) plus a β-lactamase inhibitor (tazobactam)."
+        ],
+        [
+          "Broad-spectrum carbapenem + β-lactamase inhibitor",
+          "Piperacillin is a penicillin, not a carbapenem."
+        ]
+      ],
+      "se": [
+        "Diarrhoea",
+        "C. difficile",
+        "Hypokalaemia",
+        "Thrombocytopenia",
+        "Rash"
+      ],
+      "sewhy": "Very broad cover disrupts gut flora (C. difficile); its sodium load can cause hypokalaemia, and it can lower platelets.",
+      "ci": [
+        {
+          "c": "Penicillin allergy",
+          "k": "y1-140-3",
+          "why": "It is a penicillin",
+          "cau": false,
+          "x": [
+            [
+              "It's a carbapenem",
+              "Piperacillin is a penicillin."
+            ],
+            [
+              "Tazobactam is a sulfonamide",
+              "No; piperacillin is a penicillin."
+            ],
+            [
+              "It's a glycopeptide",
+              "No; it's a penicillin."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cephalosporins",
+      "name": "Cephalosporins",
+      "ex": "cefalexin, cefuroxime, ceftriaxone",
+      "uses": [
+        {
+          "t": "Meningitis (ceftriaxone)",
+          "k": "y2-221-9"
+        },
+        {
+          "t": "Gonorrhoea (ceftriaxone 1 g IM)",
+          "k": "y2-212-5"
+        },
+        {
+          "t": "Pyelonephritis",
+          "k": "y2-205-10"
+        },
+        {
+          "t": "Lower UTI in pregnancy (cefalexin)",
+          "k": "y2-205-10"
+        }
+      ],
+      "how": "β-lactam: block cell-wall synthesis",
+      "hx": [
+        [
+          "β-lactamase inhibitor: protect other antibiotics",
+          "They're bactericidal β-lactams themselves."
+        ],
+        [
+          "β-lactam: block DNA synthesis",
+          "β-lactams block cell-wall synthesis."
+        ],
+        [
+          "Glycopeptide: block cell-membrane synthesis",
+          "They're β-lactams acting on the cell wall."
+        ]
+      ],
+      "se": [
+        "Diarrhoea",
+        "C. difficile (high risk)",
+        "Hypersensitivity",
+        "Biliary sludge (ceftriaxone)"
+      ],
+      "sewhy": "Broad gut flora disruption carries a high C. difficile risk; ceftriaxone binds calcium in bile, forming sludge.",
+      "ci": [
+        {
+          "c": "Anaphylaxis to penicillins or cephalosporins",
+          "k": "y1-140-3",
+          "why": "Cross-reactivity; ~1–2% with penicillin allergy",
+          "cau": false,
+          "x": [
+            [
+              "Cross-reactivity; ~50% with penicillin allergy",
+              "Cross-reactivity is low (about 1–2%), but a history of anaphylaxis still rules them out."
+            ],
+            [
+              "No cross-reactivity; it's just caution",
+              "There's a small cross-reactivity."
+            ],
+            [
+              "Cross-reactivity with macrolides",
+              "Cross-reactivity is with penicillins."
+            ]
+          ]
+        },
+        {
+          "c": "Neonates with jaundice (ceftriaxone)",
+          "k": "y1-110-3",
+          "why": "Displaces bilirubin from albumin → kernicterus",
+          "cau": false,
+          "x": [
+            [
+              "Blocks bilirubin conjugation → haemolysis",
+              "It displaces bilirubin from albumin, raising free bilirubin."
+            ],
+            [
+              "Displaces bilirubin into bile → gallstones",
+              "It frees bilirubin into the blood, risking kernicterus."
+            ],
+            [
+              "Causes neonatal hepatitis → jaundice",
+              "No; bilirubin displacement → kernicterus."
+            ]
+          ]
+        },
+        {
+          "c": "Neonates receiving IV calcium (ceftriaxone)",
+          "k": "y2-202-12",
+          "why": "Ceftriaxone–calcium precipitates in lungs and kidneys",
+          "cau": false,
+          "x": [
+            [
+              "Calcium inactivates ceftriaxone in the drip",
+              "The danger is precipitates forming in the lungs and kidneys."
+            ],
+            [
+              "Ceftriaxone causes hypocalcaemia",
+              "No; ceftriaxone–calcium precipitates."
+            ],
+            [
+              "Calcium raises ceftriaxone toxicity in the liver",
+              "No; precipitates in lungs and kidneys."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "carbapenems",
+      "name": "Carbapenems",
+      "ex": "meropenem",
+      "uses": [
+        {
+          "t": "ESBL and resistant gram-negative infection",
+          "k": "y2-205-5"
+        },
+        {
+          "t": "Severe hospital infections",
+          "k": "y1-140-2"
+        }
+      ],
+      "how": "Broadest-spectrum β-lactam",
+      "hx": [
+        [
+          "Narrow-spectrum anti-staphylococcal β-lactam",
+          "Carbapenems are the broadest-spectrum β-lactams."
+        ],
+        [
+          "Broadest-spectrum aminoglycoside",
+          "They're β-lactams."
+        ],
+        [
+          "Broadest-spectrum glycopeptide",
+          "They're β-lactams."
+        ]
+      ],
+      "se": [
+        "Diarrhoea",
+        "C. difficile",
+        "Seizures (higher doses, renal impairment)",
+        "Rash"
+      ],
+      "sewhy": "As the broadest β-lactams they strongly disrupt gut flora; they can lower the seizure threshold, especially in renal impairment.",
+      "ci": [
+        {
+          "c": "Anaphylaxis to β-lactams",
+          "k": "y1-140-3",
+          "why": "Cross-reactivity (low)",
+          "cau": false,
+          "x": [
+            [
+              "Cross-reactivity (high)",
+              "It's low, but a history of anaphylaxis still excludes them."
+            ],
+            [
+              "Causes seizures",
+              "That's a high-dose or valproate issue; here it's cross-reactivity."
+            ],
+            [
+              "No relation between them",
+              "There's a low cross-reactivity."
+            ]
+          ]
+        },
+        {
+          "c": "With sodium valproate",
+          "k": "y2-230-4",
+          "why": "Carbapenems crash valproate levels → breakthrough seizures",
+          "cau": false,
+          "x": [
+            [
+              "Carbapenems raise valproate levels → liver failure",
+              "They lower valproate levels sharply."
+            ],
+            [
+              "Valproate inactivates carbapenems → treatment failure",
+              "The problem is valproate levels falling."
+            ],
+            [
+              "Combined bone marrow suppression",
+              "No; valproate levels crash → seizures."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "macrolides",
+      "name": "Macrolides",
+      "ex": "clarithromycin, azithromycin, erythromycin",
+      "uses": [
+        {
+          "t": "Atypical pneumonia (with amoxicillin)",
+          "k": "y1-128-3"
+        },
+        {
+          "t": "Penicillin allergy",
+          "k": null
+        },
+        {
+          "t": "H. pylori",
+          "k": "y1-104-3"
+        },
+        {
+          "t": "Chlamydia (azithromycin)",
+          "k": "y2-212-5"
+        },
+        {
+          "t": "COPD prophylaxis",
+          "k": "y1-103-4"
+        }
+      ],
+      "how": "Bind 50S ribosome → block protein synthesis",
+      "hx": [
+        [
+          "Bind 50S ribosome → block cell-wall synthesis",
+          "50S binding blocks protein synthesis."
+        ],
+        [
+          "Bind 60S ribosome → block protein synthesis",
+          "Bacterial ribosomes are 70S (50S + 30S); macrolides bind 50S."
+        ],
+        [
+          "Bind 50S ribosome → lyse the bacterial membrane",
+          "They block protein synthesis (mainly bacteriostatic)."
+        ]
+      ],
+      "se": [
+        "GI upset (erythromycin)",
+        "QT prolongation",
+        "Hepatotoxicity",
+        "Ototoxicity",
+        "CYP3A4 inhibition (clarithromycin, erythromycin)"
+      ],
+      "sewhy": "Erythromycin stimulates motilin receptors (GI upset); macrolides block cardiac potassium channels (long QT) and inhibit CYP3A4, raising levels of statins and other drugs.",
+      "ci": [
+        {
+          "c": "Long QT or previous torsades",
+          "k": "y1-108-3",
+          "why": "Blocks cardiac K⁺ channels → arrhythmia",
+          "cau": false,
+          "x": [
+            [
+              "Blocks cardiac Na⁺ channels → heart block",
+              "They block K⁺ (hERG) channels, prolonging QT."
+            ],
+            [
+              "Opens cardiac K⁺ channels → QT shortening",
+              "They block K⁺ channels, prolonging QT."
+            ],
+            [
+              "Lowers blood K⁺ → arrhythmia",
+              "No; direct K⁺ channel block."
+            ]
+          ]
+        },
+        {
+          "c": "With simvastatin (clarithromycin)",
+          "k": "y1-130-5",
+          "why": "CYP3A4 inhibition → rhabdomyolysis; pause the statin",
+          "cau": false,
+          "x": [
+            [
+              "CYP3A4 induction → statin failure; double the statin",
+              "Clarithromycin inhibits CYP3A4; pause the statin."
+            ],
+            [
+              "Additive liver toxicity; check LFTs",
+              "The risk is rhabdomyolysis; pause the statin."
+            ],
+            [
+              "Statins block clarithromycin's action; use a higher dose",
+              "No; statin levels rise."
+            ]
+          ]
+        },
+        {
+          "c": "Myasthenia gravis",
+          "k": "y1-113-3",
+          "why": "Impairs neuromuscular transmission",
+          "cau": false,
+          "x": [
+            [
+              "Improves neuromuscular transmission",
+              "Macrolides impair it."
+            ],
+            [
+              "Causes thymoma growth",
+              "No; they impair neuromuscular transmission."
+            ],
+            [
+              "Lowers pyridostigmine levels",
+              "Not an interaction; they impair transmission."
+            ]
+          ]
+        },
+        {
+          "c": "Hypokalaemia or hypomagnesaemia",
+          "k": "y1-135-4",
+          "why": "Adds to QT risk",
+          "cau": true,
+          "x": [
+            [
+              "Adds to hepatotoxicity",
+              "Low K⁺ and Mg²⁺ add to QT risk."
+            ],
+            [
+              "Lowers antibiotic levels",
+              "No; QT risk."
+            ],
+            [
+              "Adds to ototoxicity",
+              "No; QT risk."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tetracyclines",
+      "name": "Tetracyclines",
+      "ex": "doxycycline",
+      "uses": [
+        {
+          "t": "CAP and COPD exacerbations",
+          "k": "y1-128-3"
+        },
+        {
+          "t": "Chlamydia, PID",
+          "k": "y2-212-21"
+        },
+        {
+          "t": "Cellulitis if penicillin-allergic",
+          "k": "y1-130-13"
+        },
+        {
+          "t": "Malaria prophylaxis",
+          "k": "y2-201-11"
+        },
+        {
+          "t": "Acne",
+          "k": "y2-227-12"
+        }
+      ],
+      "how": "Bind 30S ribosome → block protein synthesis (bacteriostatic)",
+      "hx": [
+        [
+          "Bind 30S ribosome → block cell-wall synthesis (bactericidal)",
+          "30S binding stops tRNA attaching, blocking protein synthesis (bacteriostatic)."
+        ],
+        [
+          "Chelate bacterial iron → starve bacteria (bacteriostatic)",
+          "Chelation is why antacids block their absorption; they act on the 30S ribosome."
+        ],
+        [
+          "Bind 40S ribosome → block protein synthesis (bacteriostatic)",
+          "40S is the human ribosomal subunit; tetracyclines bind bacterial 30S."
+        ]
+      ],
+      "se": [
+        "GI upset",
+        "Oesophagitis (take upright with water)",
+        "Photosensitivity",
+        "Tooth discoloration",
+        "Benign intracranial hypertension"
+      ],
+      "sewhy": "They bind calcium in growing teeth and bone (staining), irritate the oesophagus if they lodge, sensitise skin to light, and can raise intracranial pressure.",
+      "ci": [
+        {
+          "c": "Pregnancy",
+          "k": "y1-114-1",
+          "why": "Deposits in fetal bones and teeth → discoloration, ↓ bone growth",
+          "cau": false,
+          "x": [
+            [
+              "Deposits in fetal kidneys → renal failure",
+              "They bind calcium in fetal bones and teeth."
+            ],
+            [
+              "Causes fetal liver failure",
+              "Maternal liver toxicity can occur, but the fetal issue is deposits in bones and teeth."
+            ],
+            [
+              "Deposits in the fetal brain → seizures",
+              "No; bones and teeth."
+            ]
+          ]
+        },
+        {
+          "c": "Children under 12",
+          "k": "y1-110-1",
+          "why": "Binds calcium in developing teeth → permanent staining",
+          "cau": false,
+          "x": [
+            [
+              "Binds iron in developing marrow → anaemia",
+              "They bind calcium in teeth and bone."
+            ],
+            [
+              "Binds calcium in developing kidneys → stones",
+              "The issue is tooth staining."
+            ],
+            [
+              "Binds calcium in developing teeth → enamel overgrowth",
+              "The effect is permanent staining (and weaker enamel)."
+            ]
+          ]
+        },
+        {
+          "c": "Breastfeeding",
+          "k": "y1-114-1",
+          "why": "Passes into milk",
+          "cau": false,
+          "x": [
+            [
+              "Stops milk production",
+              "No; it passes into milk."
+            ],
+            [
+              "Thickens the milk",
+              "No; it passes into milk."
+            ],
+            [
+              "Causes mastitis",
+              "No; it passes into milk."
+            ]
+          ]
+        },
+        {
+          "c": "With antacids, iron, calcium, dairy",
+          "k": "y1-130-5",
+          "why": "Chelation stops absorption",
+          "cau": true,
+          "x": [
+            [
+              "Enzyme induction speeds clearance",
+              "Calcium, iron and antacids bind it in the gut (chelation)."
+            ],
+            [
+              "Raised stomach pH destroys the drug",
+              "No; chelation stops absorption."
+            ],
+            [
+              "Increases absorption → toxicity",
+              "It reduces absorption."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gentamicin",
+      "name": "Gentamicin",
+      "ex": "aminoglycosides",
+      "uses": [
+        {
+          "t": "Gram-negative sepsis, urosepsis",
+          "k": "y1-140-2"
+        },
+        {
+          "t": "Endocarditis (synergy)",
+          "k": "y2-205-3"
+        },
+        {
+          "t": "Neonatal sepsis",
+          "k": "y2-202-12"
+        }
+      ],
+      "how": "Bind 30S ribosome → misreading of mRNA (bactericidal, concentration-dependent)",
+      "hx": [
+        [
+          "Bind 50S ribosome → block peptide transfer (bacteriostatic, time-dependent)",
+          "It binds 30S, causing mRNA misreading; killing depends on peak concentration."
+        ],
+        [
+          "Bind 30S ribosome → misreading of mRNA (bacteriostatic, time-dependent)",
+          "It's bactericidal, and killing depends on concentration."
+        ],
+        [
+          "Inhibit cell-wall synthesis (bactericidal, time-dependent)",
+          "It acts on the 30S ribosome; peak concentration matters."
+        ]
+      ],
+      "se": [
+        "Nephrotoxicity",
+        "Ototoxicity (vestibular and cochlear, irreversible)",
+        "Neuromuscular blockade"
+      ],
+      "sewhy": "Aminoglycosides concentrate in renal tubular cells and inner ear hair cells, causing nephrotoxicity and permanent ototoxicity, and they block neuromuscular transmission; hence level monitoring.",
+      "ci": [
+        {
+          "c": "Myasthenia gravis",
+          "k": "y1-113-3",
+          "why": "Blocks acetylcholine release → crisis",
+          "cau": false,
+          "x": [
+            [
+              "Boosts acetylcholine release → cholinergic crisis",
+              "It blocks ACh release, worsening weakness (myasthenic crisis)."
+            ],
+            [
+              "Destroys ACh receptors → permanent weakness",
+              "It blocks ACh release at the junction."
+            ],
+            [
+              "Causes thymus enlargement",
+              "No; it blocks ACh release."
+            ]
+          ]
+        },
+        {
+          "c": "Pregnancy",
+          "k": "y1-114-1",
+          "why": "Damages the fetal 8th cranial nerve → deafness",
+          "cau": false,
+          "x": [
+            [
+              "Damages the fetal 7th cranial nerve → facial palsy",
+              "Aminoglycosides damage the 8th nerve (hearing)."
+            ],
+            [
+              "Causes fetal hypothyroidism",
+              "No; it damages the fetal 8th nerve (deafness)."
+            ],
+            [
+              "Damages the fetal optic nerve → blindness",
+              "Not the optic nerve; the 8th nerve."
+            ]
+          ]
+        },
+        {
+          "c": "Renal impairment",
+          "k": "y2-220-16",
+          "why": "Toxicity: adjust by levels",
+          "cau": true,
+          "x": [
+            [
+              "Ineffective: double the dose",
+              "It accumulates; adjust by levels."
+            ],
+            [
+              "No change needed: hepatically cleared",
+              "It's renally cleared; dose by levels."
+            ],
+            [
+              "Hyperkalaemia: avoid potassium",
+              "No; toxicity, so adjust by levels."
+            ]
+          ]
+        },
+        {
+          "c": "Pre-existing hearing loss or vestibular disease",
+          "k": "y2-208-2",
+          "why": "Further irreversible damage",
+          "cau": true,
+          "x": [
+            [
+              "Temporary tinnitus only",
+              "The damage is irreversible."
+            ],
+            [
+              "Hearing aids stop working",
+              "No; further irreversible damage."
+            ],
+            [
+              "Improves vestibular function",
+              "No; further irreversible damage."
+            ]
+          ]
+        },
+        {
+          "c": "With loop diuretics or vancomycin",
+          "k": "y2-220-2",
+          "why": "Additive ototoxicity and nephrotoxicity",
+          "cau": true,
+          "x": [
+            [
+              "Additive hepatotoxicity",
+              "The risks are to the ears and kidneys."
+            ],
+            [
+              "Loop diuretics inactivate gentamicin",
+              "No; ototoxicity and nephrotoxicity add up."
+            ],
+            [
+              "Additive bone marrow suppression",
+              "No; ears and kidneys."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glycopeptides",
+      "name": "Glycopeptides",
+      "ex": "vancomycin, teicoplanin",
+      "uses": [
+        {
+          "t": "MRSA",
+          "k": "y2-205-5"
+        },
+        {
+          "t": "C. difficile (oral vancomycin)",
+          "k": "y1-145-2"
+        },
+        {
+          "t": "Line infections, endocarditis",
+          "k": "y2-205-2"
+        }
+      ],
+      "how": "Bind cell-wall precursors (D-Ala-D-Ala) → block cell-wall synthesis",
+      "hx": [
+        [
+          "Bind cell-membrane lipids → leak cell contents",
+          "They bind D-Ala-D-Ala precursors, blocking cell-wall synthesis."
+        ],
+        [
+          "Inhibit cell-wall precursor export in Gram-negatives only",
+          "They work on Gram-positives; they're too big to cross the Gram-negative outer membrane."
+        ],
+        [
+          "Inhibit β-lactamase → protect cell-wall synthesis",
+          "They bind D-Ala-D-Ala directly; no β-lactamase action."
+        ]
+      ],
+      "se": [
+        "Nephrotoxicity",
+        "Ototoxicity",
+        "Red man syndrome (rapid infusion)",
+        "Neutropenia, thrombocytopenia"
+      ],
+      "sewhy": "Vancomycin is toxic to the kidneys and ears at high levels; infusing too fast releases histamine (red man syndrome).",
+      "ci": [
+        {
+          "c": "Renal impairment",
+          "k": "y2-220-16",
+          "why": "Dose by levels",
+          "cau": true,
+          "x": [
+            [
+              "Avoid entirely",
+              "It can be used; dose by levels."
+            ],
+            [
+              "Double the dose",
+              "It accumulates; dose by levels."
+            ],
+            [
+              "No change needed",
+              "It's renally cleared; dose by levels."
+            ]
+          ]
+        },
+        {
+          "c": "With gentamicin or other nephrotoxins",
+          "k": "y2-220-2",
+          "why": "Additive kidney injury",
+          "cau": true,
+          "x": [
+            [
+              "Additive liver injury",
+              "The concern is kidney injury."
+            ],
+            [
+              "Lower vancomycin levels",
+              "No; additive kidney injury."
+            ],
+            [
+              "Red man syndrome",
+              "That comes from fast infusion; here the issue is kidney injury."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fluoroquinolones",
+      "name": "Fluoroquinolones",
+      "ex": "ciprofloxacin, levofloxacin",
+      "uses": [
+        {
+          "t": "Pyelonephritis, prostatitis",
+          "k": "y2-205-10"
+        },
+        {
+          "t": "Pseudomonas",
+          "k": null
+        },
+        {
+          "t": "Severe CAP if penicillin-allergic (levofloxacin)",
+          "k": "y1-128-3"
+        }
+      ],
+      "how": "Inhibit DNA gyrase and topoisomerase IV",
+      "hx": [
+        [
+          "Inhibit human topoisomerase II",
+          "They target bacterial DNA gyrase and topoisomerase IV."
+        ],
+        [
+          "Inhibit DNA polymerase III and DNA ligase",
+          "Their targets are DNA gyrase and topoisomerase IV."
+        ],
+        [
+          "Inhibit cell-wall transpeptidase",
+          "They act on DNA supercoiling enzymes."
+        ]
+      ],
+      "se": [
+        "Tendinitis and tendon rupture",
+        "QT prolongation",
+        "Seizures",
+        "C. difficile",
+        "Aortic aneurysm/dissection",
+        "Neuropathy",
+        "Psychiatric effects"
+      ],
+      "sewhy": "They damage collagen-rich tissues (tendons, aortic wall), block cardiac potassium channels (long QT), act on GABA receptors (seizures, psychiatric effects) and disrupt gut flora.",
+      "ci": [
+        {
+          "c": "Previous quinolone tendon problems; caution with steroids",
+          "k": "y1-113-2",
+          "why": "Damage tendon collagen → rupture",
+          "cau": false,
+          "x": [
+            [
+              "Damage tendon nerves → numbness",
+              "They damage tendon collagen."
+            ],
+            [
+              "Calcify tendons → stiffness",
+              "No; collagen damage → rupture."
+            ],
+            [
+              "Cause rhabdomyolysis",
+              "Not muscle; tendon collagen."
+            ]
+          ]
+        },
+        {
+          "c": "Epilepsy",
+          "k": "y2-230-1",
+          "why": "Lower the seizure threshold",
+          "cau": false,
+          "x": [
+            [
+              "Raise antiepileptic levels",
+              "No; they lower the seizure threshold."
+            ],
+            [
+              "Raise the seizure threshold",
+              "They lower it."
+            ],
+            [
+              "Cause hyponatraemic seizures",
+              "Not through sodium; they lower the threshold."
+            ]
+          ]
+        },
+        {
+          "c": "Long QT",
+          "k": "y1-108-3",
+          "why": "Torsades risk",
+          "cau": false,
+          "x": [
+            [
+              "Heart block risk",
+              "QT prolongation risks torsades."
+            ],
+            [
+              "AF risk",
+              "Torsades."
+            ],
+            [
+              "Bradycardia risk",
+              "Torsades."
+            ]
+          ]
+        },
+        {
+          "c": "Children and growing adolescents",
+          "k": "y1-110-1",
+          "why": "Damage growing cartilage",
+          "cau": false,
+          "x": [
+            [
+              "Damage growing nerves",
+              "The concern is cartilage (arthropathy)."
+            ],
+            [
+              "Close growth plates early",
+              "No; they damage growing cartilage."
+            ],
+            [
+              "Weaken the growing bone marrow",
+              "No; cartilage."
+            ]
+          ]
+        },
+        {
+          "c": "Aortic aneurysm or risk factors",
+          "k": "y2-210-8",
+          "why": "↑ aneurysm and dissection",
+          "cau": true,
+          "x": [
+            [
+              "↑ aortic valve stenosis",
+              "The risk is aneurysm and dissection."
+            ],
+            [
+              "↓ BP causing rupture",
+              "No; collagen damage ↑ aneurysm and dissection."
+            ],
+            [
+              "↑ aortic thrombosis",
+              "No; aneurysm and dissection."
+            ]
+          ]
+        },
+        {
+          "c": "Myasthenia gravis",
+          "k": "y1-113-3",
+          "why": "Can worsen weakness",
+          "cau": true,
+          "x": [
+            [
+              "Can cause a cholinergic crisis",
+              "They worsen myasthenic weakness."
+            ],
+            [
+              "Can block pyridostigmine absorption",
+              "No; they can worsen weakness."
+            ],
+            [
+              "Can improve weakness",
+              "They can worsen it."
+            ]
+          ]
+        },
+        {
+          "c": "With theophylline",
+          "k": "y1-130-5",
+          "why": "Raises theophylline levels",
+          "cau": true,
+          "x": [
+            [
+              "Lowers theophylline levels",
+              "Ciprofloxacin inhibits its metabolism, raising levels."
+            ],
+            [
+              "Raises ciprofloxacin levels",
+              "Theophylline levels rise."
+            ],
+            [
+              "Blocks theophylline absorption",
+              "No; levels rise."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nitrofurantoin",
+      "name": "Nitrofurantoin",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Lower UTI (3 days women, 7 days men)",
+          "k": "y2-205-10"
+        }
+      ],
+      "how": "Damages bacterial DNA; concentrates in urine only",
+      "hx": [
+        [
+          "Blocks bacterial cell walls; concentrates in blood",
+          "It damages bacterial DNA and only reaches useful levels in urine."
+        ],
+        [
+          "Damages bacterial DNA; concentrates in kidney tissue",
+          "It concentrates in urine only, so it can't treat pyelonephritis."
+        ],
+        [
+          "Acidifies urine to kill bacteria; concentrates in urine only",
+          "It damages bacterial DNA."
+        ]
+      ],
+      "se": [
+        "Nausea",
+        "Brown urine",
+        "Pulmonary reactions and fibrosis",
+        "Hepatitis",
+        "Peripheral neuropathy (long-term)"
+      ],
+      "sewhy": "Its toxic metabolites cause oxidative damage; long-term use can cause lung fibrosis, hepatitis and neuropathy, and it colours urine brown.",
+      "ci": [
+        {
+          "c": "eGFR <45",
+          "k": "y2-220-16",
+          "why": "Too little reaches the urine to work, and it accumulates",
+          "cau": false,
+          "x": [
+            [
+              "Too much reaches the urine and burns the bladder",
+              "A low eGFR means too little reaches the urine."
+            ],
+            [
+              "It's nephrotoxic and worsens CKD",
+              "Not nephrotoxic; it doesn't reach the urine and builds up."
+            ],
+            [
+              "It crystallises in the tubules",
+              "No; too little reaches the urine and it accumulates."
+            ]
+          ]
+        },
+        {
+          "c": "Term pregnancy (36+ weeks) or labour",
+          "k": "y1-114-3",
+          "why": "Neonatal haemolysis",
+          "cau": false,
+          "x": [
+            [
+              "Neonatal seizures",
+              "The risk is haemolysis (immature red cell enzymes)."
+            ],
+            [
+              "Preterm labour",
+              "No; neonatal haemolysis."
+            ],
+            [
+              "Maternal liver failure",
+              "No; neonatal haemolysis."
+            ]
+          ]
+        },
+        {
+          "c": "G6PD deficiency",
+          "k": "y1-110-6",
+          "why": "Oxidative haemolysis",
+          "cau": false,
+          "x": [
+            [
+              "Methaemoglobinaemia only",
+              "The danger is oxidative haemolysis."
+            ],
+            [
+              "Bone marrow failure",
+              "No; oxidative haemolysis."
+            ],
+            [
+              "Autoimmune haemolysis",
+              "It's oxidative, not autoimmune."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trimethoprim",
+      "name": "Trimethoprim",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Lower UTI",
+          "k": "y2-205-10"
+        },
+        {
+          "t": "Prostatitis",
+          "k": null
+        }
+      ],
+      "how": "Inhibits bacterial dihydrofolate reductase",
+      "hx": [
+        [
+          "Inhibits bacterial ribonucleotide reductase",
+          "It inhibits bacterial dihydrofolate reductase."
+        ],
+        [
+          "Inhibits bacterial dihydropteroate synthase",
+          "That's sulfonamides (the other half of co-trimoxazole); trimethoprim inhibits DHFR."
+        ],
+        [
+          "Inhibits bacterial thymidylate synthase",
+          "It inhibits dihydrofolate reductase."
+        ]
+      ],
+      "se": [
+        "Hyperkalaemia",
+        "↑ creatinine (blocks tubular secretion)",
+        "Rash",
+        "Bone marrow suppression"
+      ],
+      "sewhy": "It blocks the ENaC sodium channel in the collecting duct like amiloride (high potassium), blocks creatinine secretion (raises creatinine without true kidney damage) and is a folate antagonist (marrow).",
+      "ci": [
+        {
+          "c": "First trimester of pregnancy",
+          "k": "y1-114-1",
+          "why": "Folate antagonist → neural tube defects",
+          "cau": false,
+          "x": [
+            [
+              "Folate excess → fetal overgrowth",
+              "It antagonises folate, risking neural tube defects."
+            ],
+            [
+              "Causes fetal kidney failure",
+              "No; folate antagonism → neural tube defects."
+            ],
+            [
+              "Causes fetal hyperkalaemia",
+              "No; folate antagonism → neural tube defects."
+            ]
+          ]
+        },
+        {
+          "c": "Blood dyscrasias or folate deficiency",
+          "k": "y2-226-16",
+          "why": "Worsens folate-deficient marrow",
+          "cau": false,
+          "x": [
+            [
+              "Worsens iron-deficient marrow",
+              "It antagonises folate, not iron."
+            ],
+            [
+              "Causes autoimmune haemolysis",
+              "No; it worsens folate-deficient marrow."
+            ],
+            [
+              "Speeds marrow recovery",
+              "It worsens folate-deficient marrow."
+            ]
+          ]
+        },
+        {
+          "c": "With ACEi, ARBs, spironolactone",
+          "k": "y1-135-4",
+          "why": "Hyperkalaemia",
+          "cau": true,
+          "x": [
+            [
+              "Hyponatraemia",
+              "Trimethoprim blocks ENaC (like amiloride), raising K⁺."
+            ],
+            [
+              "Hypokalaemia",
+              "It raises K⁺."
+            ],
+            [
+              "Angioedema",
+              "No; hyperkalaemia."
+            ]
+          ]
+        },
+        {
+          "c": "With methotrexate",
+          "k": "y1-115-3",
+          "why": "Additive antifolate effect → pancytopenia",
+          "cau": true,
+          "x": [
+            [
+              "Additive nephrotoxicity → AKI",
+              "The main risk is combined antifolate marrow suppression."
+            ],
+            [
+              "Methotrexate inactivates trimethoprim",
+              "No; additive antifolate effect."
+            ],
+            [
+              "Additive antifolate effect → hepatitis only",
+              "The danger is pancytopenia."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metronidazole",
+      "name": "Metronidazole",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Anaerobes, aspiration",
+          "k": "y1-128-3"
+        },
+        {
+          "t": "C. difficile (second line)",
+          "k": "y1-145-2"
+        },
+        {
+          "t": "Bacterial vaginosis, trichomonas, PID",
+          "k": "y2-212-21"
+        },
+        {
+          "t": "Giardia, amoebiasis",
+          "k": null
+        },
+        {
+          "t": "H. pylori",
+          "k": "y1-104-3"
+        }
+      ],
+      "how": "Forms toxic radicals that damage DNA in anaerobes and protozoa",
+      "hx": [
+        [
+          "Inhibits cell-wall synthesis in aerobes and fungi",
+          "It forms DNA-damaging radicals, active only in anaerobes and protozoa."
+        ],
+        [
+          "Forms toxic radicals that damage DNA in aerobes only",
+          "It needs anaerobic reduction to activate."
+        ],
+        [
+          "Binds the 30S ribosome in anaerobes and protozoa",
+          "It damages DNA through radicals."
+        ]
+      ],
+      "se": [
+        "Metallic taste",
+        "Nausea",
+        "Dark urine",
+        "Peripheral neuropathy (prolonged use)"
+      ],
+      "sewhy": "It causes a metallic taste and nausea, darkens urine, and prolonged courses can damage peripheral nerves.",
+      "ci": [
+        {
+          "c": "Alcohol during treatment and for 48 h after",
+          "k": "y2-229-7",
+          "why": "Blocks aldehyde dehydrogenase → flushing, vomiting, tachycardia",
+          "cau": false,
+          "x": [
+            [
+              "Blocks alcohol dehydrogenase → prolonged drunkenness",
+              "It blocks aldehyde dehydrogenase, so acetaldehyde builds up (disulfiram-like)."
+            ],
+            [
+              "Alcohol inactivates metronidazole → treatment failure",
+              "No; acetaldehyde builds up."
+            ],
+            [
+              "Additive liver toxicity → hepatitis",
+              "No; a disulfiram-like reaction."
+            ]
+          ]
+        },
+        {
+          "c": "Warfarin",
+          "k": "y1-138-4",
+          "why": "Raises the INR",
+          "cau": true,
+          "x": [
+            [
+              "Lowers the INR",
+              "It inhibits warfarin metabolism, raising the INR."
+            ],
+            [
+              "Causes vitamin K overload",
+              "No; it raises the INR."
+            ],
+            [
+              "Blocks warfarin absorption",
+              "No; the INR rises."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anti-tb-drugs",
+      "name": "Anti-TB drugs",
+      "ex": "rifampicin, isoniazid, pyrazinamide, ethambutol",
+      "uses": [
+        {
+          "t": "Active TB: RIPE for 2 months, then RI for 4 months",
+          "k": "y1-128-4"
+        }
+      ],
+      "how": "R: RNA polymerase; I: mycolic acid synthesis; P: acts at acidic pH; E: arabinogalactan synthesis",
+      "hx": [
+        [
+          "R: mycolic acid synthesis; I: RNA polymerase; P: arabinogalactan synthesis; E: acts at acidic pH",
+          "Swapped: rifampicin hits RNA polymerase, isoniazid mycolic acid, ethambutol arabinogalactan."
+        ],
+        [
+          "R: cell-wall peptidoglycan; I: RNA polymerase; P: mycolic acid; E: protein synthesis",
+          "Rifampicin blocks RNA polymerase and isoniazid blocks mycolic acid synthesis."
+        ],
+        [
+          "R: RNA polymerase; I: arabinogalactan synthesis; P: mycolic acid synthesis; E: acts at acidic pH",
+          "Isoniazid blocks mycolic acid, ethambutol arabinogalactan; pyrazinamide works in acid."
+        ]
+      ],
+      "se": [
+        "Rifampicin: orange secretions, hepatitis, enzyme induction",
+        "Isoniazid: neuropathy (give pyridoxine), hepatitis",
+        "Pyrazinamide: hepatitis, gout",
+        "Ethambutol: optic neuritis"
+      ],
+      "sewhy": "Each drug has its own toxicities: rifampicin colours secretions and induces enzymes, isoniazid depletes B6 (neuropathy), pyrazinamide reduces urate excretion (gout), ethambutol damages the optic nerve; three of them can cause hepatitis.",
+      "ci": [
+        {
+          "c": "Jaundice or active liver disease",
+          "k": "y2-229-3",
+          "why": "R, I and P are all hepatotoxic",
+          "cau": false,
+          "x": [
+            [
+              "E alone is hepatotoxic",
+              "Rifampicin, isoniazid and pyrazinamide are the hepatotoxic ones."
+            ],
+            [
+              "R, I and P are all nephrotoxic",
+              "They're hepatotoxic."
+            ],
+            [
+              "Jaundice stops the drugs being absorbed",
+              "No; three of the four are hepatotoxic."
+            ]
+          ]
+        },
+        {
+          "c": "Optic neuritis or poor vision (ethambutol)",
+          "k": "y1-142-1",
+          "why": "Causes optic neuritis; check acuity and colour vision first",
+          "cau": false,
+          "x": [
+            [
+              "Causes cataracts; check intraocular pressure first",
+              "Ethambutol causes optic neuritis; check acuity and red–green vision."
+            ],
+            [
+              "Causes retinal detachment; check the fundus first",
+              "No; optic neuritis."
+            ],
+            [
+              "Stains contact lenses orange; check lenses first",
+              "That's rifampicin; ethambutol causes optic neuritis."
+            ]
+          ]
+        },
+        {
+          "c": "Acute gout (pyrazinamide)",
+          "k": "y1-125-1",
+          "why": "Raises urate",
+          "cau": false,
+          "x": [
+            [
+              "Lowers urate",
+              "It raises urate."
+            ],
+            [
+              "Raises calcium",
+              "No; urate."
+            ],
+            [
+              "Lowers urine pH only",
+              "It raises urate by reducing excretion."
+            ]
+          ]
+        },
+        {
+          "c": "Rifampicin with the pill, warfarin, DOACs, HIV drugs",
+          "k": "y1-130-5",
+          "why": "Enzyme induction → contraceptive and anticoagulant failure",
+          "cau": true,
+          "x": [
+            [
+              "Enzyme inhibition → contraceptive and anticoagulant toxicity",
+              "Rifampicin induces enzymes, lowering their levels."
+            ],
+            [
+              "Chelation → reduced absorption of both",
+              "No; enzyme induction."
+            ],
+            [
+              "Orange discoloration inactivates them",
+              "No; enzyme induction lowers their levels."
+            ]
+          ]
+        },
+        {
+          "c": "Isoniazid in neuropathy risk",
+          "k": "y1-109-2",
+          "why": "Depletes pyridoxine",
+          "cau": true,
+          "x": [
+            [
+              "Depletes vitamin B12",
+              "It depletes pyridoxine (B6); give it prophylactically."
+            ],
+            [
+              "Depletes thiamine",
+              "No; pyridoxine."
+            ],
+            [
+              "Depletes folate",
+              "No; pyridoxine."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aciclovir",
+      "name": "Aciclovir",
+      "ex": "valaciclovir",
+      "uses": [
+        {
+          "t": "Herpes simplex, shingles, chickenpox in adults",
+          "k": "y1-116-5"
+        },
+        {
+          "t": "HSV encephalitis (IV)",
+          "k": "y2-221-5"
+        }
+      ],
+      "how": "Activated by viral thymidine kinase → blocks viral DNA polymerase",
+      "hx": [
+        [
+          "Activated by human thymidine kinase → blocks human DNA polymerase",
+          "Viral thymidine kinase activates it, so it targets infected cells."
+        ],
+        [
+          "Activated by viral protease → blocks viral RNA polymerase",
+          "Thymidine kinase activates it; it blocks viral DNA polymerase."
+        ],
+        [
+          "Blocks viral entry by binding envelope glycoproteins",
+          "It acts inside cells on viral DNA polymerase."
+        ]
+      ],
+      "se": [
+        "GI upset",
+        "Headache",
+        "Crystal nephropathy (IV: hydrate)",
+        "Neurotoxicity (confusion)"
+      ],
+      "sewhy": "IV aciclovir can crystallise in renal tubules if the patient is dehydrated, and at high levels (especially in renal failure) it causes confusion.",
+      "ci": [
+        {
+          "c": "Renal impairment",
+          "k": "y2-220-16",
+          "why": "Accumulates → neurotoxicity; reduce dose",
+          "cau": true,
+          "x": [
+            [
+              "Accumulates → hepatotoxicity; reduce dose",
+              "The toxicity is neurological (confusion, tremor)."
+            ],
+            [
+              "Cleared faster → treatment failure; increase dose",
+              "It accumulates."
+            ],
+            [
+              "Accumulates → ototoxicity; stop it",
+              "Neurotoxicity, and reduce the dose rather than stopping."
+            ]
+          ]
+        },
+        {
+          "c": "Dehydration with IV use",
+          "k": "y2-220-2",
+          "why": "Crystals precipitate in tubules",
+          "cau": true,
+          "x": [
+            [
+              "Crystals precipitate in joints",
+              "In the kidney tubules."
+            ],
+            [
+              "Dehydration lowers aciclovir levels",
+              "No; crystals form in the tubules."
+            ],
+            [
+              "Causes hypernatraemia",
+              "No; crystals precipitate in the tubules."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oseltamivir",
+      "name": "Oseltamivir",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Influenza in at-risk or hospitalised patients (ideally within 48 h)",
+          "k": "y1-116-5"
+        }
+      ],
+      "how": "Neuraminidase inhibitor → new virions can't be released",
+      "hx": [
+        [
+          "Haemagglutinin inhibitor → virions can't enter cells",
+          "It blocks neuraminidase, trapping new virions on the cell."
+        ],
+        [
+          "Neuraminidase activator → virions are released early",
+          "It inhibits neuraminidase."
+        ],
+        [
+          "M2 ion channel blocker → virus can't uncoat",
+          "That's amantadine; oseltamivir blocks neuraminidase."
+        ]
+      ],
+      "se": [
+        "Nausea, vomiting",
+        "Headache",
+        "Neuropsychiatric effects (children)"
+      ],
+      "sewhy": "It's generally well tolerated; nausea is common, and neuropsychiatric effects have been reported in children.",
+      "ci": [
+        {
+          "c": "Renal impairment",
+          "k": "y2-220-16",
+          "why": "Reduce dose",
+          "cau": true,
+          "x": [
+            [
+              "Double the dose",
+              "It's renally cleared: reduce the dose."
+            ],
+            [
+              "Avoid completely",
+              "It can be used at a reduced dose."
+            ],
+            [
+              "Give IV only",
+              "No; reduce the dose."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nirmatrelvir-ritonavir",
+      "name": "Nirmatrelvir + ritonavir",
+      "ex": "Paxlovid",
+      "uses": [
+        {
+          "t": "COVID-19 in high-risk outpatients (within 5 days)",
+          "k": "y1-116-4"
+        }
+      ],
+      "how": "Viral protease inhibitor; ritonavir boosts it by blocking CYP3A4",
+      "hx": [
+        [
+          "Viral protease inhibitor; ritonavir boosts it by inducing CYP3A4",
+          "Ritonavir inhibits CYP3A4, raising nirmatrelvir levels."
+        ],
+        [
+          "Viral RNA polymerase inhibitor; ritonavir blocks viral entry",
+          "Nirmatrelvir inhibits the main protease; ritonavir is a booster."
+        ],
+        [
+          "Neuraminidase inhibitor; ritonavir boosts it by blocking renal excretion",
+          "Nirmatrelvir blocks the SARS-CoV-2 protease; ritonavir blocks CYP3A4."
+        ]
+      ],
+      "se": [
+        "Altered taste",
+        "Diarrhoea"
+      ],
+      "sewhy": "Altered taste and diarrhoea are common; the main danger is ritonavir inhibiting CYP3A4, raising levels of many other drugs.",
+      "ci": [
+        {
+          "c": "Drugs dependent on CYP3A4 (amiodarone, simvastatin, some anticoagulants, ciclosporin)",
+          "k": "y1-130-5",
+          "why": "Ritonavir raises their levels dangerously",
+          "cau": false,
+          "x": [
+            [
+              "Ritonavir lowers their levels dangerously",
+              "It inhibits CYP3A4, raising levels."
+            ],
+            [
+              "They lower nirmatrelvir levels",
+              "The danger is their levels rising."
+            ],
+            [
+              "Ritonavir blocks their absorption",
+              "No; CYP3A4 inhibition raises their levels."
+            ]
+          ]
+        },
+        {
+          "c": "Severe liver or renal impairment",
+          "k": "y2-229-3",
+          "why": "Reduced clearance",
+          "cau": false,
+          "x": [
+            [
+              "Increased clearance",
+              "Clearance falls, raising levels."
+            ],
+            [
+              "Direct nephrotoxicity",
+              "Not the reason; reduced clearance."
+            ],
+            [
+              "The drug can't be activated",
+              "No; reduced clearance."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "azole-antifungals",
+      "name": "Azole antifungals",
+      "ex": "fluconazole, voriconazole",
+      "uses": [
+        {
+          "t": "Candidiasis (step-down)",
+          "k": "y2-205-2"
+        },
+        {
+          "t": "Cryptococcal disease",
+          "k": null
+        },
+        {
+          "t": "Aspergillosis (voriconazole)",
+          "k": "y2-205-4"
+        }
+      ],
+      "how": "Inhibit ergosterol synthesis (CYP51)",
+      "hx": [
+        [
+          "Inhibit fungal cell-wall glucan synthesis",
+          "That's echinocandins; azoles block ergosterol synthesis."
+        ],
+        [
+          "Inhibit fungal DNA synthesis (cytosine deaminase)",
+          "That's flucytosine; azoles block ergosterol synthesis."
+        ],
+        [
+          "Stimulate ergosterol synthesis (CYP51)",
+          "They inhibit it."
+        ]
+      ],
+      "se": [
+        "GI upset",
+        "Hepatotoxicity",
+        "QT prolongation",
+        "Rash",
+        "Visual disturbance (voriconazole)"
+      ],
+      "sewhy": "Azoles inhibit fungal and human CYP enzymes (interactions, hepatotoxicity) and block cardiac potassium channels (long QT); voriconazole affects retinal signalling (visual disturbance).",
+      "ci": [
+        {
+          "c": "Long QT or QT-prolonging drugs",
+          "k": "y1-108-3",
+          "why": "Additive QT prolongation",
+          "cau": false,
+          "x": [
+            [
+              "Additive bradycardia",
+              "The risk is QT prolongation (torsades)."
+            ],
+            [
+              "Additive heart block",
+              "No; QT prolongation."
+            ],
+            [
+              "Additive hypokalaemia",
+              "No; QT prolongation."
+            ]
+          ]
+        },
+        {
+          "c": "Pregnancy (high doses)",
+          "k": "y1-114-1",
+          "why": "Teratogenic",
+          "cau": false,
+          "x": [
+            [
+              "Causes preterm labour",
+              "High doses are teratogenic."
+            ],
+            [
+              "Causes neonatal jaundice",
+              "No; teratogenic at high doses."
+            ],
+            [
+              "Causes maternal hypoglycaemia",
+              "No; teratogenic."
+            ]
+          ]
+        },
+        {
+          "c": "With warfarin, simvastatin, sulfonylureas",
+          "k": "y1-130-5",
+          "why": "CYP inhibition raises their levels",
+          "cau": true,
+          "x": [
+            [
+              "CYP induction lowers their levels",
+              "Azoles inhibit CYPs, raising levels."
+            ],
+            [
+              "Chelation stops their absorption",
+              "No; CYP inhibition."
+            ],
+            [
+              "Protein-binding displacement lowers their levels",
+              "No; CYP inhibition raises them."
+            ]
+          ]
+        },
+        {
+          "c": "Liver disease",
+          "k": "y2-229-3",
+          "why": "Hepatotoxic",
+          "cau": true,
+          "x": [
+            [
+              "Nephrotoxic",
+              "Azoles are hepatotoxic."
+            ],
+            [
+              "Ototoxic",
+              "No; hepatotoxic."
+            ],
+            [
+              "Causes hypoglycaemia",
+              "No; hepatotoxic."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amphotericin-b-liposomal",
+      "name": "Amphotericin B (liposomal)",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Severe systemic fungal infection, cryptococcal meningitis",
+          "k": "y2-205-4"
+        }
+      ],
+      "how": "Binds ergosterol → pores in fungal membrane",
+      "hx": [
+        [
+          "Binds cholesterol → pores in fungal membrane",
+          "It binds ergosterol (fungal); binding cholesterol is why it's toxic to human cells."
+        ],
+        [
+          "Binds ergosterol → blocks fungal protein synthesis",
+          "It punches pores in the membrane."
+        ],
+        [
+          "Binds fungal cell-wall chitin → lysis",
+          "It binds membrane ergosterol, forming pores."
+        ]
+      ],
+      "se": [
+        "Nephrotoxicity",
+        "Hypokalaemia",
+        "Hypomagnesaemia",
+        "Infusion reactions (fever, rigors)"
+      ],
+      "sewhy": "It binds sterols in renal tubular cell membranes, making them leaky, so potassium and magnesium are lost and kidney function falls; infusion releases cytokines (fever, rigors).",
+      "ci": [
+        {
+          "c": "Renal impairment",
+          "k": "y1-135-5",
+          "why": "Nephrotoxic; use liposomal form and monitor U&E",
+          "cau": true,
+          "x": [
+            [
+              "Hepatotoxic; use the conventional form and monitor LFTs",
+              "It's nephrotoxic; the liposomal form is gentler."
+            ],
+            [
+              "Renally cleared; double the dosing interval",
+              "The issue is nephrotoxicity."
+            ],
+            [
+              "Nephrotoxic; use the conventional form and monitor U&E",
+              "The liposomal form is less nephrotoxic."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antiretrovirals",
+      "name": "Antiretrovirals",
+      "ex": "tenofovir + emtricitabine + dolutegravir, abacavir",
+      "uses": [
+        {
+          "t": "HIV: start at diagnosis",
+          "k": "y2-205-13"
+        },
+        {
+          "t": "PrEP and PEP (tenofovir/emtricitabine)",
+          "k": "y2-205-11"
+        }
+      ],
+      "how": "Block reverse transcriptase (NRTIs) and integrase (dolutegravir)",
+      "hx": [
+        [
+          "Block protease (NRTIs) and reverse transcriptase (dolutegravir)",
+          "NRTIs block reverse transcriptase; dolutegravir blocks integrase."
+        ],
+        [
+          "Block viral entry (NRTIs) and neuraminidase (dolutegravir)",
+          "NRTIs block reverse transcriptase; dolutegravir blocks integrase."
+        ],
+        [
+          "Block reverse transcriptase (dolutegravir) and integrase (NRTIs)",
+          "Swapped: NRTIs block reverse transcriptase; dolutegravir blocks integrase."
+        ]
+      ],
+      "se": [
+        "Tenofovir DF: kidney damage, bone loss",
+        "Abacavir: hypersensitivity",
+        "Integrase inhibitors: weight gain, insomnia"
+      ],
+      "sewhy": "Tenofovir DF accumulates in proximal tubule cells (kidney damage, bone loss), abacavir triggers HLA-linked hypersensitivity, and integrase inhibitors cause weight gain.",
+      "ci": [
+        {
+          "c": "Abacavir with HLA-B 57:01",
+          "k": "y2-205-13",
+          "why": "High risk of fatal hypersensitivity: test first",
+          "cau": false,
+          "x": [
+            [
+              "High risk of liver failure: check LFTs first",
+              "HLA-B*57:01 predicts abacavir hypersensitivity; test before starting."
+            ],
+            [
+              "High risk of resistance: genotype the virus first",
+              "It's a host gene predicting hypersensitivity."
+            ],
+            [
+              "High risk of kidney stones: check the urine first",
+              "No; fatal hypersensitivity."
+            ]
+          ]
+        },
+        {
+          "c": "Tenofovir DF in renal impairment",
+          "k": "y1-135-5",
+          "why": "Proximal tubulopathy; use tenofovir alafenamide",
+          "cau": false,
+          "x": [
+            [
+              "Distal tubular acidosis; use tenofovir DF at double dose",
+              "It damages the proximal tubule; switch to tenofovir alafenamide (TAF)."
+            ],
+            [
+              "Glomerulonephritis; stop all antiretrovirals",
+              "No; proximal tubulopathy, so switch to TAF."
+            ],
+            [
+              "Kidney stones; increase fluids",
+              "Not stones; proximal tubulopathy, so use TAF."
+            ]
+          ]
+        },
+        {
+          "c": "Dolutegravir with antacids, iron, calcium",
+          "k": "y1-130-5",
+          "why": "Chelation stops absorption",
+          "cau": true,
+          "x": [
+            [
+              "Antacids speed its excretion",
+              "Polyvalent cations bind dolutegravir in the gut (chelation)."
+            ],
+            [
+              "Raised pH breaks the drug down",
+              "No; chelation."
+            ],
+            [
+              "Antacids boost its absorption → toxicity",
+              "No; they reduce absorption."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "primaquine",
+      "name": "Primaquine",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Eradicate liver hypnozoites in P. vivax / P. ovale malaria",
+          "k": "y2-201-11"
+        }
+      ],
+      "how": "Oxidative damage to parasite liver stages",
+      "hx": [
+        [
+          "Oxidative damage to parasite blood stages only",
+          "Primaquine's key use is killing liver stages (hypnozoites)."
+        ],
+        [
+          "Blocks parasite haem detoxification in red cells",
+          "That's chloroquine; primaquine attacks liver stages."
+        ],
+        [
+          "Blocks parasite entry into red cells",
+          "No; oxidative damage to liver stages."
+        ]
+      ],
+      "se": [
+        "GI upset",
+        "Haemolysis",
+        "Methaemoglobinaemia"
+      ],
+      "sewhy": "Primaquine causes oxidative stress in red cells, so people with G6PD deficiency can't protect themselves and haemolyse; it can also oxidise haemoglobin to methaemoglobin.",
+      "ci": [
+        {
+          "c": "G6PD deficiency",
+          "k": "y1-110-6",
+          "why": "Oxidative stress → severe haemolysis: test G6PD first",
+          "cau": false,
+          "x": [
+            [
+              "Oxidative stress → liver failure: check LFTs first",
+              "The danger is haemolysis; test G6PD."
+            ],
+            [
+              "Antibody-mediated haemolysis: give steroids first",
+              "It's oxidative, not antibody-mediated."
+            ],
+            [
+              "Oxidative stress → methaemoglobinaemia only: no test needed",
+              "Severe haemolysis is the danger; test G6PD first."
+            ]
+          ]
+        },
+        {
+          "c": "Pregnancy",
+          "k": "y1-114-1",
+          "why": "Fetal G6PD status unknown → haemolysis",
+          "cau": false,
+          "x": [
+            [
+              "Fetal liver can't activate it, so no effect",
+              "The concern is fetal haemolysis (unknown G6PD status)."
+            ],
+            [
+              "Causes preterm labour",
+              "No; the fetus may be G6PD deficient."
+            ],
+            [
+              "Maternal G6PD status unknown → miscarriage",
+              "It's the fetus's unknown status that matters."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -27,3 +27,9 @@ macOS shows the warning because the app isn't signed with a paid Apple developer
 Some later Year 2 weeks list their learning outcomes but don't have notes yet.
 
 This is not an official Swansea University resource. Always check the notes against your course materials and current guidelines.
+
+## Working on the code
+
+The source for the app's page and all of its content is in this repo. [DEVELOPING.md](DEVELOPING.md) explains how it's organised, how to build it and how to edit the content.
+
+The source is newer than the download: it includes the new Anatomy section, which isn't in `GEM_Revision.dmg` (version 2026.10.5) yet.

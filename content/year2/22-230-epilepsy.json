@@ -1,0 +1,146 @@
+{
+  "id": "y2-230",
+  "num": "230",
+  "title": "Epilepsy",
+  "lead": "Rob Powell",
+  "system": "The Nervous System",
+  "date": "2027-03-22",
+  "los": [
+    {
+      "text": "Describe and understand the classification of epilepsy according to seizure type and aetiology",
+      "sessions": [
+        "What is epilepsy?"
+      ],
+      "section": "Lectures",
+      "n": 1,
+      "html": ""
+    },
+    {
+      "text": "Identify the key features in the history of a person presenting with transient loss of consciousness",
+      "sessions": [
+        "What is epilepsy?"
+      ],
+      "section": "Lectures",
+      "n": 2,
+      "html": ""
+    },
+    {
+      "text": "Recognise and distinguish seizure from syncope and dissociative attacks and recognise different seizure types",
+      "sessions": [
+        "What is epilepsy?"
+      ],
+      "section": "Lectures",
+      "n": 3,
+      "html": ""
+    },
+    {
+      "text": "Describe the mode of action, indication and side effects of the common drugs used to treat epilepsy and status epilepticus in children and adults",
+      "sessions": [
+        "Diagnosis, treatment epilepsy and status epilepticus"
+      ],
+      "section": "Lectures",
+      "n": 4,
+      "html": ""
+    },
+    {
+      "text": "Describe the mode of inheritance and clinical features of common neurogenetic conditions and link to the current knowledge of the relevant genetic mutations and their pathological consequence.",
+      "sessions": [
+        "Neurogenetics"
+      ],
+      "section": "Lectures",
+      "n": 5,
+      "html": ""
+    },
+    {
+      "text": "Describe how the clinical presentation of neurological disease links with pathology",
+      "sessions": [
+        "Neuropathology"
+      ],
+      "section": "Lectures",
+      "n": 6,
+      "html": ""
+    },
+    {
+      "text": "Identify the key clinical features of a person presenting in coma and link to a relevant differential diagnosis, investigation and management plan.",
+      "sessions": [
+        "Diagnosis of coma"
+      ],
+      "section": "Lectures",
+      "n": 7,
+      "html": ""
+    },
+    {
+      "text": "Engage in a gamified interactive review session that reinforces and consolidates knowledge covered in the curriculum",
+      "sessions": [
+        "GEMstone Maze"
+      ],
+      "section": "ICM",
+      "n": 8,
+      "html": ""
+    },
+    {
+      "text": "Elicit a comprehensive history from an older adult presenting with depression,",
+      "sessions": [
+        "History depression with an older patient"
+      ],
+      "section": "ICM",
+      "n": 9,
+      "html": ""
+    },
+    {
+      "text": "Identify and exclude potential physical causes of mood changes (e.g. thyroid dysfunction, vitamin deficiencies)",
+      "sessions": [
+        "History depression with an older patient"
+      ],
+      "section": "ICM",
+      "n": 10,
+      "html": ""
+    },
+    {
+      "text": "Interpret liver function test (LFT) results, integrating the findings with clinical information to guide patient management",
+      "sessions": [
+        "LFT interpretations"
+      ],
+      "section": "ICM",
+      "n": 11,
+      "html": ""
+    },
+    {
+      "text": "Recognise common patterns of abnormal LFT results (e.g. hepatocellular, cholestatic) and apply appropriate differential diagnoses",
+      "sessions": [
+        "LFT interpretations"
+      ],
+      "section": "ICM",
+      "n": 12,
+      "html": ""
+    },
+    {
+      "text": "Identify the basal ganglia and their main functions, and connections to other parts of the central nervous system.",
+      "sessions": [
+        "Neuroanatomy"
+      ],
+      "section": "Anatomy",
+      "n": 13,
+      "html": "<ul><li><strong>Basal ganglia</strong>: deep grey matter nuclei that <strong>select and scale movement</strong> (start wanted movements, suppress unwanted ones), plus roles in learning habits, motivation and cognition.</li></ul><div class=\"tbl\"><table><thead><tr><th>Component</th><th>Position</th></tr></thead><tbody><tr><td><strong>Caudate nucleus</strong></td><td>C-shaped, lines the lateral ventricle (head bulges into its anterior horn)</td></tr><tr><td><strong>Putamen</strong></td><td>Lateral, outer part of the <strong>lentiform nucleus</strong></td></tr><tr><td><strong>Globus pallidus</strong> (internal and external)</td><td>Medial part of the lentiform nucleus</td></tr><tr><td><strong>Subthalamic nucleus</strong></td><td>Below the thalamus</td></tr><tr><td><strong>Substantia nigra</strong> (pars compacta: dopamine; pars reticulata)</td><td>Midbrain</td></tr></tbody></table></div><ul><li><strong>Striatum</strong> = caudate + putamen (input nucleus). <strong>Internal capsule</strong> separates the caudate and thalamus from the lentiform nucleus.</li></ul><div class=\"tbl\"><table><thead><tr><th>Pathway</th><th>Route</th><th>Effect</th></tr></thead><tbody><tr><td><strong>Direct</strong></td><td>Cortex → striatum → <strong>GPi</strong> (inhibited) → thalamus released → cortex</td><td><strong>Facilitates</strong> movement (dopamine via D1 excites)</td></tr><tr><td><strong>Indirect</strong></td><td>Cortex → striatum → GPe → <strong>subthalamic nucleus</strong> → GPi (excited) → thalamus inhibited</td><td><strong>Suppresses</strong> movement (dopamine via D2 inhibits)</td></tr></tbody></table></div><ul><li><strong>Connections</strong>: input from the <strong>cortex</strong> and <strong>substantia nigra</strong> (nigrostriatal dopamine)<ul><li>output from GPi/SNr to the <strong>thalamus (VA/VL)</strong> → motor cortex.</li><li>No direct spinal output.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Disorder</th><th>Lesion</th><th>Features</th></tr></thead><tbody><tr><td><strong>Parkinson's disease</strong></td><td>Loss of <strong>substantia nigra</strong> dopamine neurons</td><td>Bradykinesia, rigidity, rest tremor</td></tr><tr><td><strong>Huntington's disease</strong></td><td><strong>Caudate</strong> (striatum) atrophy</td><td>Chorea, dementia, psychiatric change</td></tr><tr><td><strong>Hemiballismus</strong></td><td><strong>Subthalamic nucleus</strong> (lacunar stroke)</td><td>Wild flinging of the opposite limbs</td></tr><tr><td>Wilson's disease</td><td>Lentiform nucleus (copper)</td><td>Tremor, dystonia</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Identify the thalamus and its main functions and connections to other parts of the central nervous system.",
+      "sessions": [
+        "Neuroanatomy"
+      ],
+      "section": "Anatomy",
+      "n": 14,
+      "html": "<ul><li><strong>Thalamus</strong>: paired egg-shaped mass of grey matter in the <strong>diencephalon</strong>, forming the lateral walls of the <strong>3rd ventricle</strong><ul><li>the main <strong>relay to the cortex</strong> (\"gateway\").</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Nucleus</th><th>Input</th><th>Output</th><th>Function</th></tr></thead><tbody><tr><td><strong>VPL</strong> (ventral posterolateral)</td><td><strong>Dorsal columns</strong> (medial lemniscus), <strong>spinothalamic</strong> tract</td><td>Somatosensory cortex</td><td>Body sensation</td></tr><tr><td><strong>VPM</strong> (ventral posteromedial)</td><td><strong>Trigeminal</strong> pathways, taste</td><td>Somatosensory cortex</td><td>Face sensation, taste</td></tr><tr><td><strong>LGN</strong> (lateral geniculate)</td><td>Optic tract</td><td>Visual cortex</td><td><strong>Vision</strong></td></tr><tr><td><strong>MGN</strong> (medial geniculate)</td><td>Inferior colliculus</td><td>Auditory cortex</td><td><strong>Hearing</strong> (\"M for music\")</td></tr><tr><td><strong>VA / VL</strong></td><td><strong>Basal ganglia</strong>, <strong>cerebellum</strong></td><td>Motor and premotor cortex</td><td>Motor control</td></tr><tr><td><strong>Anterior</strong></td><td>Mammillary bodies (Papez circuit)</td><td>Cingulate gyrus</td><td>Memory, emotion</td></tr><tr><td><strong>Mediodorsal</strong></td><td>Limbic, amygdala</td><td>Prefrontal cortex</td><td>Mood, executive function</td></tr><tr><td>Intralaminar, reticular</td><td>Reticular formation</td><td>Diffuse cortex</td><td><strong>Arousal</strong>, attention</td></tr></tbody></table></div><ul><li><strong>Smell</strong> is the only sense that doesn't relay through the thalamus first.</li><li><strong>Clinical</strong>: thalamic (lacunar) stroke → contralateral sensory loss<ul><li><strong>thalamic pain syndrome (Dejerine–Roussy)</strong>: severe burning pain on the opposite side</li><li>bilateral thalamic damage → coma.</li></ul></li></ul>"
+    },
+    {
+      "text": "Identify the components of the limbic system, their main functions, and connections to other parts of the central nervous system.",
+      "sessions": [
+        "Neuroanatomy"
+      ],
+      "section": "Anatomy",
+      "n": 15,
+      "html": "<ul><li><strong>Limbic system</strong>: a ring of structures around the <strong>corpus callosum and diencephalon</strong> controlling <strong>emotion, memory, motivation and autonomic/endocrine responses</strong>.</li></ul><div class=\"tbl\"><table><thead><tr><th>Component</th><th>Function</th></tr></thead><tbody><tr><td><strong>Hippocampus</strong> (medial temporal lobe)</td><td>Forms new long-term <strong>declarative memory</strong></td></tr><tr><td><strong>Amygdala</strong> (front of the temporal horn)</td><td><strong>Fear</strong>, emotional memory, threat responses</td></tr><tr><td><strong>Cingulate gyrus</strong></td><td>Emotion, pain affect, attention</td></tr><tr><td><strong>Parahippocampal gyrus</strong>, entorhinal cortex</td><td>Gateway into the hippocampus</td></tr><tr><td><strong>Fornix</strong></td><td>Main output of the hippocampus → mammillary bodies</td></tr><tr><td><strong>Mammillary bodies</strong> (hypothalamus)</td><td>Memory relay</td></tr><tr><td><strong>Hypothalamus</strong></td><td>Autonomic and endocrine output of emotion</td></tr><tr><td>Anterior thalamic nucleus, septal nuclei, nucleus accumbens</td><td>Relay; reward</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Papez circuit</th><td>Hippocampus → <strong>fornix</strong> → <strong>mammillary bodies</strong> → mammillothalamic tract → <strong>anterior thalamic nucleus</strong> → <strong>cingulate gyrus</strong> → parahippocampal (entorhinal) gyrus → hippocampus.</td></tr><tr><th scope=\"row\">Connections</th><td>to the <strong>prefrontal cortex</strong> (decisions), <strong>hypothalamus and brainstem</strong> (heart rate, sweating, hormones: fight or flight), olfactory system (smell and memory).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Disorder</th><th>Lesion</th><th>Features</th></tr></thead><tbody><tr><td><strong>Alzheimer's disease</strong></td><td>Early <strong>hippocampus</strong> and entorhinal cortex atrophy</td><td>Early loss of new memory</td></tr><tr><td><strong>Wernicke–Korsakoff</strong> (thiamine)</td><td><strong>Mammillary bodies</strong>, medial thalamus</td><td>Amnesia, confabulation</td></tr><tr><td>Herpes simplex encephalitis</td><td>Medial temporal lobes</td><td>Memory loss, behaviour change</td></tr><tr><td>Kluver–Bucy syndrome</td><td>Bilateral <strong>amygdala</strong></td><td>Hyperorality, hypersexuality, no fear</td></tr><tr><td><strong>Temporal lobe epilepsy</strong></td><td>Hippocampal sclerosis</td><td>Déjà vu, rising epigastric sensation, fear</td></tr></tbody></table></div>"
+    }
+  ],
+  "partial": true
+}

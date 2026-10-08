@@ -1,0 +1,236 @@
+{
+  "id": "y2-228",
+  "num": "228",
+  "title": "Gynaecological and breast cancers",
+  "lead": "Kalyan Dhar and Saira Khawaja",
+  "system": "Reproduction and development",
+  "date": "2027-03-08",
+  "los": [
+    {
+      "text": "Describe the presentation, investigation and management of patients with breast cancer",
+      "sessions": [
+        "Breast cancer presentation, management"
+      ],
+      "section": "Lectures",
+      "n": 1,
+      "html": ""
+    },
+    {
+      "text": "Recall the oncological treatment of patients with breast cancer",
+      "sessions": [
+        "Breast cancer oncological treatment"
+      ],
+      "section": "Lectures",
+      "n": 2,
+      "html": ""
+    },
+    {
+      "text": "Describe the role and importance of holistic care of patients with breast cancer",
+      "sessions": [
+        "Breast cancer patient care"
+      ],
+      "section": "Lectures",
+      "n": 3,
+      "html": ""
+    },
+    {
+      "text": "Identify the psychosocial factors that impact on gynaecological and breast cancer patients.",
+      "sessions": [
+        "Psychosexual and psychological impact cancer"
+      ],
+      "section": "Lectures",
+      "n": 4,
+      "html": ""
+    },
+    {
+      "text": "Describe the role of screening programmes and the evidence base for specific screening programmes (breast, cervical)",
+      "sessions": [
+        "MHS: Evidence base for screening (breast, cervical)"
+      ],
+      "section": "MHS",
+      "n": 5,
+      "html": ""
+    },
+    {
+      "text": "Describe the clinical presentation of breast disease in relation to pathology.",
+      "sessions": [
+        "Pathology of breast disease"
+      ],
+      "section": "Lectures",
+      "n": 6,
+      "html": ""
+    },
+    {
+      "text": "Compare the presentations of different gynaecological cancers",
+      "sessions": [
+        "Case presentation gynaecological cancer"
+      ],
+      "section": "Lectures",
+      "n": 7,
+      "html": ""
+    },
+    {
+      "text": "Link the pathology of gynaecological cancers to their typical presentation and histological type.",
+      "sessions": [
+        "Pathology of gynaecological cancers"
+      ],
+      "section": "Lectures",
+      "n": 8,
+      "html": ""
+    },
+    {
+      "text": "Recall the most appropriate treatment for gynaecological cancers.",
+      "sessions": [
+        "Gynaecological cancer treatment"
+      ],
+      "section": "Lectures",
+      "n": 9,
+      "html": ""
+    },
+    {
+      "text": "Apply the pharmacology of anti-emetic drugs and relevant evidence for their benefits to be able to choose and manage effective treatment for individual patients",
+      "sessions": [
+        "Anti-emetics"
+      ],
+      "section": "Lectures",
+      "n": 10,
+      "html": ""
+    },
+    {
+      "text": "Identify situations or clinical signs that may indicate a person is at risk of abuse",
+      "sessions": [
+        "Challenging Consultations - Domestic Abuse"
+      ],
+      "section": "ICM",
+      "n": 11,
+      "html": ""
+    },
+    {
+      "text": "Enquire sensitively and appropriately about possible abuse during a consultation, respecting the patient’s dignity and privacy",
+      "sessions": [
+        "Challenging Consultations - Domestic Abuse"
+      ],
+      "section": "ICM",
+      "n": 12,
+      "html": ""
+    },
+    {
+      "text": "Describe different types of abuse (e.g., physical, emotional, financial) and understand how abuse can escalate over time",
+      "sessions": [
+        "Challenging Consultations - Domestic Abuse"
+      ],
+      "section": "ICM",
+      "n": 13,
+      "html": ""
+    },
+    {
+      "text": "Perform a structured pelvic vaginal (PV) examination with confidence and fluidity, adhering to established clinical guidelines",
+      "sessions": [
+        "PV and speculum with scenarios and pathology"
+      ],
+      "section": "ICM",
+      "n": 14,
+      "html": ""
+    },
+    {
+      "text": "Present the findings of a normal and abnormal gynaecological examination in a structured and confident manner, ensuring clarity in communication",
+      "sessions": [
+        "PV and speculum with scenarios and pathology"
+      ],
+      "section": "ICM",
+      "n": 15,
+      "html": ""
+    },
+    {
+      "text": "Identify common gynaecological conditions (e.g., pelvic inflammatory disease, cervical abnormalities) that require a PV examination, speculum examination, and potentially swabs",
+      "sessions": [
+        "PV and speculum with scenarios and pathology"
+      ],
+      "section": "ICM",
+      "n": 16,
+      "html": ""
+    },
+    {
+      "text": "Take a focused and comprehensive history from a patient presenting with breast concerns, ensuring to explore relevant family and personal medical history",
+      "sessions": [
+        "Breast history and examination"
+      ],
+      "section": "ICM",
+      "n": 17,
+      "html": ""
+    },
+    {
+      "text": "Perform a structured and systematic breast examination, assessing for abnormalities or concerns",
+      "sessions": [
+        "Breast history and examination"
+      ],
+      "section": "ICM",
+      "n": 18,
+      "html": ""
+    },
+    {
+      "text": "Evaluate presenting clinical information to select the most appropriate physical assessment and perform structured shoulder, elbow or wrist and hand examination.",
+      "sessions": [
+        "Upper limb MSK examination. Shoulder, elbow, wrist applied clinical reasoning"
+      ],
+      "section": "ICM",
+      "n": 19,
+      "html": ""
+    },
+    {
+      "text": "Analyse clinical findings in the context of anatomical knowledge to identify potential underlying pathologies affecting the shoulder, elbow or wrist and hand.",
+      "sessions": [
+        "Upper limb MSK examination. Shoulder, elbow, wrist applied clinical reasoning"
+      ],
+      "section": "ICM",
+      "n": 20,
+      "html": ""
+    },
+    {
+      "text": "Formulate an appropriate plan for further investigation or referral, based on clinical findings and current guidelines.",
+      "sessions": [
+        "Upper limb MSK examination. Shoulder, elbow, wrist applied clinical reasoning"
+      ],
+      "section": "ICM",
+      "n": 21,
+      "html": ""
+    },
+    {
+      "text": "Clearly and concisely present clinical findings from a musculoskeletal examination using appropriate medical terminology and structure.",
+      "sessions": [
+        "Upper limb MSK examination. Shoulder, elbow, wrist applied clinical reasoning"
+      ],
+      "section": "ICM",
+      "n": 22,
+      "html": ""
+    },
+    {
+      "text": "Describe the gross structure of the breast, its blood supply and changes with puberty/pregnancy/menopause.",
+      "sessions": [
+        "Breast Anatomy"
+      ],
+      "section": "Anatomy",
+      "n": 23,
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Position</th><td><ul class=\"cl\"><li>on the <strong>pectoralis major</strong> fascia, from the <strong>2nd to 6th ribs</strong> vertically and from the <strong>sternum to the midaxillary line</strong></li><li>The <strong>axillary tail (of Spence)</strong> extends into the axilla (where many cancers arise: upper outer quadrant).</li></ul></td></tr><tr><th scope=\"row\">Structure</th><td><ul class=\"cl\"><li><strong>15–20 lobes</strong> of glandular tissue, each draining by a <strong>lactiferous duct</strong> (with a sinus) to the <strong>nipple</strong></li><li>Separated by fat and <strong>suspensory (Cooper's) ligaments</strong> from the skin to the deep fascia</li><li><strong>Retromammary space</strong> (loose tissue) lets it move on pectoralis major.</li></ul></td></tr><tr><th scope=\"row\">Areola</th><td>Pigmented; <strong>Montgomery's glands</strong> enlarge in pregnancy.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Supply</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Arteries</strong></td><td><strong>Internal thoracic</strong> (perforating branches, mainly medial, ~60%), <strong>lateral thoracic</strong> and thoracoacromial (axillary artery), posterior intercostal arteries</td></tr><tr><td><strong>Veins</strong></td><td>Follow the arteries → internal thoracic, axillary, intercostal veins (→ vertebral plexus: spread of cancer to the spine)</td></tr><tr><td><strong>Nerves</strong></td><td>Anterior and lateral cutaneous branches of <strong>intercostal nerves T4–6</strong>; <strong>nipple = T4</strong></td></tr><tr><td>Stage</td><td>Changes</td></tr><tr><td><strong>Puberty</strong></td><td>Oestrogen: duct growth and fat deposition; progesterone: lobule (alveolar) development; Tanner stages</td></tr><tr><td><strong>Pregnancy</strong></td><td>Massive lobulo-alveolar growth (oestrogen, progesterone, prolactin, hPL); areola darkens; secretion starts</td></tr><tr><td><strong>Lactation</strong></td><td>Prolactin (milk production) and oxytocin (let-down)</td></tr><tr><td><strong>Menopause</strong></td><td>Glandular tissue <strong>involutes</strong> and is replaced by <strong>fat</strong>, so the breast becomes less dense (easier to read on mammograms)</td></tr></tbody></table></div><ul><li><strong>Clinical</strong>: cancer pulling on Cooper's ligaments → <strong>skin dimpling</strong><ul><li>blocked lymphatics → <strong>peau d'orange</strong></li><li>involvement of ducts → <strong>nipple retraction</strong></li><li>tethering to pectoralis major (test by contracting it).</li></ul></li></ul>"
+    },
+    {
+      "text": "Describe the anatomy of the axillary lymph nodes and explain their importance in the lymphatic drainage of the breast and the skin of the trunk and upper limb and in the spread of tumours.",
+      "sessions": [
+        "Breast Anatomy"
+      ],
+      "section": "Anatomy",
+      "n": 24,
+      "html": "<ul><li><strong>~75% of breast lymph drains to the axillary nodes</strong><ul><li>the rest to the <strong>internal thoracic (parasternal) nodes</strong> (medial breast), and some to the other breast or abdomen.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Axillary group</th><th>Position</th></tr></thead><tbody><tr><td><strong>Pectoral (anterior)</strong></td><td>Along the lateral thoracic vessels: <strong>first to receive breast lymph</strong></td></tr><tr><td>Lateral (humeral)</td><td>Along the axillary vein: upper limb</td></tr><tr><td>Subscapular (posterior)</td><td>Along the subscapular vessels: back of trunk</td></tr><tr><td><strong>Central</strong></td><td>In axillary fat: receive from the three above</td></tr><tr><td><strong>Apical</strong></td><td>At the apex: receive from all → <strong>subclavian trunk</strong></td></tr><tr><td>Surgical level</td><td>Relation to pectoralis minor</td></tr><tr><td><strong>Level I</strong></td><td><strong>Lateral</strong> (below) to pectoralis minor</td></tr><tr><td><strong>Level II</strong></td><td><strong>Behind</strong> pectoralis minor</td></tr><tr><td><strong>Level III</strong></td><td><strong>Medial</strong> (above) to pectoralis minor (apical)</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Skin drainage</th><td>Axillary nodes also drain the <strong>skin of the trunk above the umbilicus</strong> (front and back) and the <strong>whole upper limb</strong>: an enlarged axillary node can come from arm infections or melanoma, not just the breast.</td></tr><tr><th scope=\"row\">Tumour spread</th><td><ul class=\"cl\"><li><strong>Sentinel lymph node biopsy</strong> (the first node, found with dye or radioisotope) stages the axilla</li><li>Positive nodes → axillary clearance or radiotherapy.</li><li>Clearance risks <strong>lymphoedema</strong> and injury to the <strong>long thoracic nerve</strong> (winged scapula) and <strong>thoracodorsal nerve</strong> (latissimus dorsi).</li></ul></td></tr><tr><td colspan=\"2\"><strong>Medial tumours</strong> may spread to the internal thoracic nodes and then the mediastinum.</td></tr></tbody></table></div>"
+    },
+    {
+      "text": "Recognise structures of the breast on mammography, ultrasound and MRI imaging.",
+      "sessions": [
+        "Breast Anatomy"
+      ],
+      "section": "Anatomy",
+      "n": 25,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Test</th><th>Used for</th><th>Normal appearance</th><th>Suspicious findings</th></tr></thead><tbody><tr><td><strong>Mammography</strong> (X-ray, CC and MLO views)</td><td><strong>Screening (NHS: women 50–71, every 3 years)</strong> and assessing lumps in women ≥40</td><td>Dense (white) glandular tissue in younger women, mostly fat (dark) after menopause; pectoralis major on the MLO view</td><td><strong>Spiculated mass</strong>, clustered <strong>microcalcifications</strong> (DCIS), architectural distortion, asymmetry</td></tr><tr><td><strong>Ultrasound</strong></td><td>First-line for women <strong>&lt;40</strong> (dense breasts), and to tell <strong>cyst from solid</strong> mass; guides biopsy; axillary nodes</td><td>Layers: skin, subcutaneous fat, glandular tissue, pectoralis</td><td>Cysts are <strong>anechoic</strong> (black) with posterior enhancement; cancers are irregular, <strong>taller than wide</strong>, with posterior shadowing</td></tr><tr><td><strong>MRI</strong> (with contrast)</td><td>High-risk screening (BRCA), implants, lobular cancer extent, unclear findings</td><td>Glandular enhancement varies with cycle</td><td>Rapid enhancement with washout</td></tr></tbody></table></div><ul><li><strong>Triple assessment</strong> for a breast lump: clinical examination + imaging (mammogram and/or ultrasound) + <strong>biopsy</strong> (core needle).</li></ul>"
+    }
+  ],
+  "partial": true
+}

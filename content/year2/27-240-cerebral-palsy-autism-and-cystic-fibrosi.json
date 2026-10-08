@@ -1,0 +1,209 @@
+{
+  "id": "y2-240",
+  "num": "240",
+  "title": "Cerebral palsy, Autism and Cystic Fibrosis",
+  "lead": "Surekha Tuohy and TBC",
+  "system": "Reproduction and development",
+  "date": "2027-05-31",
+  "los": [
+    {
+      "text": "Recognise abnormal motor development and link to diagnosis and intervention.",
+      "sessions": [
+        "Abnormal motor development in a child"
+      ],
+      "section": "Lectures",
+      "n": 1,
+      "html": ""
+    },
+    {
+      "text": "Know the variations in the presentation of cerebral palsy and link them to neurological signs.",
+      "sessions": [
+        "Cerebral palsy"
+      ],
+      "section": "Lectures",
+      "n": 2,
+      "html": ""
+    },
+    {
+      "text": "Know the prevalence of Autism Spectrum Disorders and link it to their aetiology, diagnostic features, assessment and variations in presentation.",
+      "sessions": [
+        "Autism spectrum disorder"
+      ],
+      "section": "Lectures",
+      "n": 3,
+      "html": ""
+    },
+    {
+      "text": "Know the differential diagnosis of musculoskeletal causes of limp",
+      "sessions": [
+        "The limping child"
+      ],
+      "section": "Lectures",
+      "n": 4,
+      "html": ""
+    },
+    {
+      "text": "Know the common neurological conditions that cause limp, explain the significance of referred pain",
+      "sessions": [
+        "The limping child"
+      ],
+      "section": "Lectures",
+      "n": 5,
+      "html": ""
+    },
+    {
+      "text": "Know why a child may limp with reference to their age",
+      "sessions": [
+        "The limping child"
+      ],
+      "section": "Lectures",
+      "n": 6,
+      "html": ""
+    },
+    {
+      "text": "Know the investigations required to differentiate causes of limp in children",
+      "sessions": [
+        "The limping child"
+      ],
+      "section": "Lectures",
+      "n": 7,
+      "html": ""
+    },
+    {
+      "text": "Know the causes of limp associated with joint or bony problems in a child",
+      "sessions": [
+        "The limping child"
+      ],
+      "section": "Lectures",
+      "n": 8,
+      "html": ""
+    },
+    {
+      "text": "Understand the concept of learning disability.",
+      "sessions": [
+        "Introduction to learning disability"
+      ],
+      "section": "Lectures",
+      "n": 9,
+      "html": ""
+    },
+    {
+      "text": "Identify the major developmental milestones and important red flags for abnormal development in a child.",
+      "sessions": [
+        "Red flags for development"
+      ],
+      "section": "Lectures",
+      "n": 10,
+      "html": ""
+    },
+    {
+      "text": "Know the various clinical presentations of cystic fibrosis and how to diagnose cystic fibrosis.",
+      "sessions": [
+        "Case Presentation: cystic fibrosis"
+      ],
+      "section": "Lectures",
+      "n": 11,
+      "html": ""
+    },
+    {
+      "text": "Know the multiorgan damage caused in cystic fibrosis.",
+      "sessions": [
+        "Pathology of cystic fibrosis"
+      ],
+      "section": "Lectures",
+      "n": 12,
+      "html": ""
+    },
+    {
+      "text": "Link pharmacological and other treatments to underlying physiology and pathology in cystic fibrosis.",
+      "sessions": [
+        "Current and future treatments in cystic fibrosis"
+      ],
+      "section": "Lectures",
+      "n": 13,
+      "html": ""
+    },
+    {
+      "text": "Interact with clinicians and families of ex-premature children",
+      "sessions": [
+        "Expert forum clinicians and families"
+      ],
+      "section": "Lectures",
+      "n": 14,
+      "html": ""
+    },
+    {
+      "text": "Describe the barriers (e.g., communication, physical access, social stigma) that individuals with intellectual disabilities face when accessing healthcare services.",
+      "sessions": [
+        "Learning Disability team – Paul Ridd and Your Voice Advocacy"
+      ],
+      "section": "ICM",
+      "n": 15,
+      "html": ""
+    },
+    {
+      "text": "Demonstrate effective communication techniques tailored to the needs of individuals with intellectual disabilities, using clear language, visual aids, or alternative methods",
+      "sessions": [
+        "Learning Disability team – Paul Ridd and Your Voice Advocacy"
+      ],
+      "section": "ICM",
+      "n": 16,
+      "html": ""
+    },
+    {
+      "text": "Identify the key signs and symptoms of Autism Spectrum Disorder (ASD) in children based on clinical observations and history",
+      "sessions": [
+        "ASD in children"
+      ],
+      "section": "ICM",
+      "n": 17,
+      "html": ""
+    },
+    {
+      "text": "List and explain common differential diagnoses for ASD in children, considering developmental, neurological, and psychological conditions",
+      "sessions": [
+        "ASD in children"
+      ],
+      "section": "ICM",
+      "n": 18,
+      "html": ""
+    },
+    {
+      "text": "Identify post-diagnostic support services available for children with ASD, including therapeutic, educational, and familial resources",
+      "sessions": [
+        "ASD in children"
+      ],
+      "section": "ICM",
+      "n": 19,
+      "html": ""
+    },
+    {
+      "text": "Define and classify the different types of cerebral palsy (CP), including spastic, dyskinetic, ataxic, and mixed types, based on clinical features",
+      "sessions": [
+        "Cerebral Palsy"
+      ],
+      "section": "ICM",
+      "n": 20,
+      "html": ""
+    },
+    {
+      "text": "Recognise the key clinical features of cerebral palsy (e.g., motor impairment, spasticity) and list common differential diagnoses (e.g., static encephalopathy, genetic syndromes, metabolic disorders)",
+      "sessions": [
+        "Cerebral Palsy"
+      ],
+      "section": "ICM",
+      "n": 21,
+      "html": ""
+    },
+    {
+      "text": "Identify histopathological hallmarks of Alzheimer's disease, Lewy bodies and vascular dementia.",
+      "sessions": [
+        "Neuroanatomy & Pathology"
+      ],
+      "section": "Anatomy",
+      "n": 22,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Condition</th><th>Gross brain</th><th>Histological hallmarks</th><th>Stains</th></tr></thead><tbody><tr><td><strong>Alzheimer's disease</strong></td><td>Diffuse cortical atrophy, worst in the <strong>medial temporal lobes (hippocampus)</strong> and parietal lobes; wide sulci, enlarged ventricles (hydrocephalus ex vacuo)</td><td><strong>Extracellular β-amyloid (neuritic/senile) plaques</strong>; <strong>intracellular neurofibrillary tangles</strong> (hyperphosphorylated <strong>tau</strong>); neuronal loss; <strong>cerebral amyloid angiopathy</strong>; granulovacuolar degeneration, Hirano bodies</td><td>Silver stains, Congo red (amyloid: apple-green birefringence), tau and Aβ immunohistochemistry</td></tr><tr><td><strong>Lewy body disease</strong> (dementia with Lewy bodies, Parkinson's)</td><td>Pale <strong>substantia nigra</strong> and locus coeruleus; cortex relatively spared or mild atrophy</td><td><strong>Lewy bodies</strong>: round eosinophilic <strong>intracytoplasmic</strong> inclusions of <strong>α-synuclein</strong> with a pale halo (brainstem: classical; cortex: less distinct); Lewy neurites</td><td><strong>α-synuclein</strong> and ubiquitin immunohistochemistry</td></tr><tr><td><strong>Vascular dementia</strong></td><td><strong>Multiple infarcts</strong> (large-vessel territories or many small <strong>lacunes</strong> in the basal ganglia, thalamus, white matter); white matter pallor</td><td><strong>Arteriolosclerosis</strong> (hyaline thickening of small vessels), small infarcts with gliosis and macrophages, <strong>white matter rarefaction</strong> (demyelination, loss of axons), microbleeds</td><td>H&amp;E, myelin stains (Luxol fast blue)</td></tr></tbody></table></div><ul><li><strong>Clinical links</strong>: Alzheimer's: early memory loss (hippocampus)<ul><li>Lewy body: fluctuating cognition, visual hallucinations, parkinsonism, neuroleptic sensitivity</li><li>vascular: stepwise decline, focal signs, vascular risk factors.</li></ul></li><li><strong>Mixed pathology</strong> (Alzheimer's + vascular) is common in older people.</li></ul>"
+    }
+  ],
+  "partial": true
+}

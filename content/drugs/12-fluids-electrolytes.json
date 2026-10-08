@@ -1,0 +1,534 @@
+{
+  "id": "fluids",
+  "title": "Fluids & electrolytes",
+  "items": [
+    {
+      "id": "sodium-chloride-0-9",
+      "name": "Sodium chloride 0.9%",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Resuscitation (500 mL bolus)",
+          "k": "y1-135-3"
+        },
+        {
+          "t": "Replacement",
+          "k": null
+        },
+        {
+          "t": "DKA",
+          "k": "y2-205-20"
+        },
+        {
+          "t": "HHS",
+          "k": "y1-139-6"
+        }
+      ],
+      "how": "Isotonic crystalloid that expands the ECF",
+      "hx": [
+        [
+          "Colloid that stays in the blood vessels",
+          "It's a crystalloid that distributes through the whole ECF."
+        ],
+        [
+          "Hypertonic crystalloid that draws water out of cells",
+          "0.9% is isotonic."
+        ],
+        [
+          "Isotonic crystalloid that expands the intracellular fluid",
+          "It stays in the ECF."
+        ]
+      ],
+      "se": [
+        "Fluid overload",
+        "Hyperchloraemic metabolic acidosis (large volumes)",
+        "Hypernatraemia"
+      ],
+      "sewhy": "Its chloride concentration is higher than plasma, so large volumes cause hyperchloraemic acidosis, and too much sodium and water overloads the circulation.",
+      "ci": [
+        {
+          "c": "Fluid overload, decompensated heart failure",
+          "k": "y2-211-5",
+          "why": "Adds to pulmonary oedema",
+          "cau": false,
+          "x": [
+            [
+              "Causes hyponatraemia",
+              "No; it adds to pulmonary oedema."
+            ],
+            [
+              "Causes hyperkalaemia",
+              "No; it adds to pulmonary oedema."
+            ],
+            [
+              "Relieves pulmonary oedema",
+              "It worsens it."
+            ]
+          ]
+        },
+        {
+          "c": "Hypernatraemia",
+          "k": "y1-135-4",
+          "why": "Adds sodium",
+          "cau": true,
+          "x": [
+            [
+              "Removes sodium",
+              "It adds sodium."
+            ],
+            [
+              "Adds potassium",
+              "No; sodium."
+            ],
+            [
+              "Adds chloride only",
+              "It adds sodium (and chloride)."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "glucose-5",
+      "name": "Glucose 5%",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Free-water replacement",
+          "k": null
+        },
+        {
+          "t": "Maintenance (with saline and K⁺)",
+          "k": "y1-135-3"
+        }
+      ],
+      "how": "Glucose is metabolised, leaving free water that spreads across all compartments",
+      "hx": [
+        [
+          "Glucose stays in the blood, expanding plasma volume",
+          "Glucose is metabolised; the free water spreads everywhere."
+        ],
+        [
+          "Glucose is metabolised, leaving sodium that expands the ECF",
+          "It leaves free water, with no sodium."
+        ],
+        [
+          "Glucose draws water into the blood osmotically",
+          "It's metabolised, so the water spreads across all compartments."
+        ]
+      ],
+      "se": [
+        "Hyponatraemia (dilutional)",
+        "Hyperglycaemia"
+      ],
+      "sewhy": "Once the glucose is used, it's free water, which dilutes sodium (hyponatraemia); it can also raise glucose in diabetics.",
+      "ci": [
+        {
+          "c": "Resuscitation of hypovolaemia",
+          "k": "y1-135-1",
+          "why": "Only ~1/12 stays in the circulation",
+          "cau": false,
+          "x": [
+            [
+              "All of it stays in the circulation",
+              "Only about a twelfth stays in the blood."
+            ],
+            [
+              "Causes hyperglycaemic coma",
+              "No; only ~1/12 stays in the circulation."
+            ],
+            [
+              "About half stays in the circulation",
+              "Only ~1/12."
+            ]
+          ]
+        },
+        {
+          "c": "Hyponatraemia or raised ICP",
+          "k": "y1-135-4",
+          "why": "Free water worsens cerebral oedema",
+          "cau": false,
+          "x": [
+            [
+              "Sodium load worsens cerebral oedema",
+              "It contains no sodium; free water causes cerebral oedema."
+            ],
+            [
+              "Glucose causes seizures",
+              "No; free water worsens cerebral oedema."
+            ],
+            [
+              "Free water shrinks the brain",
+              "It swells the brain."
+            ]
+          ]
+        },
+        {
+          "c": "Alcohol misuse before thiamine",
+          "k": "y2-229-7",
+          "why": "Glucose uses up thiamine → precipitates Wernicke's",
+          "cau": true,
+          "x": [
+            [
+              "Glucose causes alcohol withdrawal seizures",
+              "No; it uses up thiamine → Wernicke's."
+            ],
+            [
+              "Glucose triggers rebound hypoglycaemia",
+              "No; Wernicke's."
+            ],
+            [
+              "Glucose blocks thiamine absorption",
+              "It's not absorption; glucose metabolism uses up thiamine."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "potassium-chloride-iv",
+      "name": "Potassium chloride (IV)",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Hypokalaemia",
+          "k": null
+        },
+        {
+          "t": "Maintenance fluids",
+          "k": null
+        },
+        {
+          "t": "DKA",
+          "k": "y2-205-20"
+        }
+      ],
+      "how": "Replaces potassium",
+      "hx": [
+        [
+          "Removes excess chloride",
+          "It replaces potassium."
+        ],
+        [
+          "Replaces sodium",
+          "It replaces potassium."
+        ],
+        [
+          "Binds potassium in the gut",
+          "That's a binder (e.g. patiromer); IV KCl replaces K⁺."
+        ]
+      ],
+      "se": [
+        "Phlebitis",
+        "Hyperkalaemia",
+        "Arrhythmias if given fast"
+      ],
+      "sewhy": "Concentrated potassium irritates veins, and too much too fast disturbs cardiac repolarisation, causing arrhythmias and arrest.",
+      "ci": [
+        {
+          "c": "Hyperkalaemia",
+          "k": "y1-135-4",
+          "why": "Raises K⁺ further → cardiac arrest",
+          "cau": false,
+          "x": [
+            [
+              "Lowers K⁺ too fast → cramps",
+              "It raises K⁺ further."
+            ],
+            [
+              "Raises sodium → oedema",
+              "No; it raises K⁺."
+            ],
+            [
+              "Raises K⁺ further → seizures",
+              "The danger is cardiac arrest."
+            ]
+          ]
+        },
+        {
+          "c": "Undiluted bolus or >10 mmol/h peripherally",
+          "k": "y1-135-4",
+          "why": "Fatal arrhythmias",
+          "cau": false,
+          "x": [
+            [
+              "Vein thrombosis",
+              "The danger is fatal arrhythmias."
+            ],
+            [
+              "Hypokalaemia",
+              "No; fatal arrhythmias."
+            ],
+            [
+              "Seizures",
+              "No; fatal arrhythmias."
+            ]
+          ]
+        },
+        {
+          "c": "Anuria or severe renal failure",
+          "k": "y2-220-2",
+          "why": "K⁺ can't be excreted",
+          "cau": false,
+          "x": [
+            [
+              "K⁺ is excreted too fast",
+              "It can't be excreted."
+            ],
+            [
+              "Chloride causes acidosis",
+              "Not the main issue; K⁺ can't be excreted."
+            ],
+            [
+              "Potassium damages the kidneys",
+              "No; it can't be excreted."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calcium-gluconate-10",
+      "name": "Calcium gluconate 10%",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Hyperkalaemia with ECG changes (protects the heart)",
+          "k": "y1-135-4"
+        },
+        {
+          "t": "Symptomatic hypocalcaemia",
+          "k": "y1-126-4"
+        },
+        {
+          "t": "Magnesium toxicity",
+          "k": "y1-114-2"
+        }
+      ],
+      "how": "Stabilises the cardiac membrane; replaces calcium",
+      "hx": [
+        [
+          "Lowers serum potassium; replaces calcium",
+          "It doesn't lower K⁺; it stabilises the cardiac membrane."
+        ],
+        [
+          "Destabilises the cardiac membrane; removes calcium",
+          "It stabilises the membrane and replaces calcium."
+        ],
+        [
+          "Binds phosphate in the gut; replaces calcium",
+          "IV calcium gluconate stabilises the heart."
+        ]
+      ],
+      "se": [
+        "Bradycardia or arrhythmia if fast",
+        "Tissue necrosis on extravasation"
+      ],
+      "sewhy": "Rapid calcium affects cardiac conduction (bradycardia, arrhythmias, especially with digoxin), and it damages tissue if it leaks.",
+      "ci": [
+        {
+          "c": "Hypercalcaemia",
+          "k": "y1-126-4",
+          "why": "Raises calcium further",
+          "cau": false,
+          "x": [
+            [
+              "Lowers calcium",
+              "It raises calcium."
+            ],
+            [
+              "Raises phosphate",
+              "No; calcium."
+            ],
+            [
+              "Causes hypokalaemia",
+              "No; it raises calcium further."
+            ]
+          ]
+        },
+        {
+          "c": "Digoxin toxicity",
+          "k": "y1-108-3",
+          "why": "Calcium potentiates digoxin arrhythmias",
+          "cau": true,
+          "x": [
+            [
+              "Calcium neutralises digoxin",
+              "It potentiates digoxin arrhythmias."
+            ],
+            [
+              "Calcium lowers digoxin levels",
+              "No; it potentiates arrhythmias."
+            ],
+            [
+              "Calcium causes hyperkalaemia",
+              "No; it potentiates digoxin arrhythmias."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magnesium-sulfate",
+      "name": "Magnesium sulfate",
+      "ex": "",
+      "uses": [
+        {
+          "t": "Eclampsia and severe pre-eclampsia",
+          "k": "y1-114-2"
+        },
+        {
+          "t": "Fetal neuroprotection <30 weeks",
+          "k": "y1-114-3"
+        },
+        {
+          "t": "Acute severe asthma (2 g IV)",
+          "k": "y2-204-8"
+        },
+        {
+          "t": "Torsades de pointes",
+          "k": "y1-108-3"
+        }
+      ],
+      "how": "Calcium antagonism at neuromuscular junction and smooth muscle; membrane stabilisation",
+      "hx": [
+        [
+          "Calcium agonism at neuromuscular junction and smooth muscle; membrane excitation",
+          "Magnesium antagonises calcium and stabilises membranes."
+        ],
+        [
+          "Potassium channel opening in neurons; diuretic effect",
+          "It antagonises calcium."
+        ],
+        [
+          "GABA-A enhancement in the brain; sedation",
+          "Not GABA; calcium antagonism and membrane stabilisation."
+        ]
+      ],
+      "se": [
+        "Flushing",
+        "Hypotension",
+        "Toxicity: loss of reflexes, respiratory depression, cardiac arrest (antidote: calcium gluconate)"
+      ],
+      "sewhy": "Magnesium relaxes smooth muscle and blocks calcium at the NMJ: flushing and hypotension, then loss of reflexes, respiratory depression and cardiac arrest in toxicity; calcium gluconate reverses it.",
+      "ci": [
+        {
+          "c": "Myasthenia gravis",
+          "k": "y1-113-3",
+          "why": "Blocks acetylcholine release → crisis",
+          "cau": false,
+          "x": [
+            [
+              "Boosts acetylcholine release → cholinergic crisis",
+              "It blocks ACh release, worsening weakness."
+            ],
+            [
+              "Destroys acetylcholine receptors",
+              "No; it blocks ACh release."
+            ],
+            [
+              "Lowers pyridostigmine levels",
+              "No; it blocks ACh release."
+            ]
+          ]
+        },
+        {
+          "c": "Heart block",
+          "k": "y1-108-3",
+          "why": "Slows conduction",
+          "cau": false,
+          "x": [
+            [
+              "Speeds conduction",
+              "It slows conduction."
+            ],
+            [
+              "Causes coronary spasm",
+              "It relaxes smooth muscle; it slows conduction."
+            ],
+            [
+              "Raises potassium",
+              "No; it slows conduction."
+            ]
+          ]
+        },
+        {
+          "c": "Renal impairment",
+          "k": "y1-135-5",
+          "why": "Accumulates: monitor reflexes and RR",
+          "cau": true,
+          "x": [
+            [
+              "Cleared faster: double the dose",
+              "It accumulates; monitor reflexes and breathing."
+            ],
+            [
+              "Accumulates: monitor blood glucose",
+              "Monitor reflexes and respiratory rate."
+            ],
+            [
+              "Nephrotoxic: stop it",
+              "Not nephrotoxic; it accumulates."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thiamine",
+      "name": "Thiamine",
+      "ex": "Pabrinex (IV), oral thiamine",
+      "uses": [
+        {
+          "t": "Alcohol misuse, suspected Wernicke's",
+          "k": "y2-229-7"
+        },
+        {
+          "t": "Refeeding risk",
+          "k": "y2-206-10"
+        }
+      ],
+      "how": "Replaces vitamin B1, a cofactor in glucose metabolism",
+      "hx": [
+        [
+          "Replaces vitamin B12, a cofactor in myelin synthesis",
+          "It's vitamin B1, needed for glucose metabolism."
+        ],
+        [
+          "Replaces vitamin B6, a cofactor in neurotransmitter synthesis",
+          "It's vitamin B1."
+        ],
+        [
+          "Replaces vitamin B1, a cofactor in fat storage",
+          "B1 is a cofactor in glucose metabolism."
+        ]
+      ],
+      "se": [
+        "Anaphylaxis with IV (rare)"
+      ],
+      "sewhy": "IV thiamine (e.g. Pabrinex) rarely causes anaphylaxis, so give it slowly with resuscitation facilities; the benefit far outweighs the risk.",
+      "ci": [
+        {
+          "c": "Give before glucose in alcohol misuse",
+          "k": "y2-229-7",
+          "why": "Glucose without thiamine can precipitate Wernicke's encephalopathy",
+          "cau": true,
+          "x": [
+            [
+              "Glucose without thiamine can precipitate hypoglycaemia",
+              "The risk is Wernicke's encephalopathy."
+            ],
+            [
+              "Thiamine without glucose causes seizures",
+              "No; glucose first can precipitate Wernicke's."
+            ],
+            [
+              "Glucose without thiamine can precipitate delirium tremens",
+              "DTs come from alcohol withdrawal; glucose without thiamine precipitates Wernicke's."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

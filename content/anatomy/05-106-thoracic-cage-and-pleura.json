@@ -1,0 +1,71 @@
+{
+  "id": "a-106",
+  "num": "106",
+  "title": "Thoracic cage and pleura",
+  "system": "Respiratory",
+  "los": [
+    {
+      "n": 1,
+      "text": "Demonstrate the surface anatomy landmarks associated with major thoracic structures",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Landmark</th><th>Level / marks</th></tr></thead><tbody><tr><td>Jugular notch</td><td>T2/3; trachea palpable above it</td></tr><tr><td><strong>Sternal angle</strong></td><td>T4/5, 2nd costal cartilage: carina, aortic arch, azygos joins SVC; count ribs from here</td></tr><tr><td>Xiphisternal joint</td><td>T9; lower border of the heart, central tendon of diaphragm</td></tr><tr><td>Nipple (male)</td><td>4th intercostal space, midclavicular line</td></tr><tr><td><strong>Apex beat</strong></td><td>5th intercostal space, midclavicular line</td></tr><tr><td>Diaphragm domes (expiration)</td><td>Right 5th rib, left 5th intercostal space</td></tr><tr><td>Scapula</td><td>Spine at T3; inferior angle at T7 (7th rib)</td></tr><tr><td>Vertebra prominens</td><td>C7 spinous process</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Lungs and pleura</th><td><ul class=\"cl\"><li>Lung edge at ribs 6 / 8 / 10 (midclavicular, midaxillary, paravertebral)</li><li>Pleura two ribs lower, 8 / 10 / 12.</li></ul></td></tr><tr><th scope=\"row\">Heart outline</th><td><ul class=\"cl\"><li>Upper border 2nd left to 3rd right costal cartilage</li><li>Right border 3rd–6th right cartilage beside the sternum</li><li>Inferior border 6th right cartilage to the apex.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Describe the movements involved in normal, vigorous and forced ventilation and list the muscles responsible for these movements",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Breathing</th><th>Muscles</th><th>How</th></tr></thead><tbody><tr><td>Quiet inspiration</td><td><strong>Diaphragm</strong> (main), external intercostals</td><td>Diaphragm descends (↑ vertical size); ribs rise: <strong>pump-handle</strong> (upper ribs, ↑ front-to-back) and <strong>bucket-handle</strong> (lower ribs, ↑ side-to-side)</td></tr><tr><td>Quiet expiration</td><td>None (passive)</td><td>Elastic recoil of lungs and chest wall</td></tr><tr><td>Forced inspiration</td><td>+ Sternocleidomastoid, <strong>scalenes</strong>, pectoralis major/minor and serratus anterior (with arms fixed)</td><td>Lift sternum and upper ribs further</td></tr><tr><td>Forced expiration</td><td><strong>Abdominal muscles</strong> (rectus, obliques, transversus), internal intercostals, latissimus dorsi (cough)</td><td>Raise abdominal pressure to push the diaphragm up; pull ribs down</td></tr></tbody></table></div><ul><li><strong>Signs of respiratory distress</strong>: accessory muscle use, tripod position (fixing the arms lets pectorals lift the ribs).</li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Describe the functional anatomy of the intercostal muscles",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Layer</th><th>Fibres run</th><th>Action</th></tr></thead><tbody><tr><td><strong>External intercostals</strong></td><td>Down and forward (\"hands in pockets\"); external intercostal membrane in front</td><td>Raise ribs: inspiration</td></tr><tr><td><strong>Internal intercostals</strong></td><td>Down and back (at right angles to the externals); internal intercostal membrane behind</td><td>Interosseous part lowers ribs (forced expiration); parasternal part helps inspiration</td></tr><tr><td><strong>Innermost intercostals</strong> (+ subcostales, transversus thoracis)</td><td>Same as the internals</td><td>Deep to the neurovascular bundle</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Also</th><td>Keep the intercostal spaces rigid so they don't suck in or bulge out with pressure swings.</td></tr><tr><th scope=\"row\">Nerve</th><td>The intercostal nerve of each space.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Explain that the arterial supply of the thoracic wall is via intercostal vessels (as branches of the internal thoracic artery and aorta)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Posterior intercostal arteries</th><td><ul class=\"cl\"><li>Spaces 1–2 from the <strong>superior intercostal artery</strong> (costocervical trunk of the subclavian)</li><li>Spaces 3–11 from the <strong>thoracic aorta</strong></li><li>Subcostal artery below rib 12.</li></ul></td></tr><tr><th scope=\"row\">Anterior intercostal arteries</th><td>From the <strong>internal thoracic artery</strong> (spaces 1–6) and its musculophrenic branch (7–9).</td></tr><tr><th scope=\"row\">Anastomosis</th><td>Anterior and posterior arteries join in each space.</td></tr><tr><th scope=\"row\">Internal thoracic artery</th><td><ul class=\"cl\"><li>From the subclavian, ~1 cm lateral to the sternum behind the costal cartilages</li><li>Ends at the 6th space as the superior epigastric and musculophrenic arteries</li><li>Used in <strong>CABG (LIMA graft)</strong>.</li></ul></td></tr><tr><th scope=\"row\">Veins</th><td>Posterior intercostals → azygos/hemiazygos; anterior → internal thoracic veins.</td></tr></tbody></table></div><div class=\"key\">Coarctation of the aorta enlarges the intercostal collaterals, which notch the undersides of the ribs on CXR.</div>"
+    },
+    {
+      "n": 5,
+      "text": "Describe a neurovascular bundle in a typical intercostal space and outline the structures its components supply",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Position</th><td>in the <strong>costal groove</strong> on the inferior border of the rib above, between the internal and innermost intercostals.</td></tr><tr><th scope=\"row\">Order from top</th><td><strong>Vein, Artery, Nerve</strong> (VAN).</td></tr><tr><th scope=\"row\">Intercostal nerve supplies</th><td><ul class=\"cl\"><li>Intercostal muscles</li><li>Skin of the dermatome (lateral and anterior cutaneous branches)</li><li>Costal parietal pleura.</li><li>T7–T11 carry on into the abdominal wall muscles, skin and parietal peritoneum.</li></ul></td></tr><tr><th scope=\"row\">Artery supplies</th><td>Intercostal muscles, overlying skin, pleura, and the breast (perforators of spaces 2–4).</td></tr><tr><th scope=\"row\">Clinical</th><td>Needles and drains go <strong>just above the upper border of the rib below</strong> to miss the main bundle.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Explain that the intercostal nerves are branches of the ventral primary rami of the thoracic spinal nerves and receive rami communicantes from the sympathetic trunk",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Origin</th><td><strong>Ventral primary rami</strong> of T1–T11 (T12 = subcostal nerve); dorsal rami supply the back muscles and skin.</td></tr><tr><th scope=\"row\">Special</th><td><ul class=\"cl\"><li>Most of T1 joins the brachial plexus</li><li>T2 gives the <strong>intercostobrachial nerve</strong> (axilla and medial arm: route for referred cardiac pain).</li></ul></td></tr><tr><th scope=\"row\">Sympathetic links</th><td><ul class=\"cl\"><li>Every intercostal nerve receives a <strong>grey ramus</strong> (postganglionic fibres to sweat glands, vessels, hair muscles)</li><li>T1–L2 also send <strong>white rami</strong> (preganglionic) to the sympathetic trunk.</li></ul></td></tr><tr><th scope=\"row\">Branches</th><td>Collateral, lateral cutaneous (midaxillary), anterior cutaneous, muscular.</td></tr><tr><th scope=\"row\">Clinical</th><td>Shingles follows one dermatome; intercostal nerve blocks for rib fractures.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Recognise normal structures on radiographs of the thorax in inspiration and expiration, and be able to recognise common abnormalities",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Film</th><th>Look</th></tr></thead><tbody><tr><td>Good inspiration</td><td>~6 anterior (10 posterior) ribs above the diaphragm; narrow heart</td></tr><tr><td>Expiration</td><td>Diaphragm high, fewer ribs, heart looks bigger, crowded bases; can make a small pneumothorax easier to see</td></tr></tbody></table></div><ul><li><strong>Normal structures</strong>: trachea and carina, aortic knuckle, heart borders, hila, costophrenic angles, gastric bubble, ribs, clavicles, scapulae, breast shadows.</li></ul><div class=\"tbl\"><table><thead><tr><th>Abnormality</th><th>Appearance</th></tr></thead><tbody><tr><td>Pneumothorax</td><td>Visible pleural edge with no lung markings beyond it</td></tr><tr><td>Pleural effusion</td><td>Blunted costophrenic angle, meniscus</td></tr><tr><td>Consolidation</td><td>Patchy opacity, air bronchograms, lost border (silhouette sign)</td></tr><tr><td>Collapse</td><td>Volume loss; trachea/mediastinum pulled <strong>towards</strong> it</td></tr><tr><td>Hyperinflation (COPD)</td><td>&gt;7 anterior ribs, flat diaphragm</td></tr><tr><td>Tension pneumothorax</td><td>Mediastinum pushed <strong>away</strong>: a clinical diagnosis, treat before X-ray</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Explain the concept of the pleural sac (parietal and visceral) and potential space",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Pleura</th><td>a serous membrane folded into two layers: <strong>visceral</strong> (stuck to the lung, into the fissures) and <strong>parietal</strong> (costal, diaphragmatic, mediastinal and cervical parts), continuous around the lung root and pulmonary ligament.</td></tr><tr><th scope=\"row\">Pleural cavity</th><td><ul class=\"cl\"><li>a <strong>potential space</strong> with ~5–10 mL of fluid</li><li>Surface tension couples the lung to the chest wall</li><li>Pressure is <strong>negative</strong> (about −5 cmH₂O) so the lung stays expanded.</li></ul></td></tr><tr><th scope=\"row\">Picture it</th><td>a fist pushed into a partly filled balloon.</td></tr><tr><th scope=\"row\">What fills it in disease</th><td>Air (pneumothorax), fluid (effusion), blood (haemothorax), pus (empyema), lymph (chylothorax).</td></tr><tr><th scope=\"row\">Recesses</th><td>Costodiaphragmatic and costomediastinal: spare pleura for the lungs to expand into.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Identify the surface landmarks that are used when inserting a chest drain",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Safe triangle</th><td><ul class=\"cl\"><li>Front = lateral border of <strong>pectoralis major</strong></li><li>Back = lateral border of <strong>latissimus dorsi</strong></li><li>Bottom = horizontal line at the <strong>5th intercostal space</strong> (nipple level in men)</li><li>Apex below the axilla.</li></ul></td></tr><tr><th scope=\"row\">Site</th><td>4th–5th intercostal space, mid-axillary line, <strong>just above the rib below</strong>.</td></tr><tr><th scope=\"row\">Avoids</th><td><ul class=\"cl\"><li>The intercostal bundle (under the rib above)</li><li>Internal thoracic artery (in front)</li><li>Long thoracic nerve (further back on serratus anterior)</li><li>Liver and spleen (too low).</li></ul></td></tr><tr><th scope=\"row\">Needle decompression of tension</th><td>4th–5th space mid-axillary (adults, current ATLS) or 2nd space midclavicular.</td></tr></tbody></table></div>"
+    }
+  ]
+}

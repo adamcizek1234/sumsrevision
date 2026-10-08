@@ -1,0 +1,127 @@
+{
+  "id": "a-113",
+  "num": "113",
+  "title": "Hand, wrist and forearm",
+  "system": "Musculoskeletal",
+  "los": [
+    {
+      "n": 1,
+      "text": "Describe the anatomy of the superior and inferior radio-ulnar joints",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Joint</th><th>Type</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Superior radioulnar</strong></td><td>Synovial pivot</td><td>Radial head turns in a ring of <strong>annular ligament</strong> + radial notch of ulna; shares the elbow capsule</td></tr><tr><td><strong>Inferior radioulnar</strong></td><td>Synovial pivot</td><td><ul class=\"cl\"><li>Ulnar head in the ulnar notch of the radius</li><li><strong>Triangular fibrocartilage (TFCC)</strong> binds the two bones and keeps the ulna off the carpus</li></ul></td></tr><tr><td>Interosseous membrane</td><td>Fibrous (syndesmosis)</td><td>Fibres run down from radius to ulna, passing load from the radius (wrist) to the ulna (elbow)</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Movement</th><td>The radius rotates around the ulna (axis through the radial and ulnar heads) in pronation and supination.</td></tr><tr><th scope=\"row\">Pulled elbow<span class=\"paren\">(toddlers)</span></th><td>Radial head slips out of the annular ligament after a sudden pull on the arm.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Recognise the movements of supination and pronation and identify the muscles involved whilst summarising their main attachments and nervous innervation",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Movement</th><th>Muscle</th><th>Attachments</th><th>Nerve</th></tr></thead><tbody><tr><td><strong>Supination</strong></td><td><strong>Biceps brachii</strong></td><td>Radial tuberosity</td><td>Musculocutaneous</td></tr><tr><td></td><td><strong>Supinator</strong></td><td>Lateral epicondyle, supinator crest of ulna → wraps round proximal radius</td><td>Deep radial (PIN)</td></tr><tr><td><strong>Pronation</strong></td><td><strong>Pronator teres</strong></td><td>Medial epicondyle + coronoid → lateral mid-radius</td><td>Median</td></tr><tr><td></td><td><strong>Pronator quadratus</strong></td><td>Distal ulna → distal radius (front)</td><td>Anterior interosseous (median)</td></tr></tbody></table></div><ul><li><strong>Biceps</strong> is the strongest supinator, best with the elbow flexed (screwdriver action); supination is stronger than pronation.</li><li><strong>Brachioradialis</strong> brings the forearm to mid-position from either extreme.</li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Describe and recognise movements at the wrist joint and identify the muscle groups responsible",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Wrist (radiocarpal) joint</strong>: synovial <strong>ellipsoid</strong>: radius and TFCC with scaphoid, lunate and triquetrum (the ulna doesn't touch the carpus).<ul><li>The midcarpal joint adds movement.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Movement</th><th>Muscles</th><th>Nerve</th></tr></thead><tbody><tr><td>Flexion</td><td>FCR, FCU, palmaris longus (+ finger flexors)</td><td>Median (FCR, PL), ulnar (FCU)</td></tr><tr><td>Extension</td><td>ECRL, ECRB, ECU (+ finger extensors)</td><td>Radial</td></tr><tr><td>Radial deviation (abduction)</td><td>FCR + ECRL/ECRB</td><td>Median + radial</td></tr><tr><td>Ulnar deviation (adduction)</td><td>FCU + ECU</td><td>Ulnar + radial</td></tr></tbody></table></div><ul><li><strong>Ulnar deviation has more range</strong> (the radial styloid reaches further down).</li><li><strong>Synergy</strong>: wrist extensors fire during gripping so finger flexors stay at a strong length<ul><li>radial palsy weakens grip for this reason.</li></ul></li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Recognise the positions and functions of the retinacula of the wrist and the tendon sheaths of the wrist and hand, and relate them to carpal tunnel syndrome and the spread of infection in tendon sheaths",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Flexor retinaculum</th><td>From <strong>pisiform and hook of hamate</strong> (medial) to <strong>scaphoid tubercle and trapezium</strong> (lateral); roof of the <strong>carpal tunnel</strong>.</td></tr><tr><th scope=\"row\">Carpal tunnel contents</th><td><strong>Median nerve</strong> + 9 tendons (4 FDS, 4 FDP, FPL); FCR in its own split of the retinaculum.</td></tr><tr><th scope=\"row\">Superficial to it</th><td>Ulnar nerve and artery (Guyon's canal), palmaris longus, <strong>palmar cutaneous branch of median</strong> (so palm sensation is spared in carpal tunnel syndrome).</td></tr><tr><th scope=\"row\">Carpal tunnel syndrome</th><td><ul class=\"cl\"><li>Tingling in the lateral 3½ digits (worse at night), thenar wasting, weak abductor pollicis brevis</li><li>Pregnancy, hypothyroidism, RA, diabetes, acromegaly</li><li>Phalen's and Tinel's tests</li><li>Treat by dividing the retinaculum.</li></ul></td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Extensor compartment</th><th>Tendons</th></tr></thead><tbody><tr><td>1</td><td>APL, EPB (de Quervain's tenosynovitis)</td></tr><tr><td>2</td><td>ECRL, ECRB</td></tr><tr><td>3</td><td>EPL (turns round Lister's tubercle)</td></tr><tr><td>4</td><td>Extensor digitorum, extensor indicis</td></tr><tr><td>5</td><td>Extensor digiti minimi</td></tr><tr><td>6</td><td>ECU</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Flexor sheaths</th><td><ul class=\"cl\"><li><strong>Ulnar bursa</strong> (common sheath for FDS and FDP) runs on into the little finger's sheath</li><li><strong>Radial bursa</strong> (FPL) into the thumb's</li><li>Index, middle and ring sheaths are separate.</li></ul></td></tr><tr><th scope=\"row\">Infection</th><td><ul class=\"cl\"><li>Flexor tenosynovitis (Kanavel signs: fusiform swelling, flexed finger, tenderness along the sheath, pain on passive extension).</li><li>Little finger or thumb infections can spread into the bursae (horseshoe abscess) and up into the forearm.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Describe the close relationships of the bones and joints of the forearm and wrist with other structures, e.g. blood vessels, nerves, ligaments, tendons and bursae, which may be injured in fracture and dislocation, and recognise the affects of such damage upon function",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Injury</th><th>Structure at risk</th><th>Effect</th></tr></thead><tbody><tr><td>Distal radius fracture (Colles: dorsal tilt, \"dinner fork\")</td><td>Median nerve; EPL tendon later (Lister's tubercle); DRUJ/TFCC</td><td>Acute carpal tunnel; can't extend thumb; painful rotation</td></tr><tr><td><strong>Scaphoid fracture</strong></td><td><strong>Retrograde blood supply</strong> (distal to proximal)</td><td><strong>Avascular necrosis</strong> of the proximal pole, non-union</td></tr><tr><td>Lunate dislocation (anterior)</td><td>Median nerve in the carpal tunnel</td><td>Acute carpal tunnel syndrome</td></tr><tr><td>Supracondylar fracture (child)</td><td><strong>Brachial artery</strong>, median/anterior interosseous nerve</td><td>Volkmann's ischaemic contracture</td></tr><tr><td>Forearm shaft fractures</td><td>Compartments; Monteggia (ulna + radial head) risks the posterior interosseous nerve</td><td>Compartment syndrome; wrist/finger drop</td></tr><tr><td>Hook of hamate fracture</td><td>Ulnar nerve and artery (Guyon's canal)</td><td>Weak intrinsics, numb little finger</td></tr><tr><td>Wrist laceration</td><td>Median nerve (between FCR and PL), ulnar nerve and artery, radial artery, tendons</td><td>Loss of function depends on what's cut</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Describe the anatomical basis of the assessment of cutaneous sensation in the dermatomes of the upper limb and tendon jerk tests",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Dermatome</th><th>Area</th></tr></thead><tbody><tr><td>C4</td><td>Cape over the top of the shoulder</td></tr><tr><td>C5</td><td>Lateral arm (deltoid region)</td></tr><tr><td>C6</td><td>Lateral forearm, <strong>thumb</strong> (and index)</td></tr><tr><td>C7</td><td><strong>Middle finger</strong></td></tr><tr><td>C8</td><td><strong>Little finger</strong>, medial hand and forearm</td></tr><tr><td>T1</td><td>Medial forearm and elbow</td></tr><tr><td>T2</td><td>Axilla, upper medial arm</td></tr><tr><td>Reflex</td><td>Root</td><td>Myotome</td><td>Root</td></tr><tr><td>Biceps</td><td>C5–6</td><td>Shoulder abduction</td><td>C5</td></tr><tr><td>Brachioradialis</td><td>C5–6</td><td>Elbow flexion, wrist extension</td><td>C6</td></tr><tr><td>Triceps</td><td>C7</td><td>Elbow extension, wrist flexion</td><td>C7</td></tr><tr><td></td><td></td><td>Finger flexion</td><td>C8</td></tr><tr><td></td><td></td><td>Finger abduction</td><td>T1</td></tr></tbody></table></div><ul><li><strong>Use</strong>: a dermatomal pattern (e.g. numb thumb + weak elbow flexion + reduced biceps jerk = C6 root) differs from a peripheral nerve pattern.</li></ul>"
+    },
+    {
+      "n": 7,
+      "text": "Name and demonstrate the movements of the fingers and thumb",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Fingers</th><td><ul class=\"cl\"><li>MCP joints (condyloid) flex, extend, abduct and adduct (around the middle finger's axis)</li><li>PIP and DIP joints (hinge) flex and extend.</li></ul></td></tr><tr><th scope=\"row\">Thumb CMC joint<span class=\"paren\">(saddle, trapezium–1st metacarpal)</span></th><td><ul class=\"cl\"><li><strong>Flexion/extension</strong> in the plane of the palm</li><li><strong>Abduction/adduction</strong> at right angles to the palm</li><li><strong>Opposition</strong> = flexion + abduction + medial rotation (pulp to pulp)</li><li>Reposition.</li></ul></td></tr><tr><td colspan=\"2\"><strong>The thumb's planes are rotated 90°</strong> to the fingers' (the thumbnail faces sideways).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Identify the muscles and tendons involved in the movements of the fingers and thumb (differentiating between those in the forearm and those intrinsic to the hand) and name their attachments and nervous innervation",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Extrinsic (forearm)</th><th>Inserts</th><th>Action</th><th>Nerve</th></tr></thead><tbody><tr><td><strong>FDS</strong></td><td>Middle phalanges (splits round FDP)</td><td>Flexes <strong>PIP</strong></td><td>Median</td></tr><tr><td><strong>FDP</strong></td><td>Distal phalanges</td><td>The only <strong>DIP</strong> flexor</td><td>Median (AIN: index, middle) + ulnar (ring, little)</td></tr><tr><td><strong>FPL</strong></td><td>Thumb distal phalanx</td><td>Flexes thumb IP</td><td>Anterior interosseous</td></tr><tr><td>Extensor digitorum</td><td>Extensor expansions</td><td>Extends MCPs (and IPs via the hood)</td><td>Radial (PIN)</td></tr><tr><td>EPL / EPB / APL</td><td>Thumb distal phalanx / proximal phalanx / 1st metacarpal base</td><td>Extend IP / extend MCP / abduct thumb</td><td>Radial (PIN)</td></tr><tr><td>Intrinsic (hand)</td><td>Action</td><td>Nerve</td></tr><tr><td>Thenar: APB, FPB, opponens pollicis</td><td>Thumb abduction, flexion, opposition</td><td>Median (recurrent branch)</td></tr><tr><td>Adductor pollicis</td><td>Thumb adduction</td><td>Ulnar (deep)</td></tr><tr><td>Hypothenar: ADM, FDM, ODM</td><td>Little finger movements</td><td>Ulnar</td></tr><tr><td><strong>Lumbricals</strong> (from FDP tendons)</td><td><strong>Flex MCP, extend IPs</strong></td><td>Lateral 2 median, medial 2 ulnar</td></tr><tr><td><strong>Interossei</strong>: palmar (PAD, adduct) and dorsal (DAB, abduct)</td><td>Finger ad/abduction; flex MCP, extend IPs</td><td>Ulnar (deep)</td></tr></tbody></table></div><ul><li><strong>Bedside tests</strong>: FDS: hold the other fingers straight, flex the PIP. FDP: hold the PIP, flex the DIP.</li></ul>"
+    },
+    {
+      "n": 9,
+      "text": "Recognise the main types of grip (power, precision and hook) and the roles of the muscles and nerves involved in executing them, and describe how muscle groups work in synergy to facilitate action",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Grip</th><th>What happens</th><th>Key muscles</th><th>Nerves</th></tr></thead><tbody><tr><td><strong>Power</strong></td><td>Object clamped between flexed fingers and palm, thumb over the top; wrist extended</td><td>FDS, FDP, interossei, adductor pollicis, thenar and hypothenar; wrist extensors stabilise</td><td>Median, ulnar (+ radial for the wrist)</td></tr><tr><td><strong>Precision</strong> (pinch)</td><td>Thumb pulp to finger pulp</td><td><strong>Opposition</strong> (opponens, APB, FPB), FPL, FDP, interossei; adductor pollicis for key pinch</td><td><strong>Median</strong> (opposition), ulnar (fine control)</td></tr><tr><td><strong>Hook</strong></td><td>Fingers flexed at IP joints, thumb not used (carrying a bag)</td><td>FDS, FDP</td><td>Median, ulnar</td></tr></tbody></table></div><ul><li><strong>Synergy</strong>: wrist extensors stop the finger flexors bending the wrist<ul><li>antagonists co-contract to stabilise</li><li>thumb opposition balances thenar muscles with adductor pollicis.</li></ul></li></ul>"
+    },
+    {
+      "n": 10,
+      "text": "Label a diagram of the muscles and tendons of the palm of the hand",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Layer (superficial → deep)</th><th>Contents</th></tr></thead><tbody><tr><td>1</td><td>Skin, <strong>palmar aponeurosis</strong> (Dupuytren's contracture), palmaris brevis</td></tr><tr><td>2</td><td><strong>Superficial palmar arch</strong>, digital nerves (median and ulnar)</td></tr><tr><td>3</td><td><strong>FDS</strong> tendons, then <strong>FDP</strong> tendons with the <strong>lumbricals</strong>; FPL to the thumb</td></tr><tr><td>4</td><td>Thenar (APB, FPB, then opponens) and hypothenar (ADM, FDM, ODM) muscles</td></tr><tr><td>5</td><td><strong>Deep palmar arch</strong>, deep branch of ulnar nerve, <strong>adductor pollicis</strong></td></tr><tr><td>6</td><td>Palmar and dorsal <strong>interossei</strong>, metacarpals</td></tr></tbody></table></div><ul><li><strong>Fibrous flexor sheaths</strong>: annular (A1–A5) and cruciate pulleys; A2 and A4 stop bowstringing; A1 is where trigger finger catches.</li></ul>"
+    },
+    {
+      "n": 11,
+      "text": "Label a diagram of the muscles and tendons of the dorsal hand",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Tendons from the six compartments</th><td><ul class=\"cl\"><li>APL and EPB (front of the snuffbox), EPL (back of the snuffbox)</li><li>ECRL and ECRB to bases of metacarpals 2 and 3</li><li>Extensor digitorum (four tendons linked by juncturae tendinum)</li><li>Extensor indicis (on the ulnar side of the index tendon)</li><li>Extensor digiti minimi</li><li>ECU to the base of the 5th metacarpal.</li></ul></td></tr><tr><th scope=\"row\">Extensor expansion (hood)</th><td>Over the proximal phalanx; receives lumbricals and interossei; central slip → middle phalanx base, lateral bands → distal phalanx base.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Injury</th><th>Structure</th><th>Deformity</th></tr></thead><tbody><tr><td><strong>Mallet finger</strong></td><td>Terminal tendon at the DIP</td><td>Drooping fingertip</td></tr><tr><td><strong>Boutonnière</strong></td><td>Central slip</td><td>PIP flexed, DIP hyperextended</td></tr><tr><td>Swan neck</td><td>Volar plate / imbalance</td><td>PIP hyperextended, DIP flexed</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Dorsal interossei</th><td>The first is visible in the first web space (wastes in ulnar palsy).</td></tr><tr><th scope=\"row\">Also on the dorsum</th><td>Venous network → cephalic (lateral) and basilic (medial) veins; superficial radial nerve; dorsal branch of the ulnar nerve.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 12,
+      "text": "Locate the radial artery and superficial branch of the radial nerve",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Radial artery</th><td><ul class=\"cl\"><li>From the brachial at the neck of the radius</li><li>→ under brachioradialis</li><li>→ at the wrist <strong>lateral to the FCR tendon</strong> on the distal radius (radial pulse, ABG site)</li><li>→ winds round the back through the <strong>anatomical snuffbox</strong></li><li>→ between the heads of the first dorsal interosseous</li><li>→ forms the <strong>deep palmar arch</strong>.</li></ul></td></tr><tr><th scope=\"row\">Superficial radial nerve</th><td><ul class=\"cl\"><li>Under brachioradialis (lateral to the artery)</li><li>→ emerges between brachioradialis and ECRL ~7 cm above the wrist</li><li>→ crosses the snuffbox</li><li>→ skin of the lateral dorsum (1st web space).</li><li>Purely sensory: a tight watch strap or cast causes numbness without weakness.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 13,
+      "text": "Locate the ulnar artery and ulnar nerve",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Ulnar artery</th><td><ul class=\"cl\"><li>The larger branch of the brachial</li><li>→ deep to pronator teres and FDS</li><li>→ meets the ulnar nerve (nerve on its <strong>medial</strong> side) under FCU</li><li>→ at the wrist <strong>lateral to the FCU tendon and pisiform</strong></li><li>→ <strong>Guyon's canal</strong> (superficial to the flexor retinaculum)</li><li>→ main source of the <strong>superficial palmar arch</strong>.</li></ul></td></tr><tr><th scope=\"row\">Ulnar nerve</th><td><ul class=\"cl\"><li>Behind the medial epicondyle</li><li>→ between the heads of FCU</li><li>→ under FCU beside the artery</li><li>→ <strong>dorsal cutaneous branch</strong> ~5 cm above the wrist (spared in a Guyon's canal lesion)</li><li>→ Guyon's canal</li><li>→ superficial (sensory, palmaris brevis) and <strong>deep branch</strong> (round the hook of hamate: hypothenar, interossei, medial lumbricals, adductor pollicis).</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 14,
+      "text": "Identify the bones of the wrist and hand and their relative positions, identifying those that are commonly damaged and be able to predict functional impairment following such damage",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Carpals<span class=\"paren\">(proximal row lateral → medial)</span></th><td><strong>Scaphoid, lunate, triquetrum, pisiform</strong>; distal row: <strong>trapezium, trapezoid, capitate, hamate</strong> (\"Some Lovers Try Positions That They Can't Handle\").</td></tr><tr><th scope=\"row\">Then</th><td>5 metacarpals; 14 phalanges (thumb 2, each finger 3).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Commonly damaged</th><th>Mechanism</th><th>Problem</th></tr></thead><tbody><tr><td><strong>Scaphoid</strong> (most common carpal fracture)</td><td>Fall on outstretched hand; <strong>snuffbox tenderness</strong></td><td>Early X-ray may miss it; avascular necrosis of the proximal pole, non-union, arthritis</td></tr><tr><td>Lunate</td><td>Dislocates forwards</td><td>Acute carpal tunnel syndrome; Kienböck's AVN</td></tr><tr><td>Hook of hamate</td><td>Golf, racquet sports</td><td>Ulnar nerve palsy</td></tr><tr><td>5th metacarpal neck (\"boxer's fracture\")</td><td>Punching</td><td>Check rotation (fingers crossing on flexion)</td></tr><tr><td>Bennett's fracture</td><td>Base of 1st metacarpal, into the joint</td><td>Unstable (APL pulls the shaft); thumb function</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 15,
+      "text": "Identify the key features of the carpal, metacarpal and phalangeal bones",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Bone</th><th>Key features</th></tr></thead><tbody><tr><td><strong>Scaphoid</strong></td><td>Boat-shaped; tubercle (base of thenar eminence, retinaculum); fractures at the <strong>waist</strong>; floor of the snuffbox</td></tr><tr><td><strong>Lunate</strong></td><td>Crescent; articulates with the radius; most often dislocated carpal bone</td></tr><tr><td>Triquetrum</td><td>Pyramidal; the pisiform sits on it</td></tr><tr><td><strong>Pisiform</strong></td><td>Pea-shaped <strong>sesamoid</strong> in the FCU tendon</td></tr><tr><td>Trapezium</td><td><strong>Saddle</strong> facet for the 1st metacarpal; groove for FCR</td></tr><tr><td>Trapezoid</td><td>Small wedge; 2nd metacarpal</td></tr><tr><td><strong>Capitate</strong></td><td>Largest, central; 3rd metacarpal; first to ossify</td></tr><tr><td><strong>Hamate</strong></td><td><strong>Hook</strong> for the retinaculum and Guyon's canal; 4th and 5th metacarpals</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Metacarpals</th><td>Base, shaft, head (knuckles); 1st shortest and most mobile; 2nd longest; 3rd has a styloid process.</td></tr><tr><th scope=\"row\">Phalanges</th><td>Base, shaft, head; distal phalanx ends in a tuft for the pulp.</td></tr><tr><th scope=\"row\">Ossification</th><td>Capitate (~1 year) through to pisiform (~12 years): basis of hand X-ray <strong>bone age</strong>.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 16,
+      "text": "Draw a labelled diagram of the superficial and deep palmar arches describing the vascular supply of the hand and recognise major vessels in angiograms",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Arch</th><th>Main source</th><th>Position</th><th>Branches</th></tr></thead><tbody><tr><td><strong>Superficial palmar</strong></td><td><strong>Ulnar artery</strong> (+ radial superficial branch)</td><td>Level with the distal border of the fully abducted thumb; under the palmar aponeurosis, over the flexor tendons</td><td>Common → proper palmar digital arteries</td></tr><tr><td><strong>Deep palmar</strong></td><td><strong>Radial artery</strong> (+ deep ulnar branch)</td><td>~1 cm proximal, on the metacarpal bases, under the flexor tendons</td><td>Palmar metacarpal arteries, perforators; princeps pollicis, radialis indicis</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Allen's test</th><td>Press on both arteries, let the hand blanch, release the ulnar: colour returning shows ulnar flow can supply the hand (before radial ABG, cannulation or harvest).</td></tr><tr><th scope=\"row\">Angiograms</th><td>Show the arches; they are incomplete in some people.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 17,
+      "text": "Define the boundaries of the anatomical 'snuff box'",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Boundary</th><th>Formed by</th></tr></thead><tbody><tr><td>Lateral (radial)</td><td>Tendons of <strong>APL and EPB</strong></td></tr><tr><td>Medial (ulnar)</td><td>Tendon of <strong>EPL</strong></td></tr><tr><td>Proximal</td><td>Radial styloid</td></tr><tr><td>Floor</td><td><strong>Scaphoid</strong> and trapezium</td></tr><tr><td>Roof</td><td>Skin, start of the cephalic vein, superficial radial nerve</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Contents</th><td><strong>Radial artery</strong> crossing the floor; cephalic vein; superficial radial nerve.</td></tr><tr><th scope=\"row\">Clinical</th><td>Tenderness here after a fall = scaphoid fracture until proven otherwise.</td></tr></tbody></table></div>"
+    }
+  ]
+}

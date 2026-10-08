@@ -1,0 +1,1730 @@
+{
+  "id": "cardio",
+  "title": "Heart & blood pressure",
+  "items": [
+    {
+      "id": "ace-inhibitors",
+      "name": "ACE inhibitors",
+      "ex": "ramipril, lisinopril, enalapril",
+      "uses": [
+        {
+          "t": "Hypertension",
+          "k": "y1-134-6"
+        },
+        {
+          "t": "Heart failure",
+          "k": "y2-211-3"
+        },
+        {
+          "t": "After MI",
+          "k": "y2-212-26"
+        },
+        {
+          "t": "Diabetic kidney disease",
+          "k": "y1-139-7"
+        }
+      ],
+      "how": "Block ACE → ↓ angiotensin II and aldosterone; ↑ bradykinin",
+      "hx": [
+        [
+          "Block renin → ↓ angiotensin I and aldosterone; ↑ bradykinin",
+          "Renin actually rises on ACE inhibitors; they act a step later, on angiotensin-converting enzyme."
+        ],
+        [
+          "Block ACE → ↑ angiotensin II breakdown; ↓ bradykinin",
+          "Bradykinin rises, not falls: ACE normally breaks it down (hence the cough)."
+        ],
+        [
+          "Block aldosterone synthesis in the adrenal → ↓ Na⁺ retention; ↑ K⁺ loss",
+          "Aldosterone falls only indirectly, and K⁺ is retained, not lost."
+        ]
+      ],
+      "se": [
+        "Dry cough",
+        "Hyperkalaemia",
+        "↑ creatinine / AKI",
+        "First-dose hypotension",
+        "Angioedema (rare)"
+      ],
+      "sewhy": "ACE also breaks down bradykinin, so it builds up (cough, angioedema). Less angiotensin II dilates the efferent arteriole (creatinine rises) and lowers BP (first-dose hypotension), and less aldosterone means the kidney keeps potassium.",
+      "ci": [
+        {
+          "c": "Pregnancy",
+          "k": "y1-114-1",
+          "why": "Fetotoxic in 2nd–3rd trimester: fetal renal failure, oligohydramnios, skull defects",
+          "cau": false,
+          "x": [
+            [
+              "Cross into breast milk and cause neonatal hypotension",
+              "That's about breastfeeding (enalapril is actually used then); the harm is to the fetal kidneys in pregnancy."
+            ],
+            [
+              "Raise uterine bradykinin → preterm contractions and labour",
+              "No: the harm is fetal renal failure, oligohydramnios and skull defects."
+            ],
+            [
+              "Raise maternal angiotensin II → pre-eclampsia in the 3rd trimester",
+              "They lower angiotensin II; the danger is fetotoxicity in the 2nd–3rd trimester."
+            ]
+          ]
+        },
+        {
+          "c": "Bilateral renal artery stenosis",
+          "k": "y1-134-5",
+          "why": "GFR depends on angiotensin II constricting the efferent arteriole; blocking it collapses filtration → AKI",
+          "cau": false,
+          "x": [
+            [
+              "Angiotensin II dilates the afferent arteriole; removing it starves the glomerulus → ischaemic AKI",
+              "Angiotensin II constricts the efferent arteriole; losing that is what collapses GFR."
+            ],
+            [
+              "Rising bradykinin constricts the narrowed renal arteries, cutting renal blood flow → AKI",
+              "Bradykinin dilates vessels; the problem is losing efferent constriction."
+            ],
+            [
+              "Renin from the ischaemic kidneys rises further and drives malignant hypertension",
+              "Renin does rise, but BP falls; the danger is filtration collapsing (AKI)."
+            ]
+          ]
+        },
+        {
+          "c": "Previous angioedema",
+          "k": "y1-140-3",
+          "why": "Bradykinin build-up can swell the airway",
+          "cau": false,
+          "x": [
+            [
+              "Histamine release from mast cells can swell the airway",
+              "ACE-inhibitor angioedema is bradykinin-driven, so antihistamines help little."
+            ],
+            [
+              "IgE antibodies to the drug cause anaphylactic swelling",
+              "It isn't allergic; bradykinin that ACE would normally break down builds up."
+            ],
+            [
+              "Angiotensin II build-up increases airway capillary leak",
+              "Angiotensin II falls on ACE inhibitors; bradykinin is what accumulates."
+            ]
+          ]
+        },
+        {
+          "c": "Hyperkalaemia",
+          "k": "y1-135-4",
+          "why": "Less aldosterone means less K⁺ is excreted",
+          "cau": false,
+          "x": [
+            [
+              "They shift K⁺ out of cells into the blood",
+              "No shift between cells and blood; less aldosterone means the kidney keeps K⁺."
+            ],
+            [
+              "More angiotensin II means more K⁺ is reabsorbed",
+              "Angiotensin II falls; it's the drop in aldosterone that retains K⁺."
+            ],
+            [
+              "They block K⁺ secretion directly in the loop of Henle",
+              "The effect is indirect, through less aldosterone in the collecting duct."
+            ]
+          ]
+        },
+        {
+          "c": "Dehydration, NSAIDs, diuretics",
+          "k": "y2-220-2",
+          "why": "\"Triple whammy\" for AKI: pause on sick days",
+          "cau": true,
+          "x": [
+            [
+              "Together they cause hyponatraemic seizures: stop permanently",
+              "The risk is AKI, and only during dehydrating illness: pause, then restart."
+            ],
+            [
+              "NSAIDs stop ACE inhibitors being absorbed, so BP control is lost",
+              "No absorption effect; together they cut glomerular filtration (AKI)."
+            ],
+            [
+              "Dehydration plus bradykinin triggers angioedema: avoid for good",
+              "Angioedema isn't linked to dehydration; the issue is sick-day AKI."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arbs",
+      "name": "ARBs",
+      "ex": "losartan, candesartan",
+      "uses": [
+        {
+          "t": "Hypertension (ACEi intolerant, or Black patients with CCB)",
+          "k": "y1-134-6"
+        },
+        {
+          "t": "Heart failure",
+          "k": "y2-211-3"
+        },
+        {
+          "t": "Diabetic kidney disease",
+          "k": "y1-139-7"
+        }
+      ],
+      "how": "Block angiotensin II AT1 receptors; no effect on bradykinin, so no cough",
+      "hx": [
+        [
+          "Block angiotensin II AT2 receptors; raise bradykinin, but without cough",
+          "They block AT1 (the receptor behind vasoconstriction and aldosterone); bradykinin is unaffected."
+        ],
+        [
+          "Inhibit aldosterone synthase in the adrenal; no effect on bradykinin",
+          "Aldosterone falls only because AT1 receptors are blocked."
+        ],
+        [
+          "Block ACE in the kidney only, sparing lung bradykinin, so no cough",
+          "ARBs don't touch ACE at all; they block the AT1 receptor."
+        ]
+      ],
+      "se": [
+        "Hyperkalaemia",
+        "↑ creatinine",
+        "Dizziness / hypotension"
+      ],
+      "sewhy": "Blocking angiotensin II receptors lowers BP, reduces aldosterone (potassium rises) and relaxes the efferent arteriole (creatinine rises); bradykinin is unaffected, so no cough.",
+      "ci": [
+        {
+          "c": "Pregnancy",
+          "k": "y1-114-1",
+          "why": "Same fetotoxicity as ACE inhibitors",
+          "cau": false,
+          "x": [
+            [
+              "Cause neonatal cough and wheeze after birth",
+              "The harm is fetal renal failure and oligohydramnios, as with ACE inhibitors."
+            ],
+            [
+              "Raise maternal potassium enough to cause fetal arrhythmias",
+              "No; they damage the fetal kidneys in the 2nd–3rd trimester."
+            ],
+            [
+              "Trigger maternal angioedema more often in pregnancy",
+              "Not the reason: like ACE inhibitors they are fetotoxic."
+            ]
+          ]
+        },
+        {
+          "c": "Bilateral renal artery stenosis",
+          "k": "y1-134-5",
+          "why": "Removes the angiotensin II support of GFR → AKI",
+          "cau": false,
+          "x": [
+            [
+              "Raises bradykinin, constricting the stenosed arteries → AKI",
+              "ARBs don't raise bradykinin; GFR falls because efferent tone is lost."
+            ],
+            [
+              "Causes renal artery thrombosis behind the stenosis",
+              "No clotting effect; removing efferent constriction drops GFR."
+            ],
+            [
+              "Blocks renin release, so the kidneys can't respond",
+              "Renin rises on ARBs; the problem is losing angiotensin II's support of GFR."
+            ]
+          ]
+        },
+        {
+          "c": "Combined with an ACE inhibitor",
+          "k": "y1-134-6",
+          "why": "Dual RAAS blockade ↑ AKI and hyperkalaemia without benefit",
+          "cau": false,
+          "x": [
+            [
+              "ARBs stop ACE inhibitors being absorbed, so neither works",
+              "No absorption interaction; dual blockade adds harm without benefit."
+            ],
+            [
+              "The combination doubles bradykinin → angioedema in most patients",
+              "ARBs don't raise bradykinin; the harms are AKI and hyperkalaemia."
+            ],
+            [
+              "Dual RAAS blockade ↑ hyponatraemia and gout without benefit",
+              "The real harms are AKI and hyperkalaemia."
+            ]
+          ]
+        },
+        {
+          "c": "Hyperkalaemia",
+          "k": "y1-135-4",
+          "why": "Reduces aldosterone-driven K⁺ excretion",
+          "cau": false,
+          "x": [
+            [
+              "Pushes K⁺ out of cells by blocking insulin release",
+              "No effect on insulin; less aldosterone means less K⁺ is excreted."
+            ],
+            [
+              "Blocks K⁺ channels in the thick ascending limb",
+              "The effect is through less aldosterone in the collecting duct."
+            ],
+            [
+              "Increases angiotensin II-driven K⁺ reabsorption",
+              "Angiotensin II's effects are blocked; aldosterone falls, so K⁺ is retained."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sacubitril-valsartan",
+      "name": "Sacubitril/valsartan",
+      "ex": "Entresto (ARNI)",
+      "uses": [
+        {
+          "t": "Symptomatic HFrEF instead of ACEi/ARB",
+          "k": "y2-211-3"
+        }
+      ],
+      "how": "Neprilysin inhibitor (↑ natriuretic peptides) + ARB",
+      "hx": [
+        [
+          "Neprilysin activator (↓ natriuretic peptides) + ARB",
+          "It inhibits neprilysin, so natriuretic peptides rise."
+        ],
+        [
+          "Neprilysin inhibitor (↑ natriuretic peptides) + ACE inhibitor",
+          "Pairing with an ACE inhibitor causes angioedema; sacubitril is paired with valsartan, an ARB."
+        ],
+        [
+          "Natriuretic peptide receptor blocker + aldosterone antagonist",
+          "It boosts natriuretic peptides by stopping their breakdown, and contains an ARB."
+        ]
+      ],
+      "se": [
+        "Hypotension",
+        "Hyperkalaemia",
+        "Renal impairment",
+        "Angioedema"
+      ],
+      "sewhy": "Valsartan blocks angiotensin II (hypotension, high potassium, renal effects), and sacubitril stops neprilysin breaking down bradykinin, so angioedema can occur.",
+      "ci": [
+        {
+          "c": "ACE inhibitor in last 36 h",
+          "k": "y2-211-3",
+          "why": "Both raise bradykinin → angioedema",
+          "cau": false,
+          "x": [
+            [
+              "Both block AT1 receptors → severe hypotension",
+              "ACE inhibitors don't block AT1; the danger is bradykinin build-up."
+            ],
+            [
+              "Both raise potassium → cardiac arrest",
+              "Hyperkalaemia is a caution, but the 36-hour gap is about angioedema."
+            ],
+            [
+              "ACE inhibitors displace sacubitril from plasma proteins",
+              "No protein-binding interaction; additive bradykinin causes angioedema."
+            ]
+          ]
+        },
+        {
+          "c": "Previous angioedema",
+          "k": "y1-140-3",
+          "why": "Same bradykinin mechanism",
+          "cau": false,
+          "x": [
+            [
+              "Same histamine mechanism",
+              "Not histamine: neprilysin breaks down bradykinin, so it accumulates."
+            ],
+            [
+              "Valsartan is cross-allergic with the original trigger",
+              "Not an allergy; sacubitril stops bradykinin being broken down."
+            ],
+            [
+              "Raised angiotensin II swells the airway",
+              "Valsartan blocks angiotensin II's effects; bradykinin causes the swelling."
+            ]
+          ]
+        },
+        {
+          "c": "Pregnancy",
+          "k": "y1-114-1",
+          "why": "Contains an ARB (fetotoxic)",
+          "cau": false,
+          "x": [
+            [
+              "Contains an ACE inhibitor (teratogenic)",
+              "It contains valsartan, an ARB, which is fetotoxic."
+            ],
+            [
+              "Neprilysin is needed for placental growth",
+              "The reason is the fetotoxic ARB component."
+            ],
+            [
+              "Natriuretic peptides trigger preterm labour",
+              "Not the reason; it contains an ARB."
+            ]
+          ]
+        },
+        {
+          "c": "Severe liver impairment",
+          "k": "y2-229-3",
+          "why": "Reduced metabolism, raised exposure",
+          "cau": false,
+          "x": [
+            [
+              "Raised ammonia → encephalopathy",
+              "No ammonia effect; the liver clears it, so exposure rises."
+            ],
+            [
+              "Causes cholestatic jaundice",
+              "Not the reason; poor liver metabolism raises drug exposure."
+            ],
+            [
+              "Blocks albumin synthesis → oedema",
+              "No; the liver can't clear it, so levels rise."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beta-blockers",
+      "name": "Beta-blockers",
+      "ex": "bisoprolol, atenolol, propranolol, labetalol",
+      "uses": [
+        {
+          "t": "Angina",
+          "k": "y1-134-4"
+        },
+        {
+          "t": "After MI",
+          "k": "y2-212-26"
+        },
+        {
+          "t": "HFrEF (bisoprolol, carvedilol)",
+          "k": "y2-211-3"
+        },
+        {
+          "t": "AF rate control",
+          "k": "y1-108-3"
+        },
+        {
+          "t": "Migraine prophylaxis (propranolol)",
+          "k": "y1-109-3"
+        },
+        {
+          "t": "Thyrotoxicosis symptoms",
+          "k": "y1-126-2"
+        }
+      ],
+      "how": "Block β1 (± β2) → ↓ heart rate, contractility and renin",
+      "hx": [
+        [
+          "Block β1 (± β2) → ↑ heart rate and contractility; ↓ renin",
+          "Blocking β1 slows the heart and weakens contraction."
+        ],
+        [
+          "Open K⁺ channels in the SA node → ↓ heart rate and renin",
+          "They block β-adrenoceptors; there's no direct K⁺ channel action."
+        ],
+        [
+          "Block noradrenaline release from sympathetic nerves → ↓ heart rate",
+          "Noradrenaline is still released; its β receptors are blocked."
+        ]
+      ],
+      "se": [
+        "Fatigue",
+        "Cold peripheries",
+        "Bradycardia",
+        "Hypotension",
+        "Bronchospasm",
+        "Nightmares",
+        "Erectile dysfunction",
+        "Masks hypoglycaemia"
+      ],
+      "sewhy": "Blocking β1 slows the heart and lowers output (bradycardia, fatigue, hypotension); blocking β2 constricts airways and peripheral vessels (bronchospasm, cold hands). They also blunt the adrenergic warning signs of hypoglycaemia and act centrally (nightmares).",
+      "ci": [
+        {
+          "c": "Asthma",
+          "k": "y2-204-6",
+          "why": "β2 blockade constricts airways; can cause fatal bronchospasm",
+          "cau": false,
+          "x": [
+            [
+              "β1 blockade constricts airways; can cause fatal bronchospasm",
+              "Airway smooth muscle relaxes through β2, so blocking β2 is the danger."
+            ],
+            [
+              "Lower cardiac output means less inhaled salbutamol reaches the lungs",
+              "Inhaled salbutamol acts locally; β2 blockade constricts the airways."
+            ],
+            [
+              "They thicken airway mucus, plugging the small airways",
+              "Not the mechanism; β2 blockade constricts airway smooth muscle."
+            ]
+          ]
+        },
+        {
+          "c": "2nd/3rd-degree heart block, severe bradycardia",
+          "k": "y1-108-3",
+          "why": "Further slows AV conduction",
+          "cau": false,
+          "x": [
+            [
+              "Speeds AV conduction → VT",
+              "Beta-blockers slow AV conduction, worsening the block."
+            ],
+            [
+              "Lowers potassium, triggering ectopic beats",
+              "No K⁺-lowering effect; the issue is slower AV conduction."
+            ],
+            [
+              "Causes vasospasm in the nodal artery",
+              "Not the reason; they further slow the AV node."
+            ]
+          ]
+        },
+        {
+          "c": "Acute decompensated heart failure, cardiogenic shock",
+          "k": "y2-211-5",
+          "why": "↓ contractility worsens output; start only once stable",
+          "cau": false,
+          "x": [
+            [
+              "↑ afterload worsens output; never use in heart failure",
+              "Beta-blockers are a mainstay of stable HFrEF; the issue is starting during decompensation."
+            ],
+            [
+              "Causes fluid retention, so avoid lifelong",
+              "Not lifelong: start once the patient is stable."
+            ],
+            [
+              "↑ heart rate raises O₂ demand; start only once stable",
+              "They slow the heart; the risk is weaker contraction while decompensated."
+            ]
+          ]
+        },
+        {
+          "c": "With verapamil or diltiazem",
+          "k": "y1-108-3",
+          "why": "Combined AV-node block → asystole",
+          "cau": false,
+          "x": [
+            [
+              "Combined K⁺ retention → hyperkalaemia",
+              "Neither raises K⁺ much; together they block the AV node."
+            ],
+            [
+              "Combined bronchospasm → respiratory arrest",
+              "Verapamil doesn't constrict airways; the danger is AV-node block."
+            ],
+            [
+              "Opposing effects on the AV node cancel out",
+              "They add together: profound bradycardia or asystole."
+            ]
+          ]
+        },
+        {
+          "c": "Diabetes on insulin/sulfonylureas",
+          "k": "y1-139-6",
+          "why": "Hides tremor and palpitations, the warning signs of a hypo",
+          "cau": true,
+          "x": [
+            [
+              "Hides sweating, the main warning sign of a hypo",
+              "Sweating is cholinergic and persists; it's tremor and palpitations that get masked."
+            ],
+            [
+              "Raises blood glucose, so insulin doses need doubling",
+              "Small glucose effects aside, the problem is masking hypo warning signs."
+            ],
+            [
+              "Blocks insulin release, tipping patients into DKA",
+              "Not DKA; they hide the adrenergic warning signs of a hypo."
+            ]
+          ]
+        },
+        {
+          "c": "COPD",
+          "k": "y1-103-3",
+          "why": "Cardioselective agents are usually tolerated",
+          "cau": true,
+          "x": [
+            [
+              "Non-selective agents are preferred because they also dilate airways",
+              "Non-selective agents block β2 and can constrict airways; cardioselective ones are preferred."
+            ],
+            [
+              "They raise CO₂ retention, so oxygen targets must drop",
+              "No; cardioselective agents are usually tolerated, so don't withhold them."
+            ],
+            [
+              "All beta-blockers must be stopped once COPD is diagnosed",
+              "Wrong: cardioselective agents are usually tolerated (unlike in asthma)."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dihydropyridine-ccbs",
+      "name": "Dihydropyridine CCBs",
+      "ex": "amlodipine, nifedipine",
+      "uses": [
+        {
+          "t": "Hypertension (≥55 or Black)",
+          "k": "y1-134-6"
+        },
+        {
+          "t": "Angina",
+          "k": "y1-134-4"
+        },
+        {
+          "t": "Pregnancy hypertension (nifedipine)",
+          "k": "y1-114-2"
+        }
+      ],
+      "how": "Block L-type Ca²⁺ channels in arterioles → vasodilation",
+      "hx": [
+        [
+          "Open K⁺ channels in arterioles → vasodilation",
+          "That's how nicorandil and minoxidil work; amlodipine blocks L-type Ca²⁺ channels."
+        ],
+        [
+          "Block L-type Ca²⁺ channels in veins → ↓ preload",
+          "They mainly dilate arterioles, lowering afterload."
+        ],
+        [
+          "Raise intracellular Ca²⁺ in arterioles → vasodilation",
+          "Less Ca²⁺ entry relaxes smooth muscle; more Ca²⁺ would constrict it."
+        ]
+      ],
+      "se": [
+        "Ankle oedema",
+        "Flushing",
+        "Headache",
+        "Palpitations / reflex tachycardia",
+        "Gum hypertrophy"
+      ],
+      "sewhy": "They dilate arterioles strongly: flushing and headache, reflex tachycardia, and ankle oedema because arterial dilation raises capillary pressure (diuretics don't fix it). Gum overgrowth is a fibroblast effect.",
+      "ci": [
+        {
+          "c": "Severe aortic stenosis",
+          "k": "y1-147-2",
+          "why": "Vasodilation with a fixed outflow → hypotension and syncope",
+          "cau": false,
+          "x": [
+            [
+              "Speeds valve calcification → rapid progression",
+              "No effect on calcification; vasodilation against a fixed outflow drops BP."
+            ],
+            [
+              "Slows the heart, cutting cardiac output",
+              "Dihydropyridines barely slow the heart; the issue is vasodilation."
+            ],
+            [
+              "Raises afterload, straining the left ventricle",
+              "They lower afterload; with a fixed valve, BP falls (syncope)."
+            ]
+          ]
+        },
+        {
+          "c": "Cardiogenic shock, unstable angina (short-acting nifedipine)",
+          "k": "y1-134-1",
+          "why": "Reflex tachycardia raises O₂ demand",
+          "cau": false,
+          "x": [
+            [
+              "Bradycardia lowers coronary perfusion",
+              "Nifedipine causes reflex tachycardia, not bradycardia."
+            ],
+            [
+              "Raises afterload on the ischaemic heart",
+              "It lowers afterload; the reflex tachycardia is the problem."
+            ],
+            [
+              "Promotes platelet aggregation in the coronaries",
+              "No platelet effect; reflex tachycardia raises O₂ demand."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rate-limiting-ccbs",
+      "name": "Rate-limiting CCBs",
+      "ex": "verapamil, diltiazem",
+      "uses": [
+        {
+          "t": "Angina",
+          "k": "y1-134-4"
+        },
+        {
+          "t": "AF/SVT rate control",
+          "k": "y1-108-3"
+        },
+        {
+          "t": "Cluster headache prevention (verapamil)",
+          "k": "y1-109-3"
+        }
+      ],
+      "how": "Block L-type Ca²⁺ channels in the heart → ↓ AV conduction, rate and contractility",
+      "hx": [
+        [
+          "Block Ca²⁺ release from the sarcoplasmic reticulum → ↓ contractility only",
+          "They block L-type channels in the cell membrane, which also slows the SA and AV nodes."
+        ],
+        [
+          "Block Na⁺ channels in the heart → ↓ AV conduction, rate and contractility",
+          "Na⁺ channel block is class I action; these are Ca²⁺ channel blockers (class IV)."
+        ],
+        [
+          "Open cardiac K⁺ channels → hyperpolarise nodal cells and slow the rate",
+          "They block Ca²⁺ entry; there's no K⁺ channel opening."
+        ]
+      ],
+      "se": [
+        "Constipation (verapamil)",
+        "Bradycardia",
+        "Heart block",
+        "Hypotension",
+        "Ankle oedema"
+      ],
+      "sewhy": "Verapamil and diltiazem act on the heart: slowing the SA and AV nodes (bradycardia, heart block) and reducing contractility. Verapamil also relaxes gut smooth muscle, causing constipation.",
+      "ci": [
+        {
+          "c": "Heart failure with reduced EF",
+          "k": "y2-211-5",
+          "why": "Negative inotropy worsens failure",
+          "cau": false,
+          "x": [
+            [
+              "Positive inotropy exhausts the failing heart",
+              "They weaken contraction (negative inotropy), which worsens HFrEF."
+            ],
+            [
+              "Vasodilation causes fluid retention that worsens failure",
+              "The main harm in HFrEF is negative inotropy."
+            ],
+            [
+              "Raised afterload worsens failure",
+              "They lower afterload; the problem is weaker contraction."
+            ]
+          ]
+        },
+        {
+          "c": "Heart block, sick sinus syndrome",
+          "k": "y1-108-3",
+          "why": "Further depresses the conducting system",
+          "cau": false,
+          "x": [
+            [
+              "Lowers K⁺, destabilising the conducting system",
+              "No K⁺ effect; they directly slow the SA and AV nodes."
+            ],
+            [
+              "Causes spasm of the nodal artery",
+              "They relieve coronary spasm; the issue is depressed nodal conduction."
+            ],
+            [
+              "Increases contractility, provoking arrhythmias",
+              "They reduce contractility and depress nodal conduction."
+            ]
+          ]
+        },
+        {
+          "c": "With a beta-blocker",
+          "k": "y1-108-3",
+          "why": "Profound bradycardia or asystole",
+          "cau": false,
+          "x": [
+            [
+              "Severe hypertension from opposing effects",
+              "Both lower BP and heart rate; together they can stop the heart."
+            ],
+            [
+              "Severe bronchospasm",
+              "Verapamil doesn't constrict airways; the danger is bradycardia or asystole."
+            ],
+            [
+              "Hyperkalaemic cardiac arrest",
+              "Not through potassium; both block the AV node."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thiazide-like-diuretics",
+      "name": "Thiazide-like diuretics",
+      "ex": "indapamide, bendroflumethiazide",
+      "uses": [
+        {
+          "t": "Hypertension",
+          "k": "y1-134-6"
+        }
+      ],
+      "how": "Block the Na⁺/Cl⁻ co-transporter (NCC) in the distal convoluted tubule",
+      "hx": [
+        [
+          "Block the Na⁺/Cl⁻ co-transporter in the proximal convoluted tubule",
+          "NCC sits in the distal convoluted tubule."
+        ],
+        [
+          "Block epithelial Na⁺ channels (ENaC) in the collecting duct",
+          "ENaC is amiloride's target; thiazides block NCC in the distal tubule."
+        ],
+        [
+          "Block Cl⁻ secretion into the distal convoluted tubule",
+          "They stop Na⁺/Cl⁻ being reabsorbed, not Cl⁻ being secreted."
+        ]
+      ],
+      "se": [
+        "Hyponatraemia",
+        "Hypokalaemia",
+        "Raised urate / gout",
+        "Hyperglycaemia",
+        "Hypercalcaemia",
+        "Erectile dysfunction",
+        "Postural hypotension"
+      ],
+      "sewhy": "Blocking distal sodium reabsorption loses sodium (hyponatraemia) and, by delivering more sodium to the collecting duct, potassium. They reduce urate excretion (gout), impair insulin release (hyperglycaemia) and increase calcium reabsorption.",
+      "ci": [
+        {
+          "c": "Gout",
+          "k": "y1-125-1",
+          "why": "Reduces urate excretion → attacks",
+          "cau": false,
+          "x": [
+            [
+              "Increases urate production in the liver → attacks",
+              "They don't raise production; they compete with urate for excretion."
+            ],
+            [
+              "Lowers urine pH so urate crystallises in joints",
+              "Serum urate rises because the kidney excretes less."
+            ],
+            [
+              "Raises calcium, forming crystals in joints",
+              "Calcium crystals cause pseudogout; thiazides trigger gout by retaining urate."
+            ]
+          ]
+        },
+        {
+          "c": "Hyponatraemia or hypokalaemia",
+          "k": "y1-135-4",
+          "why": "Worsens both",
+          "cau": false,
+          "x": [
+            [
+              "Corrects both too quickly",
+              "They cause Na⁺ and K⁺ loss, worsening both."
+            ],
+            [
+              "Masks both on blood tests",
+              "No masking; they lower Na⁺ and K⁺ further."
+            ],
+            [
+              "Raises sodium but lowers potassium",
+              "They lower both."
+            ]
+          ]
+        },
+        {
+          "c": "Hypercalcaemia",
+          "k": "y1-126-4",
+          "why": "Reduces urinary calcium excretion",
+          "cau": false,
+          "x": [
+            [
+              "Increases gut calcium absorption",
+              "That's vitamin D's action; thiazides cut urinary calcium loss."
+            ],
+            [
+              "Releases calcium from bone",
+              "That's PTH's action; thiazides keep calcium by reducing urinary loss."
+            ],
+            [
+              "Increases PTH secretion",
+              "No direct PTH effect; less calcium is lost in urine."
+            ]
+          ]
+        },
+        {
+          "c": "Severe renal impairment",
+          "k": "y1-135-5",
+          "why": "Ineffective when eGFR is very low",
+          "cau": true,
+          "x": [
+            [
+              "Causes severe hyperkalaemia",
+              "Thiazides lower K⁺; at a low eGFR they just don't work."
+            ],
+            [
+              "Converts to a nephrotoxic metabolite",
+              "No toxic metabolite; they're ineffective at very low eGFR."
+            ],
+            [
+              "Too powerful: causes massive diuresis",
+              "The opposite: little drug reaches its site, so they don't work."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "loop-diuretics",
+      "name": "Loop diuretics",
+      "ex": "furosemide, bumetanide",
+      "uses": [
+        {
+          "t": "Heart failure congestion",
+          "k": "y2-211-3"
+        },
+        {
+          "t": "Acute pulmonary oedema",
+          "k": "y2-211-5"
+        },
+        {
+          "t": "Fluid overload",
+          "k": "y1-135-3"
+        }
+      ],
+      "how": "Block NKCC2 in the thick ascending limb → large natriuresis",
+      "hx": [
+        [
+          "Block NKCC2 in the collecting duct → mild natriuresis",
+          "NKCC2 is in the thick ascending limb, and the natriuresis is large."
+        ],
+        [
+          "Block aldosterone-driven Na⁺ reabsorption in the loop of Henle → natriuresis",
+          "Aldosterone acts in the collecting duct; loop diuretics block NKCC2."
+        ],
+        [
+          "Hold water in the tubule osmotically → large diuresis",
+          "That's mannitol; loop diuretics block NKCC2."
+        ]
+      ],
+      "se": [
+        "Hypokalaemia",
+        "Hyponatraemia",
+        "Hypomagnesaemia",
+        "Dehydration / AKI",
+        "Gout",
+        "Ototoxicity (high-dose IV)"
+      ],
+      "sewhy": "Blocking NKCC2 loses sodium, potassium, magnesium and water in large amounts (low electrolytes, dehydration, AKI); they compete with urate for excretion (gout) and affect the same transporter in the inner ear (ototoxicity at high IV doses).",
+      "ci": [
+        {
+          "c": "Hypovolaemia, dehydration",
+          "k": "y1-135-1",
+          "why": "Further fluid loss → shock and AKI",
+          "cau": false,
+          "x": [
+            [
+              "Fluid shifts into cells → cerebral oedema",
+              "The danger is further fluid loss: shock and AKI."
+            ],
+            [
+              "BP rises dangerously as the kidneys compensate",
+              "BP falls further; fluid loss causes shock and AKI."
+            ],
+            [
+              "Causes hyperkalaemia in a dry patient",
+              "Loops lower K⁺; the risk is further volume loss."
+            ]
+          ]
+        },
+        {
+          "c": "Severe hypokalaemia or hyponatraemia",
+          "k": "y1-135-4",
+          "why": "Will worsen the deficit",
+          "cau": false,
+          "x": [
+            [
+              "Will overcorrect the deficit",
+              "They waste Na⁺ and K⁺, making it worse."
+            ],
+            [
+              "Hides the deficit on blood tests",
+              "No masking; they deepen the deficit."
+            ],
+            [
+              "Won't work until it's corrected",
+              "They still work, causing further losses."
+            ]
+          ]
+        },
+        {
+          "c": "Anuria",
+          "k": "y2-220-2",
+          "why": "Can't work without urine flow",
+          "cau": false,
+          "x": [
+            [
+              "Precipitates in the tubules and blocks them",
+              "No crystals; they need tubular flow to reach their target."
+            ],
+            [
+              "Raises potassium in anuric patients",
+              "Loops lower K⁺; without urine flow they simply can't act."
+            ],
+            [
+              "Toxic metabolites build up and cause seizures",
+              "Not the reason; with no urine flow they can't reach NKCC2."
+            ]
+          ]
+        },
+        {
+          "c": "With gentamicin",
+          "k": "y2-208-2",
+          "why": "Additive ototoxicity",
+          "cau": true,
+          "x": [
+            [
+              "Additive hepatotoxicity",
+              "Neither is notably hepatotoxic; both can damage hearing."
+            ],
+            [
+              "Furosemide inactivates gentamicin in the blood",
+              "No inactivation; both are ototoxic."
+            ],
+            [
+              "Additive hyperkalaemia",
+              "Loops lower K⁺; the concern is hearing."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mineralocorticoid-antagonists",
+      "name": "Mineralocorticoid antagonists",
+      "ex": "spironolactone, eplerenone",
+      "uses": [
+        {
+          "t": "HFrEF",
+          "k": "y2-211-3"
+        },
+        {
+          "t": "Resistant hypertension (K⁺ ≤4.5)",
+          "k": "y1-134-6"
+        },
+        {
+          "t": "Ascites in cirrhosis",
+          "k": "y2-229-3"
+        }
+      ],
+      "how": "Block aldosterone receptors in the collecting duct",
+      "hx": [
+        [
+          "Block aldosterone synthesis in the adrenal cortex",
+          "They block the receptor; aldosterone is still made."
+        ],
+        [
+          "Block ENaC channels in the collecting duct",
+          "ENaC block is amiloride; these block the aldosterone receptor."
+        ],
+        [
+          "Block aldosterone receptors in the thick ascending limb",
+          "The receptors that matter are in the collecting duct."
+        ]
+      ],
+      "se": [
+        "Hyperkalaemia",
+        "Gynaecomastia (spironolactone)",
+        "↑ creatinine",
+        "Hyponatraemia"
+      ],
+      "sewhy": "Blocking aldosterone means the kidney keeps potassium and loses sodium; spironolactone also blocks androgen receptors (gynaecomastia), which eplerenone mostly avoids.",
+      "ci": [
+        {
+          "c": "Hyperkalaemia",
+          "k": "y1-135-4",
+          "why": "Blocks the main route for K⁺ excretion",
+          "cau": false,
+          "x": [
+            [
+              "Shifts K⁺ out of cells",
+              "No shift; blocking aldosterone stops renal K⁺ excretion."
+            ],
+            [
+              "Increases K⁺ absorption from the gut",
+              "No gut effect; it stops K⁺ being excreted."
+            ],
+            [
+              "Causes rhabdomyolysis, releasing K⁺",
+              "Not the mechanism; it blocks renal K⁺ excretion."
+            ]
+          ]
+        },
+        {
+          "c": "Severe renal impairment",
+          "k": "y1-135-5",
+          "why": "Can't excrete K⁺ → dangerous hyperkalaemia",
+          "cau": false,
+          "x": [
+            [
+              "Can't excrete the drug → gynaecomastia",
+              "Gynaecomastia is a side effect, but the danger in CKD is hyperkalaemia."
+            ],
+            [
+              "Directly nephrotoxic, speeding up CKD",
+              "Not nephrotoxic; with a low GFR, K⁺ can't be excreted."
+            ],
+            [
+              "Can't excrete Na⁺ → fluid overload",
+              "They increase Na⁺ excretion; K⁺ retention is the danger."
+            ]
+          ]
+        },
+        {
+          "c": "Addison's disease",
+          "k": "y1-126-3",
+          "why": "Already aldosterone-deficient",
+          "cau": false,
+          "x": [
+            [
+              "Already cortisol-excess",
+              "Addison's is a deficiency of cortisol and aldosterone."
+            ],
+            [
+              "Already hypokalaemic",
+              "Addison's causes high K⁺ because there's no aldosterone."
+            ],
+            [
+              "Already sodium-overloaded",
+              "Addison's loses Na⁺; there's no aldosterone left to block."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nitrates",
+      "name": "Nitrates",
+      "ex": "GTN spray, isosorbide mononitrate",
+      "uses": [
+        {
+          "t": "Angina",
+          "k": "y1-134-4"
+        },
+        {
+          "t": "ACS pain",
+          "k": "y2-212-25"
+        },
+        {
+          "t": "Acute pulmonary oedema (with good BP)",
+          "k": "y2-211-5"
+        }
+      ],
+      "how": "Release NO → ↑ cGMP → venodilation (↓ preload) ± coronary dilation",
+      "hx": [
+        [
+          "Release NO → ↓ cGMP → arteriolar constriction (↑ afterload)",
+          "NO raises cGMP, relaxing mainly veins (↓ preload)."
+        ],
+        [
+          "Release NO → ↑ cAMP → arteriolar dilation (↓ afterload) only",
+          "NO works through cGMP, and nitrates mainly dilate veins."
+        ],
+        [
+          "Release adenosine → coronary dilation (↑ O₂ supply)",
+          "They donate NO; the main benefit is venodilation lowering preload."
+        ]
+      ],
+      "se": [
+        "Headache",
+        "Flushing",
+        "Postural hypotension",
+        "Dizziness",
+        "Tolerance (needs nitrate-free period)"
+      ],
+      "sewhy": "Nitrates release NO, which dilates veins and meningeal arteries: postural hypotension, dizziness, flushing and headache. Continuous exposure depletes the pathway, causing tolerance, so a nitrate-free period is needed.",
+      "ci": [
+        {
+          "c": "Taking a PDE5 inhibitor (sildenafil, tadalafil)",
+          "k": "y1-134-4",
+          "why": "Both raise cGMP → profound hypotension",
+          "cau": false,
+          "x": [
+            [
+              "Both lower cGMP → coronary spasm",
+              "Both raise cGMP; together they drop BP profoundly."
+            ],
+            [
+              "Sildenafil blocks nitrate metabolism → headache",
+              "No metabolic interaction; additive cGMP causes hypotension."
+            ],
+            [
+              "Both raise heart rate → angina",
+              "The danger is profound hypotension."
+            ]
+          ]
+        },
+        {
+          "c": "Hypotension (SBP <90)",
+          "k": "y1-135-6",
+          "why": "Further drop in BP",
+          "cau": false,
+          "x": [
+            [
+              "Rebound hypertension",
+              "They lower BP further."
+            ],
+            [
+              "Methaemoglobinaemia",
+              "Rare at normal doses; the risk is a further BP drop."
+            ],
+            [
+              "Fluid overload",
+              "No; venodilation drops BP further."
+            ]
+          ]
+        },
+        {
+          "c": "Severe aortic stenosis or HOCM",
+          "k": "y1-147-2",
+          "why": "Preload drop with fixed outflow → collapse",
+          "cau": false,
+          "x": [
+            [
+              "Afterload rise with fixed outflow → LV failure",
+              "Nitrates lower preload; with a fixed outflow, output falls."
+            ],
+            [
+              "Faster valve calcification → worse stenosis",
+              "No effect on calcification; preload drops."
+            ],
+            [
+              "Bradycardia slows filling → collapse",
+              "The problem is less preload against a fixed outflow."
+            ]
+          ]
+        },
+        {
+          "c": "Right ventricular infarct",
+          "k": "y2-212-25",
+          "why": "RV output depends on preload",
+          "cau": false,
+          "x": [
+            [
+              "RV output depends on afterload",
+              "The RV needs preload, which nitrates remove."
+            ],
+            [
+              "Nitrates constrict the right coronary artery",
+              "They dilate coronaries; the issue is the RV's preload dependence."
+            ],
+            [
+              "RV infarcts cause hypertension",
+              "They tend to cause hypotension; nitrates worsen it."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ivabradine",
+      "name": "Ivabradine",
+      "ex": "",
+      "uses": [
+        {
+          "t": "HFrEF in sinus rhythm with HR ≥75",
+          "k": "y2-211-3"
+        },
+        {
+          "t": "Angina",
+          "k": "y1-134-4"
+        }
+      ],
+      "how": "Blocks the funny current (If) in the SA node → ↓ heart rate only",
+      "hx": [
+        [
+          "Blocks the funny current (If) in the AV node → ↓ AV conduction only",
+          "If is the SA node's pacemaker current; ivabradine slows the sinus rate only."
+        ],
+        [
+          "Opens K⁺ channels in the SA node → ↓ heart rate only",
+          "It blocks the If (HCN) current, not K⁺ channels."
+        ],
+        [
+          "Activates muscarinic receptors in the SA node → ↓ heart rate only",
+          "No muscarinic action; it blocks the If current."
+        ]
+      ],
+      "se": [
+        "Visual phosphenes (bright flashes)",
+        "Bradycardia",
+        "AF"
+      ],
+      "sewhy": "Ivabradine blocks HCN channels in the SA node (slowing the heart) and similar channels in the retina, causing transient bright flashes (phosphenes).",
+      "ci": [
+        {
+          "c": "Not in sinus rhythm (e.g. AF)",
+          "k": "y1-108-3",
+          "why": "Acts only on the SA node, so it doesn't work",
+          "cau": false,
+          "x": [
+            [
+              "Speeds the ventricular rate in AF",
+              "It neither speeds nor slows AF; it only acts on the SA node."
+            ],
+            [
+              "Converts AF to atrial flutter",
+              "No; it just doesn't work without sinus rhythm."
+            ],
+            [
+              "Raises the stroke risk in AF",
+              "Not through clotting; it only acts on the SA node."
+            ]
+          ]
+        },
+        {
+          "c": "Sick sinus syndrome, severe bradycardia",
+          "k": "y1-108-3",
+          "why": "Further slows the rate",
+          "cau": false,
+          "x": [
+            [
+              "Causes rebound tachycardia",
+              "It slows the rate further."
+            ],
+            [
+              "Blocks AV conduction completely",
+              "It acts on the SA node, so the rate slows further."
+            ],
+            [
+              "Lowers BP through vasodilation",
+              "No vasodilation; it slows the sinus rate."
+            ]
+          ]
+        },
+        {
+          "c": "Acute MI or cardiogenic shock",
+          "k": "y1-134-1",
+          "why": "Heart rate may be compensating",
+          "cau": false,
+          "x": [
+            [
+              "Contractility may be compensating",
+              "Ivabradine doesn't affect contractility; slowing a compensating heart rate is the risk."
+            ],
+            [
+              "It extends the infarct by vasoconstriction",
+              "No vasoconstriction; slowing a compensating rate can drop output."
+            ],
+            [
+              "It's ineffective after an MI",
+              "It would work; slowing the rate is the danger."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digoxin",
+      "name": "Digoxin",
+      "ex": "",
+      "uses": [
+        {
+          "t": "AF rate control (sedentary or with HF)",
+          "k": "y1-108-3"
+        },
+        {
+          "t": "Symptomatic HFrEF",
+          "k": "y2-211-3"
+        }
+      ],
+      "how": "Inhibits Na⁺/K⁺-ATPase → ↑ contractility; ↑ vagal tone slows AV conduction",
+      "hx": [
+        [
+          "Stimulates Na⁺/K⁺-ATPase → ↑ contractility; ↓ vagal tone slows AV conduction",
+          "It inhibits the pump (raising cell Ca²⁺) and increases vagal tone."
+        ],
+        [
+          "Inhibits phosphodiesterase-3 → ↑ cAMP and contractility; speeds AV conduction",
+          "That's milrinone-type action; digoxin slows the AV node."
+        ],
+        [
+          "Opens L-type Ca²⁺ channels → ↑ contractility and SA node rate",
+          "Ca²⁺ rises indirectly (through the Na⁺/Ca²⁺ exchanger), and the heart rate slows."
+        ]
+      ],
+      "se": [
+        "Nausea, vomiting, diarrhoea",
+        "Yellow-green vision",
+        "Confusion",
+        "Any arrhythmia (toxicity)"
+      ],
+      "sewhy": "Digoxin inhibits the Na⁺/K⁺-ATPase and increases vagal tone; in excess this affects the gut (nausea), retina (yellow-green vision), brain (confusion) and makes cardiac cells excitable, causing almost any arrhythmia, worse with hypokalaemia.",
+      "ci": [
+        {
+          "c": "2nd/3rd-degree heart block",
+          "k": "y1-108-3",
+          "why": "Further blocks the AV node",
+          "cau": false,
+          "x": [
+            [
+              "Speeds AV conduction → VT",
+              "Digoxin slows AV conduction, worsening the block."
+            ],
+            [
+              "Lowers contractility, worsening output",
+              "Digoxin increases contractility; it further slows the AV node."
+            ],
+            [
+              "Causes coronary vasospasm",
+              "Not the reason; it slows the AV node further."
+            ]
+          ]
+        },
+        {
+          "c": "WPW / accessory pathway",
+          "k": "y1-108-3",
+          "why": "Blocking the AV node pushes conduction down the accessory pathway → VF",
+          "cau": false,
+          "x": [
+            [
+              "Speeding the AV node lets every atrial impulse through → VF",
+              "Digoxin slows the AV node; that diverts impulses down the accessory pathway."
+            ],
+            [
+              "Blocking the accessory pathway forces conduction through the AV node → heart block",
+              "It doesn't block the pathway; it can speed conduction down it."
+            ],
+            [
+              "Raising vagal tone slows the accessory pathway → asystole",
+              "The pathway isn't slowed; AF impulses rush down it."
+            ]
+          ]
+        },
+        {
+          "c": "Hypokalaemia",
+          "k": "y1-135-4",
+          "why": "Low K⁺ increases digoxin binding → toxicity",
+          "cau": true,
+          "x": [
+            [
+              "Low K⁺ reduces digoxin binding, so it stops working",
+              "Digoxin and K⁺ compete for the pump; low K⁺ means more digoxin binds."
+            ],
+            [
+              "Low K⁺ speeds digoxin's renal clearance → under-dosing",
+              "No; low K⁺ increases binding and toxicity."
+            ],
+            [
+              "Digoxin lowers K⁺ further → paralysis",
+              "Toxicity raises K⁺ if anything; low K⁺ makes digoxin more toxic."
+            ]
+          ]
+        },
+        {
+          "c": "Renal impairment",
+          "k": "y2-220-16",
+          "why": "Renally cleared → accumulates",
+          "cau": true,
+          "x": [
+            [
+              "Hepatically cleared → accumulates",
+              "Digoxin is cleared by the kidneys, so it builds up in CKD."
+            ],
+            [
+              "Nephrotoxic → worsens CKD",
+              "Not nephrotoxic; it accumulates because it's renally cleared."
+            ],
+            [
+              "Loses its effect as GFR falls",
+              "It becomes more potent (accumulates), not less."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "amiodarone",
+      "name": "Amiodarone",
+      "ex": "",
+      "uses": [
+        {
+          "t": "VF/pulseless VT arrest (300 mg after 3rd shock)",
+          "k": "y1-140-1"
+        },
+        {
+          "t": "AF and VT rhythm control",
+          "k": "y1-108-3"
+        }
+      ],
+      "how": "Class III antiarrhythmic: prolongs repolarisation (K⁺ channel block); also β-, Ca²⁺- and Na⁺-blocking effects",
+      "hx": [
+        [
+          "Class I antiarrhythmic: blocks Na⁺ channels to slow conduction; no other actions",
+          "Amiodarone is class III (K⁺ block) with actions of all four classes."
+        ],
+        [
+          "Class II antiarrhythmic: β-blockade only, slowing the AV node",
+          "β-block is one effect, but its main action is K⁺ channel block (class III)."
+        ],
+        [
+          "Class III antiarrhythmic: shortens repolarisation (K⁺ channel opening); also α-blocking effects",
+          "It prolongs repolarisation by blocking K⁺ channels."
+        ]
+      ],
+      "se": [
+        "Thyroid dysfunction (hypo/hyper)",
+        "Pulmonary fibrosis",
+        "Liver toxicity",
+        "Photosensitivity, grey skin",
+        "Corneal deposits",
+        "Bradycardia",
+        "QT prolongation"
+      ],
+      "sewhy": "Amiodarone is iodine-rich (thyroid dysfunction), highly fat-soluble with a very long half-life, so it accumulates in lungs, liver, skin and cornea, causing fibrosis, hepatitis, grey skin and deposits; it also prolongs repolarisation (long QT).",
+      "ci": [
+        {
+          "c": "Sinus bradycardia or heart block (not paced)",
+          "k": "y1-108-3",
+          "why": "Further depresses conduction",
+          "cau": false,
+          "x": [
+            [
+              "Speeds conduction → VT",
+              "Amiodarone slows conduction further."
+            ],
+            [
+              "Raises K⁺, which blocks conduction",
+              "No K⁺ effect; it directly depresses the SA and AV nodes."
+            ],
+            [
+              "Causes acute pulmonary fibrosis",
+              "Fibrosis is a long-term side effect, not the reason here."
+            ]
+          ]
+        },
+        {
+          "c": "Thyroid disease",
+          "k": "y1-126-2",
+          "why": "Iodine-rich: triggers hypo- or hyperthyroidism",
+          "cau": false,
+          "x": [
+            [
+              "Iodine-deficient: triggers goitre and hypothyroidism",
+              "Amiodarone is iodine-rich and can cause hypo- or hyperthyroidism."
+            ],
+            [
+              "Blocks TSH release: triggers central hypothyroidism",
+              "Not through TSH; its iodine load and direct effects disturb the thyroid."
+            ],
+            [
+              "Binds thyroxine in the gut: stops levothyroxine working",
+              "That's calcium and iron; amiodarone's iodine content disrupts the thyroid."
+            ]
+          ]
+        },
+        {
+          "c": "Other QT-prolonging drugs",
+          "k": "y1-108-3",
+          "why": "Torsades de pointes",
+          "cau": false,
+          "x": [
+            [
+              "Complete heart block",
+              "QT prolongation leads to torsades."
+            ],
+            [
+              "Atrial flutter",
+              "Torsades (polymorphic VT) is the QT risk."
+            ],
+            [
+              "Supraventricular tachycardia",
+              "Torsades is the danger."
+            ]
+          ]
+        },
+        {
+          "c": "Warfarin, digoxin, simvastatin",
+          "k": "y1-130-5",
+          "why": "Enzyme inhibition raises their levels",
+          "cau": true,
+          "x": [
+            [
+              "Enzyme induction lowers their levels",
+              "Amiodarone inhibits enzymes (and P-gp), raising levels."
+            ],
+            [
+              "Protein-binding displacement lowers their levels",
+              "The main effect is raised levels from enzyme inhibition."
+            ],
+            [
+              "Reduced absorption makes them ineffective",
+              "Levels rise, risking bleeding, digoxin toxicity and myopathy."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "statins",
+      "name": "Statins",
+      "ex": "atorvastatin, simvastatin",
+      "uses": [
+        {
+          "t": "Secondary prevention (atorvastatin 80 mg)",
+          "k": "y1-112-4"
+        },
+        {
+          "t": "Primary prevention if QRISK3 ≥10%",
+          "k": "y1-112-4"
+        },
+        {
+          "t": "Diabetes CV risk",
+          "k": "y1-139-3"
+        }
+      ],
+      "how": "Inhibit HMG-CoA reductase → ↑ hepatic LDL receptors → ↓ LDL",
+      "hx": [
+        [
+          "Inhibit HMG-CoA reductase → ↓ hepatic LDL receptors → ↑ HDL only",
+          "Less liver cholesterol raises LDL receptors, which clear LDL from the blood."
+        ],
+        [
+          "Block cholesterol absorption in the gut → ↓ LDL",
+          "That's ezetimibe; statins block cholesterol synthesis in the liver."
+        ],
+        [
+          "Inhibit lipoprotein lipase → ↓ triglycerides and LDL",
+          "Lipoprotein lipase breaks down triglycerides; statins inhibit HMG-CoA reductase."
+        ]
+      ],
+      "se": [
+        "Myalgia",
+        "Myopathy, rarely rhabdomyolysis",
+        "Raised ALT",
+        "GI upset",
+        "Small ↑ diabetes risk"
+      ],
+      "sewhy": "Statins reduce cholesterol synthesis in muscle as well as liver, depleting molecules like coenzyme Q10 and causing myalgia and, rarely, rhabdomyolysis (more with CYP3A4 inhibitors). Liver enzymes may rise slightly.",
+      "ci": [
+        {
+          "c": "Pregnancy, breastfeeding",
+          "k": "y1-114-1",
+          "why": "Cholesterol is needed for fetal development; stop 3 months before conception",
+          "cau": false,
+          "x": [
+            [
+              "They cause gestational diabetes; stop at conception",
+              "The concern is fetal development; stop 3 months before trying to conceive."
+            ],
+            [
+              "They cause a rebound rise in maternal LDL; stop after the first trimester",
+              "Stop before conception: the fetus needs cholesterol synthesis."
+            ],
+            [
+              "They pass into milk and cause neonatal myopathy; stop at delivery",
+              "They're avoided in both; the reason is the fetus's need for cholesterol."
+            ]
+          ]
+        },
+        {
+          "c": "Active liver disease",
+          "k": "y2-229-3",
+          "why": "Hepatotoxic",
+          "cau": false,
+          "x": [
+            [
+              "Nephrotoxic",
+              "The concern is the liver."
+            ],
+            [
+              "Causes hypoglycaemia",
+              "No; statins can raise transaminases (hepatotoxic)."
+            ],
+            [
+              "Raises ammonia",
+              "Not the reason; they're hepatotoxic."
+            ]
+          ]
+        },
+        {
+          "c": "With clarithromycin (simvastatin)",
+          "k": "y1-130-5",
+          "why": "CYP3A4 inhibition → statin build-up → rhabdomyolysis",
+          "cau": false,
+          "x": [
+            [
+              "CYP3A4 induction → statin loss → raised cholesterol",
+              "Clarithromycin inhibits CYP3A4, raising simvastatin levels."
+            ],
+            [
+              "Protein-binding displacement → liver failure",
+              "It's CYP3A4 inhibition causing statin build-up and myopathy."
+            ],
+            [
+              "Statins block clarithromycin absorption → treatment failure",
+              "No absorption effect; the statin builds up."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alpha-blockers",
+      "name": "Alpha-blockers",
+      "ex": "doxazosin",
+      "uses": [
+        {
+          "t": "Hypertension step 4",
+          "k": "y1-134-6"
+        },
+        {
+          "t": "BPH symptoms",
+          "k": "y1-141-3"
+        }
+      ],
+      "how": "Block α1 receptors → arteriolar dilation and prostate smooth-muscle relaxation",
+      "hx": [
+        [
+          "Block α2 receptors → ↓ noradrenaline release and prostate shrinkage",
+          "They block α1; prostate shrinkage is what 5α-reductase inhibitors do."
+        ],
+        [
+          "Stimulate α1 receptors → arteriolar constriction and bladder neck closure",
+          "They block α1, relaxing arterioles and prostate smooth muscle."
+        ],
+        [
+          "Block β2 receptors → venous dilation and bladder relaxation",
+          "The target is the α1 receptor."
+        ]
+      ],
+      "se": [
+        "Postural hypotension",
+        "Dizziness",
+        "Headache",
+        "Oedema"
+      ],
+      "sewhy": "Blocking α1 receptors relaxes vascular smooth muscle, so blood pressure falls on standing (especially after the first dose), causing dizziness.",
+      "ci": [
+        {
+          "c": "History of postural hypotension or micturition syncope",
+          "k": "y1-108-1",
+          "why": "Worsens the BP drop on standing",
+          "cau": false,
+          "x": [
+            [
+              "Causes urinary retention on standing",
+              "They relieve retention; the issue is the postural BP drop."
+            ],
+            [
+              "Slows the heart on standing",
+              "They don't slow the heart; BP drops on standing."
+            ],
+            [
+              "Raises BP on standing",
+              "They lower BP, worsening postural drops."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

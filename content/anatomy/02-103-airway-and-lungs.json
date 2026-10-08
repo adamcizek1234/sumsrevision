@@ -1,0 +1,106 @@
+{
+  "id": "a-103",
+  "num": "103",
+  "title": "Airway and lungs",
+  "system": "Respiratory",
+  "los": [
+    {
+      "n": 1,
+      "text": "Describe the subdivisions of the thorax",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Thoracic cavity</th><td>Two pulmonary cavities (pleura and lungs) either side of the central <strong>mediastinum</strong>.</td></tr><tr><th scope=\"row\">Superior mediastinum</th><td><ul class=\"cl\"><li>Above the plane of the sternal angle (T4/5): thymus remnant</li><li>Arch of aorta and its branches</li><li>Brachiocephalic veins and upper SVC</li><li>Trachea</li><li>Oesophagus</li><li>Vagus and phrenic nerves</li><li>Left recurrent laryngeal nerve</li><li>Thoracic duct.</li></ul></td></tr><tr><th scope=\"row\">Inferior mediastinum</th><td>Below that plane, split by the pericardium into:</td></tr><tr><th scope=\"row\">Anterior</th><td>Behind the sternum: thymus remnants, fat, lymph nodes.</td></tr><tr><th scope=\"row\">Middle</th><td>Heart and pericardium, roots of the great vessels, phrenic nerves.</td></tr><tr><th scope=\"row\">Posterior</th><td>Descending aorta, oesophagus, thoracic duct, azygos/hemiazygos veins, vagus nerves (sympathetic trunks lie alongside).</td></tr></tbody></table></div><div class=\"key\">Sternal angle (T4/5, 2nd costal cartilage): carina, start and end of the aortic arch, azygos joins the SVC.</div>"
+    },
+    {
+      "n": 2,
+      "text": "List the structures of the thoracic wall including the thoracic spine, ribs, and sternum, and describe the articulations of these bones",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Bones</th><td>12 thoracic vertebrae, 12 pairs of ribs with costal cartilages, sternum (manubrium, body, xiphoid).</td></tr><tr><th scope=\"row\">Ribs</th><td>True 1–7 (own cartilage to sternum); false 8–10 (cartilage joins the one above); floating 11–12.</td></tr><tr><th scope=\"row\">Typical rib (3–9)</th><td>Head with two facets, neck, tubercle, angle, shaft with the <strong>costal groove</strong> on its inferior border.</td></tr><tr><th scope=\"row\">Atypical</th><td>1st (short, flat, broad; scalene tubercle; grooves for subclavian vein in front and artery behind); 2nd; 10th–12th (single head facets).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Joint</th><th>Type</th></tr></thead><tbody><tr><td>Costovertebral (rib head with two vertebral bodies and disc)</td><td>Synovial plane</td></tr><tr><td>Costotransverse (tubercle with transverse process, ribs 1–10)</td><td>Synovial plane</td></tr><tr><td>1st sternocostal</td><td>Primary cartilaginous (synchondrosis)</td></tr><tr><td>2nd–7th sternocostal</td><td>Synovial plane</td></tr><tr><td>Costochondral (rib to its cartilage)</td><td>Primary cartilaginous</td></tr><tr><td>Interchondral (cartilages 6–9/10)</td><td>Synovial plane</td></tr><tr><td>Manubriosternal (sternal angle)</td><td>Secondary cartilaginous (symphysis)</td></tr><tr><td>Xiphisternal</td><td>Primary cartilaginous (often ossifies)</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Describe how the boundaries of the thoracic inlet and outlet are formed by the vertebrae, ribs, costal cartilages and sternum",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Superior thoracic aperture (inlet)</th><td><ul class=\"cl\"><li>Body of <strong>T1</strong> behind, <strong>first ribs and cartilages</strong> at the sides, <strong>jugular notch</strong> of the manubrium in front</li><li>Slopes down anteriorly.</li></ul></td></tr><tr><th scope=\"row\">Passes through the inlet</th><td>Trachea, oesophagus, great vessels, vagus and phrenic nerves, sympathetic trunks, thoracic duct; lung apices (cervical pleura) bulge up through it.</td></tr><tr><th scope=\"row\">Inferior thoracic aperture (outlet)</th><td><strong>T12</strong> behind, <strong>ribs 11–12</strong>, <strong>costal margin</strong> (cartilages 7–10) and xiphisternal joint; closed by the diaphragm.</td></tr><tr><th scope=\"row\">Diaphragm openings</th><td>IVC <strong>T8</strong>, oesophagus <strong>T10</strong>, aorta <strong>T12</strong> (\"I 8 10 Eggs At 12\").</td></tr><tr><th scope=\"row\">Clinical \"thoracic outlet syndrome\"<span class=\"paren\">(really the inlet)</span></th><td>a cervical rib or scalene band compresses the lower trunk of the brachial plexus or the subclavian artery.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Identify the thoracic vertebrae, ribs and sternum and the joint types between them",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Thoracic vertebra</th><td><ul class=\"cl\"><li>Heart-shaped body</li><li><strong>Costal demifacets</strong> on the body for rib heads</li><li><strong>Transverse costal facets</strong> (T1–10) for rib tubercles</li><li>Long spinous process sloping down</li><li>Small round vertebral foramen</li><li>Facet joints in the coronal plane (rotation, little flexion).</li></ul></td></tr><tr><th scope=\"row\">Sternum</th><td>Manubrium (jugular notch, clavicular notches, 1st cartilage); body (2nd cartilage at the sternal angle, then 3rd–7th); xiphoid.</td></tr><tr><th scope=\"row\">Rib count from the front</th><td>Find the sternal angle → 2nd costal cartilage → count down the intercostal spaces.</td></tr><tr><th scope=\"row\">Joint types</th><td>See LO 2 (costovertebral and costotransverse synovial; 1st sternocostal and costochondral primary cartilaginous; manubriosternal secondary cartilaginous).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Label a diagram of the basic structure of the airway, summarising the anatomy of the bronchial tree and bronchopulmonary segments, and explain their functional significance in relation to inhalation injury",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Trachea</th><td>C6 (cricoid) → T4/5 (carina); 10–12 cm; 16–20 C-shaped hyaline cartilages, gap behind closed by <strong>trachealis</strong>.</td></tr><tr><th scope=\"row\">Branching<span class=\"paren\">(~23 generations)</span></th><td><ul class=\"cl\"><li>Main bronchi</li><li>→ <strong>lobar</strong> (3 right, 2 left)</li><li>→ <strong>segmental</strong></li><li>→ bronchioles</li><li>→ terminal bronchioles (end of <strong>conducting zone</strong>)</li><li>→ respiratory bronchioles</li><li>→ alveolar ducts</li><li>→ alveoli (<strong>respiratory zone</strong>).</li></ul></td></tr><tr><th scope=\"row\">Right main bronchus</th><td>Shorter, wider and more <strong>vertical</strong> → inhaled objects usually go right (right lower lobe; if supine, posterior segment of upper lobe or superior segment of lower lobe).</td></tr><tr><th scope=\"row\">Bronchopulmonary segment</th><td><ul class=\"cl\"><li>Wedge supplied by its own segmental bronchus and pulmonary artery branch (central)</li><li>Drained by veins in the intersegmental septa</li><li>Can be removed surgically on its own.</li></ul></td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Lobe</th><th>Right segments</th><th>Left segments</th></tr></thead><tbody><tr><td>Upper</td><td>Apical, posterior, anterior</td><td>Apicoposterior, anterior, superior and inferior lingular</td></tr><tr><td>Middle</td><td>Lateral, medial</td><td>(none)</td></tr><tr><td>Lower</td><td>Superior, medial/anterior/lateral/posterior basal</td><td>Superior, anteromedial, lateral and posterior basal</td></tr></tbody></table></div><ul><li><strong>Inhalation injury</strong>: hot gas burns mainly the airway <strong>above the vocal cords</strong> → oedema, stridor, early intubation<ul><li>smoke chemicals injure lower airways</li><li>carbon monoxide and cyanide poison systemically.</li></ul></li></ul>"
+    },
+    {
+      "n": 6,
+      "text": "List the relations of the trachea and be able to identify them",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Relation</th><th>Neck</th><th>Thorax</th></tr></thead><tbody><tr><td>Anterior</td><td>Thyroid isthmus (rings 2–4), strap muscles, inferior thyroid veins</td><td>Manubrium, thymus remnant, left brachiocephalic vein, brachiocephalic trunk, arch of aorta</td></tr><tr><td>Posterior</td><td>Oesophagus; <strong>recurrent laryngeal nerves</strong> in the tracheo-oesophageal grooves</td><td>Oesophagus, vertebral column</td></tr><tr><td>Right</td><td>Thyroid lobe, carotid sheath</td><td>Right vagus, <strong>arch of azygos</strong>, right pleura and lung</td></tr><tr><td>Left</td><td>Thyroid lobe, carotid sheath</td><td>Arch of aorta, left common carotid and subclavian arteries, left vagus, <strong>left recurrent laryngeal nerve</strong></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Identify the features of each lung (and list the differences between left and right lungs)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Feature</th><th>Right lung</th><th>Left lung</th></tr></thead><tbody><tr><td>Lobes</td><td>3 (upper, middle, lower)</td><td>2 (upper with <strong>lingula</strong>, lower)</td></tr><tr><td>Fissures</td><td>Oblique + horizontal</td><td>Oblique only</td></tr><tr><td>Shape</td><td>Shorter and wider (liver pushes diaphragm up)</td><td>Longer and narrower</td></tr><tr><td>Anterior border</td><td>Straight</td><td><strong>Cardiac notch</strong></td></tr><tr><td>Main bronchus</td><td>Shorter, wider, more vertical</td><td>Longer, narrower, more horizontal</td></tr><tr><td>Hilum</td><td>Upper lobe bronchus above the artery (eparterial)</td><td>Pulmonary artery highest</td></tr><tr><td>Segments</td><td>10</td><td>8–10</td></tr></tbody></table></div><ul><li><strong>Each lung</strong>: apex (2–3 cm above the medial clavicle), base on the diaphragm<ul><li>costal, mediastinal and diaphragmatic surfaces</li><li>anterior, posterior and inferior borders.</li></ul></li></ul>"
+    },
+    {
+      "n": 8,
+      "text": "Draw and describe the topographical surface projections of the lungs and parietal pleural reflections of the thoracic wall",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Line</th><th>Lung edge</th><th>Parietal pleura</th></tr></thead><tbody><tr><td>Apex</td><td>2–3 cm above medial third of clavicle</td><td>Same</td></tr><tr><td>Anterior</td><td>Right: down the midline to 6th cartilage; left: to 4th cartilage then out (cardiac notch) to 6th</td><td>Right to 6th; left to 4th then 6th</td></tr><tr><td>Midclavicular line</td><td><strong>6th rib</strong></td><td><strong>8th rib</strong></td></tr><tr><td>Midaxillary line</td><td><strong>8th rib</strong></td><td><strong>10th rib</strong></td></tr><tr><td>Paravertebral (posterior)</td><td><strong>10th rib</strong></td><td><strong>12th rib</strong></td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Costodiaphragmatic recess</th><td>~2 rib spaces of pleura below the lung edge: effusions collect here.</td></tr><tr><th scope=\"row\">Oblique fissure</th><td>T2/3 spinous process → along the 5th rib → 6th costal cartilage in front.</td></tr><tr><th scope=\"row\">Horizontal fissure (right)</th><td>Along the 4th costal cartilage to meet the oblique fissure at the midaxillary line.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Identify the lobes and fissures of the lungs on suitable models or prosections and describe their major anatomical relationships to the ribs, heart, aorta and other major vessels of the thorax",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Lobes from the outside</th><td><ul class=\"cl\"><li>Upper lobes mostly in front and above</li><li><strong>Lower lobes mostly behind</strong> (listen posteriorly)</li><li>Right middle lobe in front, below the 4th cartilage.</li></ul></td></tr><tr><th scope=\"row\">Right mediastinal relations</th><td>Right atrium (cardiac impression), SVC, azygos arch, oesophagus, IVC.</td></tr><tr><th scope=\"row\">Left mediastinal relations</th><td>Left ventricle (deep cardiac impression), arch and descending aorta, left subclavian and common carotid arteries, oesophagus near the base.</td></tr><tr><th scope=\"row\">Fissure surface lines</th><td>See LO 8.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 10,
+      "text": "Locate the impressions made in the left lung by the heart and the aorta",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Cardiac impression</th><td>Deep hollow in front of and below the hilum (left ventricle), with the <strong>cardiac notch</strong> and <strong>lingula</strong> on the anterior border.</td></tr><tr><th scope=\"row\">Aortic groove</th><td>Arches over the hilum (arch of aorta) and runs down behind it (descending aorta).</td></tr><tr><th scope=\"row\">Other grooves</th><td>Left subclavian artery above the arch; oesophagus near the base.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 11,
+      "text": "Identify the root of the lung and the structures that form it as they enter and leave the lung, and its hilum",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Hilum</th><td><ul class=\"cl\"><li>The area on the mediastinal surface where structures enter and leave.</li><li><strong>Root</strong>: the bundle of those structures, wrapped in a sleeve of pleura that hangs down as the <strong>pulmonary ligament</strong>.</li></ul></td></tr><tr><th scope=\"row\">Contents</th><td>Main bronchus, <strong>one pulmonary artery</strong>, <strong>two pulmonary veins</strong>, bronchial vessels, lymphatics and hilar nodes, pulmonary plexus.</td></tr><tr><th scope=\"row\">Front to back</th><td>Veins, artery, bronchus.</td></tr><tr><th scope=\"row\">Lowest</th><td>Pulmonary veins (inferior pulmonary vein lowest).</td></tr><tr><th scope=\"row\">Mnemonic RALS</th><td>Pulmonary artery is <strong>anterior</strong> to the bronchus on the <strong>right</strong>, <strong>superior</strong> on the <strong>left</strong>.</td></tr><tr><th scope=\"row\">Relations of the root</th><td>Phrenic nerve in front, vagus behind; <strong>azygos arches over the right root</strong>, <strong>aortic arch over the left</strong>.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 12,
+      "text": "Describe the lymphatic drainage of the lung and its medical significance (very briefly)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Route</th><td><ul class=\"cl\"><li>Superficial (subpleural) and deep (peribronchial) plexuses</li><li>→ <strong>bronchopulmonary (hilar) nodes</strong></li><li>→ <strong>tracheobronchial (carinal)</strong></li><li>→ paratracheal</li><li>→ bronchomediastinal trunks</li><li>→ right lymphatic duct / thoracic duct.</li></ul></td></tr><tr><th scope=\"row\">Crossover</th><td>The left lower lobe drains partly to right-sided nodes.</td></tr><tr><th scope=\"row\">Significance</th><td><ul class=\"cl\"><li>Lung cancer spreads along this chain (staging: hilar N1, ipsilateral mediastinal N2, contralateral or supraclavicular N3)</li><li>Enlarged hilar nodes show on CXR (cancer, TB, sarcoid)</li><li>Subcarinal nodes widen the carina.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 13,
+      "text": "Describe the nerve supply of lung structures (phrenic and vagus nerves, sympathetic fibres)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Nerve</th><th>Supplies</th></tr></thead><tbody><tr><td><strong>Vagus</strong> (parasympathetic, via pulmonary plexus)</td><td>Bronchoconstriction, ↑ mucus, cough and stretch afferents</td></tr><tr><td><strong>Sympathetic</strong> (T1–4)</td><td>Bronchodilation (β2), vasoconstriction</td></tr><tr><td><strong>Phrenic</strong> (C3–5)</td><td>Motor to diaphragm; <strong>sensory</strong> to mediastinal and central diaphragmatic pleura (pain to the shoulder tip)</td></tr><tr><td>Intercostal nerves</td><td>Costal and peripheral diaphragmatic parietal pleura (sharp localised pain)</td></tr></tbody></table></div><ul><li><strong>Visceral pleura and lung tissue</strong>: autonomic only, so not painful; pleuritic pain comes from the <strong>parietal</strong> pleura.</li></ul>"
+    },
+    {
+      "n": 14,
+      "text": "Identify the trachea, bronchi, hila, lung fields and diaphragm on a chest radiograph",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Trachea</th><td>Central (slightly right at the aortic knuckle); <strong>carina at T4/5</strong>.</td></tr><tr><th scope=\"row\">Hila</th><td><ul class=\"cl\"><li><strong>Left hilum higher</strong> than the right (left pulmonary artery arches over the left main bronchus)</li><li>Made mainly of pulmonary arteries and upper lobe veins.</li></ul></td></tr><tr><th scope=\"row\">Lung fields</th><td>Described as zones (upper, mid, lower), not lobes; vessels fade towards the periphery.</td></tr><tr><th scope=\"row\">Diaphragm</th><td><strong>Right hemidiaphragm higher</strong> (liver); gastric bubble under the left; sharp costophrenic angles.</td></tr><tr><th scope=\"row\">Good inspiration</th><td>About 6 anterior ribs (or 10 posterior) above the diaphragm in the midclavicular line.</td></tr></tbody></table></div>"
+    }
+  ]
+}

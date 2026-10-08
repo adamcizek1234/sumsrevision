@@ -1,0 +1,164 @@
+{
+  "id": "y2-226",
+  "num": "226",
+  "title": "Anaemia",
+  "lead": "Ann Benton",
+  "system": "Immunology & Microbiology",
+  "date": "2027-02-22",
+  "los": [
+    {
+      "text": "Describe the clinical presentation of anaemia and link to signs and symptoms and relevant investigation findings.",
+      "sessions": [
+        "Anaemia - a comparative montage"
+      ],
+      "section": "Lectures",
+      "n": 1,
+      "html": ""
+    },
+    {
+      "text": "Describe the components and structure of bone marrow and link to the result of the blood count used clinically",
+      "sessions": [
+        "Principles of haemopoiesis"
+      ],
+      "section": "Lectures",
+      "n": 2,
+      "html": ""
+    },
+    {
+      "text": "Describe the components of red cell structure in relation to red cell development, function and mechanisms of anaemia.",
+      "sessions": [
+        "Red cell structure and function"
+      ],
+      "section": "Lectures",
+      "n": 3,
+      "html": ""
+    },
+    {
+      "text": "Describe the relevant laboratory investigation processes and results and link to the diagnosis and treatment of haematological conditions.",
+      "sessions": [
+        "Haematology, transfusion and data interpretation",
+        "Data interpretation"
+      ],
+      "section": "Lectures",
+      "n": 4,
+      "html": ""
+    },
+    {
+      "text": "Apply the pharmacology of drugs used to treat anaemia and relevant evidence for their benefits to be able to choose and manage effective treatment for individual patients",
+      "sessions": [
+        "Therapeutic options in anaemia"
+      ],
+      "section": "Lectures",
+      "n": 5,
+      "html": ""
+    },
+    {
+      "text": "Describe the physiology and pathology of haemopoiesis linked to the cause and treatment of anaemia.",
+      "sessions": [
+        "Expert forum"
+      ],
+      "section": "Lectures",
+      "n": 6,
+      "html": ""
+    },
+    {
+      "text": "List the key sources of information (e.g., clinical indicators, laboratory results, patient history) necessary to support the decision to transfuse",
+      "sessions": [
+        "Making a decision to transfuse, pre-transfusion blood sampling and transfusion adverse event"
+      ],
+      "section": "ICM",
+      "n": 7,
+      "html": ""
+    },
+    {
+      "text": "Explain the indications for transfusion and provide supporting written information to the patient to ensure informed consent",
+      "sessions": [
+        "Making a decision to transfuse, pre-transfusion blood sampling and transfusion adverse event"
+      ],
+      "section": "ICM",
+      "n": 8,
+      "html": ""
+    },
+    {
+      "text": "Complete the transfusion chart accurately, ensuring all required details are provided in line with hospital policy",
+      "sessions": [
+        "Making a decision to transfuse, pre-transfusion blood sampling and transfusion adverse event"
+      ],
+      "section": "ICM",
+      "n": 9,
+      "html": ""
+    },
+    {
+      "text": "Perform positive patient identification procedures and ensure accurate and complete documentation is maintained for transfusion",
+      "sessions": [
+        "Making a decision to transfuse, pre-transfusion blood sampling and transfusion adverse event"
+      ],
+      "section": "ICM",
+      "n": 10,
+      "html": ""
+    },
+    {
+      "text": "Recognise signs of transfusion reactions, identify potential causes, and take appropriate action to manage and resolve the reaction",
+      "sessions": [
+        "Making a decision to transfuse, pre-transfusion blood sampling and transfusion adverse event"
+      ],
+      "section": "ICM",
+      "n": 11,
+      "html": ""
+    },
+    {
+      "text": "Take a comprehensive history from a patient presenting with fatigue, including relevant medical, social, and psychological factors",
+      "sessions": [
+        "Tired All The Time, Frailty history"
+      ],
+      "section": "ICM",
+      "n": 12,
+      "html": ""
+    },
+    {
+      "text": "Explain the importance of conducting a thorough systems review when managing non-specific symptoms like fatigue, to ensure all potential causes are considered",
+      "sessions": [
+        "Tired All The Time, Frailty history"
+      ],
+      "section": "ICM",
+      "n": 13,
+      "html": ""
+    },
+    {
+      "text": "Discuss key differential diagnoses for fatigue, incorporating the concept of frailty and how it impacts diagnosis and management",
+      "sessions": [
+        "Tired All The Time, Frailty history"
+      ],
+      "section": "ICM",
+      "n": 14,
+      "html": ""
+    },
+    {
+      "text": "Interpret Full Blood Count (FBC) results in conjunction with relevant clinical information to form a clinical opinion",
+      "sessions": [
+        "FBC Interpretation"
+      ],
+      "section": "ICM",
+      "n": 15,
+      "html": ""
+    },
+    {
+      "text": "Classify common types of anaemia (e.g., microcytic, macrocytic, normocytic) based on red cell indices from FBC results",
+      "sessions": [
+        "FBC Interpretation"
+      ],
+      "section": "ICM",
+      "n": 16,
+      "html": ""
+    },
+    {
+      "text": "Identify relevant additional investigations that may be required based on FBC results, clinical signs, and suspected aaetiologies of anaemia",
+      "sessions": [
+        "FBC Interpretation"
+      ],
+      "section": "ICM",
+      "n": 17,
+      "html": ""
+    }
+  ]
+}

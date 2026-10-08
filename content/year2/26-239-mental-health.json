@@ -1,0 +1,255 @@
+{
+  "id": "y2-239",
+  "num": "239",
+  "title": "Mental Health",
+  "lead": "Adeel Siddiqui",
+  "system": "The Nervous System",
+  "date": "2027-05-24",
+  "los": [
+    {
+      "text": "Identify what constitutes psychotic illness.",
+      "sessions": [
+        "Case Presentation, Mental State Exam and Classification & Psychopathology of Schizophrenia"
+      ],
+      "section": "Lectures",
+      "n": 1,
+      "html": ""
+    },
+    {
+      "text": "Take a psychiatric history and perform a mental state exam of a psychotic patient and to perform a basic risk assessment.",
+      "sessions": [
+        "Case Presentation, Mental State Exam and Classification & Psychopathology of Schizophrenia"
+      ],
+      "section": "Lectures",
+      "n": 2,
+      "html": ""
+    },
+    {
+      "text": "Elicit characteristic signs and symptoms in order to assist in the diagnosis of a range of neurotic and psychotic disorders",
+      "sessions": [
+        "Case Presentation, Mental State Exam and Classification & Psychopathology of Schizophrenia"
+      ],
+      "section": "Lectures",
+      "n": 3,
+      "html": ""
+    },
+    {
+      "text": "Link pathological processes to the symptoms and signs of neurotic disorders.",
+      "sessions": [
+        "Case Presentation, Mental State Exam and Classification & Psychopathology of Schizophrenia",
+        "Neurotic Disorders - Case, Classification, Psychopathology"
+      ],
+      "section": "Lectures",
+      "n": 4,
+      "html": ""
+    },
+    {
+      "text": "Link factors in a psychiatric history and mental state examination to identify a diagnosis in a patient with a neurotic disorder.",
+      "sessions": [
+        "Case Presentation, Mental State Exam and Classification & Psychopathology of Schizophrenia"
+      ],
+      "section": "Lectures",
+      "n": 5,
+      "html": ""
+    },
+    {
+      "text": "Link neural pathways, and pharmacological reagents which act upon them, to the occurrence and treatment of psychosis",
+      "sessions": [
+        "Management of schizophrenia and rapid tranquillisation"
+      ],
+      "section": "Lectures",
+      "n": 6,
+      "html": ""
+    },
+    {
+      "text": "Select psychological interventions in the management of various types of neurotic disorders.",
+      "sessions": [
+        "Psychological therapies for mental health problems"
+      ],
+      "section": "Lectures",
+      "n": 7,
+      "html": ""
+    },
+    {
+      "text": "Evaluate processes of assessing risk for patients and the public and concepts of 'patient compliance'.",
+      "sessions": [
+        "The Mental Health Act and Mental Capacity Act"
+      ],
+      "section": "Lectures",
+      "n": 8,
+      "html": ""
+    },
+    {
+      "text": "Link factors in a history and mental state exam to abnormal moods and characteristic behaviours associated with psychotic depression and mania.",
+      "sessions": [
+        "Classification and diagnosis of bipolar affective disorders"
+      ],
+      "section": "Lectures",
+      "n": 9,
+      "html": ""
+    },
+    {
+      "text": "Link pathology to signs and symptoms of bipolar disorder.",
+      "sessions": [
+        "Case presentation and mental state examination - mania"
+      ],
+      "section": "Lectures",
+      "n": 10,
+      "html": ""
+    },
+    {
+      "text": "Identify the indications, effects, side effects, interactions and contra-indications of medications (Lithium, anticonvulsants, benzodiazepines and antipsychotics,) ECT and psychosurgery.",
+      "sessions": [
+        "Management of bipolar affective disorder"
+      ],
+      "section": "Lectures",
+      "n": 11,
+      "html": ""
+    },
+    {
+      "text": "Consolidate the learning objectives of the week and answer any residual questions. Neurotic Disorders- Case, Classification, Psychopathology, Aetiology, Pharmacological Treatment",
+      "sessions": [
+        "Neurotic Disorders - Case, Classification, Psychopathology"
+      ],
+      "section": "Lectures",
+      "n": 12,
+      "html": ""
+    },
+    {
+      "text": "Link factors in a psychiatric history and mental state examination to identify a diagnosis in a patient with any of the neurotic disorders",
+      "sessions": [
+        "Neurotic Disorders - Case, Classification, Psychopathology"
+      ],
+      "section": "Lectures",
+      "n": 13,
+      "html": ""
+    },
+    {
+      "text": "Select the pharmacological and other physical treatments in the management of neurotic disorders.",
+      "sessions": [
+        "Aetiology and pharmacological treatment neurotic disorders"
+      ],
+      "section": "Lectures",
+      "n": 14,
+      "html": ""
+    },
+    {
+      "text": "Explain Medical Law and Mental Health.",
+      "sessions": [
+        "Medical Law and Mental Health"
+      ],
+      "section": "Lectures",
+      "n": 15,
+      "html": ""
+    },
+    {
+      "text": "Discuss the variety of dilemmas that doctors have to deal with and strategies for decision making and procedure.",
+      "sessions": [
+        "POVA/DoLS Medical Law"
+      ],
+      "section": "Lectures",
+      "n": 16,
+      "html": ""
+    },
+    {
+      "text": "Identify current health innovations and their impact for clinical practice",
+      "sessions": [
+        "Health innovations"
+      ],
+      "section": "Lectures",
+      "n": 17,
+      "html": ""
+    },
+    {
+      "text": "Recognise and explain factors that contribute to a challenging consultation, including patient, clinician, and situational influences",
+      "sessions": [
+        "Challenging Consultations (aggressive / inappropriate patient)"
+      ],
+      "section": "ICM",
+      "n": 18,
+      "html": ""
+    },
+    {
+      "text": "Evaluate the potential risks during a consultation, including emotional, clinical, or safety-related concerns",
+      "sessions": [
+        "Challenging Consultations (aggressive / inappropriate patient)"
+      ],
+      "section": "ICM",
+      "n": 19,
+      "html": ""
+    },
+    {
+      "text": "Apply de-escalation techniques to help diffuse emotionally charged or confrontational consultations while maintaining professionalism",
+      "sessions": [
+        "Challenging Consultations (aggressive / inappropriate patient)"
+      ],
+      "section": "ICM",
+      "n": 20,
+      "html": ""
+    },
+    {
+      "text": "Reflect on and implement strategies to maintain personal wellbeing and support colleagues during and after challenging consultations",
+      "sessions": [
+        "Challenging Consultations (aggressive / inappropriate patient)"
+      ],
+      "section": "ICM",
+      "n": 21,
+      "html": ""
+    },
+    {
+      "text": "Elicit a focused psychiatric history from a patient with symptoms suggestive of Post-Traumatic Stress Disorder",
+      "sessions": [
+        "PTSD"
+      ],
+      "section": "ICM",
+      "n": 22,
+      "html": ""
+    },
+    {
+      "text": "Describe the core diagnostic features of PTSD, including re-experiencing, avoidance, hyperarousal, and functional impact",
+      "sessions": [
+        "PTSD"
+      ],
+      "section": "ICM",
+      "n": 23,
+      "html": ""
+    },
+    {
+      "text": "Identify and explain evidence-based treatment options for PTSD, including psychological therapies and pharmacological management",
+      "sessions": [
+        "PTSD"
+      ],
+      "section": "ICM",
+      "n": 24,
+      "html": ""
+    },
+    {
+      "text": "Perform a structured and competent mental state examination (MSE), assessing cognitive, emotional, and behavioural aspects of the patient's presentation",
+      "sessions": [
+        "Mental state examination Manic patient"
+      ],
+      "section": "ICM",
+      "n": 25,
+      "html": ""
+    },
+    {
+      "text": "Predict the effects of pathology on the anatomy of the renal system.",
+      "sessions": [
+        "Renal & Reproductive Anatomy & Pathology"
+      ],
+      "section": "Anatomy",
+      "n": 26,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Pathology</th><th>Anatomical basis</th><th>Effects you can predict</th></tr></thead><tbody><tr><td><strong>Kidney stones</strong></td><td>Three narrowings: <strong>PUJ, pelvic brim, VUJ</strong></td><td>Colicky <strong>loin-to-groin</strong> pain (T11–L2, genitofemoral nerve to scrotum or labia); upstream <strong>hydronephrosis</strong>; infection above a block = emergency</td></tr><tr><td><strong>Pyelonephritis</strong></td><td>Kidney under the 12th rib</td><td><strong>Renal angle</strong> tenderness, fever, rigors</td></tr><tr><td><strong>Renal cell carcinoma</strong></td><td><strong>Left renal vein</strong> receives the left gonadal vein; tumour grows into renal vein and IVC</td><td>Haematuria, loin pain, mass; <strong>left varicocele</strong>; IVC tumour thrombus; cannonball lung metastases</td></tr><tr><td><strong>Polycystic kidneys</strong></td><td>Large kidneys in the flanks</td><td>Bilateral ballotable masses, hypertension, CKD; berry aneurysms</td></tr><tr><td><strong>AAA / retroperitoneal mass</strong></td><td>Ureters run on psoas</td><td>Ureteric obstruction; leaking AAA mimics renal colic</td></tr><tr><td><strong>BPH</strong></td><td><strong>Transition zone</strong> around the urethra</td><td>Voiding symptoms, retention, back pressure → bilateral hydronephrosis and AKI</td></tr><tr><td><strong>Bladder cancer</strong></td><td>Urothelium (shared with ureters and pelvis)</td><td>Painless visible haematuria; may block a ureteric orifice</td></tr><tr><td><strong>Bladder rupture</strong></td><td>Dome covered by peritoneum; base extraperitoneal</td><td>Intraperitoneal (blow to a full bladder) vs extraperitoneal (pelvic fracture)</td></tr><tr><td><strong>Urethral injury</strong></td><td>Membranous urethra fixed in the deep pouch; spongy urethra in the bulb</td><td><ul class=\"cl\"><li>Pelvic fracture → blood at the meatus, high-riding prostate</li><li>Straddle injury → urine in the scrotum and abdominal wall, not thighs</li></ul></td></tr><tr><td><strong>Horseshoe kidney</strong></td><td>Fused lower poles trapped under the <strong>IMA</strong></td><td>Stones, infection, obstruction</td></tr><tr><td><strong>Neurogenic bladder</strong></td><td>S2–4, pontine centre</td><td>Cauda equina: painless retention with overflow; cord lesion: reflex bladder</td></tr></tbody></table></div><ul><li><strong>Approach</strong>: follow the urine from the kidney to the meatus and ask where it can be blocked, what lies next to it, and which nerves carry its pain.</li></ul>"
+    },
+    {
+      "text": "Predict the effects of pathology on the anatomy of the reproductive system",
+      "sessions": [
+        "Renal & Reproductive Anatomy & Pathology"
+      ],
+      "section": "Anatomy",
+      "n": 27,
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Pathology</th><th>Anatomical basis</th><th>Effects you can predict</th></tr></thead><tbody><tr><td><strong>Testicular torsion</strong></td><td><strong>Bell-clapper</strong> testis; single testicular artery</td><td>Sudden pain (periumbilical referral, T10), high horizontal testis, lost cremasteric reflex; infarction within ~6 h</td></tr><tr><td><strong>Testicular cancer</strong></td><td>Lymph to <strong>para-aortic nodes</strong> (L1–2)</td><td>Painless lump; nodes in the abdomen, not the groin; orchidectomy through an inguinal incision</td></tr><tr><td><strong>Varicocele</strong></td><td>Left testicular vein enters the <strong>left renal vein</strong> at a right angle</td><td>Left-sided \"bag of worms\"; new one in an older man → check for a renal tumour</td></tr><tr><td><strong>Hydrocele / indirect hernia</strong></td><td>Processus vaginalis</td><td>Transilluminates (hydrocele) vs can't get above it (hernia)</td></tr><tr><td><strong>Prostate cancer</strong></td><td><strong>Peripheral zone</strong> (felt on DRE); <strong>Batson's vertebral venous plexus</strong></td><td>Hard craggy gland; <strong>bone metastases in the spine</strong></td></tr><tr><td><strong>Ectopic pregnancy</strong></td><td><strong>Ampulla</strong> of the uterine tube</td><td>Pain, bleeding; rupture → haemoperitoneum in the <strong>pouch of Douglas</strong>, shoulder-tip pain</td></tr><tr><td><strong>Ovarian torsion / cyst</strong></td><td>Ovary on the pelvic side wall beside the obturator nerve</td><td>Pain referred to the <strong>medial thigh</strong>; torsion compromises the ovarian vessels in the suspensory ligament</td></tr><tr><td><strong>Ovarian cancer</strong></td><td>Lymph to <strong>para-aortic</strong> nodes; transcoelomic spread</td><td>Ascites, omental cake, late presentation</td></tr><tr><td><strong>Cervical cancer</strong></td><td><strong>Ureters ~2 cm lateral</strong> to the cervix</td><td>Spread to the parametrium blocks the ureters → <strong>hydronephrosis</strong>, renal failure</td></tr><tr><td><strong>Hysterectomy injury</strong></td><td>Ureter under the uterine artery</td><td>Ureteric ligation or fistula</td></tr><tr><td><strong>Uterovaginal prolapse</strong></td><td><strong>Levator ani</strong> and endopelvic fascia (cardinal, uterosacral) weakened by childbirth</td><td>Cystocele, rectocele, uterine descent, stress incontinence</td></tr><tr><td><strong>Endometriosis</strong></td><td>Pouch of Douglas, uterosacral ligaments, ovaries</td><td>Deep dyspareunia, dysmenorrhoea, fixed retroverted uterus</td></tr><tr><td><strong>Breast cancer</strong></td><td>Upper outer quadrant, axillary nodes, Cooper's ligaments</td><td>Lump, skin dimpling, peau d'orange, nipple retraction, axillary nodes</td></tr><tr><td><strong>Pelvic inflammatory disease</strong></td><td>Open path vagina → uterus → tubes → peritoneum</td><td>Tubal scarring (infertility, ectopic), Fitz-Hugh–Curtis (liver capsule)</td></tr></tbody></table></div>"
+    }
+  ],
+  "partial": true
+}

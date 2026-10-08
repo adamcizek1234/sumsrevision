@@ -1,0 +1,162 @@
+{
+  "id": "a-139",
+  "num": "139–140",
+  "title": "Pharynx and larynx",
+  "system": "Cardiovascular",
+  "los": [
+    {
+      "n": 1,
+      "text": "Locate the hard and soft palates, describing their muscular actions and bony components",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Palate</th><th>Components</th><th>Action</th></tr></thead><tbody><tr><td><strong>Hard palate</strong> (front 2/3)</td><td><ul class=\"cl\"><li><strong>Palatine processes of the maxillae</strong> + <strong>horizontal plates of the palatine bones</strong></li><li>Incisive foramen at the front, greater and lesser palatine foramina at the back</li></ul></td><td>Rigid roof of the mouth; separates mouth from nose; surface for the tongue in speech and swallowing</td></tr><tr><td><strong>Soft palate</strong> (back 1/3)</td><td>Muscular fold hanging from the back of the hard palate; <strong>palatine aponeurosis</strong> (tensor veli palatini tendon); ends in the <strong>uvula</strong></td><td><ul class=\"cl\"><li><strong>Elevates</strong> to seal off the nasopharynx in swallowing and speech</li><li>Lowers to close off the mouth (breathing through the nose while chewing)</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Describe the actions of the muscles that move the soft palate and their nerve supply",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Muscle</th><th>Action</th><th>Nerve</th></tr></thead><tbody><tr><td><strong>Levator veli palatini</strong></td><td><strong>Elevates</strong> the soft palate</td><td><strong>Vagus (X)</strong> via the pharyngeal plexus</td></tr><tr><td><strong>Tensor veli palatini</strong></td><td><strong>Tenses</strong> it; opens the auditory tube (swallowing, yawning)</td><td><strong>Mandibular nerve (V3)</strong> (nerve to medial pterygoid)</td></tr><tr><td>Palatoglossus</td><td>Raises the tongue, narrows the oropharyngeal isthmus</td><td>Vagus (pharyngeal plexus)</td></tr><tr><td>Palatopharyngeus</td><td>Raises the pharynx and larynx, closes the nasopharynx</td><td>Vagus</td></tr><tr><td>Musculus uvulae</td><td>Shortens and raises the uvula</td><td>Vagus</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Rule</th><td>All palate muscles are vagus <strong>except tensor veli palatini (V3)</strong>.</td></tr><tr><th scope=\"row\">Vagus lesion</th><td><ul class=\"cl\"><li>The palate fails to rise on one side and the <strong>uvula deviates away</strong> from the lesion</li><li>Nasal speech and nasal regurgitation.</li></ul></td></tr><tr><th scope=\"row\">Cleft palate</th><td>Palatal shelves fail to fuse → feeding problems, speech problems, middle ear effusions (tensor veli palatini can't open the auditory tube).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Describe the innervation of the hard and soft palates (sensory and motor)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Region</th><th>Sensory nerve</th><th>Branch of</th></tr></thead><tbody><tr><td>Hard palate (most)</td><td><strong>Greater palatine nerve</strong></td><td><strong>Maxillary (V2)</strong> via the pterygopalatine ganglion</td></tr><tr><td>Hard palate (behind the incisors)</td><td><strong>Nasopalatine nerve</strong> (incisive foramen)</td><td>V2</td></tr><tr><td><strong>Soft palate</strong></td><td><strong>Lesser palatine nerves</strong> (+ IX at the back)</td><td>V2 (and glossopharyngeal)</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Motor</th><td>Vagus via the pharyngeal plexus, except tensor veli palatini (V3).</td></tr><tr><td colspan=\"2\"><strong>Taste</strong> from the soft palate: facial nerve (greater petrosal) fibres travelling with the lesser palatine nerves.</td></tr><tr><th scope=\"row\">Glands</th><td>Parasympathetic secretomotor from VII (greater petrosal → pterygopalatine ganglion).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Describe the components of the gag reflex",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Component</th><th>Nerve</th></tr></thead><tbody><tr><td><strong>Stimulus</strong></td><td>Touch to the back of the tongue, tonsillar area or posterior pharyngeal wall</td></tr><tr><td><strong>Afferent</strong></td><td><strong>Glossopharyngeal (IX)</strong></td></tr><tr><td><strong>Centre</strong></td><td>Nucleus solitarius → <strong>nucleus ambiguus</strong> (medulla)</td></tr><tr><td><strong>Efferent</strong></td><td><strong>Vagus (X)</strong>: pharyngeal constrictors and palate muscles contract</td></tr></tbody></table></div><ul><li><strong>Testing</strong>: touch each side<ul><li>compare.</li><li>Absent gag with a unilateral IX or X lesion</li><li>preserved in many people anyway, so it's not a reliable test of swallow safety.</li></ul></li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Describe the general disposition and relationships of the pharynx",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Pharynx</strong>: fibromuscular tube ~12–15 cm from the <strong>skull base</strong> to <strong>C6</strong> (lower border of the cricoid), where it becomes the oesophagus.</li></ul><div class=\"tbl\"><table><thead><tr><th>Part</th><th>Level</th><th>Lies behind</th><th>Features</th></tr></thead><tbody><tr><td><strong>Nasopharynx</strong></td><td>Skull base to soft palate (C1)</td><td><strong>Nasal cavity</strong> (choanae)</td><td>Auditory tube opening, adenoids (pharyngeal tonsil), pharyngeal recess (fossa of Rosenmüller: nasopharyngeal cancer)</td></tr><tr><td><strong>Oropharynx</strong></td><td>Soft palate to the epiglottis tip (C2–3)</td><td><strong>Mouth</strong> (oropharyngeal isthmus)</td><td>Palatine tonsils between the palatoglossal and palatopharyngeal arches, back of the tongue, vallecula</td></tr><tr><td><strong>Laryngopharynx</strong> (hypopharynx)</td><td>Epiglottis to cricoid (C3–6)</td><td><strong>Larynx</strong></td><td><strong>Piriform fossae</strong> either side of the laryngeal inlet (foreign bodies, fish bones), postcricoid region</td></tr></tbody></table></div><ul><li><strong>Relations</strong>: behind = retropharyngeal space, prevertebral fascia, cervical vertebrae<ul><li>sides = carotid sheath, styloid process and muscles, parapharyngeal space, thyroid lobes (lower).</li></ul></li></ul>"
+    },
+    {
+      "n": 6,
+      "text": "Identify the opening of the auditory (Eustachian) tube in the nasopharynx",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Auditory (Eustachian) tube opening</th><td><ul class=\"cl\"><li>on the <strong>lateral wall of the nasopharynx</strong>, ~1 cm behind the inferior nasal concha, surrounded above and behind by the <strong>torus tubarius</strong> (cartilage ridge).</li><li>The salpingopharyngeal fold runs down from it</li><li>The <strong>pharyngeal recess</strong> lies behind.</li></ul></td></tr><tr><th scope=\"row\">Function</th><td>Equalises middle ear pressure and drains the middle ear; opened by <strong>tensor veli palatini</strong> (and levator) on swallowing and yawning.</td></tr><tr><th scope=\"row\">Clinical</th><td><ul class=\"cl\"><li>Children have a shorter, more horizontal tube → otitis media</li><li>Enlarged adenoids block it (glue ear)</li><li>a unilateral middle ear effusion in an adult needs the nasopharynx checked for cancer.</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "List the constrictor muscles of the pharynx",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Muscle</th><th>Origin</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Superior constrictor</strong></td><td>Pterygoid hamulus, pterygomandibular raphe, mandible</td><td>Top edge leaves a gap below the skull base (auditory tube, levator veli palatini pass)</td></tr><tr><td><strong>Middle constrictor</strong></td><td>Hyoid (greater and lesser horns), stylohyoid ligament</td><td></td></tr><tr><td><strong>Inferior constrictor</strong></td><td><strong>Thyropharyngeus</strong> (thyroid cartilage) and <strong>cricopharyngeus</strong> (cricoid)</td><td>Cricopharyngeus = upper oesophageal sphincter</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Insertion</th><td>All into the <strong>pharyngeal raphe</strong> at the back (midline).</td></tr><tr><th scope=\"row\">Arrangement</th><td>They <strong>overlap like stacked cups</strong> (inferior outside middle outside superior) and squeeze food down in sequence.</td></tr><tr><th scope=\"row\">Longitudinal muscles</th><td>Stylopharyngeus (IX), palatopharyngeus, salpingopharyngeus (X): elevate the pharynx and larynx in swallowing.</td></tr><tr><th scope=\"row\">Nerve</th><td>All constrictors: <strong>vagus</strong> via the pharyngeal plexus (cricopharyngeus also from the recurrent laryngeal).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Describe the mucosa, fascia and tissue spaces of the pharynx and explain the condition quinsy",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Layer (inside → out)</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Mucosa</strong></td><td>Pseudostratified ciliated (nasopharynx); stratified squamous (oro- and laryngopharynx)</td></tr><tr><td><strong>Pharyngobasilar fascia</strong></td><td>Thick submucosa, especially above the superior constrictor</td></tr><tr><td><strong>Muscle</strong></td><td>Constrictors + longitudinal muscles</td></tr><tr><td><strong>Buccopharyngeal fascia</strong></td><td>Thin outer layer</td></tr><tr><td>Space</td><td>Location</td><td>Clinical</td></tr><tr><td><strong>Peritonsillar</strong></td><td>Between the tonsil capsule and the superior constrictor</td><td><strong>Quinsy</strong></td></tr><tr><td>Retropharyngeal</td><td>Behind the buccopharyngeal fascia, in front of the prevertebral fascia</td><td>Abscess in children; spread to the mediastinum</td></tr><tr><td><strong>Parapharyngeal</strong></td><td>Beside the pharynx (skull base to hyoid)</td><td>Spread from tonsil/teeth; carotid sheath at risk</td></tr></tbody></table></div><ul><li><strong>Quinsy (peritonsillar abscess)</strong>: a complication of tonsillitis<ul><li>pus between the tonsil capsule and superior constrictor.</li><li><strong>Signs</strong>: severe one-sided sore throat, <strong>trismus</strong> (medial pterygoid irritated), \"hot potato\" voice, uvula pushed to the <strong>opposite side</strong>, drooling, ear pain (IX).</li><li><strong>Treatment</strong>: needle aspiration or incision and drainage, antibiotics.</li></ul></li></ul>"
+    },
+    {
+      "n": 9,
+      "text": "Explain the innervation of the pharynx",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Pharyngeal plexus</strong>: on the middle constrictor, formed by <strong>IX</strong> (sensory), <strong>X</strong> (motor) and sympathetic fibres (superior cervical ganglion).</li></ul><div class=\"tbl\"><table><thead><tr><th>Part</th><th>Sensory</th><th>Motor</th></tr></thead><tbody><tr><td>Nasopharynx</td><td><strong>Maxillary (V2)</strong> (pharyngeal branch)</td><td></td></tr><tr><td><strong>Oropharynx</strong></td><td><strong>Glossopharyngeal (IX)</strong></td><td><strong>Vagus (X)</strong> for all muscles except stylopharyngeus (<strong>IX</strong>)</td></tr><tr><td>Laryngopharynx</td><td><strong>Vagus (X)</strong> (internal laryngeal nerve)</td><td>Vagus (and recurrent laryngeal for cricopharyngeus)</td></tr></tbody></table></div><ul><li><strong>Referred ear pain</strong>: IX and X also supply the ear (tympanic nerve, auricular branch), so tonsillitis, quinsy and throat cancers cause <strong>otalgia</strong>.</li></ul>"
+    },
+    {
+      "n": 10,
+      "text": "List the structures passing through the walls of pharynx",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Gap</th><th>Between</th><th>Structures passing through</th></tr></thead><tbody><tr><td>Above the superior constrictor</td><td>Skull base and superior constrictor</td><td><strong>Auditory tube</strong>, <strong>levator veli palatini</strong>, ascending palatine artery</td></tr><tr><td>Between superior and middle constrictors</td><td></td><td><strong>Stylopharyngeus</strong>, <strong>glossopharyngeal nerve (IX)</strong>, stylohyoid ligament, lingual nerve (nearby)</td></tr><tr><td>Between middle and inferior constrictors</td><td></td><td><strong>Internal laryngeal nerve</strong>, superior laryngeal artery and vein (pierce the thyrohyoid membrane)</td></tr><tr><td>Below the inferior constrictor</td><td></td><td><strong>Recurrent laryngeal nerve</strong>, inferior laryngeal artery</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 11,
+      "text": "Describe the cricopharyngeal sphincter (or upper oesophageal sphincter)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Cricopharyngeus</th><td><ul class=\"cl\"><li>Lower part of the inferior constrictor, horizontal fibres from one side of the cricoid to the other, at <strong>C6</strong></li><li>The <strong>upper oesophageal sphincter</strong> and <strong>narrowest part</strong> of the gut tube (~15 cm from the teeth).</li></ul></td></tr><tr><th scope=\"row\">Function</th><td>Tonically contracted at rest (stops air entering the oesophagus during inspiration and reflux into the pharynx); relaxes briefly during swallowing.</td></tr><tr><th scope=\"row\">Killian's dehiscence</th><td><ul class=\"cl\"><li>Weak area between <strong>thyropharyngeus</strong> (oblique) and <strong>cricopharyngeus</strong> (horizontal)</li><li>at the back → <strong>pharyngeal pouch (Zenker's diverticulum)</strong> in older people: dysphagia</li><li>Regurgitation of undigested food</li><li>Halitosis</li><li>Gurgling neck swelling (usually left).</li><li>Risk of perforation at endoscopy.</li></ul></td></tr><tr><th scope=\"row\">Nerve</th><td>Vagus via the pharyngeal plexus and recurrent laryngeal nerve.</td></tr><tr><td colspan=\"2\"><strong>Foreign bodies</strong> (coins, food boluses) often stick here.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 12,
+      "text": "Recognise the anatomical arrangement of the lymphoid tissue of the pharynx (Waldeyer's tonsillar ring)",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>Waldeyer's ring</strong>: a ring of lymphoid tissue guarding the entrance to the aerodigestive tract.</li></ul><div class=\"tbl\"><table><thead><tr><th>Tonsil</th><th>Position</th></tr></thead><tbody><tr><td><strong>Pharyngeal (adenoids)</strong></td><td>Roof and back wall of the <strong>nasopharynx</strong></td></tr><tr><td><strong>Tubal</strong> (×2)</td><td>Around the <strong>auditory tube openings</strong></td></tr><tr><td><strong>Palatine</strong> (×2)</td><td><strong>Oropharynx</strong>, in the tonsillar fossa between the palatoglossal and palatopharyngeal arches</td></tr><tr><td><strong>Lingual</strong></td><td>Back third of the <strong>tongue</strong></td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Clinical</th><td><ul class=\"cl\"><li>Enlarged <strong>adenoids</strong> → mouth breathing, snoring, sleep apnoea, glue ear</li><li><strong>Palatine tonsils</strong> → tonsillitis, quinsy, obstructive sleep apnoea.</li><li>Tonsillectomy bleeding comes from the <strong>paratonsillar (external palatine) vein</strong> and tonsillar branch of the facial artery</li><li>The <strong>glossopharyngeal nerve</strong> lies in the tonsil bed (post-operative ear pain and taste changes).</li></ul></td></tr><tr><th scope=\"row\">Lymph drainage</th><td>to the <strong>jugulodigastric</strong> node.</td></tr><tr><th scope=\"row\">Atrophy</th><td>The ring shrinks after childhood.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 13,
+      "text": "Identify the hyoid bone, the cartilaginous skeleton and ligamentous structures of the larynx",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Structure</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Hyoid</strong> (C3)</td><td>U-shaped bone, body and greater/lesser horns; not part of the larynx but the larynx hangs from it; no bony joints</td></tr><tr><td><strong>Thyroid cartilage</strong> (hyaline)</td><td>Two laminae meeting at the <strong>laryngeal prominence</strong> (Adam's apple); superior and inferior horns</td></tr><tr><td><strong>Cricoid cartilage</strong> (hyaline, C6)</td><td><strong>Only complete ring</strong> in the airway; signet-ring shape (taller behind)</td></tr><tr><td><strong>Arytenoid cartilages</strong> (×2, hyaline)</td><td>On the top of the cricoid lamina; vocal process (vocal ligament attaches) and muscular process</td></tr><tr><td><strong>Epiglottis</strong> (elastic)</td><td>Leaf-shaped, behind the tongue, attached to the thyroid cartilage</td></tr><tr><td>Corniculate and cuneiform (elastic)</td><td>Small, in the aryepiglottic folds</td></tr><tr><td>Membrane / ligament</td><td>Joins</td></tr><tr><td><strong>Thyrohyoid membrane</strong></td><td>Hyoid and thyroid cartilage (pierced by the internal laryngeal nerve and superior laryngeal vessels)</td></tr><tr><td><strong>Cricothyroid membrane</strong> (cricothyroid ligament)</td><td>Thyroid and cricoid; its free upper edge is the <strong>vocal ligament</strong> (conus elasticus)</td></tr><tr><td>Quadrangular membrane</td><td>Epiglottis and arytenoids; lower free edge = <strong>vestibular ligament</strong> (false cord)</td></tr><tr><td>Cricotracheal ligament</td><td>Cricoid and first tracheal ring</td></tr></tbody></table></div><ul><li><strong>Joints</strong>: <strong>cricothyroid</strong> (synovial: thyroid tilts forward on the cricoid) and <strong>cricoarytenoid</strong> (synovial: arytenoids rotate and glide).</li></ul>"
+    },
+    {
+      "n": 14,
+      "text": "Demonstrate the palpable positions of the hyoid bone, thyroid and cricoid cartilages",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<ul><li><strong>From the chin down in the midline</strong>:</li></ul><div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1. Hyoid bone<span class=\"paren\">(C3)</span></th><td>Just above the thyroid cartilage, in the angle between chin and neck; moves up on swallowing.</td></tr><tr><th scope=\"row\">2. Thyroid notch and laryngeal prominence<span class=\"paren\">(C4)</span></th><td>Most obvious in men.</td></tr><tr><th scope=\"row\">3. Cricothyroid membrane</th><td>a soft dip between the thyroid and cricoid cartilages: site of <strong>emergency cricothyroidotomy</strong> (few vessels, below the vocal cords).</td></tr><tr><th scope=\"row\">4. Cricoid cartilage<span class=\"paren\">(C6)</span></th><td>Firm ring below the dip; pressure here (<strong>cricoid pressure</strong>) was used to compress the oesophagus during rapid sequence induction.</td></tr><tr><th scope=\"row\">5</th><td><strong>Tracheal rings</strong> and the thyroid isthmus (rings 2–4).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 15,
+      "text": "Describe the muscles that elevate the larynx and facilitate closure of the inlet",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Action</th><th>Muscles</th><th>Nerve</th></tr></thead><tbody><tr><td><strong>Elevating the larynx</strong> (swallowing)</td><td><strong>Suprahyoid</strong>: mylohyoid, geniohyoid, digastric, stylohyoid; <strong>thyrohyoid</strong>; longitudinal pharyngeal muscles (stylopharyngeus, palatopharyngeus, salpingopharyngeus)</td><td>V3 (mylohyoid, anterior digastric), VII (posterior digastric, stylohyoid), C1 (geniohyoid, thyrohyoid), IX, X</td></tr><tr><td><strong>Closing the inlet</strong></td><td><strong>Aryepiglottic</strong> and <strong>oblique arytenoid</strong> muscles (sphincter); <strong>thyroepiglottic</strong>; larynx rising under the tongue base tips the epiglottis back</td><td><strong>Recurrent laryngeal (X)</strong></td></tr><tr><td>Depressing the larynx (after swallowing)</td><td>Infrahyoid strap muscles</td><td>Ansa cervicalis (C1–3)</td></tr></tbody></table></div><ul><li><strong>Protecting the airway in swallowing</strong>: breathing stops<ul><li>the larynx rises and moves forward</li><li>the inlet and vocal folds close</li><li>and the epiglottis folds down over the inlet.</li></ul></li></ul>"
+    },
+    {
+      "n": 16,
+      "text": "Describe the intrinsic laryngeal muscles responsible for controlling vocal cord position and tension and how these function during phonation, laryngeal closure, the cough reflex and regulation of intrathoracic pressure",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Muscle</th><th>Action on the vocal cords</th><th>Nerve</th></tr></thead><tbody><tr><td><strong>Posterior cricoarytenoid</strong></td><td><strong>The only abductor</strong> (opens the rima glottidis)</td><td>Recurrent laryngeal</td></tr><tr><td><strong>Lateral cricoarytenoid</strong></td><td><strong>Adducts</strong> (closes)</td><td>Recurrent laryngeal</td></tr><tr><td><strong>Transverse and oblique arytenoids</strong></td><td>Adduct (close the back of the glottis)</td><td>Recurrent laryngeal</td></tr><tr><td><strong>Cricothyroid</strong></td><td><strong>Tenses</strong> (lengthens) the cords: higher pitch</td><td><strong>External laryngeal</strong> (superior laryngeal)</td></tr><tr><td><strong>Thyroarytenoid / vocalis</strong></td><td><strong>Relaxes</strong> (shortens) and fine-tunes tension</td><td>Recurrent laryngeal</td></tr><tr><td>Situation</td><td>What the larynx does</td></tr><tr><td><strong>Phonation</strong></td><td>Cords <strong>adducted</strong> and tensed; air forced through makes them vibrate (pitch from tension and length, loudness from air pressure)</td></tr><tr><td><strong>Laryngeal closure (swallowing)</strong></td><td>Cords, vestibular folds and inlet all close</td></tr><tr><td><strong>Cough</strong></td><td>Cords close, expiratory muscles build pressure, then cords open suddenly to blast air out</td></tr><tr><td><strong>Effort closure (Valsalva)</strong></td><td>Cords close to <strong>raise intrathoracic and intra-abdominal pressure</strong> (lifting, straining, defecation, childbirth) and fix the chest</td></tr><tr><td><strong>Quiet breathing</strong></td><td>Cords partly abducted</td></tr><tr><td><strong>Deep breathing</strong></td><td>Cords <strong>fully abducted</strong> (posterior cricoarytenoid)</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 17,
+      "text": "Recognise the chambers of the larynx",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Chamber</th><th>Between</th><th>Features</th></tr></thead><tbody><tr><td><strong>Vestibule</strong> (supraglottis)</td><td>Laryngeal inlet → <strong>vestibular folds</strong> (false cords)</td><td>Aryepiglottic folds, epiglottis</td></tr><tr><td><strong>Ventricle</strong> (with saccule)</td><td>Between the vestibular and vocal folds</td><td>Mucous glands lubricate the cords</td></tr><tr><td><strong>Infraglottic cavity</strong> (subglottis)</td><td><strong>Vocal folds</strong> → lower border of cricoid</td><td>Continuous with the trachea; narrowest part of the airway in young children</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Rima glottidis</th><td>Gap between the vocal folds (narrowest part of the adult airway).</td></tr><tr><th scope=\"row\">Glottis</th><td>The vocal folds + rima glottidis.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 18,
+      "text": "List the functions of the larynx",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Protects the airway<span class=\"paren\">(sphincter; most important function)</span></th><td>Closes in swallowing, cough reflex.</td></tr><tr><th scope=\"row\">Breathing</th><td>An open, adjustable airway.</td></tr><tr><th scope=\"row\">Phonation</th><td>Voice production.</td></tr><tr><th scope=\"row\">Effort closure</th><td>Raises intrathoracic and intra-abdominal pressure (Valsalva) for lifting, coughing, defecating, childbirth.</td></tr><tr><th scope=\"row\">Cough</th><td>Expels foreign material and secretions.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 19,
+      "text": "Describe the origin, course and functions of the motor and sensory nerve supplies of the larynx and the functional consequences of injury to these nerves",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Nerve</th><th>Origin and course</th><th>Motor</th><th>Sensory</th></tr></thead><tbody><tr><td><strong>Superior laryngeal</strong></td><td>Vagus at the inferior ganglion → down beside the pharynx → splits</td><td></td><td></td></tr><tr><td>↳ <strong>Internal laryngeal</strong></td><td>Pierces the <strong>thyrohyoid membrane</strong> with the superior laryngeal artery</td><td>None</td><td>Mucosa <strong>above the vocal cords</strong> (cough reflex afferent)</td></tr><tr><td>↳ <strong>External laryngeal</strong></td><td>Runs down with the <strong>superior thyroid artery</strong></td><td><strong>Cricothyroid</strong></td><td>None</td></tr><tr><td><strong>Recurrent laryngeal</strong></td><td><ul class=\"cl\"><li>Right: hooks under the <strong>right subclavian artery</strong></li><li>Left: under the <strong>aortic arch</strong> (by the ligamentum arteriosum)</li><li>→ up in the tracheo-oesophageal groove</li><li>→ enters the larynx behind the cricothyroid joint</li></ul></td><td><strong>All other intrinsic muscles</strong></td><td>Mucosa <strong>below the vocal cords</strong></td></tr><tr><td>Injury</td><td>Cause</td><td>Result</td></tr><tr><td><strong>External laryngeal</strong></td><td>Thyroidectomy (tying the superior thyroid artery)</td><td>Weak, monotonous voice; can't reach high notes</td></tr><tr><td><strong>Internal laryngeal</strong></td><td>Rare</td><td>Loss of sensation above the cords → aspiration</td></tr><tr><td><strong>One recurrent laryngeal</strong></td><td>Thyroidectomy, <strong>lung cancer or aortic aneurysm (left)</strong>, oesophageal cancer, central lines</td><td><strong>Hoarse voice</strong>; affected cord lies near the midline (paramedian)</td></tr><tr><td><strong>Both recurrent laryngeal</strong></td><td>Thyroidectomy</td><td>Both cords near the midline → <strong>stridor, airway obstruction</strong> (may need tracheostomy)</td></tr></tbody></table></div><ul><li><strong>Left RLN is longer</strong> (goes down into the chest), so it's damaged more often.</li></ul>"
+    },
+    {
+      "n": 20,
+      "text": "Recall and recognise the arterial supply, venous and lymphatic drainage of the larynx",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl\"><table><thead><tr><th></th><th>Above the vocal cords</th><th>Below the vocal cords</th></tr></thead><tbody><tr><td><strong>Arteries</strong></td><td><strong>Superior laryngeal artery</strong> (superior thyroid → ECA)</td><td><strong>Inferior laryngeal artery</strong> (inferior thyroid → thyrocervical trunk)</td></tr><tr><td><strong>Veins</strong></td><td>Superior laryngeal vein → superior thyroid → <strong>IJV</strong></td><td>Inferior laryngeal vein → inferior thyroid → <strong>brachiocephalic</strong></td></tr><tr><td><strong>Lymph</strong></td><td><strong>Upper deep cervical</strong> nodes</td><td><strong>Pre-laryngeal, pre-tracheal and paratracheal</strong> nodes → lower deep cervical</td></tr></tbody></table></div><ul><li><strong>Vocal folds</strong> have very little lymphatic drainage, so <strong>glottic cancers</strong> spread late (and present early with hoarseness: good prognosis).<ul><li>Supraglottic cancers spread early, often to both sides.</li></ul></li></ul>"
+    },
+    {
+      "n": 21,
+      "text": "Demonstrate on a model how the larynx works during breathing and phonation, noting that it opens during breathing and is partially closed during speaking",
+      "section": "Anatomy",
+      "sessions": [],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Breathing</th><td><ul class=\"cl\"><li>The posterior cricoarytenoids rotate the arytenoids outwards so the vocal processes swing apart</li><li>The rima glottidis opens into a <strong>wide triangle</strong> (wider still in deep breaths).</li></ul></td></tr><tr><th scope=\"row\">Speaking</th><td><ul class=\"cl\"><li>Lateral cricoarytenoids and arytenoid muscles bring the vocal processes together so the rima is <strong>nearly closed</strong></li><li>Cricothyroid tilts the thyroid cartilage forward to stretch the cords</li><li>Air pressure from below forces the cords apart in rapid vibrations.</li></ul></td></tr><tr><th scope=\"row\">Whispering</th><td>The front of the cords close but a small triangular gap stays open at the back between the arytenoids.</td></tr><tr><th scope=\"row\">Pitch</th><td>Longer, tighter cords (cricothyroid) and a higher vibration rate give a higher pitch.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 22,
+      "text": "Recognise structures of the larynx and pharynx on radiographs",
+      "section": "Practical",
+      "sessions": [],
+      "html": ""
+    }
+  ]
+}
