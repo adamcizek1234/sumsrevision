@@ -1,0 +1,71 @@
+{
+  "id": "i-128",
+  "num": "128",
+  "title": "Bronchial sepsis",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Describe the appropriate sizing and insertion technique for a laryngeal mask airway (LMA).",
+      "section": "ICM",
+      "sessions": [
+        "LMA insertion & introduction to intubation"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Step</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Sizing (by weight)</strong></td><td><ul class=\"cl\"><li><strong>Size 3</strong>: 30–50 kg (small adult)</li><li><strong>Size 4</strong>: 50–70 kg</li><li><strong>Size 5</strong>: 70–100 kg (as a rule, 4 for women, 5 for men)</li></ul></td></tr><tr><td><strong>Check</strong></td><td>Inflate and deflate the cuff, lubricate the back</td></tr><tr><td><strong>Position</strong></td><td>Head in \"sniffing the morning air\" (if no C-spine concern)</td></tr><tr><td><strong>Insert</strong></td><td><ul class=\"cl\"><li>Cuff deflated, open side facing the tongue</li><li>Press along the <strong>hard palate</strong> with the index finger, advance until resistance (it sits over the laryngeal inlet)</li></ul></td></tr><tr><td><strong>Inflate</strong></td><td>With the recommended air volume (or use an <strong>i-gel</strong>: no cuff, self-sealing)</td></tr><tr><td><strong>Confirm</strong></td><td>Chest rise, breath sounds, <strong>capnography</strong> (end-tidal CO₂)</td></tr><tr><td><strong>Secure</strong></td><td>Tape or tie</td></tr></tbody></table></div><ul><li><strong>LMA = supraglottic airway device</strong>: easier than intubation; used in cardiac arrest and anaesthesia.</li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Identify contraindications for the use of a laryngeal mask airway.",
+      "section": "ICM",
+      "sessions": [
+        "LMA insertion & introduction to intubation"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Contraindication</th><th>Reason</th></tr></thead><tbody><tr><td><strong>Gag reflex present / not deeply unconscious</strong></td><td>Vomiting, laryngospasm</td></tr><tr><td><strong>High aspiration risk</strong> (full stomach, bowel obstruction, late pregnancy)</td><td>Doesn't protect against aspiration</td></tr><tr><td><strong>Upper airway obstruction or trauma</strong> (below or at the larynx), oral trauma</td><td>May not seal or may worsen</td></tr><tr><td><strong>Limited mouth opening</strong></td><td>Can't insert</td></tr><tr><td><strong>Need for high airway pressures</strong> (stiff lungs, severe bronchospasm)</td><td>Leak</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Describe the principles and basic steps of tracheal intubation.",
+      "section": "ICM",
+      "sessions": [
+        "LMA insertion & introduction to intubation"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1. Prepare</th><td>Team roles, equipment checked (laryngoscope, tubes in two sizes, bougie, suction, capnography), monitoring, IV access, drugs, plan B (supraglottic, front-of-neck access).</td></tr><tr><th scope=\"row\">2</th><td><strong>Pre-oxygenate</strong> with 100% oxygen for 3 minutes.</td></tr><tr><th scope=\"row\">3</th><td><strong>Induction and paralysis</strong> (rapid sequence induction if aspiration risk).</td></tr><tr><th scope=\"row\">4. Position</th><td>Sniffing position, laryngoscope in the right of the mouth, sweep the tongue left, lift (don't lever) to see the <strong>vocal cords</strong>.</td></tr><tr><th scope=\"row\">5</th><td>Pass the <strong>endotracheal tube</strong> through the cords (cuff just below), inflate the cuff.</td></tr><tr><th scope=\"row\">6. Confirm</th><td><strong>Waveform capnography</strong> (gold standard), chest rise, breath sounds both sides, not over the stomach.</td></tr><tr><th scope=\"row\">7</th><td>Secure; ventilate; CXR for tube position.</td></tr></tbody></table></div><ul><li><strong>Advantage</strong>: definitive airway that <strong>protects against aspiration</strong>; <strong>\"No trace = wrong place\"</strong>.</li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Explain the different types of inhalers, their indications, and demonstrate correct inhaler technique.",
+      "section": "ICM",
+      "sessions": [
+        "Pharmacy"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Inhaler</th><th>Examples</th><th>Technique key points</th></tr></thead><tbody><tr><td><strong>pMDI</strong> (pressurised metered dose)</td><td>Salbutamol, beclometasone</td><td><ul class=\"cl\"><li>Shake, breathe out, seal lips, <strong>press and breathe in slowly and deeply</strong>, hold breath 10 s</li><li>Use a <strong>spacer</strong> (better delivery, children, acute attacks)</li></ul></td></tr><tr><td><strong>Dry powder inhaler (DPI)</strong></td><td>Turbohaler, Accuhaler, Ellipta</td><td>Load, breathe out away from it, <strong>breathe in quickly and deeply</strong>, hold 10 s; don't shake or exhale into it</td></tr><tr><td><strong>Soft mist</strong></td><td>Respimat</td><td>Slow inhalation</td></tr><tr><td><strong>Nebuliser</strong></td><td>Salbutamol, ipratropium</td><td>Acute severe attacks, unable to use inhalers</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Type</th><th>Use</th></tr></thead><tbody><tr><td><strong>SABA</strong> (salbutamol)</td><td><strong>Reliever</strong></td></tr><tr><td><strong>ICS</strong> (beclometasone, budesonide)</td><td><strong>Preventer</strong> (asthma); rinse mouth (oral thrush)</td></tr><tr><td><strong>LABA</strong> (formoterol, salmeterol)</td><td>With ICS only in asthma</td></tr><tr><td><strong>ICS/formoterol</strong> (MART, AIR)</td><td>Reliever and preventer in one (BTS/NICE/SIGN 2024)</td></tr><tr><td><strong>LAMA</strong> (tiotropium)</td><td>COPD, add-on in asthma</td></tr></tbody></table></div><ul><li><strong>Check technique at every review</strong> before stepping up treatment.</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Explain the clinical indications for requesting an arterial blood gas (ABG) test.",
+      "section": "ICM",
+      "sessions": [
+        "Arterial blood gases"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Indication</th><th>Information gained</th></tr></thead><tbody><tr><td><strong>Respiratory failure</strong> (low sats, drowsiness, COPD exacerbation)</td><td><strong>PaO₂, PaCO₂</strong>: type 1 vs type 2 respiratory failure</td></tr><tr><td><strong>Acid–base disturbance</strong>: DKA, sepsis, renal failure, poisoning</td><td><strong>pH, HCO₃⁻, base excess, lactate</strong></td></tr><tr><td><strong>Severe asthma</strong></td><td>Rising or normal CO₂ = life-threatening</td></tr><tr><td><strong>Shock</strong></td><td>Lactate</td></tr><tr><td><strong>Rapid electrolytes, Hb, glucose, carboxyhaemoglobin</strong></td><td>Point-of-care values</td></tr><tr><td><strong>Ventilated / NIV patients</strong></td><td>Adjust settings</td></tr></tbody></table></div><ul><li><strong>Venous gas</strong> is enough for pH, bicarbonate, lactate and potassium; arterial is needed for <strong>oxygenation</strong>.</li></ul>"
+    },
+    {
+      "n": 6,
+      "text": "Demonstrate the ability to perform an arterial blood gas sampling on a model, applying aseptic non-touch technique (ANTT) principles throughout the procedure.",
+      "section": "ICM",
+      "sessions": [
+        "Arterial blood gases"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Check indication; <strong>Allen's test</strong> (collateral ulnar flow) before radial puncture; check anticoagulation, platelets.</td></tr><tr><th scope=\"row\">2</th><td>Explain (it's more painful than venepuncture), consent; note oxygen therapy (FiO₂).</td></tr><tr><th scope=\"row\">3</th><td><ul class=\"cl\"><li>ANTT: hand hygiene, gloves, clean the skin over the <strong>radial artery</strong> (proximal to the wrist crease, lateral to FCR), allow to dry</li><li>Local anaesthetic if time.</li></ul></td></tr><tr><th scope=\"row\">4. Heparinised syringe</th><td><ul class=\"cl\"><li>Expel excess</li><li>Palpate the pulse with two fingers</li><li>Insert at <strong>30–45°</strong> bevel up</li><li>Towards the pulse</li><li>Until arterial blood <strong>pulsates</strong> into the syringe (1–2 mL).</li></ul></td></tr><tr><th scope=\"row\">5</th><td>Withdraw and <strong>press firmly for 5 minutes</strong> (longer if anticoagulated).</td></tr><tr><th scope=\"row\">6</th><td><strong>Expel air bubbles</strong>, cap, mix, label, <strong>analyse within 10–15 minutes</strong> (or on ice).</td></tr><tr><th scope=\"row\">7</th><td>Sharps disposal, document site, time, FiO₂; check the hand perfusion.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Perform a rapid A to E assessment of a patient presenting with shortness of breath, demonstrating the ability to identify key clinical signs, prioritise interventions, and make appropriate clinical decisions to manage the patient's condition.",
+      "section": "ICM",
+      "sessions": [
+        "A-E assesment - Asthma"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Stage</th><th>Acute asthma findings</th><th>Action</th></tr></thead><tbody><tr><td><strong>A</strong></td><td>Talking?</td><td>—</td></tr><tr><td><strong>B</strong></td><td><strong>PEF</strong> % best/predicted, <strong>can't complete sentences</strong>, RR ≥25, <strong>silent chest</strong>, sats &lt;92%, cyanosis, exhaustion</td><td><strong>Oxygen</strong> to 94–98%, <strong>salbutamol 5 mg nebulised</strong> (back-to-back), <strong>ipratropium 500 µg</strong></td></tr><tr><td><strong>C</strong></td><td>HR ≥110, <strong>hypotension</strong>, arrhythmia</td><td>IV access, bloods</td></tr><tr><td><strong>D</strong></td><td>Confusion, drowsiness</td><td>ABG: <strong>normal or raised CO₂ = life-threatening</strong></td></tr><tr><td><strong>E</strong></td><td>Triggers (infection, allergens)</td><td><strong>Prednisolone 40–50 mg</strong> (or IV hydrocortisone 100 mg)</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Severity</th><th>Features</th></tr></thead><tbody><tr><td>Moderate</td><td>PEF 50–75%</td></tr><tr><td><strong>Acute severe</strong></td><td>PEF <strong>33–50%</strong>, RR ≥25, HR ≥110, can't complete sentences</td></tr><tr><td><strong>Life-threatening</strong></td><td>PEF <strong>&lt;33%</strong>, sats &lt;92%, PaO₂ &lt;8 kPa, <strong>normal PaCO₂</strong>, silent chest, cyanosis, poor effort, exhaustion, arrhythmia, hypotension, confusion</td></tr><tr><td><strong>Near-fatal</strong></td><td><strong>Raised PaCO₂</strong> or needing ventilation</td></tr></tbody></table></div><ul><li><strong>Escalate</strong>: senior and ICU early; <strong>IV magnesium 2 g</strong> over 20 min if poor response.</li></ul>"
+    }
+  ]
+}

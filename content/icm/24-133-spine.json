@@ -1,0 +1,53 @@
+{
+  "id": "i-133",
+  "num": "133",
+  "title": "Spine",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Perform a neurological examination of the upper limbs with a structured and systematic approach",
+      "section": "ICM",
+      "sessions": [
+        "Lower limb neurological examination"
+      ],
+      "html": "<ul><li><strong>Session: lower limb neurological examination</strong> (the spreadsheet wording says upper limbs).</li></ul><div class=\"tbl\"><table><thead><tr><th>Step</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Gait</strong></td><td>Spastic, high-stepping (foot drop), ataxic, shuffling (Parkinson's), waddling; <strong>Romberg's</strong> (sensory ataxia)</td></tr><tr><td><strong>Inspection</strong></td><td>Wasting, fasciculation, scars, deformity (pes cavus)</td></tr><tr><td><strong>Tone</strong></td><td>Leg roll, knee lift, <strong>ankle clonus</strong> (&gt;3 beats = UMN)</td></tr><tr><td><strong>Power</strong></td><td>Hip flexion (L2/3), extension (L4/5), knee extension (L3/4), flexion (L5/S1), ankle dorsiflexion (L4/5), plantarflexion (S1/2), big toe extension (L5)</td></tr><tr><td><strong>Reflexes</strong></td><td><strong>Knee (L3/4)</strong>, <strong>ankle (S1/2)</strong>, <strong>plantar</strong> (upgoing = Babinski: UMN)</td></tr><tr><td><strong>Coordination</strong></td><td>Heel–shin test</td></tr><tr><td><strong>Sensation</strong></td><td>Dermatomes (L4 medial leg, L5 dorsum of foot, S1 lateral foot), vibration, proprioception (start at the big toe)</td></tr></tbody></table></div><ul><li><strong>Patterns</strong>: UMN (stroke, cord compression)<ul><li>LMN (root, peripheral nerve)</li><li><strong>peripheral neuropathy</strong> (glove and stocking, absent ankle jerks)</li><li><strong>cauda equina</strong> (saddle anaesthesia, retention, reduced tone).</li></ul></li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Demonstrate the correct technique for conducting a clinical examination of the lumbar spine, identifying relevant anatomical landmarks and interpreting key physical findings.",
+      "section": "ICM",
+      "sessions": [
+        "Lumbar spine examination"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Step</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Look</strong></td><td>Posture: lordosis, kyphosis, <strong>scoliosis</strong>, muscle spasm, scars</td></tr><tr><td><strong>Feel</strong></td><td>Spinous processes, paraspinal muscles, <strong>sacroiliac joints</strong>; landmarks: iliac crests at <strong>L4</strong></td></tr><tr><td><strong>Move</strong></td><td><ul class=\"cl\"><li>Flexion (<strong>Schober's test</strong>: mark 10 cm above and 5 cm below the dimples of Venus; should increase by &gt;5 cm on flexion), extension, lateral flexion</li><li>Rotation is thoracic</li></ul></td></tr><tr><td><strong>Special tests</strong></td><td><strong>Straight leg raise</strong> (pain down the leg at 30–70° = L5/S1 root irritation, sciatica); <strong>femoral stretch</strong> (prone knee flexion: L2–4)</td></tr><tr><td><strong>Neurology</strong></td><td>Lower limb myotomes, dermatomes, reflexes</td></tr></tbody></table></div><ul><li><strong>Red flags</strong>: age &gt;50 or &lt;20 with new pain<ul><li>cancer history</li><li>weight loss</li><li>fever</li><li>IV drug use</li><li>trauma</li><li>osteoporosis</li><li><strong>cauda equina</strong> symptoms</li><li>progressive neurological deficit.</li></ul></li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Perform a comprehensive cardiovascular examination within 8 minutes, and provide structured feedback on the findings, demonstrating the ability to efficiently assess and communicate clinical information.",
+      "section": "ICM",
+      "sessions": [
+        "Timed examinations"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>CVS in 8 minutes: priorities</th><th></th></tr></thead><tbody><tr><td>Brief intro, consent, positioning (30 s)</td><td></td></tr><tr><td>General inspection and hands with <strong>pulse</strong> (1 min)</td><td></td></tr><tr><td>Face, neck: <strong>JVP</strong> and <strong>carotid</strong> (1 min)</td><td></td></tr><tr><td><strong>Apex beat</strong>, heaves, thrills (1 min)</td><td></td></tr><tr><td><strong>Auscultation</strong> of 4 areas + manoeuvres (2 min)</td><td></td></tr><tr><td>Lung bases, <strong>ankle/sacral oedema</strong> (1 min)</td><td></td></tr><tr><td>State finishing steps (BP, peripheral pulses, ECG, fundi, urine dip) and <strong>present</strong> (1 min)</td><td></td></tr></tbody></table></div><ul><li><strong>Structured feedback</strong>: what went well, what to improve, one specific action.</li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Perform a comprehensive respiratory examination within 8 minutes, and provide structured feedback on the findings, demonstrating the ability to efficiently assess and communicate clinical information.",
+      "section": "ICM",
+      "sessions": [
+        "Timed examinations"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Respiratory in 8 minutes</th><th></th></tr></thead><tbody><tr><td>Intro, positioning, inspection (around the bed)</td><td></td></tr><tr><td>Hands (clubbing, flap), pulse, <strong>respiratory rate</strong></td><td></td></tr><tr><td>Face, neck (<strong>trachea</strong>, nodes)</td><td></td></tr><tr><td><strong>Front</strong>: expansion, percussion, auscultation, vocal resonance</td><td></td></tr><tr><td><strong>Back</strong>: the same, efficiently</td><td></td></tr><tr><td>Oedema; finishing steps (sats, PEFR, sputum, CXR); present</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Perform a comprehensive gastrointestinal examination within 8 minutes, and provide structured feedback on the findings, demonstrating the ability to efficiently assess and communicate clinical information.",
+      "section": "ICM",
+      "sessions": [
+        "Timed examinations"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>GI in 8 minutes</th><th></th></tr></thead><tbody><tr><td>Intro, lie flat, expose, inspect</td><td></td></tr><tr><td>Hands (clubbing, leuconychia, palmar erythema, <strong>flap</strong>)</td><td></td></tr><tr><td>Face (jaundice, pallor), neck (<strong>Virchow's node</strong>), chest (spider naevi, gynaecomastia)</td><td></td></tr><tr><td><strong>Palpate</strong>: light, deep, liver, spleen, kidneys, aorta</td><td></td></tr><tr><td><strong>Percuss</strong>: liver, spleen, shifting dullness</td><td></td></tr><tr><td><strong>Auscultate</strong></td><td></td></tr><tr><td>Finishing steps (hernial orifices, genitalia, DRE, urine dip) and present</td><td></td></tr></tbody></table></div>"
+    }
+  ]
+}

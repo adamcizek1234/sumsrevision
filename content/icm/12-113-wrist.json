@@ -1,0 +1,71 @@
+{
+  "id": "i-113",
+  "num": "113",
+  "title": "Wrist",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Perform a structured hand examination and identify signs of injury or disease.",
+      "section": "ICM",
+      "sessions": [
+        "Hand examination"
+      ],
+      "html": "<ul><li><strong>Look, feel, move, function, neurovascular, special tests</strong>.</li></ul><div class=\"tbl\"><table><thead><tr><th>Step</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Look</strong> (both hands, front and back, pillow)</td><td><ul class=\"cl\"><li>Swelling (MCPs/PIPs: RA; DIPs/PIPs: OA)</li><li>Deformity (ulnar deviation, <strong>swan neck</strong>, <strong>boutonnière</strong>, Z thumb)</li><li><strong>Heberden's</strong> (DIP) and <strong>Bouchard's</strong> (PIP) nodes</li><li>Wasting (thenar: median; first dorsal interosseous: ulnar)</li><li>Scars</li><li>Nail changes (psoriasis)</li><li>Skin (tophi, rheumatoid nodules at elbow)</li></ul></td></tr><tr><td><strong>Feel</strong></td><td>Temperature, tenderness, <strong>bimanual squeeze of MCPs</strong> (synovitis), joint lines, <strong>anatomical snuffbox</strong> (scaphoid), sensation</td></tr><tr><td><strong>Move</strong></td><td>Make a fist, spread fingers, flex/extend wrist (prayer and reverse prayer), thumb movements</td></tr><tr><td><strong>Function</strong></td><td>Grip, pinch, picking up a coin, undoing a button, writing</td></tr><tr><td><strong>Neurovascular</strong></td><td>Median, ulnar, radial motor and sensory tests; radial pulse, capillary refill</td></tr><tr><td><strong>Special tests</strong></td><td><strong>Phalen's</strong> and <strong>Tinel's</strong> (carpal tunnel), <strong>Finkelstein's</strong> (de Quervain's), <strong>Froment's</strong> (ulnar)</td></tr></tbody></table></div><ul><li><strong>Finish</strong>: examine the elbows and the neck; X-ray, bloods (RF, anti-CCP, ESR/CRP).</li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Explain the nerve distribution in the hand and its clinical relevance.",
+      "section": "ICM",
+      "sessions": [
+        "Hand examination"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Nerve</th><th>Motor test</th><th>Sensory area</th></tr></thead><tbody><tr><td><strong>Median</strong></td><td><strong>Abductor pollicis brevis</strong> (thumb to ceiling); \"OK\" sign (anterior interosseous)</td><td><strong>Palm of lateral 3½ digits</strong> (index finger pulp)</td></tr><tr><td><strong>Ulnar</strong></td><td><strong>Finger abduction</strong> (first dorsal interosseous), Froment's sign</td><td><strong>Medial 1½ digits</strong> (little finger pulp)</td></tr><tr><td><strong>Radial</strong></td><td><strong>Wrist and finger extension</strong></td><td><strong>First dorsal web space</strong></td></tr></tbody></table></div><ul><li><strong>Relevance</strong>: localise lesions (carpal tunnel vs cervical root), assess injuries (wrist lacerations, fractures), protect nerves in procedures.</li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Recognise clinical features suggestive of nerve innervation abnormalities",
+      "section": "ICM",
+      "sessions": [
+        "Hand examination"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Feature</th><th>Nerve problem</th></tr></thead><tbody><tr><td><strong>Thenar wasting</strong>, weak APB, tingling lateral 3½ fingers worse at night, positive Phalen's/Tinel's</td><td><strong>Carpal tunnel syndrome</strong> (median)</td></tr><tr><td><strong>Hypothenar and interosseous wasting</strong>, clawing of ring and little fingers, numb little finger, positive Froment's</td><td><strong>Ulnar neuropathy</strong> (elbow or wrist)</td></tr><tr><td><strong>Wrist drop</strong>, numb first web space</td><td><strong>Radial nerve palsy</strong> (midshaft humerus, \"Saturday night palsy\")</td></tr><tr><td><strong>\"Ape hand\"</strong> (thumb in line with fingers)</td><td>High median lesion</td></tr><tr><td><strong>Glove distribution</strong> loss</td><td><strong>Peripheral neuropathy</strong> (diabetes, B12, alcohol)</td></tr><tr><td>Dermatomal loss with neck pain</td><td><strong>Cervical radiculopathy</strong></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Recognise clinical features suggestive of injury/disease related to the hand",
+      "section": "ICM",
+      "sessions": [
+        "Quiz: Hand examination"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Feature</th><th>Suggests</th></tr></thead><tbody><tr><td><strong>Symmetrical MCP/PIP swelling</strong>, ulnar deviation, swan neck, boutonnière, nodules</td><td><strong>Rheumatoid arthritis</strong></td></tr><tr><td><strong>Heberden's/Bouchard's nodes</strong>, squaring of the thumb base</td><td><strong>Osteoarthritis</strong></td></tr><tr><td><strong>DIP involvement, nail pitting, dactylitis</strong></td><td><strong>Psoriatic arthritis</strong></td></tr><tr><td><strong>Tophi</strong>, acute red hot joint</td><td><strong>Gout</strong></td></tr><tr><td><strong>Nodule/cord in palm</strong>, fixed flexion of ring/little finger</td><td><strong>Dupuytren's contracture</strong></td></tr><tr><td><strong>Snuffbox tenderness</strong> after a fall</td><td><strong>Scaphoid fracture</strong></td></tr><tr><td><strong>Mallet finger</strong></td><td>Extensor tendon rupture at DIP</td></tr><tr><td><strong>Sclerodactyly, calcinosis, Raynaud's</strong></td><td>Systemic sclerosis</td></tr><tr><td><strong>Swollen, tender, flexed finger</strong> (Kanavel signs)</td><td>Flexor sheath infection: surgical emergency</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Take a focused history from a talkative patient while maintaining control of the consultation",
+      "section": "ICM",
+      "sessions": [
+        "RA history"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Technique</th><th>Example</th></tr></thead><tbody><tr><td><strong>Signpost</strong> the structure upfront</td><td>\"I'd like to hear about your hands, then a few questions about your health\"</td></tr><tr><td><strong>Summarise</strong> to interrupt politely</td><td>\"Can I just stop you there to check I've got this right…\"</td></tr><tr><td><strong>Focused closed questions</strong></td><td>Bring the conversation back on track</td></tr><tr><td><strong>Acknowledge</strong> their concerns</td><td>\"That's clearly important to you; we'll come back to it\"</td></tr><tr><td><strong>Agenda setting</strong></td><td>Agree what to cover in the time</td></tr><tr><td><strong>RA focus</strong></td><td>Morning stiffness (&gt;30–60 min), symmetrical small joint swelling, fatigue, function, extra-articular features, family history</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Assess a patient's ability to perform activities of daily living (ADLs) in the context of functional hand or neurological issues.",
+      "section": "ICM",
+      "sessions": [
+        "RA history"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>ADL</th><th>Examples</th></tr></thead><tbody><tr><td><strong>Personal care</strong></td><td>Washing, dressing (buttons, zips), grooming, toileting</td></tr><tr><td><strong>Eating</strong></td><td>Cutting food, opening jars, holding a cup</td></tr><tr><td><strong>Mobility and transfers</strong></td><td>Walking, stairs, getting up from a chair</td></tr><tr><td><strong>Instrumental ADLs</strong></td><td>Cooking, shopping, driving, managing money and medicines, work</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Ask about</th><td>Aids and adaptations, carers and support, impact on work and hobbies, mood.</td></tr><tr><th scope=\"row\">Why</th><td>Guides treatment goals, referrals (OT, physio, social care) and benefits.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Demonstrate the ability to perform a neurological examination of the upper limbs with clinical competence, interpret and integrate findings with relevant knowledge to support clinical reasoning, and clearly present these findings to peers or supervisors.",
+      "section": "ICM",
+      "sessions": [
+        "Upper limb neuro - 3"
+      ],
+      "html": "<ul><li><strong>Full routine</strong>: see ICM Year 1 › Neurology &amp; cognition › LOs 1 and 2.</li></ul><div class=\"tbl\"><table><thead><tr><th>Competence =</th><th></th></tr></thead><tbody><tr><td>Smooth sequence: inspection, pronator drift, tone, power, reflexes, coordination, sensation</td><td></td></tr><tr><td>Interpret: UMN vs LMN pattern, root vs nerve vs neuropathy</td><td></td></tr><tr><td>Integrate with the history: \"These findings suggest a right C6 radiculopathy\"</td><td></td></tr><tr><td><strong>Present clearly</strong>: key positives, relevant negatives, summary, differential, next tests (e.g. nerve conduction, MRI cervical spine)</td><td></td></tr></tbody></table></div>"
+    }
+  ]
+}

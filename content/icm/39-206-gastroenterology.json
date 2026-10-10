@@ -1,0 +1,18 @@
+{
+  "id": "i-206",
+  "num": "206",
+  "title": "Gastroenterology",
+  "system": "Gastrointestinal",
+  "link": "y2-206",
+  "pick": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "los": []
+}

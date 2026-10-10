@@ -1,0 +1,71 @@
+{
+  "id": "i-111",
+  "num": "111",
+  "title": "Renal colic",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Perform a competent upper limb neurological examination with increased confidence.",
+      "section": "ICM",
+      "sessions": [
+        "Upper limb neurological examination - 2"
+      ],
+      "html": "<ul><li><strong>Full routine</strong>: see ICM Year 1 › Neurology &amp; cognition › LO 1 (inspection, tone, power, reflexes, coordination, sensation).</li></ul><div class=\"tbl\"><table><thead><tr><th>\"Increased confidence\" checklist</th><th></th></tr></thead><tbody><tr><td>Explain each step to the patient as you go (\"push up against me\")</td><td></td></tr><tr><td>Always <strong>compare left and right</strong> at each muscle group</td><td></td></tr><tr><td><ul class=\"cl\"><li>Grade power on the <strong>MRC scale</strong>: 0 none</li><li>1 flicker</li><li>2 movement with gravity eliminated</li><li>3 against gravity</li><li>4 against some resistance</li><li>5 normal</li></ul></td><td></td></tr><tr><td>Use <strong>reinforcement</strong> before calling a reflex absent</td><td></td></tr><tr><td>Map sensory loss: dermatome (root), peripheral nerve (median, ulnar, radial) or glove (neuropathy)</td><td></td></tr><tr><td>Finish: \"I'd also examine the lower limbs and cranial nerves\"</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Interpret basic clinical signs identified during a respiratory examination.",
+      "section": "ICM",
+      "sessions": [
+        "Upper limb neurological examination - 2"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Finding</th><th>Interpretation</th></tr></thead><tbody><tr><td>Tracheal deviation <strong>away</strong></td><td>Tension pneumothorax, large effusion</td></tr><tr><td>Tracheal deviation <strong>towards</strong></td><td>Collapse, pneumonectomy, fibrosis</td></tr><tr><td><strong>Reduced expansion</strong> on one side</td><td>Pathology on that side</td></tr><tr><td><strong>Dull</strong> percussion + <strong>bronchial breathing</strong> + increased vocal resonance</td><td><strong>Consolidation</strong> (pneumonia)</td></tr><tr><td><strong>Stony dull</strong> + reduced breath sounds and vocal resonance</td><td><strong>Pleural effusion</strong></td></tr><tr><td><strong>Hyper-resonant</strong> + reduced breath sounds</td><td><strong>Pneumothorax</strong></td></tr><tr><td><strong>Fine end-inspiratory crackles</strong></td><td>Pulmonary fibrosis, pulmonary oedema</td></tr><tr><td><strong>Coarse crackles</strong></td><td>Bronchiectasis, infection</td></tr><tr><td><strong>Wheeze</strong> (polyphonic, expiratory)</td><td>Asthma, COPD</td></tr><tr><td><strong>Clubbing</strong></td><td>Lung cancer, fibrosis, bronchiectasis, empyema (not COPD alone)</td></tr><tr><td><strong>CO₂ retention flap</strong>, bounding pulse</td><td>Type 2 respiratory failure</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Perform a competent respiratory examination with increased confidence",
+      "section": "ICM",
+      "sessions": [
+        "Respiratory examination 2"
+      ],
+      "html": "<ul><li><strong>Full routine</strong>: see ICM Year 1 › Respiratory › LO 2.</li></ul><div class=\"tbl\"><table><thead><tr><th>Focus for fluency</th><th></th></tr></thead><tbody><tr><td>Hands → face → neck → chest front → chest back → finishing steps, without prompts</td><td></td></tr><tr><td><strong>Expansion</strong>: hands round the chest, thumbs meeting in the midline; watch the thumbs move apart</td><td></td></tr><tr><td><strong>Percussion</strong>: compare like with like, include the axillae and apices (clavicle)</td><td></td></tr><tr><td><strong>Vocal resonance</strong>: \"say 99\", compare sides</td><td></td></tr><tr><td>Present findings that fit together into a diagnosis</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Interpret basic clinical signs identified during a respiratory examination.",
+      "section": "ICM",
+      "sessions": [
+        "Respiratory examination 2"
+      ],
+      "html": "<ul><li><strong>Same interpretation table as ICM Year 1 › Respiratory › LO 7</strong><ul><li>practise linking signs to one diagnosis: e.g. \"dull percussion, bronchial breathing and coarse crackles at the right base suggest right lower lobe consolidation\".</li></ul></li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Insert a peripheral cannula into a model while adhering to aseptic non-touch technique (ANTT) guidelines.",
+      "section": "ICM",
+      "sessions": [
+        "Cannulation"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Check indication, patient identity, explain, consent, allergies.</td></tr><tr><th scope=\"row\">2</th><td><ul class=\"cl\"><li><strong>Hand hygiene</strong></li><li>Prepare a <strong>clean tray</strong> (ANTT): cannula (<strong>pink 20G</strong> routine, <strong>green 18G</strong> or larger for fluids/blood, <strong>grey 16G</strong> in trauma)</li><li>Dressing</li><li>Flush (saline)</li><li>Extension set</li><li>Chlorhexidine/alcohol wipe</li><li>Sharps bin</li><li>Gloves</li><li>Tourniquet.</li></ul></td></tr><tr><th scope=\"row\">3</th><td>Apply the <strong>tourniquet</strong>, choose a straight vein (back of hand or forearm; avoid joints, the side of a fistula, lymphoedema or a stroke-affected arm).</td></tr><tr><th scope=\"row\">4</th><td><strong>Clean the site</strong> for 30 s and allow to <strong>dry</strong>; don't re-palpate.</td></tr><tr><th scope=\"row\">5</th><td><ul class=\"cl\"><li>Anchor the vein</li><li>Insert bevel up at <strong>10–30°</strong></li><li>Watch for <strong>flashback</strong></li><li>Advance a few mm more</li><li>Then <strong>slide the cannula off the needle</strong>.</li></ul></td></tr><tr><th scope=\"row\">6</th><td><strong>Release the tourniquet</strong>, press over the vein tip, remove the needle, <strong>sharps straight into the bin</strong>.</td></tr><tr><th scope=\"row\">7</th><td>Attach the extension and <strong>flush</strong> with 5–10 mL saline (no swelling or pain), secure with a <strong>sterile dressing</strong>.</td></tr><tr><th scope=\"row\">8</th><td><strong>Document</strong> (date, time, site, size, VIP score); review daily.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Identify common urological complaints and associated symptoms.",
+      "section": "ICM",
+      "sessions": [
+        "Comms"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Complaint</th><th>Questions</th></tr></thead><tbody><tr><td><strong>Loin/flank pain</strong></td><td>Colicky, loin to groin (<strong>renal colic</strong>), fever (infection above a stone)</td></tr><tr><td><strong>Haematuria</strong></td><td>Visible or non-visible, painless (cancer) or painful (stone, infection), clots</td></tr><tr><td><strong>Lower urinary tract symptoms</strong></td><td><strong>Storage</strong>: frequency, urgency, nocturia, incontinence; <strong>voiding</strong>: hesitancy, poor stream, straining, terminal dribbling, incomplete emptying</td></tr><tr><td><strong>Dysuria</strong></td><td>UTI, STI</td></tr><tr><td><strong>Retention</strong></td><td>Can't pass urine, painful (acute) or painless with overflow (chronic)</td></tr><tr><td><strong>Incontinence</strong></td><td>Stress (cough, laugh) vs urge</td></tr><tr><td><strong>Scrotal</strong></td><td>Pain, swelling, lumps</td></tr><tr><td>Background</td><td>Previous stones, prostate problems, catheters, medications (anticholinergics, diuretics), smoking (bladder cancer)</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Begin to recognise red flags and urgent symptoms within the urological system.",
+      "section": "ICM",
+      "sessions": [
+        "Comms"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Red flag</th><th>Concern</th></tr></thead><tbody><tr><td><strong>Painless visible haematuria</strong> (age ≥45)</td><td><strong>Bladder or kidney cancer</strong>: 2-week-wait referral</td></tr><tr><td><strong>Fever with loin pain</strong> and an obstructing stone</td><td><strong>Obstructed infected kidney</strong>: emergency drainage</td></tr><tr><td><strong>Sudden severe testicular pain</strong> (young male)</td><td><strong>Testicular torsion</strong>: emergency surgery within 6 hours</td></tr><tr><td><strong>Acute urinary retention</strong></td><td>Catheterise</td></tr><tr><td><strong>Saddle anaesthesia, bladder/bowel dysfunction, bilateral sciatica</strong></td><td><strong>Cauda equina syndrome</strong></td></tr><tr><td>Anuria, rising creatinine</td><td>Bilateral obstruction, AKI</td></tr><tr><td>Weight loss, bone pain, raised PSA</td><td>Prostate cancer</td></tr><tr><td>Painless testicular lump</td><td>Testicular cancer</td></tr></tbody></table></div>"
+    }
+  ]
+}

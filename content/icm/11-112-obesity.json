@@ -1,0 +1,125 @@
+{
+  "id": "i-112",
+  "num": "112",
+  "title": "Obesity",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Take a focused history from a patient and explain health risks associated with pre-diabetes.",
+      "section": "ICM",
+      "sessions": [
+        "Obesity history with BMI calculation - dealing with sensitive issues"
+      ],
+      "html": "<ul><li><strong>Focused history</strong>: symptoms of diabetes (thirst, polyuria, tiredness, recurrent infections, blurred vision)<ul><li>weight history</li><li>diet</li><li>physical activity</li><li>alcohol</li><li>smoking</li><li>family history of diabetes and heart disease</li><li>previous gestational diabetes</li><li>medications (steroids, antipsychotics)</li><li>ethnicity (South Asian, Black African/Caribbean: higher risk).</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Pre-diabetes (non-diabetic hyperglycaemia)</th><th></th></tr></thead><tbody><tr><td><strong>HbA1c 42–47 mmol/mol</strong> or fasting glucose 5.5–6.9 mmol/L</td><td></td></tr><tr><td>Risks: <strong>type 2 diabetes</strong> (about 5–10% per year), <strong>cardiovascular disease</strong>, stroke</td><td></td></tr><tr><td>Reversible: weight loss of <strong>5–10%</strong>, 150 min/week activity, diet → <strong>NHS Diabetes Prevention Programme</strong></td><td></td></tr><tr><td>Review HbA1c <strong>yearly</strong></td><td></td></tr></tbody></table></div><ul><li><strong>Explain</strong>: chunk and check, plain language, link risks to their own goals.</li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Discuss a patient’s weight with confidence and sensitivity, using appropriate communication strategies.",
+      "section": "ICM",
+      "sessions": [
+        "Obesity history with BMI calculation - dealing with sensitive issues"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Do</th><th>Avoid</th></tr></thead><tbody><tr><td><strong>Ask permission</strong>: \"Would it be OK to talk about your weight today?\"</td><td>Blaming or judging</td></tr><tr><td>Use neutral words (\"weight\", \"BMI\")</td><td>Labels like \"obese\" without care</td></tr><tr><td>Explore their views, previous attempts, barriers</td><td>Assuming they lack motivation</td></tr><tr><td>Focus on health goals they care about</td><td>Lecturing</td></tr><tr><td>Offer specific support (referral, programmes)</td><td>Vague advice</td></tr></tbody></table></div><ul><li><strong>Very brief advice</strong> model works: ask, advise, act/assist.</li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Accurately calculate a patient’s Body Mass Index (BMI) using standard formulae",
+      "section": "ICM",
+      "sessions": [
+        "Obesity history with BMI calculation - dealing with sensitive issues"
+      ],
+      "html": "<ul><li><strong>BMI = weight (kg) ÷ height (m)²</strong>. Example: 95 kg, 1.75 m → 95 ÷ 3.06 = <strong>31.0 kg/m²</strong>.</li></ul><div class=\"tbl\"><table><thead><tr><th>BMI</th><th>Category (adults)</th></tr></thead><tbody><tr><td>&lt;18.5</td><td>Underweight</td></tr><tr><td>18.5–24.9</td><td>Healthy</td></tr><tr><td>25–29.9</td><td>Overweight</td></tr><tr><td>30–34.9</td><td>Obesity class I</td></tr><tr><td>35–39.9</td><td>Obesity class II</td></tr><tr><td>≥40</td><td>Obesity class III</td></tr></tbody></table></div><ul><li><strong>Lower thresholds</strong> (by 2.5) for South Asian, Chinese, Black African and Caribbean people (NICE).</li><li><strong>Limitations</strong>: muscular people, older people, pregnancy; add <strong>waist circumference</strong> or <strong>waist-to-height ratio</strong> (keep below 0.5).</li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Perform a competent cardiovascular examination with increased confidence",
+      "section": "ICM",
+      "sessions": [
+        "CVS examination - 2"
+      ],
+      "html": "<ul><li><strong>Full routine</strong>: see ICM Year 1 › Cardiovascular › LO 1.</li></ul><div class=\"tbl\"><table><thead><tr><th>Fluency points</th><th></th></tr></thead><tbody><tr><td>Palpate the <strong>apex beat</strong> and describe its position by intercostal space and line</td><td></td></tr><tr><td>Time murmurs with the <strong>carotid pulse</strong> (systolic coincides with the pulse)</td><td></td></tr><tr><td>Use positional manoeuvres when a murmur is suspected</td><td></td></tr><tr><td>Always check lung bases and peripheral oedema</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Interpret basic clinical signs identified during a cardiovascular examination.",
+      "section": "ICM",
+      "sessions": [
+        "CVS examination - 2"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Finding</th><th>Interpretation</th></tr></thead><tbody><tr><td><strong>Irregularly irregular pulse</strong></td><td>Atrial fibrillation</td></tr><tr><td><strong>Slow-rising pulse</strong>, ejection systolic murmur radiating to carotids</td><td><strong>Aortic stenosis</strong></td></tr><tr><td><strong>Collapsing pulse</strong>, early diastolic murmur (sitting forward)</td><td><strong>Aortic regurgitation</strong></td></tr><tr><td><strong>Pansystolic murmur</strong> at apex radiating to axilla</td><td><strong>Mitral regurgitation</strong></td></tr><tr><td><strong>Mid-diastolic rumble</strong> at apex (bell, left lateral)</td><td><strong>Mitral stenosis</strong></td></tr><tr><td><strong>Displaced apex</strong></td><td>LV dilatation (heart failure, regurgitation)</td></tr><tr><td><strong>Raised JVP</strong>, ankle oedema, basal crackles</td><td>Heart failure / fluid overload</td></tr><tr><td><strong>Sternotomy scar</strong>, metallic click</td><td>Previous CABG / valve replacement</td></tr><tr><td><strong>Splinter haemorrhages</strong>, new murmur, fever</td><td><strong>Infective endocarditis</strong></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Describe the stages of a rapid assessment of a sick patient and identify appropriate interventions",
+      "section": "ICM",
+      "sessions": [
+        "A to E assessment of the sick patient"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Stage</th><th>Look for</th><th>Interventions</th></tr></thead><tbody><tr><td><strong>A</strong>irway</td><td>Talking? Stridor, gurgling, obstruction</td><td>Head tilt/chin lift, suction, adjuncts, call anaesthetist</td></tr><tr><td><strong>B</strong>reathing</td><td>RR, sats, effort, chest exam</td><td><strong>Oxygen</strong>, nebulisers, ABG, CXR</td></tr><tr><td><strong>C</strong>irculation</td><td>HR, BP, CRT, JVP, heart sounds, urine output</td><td><strong>IV access</strong>, bloods (incl. cultures, lactate), <strong>fluid bolus 500 mL</strong>, ECG, catheter</td></tr><tr><td><strong>D</strong>isability</td><td>ACVPU/GCS, pupils, <strong>glucose</strong>, temperature</td><td>Treat hypoglycaemia, analgesia</td></tr><tr><td><strong>E</strong>xposure</td><td>Rashes, bleeding, calves, abdomen, wounds</td><td>Treat the cause</td></tr></tbody></table></div><ul><li><strong>Principles</strong>: treat problems as you find them before moving on<ul><li><strong>reassess</strong> after each intervention</li><li><strong>call for help early</strong></li><li>use <strong>SBAR</strong> to escalate.</li></ul></li></ul>"
+    },
+    {
+      "n": 7,
+      "text": "Perform a systematic A to E (Airway, Breathing, Circulation, Disability, Exposure) assessment of a sick patient.",
+      "section": "ICM",
+      "sessions": [
+        "A to E assessment of the sick patient"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td><strong>Approach safely</strong>, introduce yourself, ask \"How are you?\" (a reply shows the airway is open and brain perfused).</td></tr><tr><th scope=\"row\">2</th><td><strong>Call for help</strong> if very unwell; attach monitoring (sats, BP, ECG).</td></tr><tr><th scope=\"row\">3</th><td>Work through <strong>A → B → C → D → E</strong>, treating as you go.</td></tr><tr><th scope=\"row\">4</th><td><strong>Reassess</strong> after each intervention and regularly.</td></tr><tr><th scope=\"row\">5</th><td><strong>Escalate</strong> with SBAR, <strong>document</strong>, and agree a plan (including ceilings of care).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Identify common intramuscular injection sites.",
+      "section": "ICM",
+      "sessions": [
+        "Intramuscular injections"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Site</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Deltoid</strong></td><td>2–3 finger-breadths below the acromion; <strong>small volumes</strong> (vaccines)</td></tr><tr><td><strong>Vastus lateralis</strong></td><td>Middle third of the anterolateral thigh; preferred in <strong>infants</strong></td></tr><tr><td><strong>Ventrogluteal</strong></td><td><ul class=\"cl\"><li>Gluteus medius (hand on greater trochanter, fingers to ASIS and iliac crest)</li><li><strong>Preferred for adults</strong> for larger volumes, away from nerves and vessels</li></ul></td></tr><tr><td><strong>Dorsogluteal</strong></td><td>Upper outer quadrant of the buttock; <strong>avoided now</strong> (sciatic nerve, superior gluteal vessels)</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Demonstrate the correct technique for administering an intramuscular injection in a clinical setting.",
+      "section": "ICM",
+      "sessions": [
+        "Intramuscular injections"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Check prescription (5 rights), allergies, identity, consent, explain.</td></tr><tr><th scope=\"row\">2</th><td><ul class=\"cl\"><li><strong>Hand hygiene</strong>, ANTT tray</li><li>Draw up with a <strong>drawing-up needle</strong>, change to an injection needle (usually <strong>23G</strong>, length for the site and body size).</li></ul></td></tr><tr><th scope=\"row\">3</th><td>Expose and locate the site; clean if local policy (allow to dry).</td></tr><tr><th scope=\"row\">4</th><td><strong>Stretch the skin</strong> (or <strong>Z-track</strong> technique: pull the skin 2–3 cm sideways), insert the needle at <strong>90°</strong> with a quick dart, leaving a third of the shaft out.</td></tr><tr><th scope=\"row\">5</th><td>Aspirate if policy (e.g. dorsogluteal), <strong>inject slowly</strong> (~1 mL per 10 s), wait 10 s, withdraw, release the skin.</td></tr><tr><th scope=\"row\">6</th><td><strong>Sharps in the bin immediately</strong>, don't massage; check for reactions; <strong>document</strong> (drug, dose, site, time, batch).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 10,
+      "text": "Demonstrate knowledge of appropriate volume limits for different intramuscular injection sites.",
+      "section": "ICM",
+      "sessions": [
+        "Intramuscular injections"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Site</th><th>Maximum volume (adult, guide)</th></tr></thead><tbody><tr><td><strong>Deltoid</strong></td><td><strong>1 mL</strong> (up to 2 mL)</td></tr><tr><td><strong>Vastus lateralis</strong></td><td><strong>5 mL</strong> (infants 0.5–1 mL)</td></tr><tr><td><strong>Ventrogluteal</strong></td><td><strong>2.5–3 mL</strong> (up to 5 mL)</td></tr><tr><td><strong>Dorsogluteal</strong></td><td>3–5 mL (avoid)</td></tr></tbody></table></div><ul><li><strong>Larger volumes</strong>: split between sites.</li></ul>"
+    },
+    {
+      "n": 11,
+      "text": "Identify common sites for the administration of subcutaneous injections.",
+      "section": "ICM",
+      "sessions": [
+        "Subcutaneous injections"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Site</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Abdomen</strong></td><td>~5 cm (two finger-breadths) away from the umbilicus; most common for insulin and <strong>LMWH</strong></td></tr><tr><td><strong>Outer upper arm</strong></td><td>Back of the arm</td></tr><tr><td><strong>Anterior/lateral thigh</strong></td><td></td></tr><tr><td><strong>Upper buttock</strong></td><td></td></tr></tbody></table></div><ul><li><strong>Rotate sites</strong> to avoid <strong>lipohypertrophy</strong> (lumpy fat: erratic insulin absorption).</li></ul>"
+    },
+    {
+      "n": 12,
+      "text": "Demonstrate the correct technique for administering a subcutaneous injection in a clinical setting.",
+      "section": "ICM",
+      "sessions": [
+        "Subcutaneous injections"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Check prescription, allergies, identity, consent, explain.</td></tr><tr><th scope=\"row\">2</th><td>ANTT: hand hygiene, clean tray, protect key parts.</td></tr><tr><th scope=\"row\">3</th><td><strong>Pinch a fold of skin</strong> (pinch-up), insert the needle at <strong>45–90°</strong> depending on needle length and fat (prefilled LMWH: 90° into the pinched fold; <strong>don't expel the air bubble</strong> in LMWH syringes).</td></tr><tr><th scope=\"row\">4</th><td>Inject slowly, hold for ~10 s (insulin pens), withdraw, release the fold.</td></tr><tr><th scope=\"row\">5</th><td><strong>Don't rub</strong> (bruising with heparin); sharps in the bin; <strong>document</strong> site, time, dose.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 13,
+      "text": "Demonstrate knowledge of ANTT principles whilst administering an injection",
+      "section": "ICM",
+      "sessions": [
+        "Subcutaneous injections"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>ANTT principle</th><th>In injections</th></tr></thead><tbody><tr><td><strong>Hand hygiene</strong></td><td>Before and after, and before gloving</td></tr><tr><td><strong>Identify key parts</strong></td><td>Needle, syringe tip, inside of caps, vial bung</td></tr><tr><td><strong>Protect key parts</strong></td><td>Don't touch; use a non-touch technique; keep on a clean surface</td></tr><tr><td><strong>Key site</strong></td><td>Skin puncture site: clean if policy, don't re-touch</td></tr><tr><td><strong>Aseptic field</strong></td><td>Clean tray or general aseptic field</td></tr><tr><td><strong>Non-sterile gloves</strong></td><td>Where touching blood or risk of exposure</td></tr></tbody></table></div>"
+    }
+  ]
+}

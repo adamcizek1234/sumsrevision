@@ -13,6 +13,8 @@ In this repo the page is split into files you can edit. A small Python script (P
 | `src/app.js` | All the app code, as one script. Comments like `/* ---------------- Quiz ---------------- */` mark its sections. |
 | `content/year1/`, `content/year2/` | One file per teaching week: its learning outcomes (LOs) and their notes. |
 | `content/anatomy/` | One file per anatomy topic. |
+| `content/icm/` | One file per week of ICM learning outcomes. |
+| `content/icm-pages.json` | The pages the ICM tab shows, one per topic for each year, and which LOs go on each. |
 | `content/drugs/` | One file per drug group. |
 | `content/quiz/` | `short-answer.json`, `numbers.json` and `ladders.json` (put-in-order questions). |
 | `mac/` | The Mac app's fonts, icon, `Info.plist` and the "How to open" note that goes in the DMG. |
@@ -37,13 +39,13 @@ Run the build again after every change. It stops with a message if a content fil
 
 Files in `content/` sort by their number prefix, which sets the order in the app. To add a week, give it the next number. To put it between two others, renumber the files after it. The rest of the file name is only there for people to read.
 
-### Weeks and anatomy topics
+### Weeks, anatomy topics and ICM
 
 A week file looks like this (the `//` comments are explanations, not part of the file):
 
 ```jsonc
 {
-  "id": "y1-102",          // unique; Year 1 = y1-<num>, Year 2 = y2-<num>, anatomy = a-<num>
+  "id": "y1-102",          // unique; Year 1 = y1-<num>, Year 2 = y2-<num>, anatomy = a-<num>, ICM = i-<num>
   "num": "102",            // the week number shown in the app
   "title": "Diarrhoea",
   "los": [
@@ -63,6 +65,17 @@ An LO is referred to everywhere as `<week id>-<n>`, for example `y1-102-1`. The 
 Year 2 weeks also have `lead`, `system` and `date` (the Monday the week starts, `YYYY-MM-DD`). The date decides which week the app shows as "now" and which weeks the Daily 10 has reached. `"partial": true` marks a week that so far only has its anatomy notes.
 
 Anatomy topics have `system`. A topic that's taught inside a Year 2 week has `"link"` (that week's id) and `"pick"` (the LO numbers to show from it), and an empty `los` list.
+
+ICM weeks work the same way. A week of ICM LOs has `year`. For ICM LOs taught inside a Year 2 week, the LOs stay in that Year 2 week's file, and the ICM week file only points at them with `link` and `pick` and has an empty `los` list. Those LOs then show on the ICM tab instead of in the Year 2 week.
+
+The ICM tab doesn't list these weeks. It shows the pages in `content/icm-pages.json`:
+
+- `systems`: one entry per topic, `[id, title, short title, core]`. `core` is `true` for core skills such as history taking and prescribing, and `false` for body systems such as cardiovascular.
+- `groups`: the pages. Each is `{"id", "yr", "sys", "keys"}`, where `keys` lists the LO keys shown on that page, in order.
+
+Each LO keeps its own week's key whichever page it's on: `i-108-1` for one from an ICM week, `y2-201-14` for one from a Year 2 week. So moving an LO to another page keeps people's progress.
+
+Comments in `app.js` mention `icm_systems.txt` and a `build.py`. Those were part of the setup the page was first generated with, which isn't in this repo; that `build.py` is a different script from `tools/build.py`. Here, the same information is in `content/icm-pages.json`.
 
 The notes use a small set of HTML: `p`, `ul`/`ol`/`li`, `strong`, `em`, `sub`, `sup`, `h4`, tables, and these classes:
 

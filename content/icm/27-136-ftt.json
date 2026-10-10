@@ -1,0 +1,80 @@
+{
+  "id": "i-136",
+  "num": "136",
+  "title": "FTT",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Plot baby and child measurements on a growth chart and interpret the results.",
+      "section": "ICM",
+      "sessions": [
+        "Graph plotting"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td><ul class=\"cl\"><li>Use the <strong>correct chart</strong> (UK-WHO 0–4 years; UK 2–18 years; Down syndrome and preterm charts as needed)</li><li>Correct <strong>age</strong> (correct for prematurity until 2 years if born &lt;37 weeks).</li></ul></td></tr><tr><th scope=\"row\">2</th><td>Measure accurately: <strong>weight</strong> (naked infant), <strong>length</strong> (lying, &lt;2 years) or <strong>height</strong> (standing), <strong>head circumference</strong> (largest around the occiput).</td></tr><tr><th scope=\"row\">3</th><td>Plot a dot at the right age and value; <strong>interpret the trend</strong> across centile lines.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Pattern</th><th>Meaning</th></tr></thead><tbody><tr><td>Following a centile</td><td>Normal (even on a low centile)</td></tr><tr><td><strong>Crossing ≥2 major centile lines downwards</strong></td><td><strong>Faltering growth</strong></td></tr><tr><td>Weight falling before length/height</td><td>Undernutrition</td></tr><tr><td>Height falling with weight preserved</td><td>Endocrine cause (hypothyroidism, GH deficiency, steroids)</td></tr><tr><td>Head circumference crossing upwards</td><td>Hydrocephalus</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Recognise the key information required to identify failure to thrive in infants and children.",
+      "section": "ICM",
+      "sessions": [
+        "Graph plotting"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Faltering growth (failure to thrive)</th><th></th></tr></thead><tbody><tr><td><strong>Weight falls across 1 centile</strong> (birth &lt;9th centile), <strong>2 centiles</strong> (9th–91st) or <strong>3 centiles</strong> (&gt;91st) (NICE NG75)</td><td></td></tr><tr><td>Weight below the <strong>2nd centile</strong></td><td></td></tr><tr><td>Newborn: weight loss &gt;10% of birth weight; not back to birth weight by 3 weeks</td><td></td></tr><tr><td><strong>Information needed</strong></td><td>Feeding history (amount, frequency, technique), vomiting/diarrhoea, birth history, development, illnesses, family heights, social circumstances, <strong>safeguarding</strong> (neglect)</td></tr><tr><td><strong>Causes</strong></td><td>Inadequate intake (most common), malabsorption (coeliac, CF), increased needs (heart disease), vomiting (reflux), neglect</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Identify the most common causes of serious illness in children.",
+      "section": "ICM",
+      "sessions": [
+        "The sick child"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Serious illness in children</th><th></th></tr></thead><tbody><tr><td><strong>Sepsis</strong> (including meningococcal)</td><td></td></tr><tr><td><strong>Meningitis/encephalitis</strong></td><td></td></tr><tr><td><strong>Pneumonia, bronchiolitis</strong>, severe asthma</td><td></td></tr><tr><td><strong>Dehydration</strong> (gastroenteritis), <strong>DKA</strong></td><td></td></tr><tr><td><strong>Kawasaki disease</strong></td><td></td></tr><tr><td><strong>Intussusception, appendicitis, volvulus</strong></td><td></td></tr><tr><td><strong>Non-accidental injury</strong></td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Recognise the main warning signs of serious illness in children and respond appropriately.",
+      "section": "ICM",
+      "sessions": [
+        "The sick child"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>NICE traffic light: <strong>red</strong> features (high risk)</th><th></th></tr></thead><tbody><tr><td><strong>Colour</strong>: pale, mottled, ashen, blue</td><td></td></tr><tr><td><strong>Activity</strong>: no response to social cues, appears ill, doesn't wake or stay awake, weak/high-pitched or continuous cry</td><td></td></tr><tr><td><strong>Breathing</strong>: grunting, RR &gt;60, moderate/severe chest indrawing</td><td></td></tr><tr><td><strong>Circulation</strong>: reduced skin turgor</td><td></td></tr><tr><td><strong>Other</strong>: age &lt;3 months with temperature ≥38 °C, <strong>non-blanching rash</strong>, bulging fontanelle, neck stiffness, status epilepticus, focal signs, bile-stained vomiting</td><td></td></tr></tbody></table></div><ul><li><strong>Respond</strong>: urgent paediatric assessment (999 in the community), ABCDE, sepsis pathway; <strong>safety-net</strong> amber cases.</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Perform an initial clinical assessment of an unwell child, including history and physical examination.",
+      "section": "ICM",
+      "sessions": [
+        "The sick child"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Assessment</th><th></th></tr></thead><tbody><tr><td><strong>History</strong>: from parent and child; onset, fever, feeding and fluid intake, <strong>wet nappies</strong>, vomiting/diarrhoea, breathing, rash, behaviour, immunisations, contacts, PMH</td><td></td></tr><tr><td><strong>Observations</strong>: <strong>age-specific</strong> HR, RR, temperature, sats, CRT, (BP), PEWS</td><td></td></tr><tr><td><strong>ABCDE examination</strong> with the child on the parent's lap; distraction; look before you touch</td><td></td></tr><tr><td>Hydration: mucous membranes, fontanelle, tears, CRT, skin turgor</td><td></td></tr><tr><td>Ears and throat last</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Take a detailed and focused history from a patient with a hidden agenda, recognising potential challenges.",
+      "section": "ICM",
+      "sessions": [
+        "History focusing on patient perspective"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Hidden agenda</th><th></th></tr></thead><tbody><tr><td><strong>Clues</strong>: vague or minor complaint, lingering at the end (\"while I'm here…\"), anxiety out of proportion, non-verbal cues</td><td></td></tr><tr><td><strong>Elicit</strong>: open questions, <strong>ICE</strong>, \"Is there anything else you'd like to talk about today?\", explore cues, silence</td><td></td></tr><tr><td><strong>Common hidden agendas</strong>: cancer fears, mental health, sexual health, domestic abuse, substance misuse, sick note</td><td></td></tr><tr><td><strong>Challenges</strong>: embarrassment, fear, time pressure; respond without judgement</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Understand the patient’s perspective and incorporate it into clinical decision-making.",
+      "section": "ICM",
+      "sessions": [
+        "History focusing on patient perspective"
+      ],
+      "html": "<ul><li><strong>Patient perspective</strong> (ICE, values, circumstances) shapes the plan: e.g. a lorry driver's livelihood with seizures<ul><li>fear of a parent's illness</li><li>preferences about treatment.</li><li><strong>Shared decision making</strong>: present options with risks/benefits and agree a plan that fits the patient.</li></ul></li></ul>"
+    },
+    {
+      "n": 8,
+      "text": "Perform a clinical examination of the neck and thyroid with increased confidence and competence.",
+      "section": "ICM",
+      "sessions": [
+        "Neck & thyroid examination"
+      ],
+      "html": "<ul><li><strong>Neck and thyroid examination</strong>: see ICM Year 1 › Endocrine &amp; diabetes › LO 4<ul><li>aim for fluent sequence, palpation from behind with swallowing, eye signs, thyroid status, and clear presentation.</li></ul></li></ul>"
+    }
+  ]
+}

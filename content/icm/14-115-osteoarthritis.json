@@ -1,0 +1,44 @@
+{
+  "id": "i-115",
+  "num": "115",
+  "title": "Osteoarthritis",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Perform a structured clinical examination of the knee.",
+      "section": "ICM",
+      "sessions": [
+        "Knee examination"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Step</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Look</strong> (standing)</td><td>Gait, <strong>varus/valgus</strong> deformity, quadriceps wasting, swelling, popliteal (Baker's) cyst</td></tr><tr><td><strong>Look</strong> (lying)</td><td>Scars, redness, swelling, fixed flexion</td></tr><tr><td><strong>Feel</strong></td><td>Temperature, <strong>effusion</strong>: <strong>patellar tap</strong> (large) or <strong>sweep/bulge test</strong> (small); <strong>joint line tenderness</strong> (knee flexed: meniscal), patella, tibial tuberosity, popliteal fossa</td></tr><tr><td><strong>Move</strong></td><td>Active and passive flexion (~135°) and extension (0°), crepitus; straight leg raise (extensor mechanism)</td></tr><tr><td><strong>Special tests</strong></td><td><strong>Anterior/posterior drawer</strong> and <strong>Lachman's</strong> (cruciates), <strong>valgus/varus stress</strong> at 20–30° flexion (MCL/LCL), <strong>McMurray's</strong> (meniscus), patellar apprehension</td></tr></tbody></table></div><ul><li><strong>Finish</strong>: examine the <strong>hip</strong> (referred pain) and neurovascular status; X-ray (weight-bearing).</li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Perform a clinical examination of the shoulder with increasing confidence and accuracy",
+      "section": "ICM",
+      "sessions": [
+        "Shoulder examination - 2"
+      ],
+      "html": "<ul><li><strong>Full routine</strong>: see ICM Year 1 › Musculoskeletal › LO 1 (look, feel, move, special tests).</li></ul><div class=\"tbl\"><table><thead><tr><th>Accuracy tips</th><th></th></tr></thead><tbody><tr><td>Watch from behind during abduction: <strong>scapulohumeral rhythm</strong>, painful arc</td><td></td></tr><tr><td>Compare <strong>passive external rotation</strong> with the other side (frozen shoulder)</td><td></td></tr><tr><td>Name the rotator cuff muscle each test isolates</td><td></td></tr><tr><td>Check the <strong>neck</strong> as a source of pain</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Demonstrate the ability to perform a gastrointestinal examination with clinical competence, interpret and integrate findings with relevant knowledge to support clinical reasoning, and clearly present these findings to peers or supervisors.",
+      "section": "ICM",
+      "sessions": [
+        "GI examination - 3"
+      ],
+      "html": "<ul><li><strong>Full routine</strong>: see ICM Year 1 › Gastrointestinal &amp; liver › LO 1.</li></ul><div class=\"tbl\"><table><thead><tr><th>Competence =</th><th></th></tr></thead><tbody><tr><td>Fluent, complete sequence including finishing steps (hernias, genitalia, DRE, urine dip)</td><td></td></tr><tr><td>Interpret: chronic liver disease stigmata, organomegaly, ascites, masses, peritonism</td><td></td></tr><tr><td>Integrate with the history and present: positives, negatives, summary, differential, investigations (bloods incl. LFTs, ultrasound, CT)</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Demonstrate a systematic musculoskeletal examination of the hand and wrist, accurately identifying anatomical landmarks, assessing function, and recognizing abnormal findings",
+      "section": "ICM",
+      "sessions": [
+        "Hand & wrist"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Step</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Look</strong></td><td>Dorsum and palm: swelling, deformity, wasting, scars, skin and nails</td></tr><tr><td><strong>Feel</strong></td><td>Temperature, MCP squeeze, palpate each joint, <strong>anatomical snuffbox</strong>, radial styloid, distal radioulnar joint, ulnar styloid</td></tr><tr><td><strong>Move</strong></td><td>Wrist flexion (80°)/extension (70°), radial/ulnar deviation, pronation/supination; fingers and thumb</td></tr><tr><td><strong>Function</strong></td><td>Grip, pinch, button, write</td></tr><tr><td><strong>Nerves</strong></td><td>Median, ulnar, radial (motor and sensory)</td></tr><tr><td><strong>Special tests</strong></td><td>Phalen's, Tinel's, <strong>Finkelstein's</strong>, <strong>scaphoid compression</strong></td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Abnormal finding</th><th>Suggests</th></tr></thead><tbody><tr><td>Snuffbox tenderness</td><td>Scaphoid fracture</td></tr><tr><td>Pain on Finkelstein's</td><td><strong>De Quervain's tenosynovitis</strong></td></tr><tr><td>Dorsal \"dinner fork\" deformity</td><td><strong>Colles' fracture</strong></td></tr><tr><td>Smooth lump on dorsum</td><td><strong>Ganglion</strong> (transilluminates)</td></tr><tr><td>Triggering finger</td><td>Stenosing tenosynovitis (A1 pulley)</td></tr></tbody></table></div>"
+    }
+  ]
+}

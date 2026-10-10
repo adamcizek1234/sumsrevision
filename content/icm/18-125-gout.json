@@ -1,0 +1,44 @@
+{
+  "id": "i-125",
+  "num": "125",
+  "title": "Gout",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Perform a structured clinical examination of the hip.",
+      "section": "ICM",
+      "sessions": [
+        "Hip examination"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Step</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Look</strong> (standing)</td><td>Gait (<strong>antalgic</strong>: short stance on the painful side; <strong>Trendelenburg</strong>: pelvis drops on the opposite side), posture, scars, wasting, leg length difference</td></tr><tr><td><strong>Trendelenburg test</strong></td><td>Stand on one leg: pelvis drops on the unsupported side = weak <strong>hip abductors</strong> on the standing side (superior gluteal nerve, OA, DDH)</td></tr><tr><td><strong>Look</strong> (lying)</td><td>Pelvis level, <strong>leg length</strong>: true (ASIS to medial malleolus) and apparent (umbilicus to medial malleolus)</td></tr><tr><td><strong>Feel</strong></td><td>Greater trochanter tenderness (bursitis), temperature</td></tr><tr><td><strong>Move</strong></td><td>Flexion (~120°), <strong>internal rotation</strong> (~40°; lost early in OA), external rotation (~45°), abduction, adduction, extension (prone)</td></tr><tr><td><strong>Thomas's test</strong></td><td>Flex the opposite hip fully: if the tested leg lifts off the couch = <strong>fixed flexion deformity</strong></td></tr></tbody></table></div><ul><li><strong>Finish</strong>: examine the <strong>knee</strong> and <strong>lumbar spine</strong>, neurovascular status; X-ray (AP pelvis and lateral hip).</li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Perform a clinical examination of the knee with increasing confidence and accuracy.",
+      "section": "ICM",
+      "sessions": [
+        "Knee examination"
+      ],
+      "html": "<ul><li><strong>Full routine</strong>: see ICM Year 1 › Musculoskeletal › LO 7.</li></ul><div class=\"tbl\"><table><thead><tr><th>Accuracy tips</th><th></th></tr></thead><tbody><tr><td>Compare with the other knee at every stage</td><td></td></tr><tr><td>Check for an <strong>effusion</strong> before stress tests</td><td></td></tr><tr><td><strong>Lachman's</strong> is the most sensitive test for ACL rupture</td><td></td></tr><tr><td>Explain what each test shows</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Demonstrate the correct technique for performing a digital rectal examination, ensuring patient dignity, safety, and effective communication throughout the procedure",
+      "section": "ICM",
+      "sessions": [
+        "Rectal examination"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td><strong>Explain</strong> why and what it involves; consent; <strong>chaperone</strong> offered and documented.</td></tr><tr><th scope=\"row\">2</th><td>Position: <strong>left lateral</strong>, knees drawn up.</td></tr><tr><th scope=\"row\">3. Inspect</th><td>Skin tags, haemorrhoids, fissures, fistulae, blood, warts, prolapse.</td></tr><tr><th scope=\"row\">4</th><td>Gloved, <strong>lubricated</strong> index finger; warn the patient; insert gently with the pad pressing posteriorly.</td></tr><tr><th scope=\"row\">5. Assess</th><td><ul class=\"cl\"><li><strong>Anal tone</strong> (squeeze)</li><li>Mucosa all round (masses)</li><li><strong>Prostate</strong> in men (size, surface, consistency, median sulcus; tender in prostatitis)</li><li>Stool and blood on the glove.</li></ul></td></tr><tr><th scope=\"row\">6</th><td>Withdraw, inspect the glove, <strong>clean</strong> the patient, cover, thank, document (including chaperone).</td></tr></tbody></table></div><ul><li><strong>Indications</strong>: rectal bleeding, change in bowel habit, prostate symptoms, cauda equina (tone and sensation), constipation.</li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Take a history and explain a diagnosis",
+      "section": "ICM",
+      "sessions": [
+        "History and explaining"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">History</th><td><ul class=\"cl\"><li>Gout example: sudden</li><li>Very painful red hot swollen joint (often big toe, overnight)</li><li>Previous attacks</li><li>Risk factors (alcohol, red meat, seafood, sugary drinks, <strong>thiazide/loop diuretics</strong>, CKD, obesity)</li><li>Family history</li><li>Exclude <strong>septic arthritis</strong> (fever, unwell).</li></ul></td></tr><tr><th scope=\"row\">Explaining a diagnosis</th><td><ul class=\"cl\"><li>What it is (urate crystals in the joint)</li><li>Why it happened</li><li>Treatment (NSAID or colchicine; <strong>allopurinol</strong> later to lower urate, not started during an attack in the first instance)</li><li>Lifestyle</li><li>When to seek help</li><li>Check understanding.</li></ul></td></tr></tbody></table></div>"
+    }
+  ]
+}

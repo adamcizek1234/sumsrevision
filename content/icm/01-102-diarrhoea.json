@@ -1,0 +1,53 @@
+{
+  "id": "i-102",
+  "num": "102",
+  "title": "Diarrhoea",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Identify the clinical signs of cardiac arrest",
+      "section": "ICM",
+      "sessions": [
+        "Adult Basic Life support"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Sign</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Unresponsive</strong></td><td>No response to voice or a shake of the shoulders</td></tr><tr><td><strong>Not breathing normally</strong></td><td>Absent breathing or <strong>agonal gasps</strong> (slow, noisy, irregular: common in the first minutes, treat as cardiac arrest)</td></tr><tr><td><strong>No signs of life</strong></td><td>No movement, coughing or normal breathing; healthcare staff may also feel for a carotid pulse (no more than 10 seconds)</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Check</th><td>Open the airway (head tilt, chin lift), then <strong>look, listen and feel for no more than 10 seconds</strong>.</td></tr><tr><th scope=\"row\">If in doubt, start CPR</th><td>a brief seizure-like episode or gasping can be the first sign of arrest.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Demonstrate effective adult CPR in accordance with current guidelines",
+      "section": "ICM",
+      "sessions": [
+        "Adult Basic Life support"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1. Danger</th><td>Make sure you, the casualty and bystanders are safe.</td></tr><tr><th scope=\"row\">2. Response</th><td>\"Are you all right?\", shake gently by the shoulders.</td></tr><tr><th scope=\"row\">3</th><td><strong>Shout for help</strong>, then <strong>Airway</strong>: head tilt, chin lift.</td></tr><tr><th scope=\"row\">4. Breathing</th><td>Look, listen, feel for up to 10 seconds.</td></tr><tr><th scope=\"row\">5</th><td><strong>Call 999 / 2222</strong> (hospital), ask someone to <strong>fetch an AED</strong>; use speakerphone.</td></tr><tr><th scope=\"row\">6. 30 compressions</th><td>Centre of the chest (lower half of sternum), <strong>5–6 cm deep</strong>, <strong>100–120/min</strong>, full recoil, minimal interruptions.</td></tr><tr><th scope=\"row\">7</th><td><strong>2 rescue breaths</strong> (if trained and willing), each ~1 second, enough to make the chest rise.</td></tr><tr><th scope=\"row\">8</th><td>Continue <strong>30:2</strong>; attach the <strong>AED</strong> as soon as it arrives and follow its prompts; swap compressors every 2 minutes.</td></tr></tbody></table></div><ul><li><strong>Guidelines</strong>: Resuscitation Council UK (2021). Compression-only CPR is acceptable if unwilling or unable to give breaths.</li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Describe the key components of a medical history and explain their significance.",
+      "section": "ICM",
+      "sessions": [
+        "History taking process"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Section</th><th>What it covers</th><th>Why it matters</th></tr></thead><tbody><tr><td><strong>Presenting complaint</strong></td><td>The problem in the patient's words</td><td>Focuses the consultation</td></tr><tr><td><strong>History of presenting complaint</strong></td><td>Onset, duration, character, progression, associated symptoms, red flags (e.g. SOCRATES for pain)</td><td>Most diagnoses come from the history</td></tr><tr><td><strong>Past medical/surgical history</strong></td><td>Conditions, operations, hospital admissions</td><td>Risk factors, recurrence, contraindications</td></tr><tr><td><strong>Drug history</strong></td><td>Prescribed, over-the-counter, herbal, recreational; <strong>allergies and the reaction</strong></td><td>Side effects, interactions, safe prescribing</td></tr><tr><td><strong>Family history</strong></td><td>Illness in first-degree relatives</td><td>Inherited risk</td></tr><tr><td><strong>Social history</strong></td><td>Smoking (pack-years), alcohol (units), occupation, home, function, driving</td><td>Risk factors, impact, discharge planning</td></tr><tr><td><strong>Systems review</strong></td><td>Brief screen of other systems</td><td>Picks up missed problems</td></tr><tr><td><strong>ICE</strong></td><td>Ideas, concerns, expectations</td><td>Patient-centred care, shared decisions</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Summarise patient history findings and communicate them effectively during clinical handover or presentations.",
+      "section": "ICM",
+      "sessions": [
+        "History taking process"
+      ],
+      "html": "<ul><li><strong>Structure</strong>: use <strong>SBAR</strong> (Situation, Background, Assessment, Recommendation) for handover, or a case presentation order for ward rounds.</li></ul><div class=\"tbl\"><table><thead><tr><th>Case presentation</th><th>Example</th></tr></thead><tbody><tr><td>Opening line</td><td>\"Mr X, 64, presented with 3 days of bloody diarrhoea.\"</td></tr><tr><td>HPC</td><td>Key positives and important negatives</td></tr><tr><td>PMH, drugs, allergies, social</td><td>Only what is relevant</td></tr><tr><td>Summary</td><td>One sentence pulling it together</td></tr><tr><td>Differential and plan</td><td>Most likely first; next investigations</td></tr></tbody></table></div><ul><li><strong>Tips</strong>: be concise, put the most important point first, avoid jargon, check the listener has understood, and document clearly.</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Evaluate the role of medical history in diagnosis and patient management.",
+      "section": "ICM",
+      "sessions": [
+        "History taking process"
+      ],
+      "html": "<ul><li><strong>The history gives about 70–80% of diagnoses</strong>; examination and tests mainly confirm or refine.</li></ul><div class=\"tbl\"><table><thead><tr><th>Role</th><th>Example</th></tr></thead><tbody><tr><td>Generates a <strong>differential diagnosis</strong></td><td>Pattern of symptoms, timing, risk factors</td></tr><tr><td>Guides <strong>examination and investigations</strong></td><td>Avoids unnecessary tests</td></tr><tr><td>Identifies <strong>red flags</strong> and urgency</td><td>Weight loss and rectal bleeding → urgent cancer referral</td></tr><tr><td>Informs <strong>management</strong></td><td>Allergies, drug interactions, frailty, patient wishes</td></tr><tr><td>Builds <strong>rapport and trust</strong></td><td>Better adherence and shared decisions</td></tr></tbody></table></div>"
+    }
+  ]
+}

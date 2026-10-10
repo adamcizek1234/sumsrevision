@@ -1,0 +1,44 @@
+{
+  "id": "i-109",
+  "num": "109",
+  "title": "Neuropathy",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Perform a neurological examination of the upper limbs with a structured and systematic approach",
+      "section": "ICM",
+      "sessions": [
+        "Upper limb neurological examination"
+      ],
+      "html": "<ul><li><strong>Order</strong>: inspection, <strong>tone</strong>, <strong>power</strong>, <strong>reflexes</strong>, <strong>coordination</strong>, <strong>sensation</strong> (compare sides).</li></ul><div class=\"tbl\"><table><thead><tr><th>Step</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Inspection</strong></td><td>Wasting, fasciculation, tremor, scars, posture; <strong>pronator drift</strong> (arms out, palms up, eyes closed: UMN weakness drifts down and pronates)</td></tr><tr><td><strong>Tone</strong></td><td>Rotate the wrist and flex/extend the elbow: <strong>spasticity</strong> (clasp-knife, UMN), <strong>rigidity</strong> (cogwheel/lead pipe, Parkinson's), reduced (LMN)</td></tr><tr><td><strong>Power</strong> (MRC 0–5)</td><td><ul class=\"cl\"><li>Shoulder abduction (C5)</li><li>Elbow flexion (C5/6)</li><li>Elbow extension (C7)</li><li>Wrist extension (C6/7)</li><li>Finger extension (C7)</li><li>Finger flexion (C8)</li><li>Finger abduction (T1)</li><li>Thumb abduction (median, T1)</li></ul></td></tr><tr><td><strong>Reflexes</strong></td><td><strong>Biceps (C5/6)</strong>, <strong>supinator (C5/6)</strong>, <strong>triceps (C7)</strong>; reinforcement (clench teeth); Hoffmann's sign</td></tr><tr><td><strong>Coordination</strong></td><td>Finger–nose test (intention tremor, past-pointing), dysdiadochokinesia</td></tr><tr><td><strong>Sensation</strong></td><td><ul class=\"cl\"><li>Light touch and pinprick by <strong>dermatome</strong> (C5 lateral arm, C6 thumb, C7 middle finger, C8 little finger, T1 medial forearm)</li><li><strong>Vibration</strong> and <strong>proprioception</strong> (start distally)</li></ul></td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Pattern</th><th>Signs</th></tr></thead><tbody><tr><td><strong>UMN</strong></td><td>Increased tone, pyramidal weakness, <strong>brisk reflexes</strong>, no wasting</td></tr><tr><td><strong>LMN</strong></td><td>Wasting, <strong>fasciculation</strong>, reduced tone, <strong>reduced/absent reflexes</strong></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Perform a competent gastrointestinal examination with increased confidence.",
+      "section": "ICM",
+      "sessions": [
+        "Gastrointestinal examination"
+      ],
+      "html": "<ul><li><strong>Same structure as week 105</strong>, but faster and more fluent: inspection, hands, face, neck, abdomen (palpate, percuss, auscultate), and the finishing steps.</li></ul><div class=\"tbl\"><table><thead><tr><th>Focus for \"increased confidence\"</th><th></th></tr></thead><tbody><tr><td>Smooth, systematic order without notes</td><td></td></tr><tr><td>Commentary to the examiner while examining (if asked)</td><td></td></tr><tr><td>Watching the patient's face throughout</td><td></td></tr><tr><td>Correct technique for liver (from RIF, with inspiration) and spleen (from RIF towards left costal margin; tip the patient right)</td><td></td></tr><tr><td>Shifting dullness: percuss to dullness in the flank, roll the patient, wait 30 s, re-percuss</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Interpret basic clinical signs identified during a gastrointestinal examination.",
+      "section": "ICM",
+      "sessions": [
+        "Gastrointestinal examination"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Sign</th><th>Suggests</th></tr></thead><tbody><tr><td><strong>Jaundice</strong></td><td>Liver disease, biliary obstruction, haemolysis</td></tr><tr><td><strong>Spider naevi, palmar erythema, gynaecomastia, Dupuytren's</strong></td><td><strong>Chronic liver disease</strong></td></tr><tr><td><strong>Asterixis</strong></td><td><strong>Hepatic encephalopathy</strong> (also CO₂ retention, uraemia)</td></tr><tr><td><strong>Clubbing</strong></td><td>IBD, cirrhosis, coeliac disease</td></tr><tr><td><strong>Koilonychia, pallor</strong></td><td>Iron deficiency anaemia</td></tr><tr><td><strong>Hepatomegaly</strong></td><td>Congestion, fatty liver, malignancy</td></tr><tr><td><strong>Splenomegaly</strong></td><td>Portal hypertension, haematological disease, infection</td></tr><tr><td><strong>Ascites</strong> (shifting dullness)</td><td>Cirrhosis, malignancy, heart failure</td></tr><tr><td><strong>Caput medusae</strong></td><td>Portal hypertension</td></tr><tr><td><strong>Murphy's sign</strong></td><td>Acute cholecystitis</td></tr><tr><td><strong>Ballotable kidney</strong></td><td>Polycystic kidneys, renal tumour</td></tr><tr><td><strong>Expansile mass</strong></td><td>AAA</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Explain simple medical concepts to patients using appropriate language and empathetic communication.",
+      "section": "ICM",
+      "sessions": [
+        "Introduction to explaining"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Technique</th><th>Example</th></tr></thead><tbody><tr><td><strong>Find out what they know</strong> first</td><td>\"What do you understand about your condition so far?\"</td></tr><tr><td><strong>Chunk and check</strong></td><td>Small pieces, then \"Does that make sense so far?\"</td></tr><tr><td><strong>Plain language</strong></td><td>\"Your blood sugar is too high\" not \"hyperglycaemia\"</td></tr><tr><td><strong>Analogies and drawings</strong></td><td>Arteries \"furred up like a pipe\"</td></tr><tr><td><strong>Teach-back</strong></td><td>\"Can you tell me in your own words what we discussed?\"</td></tr><tr><td><strong>Empathy</strong></td><td>Acknowledge feelings and worries</td></tr><tr><td><strong>Written information / leaflets</strong></td><td>Back up what you said</td></tr></tbody></table></div><ul><li><strong>Avoid</strong>: jargon, information overload, false reassurance.</li></ul>"
+    }
+  ]
+}

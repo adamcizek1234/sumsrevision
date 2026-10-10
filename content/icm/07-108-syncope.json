@@ -1,0 +1,44 @@
+{
+  "id": "i-108",
+  "num": "108",
+  "title": "Syncope",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Demonstrate a structured cardiovascular examination.",
+      "section": "ICM",
+      "sessions": [
+        "Cardiovascular examination"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td><strong>Introduction</strong>, consent, position at <strong>45°</strong>, expose the chest.</td></tr><tr><th scope=\"row\">2. General inspection</th><td>Breathlessness, cyanosis, pallor, scars (sternotomy, thoracotomy, saphenous vein harvest), pacemaker, around the bed (GTN spray, oxygen).</td></tr><tr><th scope=\"row\">3. Hands</th><td>Clubbing, <strong>splinter haemorrhages</strong>, Janeway lesions, Osler's nodes (endocarditis), xanthomata, capillary refill, temperature.</td></tr><tr><th scope=\"row\">4. Pulse</th><td><strong>Radial</strong> rate and rhythm, <strong>radio-radial delay</strong>, <strong>collapsing pulse</strong> (aortic regurgitation); <strong>blood pressure</strong>.</td></tr><tr><th scope=\"row\">5. Face</th><td>Conjunctival pallor, xanthelasma, <strong>malar flush</strong> (mitral stenosis), central cyanosis.</td></tr><tr><th scope=\"row\">6. Neck</th><td><strong>JVP</strong> (height, waveform; hepatojugular reflux), <strong>carotid pulse</strong> (character: slow-rising in aortic stenosis).</td></tr><tr><th scope=\"row\">7</th><td><strong>Chest inspection</strong>, then <strong>apex beat</strong> (normally <strong>5th intercostal space, midclavicular line</strong>; displaced in LV dilatation), <strong>heaves</strong> and <strong>thrills</strong>.</td></tr><tr><th scope=\"row\">8. Auscultation</th><td><ul class=\"cl\"><li>Aortic (right 2nd ICS), pulmonary (left 2nd ICS), tricuspid (left lower sternal edge), <strong>mitral (apex)</strong></li><li>Time with the carotid pulse.</li><li><strong>Manoeuvres</strong>: left lateral position, bell at the apex (mitral stenosis)</li><li>Sitting forward, held expiration (aortic regurgitation)</li><li>Listen over the carotids (radiation of aortic stenosis) and axilla (mitral regurgitation).</li></ul></td></tr><tr><th scope=\"row\">9</th><td><strong>Lung bases</strong> (crackles), <strong>sacral and ankle oedema</strong>.</td></tr><tr><th scope=\"row\">10. Finish</th><td>Peripheral pulses, ECG, urine dip (endocarditis), fundoscopy.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Identify red flag symptoms and signs in a cardiovascular history that require urgent attention",
+      "section": "ICM",
+      "sessions": [
+        "Cardiovascular history & explaining"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Symptom</th><th>Red flag / urgent cause</th></tr></thead><tbody><tr><td><strong>Chest pain</strong> at rest, crushing, radiating to arm/jaw, with sweating</td><td><strong>Acute coronary syndrome</strong></td></tr><tr><td>Sudden <strong>tearing</strong> pain radiating to the back</td><td><strong>Aortic dissection</strong></td></tr><tr><td><strong>Syncope on exertion</strong></td><td>Aortic stenosis, HOCM, arrhythmia</td></tr><tr><td>Syncope with <strong>palpitations</strong> or no warning, family history of sudden death</td><td><strong>Arrhythmia</strong> (long QT, Brugada)</td></tr><tr><td><strong>Breathlessness</strong> at rest, orthopnoea, PND, frothy sputum</td><td>Acute heart failure</td></tr><tr><td>Pleuritic pain with breathlessness, leg swelling</td><td><strong>Pulmonary embolism</strong></td></tr><tr><td>Sudden cold, painful, pale leg</td><td>Acute limb ischaemia</td></tr></tbody></table></div><ul><li><strong>Signs</strong>: hypotension, new murmur, irregular pulse, raised JVP, low sats.</li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Explain the purpose of signposting in clinical communication and demonstrate its use during consultation",
+      "section": "ICM",
+      "sessions": [
+        "Cardiovascular history & explaining"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Signposting</th><td>Telling the patient what is coming next, so the consultation feels organised and they can follow it.</td></tr><tr><th scope=\"row\">Examples</th><td><ul class=\"cl\"><li>\"I'm now going to ask some questions about your general health\", \"I'd like to explain what we think is happening, then talk about the next steps.</li><li>Is that OK?\"</li></ul></td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Benefit</th><th></th></tr></thead><tbody><tr><td>Patient knows what to expect</td><td></td></tr><tr><td>Smooth transitions between sections</td><td></td></tr><tr><td>Gives the patient a chance to add things</td><td></td></tr><tr><td>Helps the patient remember information (chunking)</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Describe the basic components of an ECG and interpret common abnormalities",
+      "section": "ICM",
+      "sessions": [
+        "Principles of the 12 lead ECG"
+      ],
+      "html": "<ul><li><strong>Leads</strong>: <strong>12 views</strong> from 10 electrodes: limb leads (I, II, III, aVR, aVL, aVF) and chest leads (V1–V6).</li></ul><div class=\"tbl\"><table><thead><tr><th>Component</th><th>Represents</th><th>Normal</th></tr></thead><tbody><tr><td><strong>P wave</strong></td><td>Atrial depolarisation</td><td>Before every QRS</td></tr><tr><td><strong>PR interval</strong></td><td>AV conduction</td><td><strong>0.12–0.20 s</strong> (3–5 small squares)</td></tr><tr><td><strong>QRS complex</strong></td><td>Ventricular depolarisation</td><td><strong>&lt;0.12 s</strong> (3 small squares)</td></tr><tr><td><strong>ST segment</strong></td><td>Early repolarisation</td><td>Isoelectric</td></tr><tr><td><strong>T wave</strong></td><td>Ventricular repolarisation</td><td>Upright in most leads</td></tr><tr><td><strong>QT interval</strong></td><td>Depolarisation to repolarisation</td><td>QTc &lt;450 ms (men), &lt;470 ms (women)</td></tr></tbody></table></div><ul><li><strong>Rate</strong>: 300 ÷ number of large squares between R waves (regular), or QRS count in 10 s × 6.</li></ul><div class=\"tbl\"><table><thead><tr><th>Abnormality</th><th>Features</th></tr></thead><tbody><tr><td><strong>Atrial fibrillation</strong></td><td>Irregularly irregular, no P waves</td></tr><tr><td><strong>STEMI</strong></td><td>ST elevation in contiguous leads (e.g. II, III, aVF inferior; V1–V4 anterior)</td></tr><tr><td><strong>First-degree heart block</strong></td><td>PR &gt;0.2 s</td></tr><tr><td><strong>Complete heart block</strong></td><td>P waves and QRS independent</td></tr><tr><td><strong>LBBB / RBBB</strong></td><td>Broad QRS; \"WiLLiaM\" / \"MaRRoW\" patterns</td></tr><tr><td><strong>Hyperkalaemia</strong></td><td>Tall tented T waves, broad QRS</td></tr></tbody></table></div>"
+    }
+  ]
+}

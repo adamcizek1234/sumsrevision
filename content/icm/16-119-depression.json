@@ -1,0 +1,80 @@
+{
+  "id": "i-119",
+  "num": "119",
+  "title": "Depression",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Describe the process of urinalysis, demonstrating an understanding of the procedures and techniques involved, as informed by pre-reading on CANVAS.",
+      "section": "ICM",
+      "sessions": [
+        "Urinalysis"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Identity, explain, consent; <strong>fresh midstream urine</strong> in a clean container (or catheter sample port).</td></tr><tr><th scope=\"row\">2</th><td>Gloves, check <strong>dipstick expiry</strong> and storage.</td></tr><tr><th scope=\"row\">3</th><td><strong>Inspect</strong> the urine: colour, clarity, smell, blood.</td></tr><tr><th scope=\"row\">4</th><td><strong>Dip</strong> the strip fully, remove immediately, tap off excess, hold <strong>horizontal</strong>.</td></tr><tr><th scope=\"row\">5</th><td><strong>Read at the stated times</strong> against the colour chart (most at 30–60 s; leucocytes at 2 min).</td></tr><tr><th scope=\"row\">6</th><td>Dispose of waste, hand hygiene, <strong>document</strong> results; send MC&amp;S if indicated.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Perform a simple urine dipstick test and pregnancy test, analyse the results, and interpret the findings, demonstrating the ability to make appropriate clinical inferences based on the outcomes.",
+      "section": "ICM",
+      "sessions": [
+        "Urinalysis"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Result</th><th>Possible meaning</th></tr></thead><tbody><tr><td><strong>Leucocytes + nitrites</strong></td><td><strong>UTI</strong> (nitrites very specific for Gram-negative bacteria)</td></tr><tr><td><strong>Blood</strong></td><td>Infection, stones, cancer, glomerulonephritis, menstruation, rhabdomyolysis (myoglobin)</td></tr><tr><td><strong>Protein</strong></td><td>Kidney disease, <strong>pre-eclampsia</strong> (in pregnancy), infection</td></tr><tr><td><strong>Glucose</strong></td><td><strong>Diabetes</strong>, pregnancy, SGLT2 inhibitors</td></tr><tr><td><strong>Ketones</strong></td><td>DKA, starvation, vomiting</td></tr><tr><td><strong>Bilirubin / urobilinogen</strong></td><td>Obstructive jaundice / haemolysis or liver disease</td></tr><tr><td><strong>Specific gravity</strong></td><td>Concentration (dehydration)</td></tr><tr><td><strong>pH</strong></td><td>Stones, infection (Proteus: alkaline)</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Pregnancy test</th><td>Urine <strong>hCG</strong> cassette; 3 drops in the well, read at 3–5 min (two lines = positive; control line must appear).</td></tr><tr><th scope=\"row\">Caution</th><td>Don't dip urine for UTI in <strong>over-65s</strong> or catheterised patients (asymptomatic bacteriuria is common): diagnose on symptoms.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Take a focused psychiatric history from a patient, including mood, thought, and perception.",
+      "section": "ICM",
+      "sessions": [
+        "Psychiatry History"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Section</th><th>Content</th></tr></thead><tbody><tr><td><strong>Presenting complaint</strong></td><td>In their words</td></tr><tr><td><strong>Mood</strong></td><td>Low mood, anhedonia, energy, duration, <strong>biological symptoms</strong> (sleep, appetite, weight, libido, diurnal variation)</td></tr><tr><td><strong>Thought</strong></td><td>Hopelessness, guilt, worthlessness; <strong>suicidal thoughts and plans</strong></td></tr><tr><td><strong>Perception</strong></td><td>Hallucinations (voices, visions)</td></tr><tr><td><strong>Anxiety</strong></td><td>Worry, panic, OCD symptoms</td></tr><tr><td><strong>Psychiatric history</strong></td><td>Previous episodes, treatment, admissions, self-harm</td></tr><tr><td><strong>Drugs and substances</strong></td><td>Antidepressants, alcohol, illicit drugs</td></tr><tr><td><strong>Personal and social history</strong></td><td>Childhood, relationships, work, finances, forensic history</td></tr><tr><td><strong>Risk</strong></td><td>To self, to others, from others, self-neglect</td></tr></tbody></table></div><ul><li><strong>Screening</strong>: PHQ-9 (depression), GAD-7 (anxiety).</li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Take a history from a non-communicative or minimally talkative patient using appropriate techniques.",
+      "section": "ICM",
+      "sessions": [
+        "Psychiatry History"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Technique</th><th>Example</th></tr></thead><tbody><tr><td><strong>Open, gentle questions</strong> with time to answer</td><td>\"How have things been for you lately?\"</td></tr><tr><td><strong>Tolerate silence</strong></td><td>Wait; don't rush to fill gaps</td></tr><tr><td><strong>Reflect and observe aloud</strong></td><td>\"You seem quite low today\"</td></tr><tr><td><strong>Empathy and validation</strong></td><td>\"It sounds like things have been really hard\"</td></tr><tr><td><strong>Simple, short questions</strong></td><td>One at a time</td></tr><tr><td><strong>Collateral history</strong></td><td>Family, GP, notes (with consent)</td></tr><tr><td><strong>Explore why</strong> they're quiet</td><td>Low mood, psychomotor retardation, psychosis, fear, language barrier</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Observe and interpret non-verbal communication cues during patient interactions.",
+      "section": "ICM",
+      "sessions": [
+        "Psychiatry History"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Cue</th><th>May mean</th></tr></thead><tbody><tr><td>Poor eye contact, slumped posture</td><td>Low mood, shame</td></tr><tr><td>Tearfulness</td><td>Distress</td></tr><tr><td>Restlessness, fidgeting</td><td>Anxiety, akathisia</td></tr><tr><td>Guarded or suspicious</td><td>Paranoia</td></tr><tr><td>Flat or incongruent affect</td><td>Psychosis, depression</td></tr><tr><td>Long pauses, slowed movement</td><td>Psychomotor retardation (depression)</td></tr><tr><td>Self-harm scars, poor self-care</td><td>Risk, self-neglect</td></tr></tbody></table></div><ul><li><strong>Respond</strong>: name it gently and explore.</li></ul>"
+    },
+    {
+      "n": 6,
+      "text": "Assess mental state by observing both objective and subjective features, including appearance, behaviour, and mood",
+      "section": "ICM",
+      "sessions": [
+        "Psychiatry History"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Mental state examination</th><th>Observe</th></tr></thead><tbody><tr><td><strong>Appearance and behaviour</strong></td><td>Self-care, clothing, eye contact, rapport, psychomotor activity</td></tr><tr><td><strong>Speech</strong></td><td>Rate, volume, tone, quantity</td></tr><tr><td><strong>Mood</strong> (subjective, their words) and <strong>affect</strong> (objective)</td><td>\"Low\", reactive or flat affect</td></tr><tr><td><strong>Thought form</strong></td><td>Flight of ideas, loosening of associations</td></tr><tr><td><strong>Thought content</strong></td><td>Delusions, obsessions, <strong>suicidal ideation</strong></td></tr><tr><td><strong>Perception</strong></td><td>Hallucinations</td></tr><tr><td><strong>Cognition</strong></td><td>Orientation, attention, memory</td></tr><tr><td><strong>Insight</strong></td><td>Do they recognise they're unwell?</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Demonstrate the ability to perform a cardiovascular examination with clinical competence, interpret and integrate findings with relevant knowledge to support clinical reasoning, and clearly present these findings to peers or supervisors.",
+      "section": "ICM",
+      "sessions": [
+        "CVS - 3"
+      ],
+      "html": "<ul><li><strong>Full routine</strong>: see ICM Year 1 › Cardiovascular › LOs 1 and 4.</li></ul><div class=\"tbl\"><table><thead><tr><th>Competence =</th><th></th></tr></thead><tbody><tr><td>Smooth examination including manoeuvres for murmurs</td><td></td></tr><tr><td>Interpret and link findings: e.g. AF + pansystolic murmur + basal crackles = mitral regurgitation with heart failure</td><td></td></tr><tr><td>Present with summary, differential and investigations (ECG, echo, bloods, CXR)</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Explain medications to a patient",
+      "section": "ICM",
+      "sessions": [
+        "Pharmacy"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Explain</th><th>Example (sertraline)</th></tr></thead><tbody><tr><td><strong>What it's for</strong></td><td>Treats depression and anxiety</td></tr><tr><td><strong>How to take it</strong></td><td>Once daily, with or without food</td></tr><tr><td><strong>When it works</strong></td><td><strong>2–4 weeks</strong>, full effect 6–8 weeks</td></tr><tr><td><strong>Common side effects</strong></td><td>Nausea, headache, anxiety at first; usually settle</td></tr><tr><td><strong>Important warnings</strong></td><td>Don't stop suddenly (discontinuation symptoms); seek help if worse or suicidal thoughts (especially under 25)</td></tr><tr><td><strong>Review</strong></td><td>Follow-up in 2 weeks (1 week if under 25 or at risk)</td></tr></tbody></table></div><ul><li><strong>Check understanding</strong> (teach-back) and give written information.</li></ul>"
+    }
+  ]
+}

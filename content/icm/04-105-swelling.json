@@ -1,0 +1,53 @@
+{
+  "id": "i-105",
+  "num": "105",
+  "title": "Swelling",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Demonstrate a systematic examination of the gastrointestinal system",
+      "section": "ICM",
+      "sessions": [
+        "Gastrointestinal examination"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1. Introduction</th><td>Wash hands, introduce, consent, position <strong>flat</strong> with one pillow, expose <strong>nipples to knees</strong> (keep covered except the abdomen), ask about pain.</td></tr><tr><th scope=\"row\">2. General inspection</th><td>Jaundice, pallor, cachexia, distension, scars, stomas, around the bed.</td></tr><tr><th scope=\"row\">3. Hands</th><td>Clubbing, <strong>koilonychia</strong>, <strong>leuconychia</strong>, <strong>palmar erythema</strong>, <strong>Dupuytren's</strong>, <strong>asterixis</strong> (liver flap).</td></tr><tr><th scope=\"row\">4. Arms</th><td>Bruising, scratch marks, fistulas.</td></tr><tr><th scope=\"row\">5. Face</th><td><strong>Conjunctival pallor</strong>, <strong>scleral icterus</strong>, angular cheilitis, mouth ulcers, xanthelasma.</td></tr><tr><th scope=\"row\">6. Neck</th><td>Lymph nodes, especially <strong>Virchow's</strong> (left supraclavicular).</td></tr><tr><th scope=\"row\">7. Chest</th><td><strong>Spider naevi</strong>, gynaecomastia.</td></tr><tr><th scope=\"row\">8. Abdomen inspection</th><td>Scars, distension, caput medusae, visible peristalsis; ask to cough (hernias).</td></tr><tr><th scope=\"row\">9. Palpate</th><td>Light then deep (nine regions), then <strong>liver</strong>, <strong>spleen</strong> (from the right iliac fossa), <strong>kidneys</strong> (ballot), <strong>aorta</strong>.</td></tr><tr><th scope=\"row\">10. Percuss</th><td>Liver, spleen, <strong>shifting dullness</strong>.</td></tr><tr><th scope=\"row\">11. Auscultate</th><td>Bowel sounds, renal and aortic bruits.</td></tr><tr><th scope=\"row\">12. Finish</th><td>Hernial orifices, external genitalia, <strong>DRE</strong>, urine dip, observations; thank the patient and present.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Organise and present clinical findings in a structured and logical format",
+      "section": "ICM",
+      "sessions": [
+        "Introduction to presenting clinical findings"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Order</th><td>Opening statement (who, what you examined), <strong>positive findings</strong>, <strong>relevant negatives</strong>, then <strong>summary</strong> and <strong>differential</strong>.</td></tr><tr><th scope=\"row\">Example</th><td><ul class=\"cl\"><li>\"On examination of Mrs X's abdomen, she appeared comfortable at rest.</li><li>There were no peripheral stigmata of chronic liver disease.</li><li>The abdomen was soft with tenderness in the right upper quadrant and a positive Murphy's sign.</li><li>There was no organomegaly or shifting dullness.</li><li>In summary… The most likely diagnosis is acute cholecystitis.\"</li></ul></td></tr><tr><th scope=\"row\">Tips</th><td>Stand up straight, look at the examiner, avoid \"um\", commit to a most likely diagnosis.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Conduct a focused history for a patient presenting with gastrointestinal symptoms",
+      "section": "ICM",
+      "sessions": [
+        "Communication skills"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Area</th><th>Questions</th></tr></thead><tbody><tr><td><strong>Pain</strong></td><td>SOCRATES</td></tr><tr><td><strong>Upper GI</strong></td><td>Dysphagia, odynophagia, reflux, nausea, <strong>vomiting</strong> (haematemesis, coffee grounds), early satiety</td></tr><tr><td><strong>Lower GI</strong></td><td>Bowel habit change, diarrhoea, constipation, <strong>blood</strong> (fresh, mixed, melaena), mucus, tenesmus</td></tr><tr><td><strong>Liver</strong></td><td>Jaundice, pale stools, dark urine, itch</td></tr><tr><td><strong>General</strong></td><td><strong>Weight loss</strong>, appetite, fever, night sweats</td></tr><tr><td><strong>Red flags</strong></td><td>Dysphagia, GI bleeding, weight loss, anaemia, mass, age &gt;55 with new symptoms</td></tr><tr><td><strong>Risk factors</strong></td><td>Alcohol, NSAIDs, family history of bowel cancer/IBD, travel, contacts</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Explore and evaluate a patient’s experience of pain using effective communication techniques",
+      "section": "ICM",
+      "sessions": [
+        "Communication skills"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>SOCRATES</th><th>Question</th></tr></thead><tbody><tr><td><strong>S</strong>ite</td><td>Where is it? Point to it.</td></tr><tr><td><strong>O</strong>nset</td><td>When did it start? Sudden or gradual?</td></tr><tr><td><strong>C</strong>haracter</td><td>Sharp, dull, burning, colicky?</td></tr><tr><td><strong>R</strong>adiation</td><td>Does it go anywhere else?</td></tr><tr><td><strong>A</strong>ssociations</td><td>Nausea, vomiting, fever, jaundice?</td></tr><tr><td><strong>T</strong>ime course</td><td>Constant or comes and goes? Getting worse?</td></tr><tr><td><strong>E</strong>xacerbating / relieving factors</td><td>Food, movement, position, painkillers?</td></tr><tr><td><strong>S</strong>everity</td><td>Out of 10; effect on sleep and activity</td></tr></tbody></table></div><ul><li><strong>Explore the impact</strong>: \"How is the pain affecting you day to day?\", and their ideas and concerns about it.</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Summarise the patient’s account to confirm mutual understanding during consultation",
+      "section": "ICM",
+      "sessions": [
+        "Communication skills"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Summarising</th><td>Periodically restate the key points in your own words: \"So, just to check I've understood…\"</td></tr><tr><th scope=\"row\">Then</th><td>\"Have I missed anything?\" (lets the patient correct or add).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Benefit</th><th></th></tr></thead><tbody><tr><td>Confirms accuracy</td><td></td></tr><tr><td>Shows you've listened</td><td></td></tr><tr><td>Organises your thinking</td><td></td></tr><tr><td>Gives a natural transition between sections</td><td></td></tr></tbody></table></div>"
+    }
+  ]
+}

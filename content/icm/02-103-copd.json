@@ -1,0 +1,107 @@
+{
+  "id": "i-103",
+  "num": "103",
+  "title": "COPD",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Identify and access appropriate prescribing resources to support clinical decision making",
+      "section": "ICM",
+      "sessions": [
+        "Introduction to prescribing"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Resource</th><th>Use</th></tr></thead><tbody><tr><td><strong>BNF</strong> (online, app, print)</td><td>Indications, doses, renal and hepatic adjustment, interactions (appendix), side effects</td></tr><tr><td><strong>BNF for Children (BNFc)</strong></td><td>Weight- and age-based paediatric dosing</td></tr><tr><td><strong>NICE guidelines / CKS</strong></td><td>Which drug to choose for a condition</td></tr><tr><td><strong>Local formulary / trust guidelines</strong></td><td>Preferred drugs, antibiotic policy</td></tr><tr><td><strong>Medicines and Healthcare products Regulatory Agency (MHRA)</strong></td><td>Drug safety updates</td></tr><tr><td><strong>Pharmacist</strong></td><td>Interactions, complex dosing, formulations</td></tr><tr><td><strong>SmPC</strong> (electronic medicines compendium)</td><td>Full product information</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Understand the principles of prescribing from a legal and clinical perspective.",
+      "section": "ICM",
+      "sessions": [
+        "Introduction to prescribing"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Legal</th><td><ul class=\"cl\"><li>Only registered prescribers (doctors, some nurses and pharmacists) can prescribe <strong>prescription-only medicines (POMs)</strong></li><li><strong>Controlled drugs</strong> have extra legal requirements (Misuse of Drugs Regulations: dose, form, strength and total quantity in words and figures)</li><li>The prescriber is accountable for every prescription.</li></ul></td></tr><tr><th scope=\"row\">Clinical</th><td><ul class=\"cl\"><li>Right patient, right drug, right dose, right route, right time</li><li>Check <strong>allergies</strong>, <strong>interactions</strong>, <strong>renal and hepatic function</strong>, pregnancy, and the patient's wishes.</li></ul></td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Prescription must include</th><th></th></tr></thead><tbody><tr><td>Patient name, DOB/hospital number, weight if relevant</td><td></td></tr><tr><td>Drug name (generic, capitals), dose, route, frequency, start date</td><td></td></tr><tr><td>Prescriber signature, printed name, bleep/GMC number</td><td></td></tr><tr><td>Allergy status</td><td></td></tr></tbody></table></div><ul><li><strong>GMC good practice</strong>: prescribe only when you have adequate knowledge of the patient's health and are satisfied the drug serves their needs.</li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Describe key visual signs and interpret their relevance to clinical diagnosis",
+      "section": "ICM",
+      "sessions": [
+        "Observation & Palpation"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Sign</th><th>Look for</th><th>Suggests</th></tr></thead><tbody><tr><td><strong>General</strong></td><td>Well/unwell, distress, breathlessness, posture</td><td>Severity</td></tr><tr><td><strong>Colour</strong></td><td>Pallor, cyanosis (central/peripheral), jaundice, flushing</td><td>Anaemia, hypoxia, liver disease</td></tr><tr><td><strong>Hands</strong></td><td>Clubbing, tar staining, tremor, palmar erythema</td><td>Lung/heart disease, smoking, liver disease</td></tr><tr><td><strong>Breathing</strong></td><td>Rate, accessory muscles, pursed lips</td><td>Respiratory distress, COPD</td></tr><tr><td><strong>Body habitus</strong></td><td>Cachexia, obesity</td><td>Chronic disease, malignancy</td></tr><tr><td><strong>Skin</strong></td><td>Rashes, bruising, scars, oedema</td><td>Systemic disease, previous surgery</td></tr><tr><td><strong>Around the bed</strong></td><td>Oxygen, inhalers, walking aids, sputum pot, catheter</td><td>Context</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Demonstrate the correct use of palpation techniques to assess anatomical structures as part of a clinical examination",
+      "section": "ICM",
+      "sessions": [
+        "Observation & Palpation"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Before</th><td>Introduce, consent, wash hands, expose appropriately, warm hands, ask about pain, watch the face.</td></tr><tr><th scope=\"row\">Technique</th><td>Flat of the hand and fingers, start <strong>away from any pain</strong>, systematic order (e.g. all nine regions of the abdomen).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Use</th><th>What you assess</th></tr></thead><tbody><tr><td>Masses and organs</td><td>Size, shape, surface, consistency, tenderness, mobility, pulsatility</td></tr><tr><td>Tenderness</td><td>Guarding, rebound (peritonism)</td></tr><tr><td>Temperature, pulses</td><td>Back of the hand for temperature</td></tr><tr><td>Expansion and fremitus</td><td>Chest</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Distinguish between light and deep palpation techniques and justify their appropriate use in different clinical scenarios.",
+      "section": "ICM",
+      "sessions": [
+        "Observation & Palpation"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th></th><th><strong>Light palpation</strong></th><th><strong>Deep palpation</strong></th></tr></thead><tbody><tr><td>Pressure</td><td>~1 cm, gentle</td><td>~4–5 cm, firmer</td></tr><tr><td>Purpose</td><td><strong>Tenderness, guarding, superficial masses</strong>; reassures the patient</td><td><strong>Organs</strong> (liver, spleen, kidneys) and <strong>deep masses</strong></td></tr><tr><td>Order</td><td>First</td><td>After light palpation</td></tr><tr><td>Avoid deep if</td><td>Severe tenderness, peritonism, suspected AAA (gentle only)</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Understand and perform the technique of percussion as part of a clinical examination",
+      "section": "ICM",
+      "sessions": [
+        "Percussion and Auscultation"
+      ],
+      "html": "<ul><li><strong>Technique</strong>: hyperextend the <strong>middle finger</strong> of your non-dominant hand and press it <strong>firmly</strong> on the skin (pleximeter)<ul><li>strike its <strong>middle phalanx</strong> with the tip of the middle finger of the other hand (plexor) with a <strong>quick wrist flick</strong>, then lift off.</li></ul></li><li><strong>Compare</strong> side to side, from top to bottom (chest), and from resonant to dull (to find an edge, e.g. liver).</li></ul>"
+    },
+    {
+      "n": 7,
+      "text": "Identify and interpret different percussion sounds and their clinical significance as part of a clinical examination",
+      "section": "ICM",
+      "sessions": [
+        "Percussion and Auscultation"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Note</th><th>Where normal</th><th>Abnormal meaning</th></tr></thead><tbody><tr><td><strong>Resonant</strong></td><td>Normal lung</td><td></td></tr><tr><td><strong>Hyper-resonant</strong></td><td></td><td><strong>Pneumothorax</strong>, emphysema</td></tr><tr><td><strong>Dull</strong></td><td>Liver, heart</td><td><strong>Consolidation</strong>, collapse, fibrosis, organomegaly</td></tr><tr><td><strong>Stony dull</strong></td><td></td><td><strong>Pleural effusion</strong></td></tr><tr><td><strong>Tympanic</strong></td><td>Gas-filled bowel</td><td>Distended bowel, obstruction</td></tr><tr><td><strong>Shifting dullness</strong></td><td></td><td><strong>Ascites</strong></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Demonstrate appropriate use of a stethoscope for auscultation of heart, lungs, and other organs",
+      "section": "ICM",
+      "sessions": [
+        "Percussion and Auscultation"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Diaphragm</th><td>High-pitched sounds (normal heart sounds, breath sounds, aortic/mitral regurgitation). <strong>Bell</strong>: low-pitched sounds (mitral stenosis, S3, bruits), held lightly.</td></tr><tr><th scope=\"row\">Technique</th><td>Warm it, skin contact (not through clothes), quiet room, ask the patient to breathe through the mouth.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Area</th><th>Listen for</th></tr></thead><tbody><tr><td><strong>Heart</strong> (aortic, pulmonary, tricuspid, mitral areas)</td><td>S1, S2, added sounds, murmurs (timing, radiation)</td></tr><tr><td><strong>Lungs</strong> (front, sides, back; compare both sides)</td><td>Vesicular vs bronchial breathing, crackles, wheeze, rub</td></tr><tr><td><strong>Abdomen</strong></td><td>Bowel sounds (absent, tinkling), bruits (renal, aortic)</td></tr><tr><td><strong>Carotids</strong></td><td>Bruits</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Apply the standard structure for medical history taking in patient consultations",
+      "section": "ICM",
+      "sessions": [
+        "History – common cold"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1. Introduction</th><td>Wash hands, introduce yourself (name and role), confirm patient identity, gain consent, ensure privacy.</td></tr><tr><th scope=\"row\">2</th><td><strong>Presenting complaint</strong> (open question).</td></tr><tr><th scope=\"row\">3</th><td><strong>History of presenting complaint</strong>.</td></tr><tr><th scope=\"row\">4</th><td><strong>Past medical history</strong>, <strong>drug history and allergies</strong>.</td></tr><tr><th scope=\"row\">5</th><td><strong>Family history</strong>, <strong>social history</strong>.</td></tr><tr><th scope=\"row\">6</th><td><strong>Systems review</strong>.</td></tr><tr><th scope=\"row\">7</th><td><strong>ICE</strong>, then <strong>summarise</strong>, thank and close.</td></tr></tbody></table></div><ul><li><strong>Common cold example</strong>: onset<ul><li>nasal symptoms</li><li>sore throat</li><li>cough</li><li>fever</li><li>red flags (breathlessness, chest pain, confusion, symptoms over 3 weeks)</li><li>contacts</li><li>self-care and when to seek help.</li></ul></li></ul>"
+    },
+    {
+      "n": 10,
+      "text": "Develop strategies to build rapport with patients, showing empathy and communication skills",
+      "section": "ICM",
+      "sessions": [
+        "History – common cold"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Strategy</th><th>Example</th></tr></thead><tbody><tr><td><strong>Warm introduction</strong></td><td>Eye contact, smile, name and role</td></tr><tr><td><strong>Open questions and active listening</strong></td><td>Let the patient talk without interrupting</td></tr><tr><td><strong>Empathy</strong></td><td>\"That sounds really worrying\"</td></tr><tr><td><strong>Non-verbal</strong></td><td>Open posture, nodding, appropriate eye level</td></tr><tr><td><strong>Reflecting and summarising</strong></td><td>Shows you've understood</td></tr><tr><td><strong>Respect and dignity</strong></td><td>Privacy, appropriate language, no jargon</td></tr><tr><td><strong>Exploring ICE</strong></td><td>Shows you care about their view</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 11,
+      "text": "Demonstrate professional and patient-centered introductions in clinical settings",
+      "section": "ICM",
+      "sessions": [
+        "History – common cold"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">\"Hello, my name is…\"</th><td>Introduce yourself with your <strong>full name and role</strong> (e.g. \"medical student\").</td></tr><tr><th scope=\"row\">Confirm identity</th><td>Full name and date of birth.</td></tr><tr><th scope=\"row\">Consent</th><td>Explain what the consultation involves and ask permission; offer a <strong>chaperone</strong> for intimate examinations.</td></tr><tr><th scope=\"row\">Comfort and privacy</th><td>Curtains, seated at the same level, ask how they'd like to be addressed.</td></tr><tr><td colspan=\"2\"><strong>Hand hygiene</strong> before and after.</td></tr></tbody></table></div>"
+    }
+  ]
+}

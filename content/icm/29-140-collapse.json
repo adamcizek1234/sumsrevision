@@ -1,0 +1,53 @@
+{
+  "id": "i-140",
+  "num": "140",
+  "title": "Collapse",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Fun revision of ICM curriculum topics",
+      "section": "ICM",
+      "sessions": [
+        "Gemstone maze"
+      ],
+      "html": "<ul><li><strong>Revision activity</strong>: use it to test yourself on examinations<ul><li>histories</li><li>procedures</li><li>A–E and prescribing (see ICM Year 1 › Professionalism &amp; clinical reasoning › LO 26 for the core topic list)</li><li>and note any gaps to practise.</li></ul></li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Differentiate between cardiac rhythms that require defibrillation and those that do not, demonstrating accurate rhythm recognition and appropriate decision-making in emergency situations.",
+      "section": "ICM",
+      "sessions": [
+        "Rhythm recognition & defibrillation"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Rhythm</th><th>Shockable?</th></tr></thead><tbody><tr><td><strong>Ventricular fibrillation (VF)</strong></td><td><strong>Yes</strong></td></tr><tr><td><strong>Pulseless ventricular tachycardia (pVT)</strong></td><td><strong>Yes</strong></td></tr><tr><td><strong>Asystole</strong></td><td>No: CPR, adrenaline 1 mg ASAP</td></tr><tr><td><strong>Pulseless electrical activity (PEA)</strong></td><td>No: CPR, adrenaline, treat reversible causes</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">4 Hs and 4 Ts<span class=\"paren\">(reversible causes)</span></th><td>Hypoxia, hypovolaemia, hypo/hyperkalaemia (metabolic), hypothermia; thrombosis (coronary or pulmonary), tension pneumothorax, tamponade, toxins.</td></tr><tr><th scope=\"row\">Shockable</th><td>Shock, CPR 2 min, after the <strong>3rd shock</strong> give <strong>adrenaline 1 mg</strong> and <strong>amiodarone 300 mg</strong>; adrenaline every 3–5 min.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Safely perform defibrillation in accordance with current clinical guidelines, demonstrating correct use of equipment and adherence to safety protocols during resuscitation.",
+      "section": "ICM",
+      "sessions": [
+        "Rhythm recognition & defibrillation"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Safe defibrillation</th><th></th></tr></thead><tbody><tr><td>Pads: <strong>right below the clavicle</strong>, <strong>left mid-axillary line</strong> (V6 position)</td><td></td></tr><tr><td>Continue compressions while charging</td><td></td></tr><tr><td>\"<strong>Stand clear, oxygen away, I'm shocking</strong>\": check everyone is clear</td><td></td></tr><tr><td>Deliver the shock (biphasic 120–200 J first, then per device), <strong>resume CPR immediately</strong> for 2 minutes</td><td></td></tr><tr><td>Minimise pauses (&lt;5 s); remove oxygen sources; dry chest; remove GTN patches</td><td></td></tr><tr><td>AED: follow voice prompts</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Identify and describe common heart murmurs, including their characteristic features and associated underlying cardiac conditions",
+      "section": "ICM",
+      "sessions": [
+        "Murmur recognition"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Murmur</th><th>Timing / site</th><th>Features</th><th>Cause</th></tr></thead><tbody><tr><td><strong>Aortic stenosis</strong></td><td><strong>Ejection systolic</strong>, right 2nd ICS</td><td>Radiates to <strong>carotids</strong>; slow-rising pulse, soft S2</td><td>Age-related calcification, bicuspid valve</td></tr><tr><td><strong>Mitral regurgitation</strong></td><td><strong>Pansystolic</strong>, apex</td><td>Radiates to <strong>axilla</strong></td><td>Ischaemia, prolapse, LV dilatation</td></tr><tr><td><strong>Aortic regurgitation</strong></td><td><strong>Early diastolic</strong>, left sternal edge</td><td>Sitting forward, held expiration; <strong>collapsing pulse</strong></td><td>Aortic root dilatation, endocarditis</td></tr><tr><td><strong>Mitral stenosis</strong></td><td><strong>Mid-diastolic rumble</strong>, apex</td><td>Bell, left lateral position; opening snap, AF, malar flush</td><td>Rheumatic fever</td></tr><tr><td>Innocent</td><td>Soft, systolic, no symptoms</td><td>Changes with posture</td><td>Children, pregnancy, fever</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Perform a thorough clinical examination of the ear, nose, and throat.",
+      "section": "ICM",
+      "sessions": [
+        "ENT examination"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>ENT examination</th><th></th></tr></thead><tbody><tr><td><ul class=\"cl\"><li><strong>Ear</strong>: inspect the pinna and behind the ear (scars, mastoid)</li><li><strong>Otoscopy</strong> (pull the pinna <strong>up and back</strong> in adults, down and back in children): canal (wax, discharge, otitis externa), tympanic membrane (colour, light reflex, perforation, fluid level, bulging)</li></ul></td><td></td></tr><tr><td><ul class=\"cl\"><li><strong>Hearing</strong>: whisper test</li><li><strong>Rinne's</strong> (512 Hz fork: air &gt; bone normal) and <strong>Weber's</strong> (lateralises to the affected ear in conductive loss, to the good ear in sensorineural loss)</li></ul></td><td></td></tr><tr><td><strong>Nose</strong>: external shape, septum, nasal patency, anterior rhinoscopy (polyps, Little's area)</td><td></td></tr><tr><td><strong>Throat</strong>: with a torch and tongue depressor: tonsils (size, exudate), pharynx, palate, uvula; <strong>neck lymph nodes</strong></td><td></td></tr><tr><td><strong>Finish</strong>: cranial nerves (VII, VIII), flexible nasendoscopy if indicated</td><td></td></tr></tbody></table></div>"
+    }
+  ]
+}

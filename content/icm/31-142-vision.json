@@ -1,0 +1,53 @@
+{
+  "id": "i-142",
+  "num": "142",
+  "title": "Vision",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Perform a structured examination of the eyes, assessing external and internal features.",
+      "section": "ICM",
+      "sessions": [
+        "Ophthalmoscopy"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Step</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Inspect</strong></td><td>Eyelids (ptosis, lesions), conjunctiva (redness, pallor), sclera (jaundice), cornea (clarity, ulcers), pupils (size, shape, symmetry), exophthalmos</td></tr><tr><td><strong>Visual acuity</strong></td><td>Each eye separately with glasses/pinhole (Snellen)</td></tr><tr><td><strong>Visual fields</strong></td><td>Confrontation</td></tr><tr><td><strong>Pupils</strong></td><td>Direct, consensual, <strong>swinging light test</strong> (RAPD), accommodation</td></tr><tr><td><strong>Eye movements</strong></td><td>H pattern</td></tr><tr><td><strong>Fundoscopy</strong></td><td>Red reflex, optic disc, vessels, retina, macula</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Use an ophthalmoscope to examine the fundus of the eye.",
+      "section": "ICM",
+      "sessions": [
+        "Ophthalmoscopy"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Dim the room; ask the patient to look at a distant fixed point.</td></tr><tr><th scope=\"row\">2</th><td><ul class=\"cl\"><li>Set the lens to 0 (or your correction)</li><li><strong>Right hand, right eye</strong> to examine the patient's right eye (and left for left).</li></ul></td></tr><tr><th scope=\"row\">3</th><td>From ~30 cm, check the <strong>red reflex</strong> (absent: cataract, retinoblastoma in children).</td></tr><tr><th scope=\"row\">4</th><td><ul class=\"cl\"><li>Move in at ~15° from the side</li><li>Focus on the <strong>optic disc</strong>: colour (pale = atrophy)</li><li>Cup-to-disc ratio (large = glaucoma)</li><li>Margins (blurred and swollen = <strong>papilloedema</strong>).</li></ul></td></tr><tr><th scope=\"row\">5</th><td>Follow the <strong>vessels</strong> out in four directions (AV nipping, haemorrhages), then look at the <strong>macula</strong> (ask to look into the light) last.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Finding</th><th>Suggests</th></tr></thead><tbody><tr><td>Swollen disc, blurred margins</td><td><strong>Papilloedema</strong> (raised ICP)</td></tr><tr><td>Dot/blot haemorrhages, microaneurysms, exudates, new vessels</td><td><strong>Diabetic retinopathy</strong></td></tr><tr><td>AV nipping, flame haemorrhages, cotton wool spots</td><td><strong>Hypertensive retinopathy</strong></td></tr><tr><td>Cherry-red spot, pale retina</td><td>Central retinal artery occlusion</td></tr><tr><td>\"Stormy sunset\" haemorrhages</td><td>Central retinal vein occlusion</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Describe how the extraocular muscles control eye movement and pupil response.",
+      "section": "ICM",
+      "sessions": [
+        "Oculomotor function, pupil reaction"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Muscle</th><th>Action</th><th>Nerve</th></tr></thead><tbody><tr><td>Lateral rectus</td><td>Abduction</td><td><strong>VI</strong></td></tr><tr><td>Medial rectus</td><td>Adduction</td><td>III</td></tr><tr><td>Superior rectus</td><td>Elevation (best when abducted)</td><td>III</td></tr><tr><td>Inferior rectus</td><td>Depression (best when abducted)</td><td>III</td></tr><tr><td>Superior oblique</td><td><strong>Depression when adducted</strong> (intorsion)</td><td><strong>IV</strong></td></tr><tr><td>Inferior oblique</td><td>Elevation when adducted</td><td>III</td></tr><tr><td>Levator palpebrae</td><td>Lifts the lid</td><td>III (+ sympathetic)</td></tr></tbody></table></div><ul><li><strong>\"LR6 SO4, rest 3\"</strong>.</li><li><strong>Pupil response</strong>: light<ul><li>→ <strong>optic nerve (afferent)</strong></li><li>→ pretectal nuclei</li><li>→ both Edinger–Westphal nuclei</li><li>→ <strong>oculomotor nerve (efferent, parasympathetic)</strong></li><li>→ ciliary ganglion</li><li>→ <strong>constriction</strong> of both pupils (direct and consensual).</li><li>Dilation: sympathetic.</li></ul></li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Test peripheral vision and visual acuity using standard clinical techniques.",
+      "section": "ICM",
+      "sessions": [
+        "Visual fields & visual acuity"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Test</th><th>How</th></tr></thead><tbody><tr><td><strong>Visual acuity</strong></td><td><ul class=\"cl\"><li><strong>Snellen chart at 6 m</strong>, each eye separately with glasses</li><li>Record as 6/6 (distance/line read)</li><li><strong>Pinhole</strong> improves refractive error</li><li>Near vision chart</li></ul></td></tr><tr><td><strong>Visual fields (confrontation)</strong></td><td><ul class=\"cl\"><li>Sit 1 m away at eye level</li><li>Patient covers one eye, looks at your opposite eye</li><li>Bring a <strong>red hat pin</strong> or wiggling finger in from the periphery in each quadrant</li><li>Compare with your own fields</li></ul></td></tr><tr><td><strong>Inattention</strong></td><td>Both hands at once</td></tr><tr><td><strong>Blind spot</strong></td><td>Red pin</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Field defect</th><th>Lesion</th></tr></thead><tbody><tr><td>One eye blind</td><td>Optic nerve</td></tr><tr><td><strong>Bitemporal hemianopia</strong></td><td>Optic chiasm (pituitary)</td></tr><tr><td><strong>Homonymous hemianopia</strong></td><td>Optic tract/radiation/occipital cortex (stroke)</td></tr><tr><td>Superior quadrantanopia</td><td>Temporal lobe</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Take a focused history from a patient presenting with an ophthalmological symptom and explain the diagnosis clearly using patient-friendly language, demonstrating effective communication",
+      "section": "ICM",
+      "sessions": [
+        "History & explaining"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Eye history</th><th></th></tr></thead><tbody><tr><td>Symptom: <strong>red eye</strong> (pain? discharge? photophobia?), <strong>vision loss</strong> (sudden/gradual, one/both eyes, painful/painless), floaters and flashes, double vision</td><td></td></tr><tr><td><ul class=\"cl\"><li>Red flags: <strong>sudden vision loss</strong></li><li><strong>Painful red eye with reduced vision</strong> (acute glaucoma, keratitis, uveitis)</li><li>New floaters/flashes with a curtain (<strong>retinal detachment</strong>)</li><li>Headache with jaw claudication (<strong>giant cell arteritis</strong>)</li></ul></td><td></td></tr><tr><td>Background: glasses/contacts, diabetes, hypertension, eye drops, family history (glaucoma), trauma</td><td></td></tr></tbody></table></div><ul><li><strong>Explaining</strong> (e.g. bacterial conjunctivitis or cataract): plain words<ul><li>what it is</li><li>treatment</li><li>what to expect</li><li>when to seek help (worse pain, vision changes)</li><li>check understanding.</li></ul></li></ul>"
+    }
+  ]
+}

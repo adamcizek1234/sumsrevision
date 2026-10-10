@@ -6,8 +6,8 @@
   const SECTION_DOT = { Clinical: 1, Lectures: 1, BMS: 2, Pathology: 3, MHS: 4, Anatomy: 5, Practical: 6, ICM: 6, Radiology: 3, "Neuro SDL": 4 };
   const CONF_LABEL = { 1: "Not yet", 2: "Shaky", 3: "Confident" };
   // Note collections: the two years from the LO spreadsheets, plus Year 1 anatomy (Human Structure LOs) as its own tab.
-  const YEARS = ["y1", "y2", "anat"];
-  const YEAR_LABEL = { y1: "Year 1", y2: "Year 2", anat: "Anatomy" }, YEAR_SHORT = { y1: "Y1", y2: "Y2", anat: "Anat" };
+  const YEARS = ["y1", "y2", "anat", "icm"];
+  const YEAR_LABEL = { y1: "Year 1", y2: "Year 2", anat: "Anatomy", icm: "ICM" }, YEAR_SHORT = { y1: "Y1", y2: "Y2", anat: "Anat", icm: "ICM" };
 
   const store = {
     get(k, d) { try { const v = localStorage.getItem("lorev:" + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
@@ -23,15 +23,41 @@
 
   const weeksById = {}, loByKey = {};
   for (const y of YEARS) for (const w of DATA[y] || []) { w.year = y; weeksById[w.id] = w; for (const lo of w.los) { lo.key = w.id + "-" + lo.n; loByKey[lo.key] = { w, lo }; } }
-  // Year 2 anatomy weeks show the anatomy LOs of a Year 2 week (the same objects), so notes, edits, ratings and questions
-  // are shared with the Year 2 tab. ANAT_LINK maps those LO keys to their anatomy week.
-  const ANAT_LINK = {};
-  for (const w of DATA.anat || []) if (w.link) {
+  // Linked weeks hold LOs of a Year 2 week (the same objects, keys unchanged). Year 2 anatomy weeks share them with the
+  // Year 2 tab; Year 2 ICM weeks move them out of the learning week into the ICM tab. LINK[g] maps LO key → that week.
+  // Year 1 anatomy and ICM weeks are "sep": their questions stay out of the main quiz modes.
+  const LINK = { anat: {}, icm: {} };
+  for (const g of ["anat", "icm"]) for (const w of DATA[g] || []) {
+    if (!w.link) { w.sep = true; continue; }
     const src = weeksById[w.link], byN = new Map((src ? src.los : []).map(lo => [lo.n, lo]));
     w.los = w.pick.map(n => byN.get(n)).filter(Boolean); w.hasNotes = w.los.some(lo => lo.html); w.date = src && src.date;
-    for (const lo of w.los) ANAT_LINK[lo.key] = w.id;
+    for (const lo of w.los) { LINK[g][lo.key] = w.id; if (g === "icm") loByKey[lo.key] = { w, lo }; }
   }
-  const isY2Anat = w => !!(w && w.link);
+  for (const w of DATA.y2) if (w.los.some(lo => LINK.icm[lo.key])) { w.los = w.los.filter(lo => !LINK.icm[lo.key]); w.icmWeek = "i-" + w.num; w.hasNotes = w.los.some(lo => lo.html); }
+  // The ICM tab shows one page per system for each year (icm_systems.txt, via build.py), LOs numbered from 1 on their page
+  // (lo.dn). The ICM weeks above become hidden source weeks: they keep each LO's key, notes, questions, date and "sep", and
+  // ICM_SRC maps LO key → that week. LINK.icm and loByKey now point at the page; old ICM week links open the page instead.
+  const ICM_SRC = {}, ICM_SYS = {};
+  {
+    const S = DATA.icmSys || { systems: [], groups: [] };
+    for (const [id, title, short, core] of S.systems) ICM_SYS[id] = { id, title, short, core };
+    for (const w of DATA.icm || []) { w.hidden = true; for (const lo of w.los) ICM_SRC[lo.key] = w; }
+    DATA.icm = S.groups.map(g => {
+      const s = ICM_SYS[g.sys], los = g.keys.map(k => loByKey[k] && loByKey[k].lo).filter(Boolean);
+      const p = { id: g.id, num: "Y" + g.yr, yr: g.yr, year: "icm", sys: g.sys, title: s.title, short: s.short, core: s.core, los, hasNotes: los.some(lo => lo.html) };
+      p.links = new Set(los.map(lo => ICM_SRC[lo.key].link).filter(Boolean));  // Year 2 weeks its LOs come from
+      los.forEach((lo, i) => { lo.dn = i + 1; loByKey[lo.key] = { w: p, lo }; LINK.icm[lo.key] = p.id; });
+      weeksById[p.id] = p;
+      return p;
+    });
+    for (const w of DATA.y2) if (w.icmWeek && weeksById[w.icmWeek]) w.icmPages = [...new Set(weeksById[w.icmWeek].los.map(lo => LINK.icm[lo.key]))];
+  }
+  const isLinked = w => !!(w && w.link);
+  const yrOf = w => w.yr || (isLinked(w) ? 2 : 1);  // anatomy and ICM tabs: which year's list a week or page sits in
+  const visibleWeek = id => { const w = weeksById[id]; return w && w.hidden && w.los.length ? loByKey[w.los[0].key].w : w; };  // an old ICM week → its first page
+  const pageTag = w => w.year === "icm" && w.yr ? `ICM Y${w.yr} ${w.short}` : `${YEAR_SHORT[w.year]} ${w.num}`;
+  const loTagOf = h => `${pageTag(h.w)} · LO ${h.lo.dn || h.lo.n}`;
+  const srcWeekOf = k => ICM_SRC[k] ? ICM_SRC[k].id : weekOf(k);  // the week behind an LO (dates, "sep" for the quiz)
   const DRUGS = DATA.drugs || [], catById = {}, drugById = {};
   for (const c of DRUGS) { catById[c.id] = c; for (const d of c.items) { d.cat = c.id; drugById[d.id] = d; } }
 
@@ -57,8 +83,8 @@
     $("#go-mastered").setAttribute("aria-pressed", state.year === "mastered" && !state.query.trim());
     if (state.year === "quiz") {
       const s = stats(), cur = state.query.trim() ? "" : state.qscreen === "session" ? (QS ? QS.mode : "") : state.qscreen;
-      const sel = /^(adaily|aextra|adue|ashaky|acustom)$/.test(cur) ? "anat" : cur;
-      const modes = [["home", "Quiz home", ""], ["daily", "Daily 10", s.doneToday ? "✓" : "10"], ["sprint", "60-second sprint", "60s"], ["shaky", "Drill shaky LOs", shakyLos().size], ["due", "Review due", s.due], ["custom", "Custom quiz", ""], ["anat", "Anatomy quiz", anatStats().doneToday ? "✓" : "A"], ["hist", "Quiz history", histList().length || ""]];
+      const sel = GMODE[cur] ? GMODE[cur][0] : cur;
+      const modes = [["home", "Quiz home", ""], ["daily", "Daily 10", s.doneToday ? "✓" : "10"], ["sprint", "60-second sprint", "60s"], ["shaky", "Drill shaky LOs", shakyLos().size], ["due", "Review due", s.due], ["custom", "Custom quiz", ""], ["anat", "Anatomy quiz", gStats("anat").doneToday ? "✓" : "A"], ["icm", "ICM quiz", gStats("icm").doneToday ? "✓" : "I"], ["hist", "Quiz history", histList().length || ""]];
       ul.innerHTML = modes.map(([id, label, b]) => `<li><button role="tab" data-qmode="${id}" aria-selected="${sel === id}"><span class="wk-num">${b}</span><span class="wk-title">${label}</span></button></li>`).join("");
       return;
     }
@@ -74,7 +100,7 @@
       return;
     }
     if (state.year === "progress") {
-      ul.innerHTML = [["total", "Overall"], ["y1", "Year 1"], ["y2", "Year 2"], ["anat", "Anatomy"], ["drugs", "Drugs"], ["quiz", "Quiz"]].map(([id, label]) => `<li><button role="tab" data-psec="${id}" aria-selected="false"><span class="wk-num">${pct(progressOf(id).score)}</span><span class="wk-title">${label}</span></button></li>`).join("")
+      ul.innerHTML = [["total", "Overall"], ["y1", "Year 1"], ["y2", "Year 2"], ["anat", "Anatomy"], ["icm", "ICM"], ["drugs", "Drugs"], ["quiz", "Quiz"]].map(([id, label]) => `<li><button role="tab" data-psec="${id}" aria-selected="false"><span class="wk-num">${pct(progressOf(id).score)}</span><span class="wk-title">${label}</span></button></li>`).join("")
         + `<li><button role="tab" data-hnav="mastered" aria-selected="false"><span class="wk-num">★</span><span class="wk-title">What I've mastered</span></button></li>`;
       return;
     }
@@ -83,45 +109,57 @@
       const s2 = ul.querySelector('[aria-selected="true"]'); if (s2) s2.scrollIntoView({ block: "nearest", inline: "center" });
       return;
     }
-    const isNow = w => NOW && (NOW.id === w.id || NOW.id === w.link);
-    const group = (w, i, all) => state.year === "anat" && (i === 0 || isY2Anat(w) !== isY2Anat(all[i - 1])) ? `<li class="wk-group">${isY2Anat(w) ? "Year 2" : "Year 1"}</li>` : "";
-    ul.innerHTML = DATA[state.year].map((w, i, all) => `${group(w, i, all)}<li><button role="tab" id="tab-${w.id}" data-week="${w.id}" class="${w.hasNotes ? "" : "pending"}" aria-selected="${w.id === state.week && !state.query}" title="${esc(w.num + " " + w.title)}"><span class="wk-num">${w.num}</span><span class="wk-title">${esc(w.title)}${isNow(w) ? '<span class="wk-now">now</span>' : ""}${!w.hasNotes ? '<span class="wk-soon">soon</span>' : w.partial ? '<span class="wk-soon">anatomy</span>' : ""}</span>${ring(w)}</button></li>`).join("");
+    const isNow = w => NOW && (NOW.id === w.id || NOW.id === w.link || (w.links && w.links.has(NOW.id)));
+    const gname = w => `Year ${yrOf(w)}${w.yr ? (w.core ? " · core skills" : " · systems") : ""}`;
+    const group = (w, i, all) => (state.year === "anat" || state.year === "icm") && (i === 0 || gname(w) !== gname(all[i - 1])) ? `<li class="wk-group">${gname(w)}</li>` : "";
+    ul.innerHTML = DATA[state.year].map((w, i, all) => `${group(w, i, all)}<li><button role="tab" id="tab-${w.id}" data-week="${w.id}" class="${w.hasNotes ? "" : "pending"}" aria-selected="${w.id === state.week && !state.query}" title="${esc(w.yr ? `Year ${w.yr} ${w.title}: ${w.los.length} LOs` : w.num + " " + w.title)}"><span class="wk-num">${w.yr ? w.los.length : w.num}</span><span class="wk-title">${esc(w.title)}${isNow(w) ? '<span class="wk-now">now</span>' : ""}${!w.hasNotes ? '<span class="wk-soon">soon</span>' : w.partial ? '<span class="wk-soon">anatomy</span>' : ""}</span>${ring(w)}</button></li>`).join("");
     const sel = ul.querySelector('[aria-selected="true"]');
     if (sel) sel.scrollIntoView({ block: "nearest", inline: "center" });
   }
 
   function renderWeek() {
-    const w = weeksById[state.week];
-    const counts = {}; for (const lo of w.los) counts[lo.section] = (counts[lo.section] || 0) + 1;
-    const secs = SECTION_ORDER.filter(s => counts[s]);
+    const w = weeksById[state.week], page = w.year === "icm" && w.yr;
+    // Filter chips: session types, or on an ICM system page the skill types (an LO can have more than one).
+    const kinds = page ? CATS.icm.map((c, i) => ({ id: c.id, label: c.title, dot: i % 6 + 1, has: lo => c.keys.has(lo.key) }))
+      : SECTION_ORDER.map(sec => ({ id: sec, label: SECTION_LABEL[sec], dot: SECTION_DOT[sec], has: lo => lo.section === sec }));
+    const counts = {}; for (const k of kinds) counts[k.id] = w.los.filter(k.has).length;
+    const secs = kinds.filter(k => counts[k.id]);
     if (state.filter !== "All" && !counts[state.filter]) state.filter = "All";
-    const n = w.los.length;
+    const n = w.los.length, kind = kinds.find(k => k.id === state.filter);
     const meta = [];
     if (w.date) meta.push(`<span>w/c <b>${fmtDate(w.date)}</b></span>`);
-    if (isY2Anat(w)) meta.push(`<span>Shared with <button class="linkbtn" data-goweek="${w.link}">Year 2 week ${w.num}: ${esc(weeksById[w.link].title)}</button></span>`);
+    if (isLinked(w)) meta.push(`<span>Shared with <button class="linkbtn" data-goweek="${w.link}">Year 2 week ${w.num}: ${esc(weeksById[w.link].title)}</button></span>`);
+    if (page) {
+      const from = [...new Set(w.los.map(lo => ICM_SRC[lo.key].num))], other = weeksById[`i${3 - w.yr}-${w.sys}`];
+      meta.push(`<span>${w.yr === 1 ? "What you need by the end of Year 1" : "What Year 2 adds, for the end of Year 2"}</span>`);
+      meta.push(`<span>From ${w.yr === 2 ? "Year 2 " : "ICM "}week${from.length > 1 ? "s" : ""} ${from.length > 6 ? from.slice(0, 5).join(", ") + " and " + (from.length - 5) + " more" : from.length > 1 ? from.slice(0, -1).join(", ") + " and " + from[from.length - 1] : from[0]}</span>`);
+      if (other) meta.push(`<span>See also <button class="linkbtn" data-goweek="${other.id}">Year ${other.yr} ${esc(other.title)}</button></span>`);
+    }
     if (w.system) meta.push(`<span>${esc(w.system)}</span>`);
     if (w.lead) meta.push(`<span>Lead: ${esc(w.lead)}</span>`);
     meta.push(`<span><b>${n}</b> learning outcomes</span>`);
-    const shown = w.los.filter(lo => state.filter === "All" || lo.section === state.filter);
+    const shown = w.los.filter(lo => !kind || kind.has(lo));
+    const pages = (w.icmPages || []).map(id => weeksById[id]).filter(Boolean);
     $("#view").innerHTML = `
       <header class="week-head">
         ${histBackLink({ v: "week", week: w.id }, ["quiz", "drugs", "search"])}
-        <div class="eyebrow">${YEAR_LABEL[state.year]}${isY2Anat(w) ? " · Year 2" : state.year === "anat" ? " · Year 1" : ""} · Week ${w.num}${NOW && (NOW.id === w.id || NOW.id === w.link) ? " · this week" : ""}</div>
+        <div class="eyebrow">${YEAR_LABEL[state.year]}${page ? ` · Year ${w.yr} · ${w.core ? "core skills" : "systems"}` : isLinked(w) ? " · Year 2" : state.year === "anat" || state.year === "icm" ? " · Year 1" : ""}${page ? "" : ` · Week ${w.num}`}${NOW && (NOW.id === w.id || NOW.id === w.link || (w.links && w.links.has(NOW.id))) ? (page ? " · has this week's LOs" : " · this week") : ""}</div>
         <h2>${esc(w.title)}</h2>
         <div class="meta">${meta.join("")}</div>
         <div class="prows">${prog("row", "week:" + w.id, "Your ratings")}${WEEK_N[w.id] ? prog("row", "qweek:" + w.id, "Quiz questions") : ""}</div>
       </header>
       <div class="toolbar">
-        <div class="chips" role="group" aria-label="Filter by session type">
+        <div class="chips" role="group" aria-label="${page ? "Filter by skill type" : "Filter by session type"}">
           <button class="chip" data-filter="All" aria-pressed="${state.filter === "All"}">All <span class="ct">${n}</span></button>
-          ${secs.map(s => `<button class="chip" data-filter="${s}" aria-pressed="${state.filter === s}"><span class="dot" style="background:var(--dot-${SECTION_DOT[s]})"></span>${SECTION_LABEL[s]} <span class="ct">${counts[s]}</span></button>`).join("")}
+          ${secs.map(k => `<button class="chip" data-filter="${k.id}" aria-pressed="${state.filter === k.id}"><span class="dot" style="background:var(--dot-${k.dot})"></span>${esc(k.label)} <span class="ct">${counts[k.id]}</span></button>`).join("")}
         </div>
         <div class="tools">${WEEK_N[w.id] ? `<button class="tool" id="quiz-week">Quiz · ${WEEK_N[w.id]}</button>` : ""}<button class="tool" id="hide-notes" aria-pressed="${state.hideNotes}">Self-test</button><button class="tool" id="open-all">Expand all</button></div>
       </div>
+      ${pages.length ? `<p class="pending-note">This week's ICM learning outcomes are in the ICM tab, sorted by system: ${pages.map(pg => `<button class="linkbtn" data-goweek="${pg.id}">Year 2 ${esc(pg.title)}</button>`).join(", ")}</p>` : ""}
       ${w.partial ? '<p class="pending-note">Only the anatomy LOs of this week have notes so far (they are also in the Anatomy tab); the rest are still to be written.</p>' : ""}
       ${w.hasNotes ? "" : '<p class="pending-note">Revision notes for this week are still to be written. The learning outcomes are listed below so you can see what the week covers, and you can write your own with <b>Add notes</b> on any of them.</p>'}
       <section class="los">${shown.map(loCard).join("")}</section>
-      <p class="foot-note">LO wording is from ${isY2Anat(w) ? "the Year 2 Human Structure learning outcomes, which are also in the Year 2 week, so notes, edits and ratings here are the same ones" : state.year === "anat" ? "the Year 1 Human Structure learning outcomes" : "the GEM spreadsheet" + (state.year === "y1" ? " (2025–26)" : " (2026–27)")}. Notes are condensed revision summaries; check doses and current guidance against the BNF, NICE and your lecture slides.</p>`;
+      <p class="foot-note">LO wording is from ${page && w.yr === 2 ? "the Year 2 LO spreadsheet (ICM section); they moved here from the learning weeks, keeping your notes, edits and ratings" : isLinked(w) ? "the Year 2 Human Structure learning outcomes, which are also in the Year 2 week, so notes, edits and ratings here are the same ones" : state.year === "anat" ? "the Year 1 Human Structure learning outcomes" : state.year === "icm" ? "the ICM learning outcomes (2025–26)" : "the GEM spreadsheet" + (state.year === "y1" ? " (2025–26)" : " (2026–27)")}${page ? ". Each card shows the teaching week and session it came from" : ""}. Notes are condensed revision summaries; check doses and current guidance against the BNF, NICE and your lecture slides.</p>`;
     $("#main").scrollTop = 0;
     if (window.innerWidth <= 860) window.scrollTo(0, 0);
     logView();
@@ -130,15 +168,15 @@
   function loCard(lo) {
     const v = conf[lo.key] || 0, editing = ED.key === lo.key;
     if (editing && ED.timer) saveEdit();  // a re-render must start from the latest text
-    const closed = state.hideNotes && !editing;
+    const closed = state.hideNotes && !editing, src = ICM_SRC[lo.key];  // ICM LOs show the week they were taught in
     const body = editing
-      ? `<div class="ed-bar" role="toolbar" aria-label="Formatting">${edBarHTML()}</div><div class="lo-body" contenteditable="true" lang="en-GB" spellcheck="true" role="textbox" aria-multiline="true" aria-label="Notes for LO ${lo.n}">${lo.html || "<p><br></p>"}</div><p class="ed-tip">Saves as you type. Tab makes a sub-bullet or moves between table cells. Esc or ⌘↵ when finished.</p>`
+      ? `<div class="ed-bar" role="toolbar" aria-label="Formatting">${edBarHTML()}</div><div class="lo-body" contenteditable="true" lang="en-GB" spellcheck="true" role="textbox" aria-multiline="true" aria-label="Notes for LO ${lo.dn || lo.n}">${lo.html || "<p><br></p>"}</div><p class="ed-tip">Saves as you type. Tab makes a sub-bullet or moves between table cells. Esc or ⌘↵ when finished.</p>`
       : lo.mine ? `<div class="lo-body">${lo.html || '<p class="empty">You cleared this note.</p>'}</div>${lo.html0 ? `<div class="lo-body orig">${lo.html0}</div>` : ""}${mineBar(lo)}`
       : `<div class="lo-body">${lo.html || (lo.section === "Practical" ? '<p class="empty prac"><b>Practical: spotting only.</b> Revise this with specimens, models or images; there are no written notes or quiz questions for it.</p>' : '<p class="empty">Notes coming soon.</p>')}</div>`;
     const pen = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M10.5 2.5l3 3L5 14H2v-3z"/></svg>';
     return `<article class="lo${closed ? " closed reveal-hint" : ""}${editing ? " editing" : ""}" id="lo-${lo.key}">
       <button class="lo-head" aria-expanded="${!closed}" data-toggle>
-        <div class="lo-tags"><span class="lo-n">LO ${lo.n}</span><span class="lo-sec"><span class="dot" style="background:var(--dot-${SECTION_DOT[lo.section]})"></span>${SECTION_LABEL[lo.section]}</span>${lo.mine ? `<span class="lo-mine">${lo.html0 ? "Edited" : "My notes"}</span>` : ""}<span class="lo-sess">${esc(lo.sessions.join(" · "))}</span></div>
+        <div class="lo-tags"><span class="lo-n">LO ${lo.dn || lo.n}</span>${src ? `<span class="lo-sec" title="${esc(`From ${src.link ? "Year 2" : "ICM"} week ${src.num}: ${src.title}`)}">${src.link ? "Year 2 week" : "Week"} ${src.num}</span>` : `<span class="lo-sec"><span class="dot" style="background:var(--dot-${SECTION_DOT[lo.section]})"></span>${SECTION_LABEL[lo.section]}</span>`}${lo.mine ? `<span class="lo-mine">${lo.html0 ? "Edited" : "My notes"}</span>` : ""}<span class="lo-sess">${esc(lo.sessions.join(" · "))}</span></div>
         <div class="lo-text"><span>${verbify(lo.text)}</span><svg class="chev" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></div>
       </button>
       ${body}
@@ -149,7 +187,7 @@
   function loLink(text, key, cls = "lolink") {
     const hit = key && loByKey[key];
     if (!hit) return `<span class="${cls === "lolink" ? "" : cls}">${esc(text)}</span>`;
-    const tag = `${YEAR_SHORT[hit.w.year]} ${hit.w.num} · LO ${hit.lo.n}`;
+    const tag = loTagOf(hit);
     return `<a class="${cls}" href="#${hit.w.id}" data-golo="${key}" title="${esc(tag + ": " + hit.lo.text)}">${esc(text)}<span class="lotag">${tag}</span></a>`;
   }
 
@@ -198,7 +236,7 @@
     const q = state.query.trim().toLowerCase();
     const terms = q.split(/\s+/).filter(Boolean);
     const hits = [];
-    for (const y of YEARS) for (const w of DATA[y]) if (!w.link) for (const lo of w.los) {
+    for (const y of YEARS) for (const w of DATA[y]) if (!(w.link && y === "anat")) for (const lo of w.los) {
       const hay = lo.search;
       if (terms.every(t => hay.includes(t))) hits.push({ w, lo });
     }
@@ -220,6 +258,7 @@
 
   function openWeek(id, loKey) {
     const w = weeksById[id]; if (!w) return;
+    if (w.hidden) { const pg = visibleWeek(id); return pg && pg !== w ? openWeek(pg.id, loKey) : undefined; }  // an old ICM week link
     state.year = w.year; state.week = id; state.query = ""; $("#q").value = "";
     if (loKey) state.filter = "All";
     store.set("last", id);
@@ -602,9 +641,13 @@
   const lc1 = s => s.replace(/^([A-Z])(?=[a-z]+\b(?!['’]))/, c => c.toLowerCase());  // keeps eponyms (Parkinson's)
 
   let srs = store.get("srs", {});
-  let meta = Object.assign({ daily: { last: 0, streak: 0, best: 0 }, adaily: { last: 0, streak: 0, best: 0 }, sprintBest: 0, t: 0 }, store.get("qmeta", {}));
+  let meta = Object.assign({ daily: { last: 0, streak: 0, best: 0 }, adaily: { last: 0, streak: 0, best: 0 }, idaily: { last: 0, streak: 0, best: 0 }, sprintBest: 0, t: 0 }, store.get("qmeta", {}));
   let qcfg = Object.assign({ scope: "all", weeks: [], systems: [], cats: [], fams: ["sa", "num", "lad", "drug"], n: 20, dueN: 20 }, store.get("qcfg", {}));
-  let acfg = Object.assign({ scope: "all", weeks: [], regions: [], fams: ["sa", "num", "lad"], n: 20 }, store.get("acfg", {}));
+  let acfg = Object.assign({ scope: "all", weeks: [], cats: [], fams: ["sa", "num", "lad"], n: 20 }, store.get("acfg", {}));
+  if (acfg.regions && !acfg.cats.length) acfg.cats = acfg.regions; if (acfg.scope === "regions") acfg.scope = "cats";
+  let icfg = Object.assign({ scope: "all", weeks: [], cats: [], fams: ["sa", "num", "lad"], n: 20 }, store.get("icfg", {}));
+  for (const c of [qcfg, icfg]) c.weeks = c.weeks.filter(id => weeksById[id] && !weeksById[id].hidden);  // saved ICM weeks (now system pages) drop out
+  const GCFG = { anat: acfg, icm: icfg };
   function saveSrs() { store.set("srs", srs); schedulePush("srs"); updateProgressUI(); }
   function saveMeta() { meta.t = nowS(); store.set("qmeta", meta); schedulePush("state"); }
 
@@ -626,7 +669,7 @@
     let metaChanged = false, metaBehind = !sd.meta;
     if (sd.meta) {
       const rm = sd.meta, rt = rm.t || 0;
-      if (rt > meta.t) { meta.daily = Object.assign({}, meta.daily, rm.daily || {}); meta.adaily = Object.assign({}, meta.adaily, rm.adaily || {}); meta.t = rt; metaChanged = true; }
+      if (rt > meta.t) { meta.daily = Object.assign({}, meta.daily, rm.daily || {}); meta.adaily = Object.assign({}, meta.adaily, rm.adaily || {}); meta.idaily = Object.assign({}, meta.idaily, rm.idaily || {}); meta.t = rt; metaChanged = true; }
       else if (meta.t > rt) metaBehind = true;
       const best = Math.max(meta.sprintBest || 0, rm.sprintBest || 0);
       if (best > (meta.sprintBest || 0)) { meta.sprintBest = best; metaChanged = true; }
@@ -827,19 +870,19 @@
   const FAM_LABEL = { sa: "Short answer", num: "Numbers", lad: "Ladders", drug: "Drug drills" };
   const MCQ = new Set(["num", "next", "duse", "dhow", "dwhy"]);
   const weekOf = k => { const h = k && loByKey[k]; return h ? h.w.id : null; };
-  const aweekOf = k => ANAT_LINK[k] || weekOf(k);
+  const gweekOf = (g, k) => LINK[g][k] || weekOf(k);
   const POOL = [], ITEM = {}, BY_LO = {}, WEEK_N = {}, FAMN = { sa: 0, num: 0, lad: 0, drug: 0 };
   function addItem(it) {
     it.fam = FAM[it.t];
     it.los = it.lo ? [it.lo] : (it.los || []);
-    it.weeks = [...new Set(it.los.map(weekOf).filter(Boolean))];
-    it.anat = it.weeks.length > 0 && it.weeks.every(w => w.startsWith("a-"));  // Year 1 anatomy: kept out of the main modes
-    // aweeks: the anatomy weeks a question belongs to (Year 2 anatomy questions stay in the main quiz too); drug drills never.
-    it.aweeks = it.anat ? it.weeks : it.drug ? [] : [...new Set(it.los.map(k => ANAT_LINK[k]).filter(Boolean))];
-    it.inAnat = it.aweeks.length > 0;
+    it.weeks = [...new Set(it.los.map(srcWeekOf).filter(Boolean))];  // teaching weeks (an ICM LO's hidden week, not its page)
+    it.sep = it.weeks.length > 0 && it.weeks.every(w => weeksById[w] && weeksById[w].sep);  // Year 1 anatomy/ICM: kept out of the main modes
+    // gw[g]: the anatomy or ICM weeks a question belongs to (Year 2 ones stay in the main quiz too); drug drills never.
+    it.gw = {};
+    for (const g of ["anat", "icm"]) it.gw[g] = it.drug ? [] : [...new Set(it.los.map(k => LINK[g][k] || (loByKey[k] && loByKey[k].w.year === g ? loByKey[k].w.id : null)).filter(Boolean))];
     POOL.push(it); ITEM[it.id] = it; FAMN[it.fam]++;
     for (const k of it.los) (BY_LO[k] ||= []).push(it);
-    for (const w of new Set([...it.weeks, ...it.aweeks])) WEEK_N[w] = (WEEK_N[w] || 0) + 1;
+    for (const w of new Set([...it.weeks, ...it.gw.anat, ...it.gw.icm])) WEEK_N[w] = (WEEK_N[w] || 0) + 1;
   }
   for (const [id, lo, q, acc, model, lvl, hint, why] of QZ.sa) addItem({ id, t: "sa", lo, q, acc, model, grp: id, lvl, hint, why });
   for (const [id, lo, q, shown, nums, wrong, lvl, why] of QZ.num) addItem({ id, t: "num", lo, q, shown, nums, wrong, grp: id, lvl, why });
@@ -906,7 +949,7 @@
   const dname = d => esc(lc1(d.name));
   const exSmall = d => d.ex ? `<small>e.g. ${esc(d.ex)}</small>` : "";
   const firstK = d => (d.uses.find(x => x.k) || {}).k || null;
-  const loTag = k => { const h = loByKey[k]; return h ? `${YEAR_SHORT[h.w.year]} ${h.w.num} · LO ${h.lo.n}` : ""; };
+  const loTag = k => { const h = loByKey[k]; return h ? loTagOf(h) : ""; };
   const pickFocused = (list, S) => { const hits = S.focus ? list.filter(x => x.k && S.focus(x.k)) : []; return rand(hits.length ? hits : list); };
   const FIFTY = { fifty: true, text: "Two wrong answers are crossed out." };
   // notes[i] explains wrong option i (what it actually is), shown after answering.
@@ -1143,7 +1186,7 @@
   }
   function stats() {
     const T = dayNum(); let seen = 0, right = 0, due = 0, mastered = 0;
-    for (const id in srs) { const it = ITEM[id]; if (!it) continue; const e = srs[id]; seen += e[2]; right += e[3]; if (e[1] <= T && inLevel(it) && !it.anat) due++; if (e[0] >= 4) mastered++; }
+    for (const id in srs) { const it = ITEM[id]; if (!it) continue; const e = srs[id]; seen += e[2]; right += e[3]; if (e[1] <= T && inLevel(it) && !it.sep) due++; if (e[0] >= 4) mastered++; }
     const d = meta.daily;
     return { seen, right, due, mastered, streak: d.last >= T - 1 ? d.streak : 0, doneToday: d.last === T };
   }
@@ -1155,7 +1198,7 @@
   }
   // Teaching weeks reached so far: all of Year 1, and each Year 2 week from its Monday. Checked against today's date each
   // time, so new weeks join Daily 10, "10 more" and the sprint on their own. A drug question counts once any linked week does.
-  const weekReached = w => !!w && (w.year !== "y2" || !w.date || new Date(w.date + "T00:00:00") <= new Date());
+  const weekReached = w => !!w && ((w.year !== "y2" && !w.link) || !w.date || new Date(w.date + "T00:00:00") <= new Date());
   const covered = it => !it.weeks.length || it.weeks.some(id => weekReached(weeksById[id]));
   function reachedNote() {
     const ws = DATA.y2.filter(weekReached), last = ws[ws.length - 1], next = DATA.y2.find(w => !weekReached(w));
@@ -1259,8 +1302,8 @@
     const left = !QS.timed && (QS.queue.length || (QS.cur && !QS.cur.answered)) ? snapSession(QS) : null;
     if (QS.cur && QS.cur.answered) QS.past.push(QS.cur);
     QS.done = true; QS.cur = null; QS.view = null; QS.early = !!early;
-    if ((QS.mode === "daily" || QS.mode === "adaily") && !early) {
-      const T = dayNum(), d = QS.mode === "daily" ? meta.daily : meta.adaily;
+    if ((QS.mode === "daily" || QS.mode === "adaily" || QS.mode === "idaily") && !early) {
+      const T = dayNum(), d = meta[QS.mode];
       if (d.last !== T) { d.streak = d.last === T - 1 ? d.streak + 1 : 1; d.last = T; d.best = Math.max(d.best || 0, d.streak); saveMeta(); }
     }
     if (QS.mode === "sprint") { QS.prevBest = meta.sprintBest || 0; if (QS.right > QS.prevBest) { meta.sprintBest = QS.right; saveMeta(); } }
@@ -1279,19 +1322,22 @@
     const keyset = ks => { const s = new Set(ks || []); return k => s.has(k); };
     switch (sp.k) {
       case "daily": return { more: () => startDaily(true) };
-      case "adaily": return { more: () => startAnatDaily(true) };
       case "due": return { more: () => startDue(sp.n) };
-      case "adue": return { more: () => startAnatDue(sp.n) };
       case "shaky": return { focus: keyset(sp.keys), more: startShaky };
-      case "ashaky": return { focus: keyset(sp.keys), more: startAnatShaky };
       case "custom": return { focus: customFocus(sp.cfg), more: () => startCustom(sp.cfg) };
-      case "acustom": return { focus: anatFocus(sp.cfg), more: () => startAnatCustom(sp.cfg) };
-      case "week": return { focus: k => weekOf(k) === sp.w || ANAT_LINK[k] === sp.w, more: () => startWeekQuiz(sp.w) };
+      case "week": return { focus: k => weekOf(k) === sp.w || LINK.anat[k] === sp.w || LINK.icm[k] === sp.w, more: () => startWeekQuiz(sp.w) };
       case "lo": return { focus: k => k === sp.key, more: () => startLoQuiz(sp.key) };
       case "drug": return { more: () => startDrugQuiz(sp.id) };
       case "sprint": return { more: startSprint };
       case "mastered": return { more: startMasteredQuiz };
       case "retry": return sessionHooks(sp.parent);
+    }
+    if (GMODE[sp.k]) {
+      const [g, m] = GMODE[sp.k];
+      if (m === "daily" || m === "extra") return { more: () => startGDaily(g, true) };
+      if (m === "due") return { more: () => startGDue(g, sp.n) };
+      if (m === "shaky") return { focus: keyset(sp.keys), more: () => startGShaky(g) };
+      if (m === "custom") return { focus: gFocus(g, sp.cfg), more: () => startGCustom(g, sp.cfg) };
     }
     return {};
   }
@@ -1420,7 +1466,7 @@
   function startDaily(extra) {
     if (!extra && QS && !QS.done && QS.mode === "daily") { state.qscreen = "session"; return showQuiz(true); }
     const T = dayNum(), recent = new Set(recentWeeks());
-    const pool = POOL.filter(it => !it.anat && inLevel(it) && covered(it));
+    const pool = POOL.filter(it => !it.sep && inLevel(it) && covered(it));
     let items = extra ? [] : choose(pool.filter(it => srs[it.id] && srs[it.id][1] <= T), 6);
     const fill = list => { if (items.length < 10) { const have = new Set(items); items = items.concat(choose(list.filter(it => !have.has(it)), 10 - items.length)); } };
     fill(pool.filter(it => !srs[it.id] && it.weeks.some(w => recent.has(w))));
@@ -1428,118 +1474,159 @@
     fill(pool);
     startSession({ mode: extra ? "extra" : "daily", title: extra ? "10 more" : "Daily 10", items: shuffle(items), spec: { k: "daily" }, more: () => startDaily(true) });
   }
-  /* ----- Anatomy quiz: its own Daily 10 (own streak), review and drills ----- */
-  function anatStats() {
+  /* ----- Section quizzes (Anatomy, ICM): own Daily 10 with its own streak, review, drills, custom quiz, quiz a week ----- */
+  // Mode names use the section's letter (adaily, aextra, adue, ashaky, acustom; idaily, …) so saved streaks and history match.
+  const GRP = {
+    anat: { p: "a", name: "Anatomy", low: "anatomy", src: "Human Structure LOs", catLabel: "Body regions", catHint: "anatomy weeks or body regions", unit: "week", unitLabel: "Weeks" },
+    icm: { p: "i", name: "ICM", low: "ICM", src: "ICM LOs", catLabel: "Skill types", catHint: "ICM systems or skill types", unit: "system", unitLabel: "Systems" }
+  };
+  const GMODE = {}; for (const g in GRP) for (const m of ["daily", "extra", "due", "shaky", "custom"]) GMODE[GRP[g].p + m] = [g, m];
+  const inG = (it, g) => it.gw[g].length > 0;
+  function gStats(g) {
     const T = dayNum(); let due = 0, mastered = 0, seen = 0, n = 0;
-    for (const it of POOL) { if (!it.inAnat) continue; n++; const e = srs[it.id]; if (!e) continue; seen++; if (e[1] <= T && inLevel(it)) due++; if (e[0] >= 4) mastered++; }
-    const d = meta.adaily || {};
+    for (const it of POOL) { if (!inG(it, g)) continue; n++; const e = srs[it.id]; if (!e) continue; seen++; if (e[1] <= T && inLevel(it)) due++; if (e[0] >= 4) mastered++; }
+    const d = meta[GRP[g].p + "daily"] || {};
     return { n, due, mastered, seen, streak: d.last >= T - 1 ? d.streak || 0 : 0, best: d.best || 0, doneToday: d.last === T };
   }
-  function startAnatDaily(extra) {
-    if (!extra && QS && !QS.done && QS.mode === "adaily") { state.qscreen = "session"; return showQuiz(true); }
-    const T = dayNum(), pool = POOL.filter(it => it.inAnat && inLevel(it) && covered(it));
+  const anatStats = () => gStats("anat");
+  function startGDaily(g, extra) {
+    const G = GRP[g], mode = G.p + (extra ? "extra" : "daily");
+    if (!extra && QS && !QS.done && QS.mode === mode) { state.qscreen = "session"; return showQuiz(true); }
+    const T = dayNum(), pool = POOL.filter(it => inG(it, g) && inLevel(it) && covered(it));
     let items = extra ? [] : choose(pool.filter(it => srs[it.id] && srs[it.id][1] <= T), 6);
     const fill = list => { if (items.length < 10) { const have = new Set(items); items = items.concat(choose(list.filter(it => !have.has(it)), 10 - items.length)); } };
     fill(pool.filter(it => !srs[it.id])); fill(pool);
-    startSession({ mode: extra ? "aextra" : "adaily", title: extra ? "10 more anatomy" : "Anatomy Daily 10", items: shuffle(items), spec: { k: "adaily" }, more: () => startAnatDaily(true), back: "anat", empty: "No anatomy questions at this level." });
+    startSession({ mode, title: extra ? `10 more ${G.low}` : `${G.name} Daily 10`, items: shuffle(items), spec: { k: G.p + "daily" }, more: () => startGDaily(g, true), back: g, empty: `No ${G.low} questions at this level.` });
   }
-  function startAnatDue(n = qcfg.dueN) {
-    startSession({ mode: "adue", title: "Anatomy review due", items: choose(dueItems(true), n === "all" ? Infinity : n, 3), spec: { k: "adue", n }, more: () => startAnatDue(n), back: "adue", empty: "No anatomy questions are due. Try the Anatomy Daily 10." });
+  function startGDue(g, n = qcfg.dueN) {
+    const G = GRP[g];
+    startSession({ mode: G.p + "due", title: `${G.name} review due`, items: choose(dueItems(g), n === "all" ? Infinity : n, 3), spec: { k: G.p + "due", n }, more: () => startGDue(g, n), back: G.p + "due", empty: `No ${G.low} questions are due. Try the ${G.name} Daily 10.` });
   }
-  function startAnatShaky() {
-    const set = shakyLos();
-    const items = POOL.filter(it => it.inAnat && inLevel(it) && it.los.some(k => set.has(k)));
-    startSession({ mode: "ashaky", title: "Shaky anatomy LOs", items: choose(items, 20, 2), spec: { k: "ashaky", keys: [...set] }, focus: k => set.has(k), more: startAnatShaky, back: "anat", empty: "No shaky anatomy LOs yet. Mark them Shaky or Not yet in the Anatomy tab, or answer a few more questions first." });
+  function startGShaky(g) {
+    const G = GRP[g], set = shakyLos();
+    const items = POOL.filter(it => inG(it, g) && inLevel(it) && it.los.some(k => set.has(k)));
+    startSession({ mode: G.p + "shaky", title: `Shaky ${G.low} LOs`, items: choose(items, 20, 2), spec: { k: G.p + "shaky", keys: [...set] }, focus: k => set.has(k), more: () => startGShaky(g), back: g, empty: `No shaky ${G.low} LOs yet. Mark them Shaky or Not yet in the ${G.name} tab, or answer a few more questions first.` });
   }
-  // Anatomy's own "systems": body regions, so the curriculum's system labels (e.g. Skull under Reproductive) don't matter.
+  // Categories for the custom quiz. Anatomy: body regions (by week, so the curriculum's system labels don't matter).
+  // ICM: skill types, from each LO's session title and wording (an LO can be in more than one).
   const ANAT_REGIONS = [
     ["abdo", "Abdomen & pelvis", "102 104 111 114 132 135 141 206 212 229 238 239"], ["thorax", "Thorax & heart", "103 106 108 134 213 237"],
     ["upper", "Upper limb", "107 113 220"], ["lower", "Lower limb", "115 125 210 211"], ["headneck", "Head & neck", "126 127 136 139 142 204 207 208 219"],
     ["neuro", "Brain & spine", "109 119 133 209 221 230 231 240"], ["embryo", "Embryology", "110 112 128 202"], ["cells", "Cells & immunity", "105 130 131"],
     ["skin", "Skin & breast", "227 228"]
   ].map(([id, title, nums]) => ({ id, title, weeks: new Set(nums.split(" ").map(n => "a-" + n)) }));
-  const inRegion = (it, r) => it.aweeks.some(w => r.weeks.has(w));
-  function poolForAnat(cfg) {
-    const fams = new Set(cfg.fams);
-    let items = POOL.filter(it => it.inAnat && fams.has(it.fam) && (cfg.levels || [1, 2, 3]).includes(it.lvl));
-    if (cfg.scope === "weeks") { const ws = new Set(cfg.weeks); items = items.filter(it => it.aweeks.some(w => ws.has(w))); }
-    else if (cfg.scope === "regions") { const rs = ANAT_REGIONS.filter(r => cfg.regions.includes(r.id)); items = items.filter(it => rs.some(r => inRegion(it, r))); }
+  const ICM_SKILLS = [
+    ["exam", "Examinations", /exam|ophthalmoscop|otoscop|speculum|\bPV\b|\bPR\b|rectal|palpat|auscult|cranial nerve|fundus|visual (field|acuit)|lumps|gait|murmur|inspect/i],
+    ["history", "Histories & communication", /histor|consult|explain|communicat|bad news|signpost|question|telephone|video|triadic|counsel|cues|sensitiv|perspective|agenda|handover|present|empath|interpreter|capacity|consent/i],
+    ["procedure", "Practical procedures", /cannul|venepunct|venesect|inject|blood culture|ECG (procedure|record)|12[- ]lead|electrode|sutur|catheter|glucose|ANTT|aseptic|local anaes|BMI|measure|arterial blood gas|\bABG\b|inhaler|swab|urinalysis|hand hygiene|PPE|airway adjunct|oropharyngeal|nasopharyngeal|scrub|gown|glov/i],
+    ["emergency", "Emergencies & A–E", /\bA ?to ?E\b|\bA ?- ?E\b|ABCDE|life support|\bCPR\b|cardiac arrest|defibrillat|airway|sick (patient|child)|unwell|haemorrhage|resuscitat|sepsis|\bNEWS|deteriorat|emergenc|rhythm/i],
+    ["data", "Prescribing & interpretation", /prescrib|interpret|chart|growth|data|result|X-ray|radiograph|imaging|insulin|fluid|drug|medication|calculat|plot|spirometr|peak flow/i],
+    ["prof", "Professionalism & placement", /professional|confidential|integrity|dignity|team|feedback|patient safety|wellbeing|raise and escalate|punctual|honest|respect|limitation|reflect|safeguard/i]
+  ];
+  const CATS = {
+    anat: ANAT_REGIONS.map(r => ({ id: r.id, title: r.title, test: it => it.gw.anat.some(w => r.weeks.has(w)), focus: k => r.weeks.has(gweekOf("anat", k)) })),
+    icm: (() => {
+      const sets = Object.fromEntries(ICM_SKILLS.map(([id]) => [id, new Set()])), other = new Set();
+      for (const w of DATA.icm || []) for (const lo of w.los) { const s = lo.text + " " + lo.sessions.join(" "); let hit = false; for (const [id, , re] of ICM_SKILLS) if (re.test(s)) { sets[id].add(lo.key); hit = true; } if (!hit) other.add(lo.key); }
+      return ICM_SKILLS.map(([id, title]) => [id, title, sets[id]]).concat(other.size ? [["other", "Other", other]] : [])
+        .map(([id, title, keys]) => ({ id, title, keys, test: it => it.los.some(k => keys.has(k)), focus: k => keys.has(k) }));
+    })()
+  };
+  function poolForG(g, cfg) {
+    const fams = new Set(cfg.fams), cats = cfg.cats || cfg.regions || [];
+    let items = POOL.filter(it => inG(it, g) && fams.has(it.fam) && (cfg.levels || [1, 2, 3]).includes(it.lvl));
+    if (cfg.scope === "weeks") { const ws = new Set(cfg.weeks); items = items.filter(it => it.gw[g].some(w => ws.has(w))); }
+    else if (cfg.scope === "cats" || cfg.scope === "regions") { const cs = CATS[g].filter(c => cats.includes(c.id)); items = items.filter(it => cs.some(c => c.test(it))); }
     return items;
   }
-  function anatFocus(cfg) {
-    if (cfg.scope === "weeks") { const ws = new Set(cfg.weeks); return k => ws.has(aweekOf(k)); }
-    if (cfg.scope === "regions") { const rs = ANAT_REGIONS.filter(r => cfg.regions.includes(r.id)); return k => rs.some(r => r.weeks.has(aweekOf(k))); }
+  const poolForAnat = cfg => poolForG("anat", cfg);
+  function gFocus(g, cfg) {
+    if (!cfg) return null;
+    if (cfg.scope === "weeks") { const ws = new Set(cfg.weeks); return k => ws.has(gweekOf(g, k)); }
+    if (cfg.scope === "cats" || cfg.scope === "regions") { const cats = cfg.cats || cfg.regions || [], cs = CATS[g].filter(c => cats.includes(c.id)); return k => cs.some(c => c.focus(k)); }
     return null;
   }
-  function startAnatCustom(cfg = { ...JSON.parse(JSON.stringify(acfg)), levels: qcfg.levels.slice() }) {
-    const n = cfg.n === "all" ? Infinity : cfg.n, spec = { k: "acustom", cfg };
-    startSession({ mode: "acustom", title: "Custom anatomy quiz", items: choose(poolForAnat(cfg), n), spec, ...sessionHooks(spec), back: "acustom", empty: "No anatomy questions match. Pick at least one week or region." });
+  function startGCustom(g, cfg = { ...JSON.parse(JSON.stringify(GCFG[g])), levels: qcfg.levels.slice() }) {
+    const G = GRP[g], n = cfg.n === "all" ? Infinity : cfg.n, spec = { k: G.p + "custom", cfg };
+    startSession({ mode: G.p + "custom", title: `Custom ${G.low} quiz`, items: choose(poolForG(g, cfg), n), spec, ...sessionHooks(spec), back: G.p + "custom", empty: `No ${G.low} questions match. Pick at least one ${G.unit} or ${G.catLabel.toLowerCase().replace(/s$/, "")}.` });
   }
-  function acustomHTML() {
-    const cfg = { ...acfg, levels: qcfg.levels }, fams = new Set(cfg.fams), match = poolForAnat(cfg).length;
+  function gCustomHTML(g) {
+    const G = GRP[g], cfg = { ...GCFG[g], levels: qcfg.levels }, fams = new Set(cfg.fams), match = poolForG(g, cfg).length;
     const n = cfg.n === "all" ? match : Math.min(cfg.n, match), note = state.qnote; state.qnote = "";
-    const cnt = pred => POOL.filter(it => it.inAnat && fams.has(it.fam) && cfg.levels.includes(it.lvl) && pred(it)).length;
-    const seg = (attr, cur, opts) => `<div class="seg" role="group">${opts.map(([v, l]) => `<button data-${attr}="${v}" aria-pressed="${String(cur) === String(v)}">${l}</button>`).join("")}</div>`;
+    const cnt = pred => POOL.filter(it => inG(it, g) && fams.has(it.fam) && cfg.levels.includes(it.lvl) && pred(it)).length;
+    const b = (k, v, pressed, label, cls = "") => `<button${cls ? ` class="${cls}"` : ""} data-g="${g}" data-gk="${k}" data-gv="${v}"${pressed == null ? "" : ` aria-pressed="${pressed}"`}>${label}</button>`;
+    const seg = (k, cur, opts) => `<div class="seg" role="group">${opts.map(([v, l]) => b(k, v, String(cur) === String(v), l)).join("")}</div>`;
     let scope = "";
     if (cfg.scope === "weeks") scope = [1, 2].map(yr => {
-      const ws = DATA.anat.filter(w => isY2Anat(w) === (yr === 2)).map(w => [w, cnt(it => it.aweeks.includes(w.id))]).filter(([, c]) => c);
-      return ws.length ? `<div><h3>Year ${yr} anatomy<button data-aall="${yr}">All</button><button data-anone="${yr}">None</button></h3><div class="chips">${ws.map(([w, c]) => `<button class="chip" data-aweek="${w.id}" aria-pressed="${cfg.weeks.includes(w.id)}">${w.num} ${esc(w.title)} <span class="ct">${c}</span></button>`).join("")}</div></div>` : "";
+      const ws = DATA[g].filter(w => yrOf(w) === yr).map(w => [w, cnt(it => it.gw[g].includes(w.id))]).filter(([, c]) => c);
+      return ws.length ? `<div><h3>Year ${yr} ${G.low}${b("all", yr, null, "All")}${b("none", yr, null, "None")}</h3><div class="chips">${ws.map(([w, c]) => b("week", w.id, cfg.weeks.includes(w.id), `${w.yr ? "" : w.num + " "}${esc(w.title)} <span class="ct">${c}</span>`, "chip")).join("")}</div></div>` : "";
     }).join("");
-    if (cfg.scope === "regions") scope = `<div class="chips">${ANAT_REGIONS.map(r => `<button class="chip" data-areg="${r.id}" aria-pressed="${cfg.regions.includes(r.id)}">${esc(r.title)} <span class="ct">${cnt(it => inRegion(it, r))}</span></button>`).join("")}</div>`;
-    const famN = f => POOL.filter(it => it.inAnat && it.fam === f).length;
-    return `<div class="qz"><header class="week-head"><div class="eyebrow">Anatomy quiz</div><h2>Custom anatomy quiz</h2><div class="meta"><span>Choose which anatomy to cover, the question types and how many.</span></div></header>
+    if (cfg.scope === "cats") scope = `<div class="chips">${CATS[g].map(c => b("cat", c.id, cfg.cats.includes(c.id), `${esc(c.title)} <span class="ct">${cnt(c.test)}</span>`, "chip")).join("")}</div>`;
+    const famN = f => POOL.filter(it => inG(it, g) && it.fam === f).length;
+    return `<div class="qz"><header class="week-head"><div class="eyebrow">${G.name} quiz</div><h2>Custom ${G.low} quiz</h2><div class="meta"><span>Choose which ${G.low} to cover, the question types and how many.</span></div></header>
       ${note ? `<p class="pending-note">${esc(note)}</p>` : ""}
       <section class="picker">
-        <div><h3>Cover</h3>${seg("ascope", cfg.scope, [["all", "All anatomy"], ["weeks", "Weeks"], ["regions", "Body regions"]])}</div>
+        <div><h3>Cover</h3>${seg("scope", cfg.scope, [["all", `All ${G.low}`], ["weeks", G.unitLabel], ["cats", G.catLabel]])}</div>
         ${scope ? `<div class="scope">${scope}</div>` : ""}
-        <div><h3>Level</h3>${levelPicker(levelCounts(poolForAnat({ ...cfg, levels: [1, 2, 3] })))}</div>
-        <div><h3>Question types</h3><div class="chips">${["sa", "num", "lad"].map(f => `<button class="chip" data-afam="${f}" aria-pressed="${fams.has(f)}">${FAM_LABEL[f]} <span class="ct">${famN(f)}</span></button>`).join("")}</div></div>
-        <div><h3>How many</h3>${seg("an", cfg.n, [[10, "10"], [20, "20"], [40, "40"], ["all", "All"]])}</div>
+        <div><h3>Level</h3>${levelPicker(levelCounts(poolForG(g, { ...cfg, levels: [1, 2, 3] })))}</div>
+        <div><h3>Question types</h3><div class="chips">${["sa", "num", "lad"].map(f => b("fam", f, fams.has(f), `${FAM_LABEL[f]} <span class="ct">${famN(f)}</span>`, "chip")).join("")}</div></div>
+        <div><h3>How many</h3>${seg("n", cfg.n, [[10, "10"], [20, "20"], [40, "40"], ["all", "All"]])}</div>
       </section>
-      <div class="startbar"><button class="btn pri" id="a-start"${n ? "" : " disabled"}>Start ${n} question${n === 1 ? "" : "s"}</button><span class="count">${match} match${match === 1 ? "" : "es"}${cfg.scope !== "all" && !match ? " · pick at least one" : ""}</span></div>
+      <div class="startbar"><button class="btn pri" id="g-start" data-g="${g}"${n ? "" : " disabled"}>Start ${n} question${n === 1 ? "" : "s"}</button><span class="count">${match} match${match === 1 ? "" : "es"}${cfg.scope !== "all" && !match ? " · pick at least one" : ""}</span></div>
     </div>`;
   }
-  function anatHTML() {
-    const a = anatStats(), note = state.qnote; state.qnote = "";
+  function gSet(g, k, v) {
+    const cfg = GCFG[g];
+    if (k === "scope") cfg.scope = v;
+    else if (k === "week") toggleIn(cfg.weeks, v);
+    else if (k === "all") { const y2 = v === "2"; cfg.weeks = [...new Set([...cfg.weeks, ...DATA[g].filter(w => WEEK_N[w.id] && yrOf(w) === (y2 ? 2 : 1)).map(w => w.id)])]; }
+    else if (k === "none") { const y2 = v === "2"; cfg.weeks = cfg.weeks.filter(id => weeksById[id] && yrOf(weeksById[id]) !== (y2 ? 2 : 1)); }
+    else if (k === "cat") toggleIn(cfg.cats, v);
+    else if (k === "fam") { if (!(cfg.fams.length === 1 && cfg.fams[0] === v)) toggleIn(cfg.fams, v); }
+    else if (k === "n") cfg.n = v === "all" ? "all" : +v;
+    return saveCfg();
+  }
+  function gHTML(g) {
+    const G = GRP[g], a = gStats(g), note = state.qnote; state.qnote = "";
     const card = (mode, title, badge, text, o = {}) => `<button class="mode${o.primary ? " primary" : ""}" data-qmode="${mode}"><h3><span>${title}</span><small>${badge}</small></h3><p>${text}</p></button>`;
-    const line = w => `<button class="pline" data-quizweek="${w.id}"><span class="nm"><span class="num">${w.num}</span>${esc(w.title)}</span><span class="pnum">${WEEK_N[w.id] || 0} questions</span>${prog("mini", "qweek:" + w.id)}</button>`;
+    const line = w => `<button class="pline" data-quizweek="${w.id}"><span class="nm">${w.yr ? "" : `<span class="num">${w.num}</span>`}${esc(w.title)}</span><span class="pnum">${WEEK_N[w.id] || 0} questions</span>${prog("mini", "qweek:" + w.id)}</button>`;
     return `<div class="qz">
-      <header class="week-head"><div class="eyebrow">Quiz</div><h2>Anatomy quiz</h2>
-        <div class="meta"><span>Year 1 and Year 2 Human Structure LOs · <b>${a.n}</b> questions</span><span>Year 1 anatomy is kept out of the main Daily 10 and sprint</span></div></header>
+      <header class="week-head"><div class="eyebrow">Quiz</div><h2>${G.name} quiz</h2>
+        <div class="meta"><span>Year 1 and Year 2 ${G.src} · <b>${a.n}</b> questions</span><span>Year 1 ${G.low} is kept out of the main Daily 10 and sprint</span></div></header>
       ${note ? `<p class="pending-note">${esc(note)}</p>` : ""}
-      <div class="prows">${prog("row", "qyear:anat", "Anatomy questions")}${prog("row", "anat", "Anatomy LO ratings")}</div>
+      <div class="prows">${prog("row", "qyear:" + g, `${G.name} questions`)}${prog("row", g, `${G.name} LO ratings`)}</div>
       <div class="stats">${stat(a.due, "due for review")}${stat(a.streak, "day streak")}${stat(a.seen, "questions tried")}${stat(a.mastered, "mastered")}</div>
       <div class="modes">
-        ${card("adaily", "Anatomy Daily 10", a.doneToday ? "done today ✓" : "about 3 min", `Due anatomy reviews first, then new anatomy questions. Has its own streak. Year 2 anatomy joins week by week. ${reachedNote()}`, { primary: !a.doneToday })}
-        ${card("adue", "Review due", `${a.due} due`, "Anatomy questions whose spaced review has come round.")}
-        ${card("ashaky", "Drill shaky anatomy", "", "Questions on the anatomy LOs you've marked Shaky or Not yet, or keep getting wrong.")}
-        ${card("acustom", "Custom anatomy quiz", "you choose", "Pick anatomy weeks or body regions, which question types, and how many.")}
+        ${card(G.p + "daily", `${G.name} Daily 10`, a.doneToday ? "done today ✓" : "about 3 min", `Due ${G.low} reviews first, then new ${G.low} questions. Has its own streak. Year 2 ${G.low} joins week by week. ${reachedNote()}`, { primary: !a.doneToday })}
+        ${card(G.p + "due", "Review due", `${a.due} due`, `${G.name} questions whose spaced review has come round.`)}
+        ${card(G.p + "shaky", `Drill shaky ${G.low}`, "", `Questions on the ${G.low} LOs you've marked Shaky or Not yet, or keep getting wrong.`)}
+        ${card(G.p + "custom", `Custom ${G.low} quiz`, "you choose", `Pick ${G.catHint}, which question types, and how many.`)}
       </div>
-      ${[1, 2].map(yr => { const ws = DATA.anat.filter(w => WEEK_N[w.id] && isY2Anat(w) === (yr === 2)); return ws.length ? `<section class="psec"><h3>Quiz a Year ${yr} anatomy week</h3><div class="plist">${ws.map(line).join("")}</div></section>` : ""; }).join("")}
+      ${[1, 2].map(yr => { const ws = DATA[g].filter(w => WEEK_N[w.id] && yrOf(w) === yr); return ws.length ? `<section class="psec"><h3>Quiz a Year ${yr} ${G.low} ${G.unit}</h3><div class="plist">${ws.map(line).join("")}</div></section>` : ""; }).join("")}
     </div>`;
   }
-  function startSprint() { startSession({ mode: "sprint", title: "60-second sprint", items: choose(POOL.filter(it => !it.anat && MCQ.has(it.t) && inLevel(it) && covered(it)), 150), mcq: true, timed: 60, spec: { k: "sprint" }, more: startSprint }); }
+  function startSprint() { startSession({ mode: "sprint", title: "60-second sprint", items: choose(POOL.filter(it => !it.sep && MCQ.has(it.t) && inLevel(it) && covered(it)), 150), mcq: true, timed: 60, spec: { k: "sprint" }, more: startSprint }); }
   function startShaky() {
     const set = shakyLos();
-    const items = POOL.filter(it => !it.anat && inLevel(it) && it.los.some(k => set.has(k)) && (it.lo || it.t === "duse" || it.t === "dwhy"));
+    const items = POOL.filter(it => !it.sep && inLevel(it) && it.los.some(k => set.has(k)) && (it.lo || it.t === "duse" || it.t === "dwhy"));
     startSession({ mode: "shaky", title: "Shaky LOs", items: choose(items, 20, 2), spec: { k: "shaky", keys: [...set] }, focus: k => set.has(k), more: startShaky, empty: "Nothing to drill yet. Mark LOs as Shaky or Not yet in the week view, or answer a few more questions first." });
   }
   /* ----- Review due: you choose how many (remembered in qcfg.dueN, shared by the main and anatomy reviews) ----- */
   const DUE_OPTS = [5, 10, 20, 30, 50, "all"];
-  const dueItems = anat => { const T = dayNum(); return POOL.filter(it => (anat ? it.inAnat : !it.anat) && inLevel(it) && srs[it.id] && srs[it.id][1] <= T); };
-  const dueCount = (anat, due) => qcfg.dueN === "all" ? due : Math.min(qcfg.dueN, due);
+  const dueItems = g => { const T = dayNum(); return POOL.filter(it => (g ? inG(it, g) : !it.sep) && inLevel(it) && srs[it.id] && srs[it.id][1] <= T); };
+  const dueCount = (g, due) => qcfg.dueN === "all" ? due : Math.min(qcfg.dueN, due);
   const dueLabel = n => n ? `Start ${n} question${n === 1 ? "" : "s"}` : "Nothing due";
   function startDue(n = qcfg.dueN) {
     startSession({ mode: "due", title: "Review due", items: choose(dueItems(false), n === "all" ? Infinity : n, 3), spec: { k: "due", n }, more: () => startDue(n), back: "due", empty: "Nothing is due right now. Try a Daily 10." });
   }
-  function dueHTML(anat) {
-    const due = dueItems(anat).length, cur = qcfg.dueN, n = dueCount(anat, due), note = state.qnote; state.qnote = "";
-    return `<div class="qz"><header class="week-head"><div class="eyebrow">${anat ? "Anatomy quiz" : "Quiz"}</div><h2>${anat ? "Anatomy review due" : "Review due"}</h2>
+  function dueHTML(g) {
+    const G = g && GRP[g], due = dueItems(g).length, cur = qcfg.dueN, n = dueCount(g, due), note = state.qnote; state.qnote = "";
+    return `<div class="qz"><header class="week-head"><div class="eyebrow">${G ? G.name + " quiz" : "Quiz"}</div><h2>${G ? G.name + " review due" : "Review due"}</h2>
       <div class="meta"><span><b>${due}</b> question${due === 1 ? "" : "s"} due</span><span>Most overdue and weakest first</span></div></header>
       ${note ? `<p class="pending-note">${esc(note)}</p>` : ""}
       <section class="picker"><div><h3>How many</h3><div class="duepick"><div class="seg" role="group" aria-label="How many questions">${DUE_OPTS.map(v => `<button data-duen="${v}" aria-pressed="${String(cur) === String(v)}">${v === "all" ? "All" : v}</button>`).join("")}</div>
         <label class="duecustom">or type a number <input id="due-custom" type="number" inputmode="numeric" min="1" max="999" value="${DUE_OPTS.includes(cur) ? "" : cur}" placeholder="e.g. 15"></label></div></div></section>
-      <div class="startbar"><button class="btn pri" id="q-due-go" data-anat="${anat ? 1 : 0}"${n ? "" : " disabled"}>${dueLabel(n)}</button><span class="count">${n ? "Your choice is remembered for next time" : anat ? "Try the Anatomy Daily 10." : "Try a Daily 10."}</span></div>
+      <div class="startbar"><button class="btn pri" id="q-due-go" data-g="${g || ""}"${n ? "" : " disabled"}>${dueLabel(n)}</button><span class="count">${n ? "Your choice is remembered for next time" : G ? `Try the ${G.name} Daily 10.` : "Try a Daily 10."}</span></div>
     </div>`;
   }
   // Typing a number updates the button straight away (no re-render, so the box keeps focus); it's saved as you type.
@@ -1549,15 +1636,15 @@
     if (!(v >= 1)) return;
     qcfg.dueN = v; store.set("qcfg", qcfg);
     for (const b of document.querySelectorAll("[data-duen]")) b.setAttribute("aria-pressed", "false");
-    const go = $("#q-due-go"); if (go) { const n = dueCount(null, dueItems(go.dataset.anat === "1").length); go.textContent = dueLabel(n); go.disabled = !n; }
+    const go = $("#q-due-go"); if (go) { const n = dueCount(null, dueItems(go.dataset.g || null).length); go.textContent = dueLabel(n); go.disabled = !n; }
   });
   function startWeekQuiz(wid) {
     const w = weeksById[wid]; if (!w) return;
-    startSession({ mode: "week", title: `${isY2Anat(w) ? "Anatomy w" : "W"}eek ${w.num}: ${w.title}`, items: choose(POOL.filter(it => inLevel(it) && (it.weeks.includes(wid) || it.aweeks.includes(wid))), 20), spec: { k: "week", w: wid }, ...sessionHooks({ k: "week", w: wid }) });
+    startSession({ mode: "week", title: w.yr ? `ICM Year ${w.yr}: ${w.title}` : `${w.year === "anat" ? "Anatomy w" : w.year === "icm" ? "ICM w" : "W"}eek ${w.num}: ${w.title}`, items: choose(POOL.filter(it => inLevel(it) && (it.weeks.includes(wid) || it.gw.anat.includes(wid) || it.gw.icm.includes(wid))), 20), spec: { k: "week", w: wid }, ...sessionHooks({ k: "week", w: wid }) });
   }
   function startLoQuiz(key) {
     const h = loByKey[key]; if (!h) return;
-    startSession({ mode: "lo", title: `Week ${h.w.num} · LO ${h.lo.n}`, items: shuffle((BY_LO[key] || []).slice()).slice(0, 20), spec: { k: "lo", key }, ...sessionHooks({ k: "lo", key }) });
+    startSession({ mode: "lo", title: h.w.yr ? loTagOf(h) : `Week ${h.w.num} · LO ${h.lo.n}`, items: shuffle((BY_LO[key] || []).slice()).slice(0, 20), spec: { k: "lo", key }, ...sessionHooks({ k: "lo", key }) });
   }
   function startDrugQuiz(id) {
     const d = drugById[id]; if (!d) return;
@@ -1565,8 +1652,8 @@
   }
   function poolFor(cfg) {
     const fams = new Set(cfg.scope === "drugs" ? ["drug"] : cfg.fams);
-    let items = POOL.filter(it => fams.has(it.fam) && (cfg.levels || [1, 2, 3]).includes(it.lvl) && (cfg.scope === "weeks" || !it.anat));
-    if (cfg.scope === "weeks") { const ws = new Set(cfg.weeks); items = items.filter(it => it.weeks.some(w => ws.has(w))); }
+    let items = POOL.filter(it => fams.has(it.fam) && (cfg.levels || [1, 2, 3]).includes(it.lvl) && (cfg.scope === "weeks" || !it.sep));
+    if (cfg.scope === "weeks") { const ws = new Set(cfg.weeks); items = items.filter(it => it.weeks.some(w => ws.has(w)) || it.gw.icm.some(w => ws.has(w))); }
     else if (cfg.scope === "systems") { const ss = SYSTEMS.filter(s => cfg.systems.includes(s.id)); items = items.filter(it => ss.some(s => inSystem(it, s))); }
     else if (cfg.scope === "drugs") { const cs = new Set(cfg.cats); items = items.filter(it => cs.has(it.cat)); }
     return items;
@@ -1582,8 +1669,12 @@
   }
   function goMode(m) {
     if (m === "daily") return startDaily();
-    if (m === "adaily") return startAnatDaily();
-    if (m === "ashaky") return startAnatShaky();
+    if (GMODE[m]) {
+      const [g, k] = GMODE[m];
+      if (k === "daily") return startGDaily(g);
+      if (k === "shaky") return startGShaky(g);
+      if (k === "due" && QS && !QS.done && QS.mode === m) { state.qscreen = "session"; return showQuiz(true); }
+    }
     if (m === "shaky") return startShaky();
     if (m === "due" || m === "adue") { if (QS && !QS.done && QS.mode === m) { state.qscreen = "session"; return showQuiz(true); } state.qscreen = m; return showQuiz(true); }
     if (m === "week") { const w = quizWeek(); return w && startWeekQuiz(w.id); }
@@ -1610,7 +1701,8 @@
       <div class="stats">${stat(s.due, "due for review")}${stat(s.streak, "day streak")}${stat(s.seen, "answers · " + acc)}${stat(meta.sprintBest || 0, "sprint best")}${stat(s.mastered, "mastered")}</div>
       <div class="modes">
         ${card("daily", "Daily 10", s.doneToday ? "done today ✓" : "about 3 min", `Due reviews first, then new questions from your recent weeks. Keeps your streak going. ${reachedNote()}`, { primary: !s.doneToday })}
-        ${card("anat", "Anatomy quiz", anatStats().doneToday ? "daily done ✓" : "Years 1 & 2", "Anatomy on its own: an Anatomy Daily 10 with its own streak, review, custom quizzes and quizzes by week.")}
+        ${card("anat", "Anatomy quiz", gStats("anat").doneToday ? "daily done ✓" : "Years 1 & 2", "Anatomy on its own: an Anatomy Daily 10 with its own streak, review, custom quizzes and quizzes by week.")}
+        ${card("icm", "ICM quiz", gStats("icm").doneToday ? "daily done ✓" : "Years 1 & 2", "ICM on its own: examinations, histories, procedures and A–E, with an ICM Daily 10, review, custom quizzes and quizzes by week.")}
         ${card("sprint", "60-second sprint", "best " + (meta.sprintBest || 0), `Multiple choice against the clock: drug uses, mechanisms, contraindications, numbers and ladders. ${reachedNote()}`)}
         ${wk ? card("week", "This week: " + esc(wk.title), "week " + wk.num, `Short answers, numbers, ladders and linked drugs from week ${wk.num}.`) : ""}
         ${card("shaky", "Drill shaky LOs", shaky + (shaky === 1 ? " LO" : " LOs"), shaky ? "LOs you marked Shaky or Not yet, plus ones you keep getting wrong." : "Mark LOs as Shaky or Not yet in the week view (or miss a few questions) to fill this.", { disabled: !shaky })}
@@ -1636,7 +1728,7 @@
     const seg = (attr, cur, opts) => `<div class="seg" role="group">${opts.map(([v, l]) => `<button data-${attr}="${v}" aria-pressed="${String(cur) === String(v)}">${l}</button>`).join("")}</div>`;
     let scope = "";
     if (cfg.scope === "weeks") scope = YEARS.map(y => {
-      const ws = DATA[y].map(w => [w, cnt(it => it.weeks.includes(w.id))]).filter(([, c]) => c);
+      const ws = DATA[y].map(w => [w, cnt(it => it.weeks.includes(w.id) || it.gw.icm.includes(w.id))]).filter(([, c]) => c);
       return `<div><h3>${YEAR_LABEL[y]}<button data-qall="${y}">All</button><button data-qnone="${y}">None</button></h3><div class="chips">${ws.map(([w, c]) => `<button class="chip" data-qweek="${w.id}" aria-pressed="${cfg.weeks.includes(w.id)}">${w.num} ${esc(w.title)} <span class="ct">${c}</span></button>`).join("")}</div></div>`;
     }).join("");
     if (cfg.scope === "systems") scope = `<div class="chips">${SYSTEMS.map(s => `<button class="chip" data-qsys="${s.id}" aria-pressed="${cfg.systems.includes(s.id)}">${esc(s.title)} <span class="ct">${cnt(it => inSystem(it, s))}</span></button>`).join("")}</div>`;
@@ -1713,7 +1805,7 @@
     const firstRight = [...firsts.values()].filter(r => r.ok && !r.hinted).length, withHint = [...firsts.values()].filter(r => r.ok && r.hinted).length, s = stats();
     let sub = "";
     if (QS.mode === "daily" && !QS.early) sub = `Daily 10 done · ${s.streak}-day streak${meta.daily.best > s.streak ? ` (best ${meta.daily.best})` : ""}`;
-    if (QS.mode === "adaily" && !QS.early) { const a = anatStats(); sub = `Anatomy Daily 10 done · ${a.streak}-day streak${a.best > a.streak ? ` (best ${a.best})` : ""}`; }
+    if ((QS.mode === "adaily" || QS.mode === "idaily") && !QS.early) { const g = GMODE[QS.mode][0], a = gStats(g); sub = `${GRP[g].name} Daily 10 done · ${a.streak}-day streak${a.best > a.streak ? ` (best ${a.best})` : ""}`; }
     if (QS.mode === "sprint") sub = QS.right > QS.prevBest ? (QS.prevBest ? `New best! Previous best was ${QS.prevBest}.` : "First sprint done. That's the score to beat.") : `Your best is ${meta.sprintBest}.`;
     const h = QS.timed ? `${QS.right} right${QS.early ? " (stopped early)" : ` in ${QS.timed} seconds`}` : `${firstRight} of ${firsts.size} right first time`;
     if (withHint && !QS.timed) sub = (sub ? sub + " · " : "") + `${withHint} more right with a hint`;
@@ -1721,7 +1813,7 @@
     const saved = QS.early && !QS.timed && histList().find(x => x.uid === QS.uid && x.resume);
     return `<div class="qz"><header class="week-head"><div class="eyebrow">${esc(QS.title)} · ${QS.early ? "ended early" : "finished"}</div><h2>${h}</h2>${sub ? `<div class="meta"><span>${sub}</span></div>` : ""}</header>
       ${saved ? `<div class="resume"><span>${leftIn(saved.resume)} questions left. They're saved in your quiz history.</span><button class="btn pri" data-carry="${QS.uid}">Carry on</button></div>` : ""}
-      <div class="fb-actions">${miss.length ? `<button class="btn pri" id="q-retry">Retry ${miss.length === 1 ? "the 1" : `the ${miss.length}`} I missed or needed a hint for</button>` : ""}${QS.more ? `<button class="btn${miss.length ? "" : " pri"}" id="q-more">${/^(daily|extra|adaily|aextra)$/.test(QS.mode) ? "10 more" : "Another round"}</button>` : ""}${QS.past.length && !QS.timed ? `<button class="btn ghost" id="q-review">Review all ${QS.past.length} questions</button>` : ""}<button class="btn ghost" id="q-home">Quiz home</button></div>
+      <div class="fb-actions">${miss.length ? `<button class="btn pri" id="q-retry">Retry ${miss.length === 1 ? "the 1" : `the ${miss.length}`} I missed or needed a hint for</button>` : ""}${QS.more ? `<button class="btn${miss.length ? "" : " pri"}" id="q-more">${/^(daily|extra|[ai]daily|[ai]extra)$/.test(QS.mode) ? "10 more" : "Another round"}</button>` : ""}${QS.past.length && !QS.timed ? `<button class="btn ghost" id="q-review">Review all ${QS.past.length} questions</button>` : ""}<button class="btn ghost" id="q-home">Quiz home</button></div>
       ${ratedHTML()}
       ${miss.length ? `<section class="misses"><h3 class="subhead">Worth another look</h3>${miss.map(it => { const r = QS.results.find(x => x.it === it); const hinted = QS.results.some(x => x.it === it && x.hinted) && !QS.results.some(x => x.it === it && !x.ok); return `<div class="miss"><b>${plain(r.q.prompt)}${hinted ? `<span class="hinted">hint used</span>` : ""}</b><span>${esc(r.q.answerText)}</span>${r.q.why ? `<span class="mwhy">${r.q.why}</span>` : ""}${r.q.lo && loByKey[r.q.lo] ? loLink("Open the notes", r.q.lo) : ""}</div>`; }).join("")}</section>` : `<p class="pending-note">Clean sweep: nothing to repeat.</p>`}
     </div>`;
@@ -1731,9 +1823,10 @@
     if (state.qscreen === "session" && QS) v.innerHTML = QS.done && QS.view == null ? endHTML() : sessionHTML();
     else if (state.qscreen === "custom") v.innerHTML = customHTML();
     else if (state.qscreen === "sprint") v.innerHTML = sprintHTML();
-    else if (state.qscreen === "anat") v.innerHTML = anatHTML();
-    else if (state.qscreen === "acustom") v.innerHTML = acustomHTML();
-    else if (state.qscreen === "due" || state.qscreen === "adue") v.innerHTML = dueHTML(state.qscreen === "adue");
+    else if (GRP[state.qscreen]) v.innerHTML = gHTML(state.qscreen);
+    else if (GMODE[state.qscreen] && GMODE[state.qscreen][1] === "custom") v.innerHTML = gCustomHTML(GMODE[state.qscreen][0]);
+    else if (state.qscreen === "due") v.innerHTML = dueHTML(null);
+    else if (GMODE[state.qscreen] && GMODE[state.qscreen][1] === "due") v.innerHTML = dueHTML(GMODE[state.qscreen][0]);
     else if (state.qscreen === "hist") v.innerHTML = histHTML();
     else if (state.qscreen === "histone") v.innerHTML = histOneHTML();
     else { state.qscreen = "home"; v.innerHTML = homeHTML(); }
@@ -1744,7 +1837,7 @@
     if (!c.answered && c.q.kind === "typed") { const inp = $("#qans"); if (inp) inp.focus({ preventScroll: !top }); }
     else if (c.answered && !QS.timed) { const nb = $("#q-next"); if (nb) nb.focus({ preventScroll: true }); const fb = $(".fb"); if (fb && fb.scrollIntoView) fb.scrollIntoView({ block: "nearest" }); }
   }
-  function saveCfg() { store.set("qcfg", qcfg); store.set("acfg", acfg); const m = $("#main").scrollTop, y = window.scrollY; renderQuiz(); $("#main").scrollTop = m; window.scrollTo(0, y); return true; }
+  function saveCfg() { store.set("qcfg", qcfg); store.set("acfg", acfg); store.set("icfg", icfg); const m = $("#main").scrollTop, y = window.scrollY; renderQuiz(); $("#main").scrollTop = m; window.scrollTo(0, y); return true; }
   const toggleIn = (arr, v) => { const i = arr.indexOf(v); if (i >= 0) arr.splice(i, 1); else arr.push(v); };
 
   // Returns true when the click belonged to the quiz.
@@ -1780,8 +1873,8 @@
       case "q-home": state.qscreen = "home"; renderNav(); renderQuiz(true); return true;
       case "q-resume": state.qscreen = "session"; renderNav(); renderQuiz(true); return true;
       case "q-start": startCustom(); return true;
-      case "a-start": startAnatCustom(); return true;
-      case "q-due-go": (b.dataset.anat === "1" ? startAnatDue : startDue)(); return true;
+      case "g-start": startGCustom(b.dataset.g); return true;
+      case "q-due-go": if (b.dataset.g) startGDue(b.dataset.g); else startDue(); return true;
       case "h-retry": histRetry(); return true;
       case "h-again": { const e = histList().find(x => x.uid === state.histUid), m = e && sessionHooks(e.spec).more; if (m) m(); return true; }
       case "q-sprint-go": startSprint(); return true;
@@ -1796,13 +1889,7 @@
     const fa = t.closest("[data-qfam]"); if (fa) { const f = fa.dataset.qfam; if (!(qcfg.fams.length === 1 && qcfg.fams[0] === f)) toggleIn(qcfg.fams, f); return saveCfg(); }
     const qn = t.closest("[data-qn]"); if (qn) { qcfg.n = qn.dataset.qn === "all" ? "all" : +qn.dataset.qn; return saveCfg(); }
     const dn = t.closest("[data-duen]"); if (dn) { qcfg.dueN = dn.dataset.duen === "all" ? "all" : +dn.dataset.duen; return saveCfg(); }
-    const as = t.closest("[data-ascope]"); if (as) { acfg.scope = as.dataset.ascope; return saveCfg(); }
-    const aw = t.closest("[data-aweek]"); if (aw) { toggleIn(acfg.weeks, aw.dataset.aweek); return saveCfg(); }
-    const aa = t.closest("[data-aall]"); if (aa) { const y2 = aa.dataset.aall === "2"; acfg.weeks = [...new Set([...acfg.weeks, ...DATA.anat.filter(w => WEEK_N[w.id] && isY2Anat(w) === y2).map(w => w.id)])]; return saveCfg(); }
-    const a0 = t.closest("[data-anone]"); if (a0) { const y2 = a0.dataset.anone === "2"; acfg.weeks = acfg.weeks.filter(id => isY2Anat(weeksById[id]) !== y2); return saveCfg(); }
-    const ar = t.closest("[data-areg]"); if (ar) { toggleIn(acfg.regions, ar.dataset.areg); return saveCfg(); }
-    const af = t.closest("[data-afam]"); if (af) { const f = af.dataset.afam; if (!(acfg.fams.length === 1 && acfg.fams[0] === f)) toggleIn(acfg.fams, f); return saveCfg(); }
-    const an = t.closest("[data-an]"); if (an) { acfg.n = an.dataset.an === "all" ? "all" : +an.dataset.an; return saveCfg(); }
+    const gb = t.closest("[data-gk]"); if (gb) return gSet(gb.dataset.g, gb.dataset.gk, gb.dataset.gv);
     return true;
   }
   document.addEventListener("submit", e => { if (e.target.id === "qform") { e.preventDefault(); submit({ text: $("#qans").value }); } });
@@ -1828,18 +1915,18 @@
   // Not yet or unrated = 0. Quiz questions: spaced-repetition box / 4, so a question counts fully once mastered.
   // Overall is the average of Year 1, Year 2, Drugs and Quiz. Elements carry data-prog/data-pk so
   // updateProgressUI() can redraw them in place after any rating or answer.
-  const SCOPE_KEYS = { y1: [], y2: [], anat: [], drugs: [] };
+  const SCOPE_KEYS = { y1: [], y2: [], anat: [], icm: [], drugs: [] };
   for (const y of YEARS) for (const w of DATA[y]) { const keys = w.los.map(lo => lo.key); SCOPE_KEYS["week:" + w.id] = keys; SCOPE_KEYS[y].push(...keys); }
   for (const c of DRUGS) { const keys = c.items.map(d => "drug:" + d.id); SCOPE_KEYS["dcat:" + c.id] = keys; SCOPE_KEYS.drugs.push(...keys); }
   const QUIZ_SCOPE = {};
   function quizItemsFor(k, id, scope) {
-    return QUIZ_SCOPE[scope] ||= k === "quiz" ? POOL : k === "qfam" ? POOL.filter(it => it.fam === id) : k === "qweek" ? POOL.filter(it => it.weeks.includes(id) || it.aweeks.includes(id))
+    return QUIZ_SCOPE[scope] ||= k === "quiz" ? POOL : k === "qfam" ? POOL.filter(it => it.fam === id) : k === "qweek" ? POOL.filter(it => it.weeks.includes(id) || it.gw.anat.includes(id) || it.gw.icm.includes(id))
       : k === "qdcat" ? POOL.filter(it => it.cat === id) : k === "qdrug" ? POOL.filter(it => it.drug && it.drug.id === id)
-      : k === "qyear" ? (id === "anat" ? POOL.filter(it => it.inAnat) : POOL.filter(it => it.weeks.some(w => weeksById[w].year === id))) : k === "qlevel" ? POOL.filter(it => it.lvl === +id) : [];
+      : k === "qyear" ? (GRP[id] ? POOL.filter(it => inG(it, id)) : POOL.filter(it => it.weeks.some(w => weeksById[w].year === id))) : k === "qlevel" ? POOL.filter(it => it.lvl === +id) : [];
   }
   function progressOf(scope) {
     const i = scope.indexOf(":"), k = i < 0 ? scope : scope.slice(0, i), id = i < 0 ? "" : scope.slice(i + 1);
-    if (k === "total") { const parts = ["y1", "y2", "anat", "drugs", "quiz"].map(progressOf); return { kind: "total", n: 1, parts, score: parts.reduce((a, p) => a + p.score, 0) / parts.length }; }
+    if (k === "total") { const parts = ["y1", "y2", "anat", "icm", "drugs", "quiz"].map(progressOf); return { kind: "total", n: 1, parts, score: parts.reduce((a, p) => a + p.score, 0) / parts.length }; }
     let ok = 0, warn = 0, bad = 0;
     if (k === "quiz" || ["qfam", "qweek", "qdcat", "qdrug", "qyear", "qlevel"].includes(k)) {
       const items = quizItemsFor(k, id, scope); let sum = 0;
@@ -1889,15 +1976,15 @@
     const line = (attrs, num, name, a, b) => `<button class="pline" ${attrs}><span class="nm"><span class="num">${num}</span>${esc(name)}</span>${a}${b}</button>`;
     const head = (a, b) => `<div class="plist-head"><span></span><span>${a}</span><span>${b}</span></div>`;
     const year = (y, title) => `<section class="psec" id="psec-${y}"><h3>${title}</h3>
-        <div class="prows">${prog("row", y, "Learning outcome ratings")}${prog("row", "qyear:" + y, "Quiz questions on these weeks")}</div>
+        <div class="prows">${prog("row", y, "Learning outcome ratings")}${prog("row", "qyear:" + y, y === "icm" ? "Quiz questions on these systems" : "Quiz questions on these weeks")}</div>
         <div class="plist">${head("Ratings", "Quiz")}${DATA[y].map(w => line(`data-goweek="${w.id}"`, w.num, w.title, prog("mini", "week:" + w.id), prog("mini", "qweek:" + w.id))).join("")}</div></section>`;
     $("#view").innerHTML = `
       <header class="week-head"><div class="eyebrow">Progress</div><h2>Your progress</h2>
         <div class="fb-actions"><button class="btn" data-hnav="mastered">See what you've mastered</button></div>
         <div class="meta"><span>Ratings: <b>Confident</b> counts fully, <b>Shaky</b> half. Quiz: each question counts fully once mastered (right on 4 spaced reviews in a row). Overall is the average of Year 1, Year 2, Anatomy, Drugs and Quiz.</span></div></header>
       <section class="psec" id="psec-total">${prog("row", "total", "Overall")}
-        <div class="prows">${prog("row", "y1", "Year 1 learning outcomes")}${prog("row", "y2", "Year 2 learning outcomes")}${prog("row", "anat", "Anatomy learning outcomes")}${prog("row", "drugs", "Drugs")}${prog("row", "quiz", "Quiz questions")}</div></section>
-      ${year("y1", "Year 1")}${year("y2", "Year 2")}${year("anat", "Anatomy (Year 1)")}
+        <div class="prows">${prog("row", "y1", "Year 1 learning outcomes")}${prog("row", "y2", "Year 2 learning outcomes")}${prog("row", "anat", "Anatomy learning outcomes")}${prog("row", "icm", "ICM learning outcomes")}${prog("row", "drugs", "Drugs")}${prog("row", "quiz", "Quiz questions")}</div></section>
+      ${year("y1", "Year 1")}${year("y2", "Year 2")}${year("anat", "Anatomy")}${year("icm", "ICM")}
       <section class="psec" id="psec-drugs"><h3>Drugs</h3>
         <div class="prows">${prog("row", "drugs", "Drug ratings")}${prog("row", "qfam:drug", "Drug quiz questions")}</div>
         <div class="plist">${head("Ratings", "Quiz")}${DRUGS.map(c => line(`data-gocat="${c.id}"`, c.items.length, c.title, prog("mini", "dcat:" + c.id), prog("mini", "qdcat:" + c.id))).join("")}</div></section>
@@ -1932,7 +2019,7 @@
     const s = stats(), hw = homeWeek(), hr = TODAY.getHours();
     const greet = hr < 12 ? "Good morning" : hr < 18 ? "Good afternoon" : "Good evening";
     const today = TODAY.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" });
-    const last = weeksById[store.get("last", null)];
+    const last = visibleWeek(store.get("last", null));
     const flagged = DATA.y1.concat(DATA.y2).flatMap(w => w.los).filter(lo => conf[lo.key] === 1 || conf[lo.key] === 2);
     const trouble = weekAccuracy().slice(0, 4);
     const upcoming = DATA.y2.filter(w => w.date && new Date(w.date + "T00:00:00") > TODAY).slice(0, 4);
@@ -1951,14 +2038,14 @@
     const todayCard = `<section class="dcard">
         <h3>Today</h3>
         <div class="dbig">${s.doneToday ? `<b class="ok">Daily 10 done ✓</b>` : `<b>Daily 10 to do</b>`}<span>${s.streak ? `${s.streak}-day streak` : "Start a streak today"}${meta.daily.best > 1 ? ` · best ${meta.daily.best}` : ""}</span></div>
-        <ul class="dlist"><li><span>Anatomy Daily 10</span><b>${anatStats().doneToday ? "done ✓" : "to do"}</b></li><li><span>Due for review</span><b>${s.due}</b></li><li><span>Sprint best</span><b>${meta.sprintBest || 0}</b></li><li><span>Answers so far</span><b>${s.seen.toLocaleString("en-GB")}</b></li></ul>
-        <div class="fb-actions">${btn(`data-qmode="daily"`, s.doneToday ? "10 more" : "Start Daily 10", !s.doneToday)}${btn(`data-qmode="adaily"`, anatStats().doneToday ? "10 more anatomy" : "Anatomy Daily 10")}${s.due ? btn(`data-qmode="due"`, `Review ${s.due} due`) : ""}</div>
+        <ul class="dlist"><li><span>Anatomy Daily 10</span><b>${gStats("anat").doneToday ? "done ✓" : "to do"}</b></li><li><span>ICM Daily 10</span><b>${gStats("icm").doneToday ? "done ✓" : "to do"}</b></li><li><span>Due for review</span><b>${s.due}</b></li><li><span>Sprint best</span><b>${meta.sprintBest || 0}</b></li><li><span>Answers so far</span><b>${s.seen.toLocaleString("en-GB")}</b></li></ul>
+        <div class="fb-actions">${btn(`data-qmode="daily"`, s.doneToday ? "10 more" : "Start Daily 10", !s.doneToday)}${btn(`data-qmode="adaily"`, gStats("anat").doneToday ? "10 more anatomy" : "Anatomy Daily 10")}${btn(`data-qmode="idaily"`, gStats("icm").doneToday ? "10 more ICM" : "ICM Daily 10")}${s.due ? btn(`data-qmode="due"`, `Review ${s.due} due`) : ""}</div>
       </section>`;
 
     const progressCard = `<section class="dcard">
         <h3>Progress</h3>
         ${prog("row", "total", "Overall")}
-        <div class="dminis">${[["y1", "Year 1"], ["y2", "Year 2"], ["anat", "Anatomy"], ["drugs", "Drugs"], ["quiz", "Quiz"]].map(([sc, l]) => `<div><span>${l}</span>${prog("mini", sc)}</div>`).join("")}</div>
+        <div class="dminis">${[["y1", "Year 1"], ["y2", "Year 2"], ["anat", "Anatomy"], ["icm", "ICM"], ["drugs", "Drugs"], ["quiz", "Quiz"]].map(([sc, l]) => `<div><span>${l}</span>${prog("mini", sc)}</div>`).join("")}</div>
         <div class="fb-actions">${btn(`id="home-progress"`, "See all progress")}${btn(`data-hnav="mastered"`, "What I've mastered")}</div>
       </section>`;
 
@@ -1970,7 +2057,7 @@
         <h3>Pick up where you left off</h3>
         ${quizBack}
         ${last ? `<button class="dlink" data-goweek="${last.id}"><span class="dl-name">${wkTitle(last)}</span><span class="dl-sub">Notes · ${YEAR_LABEL[last.year]} · ${last.los.length} LOs</span>${prog("mini", "week:" + last.id)}</button>
-        ${WEEK_N[last.id] && !rq ? `<div class="fb-actions">${btn(`data-quizweek="${last.id}"`, `Quiz week ${last.num}`)}</div>` : ""}` : ""}
+        ${WEEK_N[last.id] && !rq ? `<div class="fb-actions">${btn(`data-quizweek="${last.id}"`, last.yr ? "Quiz this system" : `Quiz week ${last.num}`)}</div>` : ""}` : ""}
       </section>` : "";
     const recent = histList().slice(0, 4);
     const histCard = `<section class="dcard">
@@ -2023,7 +2110,7 @@
   const isMastered = id => { const e = srs[id]; return !!e && e[0] >= 4; };
   function masteredData() {
     const los = [], drugs = [], qs = []; let nearly = 0;
-    for (const y of YEARS) for (const w of DATA[y]) if (!w.link) for (const lo of w.los) if (conf[lo.key] === 3) los.push({ w, lo });
+    for (const y of YEARS) for (const w of DATA[y]) if (!(w.link && y === "anat")) for (const lo of w.los) if (conf[lo.key] === 3) los.push({ w, lo });
     for (const c of DRUGS) for (const d of c.items) if (conf["drug:" + d.id] === 3) drugs.push({ c, d });
     for (const it of POOL) { const e = srs[it.id]; if (!e) continue; if (e[0] >= 4) qs.push(it); else if (e[0] === 3) nearly++; }
     return { los, drugs, qs, nearly };
@@ -2050,7 +2137,7 @@
     }
     return [esc(it.id), ""];
   }
-  const qGroup = it => it.drug ? "d:" + it.cat : it.weeks[0] || "other";
+  const qGroup = it => it.drug ? "d:" + it.cat : it.gw.icm[0] || it.weeks[0] || "other";
   function openMastered(tab) {
     state.year = "mastered"; state.query = ""; $("#q").value = "";
     if (tab) state.mtab = tab;
@@ -2062,7 +2149,7 @@
   }
   function renderMastered() {
     const m = masteredData(), tab = state.mtab || "los", T0 = dayNum();
-    const totalLos = new Set([...SCOPE_KEYS.y1, ...SCOPE_KEYS.y2, ...SCOPE_KEYS.anat]).size, totalDrugs = DRUGS.reduce((a, c) => a + c.items.length, 0);
+    const totalLos = new Set([...SCOPE_KEYS.y1, ...SCOPE_KEYS.y2, ...SCOPE_KEYS.anat, ...SCOPE_KEYS.icm]).size, totalDrugs = DRUGS.reduce((a, c) => a + c.items.length, 0);
     const card = (id, n, of, label) => `<button class="mcount" data-mtab="${id}" aria-pressed="${tab === id}"><b>${n.toLocaleString("en-GB")}</b><span>${label}</span><span class="mof">of ${of.toLocaleString("en-GB")}</span><span class="pbar thin"><i class="b-ok" style="width:${(of ? n / of * 100 : 0).toFixed(2)}%"></i></span></button>`;
     const when = t => t ? new Date(t * 1000).toLocaleDateString("en-GB", { day: "numeric", month: "short" }) : "";
     const src = k => fromQuiz(k) ? '<span class="msrc quiz">from quiz</span>' : '<span class="msrc">your rating</span>';
@@ -2096,7 +2183,7 @@
       if (!m.qs.length) body = empty("No questions mastered yet. A question counts once you've got it right on 4 spaced reviews in a row, which takes about two to three weeks of reviews.");
       else {
         const order = new Map(), totals = {};
-        DATA.y1.concat(DATA.y2, DATA.anat).forEach((w, i) => order.set(w.id, i)); DRUGS.forEach((c, i) => order.set("d:" + c.id, 1000 + i));
+        DATA.y1.concat(DATA.y2, DATA.anat, DATA.icm).forEach((w, i) => order.set(w.id, i)); DRUGS.forEach((c, i) => order.set("d:" + c.id, 1000 + i));
         for (const it of POOL) { const g = qGroup(it); totals[g] = (totals[g] || 0) + 1; }
         const by = new Map(); for (const it of m.qs) { const g = qGroup(it); if (!by.has(g)) by.set(g, []); by.get(g).push(it); }
         const groups = [...by.entries()].sort((a, b) => (order.get(a[0]) ?? 9999) - (order.get(b[0]) ?? 9999));
@@ -2149,7 +2236,7 @@
     if (e.v === "home") return "Home";
     if (e.v === "mastered") return "Mastered";
     if (e.v === "drugs") return e.drug && drugById[e.drug] ? drugById[e.drug].name : (catById[e.cat] || DRUGS[0]).title;
-    if (e.v === "quiz") return e.screen === "session" && QS ? "Quiz: " + QS.title + (QS.done ? " (results)" : "") : { custom: "Custom quiz", sprint: "60-second sprint", anat: "Anatomy quiz", acustom: "Custom anatomy quiz", due: "Review due", adue: "Anatomy review due", hist: "Quiz history", histone: "Quiz history" }[e.screen] || "Quiz home";
+    if (e.v === "quiz") return e.screen === "session" && QS ? "Quiz: " + QS.title + (QS.done ? " (results)" : "") : { custom: "Custom quiz", sprint: "60-second sprint", anat: "Anatomy quiz", acustom: "Custom anatomy quiz", due: "Review due", adue: "Anatomy review due", icm: "ICM quiz", icustom: "Custom ICM quiz", idue: "ICM review due", hist: "Quiz history", histone: "Quiz history" }[e.screen] || "Quiz home";
     const w = weeksById[e.week]; return w ? `${w.num} ${w.title}` : "Back";
   }
   // Where Back would go from `view`, whether or not `view` has been recorded yet.

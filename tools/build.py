@@ -19,13 +19,15 @@ SRC, CONTENT, MAC, BUILD = ROOT / "src", ROOT / "content", ROOT / "mac", ROOT / 
 MARK_CSS, MARK_DATA, MARK_JS = "{{ styles.css }}", "{{ content }}", "{{ app.js }}"
 
 # Top-level keys of the page's course data, in the order the page stores them, and the folder each lives in.
-WEEK_SECTIONS = [("y1", "year1"), ("y2", "year2"), ("anat", "anatomy")]
+WEEK_SECTIONS = [("y1", "year1"), ("y2", "year2"), ("anat", "anatomy"), ("icm", "icm")]
+SECTION_NAMES = {"y1": "Year 1 weeks", "y2": "Year 2 weeks", "anat": "anatomy topics", "icm": "ICM weeks"}
 QUIZ_FILES = {  # the page stores each quiz question as an array; content/quiz/ names the fields
     "sa": ("short-answer.json", ["id", "lo", "q", "acc", "model", "lvl", "hint", "why"]),
     "num": ("numbers.json", ["id", "lo", "q", "shown", "nums", "wrong", "lvl", "why"]),
     "lad": ("ladders.json", ["id", "lo", "title", "steps", "lvl", "whys", "decoys"]),
 }
-TOP_KEYS = [k for k, _ in WEEK_SECTIONS] + ["drugs", "quiz"]
+AS_IS_FILES = [("icmSys", "icm-pages.json")]  # kept in content/ exactly as the page stores them
+TOP_KEYS = [k for k, _ in WEEK_SECTIONS] + ["drugs", "quiz"] + [k for k, _ in AS_IS_FILES]
 
 # claude.ai wraps the published page in this. build/preview.html adds the same wrapper, so a browser shows the page
 # exactly as the artifact does.
@@ -138,6 +140,8 @@ def load_content():
                                  f"expected the fields {', '.join(fields)}")
             items.append([q[f] for f in fields])
         data["quiz"][key] = items
+    for key, name in AS_IS_FILES:
+        data[key] = read_json(CONTENT / name)
     check_content(data)
     return add_generated(data)
 
@@ -163,6 +167,10 @@ def check_content(data):
     if unknown:
         print(f"warning: quiz questions point at LOs that don't exist: {', '.join(unknown[:10])}"
               + (" …" if len(unknown) > 10 else ""))
+    unknown = sorted({k for g in data["icmSys"]["groups"] for k in g["keys"] if k not in lo_keys})
+    if unknown:
+        print(f"warning: content/icm-pages.json lists LOs that don't exist: {', '.join(unknown[:10])}"
+              + (" …" if len(unknown) > 10 else ""))
 
 
 def save_content(data):
@@ -180,6 +188,8 @@ def save_content(data):
             if len(q) != len(fields):
                 raise BuildError(f"quiz.{key} question {i + 1} has {len(q)} parts; the build expects {len(fields)}")
         write_json(CONTENT / "quiz" / name, [dict(zip(fields, q)) for q in data["quiz"][key]])
+    for key, name in AS_IS_FILES:
+        write_json(CONTENT / name, data[key])
 
 
 def encode_data(data):
@@ -218,11 +228,10 @@ def build():
     (BUILD / "preview.html").write_text(HOST_HEAD + page + HOST_TAIL, encoding="utf-8")
     (BUILD / "mac" / "web" / "index.html").write_text(mac_page(page), encoding="utf-8")
     shutil.copytree(MAC / "fonts", BUILD / "mac" / "web" / "fonts")
-    weeks = {key: len(data[key]) for key, _ in WEEK_SECTIONS}
+    weeks = ", ".join(f"{len(data[key])} {SECTION_NAMES[key]}" for key, _ in WEEK_SECTIONS)
     los = sum(len(w["los"]) for key, _ in WEEK_SECTIONS for w in data[key])
-    print(f"Built {len(page.encode()) / 1e6:.1f} MB page: {weeks['y1']} Year 1 weeks, {weeks['y2']} Year 2 weeks, "
-          f"{weeks['anat']} anatomy topics, {los} LOs, {sum(len(c['items']) for c in data['drugs'])} drugs, "
-          f"{sum(len(q) for q in data['quiz'].values())} quiz questions.")
+    print(f"Built {len(page.encode()) / 1e6:.1f} MB page: {weeks}, {los} LOs, "
+          f"{sum(len(c['items']) for c in data['drugs'])} drugs, {sum(len(q) for q in data['quiz'].values())} quiz questions.")
     print("  build/artifact.html     the page to publish as the Claude artifact")
     print("  build/preview.html      open this in a browser to try the page")
     print("  build/mac/web/          goes into GEM Revision.app/Contents/Resources/web/")
@@ -267,7 +276,7 @@ def import_page(path):
     course = json.loads(data.group(1))
     if list(course) != TOP_KEYS:
         raise BuildError(f"the course data has the sections {list(course)}; tools/build.py knows {TOP_KEYS}. "
-                         "Add the new ones to WEEK_SECTIONS or TOP_KEYS first.")
+                         "Add the new ones to WEEK_SECTIONS or AS_IS_FILES first.")
 
     SRC.mkdir(exist_ok=True)
     (SRC / "index.html").write_text(shell, encoding="utf-8")

@@ -1,0 +1,44 @@
+{
+  "id": "i-110",
+  "num": "110",
+  "title": "Child development",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Perform basic life support procedures on an infant and a child in accordance with current guidelines.",
+      "section": "ICM",
+      "sessions": [
+        "Paediatric basic life support"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Step</th><th>Infant (&lt;1 year)</th><th>Child (1 year to puberty)</th></tr></thead><tbody><tr><td>Airway</td><td>Head <strong>neutral</strong> (\"sniffing\"), chin lift</td><td>Head tilt, chin lift</td></tr><tr><td><strong>5 rescue breaths first</strong></td><td>Mouth over <strong>mouth and nose</strong></td><td>Mouth to mouth (pinch nose)</td></tr><tr><td>Check signs of life</td><td>Up to 10 s (brachial pulse for healthcare staff)</td><td>Up to 10 s (carotid/femoral)</td></tr><tr><td><strong>Compressions</strong></td><td><strong>Two thumbs</strong> encircling (or two fingers), lower half of sternum</td><td><strong>One or two hands</strong>, lower half of sternum</td></tr><tr><td>Depth</td><td>At least <strong>one third</strong> of chest depth (~4 cm)</td><td>At least <strong>one third</strong> (~5 cm)</td></tr><tr><td>Ratio</td><td><strong>15:2</strong></td><td><strong>15:2</strong></td></tr><tr><td>Rate</td><td>100–120/min</td><td>100–120/min</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Alone</th><td>Give 1 minute of CPR before going for help (paediatric arrests are usually hypoxic), unless a mobile phone is to hand (call on speaker).</td></tr><tr><th scope=\"row\">Guideline</th><td>Resuscitation Council UK Paediatric BLS (2021).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Manage a choking incident in a child using appropriate first aid techniques.",
+      "section": "ICM",
+      "sessions": [
+        "Paediatric basic life support"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td><strong>Encourage coughing</strong> if the cough is effective; stay with the child.</td></tr><tr><th scope=\"row\">2. Ineffective cough, conscious</th><td><ul class=\"cl\"><li>Shout for help</li><li><strong>5 back blows</strong> (infant: face down along your forearm, head low; child: leaning forward) between the shoulder blades.</li></ul></td></tr><tr><th scope=\"row\">3</th><td>Then <strong>5 thrusts</strong>: infant: <strong>chest thrusts</strong> (like compressions, sharper and slower); child: <strong>abdominal thrusts</strong> (Heimlich).</td></tr><tr><th scope=\"row\">4</th><td><strong>Repeat</strong> back blows and thrusts, checking for the object after each cycle.</td></tr><tr><th scope=\"row\">5. Unconscious</th><td>Open the airway, give 5 rescue breaths, start <strong>CPR 15:2</strong>; look for the object (don't finger sweep blindly).</td></tr></tbody></table></div><ul><li><strong>No abdominal thrusts in infants</strong> (risk of organ injury).</li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Obtain a blood sample from a model while adhering to aseptic non-touch technique (ANTT) principles.",
+      "section": "ICM",
+      "sessions": [
+        "Venepuncture"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Check the request, <strong>identify the patient</strong>, explain, consent, ask about needle phobia and fainting, allergies (latex, chlorhexidine).</td></tr><tr><th scope=\"row\">2</th><td><strong>Hand hygiene</strong>, gather equipment on a clean tray (<strong>ANTT</strong>: protect key parts).</td></tr><tr><th scope=\"row\">3</th><td>Apply the <strong>tourniquet</strong> 7–10 cm above the site (max 1 minute); find a vein (usually <strong>median cubital</strong>).</td></tr><tr><th scope=\"row\">4</th><td><strong>Clean</strong> with 2% chlorhexidine/70% alcohol for 30 s, let it <strong>dry</strong>; don't re-touch (key site).</td></tr><tr><th scope=\"row\">5</th><td>Anchor the vein, insert the needle bevel up at <strong>15–30°</strong>, attach tubes in the <strong>order of draw</strong> (blood cultures first, then citrate (blue), serum (red/gold), heparin (green), EDTA (purple), fluoride (grey)).</td></tr><tr><th scope=\"row\">6</th><td><strong>Release the tourniquet</strong> before removing the needle; apply pressure.</td></tr><tr><th scope=\"row\">7</th><td><strong>Dispose of the sharp immediately</strong> in a sharps bin; <strong>label tubes at the bedside</strong>; hand hygiene; document.</td></tr></tbody></table></div><ul><li><strong>ANTT</strong>: identify <strong>key parts</strong> (needle, tube connectors) and <strong>key sites</strong> (skin puncture site) and never touch them.</li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Conduct age-appropriate consultations with children across different developmental stages.",
+      "section": "ICM",
+      "sessions": [
+        "Paediatric history taking including developmental history"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Age</th><th>Approach</th></tr></thead><tbody><tr><td><strong>Infant / toddler</strong></td><td>History from the <strong>parent</strong>; play and observe; examine on the parent's lap</td></tr><tr><td><strong>Preschool</strong></td><td>Simple language, involve with toys; parent gives most history</td></tr><tr><td><strong>School age</strong></td><td>Ask the child directly first, then the parent</td></tr><tr><td><strong>Adolescent</strong></td><td><ul class=\"cl\"><li>Speak to them <strong>alone</strong> for part of the consultation</li><li><strong>HEADSSS</strong> (home, education, activities, drugs, sexuality, suicide/mood, safety) and confidentiality and its limits</li></ul></td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Paediatric history extras</th><th></th></tr></thead><tbody><tr><td><strong>Birth history</strong></td><td>Gestation, delivery, birth weight, neonatal problems</td></tr><tr><td><strong>Developmental milestones</strong></td><td>Gross motor, fine motor/vision, speech/hearing, social</td></tr><tr><td><strong>Immunisations</strong></td><td>Up to date? (red book)</td></tr><tr><td><strong>Feeding and growth</strong></td><td>Weight on the centile chart</td></tr><tr><td><strong>Social</strong></td><td>Who lives at home, nursery/school, social worker, <strong>safeguarding</strong> concerns</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Milestone</th><th>Typical age</th></tr></thead><tbody><tr><td>Social smile</td><td>6 weeks</td></tr><tr><td>Sits without support</td><td>6–8 months</td></tr><tr><td>Walks independently</td><td>~12 months (refer if not by 18 months)</td></tr><tr><td>2–3 word phrases</td><td>2 years</td></tr></tbody></table></div>"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "i-127",
+  "num": "127",
+  "title": "Suicide",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Answer a range of questions /ECG recognition/",
+      "section": "ICM",
+      "sessions": [
+        "Quiz"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>ECG to recognise</th><th>Key features</th></tr></thead><tbody><tr><td><strong>Normal sinus rhythm</strong></td><td>Regular, P before every QRS, rate 60–100</td></tr><tr><td><strong>Atrial fibrillation</strong></td><td>Irregularly irregular, no P waves</td></tr><tr><td><strong>Atrial flutter</strong></td><td>Sawtooth flutter waves, often 2:1 (rate ~150)</td></tr><tr><td><strong>SVT</strong></td><td>Regular narrow complex tachycardia, no visible P waves</td></tr><tr><td><strong>VT</strong></td><td>Broad complex regular tachycardia</td></tr><tr><td><strong>VF</strong></td><td>Chaotic, no QRS: shockable arrest</td></tr><tr><td><strong>STEMI</strong></td><td>ST elevation in contiguous leads, reciprocal depression</td></tr><tr><td><strong>Heart block</strong></td><td>1st: long PR; 2nd: dropped beats (Mobitz I lengthening PR; Mobitz II sudden); 3rd: P and QRS dissociated</td></tr><tr><td><strong>Hyperkalaemia</strong></td><td>Tall tented T, flat P, broad QRS</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Explain the principles of Aseptic Non-Touch Technique (ANTT) and apply them appropriately during relevant clinical procedures to minimize the risk of infection",
+      "section": "ICM",
+      "sessions": [
+        "Quiz"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>ANTT principle</th><th></th></tr></thead><tbody><tr><td><strong>Hand hygiene</strong> at the right moments</td><td></td></tr><tr><td>Identify and <strong>protect key parts</strong> (anything that touches a sterile part or entry site) and <strong>key sites</strong> (wounds, insertion sites)</td><td></td></tr><tr><td><strong>Non-touch technique</strong> for key parts</td><td></td></tr><tr><td><strong>Standard ANTT</strong> (simple, short: general aseptic field, non-sterile gloves) vs <strong>surgical ANTT</strong> (complex, long: critical aseptic field, sterile gloves)</td><td></td></tr><tr><td><strong>Clean equipment</strong> and a cleaned tray</td><td></td></tr><tr><td>Apply to: venepuncture, cannulation, blood cultures, IV drugs, catheters, wound care</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Explain the clinical indications for performing a blood culture test.",
+      "section": "ICM",
+      "sessions": [
+        "Quiz"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Indications</th><td><ul class=\"cl\"><li>Suspected <strong>bacteraemia or sepsis</strong> (fever, rigors, hypothermia, NEWS2 rise with infection)</li><li><strong>Endocarditis</strong> (3 sets from different sites over time)</li><li>Suspected line infection</li><li>Unexplained fever</li><li><strong>Before antibiotics</strong>.</li></ul></td></tr><tr><th scope=\"row\">Purpose</th><td>Identify the organism and its <strong>sensitivities</strong> to target antibiotics.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Take a blood culture from a model while maintaining aseptic non-touch technique (ANTT) principles.",
+      "section": "ICM",
+      "sessions": [
+        "Blood culture sampling"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Identity, explain, consent; hand hygiene; ANTT tray with <strong>aerobic and anaerobic bottles</strong> (check expiry), chlorhexidine/alcohol, blood culture collection set.</td></tr><tr><th scope=\"row\">2</th><td><strong>Remove bottle caps and clean the tops</strong> with alcohol; allow to dry.</td></tr><tr><th scope=\"row\">3</th><td>Tourniquet, <strong>clean the skin</strong> for 30 s with 2% chlorhexidine/70% alcohol, let it <strong>dry</strong>, don't re-palpate.</td></tr><tr><th scope=\"row\">4</th><td><ul class=\"cl\"><li>Insert the butterfly</li><li>Fill <strong>aerobic first</strong> (when using a butterfly, to clear air from the tubing), then anaerobic: <strong>8–10 mL per bottle</strong> (adults).</li></ul></td></tr><tr><th scope=\"row\">5</th><td>Release the tourniquet, remove the needle, pressure, sharps away.</td></tr><tr><th scope=\"row\">6</th><td>Take other blood tubes <strong>after</strong> the cultures.</td></tr><tr><th scope=\"row\">7</th><td><strong>Label at the bedside</strong> (not over the barcode), note site and time, send promptly; document.</td></tr></tbody></table></div><ul><li><strong>Contamination</strong> (skin flora, e.g. coagulase-negative staph) leads to unnecessary antibiotics: hence strict ANTT.</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Take a history from a non-communicative or minimally talkative patient using appropriate techniques.",
+      "section": "ICM",
+      "sessions": [
+        "History psychosis"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Techniques</th><td>Open questions, comfortable silences, reflection, empathy, simple language; observe and comment gently; <strong>collateral history</strong> from family and notes.</td></tr><tr><th scope=\"row\">In psychosis</th><td><ul class=\"cl\"><li>The patient may be <strong>guarded</strong>, distracted by voices or suspicious</li><li>Don't argue with delusions</li><li>Stay calm and non-confrontational</li><li>Ensure safety (exit route).</li></ul></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Observe and interpret non-verbal communication cues during patient interactions.",
+      "section": "ICM",
+      "sessions": [
+        "History psychosis"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Cue in psychosis</th><th>Possible meaning</th></tr></thead><tbody><tr><td>Looking around, pausing as if listening</td><td><strong>Responding to voices</strong> (auditory hallucinations)</td></tr><tr><td>Suspicious, guarded, evasive</td><td>Paranoid delusions</td></tr><tr><td>Odd posture, mannerisms</td><td>Catatonia, negative symptoms</td></tr><tr><td>Flat affect, poverty of speech</td><td><strong>Negative symptoms</strong></td></tr><tr><td>Agitation</td><td>Risk to self or others</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Assess mental state by observing both objective and subjective features, including appearance, behaviour, and mood.",
+      "section": "ICM",
+      "sessions": [
+        "History psychosis"
+      ],
+      "html": "<ul><li><strong>MSE</strong> (see ICM Year 1 › Mental health › LO 4): appearance and behaviour<ul><li>speech</li><li>mood and affect</li><li>thought form and content</li><li>perception</li><li>cognition</li><li>insight</li><li>record <strong>objective</strong> observations separately from what the patient tells you (<strong>subjective</strong>).</li></ul></li></ul>"
+    },
+    {
+      "n": 8,
+      "text": "Identify key symptoms such as hallucinations, delusions, and thought disorder.",
+      "section": "ICM",
+      "sessions": [
+        "History psychosis"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Symptom</th><th>Definition / example</th></tr></thead><tbody><tr><td><strong>Hallucinations</strong></td><td>Perception without a stimulus; <strong>auditory</strong> most common (third-person voices commenting = first-rank symptom)</td></tr><tr><td><strong>Delusions</strong></td><td>Fixed, false beliefs out of keeping with culture, held despite evidence: persecutory, grandiose, reference, control</td></tr><tr><td><strong>Thought disorder</strong></td><td>Formal thought disorder: loosening of associations, derailment, neologisms, word salad</td></tr><tr><td><strong>Thought interference</strong></td><td><strong>Insertion, withdrawal, broadcasting</strong> (first-rank)</td></tr><tr><td><strong>Negative symptoms</strong></td><td>Apathy, alogia, anhedonia, social withdrawal, blunted affect</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Demonstrate awareness of safeguarding principles and apply them in scenarios involving potential risk or abuse.",
+      "section": "ICM",
+      "sessions": [
+        "History psychosis"
+      ],
+      "html": "<ul><li><strong>Safeguarding</strong>: recognise risk or abuse (physical, sexual, emotional, financial, neglect, domestic, modern slavery), especially in <strong>vulnerable adults</strong> and children of patients<ul><li><strong>listen, don't promise secrecy</strong>, record facts, and <strong>report to the safeguarding lead/senior</strong> the same day.</li><li>Consider children at home when a parent is unwell.</li></ul></li></ul>"
+    },
+    {
+      "n": 10,
+      "text": "Recognise and respond to patient cues related to self-harm and suicide, demonstrating appropriate communication and escalation.",
+      "section": "ICM",
+      "sessions": [
+        "Self harm history"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Cue</th><th>Response</th></tr></thead><tbody><tr><td>\"I can't go on\", \"everyone would be better off without me\"</td><td><strong>Ask directly</strong> about suicidal thoughts (asking doesn't increase risk)</td></tr><tr><td>Self-harm scars, giving away possessions</td><td>Explore gently</td></tr><tr><td>Hopelessness</td><td>Ask about plans, means, preparations, protective factors (family, faith, pets)</td></tr><tr><td>Risk assessment</td><td>Previous attempts, plans, access to means, alcohol/drugs, isolation, recent loss</td></tr><tr><td><strong>Escalate</strong></td><td>Tell a senior/supervisor; immediate risk → don't leave alone, <strong>crisis team / A&amp;E</strong>; document</td></tr></tbody></table></div><ul><li><strong>Respond with empathy</strong>: \"Thank you for telling me; I can see how hard things are.\"</li></ul>"
+    }
+  ]
+}

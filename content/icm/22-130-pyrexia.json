@@ -1,0 +1,98 @@
+{
+  "id": "i-130",
+  "num": "130",
+  "title": "Pyrexia",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Perform a clinical examination of the hip with increased confidence and accuracy.",
+      "section": "ICM",
+      "sessions": [
+        "Hip examination - 2"
+      ],
+      "html": "<ul><li><strong>Full routine</strong>: see ICM Year 1 › Musculoskeletal › LO 10 (look including gait and Trendelenburg; leg lengths; feel; move including internal rotation; Thomas's test).</li></ul><div class=\"tbl\"><table><thead><tr><th>Accuracy tips</th><th></th></tr></thead><tbody><tr><td>Measure <strong>true leg length</strong> from ASIS to medial malleolus</td><td></td></tr><tr><td><strong>Stabilise the pelvis</strong> with a hand on the opposite ASIS during abduction/adduction</td><td></td></tr><tr><td><strong>Internal rotation</strong> at 90° hip flexion is the first movement lost in OA</td><td></td></tr><tr><td>Finish with knee and lumbar spine and say why</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Demonstrate the ability to perform a competent examination of the CVS/Resp system",
+      "section": "ICM",
+      "sessions": [
+        "CVS/Respiratory exam - 4"
+      ],
+      "html": "<ul><li><strong>Routines</strong>: CVS (ICM Year 1 › Cardiovascular › LO 1), respiratory (ICM Year 1 › Respiratory › LO 2).<ul><li>Competence = fluent sequence, correct technique, checking the patient's comfort, and finishing steps.</li></ul></li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Interpret and integrate findings with relevant knowledge to support clinical reasoning",
+      "section": "ICM",
+      "sessions": [
+        "CVS/Respiratory exam - 4"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Integrate</th><th>Example</th></tr></thead><tbody><tr><td>Signs that fit together</td><td>Irregular pulse + raised JVP + basal crackles + ankle oedema → <strong>AF with congestive heart failure</strong></td></tr><tr><td>Explain why</td><td>Raised venous pressure from right heart failure → oedema</td></tr><tr><td>Next tests</td><td>ECG, echo, BNP, CXR, U&amp;E</td></tr><tr><td>Respiratory example</td><td>Clubbing + fine bibasal crackles → <strong>pulmonary fibrosis</strong> → HRCT, spirometry (restrictive)</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Clearly present these findings to peers or supervisors.",
+      "section": "ICM",
+      "sessions": [
+        "CVS/Respiratory exam - 4"
+      ],
+      "html": "<ul><li><strong>Present</strong>: introduce the patient and the exam, <strong>positive findings</strong>, <strong>relevant negatives</strong>, <strong>summary</strong>, <strong>most likely diagnosis</strong> and differentials, <strong>next steps</strong>.<ul><li>Be concise and confident</li><li>answer questions honestly (\"I'm not sure, but I would…\").</li></ul></li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Take a focused history from a confused patient and their carer, ensuring effective communication.",
+      "section": "ICM",
+      "sessions": [
+        "Triadic consultation"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Triadic consultation</th><th>Do</th></tr></thead><tbody><tr><td><strong>Introductions</strong></td><td>Both patient and carer; clarify relationships and roles</td></tr><tr><td><strong>Speak to the patient first</strong>, involve them as much as possible</td><td>Respect autonomy</td></tr><tr><td><strong>Carer for collateral history</strong></td><td>Onset and course of confusion (acute = delirium), baseline function, medications, falls, eating/drinking</td></tr><tr><td><strong>Check consent</strong> to share information</td><td>Capacity</td></tr><tr><td><strong>Balance voices</strong></td><td>Make sure the patient isn't talked over</td></tr></tbody></table></div><ul><li><strong>Confusion history</strong>: acute vs chronic (delirium vs dementia), infection symptoms (urinary, chest), new medications, alcohol, pain, constipation, retention, sleep.</li></ul>"
+    },
+    {
+      "n": 6,
+      "text": "Explain the potential complications of the triadic consultation, including communication challenges and biases.",
+      "section": "ICM",
+      "sessions": [
+        "Triadic consultation"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Challenge</th><th>Example</th></tr></thead><tbody><tr><td><strong>Patient excluded</strong></td><td>Carer answers for them, loss of autonomy and dignity</td></tr><tr><td><strong>Conflicting accounts</strong></td><td>Patient and carer disagree</td></tr><tr><td><strong>Confidentiality</strong></td><td>Patient may not want the carer to know some things</td></tr><tr><td><strong>Hidden concerns</strong></td><td>Carer stress, safeguarding (abuse, neglect)</td></tr><tr><td><strong>Biases</strong></td><td>Assuming confusion = dementia; ageism; carer bias</td></tr><tr><td><strong>Time and dynamics</strong></td><td>Talking over, emotional tension</td></tr></tbody></table></div><ul><li><strong>Strategies</strong>: speak to each separately if needed, check capacity, summarise both views, look for safeguarding cues.</li></ul>"
+    },
+    {
+      "n": 7,
+      "text": "Identify clinical signs indicative of infection during patient examination.",
+      "section": "ICM",
+      "sessions": [
+        "Triadic consultation"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Sign</th><th>Suggests</th></tr></thead><tbody><tr><td><strong>Fever, rigors, tachycardia, hypotension, tachypnoea</strong></td><td>Systemic infection / sepsis</td></tr><tr><td><strong>New confusion</strong></td><td>Sepsis, especially in older people</td></tr><tr><td><strong>Crackles, bronchial breathing</strong></td><td>Pneumonia</td></tr><tr><td><strong>Suprapubic or loin tenderness</strong>, dipstick nitrites</td><td>UTI / pyelonephritis</td></tr><tr><td><strong>Red, warm, swollen skin</strong></td><td>Cellulitis</td></tr><tr><td><strong>Neck stiffness, photophobia, rash</strong></td><td>Meningitis</td></tr><tr><td><strong>New murmur, splinter haemorrhages</strong></td><td>Endocarditis</td></tr><tr><td><strong>Red, tender line site</strong></td><td>Line infection</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Use clinical reasoning to develop and justify a diagnosis based on patient history and examination findings.",
+      "section": "ICM",
+      "sessions": [
+        "Triadic consultation"
+      ],
+      "html": "<ul><li><strong>Reasoning</strong>: list key findings (e.g. new confusion, fever, suprapubic tenderness, dipstick positive)<ul><li>→ generate a differential (delirium secondary to UTI vs pneumonia vs drug-related)</li><li>→ test with investigations (urine culture, bloods, CXR)</li><li>→ justify the most likely diagnosis and treat the cause.</li></ul></li></ul>"
+    },
+    {
+      "n": 9,
+      "text": "Recognise and respond to patient cues related to self-harm and suicide, demonstrating appropriate communication and escalation.",
+      "section": "ICM",
+      "sessions": [
+        "A - E"
+      ],
+      "html": "<ul><li><strong>Respond to self-harm cues</strong> (see ICM Year 1 › Mental health › LO 9): ask directly about suicidal thoughts<ul><li>assess risk (plans, means, previous attempts, protective factors)</li><li>keep the patient safe</li><li><strong>escalate</strong> to a senior or the mental health team</li><li>document.</li></ul></li></ul>"
+    },
+    {
+      "n": 10,
+      "text": "Explain the rationale for conducting an ABCDE assessment and justify each step in the clinical context.",
+      "section": "ICM",
+      "sessions": [
+        "A - E"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Stage</th><th>Rationale</th></tr></thead><tbody><tr><td><strong>A</strong>irway</td><td>Obstruction kills within minutes</td></tr><tr><td><strong>B</strong>reathing</td><td>Hypoxia kills next</td></tr><tr><td><strong>C</strong>irculation</td><td>Shock and bleeding</td></tr><tr><td><strong>D</strong>isability</td><td>Brain function; glucose; drugs</td></tr><tr><td><strong>E</strong>xposure</td><td>Hidden causes (rash, bleeding, DVT)</td></tr></tbody></table></div><ul><li><strong>Why ABCDE</strong>: tackles the <strong>most immediately life-threatening problems first</strong><ul><li>gives a common language for teams</li><li>works when the diagnosis is unknown</li><li>and prompts <strong>reassessment</strong> after each intervention.</li></ul></li></ul>"
+    }
+  ]
+}

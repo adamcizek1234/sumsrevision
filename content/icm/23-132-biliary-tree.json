@@ -1,0 +1,80 @@
+{
+  "id": "i-132",
+  "num": "132",
+  "title": "Biliary tree",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Describe a lump, lesion, or bump accurately, including key clinical features.",
+      "section": "ICM",
+      "sessions": [
+        "Lumps & bumps"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Feature</th><th>Describe</th></tr></thead><tbody><tr><td><strong>Site</strong></td><td>Anatomical location</td></tr><tr><td><strong>Size</strong></td><td>Measured in cm</td></tr><tr><td><strong>Shape</strong></td><td>Round, oval, irregular</td></tr><tr><td><strong>Surface</strong></td><td>Smooth, nodular</td></tr><tr><td><strong>Edge</strong></td><td>Well or poorly defined</td></tr><tr><td><strong>Consistency</strong></td><td>Soft, firm, rubbery, hard (stony: malignancy)</td></tr><tr><td><strong>Colour, temperature, tenderness</strong></td><td>Inflammation</td></tr><tr><td><strong>Fixation</strong></td><td>Mobile, fixed to skin or deep tissues</td></tr><tr><td><strong>Fluctuation, transillumination</strong></td><td>Fluid (cyst, hydrocele)</td></tr><tr><td><strong>Pulsatility</strong> (expansile vs transmitted)</td><td>Aneurysm</td></tr><tr><td><strong>Reducibility, cough impulse</strong></td><td>Hernia</td></tr><tr><td><strong>Regional lymph nodes</strong></td><td></td></tr><tr><td><strong>Punctum</strong></td><td>Epidermoid (sebaceous) cyst</td></tr></tbody></table></div><ul><li><strong>Common lumps</strong>: lipoma (soft, mobile, lobulated), epidermoid cyst (punctum), abscess (hot, tender, fluctuant), lymph node, ganglion.</li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Explain the importance of sexual, menstrual, and obstetric history in female patients and incorporate it into the clinical assessment.",
+      "section": "ICM",
+      "sessions": [
+        "Gynae/GI history"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>History</th><th>Why it matters for abdominal pain</th></tr></thead><tbody><tr><td><strong>Menstrual</strong> (LMP, cycle, pain, heavy bleeding)</td><td><strong>Pregnancy</strong> (ectopic), endometriosis, dysmenorrhoea</td></tr><tr><td><strong>Sexual</strong> (partners, contraception, STIs)</td><td><strong>PID</strong>, ectopic risk</td></tr><tr><td><strong>Obstetric</strong> (pregnancies, miscarriages, terminations, deliveries)</td><td>Ectopic risk, adhesions</td></tr><tr><td><strong>Contraception</strong></td><td>IUD (PID, ectopic), pill</td></tr><tr><td><strong>Cervical screening</strong></td><td>Cervical disease</td></tr></tbody></table></div><ul><li><strong>Every woman of reproductive age with abdominal pain needs a pregnancy test.</strong></li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Revise and apply the SOCRATES method for pain assessment",
+      "section": "ICM",
+      "sessions": [
+        "Gynae/GI history"
+      ],
+      "html": "<ul><li><strong>SOCRATES</strong> (see ICM Year 1 › History taking &amp; communication › LO 11): Site, Onset, Character, Radiation, Associations, Time course, Exacerbating/relieving, Severity.<ul><li>In lower abdominal pain also ask about bowel, urinary and gynaecological associations.</li></ul></li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Consider differential diagnoses for a patient presenting with lower abdominal pain, integrating clinical history and examination findings.",
+      "section": "ICM",
+      "sessions": [
+        "Gynae/GI history"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Lower abdominal pain</th><th>Clues</th></tr></thead><tbody><tr><td><strong>Ectopic pregnancy</strong></td><td>Missed period, positive pregnancy test, vaginal bleeding, shoulder-tip pain, collapse</td></tr><tr><td><strong>PID</strong></td><td>Discharge, fever, deep dyspareunia, cervical excitation</td></tr><tr><td><strong>Ovarian torsion / cyst rupture</strong></td><td>Sudden unilateral pain, vomiting</td></tr><tr><td><strong>Appendicitis</strong></td><td>Periumbilical → RIF pain, anorexia, fever</td></tr><tr><td><strong>UTI / pyelonephritis</strong></td><td>Dysuria, frequency, loin pain</td></tr><tr><td><strong>Renal colic</strong></td><td>Loin to groin colic</td></tr><tr><td><strong>Diverticulitis</strong></td><td>LIF pain, older patient</td></tr><tr><td><strong>Endometriosis</strong></td><td>Cyclical pain, dysmenorrhoea, subfertility</td></tr><tr><td><strong>IBS / constipation</strong></td><td>Chronic, bowel habit change</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Develop an awareness of the risks for developing sexually transmitted diseases (STDs), including the impact of sexual orientation.",
+      "section": "ICM",
+      "sessions": [
+        "Gynae/GI history"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Risk factors for STIs</th><th></th></tr></thead><tbody><tr><td>Young age (&lt;25), new or multiple partners, <strong>inconsistent condom use</strong></td><td></td></tr><tr><td><strong>Men who have sex with men</strong> (higher rates of HIV, syphilis, gonorrhoea): offer regular testing, PrEP</td><td></td></tr><tr><td>Previous STI, sex work, chemsex, partners from high-prevalence areas</td><td></td></tr></tbody></table></div><ul><li><strong>Approach</strong>: non-judgemental, don't assume orientation; offer testing (chlamydia/gonorrhoea NAAT, HIV, syphilis), partner notification, contraception and PrEP advice.</li></ul>"
+    },
+    {
+      "n": 6,
+      "text": "Perform a rapid A to E (Airway, Breathing, Circulation, Disability, Exposure) assessment on a critically ill patient.",
+      "section": "ICM",
+      "sessions": [
+        "A-E"
+      ],
+      "html": "<ul><li><strong>Rapid A–E</strong> (see ICM Year 1 › Emergencies &amp; A–E › LO 15): call for help<ul><li>monitor</li><li>treat each problem as found (oxygen, airway manoeuvres, IV access and fluids, glucose)</li><li>reassess</li><li>escalate with SBAR.</li><li>In the critically ill, work <strong>fast</strong> and in parallel with the team.</li></ul></li></ul>"
+    },
+    {
+      "n": 7,
+      "text": "Perform a rectal examination on a model, adhering to appropriate clinical technique.",
+      "section": "ICM",
+      "sessions": [
+        "PR examination - 2"
+      ],
+      "html": "<ul><li><strong>DRE technique</strong> (see ICM Year 1 › Gastrointestinal &amp; liver › LO 6): consent and chaperone<ul><li>left lateral</li><li>inspect</li><li>lubricated gloved finger</li><li>tone</li><li>mucosa all round</li><li>prostate</li><li>glove for blood/stool</li><li>clean the patient</li><li>document.</li></ul></li></ul>"
+    },
+    {
+      "n": 8,
+      "text": "Demonstrate increased confidence and competence in performing intimate examinations, ensuring appropriate communication, consent, and patient dignity throughout the procedure.",
+      "section": "ICM",
+      "sessions": [
+        "PR examination - 2"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Intimate examination standards</th><th></th></tr></thead><tbody><tr><td>Explain <strong>why</strong>, what it involves, and that they can stop at any time</td><td></td></tr><tr><td><strong>Valid consent</strong> (verbal, documented)</td><td></td></tr><tr><td><strong>Offer a chaperone</strong>; document name or refusal</td><td></td></tr><tr><td><strong>Privacy</strong>: curtains, cover, undress in private</td><td></td></tr><tr><td>Talk through each step; watch for discomfort</td><td></td></tr><tr><td>Gloves, lubrication, gentle technique</td><td></td></tr><tr><td>Cover the patient promptly; discuss findings once dressed</td><td></td></tr></tbody></table></div>"
+    }
+  ]
+}

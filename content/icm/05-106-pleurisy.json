@@ -1,0 +1,62 @@
+{
+  "id": "i-106",
+  "num": "106",
+  "title": "Pleurisy",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Demonstrate a structured respiratory examination and identify abnormal findings",
+      "section": "ICM",
+      "sessions": [
+        "Respiratory examination"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td><strong>Introduction</strong>, consent, sit at <strong>45°</strong>, expose the chest.</td></tr><tr><th scope=\"row\">2. General inspection</th><td>Breathlessness, accessory muscles, cyanosis, cachexia, <strong>around the bed</strong> (inhalers, oxygen, sputum pot).</td></tr><tr><th scope=\"row\">3. Hands</th><td><strong>Clubbing</strong>, tar staining, peripheral cyanosis, <strong>CO₂ retention flap</strong>, wasting of small muscles (Pancoast); <strong>pulse</strong>, <strong>respiratory rate</strong>.</td></tr><tr><th scope=\"row\">4. Face and neck</th><td>Central cyanosis (tongue), Horner's, <strong>JVP</strong>, <strong>lymph nodes</strong>, <strong>trachea</strong> (deviation).</td></tr><tr><th scope=\"row\">5. Chest inspection</th><td>Shape (barrel, pectus), scars, symmetry.</td></tr><tr><th scope=\"row\">6. Palpation</th><td><strong>Chest expansion</strong> (front and back), <strong>apex beat</strong>, tactile fremitus.</td></tr><tr><th scope=\"row\">7. Percussion</th><td>Compare both sides, top to bottom, including the axillae.</td></tr><tr><th scope=\"row\">8. Auscultation</th><td>Breath sounds, added sounds, <strong>vocal resonance</strong>.</td></tr><tr><th scope=\"row\">9. Back</th><td>Repeat inspection, expansion, percussion, auscultation; check for <strong>sacral and ankle oedema</strong>.</td></tr><tr><th scope=\"row\">10. Finish</th><td>Peak flow, sats, sputum, observations, CXR.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Finding</th><th>Consolidation</th><th>Effusion</th><th>Pneumothorax</th><th>Collapse</th></tr></thead><tbody><tr><td>Trachea</td><td>Central</td><td>Away (if large)</td><td>Away (tension)</td><td><strong>Towards</strong></td></tr><tr><td>Expansion</td><td>Reduced</td><td>Reduced</td><td>Reduced</td><td>Reduced</td></tr><tr><td>Percussion</td><td><strong>Dull</strong></td><td><strong>Stony dull</strong></td><td><strong>Hyper-resonant</strong></td><td>Dull</td></tr><tr><td>Breath sounds</td><td><strong>Bronchial</strong>, crackles</td><td><strong>Reduced/absent</strong></td><td>Reduced/absent</td><td>Reduced</td></tr><tr><td>Vocal resonance</td><td><strong>Increased</strong></td><td>Reduced</td><td>Reduced</td><td>Reduced</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Conduct a focused history for a patient presenting with respiratory symptoms",
+      "section": "ICM",
+      "sessions": [
+        "Respiratory history – cough"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Area</th><th>Questions</th></tr></thead><tbody><tr><td><strong>Cough</strong></td><td>Duration (acute &lt;3 weeks, chronic &gt;8 weeks), dry or productive, timing (night: asthma, heart failure)</td></tr><tr><td><strong>Sputum</strong></td><td>Colour, amount, <strong>blood</strong> (haemoptysis)</td></tr><tr><td><strong>Breathlessness</strong></td><td>Onset, exercise tolerance, orthopnoea, PND, MRC dyspnoea grade</td></tr><tr><td><strong>Chest pain</strong></td><td>Pleuritic (sharp, worse breathing in)</td></tr><tr><td><strong>Wheeze, fever, weight loss, night sweats</strong></td><td>Infection, TB, cancer</td></tr><tr><td><strong>Risk factors</strong></td><td><strong>Smoking (pack-years)</strong>, occupation (asbestos), pets, travel, TB contacts, drugs (ACE inhibitors)</td></tr><tr><td><strong>Red flags</strong></td><td>Haemoptysis, weight loss, hoarseness, persistent cough in a smoker → urgent CXR (NICE)</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Describe and demonstrate the key components of active listening during a patient consultation.",
+      "section": "ICM",
+      "sessions": [
+        "Respiratory history – cough"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Component</th><th>How</th></tr></thead><tbody><tr><td><strong>Attending</strong></td><td>Eye contact, open posture, leaning in slightly, put the pen down</td></tr><tr><td><strong>Silence</strong></td><td>Allow pauses: the patient often adds important information</td></tr><tr><td><strong>Encouraging</strong></td><td>Nods, \"go on\", \"mm\"</td></tr><tr><td><strong>Paraphrasing / reflecting</strong></td><td>\"It sounds like the cough is keeping you awake\"</td></tr><tr><td><strong>Picking up cues</strong></td><td>Verbal and non-verbal hints of worry</td></tr><tr><td><strong>Summarising</strong></td><td>Check understanding</td></tr><tr><td><strong>Not interrupting</strong></td><td>Let the patient finish their story</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Demonstrate the ability to identify clinical indications for oxygen therapy.",
+      "section": "ICM",
+      "sessions": [
+        "Oxygen & nebulisers"
+      ],
+      "html": "<ul><li><strong>Give oxygen for hypoxaemia</strong> (below the target saturation), not for breathlessness alone.</li></ul><div class=\"tbl\"><table><thead><tr><th>Indication</th><th>Target</th></tr></thead><tbody><tr><td><strong>Critical illness</strong>: cardiac arrest, shock, sepsis, anaphylaxis, major trauma, carbon monoxide poisoning</td><td>15 L/min non-rebreather initially</td></tr><tr><td>Hypoxaemic acute illness (pneumonia, PE, asthma, heart failure)</td><td><strong>94–98%</strong></td></tr><tr><td>Risk of hypercapnia (COPD, obesity, neuromuscular disease)</td><td><strong>88–92%</strong></td></tr></tbody></table></div><ul><li><strong>Not indicated</strong> if saturations are normal (e.g. uncomplicated MI, anxiety).</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Differentiate between oxygen delivery devices and their clinical applications.",
+      "section": "ICM",
+      "sessions": [
+        "Oxygen & nebulisers"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Device</th><th>Oxygen delivered</th><th>Use</th></tr></thead><tbody><tr><td><strong>Nasal cannulae</strong></td><td>1–4 L/min (~24–40%)</td><td>Mild hypoxaemia, comfortable, can eat and talk</td></tr><tr><td><strong>Simple face mask</strong></td><td>5–10 L/min (~40–60%)</td><td>Moderate; ≥5 L/min to avoid rebreathing CO₂</td></tr><tr><td><strong>Venturi mask</strong></td><td><strong>Fixed</strong> 24%, 28%, 31%, 35%, 40%, 60%</td><td><strong>COPD</strong>: precise oxygen at risk of CO₂ retention</td></tr><tr><td><strong>Non-rebreather mask with reservoir</strong></td><td><strong>15 L/min</strong> (~60–90%)</td><td><strong>Critically ill</strong></td></tr><tr><td><strong>High-flow nasal oxygen</strong></td><td>Up to 60 L/min, humidified</td><td>Severe hypoxaemia on wards/ICU</td></tr><tr><td><strong>Nebuliser</strong></td><td>Driven by oxygen (6–8 L/min) or air</td><td>Bronchodilators; use <strong>air</strong> in COPD with hypercapnia</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Safely administer supplementary oxygen in accordance with safety protocols.",
+      "section": "ICM",
+      "sessions": [
+        "Oxygen & nebulisers"
+      ],
+      "html": "<ul><li><strong>Safety</strong>: oxygen must be <strong>prescribed</strong> with a target range<ul><li>check saturations regularly</li><li><strong>no smoking or naked flames</strong> (fire risk)</li><li>secure cylinders</li><li>humidify high flows.</li></ul></li></ul><div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Check the prescription, patient identity and target range.</td></tr><tr><th scope=\"row\">2</th><td>Explain to the patient and gain consent.</td></tr><tr><th scope=\"row\">3</th><td>Choose the device; attach to the correct <strong>flowmeter</strong> (oxygen, not air); set the flow.</td></tr><tr><th scope=\"row\">4</th><td>Fit the device, check comfort and that the reservoir bag inflates (non-rebreather).</td></tr><tr><th scope=\"row\">5</th><td>Monitor saturations, respiratory rate and the patient; adjust to target; document.</td></tr></tbody></table></div><ul><li><strong>COPD</strong>: watch for drowsiness, headache, flap (CO₂ retention): check an ABG.</li></ul>"
+    }
+  ]
+}

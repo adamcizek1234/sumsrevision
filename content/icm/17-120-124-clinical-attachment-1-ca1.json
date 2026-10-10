@@ -1,0 +1,287 @@
+{
+  "id": "i-120",
+  "num": "120–124",
+  "title": "Clinical attachment 1 (CA1)",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Recognise and demonstrate in practice the core professional responsibilities and role of the doctor",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><td colspan=\"2\"><ul class=\"cl\"><li><strong>GMC Good Medical Practice (2024)</strong> domains: knowledge, skills and development</li><li>Patients, partnership and communication</li><li>Colleagues, culture and safety</li><li>Trust and professionalism.</li></ul></td></tr><tr><th scope=\"row\">Core duties</th><td><ul class=\"cl\"><li>Make the care of patients your first concern</li><li>Work within your competence</li><li>Keep knowledge up to date</li><li>Act honestly</li><li>Protect confidentiality</li><li>Raise concerns.</li></ul></td></tr><tr><th scope=\"row\">As a student</th><td>GMC \"Achieving good medical practice\": students are held to professional standards (fitness to practise).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Demonstrate patient centred care at all times",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<ul><li><strong>Patient-centred</strong>: treat the patient as a partner<ul><li>consider their <strong>ideas, concerns, expectations</strong>, values and circumstances</li><li>share decisions</li><li>respect their right to refuse.</li></ul></li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Demonstrate compassionate behaviour and empathy",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<ul><li><strong>Compassion</strong>: notice distress and respond kindly.<ul><li><strong>Empathy</strong>: show you understand (\"That sounds really frightening\"), use non-verbal warmth, follow through on small actions (a blanket, a drink).</li></ul></li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Act with integrity, be polite, considerate, trustworthy and honest",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Integrity</th><td>Honest in records, references and research; never misrepresent your role (\"medical student\"); declare conflicts of interest.</td></tr><tr><th scope=\"row\">Courtesy</th><td>Polite to patients and staff; respect boundaries.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Be punctual and reliable, manage time effectively",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<ul><li><strong>Arrive on time</strong>, tell the team if you'll be late or absent, prioritise tasks, meet deadlines, plan learning around clinical opportunities.</li></ul>"
+    },
+    {
+      "n": 6,
+      "text": "Maintain confidentiality and act to respect patients’ dignity and privacy",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Confidentiality</th><th>Dignity and privacy</th></tr></thead><tbody><tr><td>Share only on a <strong>need-to-know</strong> basis; no identifiable information in public, on social media or in reflections</td><td>Curtains, chaperones, cover the patient</td></tr><tr><td><strong>Disclosure</strong> without consent only if required by law, in the public interest (serious harm), or for safeguarding</td><td>Knock, introduce, explain</td></tr><tr><td>Secure handling of notes and lists</td><td>Respect cultural and religious needs</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Demonstrate respect for patients, their families and carers, hospital and educational staff",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<ul><li><strong>Respect everyone</strong> regardless of background (Equality Act protected characteristics); value every team member; address families and carers appropriately.</li></ul>"
+    },
+    {
+      "n": 8,
+      "text": "Raise and escalate concerns if any through informal communication with colleagues and through formal clinical governance and monitoring systems if it concerns patient safety and quality of care / bullying, harassment and undermining",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Route</th><th>Example</th></tr></thead><tbody><tr><td><strong>Informal</strong></td><td>Speak to your supervisor, clinical lead, year lead</td></tr><tr><td><strong>Formal</strong></td><td>University concern procedures, <strong>Datix</strong> (incident reporting), Freedom to Speak Up Guardian</td></tr><tr><td><strong>External</strong></td><td>GMC, CQC/HIW (Wales) if needed</td></tr></tbody></table></div><ul><li><strong>Duty</strong>: patient safety, poor care, and <strong>bullying, harassment or undermining</strong> must be raised<ul><li>you're protected when raising concerns in good faith.</li></ul></li></ul>"
+    },
+    {
+      "n": 9,
+      "text": "Respect patients’ wishes about whether they wish to participate in the education of learners",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<ul><li>Patients can <strong>decline</strong> to see or be examined by students without affecting their care<ul><li>always ask consent, introduce yourself as a student, and accept a refusal gracefully.</li></ul></li></ul>"
+    },
+    {
+      "n": 10,
+      "text": "Recognise of the importance of maintaining one’s health and wellbeing and seeking advice and support if health concerns are raised",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<ul><li><strong>Look after yourself</strong>: sleep, exercise, register with a GP, take breaks<ul><li>seek support early (personal tutor, occupational health, student support, BMA/Doctors' Support Network)</li><li>declare health conditions that could affect patient safety.</li></ul></li></ul>"
+    },
+    {
+      "n": 11,
+      "text": "Recognise and protect patients from any risk posed by your own health including / the risks to your health and to patient safety posed by self-prescribing medication and substance misuse / the risks to your health and to patient safety posed by fatigue – must apply strategies to limit the impact of fatigue on their health / The risks of attending a clinical environment when unwell.",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Risk</th><th>Action</th></tr></thead><tbody><tr><td><strong>Self-prescribing</strong> / prescribing for friends and family</td><td>Avoid (GMC)</td></tr><tr><td><strong>Substance misuse</strong></td><td>Seek help; impairs safety</td></tr><tr><td><strong>Fatigue</strong></td><td>Rest between shifts, avoid driving when exhausted, use breaks, swap duties</td></tr><tr><td><strong>Working when unwell</strong></td><td>Infectious illness (e.g. diarrhoea and vomiting: 48 h symptom-free) puts patients at risk; stay at home and inform the team</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 12,
+      "text": "Recognise personal limitations and seek help when necessary",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<ul><li><strong>Know your limits</strong>: don't perform tasks you're not trained or authorised to do<ul><li>ask for supervision</li><li>say \"I don't know, I'll find out\".</li></ul></li></ul>"
+    },
+    {
+      "n": 13,
+      "text": "Recognise the potential impact of a doctor’s attitudes, values, beliefs, perceptions and personal biases (which may be unconscious) on individuals and groups and identify personal strategies to address this",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<ul><li><strong>Unconscious bias</strong> can affect communication and decisions (e.g. pain undertreated in some ethnic groups).</li><li><strong>Strategies</strong>: reflect on your assumptions, use structured assessments, seek diverse perspectives, bias training, ask patients about their preferences.</li></ul>"
+    },
+    {
+      "n": 14,
+      "text": "Recognise that patient safety is at the centre of the care process and demonstrate awareness of principles and systems in place within the healthcare infrastructure for infection control, reporting and learning from adverse incidents, quality assurance and quality improvement.",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>System</th><th>Purpose</th></tr></thead><tbody><tr><td><strong>Infection prevention and control</strong></td><td>Hand hygiene, PPE, isolation</td></tr><tr><td><strong>Incident reporting</strong> (Datix) and learning</td><td>Near misses and harm; learn, not blame</td></tr><tr><td><strong>Never events</strong></td><td>E.g. wrong-site surgery: system safeguards (WHO checklist)</td></tr><tr><td><strong>Quality improvement</strong></td><td>PDSA cycles, audit</td></tr><tr><td><strong>Quality assurance</strong></td><td>Standards, inspections</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 15,
+      "text": "Recognise the importance of being open and honest in interactions with patients, colleagues and employers when things go wrong – known as the professional duty of candour",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<ul><li><strong>Duty of candour</strong>: when something goes wrong<ul><li>tell the patient (or family)</li><li><strong>apologise</strong></li><li>explain what happened and what will be done</li><li>and offer support</li><li>it's a professional and (for organisations) statutory duty.</li><li>An apology is not an admission of liability.</li></ul></li></ul>"
+    },
+    {
+      "n": 16,
+      "text": "Respond appropriately to constructive feedback and develop personal learning needs in response to experience, feedback and assessment outcomes",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<ul><li><strong>Feedback</strong>: listen without defending, thank the person, reflect, set specific learning goals, act on it, seek further feedback<ul><li>keep a reflective portfolio.</li></ul></li></ul>"
+    },
+    {
+      "n": 17,
+      "text": "Demonstrate effective team working skills and recognise and contribute positively to the multi-disciplinary care of patients with complex needs",
+      "section": "ICM",
+      "sessions": [
+        "Professional values and behaviours"
+      ],
+      "html": "<ul><li><strong>Teamwork</strong>: know team roles (nurses, pharmacists, physios, OTs, dietitians, social workers), communicate clearly (SBAR), contribute in MDT meetings, support colleagues, share tasks.</li></ul>"
+    },
+    {
+      "n": 18,
+      "text": "Be able to effectively elicit a patient’s medical history and document appropriately.",
+      "section": "ICM",
+      "sessions": [
+        "Professional skills"
+      ],
+      "html": "<ul><li><strong>Take a full history</strong> (see ICM Year 1 › History taking &amp; communication › LO 1) and <strong>document</strong>: date<ul><li>time</li><li>name</li><li>role</li><li>signature</li><li>legible, accurate, contemporaneous</li><li>separate history, examination, impression and plan.</li></ul></li></ul>"
+    },
+    {
+      "n": 19,
+      "text": "Be able to listen to and communicate effectively with patients and their families / carers with empathy and compassion and discuss their understanding of their condition and treatment options and take into account their ideas concerns, expectations, values and preferences",
+      "section": "ICM",
+      "sessions": [
+        "Professional skills"
+      ],
+      "html": "<ul><li><strong>Communication with empathy</strong>: active listening, ICE, explain options in plain language, check understanding, respect preferences and values<ul><li>involve families and carers with consent.</li></ul></li></ul>"
+    },
+    {
+      "n": 20,
+      "text": "Document a full medication history of both prescription drugs and other medication, including drug allergies and possible drug interactions and identify the indication for each medication",
+      "section": "ICM",
+      "sessions": [
+        "Professional skills"
+      ],
+      "html": "<ul><li><strong>Medication history</strong>: all prescribed, OTC, herbal and recreational drugs with <strong>dose, frequency, route, indication</strong><ul><li><strong>allergies with reaction</strong></li><li>adherence</li><li>check interactions (BNF)</li><li>reconcile with the GP record.</li></ul></li></ul>"
+    },
+    {
+      "n": 21,
+      "text": "Demonstrate the ability to adapt communication skills according to the patient’s needs",
+      "section": "ICM",
+      "sessions": [
+        "Professional skills"
+      ],
+      "html": "<ul><li><strong>Adapt communication</strong>: hearing or visual impairment, learning disability (easy-read, more time), <strong>interpreters</strong> (professional, not family), children, cognitive impairment, distress<ul><li>adjust pace, vocabulary and format.</li></ul></li></ul>"
+    },
+    {
+      "n": 22,
+      "text": "Complete an appropriate examination, respecting the patient’s wish for a chaperone when requested.",
+      "section": "ICM",
+      "sessions": [
+        "Professional skills"
+      ],
+      "html": "<ul><li><strong>Chaperones</strong>: offer for <strong>all intimate examinations</strong> (breast, genital, rectal) and whenever the patient or you want one<ul><li>the chaperone should be trained</li><li>record their name, or that one was offered and declined.</li></ul></li></ul>"
+    },
+    {
+      "n": 23,
+      "text": "Summarise clinical findings and develop a differential diagnosis and management plan for common conditions (CA2 and CA3)",
+      "section": "ICM",
+      "sessions": [
+        "Professional skills"
+      ],
+      "html": "<ul><li><strong>Summarise</strong>: key findings in 2–3 lines.<ul><li><strong>Differential</strong>: most likely first, plus important \"can't miss\" diagnoses.</li><li><strong>Management</strong>: immediate (stabilise), investigations, treatment, monitoring, follow-up and safety-netting.</li></ul></li></ul>"
+    },
+    {
+      "n": 24,
+      "text": "Justify the choice of investigations for common conditions based on fundamental principles of health and disease and clinical reasoning skills. (CA2 and CA3)",
+      "section": "ICM",
+      "sessions": [
+        "Professional skills"
+      ],
+      "html": "<ul><li><strong>Justify tests</strong>: each investigation should answer a question (confirm, exclude, assess severity, guide treatment)<ul><li>consider pre-test probability, risks, cost and patient preference</li><li>start with bedside tests (obs, urine dip, ECG, glucose), then bloods, then imaging.</li></ul></li></ul>"
+    },
+    {
+      "n": 25,
+      "text": "Demonstrate an understanding in the way doctors make and test differential diagnoses, and be able to discuss clinical reasoning decisions with clinical teachers",
+      "section": "ICM",
+      "sessions": [
+        "Professional skills"
+      ],
+      "html": "<ul><li><strong>Clinical reasoning</strong>: <strong>pattern recognition</strong> (fast) and <strong>hypothetico-deductive</strong> (generate hypotheses, test them with targeted questions, examination and tests)<ul><li>watch for <strong>cognitive biases</strong> (anchoring, premature closure, availability)</li><li>discuss your reasoning with teachers.</li></ul></li></ul>"
+    },
+    {
+      "n": 26,
+      "text": "Actively apply measures to limit the spread of infection and implement infection control measures whenever working in a clinical environment, paying particular attention to the guidance on social distancing and hand hygiene.",
+      "section": "ICM",
+      "sessions": [
+        "Professional skills"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Measure</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Hand hygiene</strong></td><td><ul class=\"cl\"><li>WHO 5 moments: before patient contact, before aseptic tasks, after body fluid exposure, after patient contact, after touching patient surroundings</li><li><strong>Bare below the elbows</strong></li></ul></td></tr><tr><td><strong>PPE</strong></td><td>Gloves and aprons for contact with body fluids; masks/eye protection when indicated</td></tr><tr><td><strong>Isolation</strong></td><td>Side rooms for C. difficile, norovirus, MRSA, TB, respiratory viruses</td></tr><tr><td><strong>Sharps</strong></td><td>Dispose at point of use; never resheath</td></tr><tr><td><strong>Cleaning</strong></td><td>Equipment between patients (e.g. stethoscope)</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 27,
+      "text": "Communicate effectively with patients, families and other health care professionals by spoken, written and electronic means.",
+      "section": "ICM",
+      "sessions": [
+        "Professional skills"
+      ],
+      "html": "<ul><li><strong>Spoken</strong>: clear, structured (SBAR), closed-loop.<ul><li><strong>Written</strong>: legible notes, discharge letters, referrals.</li><li><strong>Electronic</strong>: secure systems, NHS email, no patient data on personal devices or messaging apps without approved systems.</li></ul></li></ul>"
+    },
+    {
+      "n": 28,
+      "text": "Demonstrate the ability to determine the patient’s concerns and needs, and be able to seek help or provide explanation and support",
+      "section": "ICM",
+      "sessions": [
+        "Professional skills"
+      ],
+      "html": "<ul><li><strong>Find out</strong> the patient's concerns and needs (ICE)<ul><li>respond honestly within your knowledge</li><li><strong>seek help</strong> from the team when beyond your role</li><li>and provide support (information, leaflets, signposting).</li></ul></li></ul>"
+    },
+    {
+      "n": 29,
+      "text": "Be able to apply biomedical scientific principles, methods and knowledge (e.g. anatomy, physiology, biochemistry, microbiology, nutrition, immunology, genetics etc.) into the understanding of clinical practice",
+      "section": "ICM",
+      "sessions": [
+        "Professional Knowledge"
+      ],
+      "html": "<ul><li><strong>Apply science to practice</strong>: explain clinical findings with anatomy, physiology and pathology (e.g. why heart failure causes ankle oedema: raised venous pressure and Starling forces)<ul><li>use this to reason about investigations and treatment.</li></ul></li></ul>"
+    },
+    {
+      "n": 30,
+      "text": "Explain the relevant scientific processes underlying common and important disease processes",
+      "section": "ICM",
+      "sessions": [
+        "Professional Knowledge"
+      ],
+      "html": "<ul><li><strong>Explain mechanisms</strong> of common diseases: e.g. atherosclerosis → MI<ul><li>insulin resistance → type 2 diabetes</li><li>bronchoconstriction and airway inflammation → asthma.</li></ul></li></ul>"
+    },
+    {
+      "n": 31,
+      "text": "Begin to formulate a plan for appropriate investigation and management using clinical reasoning",
+      "section": "ICM",
+      "sessions": [
+        "Professional Knowledge"
+      ],
+      "html": "<ul><li><strong>Plan</strong>: list problems, choose first-line tests with reasons, propose initial management, consider the patient's wishes, and check with your supervisor.</li></ul>"
+    }
+  ]
+}

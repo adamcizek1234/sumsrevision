@@ -1,0 +1,71 @@
+{
+  "id": "i-116",
+  "num": "116",
+  "title": "Influenza",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Take a relevant drug history from a patient, including prescribed, over-the-counter, and herbal medications",
+      "section": "ICM",
+      "sessions": [
+        "Polypharmacy history & explaining"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Ask about</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Prescribed</strong></td><td>Name, dose, frequency, route, <strong>indication</strong>, when started, who prescribed</td></tr><tr><td><strong>Over the counter</strong></td><td>Painkillers (NSAIDs), antihistamines, PPIs, laxatives</td></tr><tr><td><strong>Herbal / supplements</strong></td><td><strong>St John's wort</strong> (enzyme inducer), ginkgo, vitamins</td></tr><tr><td><strong>Recreational</strong></td><td>Drugs, alcohol</td></tr><tr><td><strong>Adherence</strong></td><td>\"Many people find it hard to take all their tablets: how do you manage?\"; dosette boxes, who helps</td></tr><tr><td><strong>Side effects</strong></td><td>Any problems with the medicines</td></tr><tr><td><strong>Allergies</strong></td><td><strong>Drug and reaction</strong> (rash vs anaphylaxis vs intolerance)</td></tr><tr><td><strong>Recent changes</strong></td><td>Stopped, started, dose changes</td></tr></tbody></table></div><ul><li><strong>Sources</strong>: patient, GP record, repeat slip, pharmacy, carers, medication itself (<strong>medicines reconciliation</strong> within 24 h of admission).</li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Explain how drug interactions can occur and identify common interaction risks.",
+      "section": "ICM",
+      "sessions": [
+        "Polypharmacy history & explaining"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Type</th><th>Mechanism</th><th>Example</th></tr></thead><tbody><tr><td><strong>Pharmacokinetic: enzyme inhibition</strong></td><td>Less metabolism → <strong>higher levels</strong></td><td><strong>Clarithromycin + simvastatin</strong> (myopathy); fluconazole + warfarin</td></tr><tr><td><strong>Pharmacokinetic: enzyme induction</strong></td><td>More metabolism → <strong>lower levels</strong></td><td><strong>Rifampicin</strong>, carbamazepine, St John's wort reduce the pill, warfarin</td></tr><tr><td><strong>Absorption</strong></td><td>Binding in the gut</td><td>Calcium/iron reduce levothyroxine and ciprofloxacin</td></tr><tr><td><strong>Excretion</strong></td><td>Reduced renal clearance</td><td>NSAIDs/ACE inhibitors raise <strong>lithium</strong></td></tr><tr><td><strong>Pharmacodynamic: additive</strong></td><td>Same effect</td><td><strong>ACE inhibitor + spironolactone</strong> (hyperkalaemia); SSRI + NSAID (bleeding); multiple sedatives</td></tr><tr><td><strong>Pharmacodynamic: opposing</strong></td><td>Cancel out</td><td>Beta-blocker + salbutamol</td></tr></tbody></table></div><div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">\"Triple whammy\"</th><td>NSAID + ACE inhibitor/ARB + diuretic → AKI.</td></tr><tr><th scope=\"row\">High-risk</th><td>Warfarin, digoxin, lithium, theophylline, phenytoin (<strong>narrow therapeutic index</strong>); older patients with polypharmacy.</td></tr><tr><th scope=\"row\">Check</th><td>BNF interactions appendix, pharmacist.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Explain patients’ medication schedules using clear and appropriate language.",
+      "section": "ICM",
+      "sessions": [
+        "Polypharmacy history & explaining"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Technique</th><th>Example</th></tr></thead><tbody><tr><td>Find out what they know</td><td>\"Which tablets do you take in the morning?\"</td></tr><tr><td>Link each medicine to its <strong>purpose</strong></td><td>\"This one protects your heart\"</td></tr><tr><td><strong>Timing tied to routines</strong></td><td>\"With breakfast\", \"at bedtime\"</td></tr><tr><td><strong>Special instructions</strong></td><td>Alendronate: empty stomach, upright 30 min; levothyroxine before food</td></tr><tr><td><strong>Aids</strong></td><td>Medication list, chart, dosette box, pharmacy blister packs, apps</td></tr><tr><td><strong>Teach-back</strong></td><td>\"Talk me through how you'll take them\"</td></tr><tr><td><strong>Side effects to watch for</strong></td><td>And what to do</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Describe commonly used cognitive impairment screening tools and their clinical applications.",
+      "section": "ICM",
+      "sessions": [
+        "Cognitive impairment"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Tool</th><th>Detail</th><th>Use</th></tr></thead><tbody><tr><td><strong>AMTS</strong> (Abbreviated Mental Test Score)</td><td>10 questions; <strong>&lt;8</strong> suggests impairment</td><td>Quick screen in hospital</td></tr><tr><td><strong>4AT</strong></td><td>Alertness, AMT4, attention (months backwards), acute change; <strong>≥4 = possible delirium</strong></td><td><strong>Delirium screening</strong></td></tr><tr><td><strong>MoCA</strong> (Montreal Cognitive Assessment)</td><td>30 points; &lt;26 abnormal; sensitive for mild impairment</td><td>Memory clinics</td></tr><tr><td><strong>ACE-III</strong> (Addenbrooke's)</td><td>100 points across 5 domains</td><td>Detailed assessment</td></tr><tr><td><strong>6CIT</strong></td><td>6 items, primary care</td><td>Quick screen</td></tr><tr><td><strong>Mini-Cog</strong></td><td>3-word recall + clock drawing</td><td>Brief screen</td></tr></tbody></table></div><ul><li><strong>Remember</strong>: screening tools don't diagnose dementia<ul><li>consider delirium, depression, sensory impairment, education and language</li><li>check bloods (B12, folate, TFTs, calcium) and refer to memory clinic.</li></ul></li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Perform a basic cognitive assessment using an appropriate screening tool",
+      "section": "ICM",
+      "sessions": [
+        "Cognitive impairment"
+      ],
+      "html": "<ul><li><strong>AMTS questions</strong> (1 point each): age<ul><li>time (nearest hour)</li><li>address for recall at the end (e.g. \"42 West Street\")</li><li>year</li><li>name of this place</li><li>recognise two people</li><li>date of birth</li><li>year WW2 started (1939)</li><li>name of the current monarch</li><li>count backwards from 20 to 1.</li></ul></li></ul><div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Explain, consent, check hearing and glasses, quiet room.</td></tr><tr><th scope=\"row\">2</th><td>Ask questions exactly as written; don't prompt.</td></tr><tr><th scope=\"row\">3</th><td>Score and <strong>interpret in context</strong> (acute change → delirium); repeat to monitor.</td></tr><tr><th scope=\"row\">4</th><td><strong>Collateral history</strong> from family or carers.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Demonstrate the ability to perform a respiratory examination with clinical competence, interpret and integrate findings with relevant knowledge to support clinical reasoning, and clearly present these findings to peers or supervisors.",
+      "section": "ICM",
+      "sessions": [
+        "Respiratory examination -3"
+      ],
+      "html": "<ul><li><strong>Full routine</strong>: see ICM Year 1 › Respiratory › LOs 2 and 8.</li></ul><div class=\"tbl\"><table><thead><tr><th>Competence =</th><th></th></tr></thead><tbody><tr><td>Fluent sequence front and back with finishing steps</td><td></td></tr><tr><td>Pattern recognition: consolidation, effusion, pneumothorax, collapse, fibrosis, COPD</td><td></td></tr><tr><td>Present a coherent summary and differential, with next steps (CXR, sats, ABG, sputum culture, spirometry)</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Understand prescribing antimicrobials",
+      "section": "ICM",
+      "sessions": [
+        "Pharmacy"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Principle (antimicrobial stewardship)</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Follow local guidelines</strong></td><td>Empirical choice by likely organism and local resistance</td></tr><tr><td><strong>Take cultures first</strong> (if possible)</td><td>Blood, urine, sputum, swabs</td></tr><tr><td><strong>Start promptly when needed</strong></td><td><strong>Sepsis: within 1 hour</strong></td></tr><tr><td><strong>Document</strong></td><td>Indication, drug, dose, route, <strong>duration or review date</strong></td></tr><tr><td><strong>Start Smart, Then Focus</strong></td><td><strong>Review at 48–72 h</strong>: stop, switch IV to oral, change, continue, or OPAT</td></tr><tr><td><strong>Narrowest spectrum, shortest effective course</strong></td><td>Reduce resistance and <strong>C. difficile</strong></td></tr><tr><td><strong>Check allergies</strong></td><td>True penicillin allergy vs intolerance</td></tr><tr><td><strong>Interactions and monitoring</strong></td><td>Gentamicin/vancomycin levels, renal function</td></tr></tbody></table></div><ul><li><strong>Avoid</strong> antibiotics for viral infections (e.g. influenza, colds): give self-care and safety-netting advice<ul><li><strong>antivirals</strong> (oseltamivir) only for at-risk groups when flu is circulating.</li></ul></li></ul>"
+    }
+  ]
+}

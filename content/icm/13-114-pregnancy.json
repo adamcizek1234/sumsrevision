@@ -1,0 +1,44 @@
+{
+  "id": "i-114",
+  "num": "114",
+  "title": "Pregnancy",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Perform a full gynaecological examination on a model including taking swabs and smears",
+      "section": "ICM",
+      "sessions": [
+        "PV and speculum examination"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td><strong>Consent and chaperone</strong>, explain, privacy, empty bladder, position supine with knees bent and apart (or lithotomy).</td></tr><tr><th scope=\"row\">2</th><td><strong>Inspect</strong> the vulva: discharge, lesions, atrophy, prolapse (ask to cough).</td></tr><tr><th scope=\"row\">3. Speculum (Cusco's)</th><td><ul class=\"cl\"><li>Warm, lubricate (water-based, away from the tip if taking smears), insert closed and <strong>sideways</strong>, rotate, open to see the <strong>cervix</strong></li><li>Inspect for ectropion, polyps, lesions, discharge.</li></ul></td></tr><tr><th scope=\"row\">4. Swabs</th><td><ul class=\"cl\"><li>High vaginal swab (posterior fornix: bacterial vaginosis, candida, trichomonas), endocervical swab (<strong>chlamydia/gonorrhoea NAAT</strong>)</li><li><strong>Cervical screening (smear)</strong>: brush in the os, rotate 5 times clockwise, into liquid medium.</li></ul></td></tr><tr><th scope=\"row\">5</th><td>Close the speculum slightly as you withdraw it.</td></tr><tr><th scope=\"row\">6. Bimanual (PV)</th><td>Two gloved fingers in the vagina, other hand on the abdomen: <strong>cervical excitation</strong> (PID, ectopic), uterus size/position/mobility, <strong>adnexal masses or tenderness</strong>.</td></tr><tr><th scope=\"row\">7</th><td>Cover the patient, thank, document, chaperone's name.</td></tr></tbody></table></div><ul><li><strong>NHS cervical screening</strong>: ages <strong>25–64</strong><ul><li>HPV primary testing</li><li>every <strong>3 years</strong> (25–49) and <strong>5 years</strong> (50–64) (Wales now 5-yearly for HPV-negative 25–49).</li></ul></li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Take a pregnancy history",
+      "section": "ICM",
+      "sessions": [
+        "Antenatal history"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Area</th><th>Questions</th></tr></thead><tbody><tr><td><strong>Current pregnancy</strong></td><td><ul class=\"cl\"><li>LMP</li><li><strong>Gestation</strong></li><li>EDD (Naegele: LMP + 9 months + 7 days)</li><li>Planned?</li><li>Scans</li><li>Bloods</li><li>Symptoms (bleeding, pain, nausea, fetal movements from ~20 weeks)</li></ul></td></tr><tr><td><strong>Obstetric history</strong></td><td><strong>Gravidity and parity</strong> (G/P), previous deliveries (mode, complications, birth weights), miscarriages, terminations, ectopics</td></tr><tr><td><strong>Gynae history</strong></td><td>Cervical screening, contraception, fertility treatment</td></tr><tr><td><strong>PMH</strong></td><td>Diabetes, hypertension, epilepsy, thyroid, mental health, VTE</td></tr><tr><td><strong>Drugs</strong></td><td>Folic acid (400 µg; 5 mg if high risk), teratogens (valproate), allergies</td></tr><tr><td><strong>Family</strong></td><td>Pre-eclampsia, diabetes, genetic conditions, twins</td></tr><tr><td><strong>Social</strong></td><td>Smoking, alcohol, drugs, support, <strong>domestic abuse</strong> (ask alone), housing</td></tr></tbody></table></div><ul><li><strong>Red flags</strong>: bleeding, abdominal pain, headache/visual disturbance (pre-eclampsia), reduced fetal movements, fluid leakage.</li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Perform an antenatal examination",
+      "section": "ICM",
+      "sessions": [
+        "Antenatal examination"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Consent, chaperone, empty bladder, <strong>semi-recumbent</strong> (avoid lying flat after ~20 weeks: aortocaval compression).</td></tr><tr><th scope=\"row\">2. General</th><td>BP (pre-eclampsia), urine dip (protein, glucose), oedema, weight/BMI.</td></tr><tr><th scope=\"row\">3</th><td><strong>Inspect</strong> the abdomen: distension, scars (caesarean), striae, linea nigra, fetal movements.</td></tr><tr><th scope=\"row\">4. Symphysis–fundal height (SFH)</th><td><ul class=\"cl\"><li>Palpate the fundus with the ulnar border of the hand</li><li>Measure tape-side down from fundus to symphysis</li><li>From <strong>24 weeks SFH in cm ≈ gestation in weeks (±2 cm)</strong></li><li>Plot on a customised chart.</li></ul></td></tr><tr><th scope=\"row\">5. Leopold's manoeuvres<span class=\"paren\">(late pregnancy)</span></th><td><strong>Lie</strong> (longitudinal, transverse, oblique), <strong>presentation</strong> (cephalic, breech), <strong>engagement</strong> (fifths palpable).</td></tr><tr><th scope=\"row\">6. Fetal heart</th><td>Pinard or <strong>Doppler</strong> over the anterior shoulder (110–160 bpm); feel the mother's pulse to tell them apart.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Understand principles of sexual history taking",
+      "section": "ICM",
+      "sessions": [
+        "Introduction to sexual history taking"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Principle</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Privacy and confidentiality</strong></td><td>Explain confidentiality and its limits (safeguarding)</td></tr><tr><td><strong>Non-judgemental</strong> language</td><td>Don't assume sexuality or relationship status</td></tr><tr><td><strong>Explain why</strong> you're asking</td><td>\"I ask everyone these questions\"</td></tr><tr><td><strong>Content</strong></td><td><ul class=\"cl\"><li>Symptoms (discharge, dysuria, ulcers, rash)</li><li>Last sexual intercourse (window periods)</li><li>Partners (number, gender, regular/casual, overseas)</li><li>Type of sex</li><li><strong>Condom use</strong></li><li>Contraception</li><li>Previous STIs</li><li><strong>HIV risk</strong> (MSM, injecting drugs, high-prevalence areas)</li><li>PrEP</li></ul></td></tr><tr><td><strong>Safeguarding</strong></td><td>Age (under 16: Fraser guidelines; under 13: always safeguarding), coercion, exploitation</td></tr><tr><td><strong>Partner notification</strong></td><td>Explain why</td></tr></tbody></table></div>"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "i-107",
+  "num": "107",
+  "title": "Shoulder",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Demonstrate a comprehensive physical examination of the shoulder.",
+      "section": "ICM",
+      "sessions": [
+        "Shoulder examination"
+      ],
+      "html": "<ul><li><strong>Look, feel, move, special tests</strong> (compare with the other side; expose both shoulders).</li></ul><div class=\"tbl\"><table><thead><tr><th>Step</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Look</strong></td><td>From front, side, back: wasting (deltoid, supraspinatus, infraspinatus), asymmetry, scars, swelling, <strong>winging</strong> of the scapula</td></tr><tr><td><strong>Feel</strong></td><td>Temperature, then bony landmarks: sternoclavicular joint, clavicle, <strong>ACJ</strong>, acromion, spine of scapula, humeral head; muscles</td></tr><tr><td><strong>Move (active then passive)</strong></td><td><ul class=\"cl\"><li>Flexion 180°</li><li>Extension 60°</li><li><strong>Abduction</strong> 180° (painful arc 60–120°: impingement)</li><li>Adduction</li><li><strong>External rotation</strong> (lost early in <strong>frozen shoulder</strong>)</li><li>Internal rotation (hand behind back)</li></ul></td></tr><tr><td><strong>Function</strong></td><td>Hands behind head and behind back</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Special test</th><th>Tests</th></tr></thead><tbody><tr><td><strong>Empty can (Jobe's)</strong></td><td><strong>Supraspinatus</strong></td></tr><tr><td><strong>External rotation against resistance</strong></td><td>Infraspinatus, teres minor</td></tr><tr><td><strong>Gerber's lift-off / belly press</strong></td><td><strong>Subscapularis</strong></td></tr><tr><td><strong>Hawkins–Kennedy</strong></td><td><strong>Impingement</strong></td></tr><tr><td><strong>Scarf test</strong></td><td><strong>ACJ</strong></td></tr><tr><td><strong>Apprehension test</strong></td><td>Anterior instability</td></tr></tbody></table></div><ul><li><strong>Finish</strong>: examine the <strong>neck</strong> and the <strong>elbow</strong> (referred pain), neurovascular check (axillary nerve: \"regimental badge\" sensation).</li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Understand the principles of prescribing from a legal and clinical perspective",
+      "section": "ICM",
+      "sessions": [
+        "Prescribing"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Legal</th><td><ul class=\"cl\"><li>Prescribing is restricted by law (Human Medicines Regulations 2012)</li><li>POMs need a registered prescriber</li><li><strong>Controlled drugs</strong> (Misuse of Drugs Regulations 2001) need extra details and safe custody</li><li>Prescribers are personally <strong>accountable</strong>.</li></ul></td></tr><tr><th scope=\"row\">Clinical</th><td>Indication, evidence, contraindications, interactions, dose for the patient (age, weight, renal/hepatic function), monitoring, review date; <strong>involve the patient</strong> and document.</td></tr><tr><th scope=\"row\">Errors to avoid</th><td>Abbreviations (write \"units\" and \"micrograms\" in full), trailing zeros (\"5 mg\" not \"5.0 mg\"), missing allergy status, illegible writing.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Record patient observations accurately and in accordance with clinical guidelines",
+      "section": "ICM",
+      "sessions": [
+        "NEWS & Observations"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Observation</th><th>How</th><th>Normal adult</th></tr></thead><tbody><tr><td><strong>Respiratory rate</strong></td><td>Count 60 s</td><td>12–20</td></tr><tr><td><strong>Oxygen saturation</strong></td><td>Pulse oximeter, note air or oxygen</td><td>94–98% (88–92% if hypercapnic risk)</td></tr><tr><td><strong>Blood pressure</strong></td><td>Correct cuff, arm at heart level</td><td>Systolic 111–219 scores 0</td></tr><tr><td><strong>Pulse</strong></td><td>Radial, 60 s</td><td>51–90</td></tr><tr><td><strong>Consciousness</strong></td><td>ACVPU</td><td>Alert</td></tr><tr><td><strong>Temperature</strong></td><td>Tympanic or oral</td><td>36.1–38.0 °C</td></tr></tbody></table></div><ul><li><strong>Record</strong> accurately at the time, in the right place, and <strong>escalate</strong> abnormal values.</li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Complete a NEWS chart with accurate clinical data and interpret scores appropriately",
+      "section": "ICM",
+      "sessions": [
+        "NEWS & Observations"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Score</th><th>NEWS2 parameter thresholds (score 3)</th></tr></thead><tbody><tr><td>RR</td><td>≤8 or ≥25</td></tr><tr><td>SpO₂ (scale 1)</td><td>≤91%</td></tr><tr><td>On oxygen</td><td>Adds 2</td></tr><tr><td>Systolic BP</td><td>≤90 or ≥220</td></tr><tr><td>Pulse</td><td>≤40 or ≥131</td></tr><tr><td>Consciousness</td><td>New confusion, V, P or U</td></tr><tr><td>Temperature</td><td>≤35.0 °C</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Total NEWS2</th><th>Response</th></tr></thead><tbody><tr><td><strong>0–4</strong></td><td>Ward-based care; 4–6-hourly obs (12-hourly if 0)</td></tr><tr><td><strong>3 in any single parameter</strong></td><td><strong>Urgent</strong> ward review</td></tr><tr><td><strong>5–6</strong></td><td><strong>Urgent response</strong>: doctor review, consider critical care; hourly obs</td></tr><tr><td><strong>≥7</strong></td><td><strong>Emergency response</strong>: senior/critical care team, continuous monitoring</td></tr></tbody></table></div><ul><li><strong>Use SpO₂ scale 2</strong> (target 88–92%) only for confirmed hypercapnic respiratory failure.</li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Differentiate between subjective and objective information when obtaining a patient history",
+      "section": "ICM",
+      "sessions": [
+        "History"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th></th><th><strong>Subjective</strong></th><th><strong>Objective</strong></th></tr></thead><tbody><tr><td>What</td><td>What the <strong>patient reports</strong> (symptoms, feelings, history)</td><td>What can be <strong>observed or measured</strong> (signs, observations, results)</td></tr><tr><td>Example</td><td>\"I feel short of breath\"</td><td>RR 28, SpO₂ 90%, crackles</td></tr><tr><td>Where in notes</td><td>History (SOAP: <strong>S</strong>)</td><td>Examination and investigations (SOAP: <strong>O</strong>)</td></tr></tbody></table></div><ul><li><strong>SOAP notes</strong>: Subjective, Objective, Assessment, Plan.</li></ul>"
+    },
+    {
+      "n": 6,
+      "text": "Organise and present clinical findings in a structured and logical format",
+      "section": "ICM",
+      "sessions": [
+        "History"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Present</th><td>Identifying details, presenting complaint, HPC (key positives and negatives), relevant PMH, drugs and allergies, social, family, ICE, then <strong>summary</strong>, <strong>differential</strong> and <strong>plan</strong>.</td></tr><tr><th scope=\"row\">Keep it focused</th><td>Lead with what matters; finish with a one-line summary.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 7,
+      "text": "Interpret a patient's perspective on their current condition",
+      "section": "ICM",
+      "sessions": [
+        "History"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Explore</th><td>\"What do you think is going on?\", \"What do you understand about your condition?\"</td></tr><tr><th scope=\"row\">Why</th><td>Beliefs shape worries and adherence; correcting misunderstandings builds trust.</td></tr><tr><th scope=\"row\">Respond</th><td>Acknowledge their view, explain the medical view in plain language, find common ground.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 8,
+      "text": "Identify and explore a patient's concerns during consultation",
+      "section": "ICM",
+      "sessions": [
+        "History"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Ask directly</th><td>\"Is there anything in particular that's worrying you?\", \"What's your biggest concern?\"</td></tr><tr><th scope=\"row\">Pick up cues</th><td>Hesitation, repeated mentions, body language.</td></tr><tr><td colspan=\"2\"><strong>Respond with empathy</strong> and address the concern specifically (don't just reassure).</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 9,
+      "text": "Clarify a patient’s expectations from the consultation to guide shared decision making",
+      "section": "ICM",
+      "sessions": [
+        "History"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Ask</th><td>\"What were you hoping we could do for you today?\", \"What would you like to happen?\"</td></tr><tr><th scope=\"row\">Why</th><td><ul class=\"cl\"><li>Unmet expectations (e.g. antibiotics, scan, sick note) lead to dissatisfaction</li><li>Clarifying them allows <strong>shared decision making</strong>: explain options, benefits and risks, agree a plan together.</li></ul></td></tr></tbody></table></div>"
+    }
+  ]
+}

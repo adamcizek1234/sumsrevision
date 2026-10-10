@@ -1,0 +1,53 @@
+{
+  "id": "i-139",
+  "num": "139",
+  "title": "T2DM",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Consult with a patient effectively via telephone or video conferencing (Zoom), maintaining professional communication.",
+      "section": "ICM",
+      "sessions": [
+        "History"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Remote consultation</th><th></th></tr></thead><tbody><tr><td><strong>Before</strong>: check identity (name, DOB, address), location (in case of emergency), privacy, who else is present, video/audio working</td><td></td></tr><tr><td><ul class=\"cl\"><li><strong>During</strong>: introduce yourself and role, check consent, <strong>signpost</strong> more than usual, speak clearly, pause for delays, check understanding often</li><li>on the phone listen for cues (breathlessness, tone)</li></ul></td><td></td></tr><tr><td><strong>Limitations</strong>: no examination (video allows some: breathing, rash, gait); <strong>lower threshold to bring in</strong> for face-to-face review</td><td></td></tr><tr><td><strong>End</strong>: clear plan, <strong>safety-netting</strong> (what to watch for, who to call), confirm how results will be shared, document \"telephone/video consultation\"</td><td></td></tr><tr><td><strong>Unsuitable</strong>: very unwell, safeguarding concerns, language/hearing barriers without support, need for examination</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Take a thorough patient history and explain the results of a CT pulmonary angiogram (CTPA), in the context of the patient's clinical presentation.",
+      "section": "ICM",
+      "sessions": [
+        "History"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">History for suspected PE</th><td><ul class=\"cl\"><li>Sudden pleuritic chest pain, breathlessness, haemoptysis, syncope</li><li><strong>Risk factors</strong>: recent surgery or immobility, long travel, cancer, pregnancy/postpartum, oestrogen (pill, HRT), previous VTE, thrombophilia</li><li>DVT symptoms (calf swelling).</li></ul></td></tr><tr><th scope=\"row\">Wells score &gt;4</th><td><strong>CTPA</strong>; ≤4 → D-dimer (then CTPA if positive).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Explaining a positive CTPA</th><th></th></tr></thead><tbody><tr><td>\"The scan shows a blood clot in the blood vessels of your lungs, called a pulmonary embolism\"</td><td></td></tr><tr><td>Why it matters: strains the heart and lowers oxygen</td><td></td></tr><tr><td>Treatment: <strong>anticoagulation</strong> (DOAC such as apixaban or rivaroxaban, or LMWH), usually at least <strong>3 months</strong>; look for a cause</td><td></td></tr><tr><td>Bleeding risks and what to watch for; avoid NSAIDs</td><td></td></tr><tr><td>When to seek urgent help; follow-up</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Engage in interactive revision activities to consolidate knowledge of ICM (Introduction to Clinical Medicine) curriculum topics.",
+      "section": "ICM",
+      "sessions": [
+        "Quiz"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Core ICM topics to revise</th><th></th></tr></thead><tbody><tr><td>History structure, ICE, communication skills</td><td></td></tr><tr><td>CVS, respiratory, GI, neuro, MSK examinations and their findings</td><td></td></tr><tr><td>A–E assessment, BLS/ALS, sepsis, NEWS2</td><td></td></tr><tr><td>Procedures: venepuncture, cannulation, blood cultures, injections, ECG, ABG, urinalysis, BMI</td><td></td></tr><tr><td>Prescribing principles, oxygen, inhalers, insulin</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Understand how to prescribe insulin",
+      "section": "ICM",
+      "sessions": [
+        "Prescribing insulin (pharmacy)"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Prescribing insulin</th><th></th></tr></thead><tbody><tr><td>Write <strong>\"units\" in full</strong> (never \"U\" or \"IU\": misread as 0)</td><td></td></tr><tr><td><strong>Brand and device</strong> specified (e.g. \"Lantus SoloStar\"), type and strength (U100 standard)</td><td></td></tr><tr><td><strong>Timing</strong> relative to meals</td><td></td></tr><tr><td>Use the <strong>insulin prescription chart</strong> (with glucose monitoring record)</td><td></td></tr><tr><td>Types: <strong>rapid-acting</strong> (aspart, lispro: with meals), short-acting (soluble), <strong>intermediate</strong> (isophane), <strong>long-acting basal</strong> (glargine, detemir, degludec), <strong>premixed</strong></td><td></td></tr><tr><td>Regimens: basal–bolus, twice-daily premixed, once-daily basal (type 2)</td><td></td></tr><tr><td><strong>Never withhold basal insulin in type 1 diabetes</strong> (DKA risk)</td><td></td></tr><tr><td><strong>Sliding scale / VRIII</strong> when nil by mouth; hypoglycaemia protocol</td><td></td></tr><tr><td>Insulin errors are among the most common serious prescribing errors</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Know how to perform a blood glucose reading",
+      "section": "ICM",
+      "sessions": [
+        "Blood glucose monitoring"
+      ],
+      "html": "<ul><li><strong>Capillary blood glucose</strong>: see ICM Year 1 › Emergencies &amp; A–E › LO 12.<ul><li>Wash hands (patient's too)</li><li>use the <strong>side of the fingertip</strong></li><li>lancet</li><li>apply the drop to the strip</li><li>record the result with time and relation to meals</li><li>treat <strong>&lt;4 mmol/L</strong> as hypoglycaemia</li><li>check ketones if glucose &gt;11 in type 1.</li></ul></li></ul>"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "i-229",
+  "num": "229",
+  "title": "Liver Disorders",
+  "system": "Gastrointestinal",
+  "link": "y2-229",
+  "pick": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "los": []
+}

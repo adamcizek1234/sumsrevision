@@ -1,0 +1,179 @@
+{
+  "id": "i-104",
+  "num": "104",
+  "title": "PUD",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Evaluate the patency of a patient’s airway in clinical scenarios",
+      "section": "ICM",
+      "sessions": [
+        "Airway & breathing"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Assess</th><th>Signs of obstruction</th></tr></thead><tbody><tr><td><strong>Look</strong></td><td>See-saw breathing (chest and abdomen moving in opposite directions), accessory muscles, cyanosis, foreign body, vomit, swelling</td></tr><tr><td><strong>Listen</strong></td><td><strong>Stridor</strong> (upper airway), <strong>snoring</strong> (tongue/soft palate), <strong>gurgling</strong> (fluid), hoarseness; silence in complete obstruction</td></tr><tr><td><strong>Feel</strong></td><td>Air movement at the mouth</td></tr></tbody></table></div><ul><li><strong>A talking patient has a patent airway</strong> (for now).</li><li><strong>Causes</strong>: reduced consciousness (tongue falls back), vomit, blood, foreign body, anaphylaxis, burns, trauma.</li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Perform a head tilt chin lift manoeuvre to open a patient’s airway safely",
+      "section": "ICM",
+      "sessions": [
+        "Airway & breathing"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Place one hand on the <strong>forehead</strong> and tilt the head back.</td></tr><tr><th scope=\"row\">2</th><td>Put the fingertips of the other hand under the <strong>bony point of the chin</strong> and lift.</td></tr><tr><th scope=\"row\">3</th><td>Avoid pressing on the soft tissues under the chin.</td></tr></tbody></table></div><ul><li><strong>Avoid</strong> in suspected cervical spine injury: use a <strong>jaw thrust</strong> instead.</li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Demonstrate a jaw thrust technique to manage an obstructed airway",
+      "section": "ICM",
+      "sessions": [
+        "Airway & breathing"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Kneel behind the patient's head.</td></tr><tr><th scope=\"row\">2</th><td>Place your fingers behind the <strong>angles of the mandible</strong> on both sides.</td></tr><tr><th scope=\"row\">3</th><td>Push the jaw <strong>forwards and upwards</strong>, using the thumbs on the chin to open the mouth slightly.</td></tr></tbody></table></div><ul><li><strong>Use when</strong>: possible <strong>cervical spine injury</strong> (keeps the neck neutral) or when head tilt chin lift fails.</li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Demonstrate the correct technique to measure and insert an oropharyngeal airway in a clinical scenario",
+      "section": "ICM",
+      "sessions": [
+        "Airway & breathing"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Step</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Indication</strong></td><td><strong>Unconscious</strong> patient with no gag reflex</td></tr><tr><td><strong>Sizing</strong></td><td>From the <strong>incisors to the angle of the jaw</strong></td></tr><tr><td><strong>Insertion (adults)</strong></td><td>Insert <strong>upside down</strong> (concave side up) into the mouth, slide to the soft palate, then <strong>rotate 180°</strong> and advance</td></tr><tr><td><strong>Insertion (children)</strong></td><td>Insert the right way up using a tongue depressor</td></tr><tr><td><strong>Check</strong></td><td>Airway improved; reassess breathing</td></tr><tr><td><strong>Remove if</strong></td><td>Gagging or coughing (risk of vomiting and laryngospasm)</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Demonstrate the correct technique to measure and insert a nasopharyngeal airway in a clinical scenario",
+      "section": "ICM",
+      "sessions": [
+        "Airway & breathing"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Step</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Indication</strong></td><td>Reduced consciousness but <strong>gag reflex present</strong>, clenched jaw (e.g. seizures)</td></tr><tr><td><strong>Sizing</strong></td><td>From the <strong>tip of the nose to the tragus</strong> of the ear; width roughly the patient's little finger</td></tr><tr><td><strong>Insertion</strong></td><td><ul class=\"cl\"><li><strong>Lubricate</strong></li><li>Insert into the <strong>right nostril</strong> (usually)</li><li>Bevel facing the septum</li><li><strong>Straight back along the nasal floor</strong> (not upwards)</li><li>with a gentle twist</li></ul></td></tr><tr><td><strong>Contraindication</strong></td><td><strong>Suspected base of skull fracture</strong> (relative), severe facial trauma</td></tr><tr><td><strong>Check</strong></td><td>Airway improved; watch for nosebleed</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 6,
+      "text": "Evaluate a patient's breathing pattern to identify abnormalities",
+      "section": "ICM",
+      "sessions": [
+        "Airway & breathing"
+      ],
+      "html": "<ul><li><strong>Look</strong>: rate, depth, pattern, accessory muscles, recession, chest symmetry, cyanosis, ability to speak in sentences.</li></ul><div class=\"tbl\"><table><thead><tr><th>Pattern</th><th>Seen in</th></tr></thead><tbody><tr><td><strong>Tachypnoea</strong></td><td>Pneumonia, PE, asthma, metabolic acidosis, sepsis</td></tr><tr><td><strong>Bradypnoea</strong></td><td>Opioids, raised intracranial pressure, exhaustion</td></tr><tr><td><strong>Kussmaul</strong> (deep, sighing)</td><td><strong>Diabetic ketoacidosis</strong></td></tr><tr><td><strong>Cheyne–Stokes</strong> (waxing and waning with apnoeas)</td><td>Heart failure, stroke, near death</td></tr><tr><td><strong>Prolonged expiration, wheeze</strong></td><td>Asthma, COPD</td></tr><tr><td><strong>Paradoxical / see-saw</strong></td><td>Airway obstruction, flail chest</td></tr></tbody></table></div><ul><li><strong>Then</strong>: expansion, percussion, auscultation, saturations.</li></ul>"
+    },
+    {
+      "n": 7,
+      "text": "Measure and record a patient’s respiratory rate accurately",
+      "section": "ICM",
+      "sessions": [
+        "Airway & breathing"
+      ],
+      "html": "<ul><li><strong>Count for a full 60 seconds</strong> (or 30 × 2 if regular), ideally without the patient knowing (e.g. while still \"taking the pulse\").</li><li><strong>Normal adult</strong>: <strong>12–20 breaths/min</strong>. NEWS2: 21–24 scores 2; <strong>≤8 or ≥25 scores 3</strong>.</li><li><strong>Record</strong> the rate, any distress, and on oxygen what device and flow.</li></ul>"
+    },
+    {
+      "n": 8,
+      "text": "Measure and interpret oxygen saturation levels using pulse oximetry",
+      "section": "ICM",
+      "sessions": [
+        "Airway & breathing"
+      ],
+      "html": "<ul><li><strong>Technique</strong>: probe on a <strong>warm finger</strong> (or earlobe), wait for a good <strong>waveform</strong>, remove nail varnish, keep the hand still.</li></ul><div class=\"tbl\"><table><thead><tr><th>Target</th><th>Patient</th></tr></thead><tbody><tr><td><strong>94–98%</strong></td><td>Most acutely ill patients</td></tr><tr><td><strong>88–92%</strong></td><td>Patients <strong>at risk of hypercapnic respiratory failure</strong> (COPD, obesity hypoventilation, neuromuscular disease)</td></tr></tbody></table></div><ul><li><strong>Limitations</strong>: poor perfusion, cold, movement, nail varnish, <strong>carbon monoxide</strong> (falsely normal), darker skin (can overestimate).<ul><li>Saturations don't show CO₂ retention: check an ABG.</li></ul></li></ul>"
+    },
+    {
+      "n": 9,
+      "text": "Identify clinical indications for administering supplementary oxygen",
+      "section": "ICM",
+      "sessions": [
+        "Airway & breathing"
+      ],
+      "html": "<ul><li><strong>Indication</strong>: <strong>hypoxaemia</strong> (sats below target), not breathlessness alone (BTS guideline).</li></ul><div class=\"tbl\"><table><thead><tr><th>Situation</th><th>Oxygen</th></tr></thead><tbody><tr><td><strong>Critical illness</strong> (cardiac arrest, shock, sepsis, anaphylaxis, major trauma)</td><td><strong>15 L/min via non-rebreather mask</strong> at first</td></tr><tr><td>Acutely ill with low sats</td><td>Titrate to <strong>94–98%</strong></td></tr><tr><td>At risk of hypercapnia (COPD)</td><td><strong>Venturi 24–28%</strong>, target <strong>88–92%</strong>; check an ABG</td></tr><tr><td>Not hypoxic (e.g. uncomplicated MI, stroke)</td><td><strong>Not needed</strong></td></tr></tbody></table></div><ul><li><strong>Oxygen is a drug</strong>: it must be <strong>prescribed</strong> with a target range.</li></ul>"
+    },
+    {
+      "n": 10,
+      "text": "Evaluate a patient’s circulation during clinical assessment",
+      "section": "ICM",
+      "sessions": [
+        "Circulation"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Assess</th><th>Look for</th></tr></thead><tbody><tr><td><strong>Look</strong></td><td>Pallor, mottling, sweating, bleeding, JVP</td></tr><tr><td><strong>Feel</strong></td><td>Hands: <strong>warm or cold</strong>, <strong>capillary refill</strong> (press the fingertip for 5 s at heart level: normal <strong>&lt;2 s</strong>), pulse rate and character</td></tr><tr><td><strong>Measure</strong></td><td><strong>Blood pressure</strong>, heart rate</td></tr><tr><td><strong>Listen</strong></td><td>Heart sounds</td></tr><tr><td><strong>Other</strong></td><td>Urine output (≥0.5 mL/kg/h), fluid balance</td></tr></tbody></table></div><ul><li><strong>Shock</strong>: tachycardia, cool peripheries, prolonged CRT, hypotension (late), low urine output, confusion.</li></ul>"
+    },
+    {
+      "n": 11,
+      "text": "Measure and interpret manual blood pressure readings accurately",
+      "section": "ICM",
+      "sessions": [
+        "Circulation"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Patient seated and rested for <strong>5 minutes</strong>, arm supported at <strong>heart level</strong>, no tight clothing.</td></tr><tr><th scope=\"row\">2</th><td>Choose the <strong>correct cuff size</strong> (bladder covers ~80% of the arm circumference).</td></tr><tr><th scope=\"row\">3</th><td><strong>Estimate systolic</strong> by palpation: inflate until the radial pulse disappears, add <strong>20–30 mmHg</strong>.</td></tr><tr><th scope=\"row\">4</th><td>Inflate to that level, place the stethoscope over the <strong>brachial artery</strong>, deflate at <strong>2–3 mmHg per second</strong>.</td></tr><tr><th scope=\"row\">5. Systolic</th><td>First sound (Korotkoff I); <strong>diastolic</strong> = disappearance (Korotkoff V).</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Reading</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>&lt;90 systolic</strong></td><td>Hypotension</td></tr><tr><td><strong>≥140/90</strong> (clinic)</td><td>Possible hypertension → confirm with ambulatory or home readings</td></tr><tr><td><strong>≥180/120</strong></td><td>Severe: same-day assessment if symptoms or organ damage</td></tr></tbody></table></div><ul><li><strong>Errors</strong>: small cuff (falsely high), arm below heart level (high), talking, rounding to zero.</li></ul>"
+    },
+    {
+      "n": 12,
+      "text": "Measure and record a patient’s pulse using appropriate technique",
+      "section": "ICM",
+      "sessions": [
+        "Circulation"
+      ],
+      "html": "<ul><li><strong>Radial pulse</strong>: two fingers (not thumb) lateral to the flexor carpi radialis tendon<ul><li>count for <strong>60 seconds</strong> (or 30 × 2 if regular).</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Assess</th><th>Normal / abnormal</th></tr></thead><tbody><tr><td><strong>Rate</strong></td><td>60–100/min; &lt;60 bradycardia, &gt;100 tachycardia</td></tr><tr><td><strong>Rhythm</strong></td><td>Regular, regularly irregular, <strong>irregularly irregular</strong> (AF)</td></tr><tr><td><strong>Volume and character</strong></td><td>Use the <strong>carotid</strong> for character: slow-rising (aortic stenosis), collapsing (aortic regurgitation)</td></tr><tr><td><strong>Radio-radial delay</strong></td><td>Subclavian stenosis, aortic dissection</td></tr><tr><td><strong>Radio-femoral delay</strong></td><td>Coarctation</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 13,
+      "text": "Assess and interpret a patient's level of consciousness using CAVPU",
+      "section": "ICM",
+      "sessions": [
+        "Disability & exposure"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>CAVPU</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>C</strong>onfusion (new)</td><td>New confusion or delirium: scores 3 on NEWS2</td></tr><tr><td><strong>A</strong>lert</td><td>Awake, eyes open spontaneously</td></tr><tr><td><strong>V</strong>oice</td><td>Responds to voice</td></tr><tr><td><strong>P</strong>ain</td><td>Responds only to a painful stimulus (e.g. trapezius squeeze)</td></tr><tr><td><strong>U</strong>nresponsive</td><td>No response</td></tr></tbody></table></div><ul><li><strong>P or U</strong> roughly equals <strong>GCS ≤8</strong>: the airway is at risk, so get senior and anaesthetic help.</li><li><strong>Then</strong>: check glucose, pupils, consider GCS for more detail.</li></ul>"
+    },
+    {
+      "n": 14,
+      "text": "Evaluate pupillary response to light and its clinical significance during a clinical examination",
+      "section": "ICM",
+      "sessions": [
+        "Disability & exposure"
+      ],
+      "html": "<ul><li><strong>Technique</strong>: dim the light<ul><li>ask the patient to look into the distance</li><li>shine a pen torch into each eye from the side: check the <strong>direct</strong> and <strong>consensual</strong> responses</li><li>size (mm)</li><li>shape</li><li>symmetry.</li></ul></li></ul><div class=\"tbl\"><table><thead><tr><th>Finding</th><th>Suggests</th></tr></thead><tbody><tr><td><strong>Pinpoint pupils</strong></td><td><strong>Opioids</strong>, pontine haemorrhage</td></tr><tr><td><strong>Fixed dilated pupil (one side)</strong></td><td><strong>Third nerve compression</strong> (uncal herniation, PCom aneurysm): emergency</td></tr><tr><td><strong>Bilateral fixed dilated</strong></td><td>Severe brain injury, anticholinergics, death</td></tr><tr><td><strong>Small reactive pupil with ptosis</strong></td><td>Horner's syndrome</td></tr><tr><td><strong>Relative afferent pupillary defect</strong></td><td>Optic nerve disease</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 15,
+      "text": "Recognise the importance of accurate blood glucose measurement in patient care",
+      "section": "ICM",
+      "sessions": [
+        "Disability & exposure"
+      ],
+      "html": "<ul><li><strong>Always check capillary glucose (\"Don't Ever Forget Glucose\")</strong> in any patient with reduced consciousness, confusion, seizures or collapse.</li></ul><div class=\"tbl\"><table><thead><tr><th>Level</th><th>Action</th></tr></thead><tbody><tr><td><strong>&lt;4 mmol/L</strong> (hypoglycaemia)</td><td>Treat: oral fast-acting glucose if alert; IV 10–20% glucose or IM glucagon if not</td></tr><tr><td><strong>4–7 mmol/L</strong></td><td>Normal (fasting)</td></tr><tr><td><strong>&gt;11 mmol/L</strong> with ketones</td><td>Consider <strong>DKA</strong></td></tr></tbody></table></div><ul><li><strong>Technique</strong>: clean the finger with water (sugar on the skin gives false highs)<ul><li>use the side of the fingertip</li><li>discard the first drop if contaminated</li><li>check meter calibration and strip expiry.</li></ul></li></ul>"
+    },
+    {
+      "n": 16,
+      "text": "Identify key clinical signs during the exposure phase of the primary survey in a clinical scenario",
+      "section": "ICM",
+      "sessions": [
+        "Disability & exposure"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Look for</th><th>Example</th></tr></thead><tbody><tr><td><strong>Temperature</strong></td><td>Fever (sepsis), hypothermia</td></tr><tr><td><strong>Rashes</strong></td><td><strong>Non-blanching purpuric rash</strong> (meningococcal sepsis), urticaria (anaphylaxis)</td></tr><tr><td><strong>Bleeding / wounds</strong></td><td>Hidden blood loss, trauma</td></tr><tr><td><strong>Swelling</strong></td><td>Calf swelling (DVT), joint swelling</td></tr><tr><td><strong>Skin</strong></td><td>Pressure sores, injection marks, cellulitis</td></tr><tr><td><strong>Abdomen</strong></td><td>Distension, tenderness</td></tr><tr><td><strong>Lines and drains</strong></td><td>Infection, output</td></tr></tbody></table></div><ul><li><strong>Maintain dignity</strong>: expose only what you need, keep the patient warm, then cover up.</li></ul>"
+    },
+    {
+      "n": 17,
+      "text": "Differentiate between open and closed questioning in the context of patient history taking",
+      "section": "ICM",
+      "sessions": [
+        "History -open/closed"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th></th><th><strong>Open questions</strong></th><th><strong>Closed questions</strong></th></tr></thead><tbody><tr><td>Example</td><td>\"Tell me about the pain.\"</td><td>\"Is the pain worse when you breathe in?\"</td></tr><tr><td>Answer</td><td>The patient's own story</td><td>Yes/no or a fact</td></tr><tr><td>Use</td><td>Start of the consultation, exploring feelings, ICE</td><td>Clarifying details, red flags, systems review</td></tr><tr><td>Advantage</td><td>Rich information, rapport, less bias</td><td>Quick, precise</td></tr><tr><td>Risk</td><td>Can be long</td><td>Misses information, leading</td></tr></tbody></table></div><ul><li><strong>Funnel</strong>: start open, then narrow down.</li></ul>"
+    },
+    {
+      "n": 18,
+      "text": "Use open-ended questions to facilitate the patient’s narrative during a consultation",
+      "section": "ICM",
+      "sessions": [
+        "Questioning"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Examples</th><td>\"What brought you in today?\", \"Tell me more about that\", \"How has this affected you?\"</td></tr><tr><th scope=\"row\">Then</th><td>Stay silent (the <strong>golden minute</strong>: let the patient talk), use <strong>facilitation</strong> (nodding, \"go on\"), <strong>echoing</strong> their words, and <strong>summarising</strong>.</td></tr><tr><th scope=\"row\">Avoid</th><td>Interrupting early and multiple questions at once.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 19,
+      "text": "Use closed questions to confirm or clarify clinical information during history taking",
+      "section": "ICM",
+      "sessions": [
+        "Questioning"
+      ],
+      "html": "<div class=\"tbl kv\"><table><tbody><tr><th scope=\"row\">Use to</th><td>Pin down details (onset, duration, severity), <strong>screen for red flags</strong> and complete the systems review.</td></tr><tr><th scope=\"row\">Examples</th><td>\"When did it start?\", \"Have you lost weight?\", \"Do you smoke?\"</td></tr><tr><td colspan=\"2\"><strong>Avoid leading questions</strong> (\"You haven't had blood in your stool, have you?\") and <strong>double questions</strong> (\"Any cough or fever?\").</td></tr></tbody></table></div>"
+    }
+  ]
+}

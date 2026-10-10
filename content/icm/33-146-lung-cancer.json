@@ -1,0 +1,35 @@
+{
+  "id": "i-146",
+  "num": "146",
+  "title": "Lung cancer",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Explain the principles of breaking bad news, demonstrating an understanding of effective communication strategies, patient empathy, and the importance of maintaining emotional support during difficult conversations.",
+      "section": "ICM",
+      "sessions": [
+        "Breaking bad news"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>SPIKES</th><th>Detail</th></tr></thead><tbody><tr><td><strong>S</strong>etting</td><td>Private room, sit down, no interruptions (bleep to a colleague), tissues, invite a relative/friend, nurse present</td></tr><tr><td><strong>P</strong>erception</td><td>\"What do you understand about why we did the scan?\"</td></tr><tr><td><strong>I</strong>nvitation</td><td>\"Would you like me to go through the results?\" (how much they want to know)</td></tr><tr><td><strong>K</strong>nowledge</td><td><ul class=\"cl\"><li><strong>Warning shot</strong> (\"I'm afraid it's not the news we were hoping for\")</li><li>Then give the news in <strong>plain language</strong></li><li>Small chunks</li><li><strong>Pause</strong> and allow silence</li></ul></td></tr><tr><td><strong>E</strong>motions</td><td>Recognise and respond with <strong>empathy</strong> (\"I can see this is a huge shock\"); allow time</td></tr><tr><td><strong>S</strong>trategy and summary</td><td>Next steps, support, written information, key worker/CNS contact, follow-up; check understanding</td></tr></tbody></table></div><ul><li><strong>Avoid</strong>: jargon, euphemisms, false reassurance, rushing. <strong>Document</strong> what was said and who was present.</li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Apply clinical knowledge and problem-solving skills to solve a range of medical clues in a simulated escape room scenario, demonstrating teamwork, critical thinking, and effective decision-making under time pressure",
+      "section": "ICM",
+      "sessions": [
+        "Escape Room"
+      ],
+      "html": "<ul><li><strong>Escape-room style cases</strong> test problem solving under pressure: read the clues carefully<ul><li>prioritise (ABCDE thinking)</li><li>divide tasks within the team</li><li>communicate clearly (closed-loop)</li><li>reason through differentials</li><li>and review mistakes afterwards.</li></ul></li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Perform a clinical examination of the cranial nerves with increased confidence and accuracy.",
+      "section": "ICM",
+      "sessions": [
+        "Cranial nerve examination - 2"
+      ],
+      "html": "<ul><li><strong>Cranial nerve examination</strong>: see ICM Year 1 › Neurology &amp; cognition › LO 8. \"Increased confidence\": a fluent order (I–XII), each test explained to the patient, and interpretation: e.g. LMN facial weakness with forehead involvement = Bell's palsy<ul><li>tongue deviation towards the lesion = XII palsy</li><li>bitemporal hemianopia = chiasmal lesion.</li></ul></li></ul>"
+    }
+  ]
+}

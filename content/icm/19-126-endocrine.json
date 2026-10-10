@@ -1,0 +1,53 @@
+{
+  "id": "i-126",
+  "num": "126",
+  "title": "Endocrine",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Perform a clinical examination of the neck and thyroid gland.",
+      "section": "ICM",
+      "sessions": [
+        "Neck & thyroid"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td><strong>Introduction</strong>, consent, sit the patient on a chair (so you can stand behind), glass of water.</td></tr><tr><th scope=\"row\">2. Hands</th><td>Tremor (outstretched), sweating, <strong>palmar erythema</strong>, <strong>thyroid acropachy</strong> (Graves'), pulse (rate, <strong>AF</strong>).</td></tr><tr><th scope=\"row\">3. Face and eyes</th><td><strong>Exophthalmos</strong>, lid retraction, <strong>lid lag</strong> (follow a finger down), ophthalmoplegia (Graves' eye disease); dry hair, puffy face (hypothyroidism).</td></tr><tr><th scope=\"row\">4. Neck inspection</th><td>Swelling, scars; ask to <strong>swallow</strong> (goitre and thyroid nodules rise) and <strong>stick out the tongue</strong> (<strong>thyroglossal cyst</strong> rises).</td></tr><tr><th scope=\"row\">5. Palpate from behind</th><td>Both lobes and isthmus while swallowing; size, surface (smooth, multinodular, single nodule), tenderness; <strong>lymph nodes</strong>.</td></tr><tr><th scope=\"row\">6</th><td><strong>Percuss</strong> the sternum (retrosternal extension), <strong>auscultate</strong> for a <strong>bruit</strong> (Graves').</td></tr><tr><th scope=\"row\">7. Reflexes</th><td>Slow-relaxing (hypothyroid), brisk (hyperthyroid); proximal myopathy (stand from a chair).</td></tr></tbody></table></div><ul><li><strong>Finish</strong>: TFTs, ultrasound, antibodies.</li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Explain an endocrine condition to an older adult using clear and age-appropriate language.",
+      "section": "ICM",
+      "sessions": [
+        "Explanation"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Technique</th><th>Example (type 2 diabetes in a 78-year-old)</th></tr></thead><tbody><tr><td>Check hearing, glasses, preferred pace</td><td>Sit at eye level, face them</td></tr><tr><td>Find out what they know</td><td>\"What have you heard about diabetes?\"</td></tr><tr><td>Plain words, short chunks</td><td>\"Your body isn't handling sugar well\"</td></tr><tr><td>Relate to their life</td><td>Diet, activity, family support</td></tr><tr><td><strong>Check understanding</strong> (teach-back)</td><td>\"Can you tell me what the tablet is for?\"</td></tr><tr><td>Involve family/carers (with consent)</td><td></td></tr><tr><td><strong>Written information</strong> in clear, large print</td><td></td></tr><tr><td>Safety-net and follow-up</td><td>When to seek help</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Perform a rapid A to E assessment of a patient presenting with sepsis, demonstrating the ability to identify key clinical signs, prioritise interventions, and make appropriate clinical decisions to manage the patient's condition.",
+      "section": "ICM",
+      "sessions": [
+        "A - E assessment sepsis"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Stage</th><th>Sepsis findings</th><th>Act</th></tr></thead><tbody><tr><td><strong>A</strong></td><td>Patent?</td><td>Airway support</td></tr><tr><td><strong>B</strong></td><td><strong>RR ≥22</strong>, low sats</td><td>Oxygen to target</td></tr><tr><td><strong>C</strong></td><td><strong>Tachycardia</strong>, <strong>hypotension</strong> (SBP ≤100), prolonged CRT, mottled, low urine output</td><td>IV access, cultures, lactate, fluids</td></tr><tr><td><strong>D</strong></td><td><strong>New confusion</strong>, glucose</td><td>Treat hypoglycaemia</td></tr><tr><td><strong>E</strong></td><td><strong>Temperature</strong> (&gt;38 or &lt;36), source (chest, urine, skin, abdomen, lines), <strong>non-blanching rash</strong></td><td>Treat source</td></tr></tbody></table></div><ul><li><strong>Recognise</strong>: NEWS2 ≥5 (or 3 in one parameter) with suspected infection = think sepsis<ul><li><strong>red flag sepsis</strong> (NICE): systolic ≤90</li><li>HR ≥130</li><li>RR ≥25</li><li>new confusion</li><li>needs oxygen for sats ≥92%</li><li>non-blanching rash</li><li>mottled</li><li>no urine 18 h</li><li>lactate ≥2 → <strong>senior review and antibiotics within 1 hour</strong>.</li></ul></li></ul>"
+    },
+    {
+      "n": 4,
+      "text": "Explain and demonstrate an understanding of the Sepsis Six pathway, including the key interventions and their role in the timely management of sepsis.",
+      "section": "ICM",
+      "sessions": [
+        "A - E assessment sepsis"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Sepsis Six (within 1 hour)</th><th></th></tr></thead><tbody><tr><td><strong>Give 3</strong></td><td><strong>Oxygen</strong> (target 94–98% / 88–92%)</td></tr><tr><td></td><td><strong>IV antibiotics</strong> (broad spectrum, per guidelines)</td></tr><tr><td></td><td><strong>IV fluids</strong> (500 mL crystalloid bolus, reassess; up to 30 mL/kg)</td></tr><tr><td><strong>Take 3</strong></td><td><strong>Blood cultures</strong> (before antibiotics, if no delay)</td></tr><tr><td></td><td><strong>Lactate</strong> (and FBC, U&amp;E, CRP)</td></tr><tr><td></td><td><strong>Urine output</strong> (hourly; catheter if needed)</td></tr></tbody></table></div><ul><li><strong>Also</strong>: senior review, find and control the source<ul><li><strong>escalate</strong> to critical care if lactate &gt;4 or hypotension persists after fluids (<strong>septic shock</strong>).</li></ul></li></ul>"
+    },
+    {
+      "n": 5,
+      "text": "Demonstrate the correct technique for conducting a clinical examination of the cervical spine, identifying relevant anatomical landmarks and interpreting key physical findings.",
+      "section": "ICM",
+      "sessions": [
+        "Cervical spine examination"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Step</th><th>Detail</th></tr></thead><tbody><tr><td><strong>Look</strong></td><td>Posture, head tilt, muscle spasm, scars, wasting</td></tr><tr><td><strong>Feel</strong></td><td>Spinous processes, paraspinal muscles, tenderness</td></tr><tr><td><strong>Move</strong></td><td><strong>Flexion</strong> (chin to chest), <strong>extension</strong>, <strong>lateral flexion</strong> (ear to shoulder), <strong>rotation</strong> (look over each shoulder)</td></tr><tr><td><strong>Neurological</strong></td><td>Upper limb <strong>myotomes, dermatomes and reflexes</strong>; check for <strong>myelopathy</strong> (Hoffmann's, gait, lower limb UMN signs)</td></tr><tr><td><strong>Special tests</strong></td><td><strong>Spurling's</strong> (extension, rotation and axial load reproduces radicular arm pain)</td></tr></tbody></table></div><ul><li><strong>Red flags</strong>: trauma, weight loss, fever, progressive neurological deficit, myelopathy, rheumatoid (atlantoaxial instability).</li></ul>"
+    }
+  ]
+}

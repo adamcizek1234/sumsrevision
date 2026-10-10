@@ -1,0 +1,44 @@
+{
+  "id": "i-145",
+  "num": "145",
+  "title": "IBD",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Perform an examination of the male genitalia with increased confidence and appropriate clinical technique.",
+      "section": "ICM",
+      "sessions": [
+        "Testicular & groin examination"
+      ],
+      "html": "<ul><li><strong>Male genital and groin examination</strong>: see ICM Year 1 › Reproductive &amp; sexual health › LO 10. \"Increased confidence\": clear explanation<ul><li>chaperone</li><li>standing and lying</li><li>systematic palpation of both testes</li><li>epididymis and cords</li><li>transillumination</li><li>hernial orifices with cough</li><li>inguinal nodes</li><li>dignity throughout.</li></ul></li></ul>"
+    },
+    {
+      "n": 2,
+      "text": "Perform an examination of the ear, nose and throat with increased confidence and appropriate clinical technique.",
+      "section": "ICM",
+      "sessions": [
+        "ENT"
+      ],
+      "html": "<ul><li><strong>ENT examination</strong>: see ICM Year 1 › Eyes &amp; ENT › LO 1.<ul><li>Focus on correct otoscope technique (largest comfortable speculum, pull the pinna up and back, steady hand braced on the cheek), Rinne's and Weber's interpretation, and a quick systematic throat and neck exam.</li></ul></li></ul>"
+    },
+    {
+      "n": 3,
+      "text": "Perform simple interrupted suturing on a model or in a clinical setting.",
+      "section": "ICM",
+      "sessions": [
+        "Suturing"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Check the wound (clean, &lt;12–24 h, no foreign body, no tendon/nerve injury, not a bite needing delayed closure), consent, <strong>tetanus status</strong>.</td></tr><tr><th scope=\"row\">2</th><td>Clean, <strong>local anaesthetic</strong>, irrigate, sterile field and gloves.</td></tr><tr><th scope=\"row\">3. Needle holder</th><td>Grasp the needle two-thirds from the tip; <strong>toothed forceps</strong> to evert the edge.</td></tr><tr><th scope=\"row\">4</th><td><ul class=\"cl\"><li>Enter at <strong>90°</strong> to the skin</li><li>~3–5 mm from the edge</li><li>Follow the curve of the needle</li><li>Exit the same distance on the other side at the same depth.</li></ul></td></tr><tr><th scope=\"row\">5. Instrument tie</th><td>Double throw then two single throws (surgeon's knot), knot to one side; cut ends ~5 mm.</td></tr><tr><th scope=\"row\">6</th><td>Space sutures ~5–10 mm apart; <strong>evert edges</strong>, don't strangle (swelling).</td></tr><tr><th scope=\"row\">7</th><td>Dressing; advise on wound care; <strong>removal time</strong>: face 3–5 days, scalp 7–10, trunk and arms 7–10, legs and feet 10–14.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Suture material</th><th>Use</th></tr></thead><tbody><tr><td>Non-absorbable (nylon/prolene)</td><td>Skin closure</td></tr><tr><td>Absorbable (Vicryl, Monocryl)</td><td>Deep layers, subcuticular, mouth</td></tr><tr><td>Size</td><td>Face 5-0/6-0, limbs and trunk 3-0/4-0</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Describe the indications, types, and safe administration of local anaesthetics.",
+      "section": "ICM",
+      "sessions": [
+        "Suturing"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Local anaesthetic</th><th>Max dose (plain)</th><th>With adrenaline</th><th>Onset / duration</th></tr></thead><tbody><tr><td><strong>Lidocaine</strong></td><td><strong>3 mg/kg</strong> (max 200 mg)</td><td><strong>7 mg/kg</strong> (max 500 mg)</td><td>Fast / 1–2 h</td></tr><tr><td><strong>Bupivacaine</strong></td><td><strong>2 mg/kg</strong> (max 150 mg)</td><td>2 mg/kg</td><td>Slow / 4–8 h</td></tr></tbody></table></div><ul><li><strong>1% = 10 mg/mL</strong> (e.g. 20 mL of 1% lidocaine = 200 mg).</li><li><strong>Adrenaline</strong> prolongs action and reduces bleeding<ul><li>traditionally avoided in digits, nose, penis, ears (end arteries), though evidence now suggests it's safe in fingers.</li></ul></li><li><strong>Safe administration</strong>: check allergy and weight<ul><li>calculate the max dose</li><li><strong>aspirate</strong> before injecting (avoid IV)</li><li>inject slowly through wound edges</li><li>wait for effect (test sensation).</li></ul></li><li><strong>Toxicity (LAST)</strong>: perioral tingling, metallic taste, tinnitus, lightheadedness → seizures → <strong>arrhythmias, cardiac arrest</strong><ul><li>stop, ABCDE, call for help, <strong>lipid emulsion (Intralipid 20%)</strong>.</li></ul></li></ul>"
+    }
+  ]
+}

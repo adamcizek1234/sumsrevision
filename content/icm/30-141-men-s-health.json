@@ -1,0 +1,62 @@
+{
+  "id": "i-141",
+  "num": "141",
+  "title": "Men's Health",
+  "year": 1,
+  "los": [
+    {
+      "n": 1,
+      "text": "Perform a clinical examination of the male genitalia and groin, demonstrating appropriate technique, communication, and respect for patient privacy and dignity",
+      "section": "ICM",
+      "sessions": [
+        "Testicular & groin examination"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td>Explain, consent, <strong>chaperone</strong>, privacy; examine <strong>standing</strong> then lying.</td></tr><tr><th scope=\"row\">2. Inspect</th><td>Skin, penis (hypospadias, discharge, ulcers, warts), scrotum (swelling, redness, asymmetry), groin (hernias: ask to <strong>cough</strong>).</td></tr><tr><th scope=\"row\">3</th><td><ul class=\"cl\"><li><strong>Palpate each testis</strong> between thumb and two fingers: size</li><li>Consistency</li><li><strong>Lumps</strong> (can you get above it? separate from the testis?)</li><li><strong>Epididymis</strong> (behind)</li><li><strong>Spermatic cord</strong> (vas deferens).</li></ul></td></tr><tr><th scope=\"row\">4</th><td><strong>Transilluminate</strong> any swelling (<strong>hydrocele</strong> glows; solid tumours don't).</td></tr><tr><th scope=\"row\">5. Hernias</th><td>Inguinal (above and medial to the pubic tubercle) vs femoral (below and lateral); reducible?</td></tr><tr><th scope=\"row\">6</th><td><strong>Inguinal lymph nodes</strong>.</td></tr></tbody></table></div><div class=\"tbl\"><table><thead><tr><th>Finding</th><th>Suggests</th></tr></thead><tbody><tr><td>Hard, painless lump in the testis</td><td><strong>Testicular cancer</strong> → urgent ultrasound, 2-week-wait</td></tr><tr><td>Fluid swelling around the testis, transilluminates</td><td><strong>Hydrocele</strong></td></tr><tr><td>\"Bag of worms\" above the testis</td><td><strong>Varicocele</strong> (left)</td></tr><tr><td>Tender epididymis, fever, dysuria</td><td><strong>Epididymo-orchitis</strong></td></tr><tr><td>Sudden pain, high-riding horizontal testis</td><td><strong>Torsion</strong>: emergency</td></tr><tr><td>Can't get above it, cough impulse</td><td><strong>Inguinoscrotal hernia</strong></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 2,
+      "text": "Perform a full cranial nerve examination and interpret clinical findings.",
+      "section": "ICM",
+      "sessions": [
+        "Cranial nerve examination"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Nerve</th><th>Test</th></tr></thead><tbody><tr><td><strong>I</strong> Olfactory</td><td>Ask about smell</td></tr><tr><td><strong>II</strong> Optic</td><td><strong>Acuity</strong> (Snellen), <strong>fields</strong> (confrontation), <strong>pupils</strong> (direct, consensual, RAPD), fundoscopy, colour (Ishihara)</td></tr><tr><td><strong>III, IV, VI</strong></td><td>Eye movements in an \"H\"; diplopia, nystagmus, ptosis</td></tr><tr><td><strong>V</strong> Trigeminal</td><td>Sensation V1–V3, jaw muscles (clench, open against resistance), corneal reflex</td></tr><tr><td><strong>VII</strong> Facial</td><td>Raise eyebrows, close eyes tightly, puff cheeks, show teeth; <strong>forehead sparing</strong> = UMN</td></tr><tr><td><strong>VIII</strong> Vestibulocochlear</td><td>Whisper test, Rinne's, Weber's</td></tr><tr><td><strong>IX, X</strong></td><td>Say \"ahh\" (uvula deviates <strong>away</strong> from the lesion), gag (optional), swallow, voice</td></tr><tr><td><strong>XI</strong> Accessory</td><td>Shrug shoulders, turn head against resistance</td></tr><tr><td><strong>XII</strong> Hypoglossal</td><td>Tongue: wasting, fasciculation, <strong>deviates towards</strong> the lesion</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 3,
+      "text": "Perform a structured A to E (Airway, Breathing, Circulation, Disability, Exposure) assessment on a patient presenting with chest pain.",
+      "section": "ICM",
+      "sessions": [
+        "Cranial nerve examination"
+      ],
+      "html": "<div class=\"tbl\"><table><thead><tr><th>Chest pain A–E</th><th></th></tr></thead><tbody><tr><td><strong>A, B</strong>: oxygen only if sats &lt;94%</td><td></td></tr><tr><td><strong>C</strong>: <strong>12-lead ECG within 10 minutes</strong>, IV access, bloods (<strong>troponin</strong>), BP both arms (dissection), heart sounds</td><td></td></tr><tr><td><strong>D</strong>: pain score, glucose</td><td></td></tr><tr><td><strong>E</strong>: calves (PE), abdomen</td><td></td></tr><tr><td><strong>ACS treatment</strong>: <strong>aspirin 300 mg</strong>, GTN, morphine (with antiemetic) if needed; STEMI → <strong>primary PCI</strong> (within 120 min)</td><td></td></tr><tr><td><strong>Differentials</strong>: ACS, aortic dissection, PE, pneumothorax, pericarditis, oesophageal rupture</td><td></td></tr></tbody></table></div>"
+    },
+    {
+      "n": 4,
+      "text": "Manage a cardiac arrest scenario, including initiating basic life support and using a defibrillator appropriately.",
+      "section": "ICM",
+      "sessions": [
+        "ABCDE - MI"
+      ],
+      "html": "<div class=\"tbl kv steps\"><table><tbody><tr><th scope=\"row\">1</th><td><strong>Recognise</strong> arrest: unresponsive, not breathing normally; <strong>call the arrest team (2222)</strong>, note the time.</td></tr><tr><th scope=\"row\">2</th><td><strong>Start CPR 30:2</strong> immediately; attach the <strong>defibrillator</strong> pads as soon as it arrives.</td></tr><tr><th scope=\"row\">3. Rhythm check<span class=\"paren\">(pause &lt;5 s)</span></th><td><strong>Shockable</strong> → shock then CPR 2 min; <strong>non-shockable</strong> → CPR 2 min.</td></tr><tr><th scope=\"row\">4. Airway</th><td>Adjuncts, bag-valve-mask, supraglottic device; oxygen; <strong>IV/IO access</strong>.</td></tr><tr><th scope=\"row\">5. Drugs</th><td>Adrenaline 1 mg (immediately for non-shockable; after the 3rd shock for shockable, then every 3–5 min), amiodarone 300 mg after 3 shocks.</td></tr><tr><th scope=\"row\">6</th><td><strong>Reversible causes</strong> (4 Hs, 4 Ts); swap compressors every 2 minutes; check DNACPR status.</td></tr><tr><th scope=\"row\">7. ROSC</th><td>ABCDE, 12-lead ECG, oxygen to 94–98%, treat the cause (PCI), post-resuscitation care.</td></tr></tbody></table></div>"
+    },
+    {
+      "n": 5,
+      "text": "Differentiate between cardiac rhythms that require defibrillation and those that do not, demonstrating accurate rhythm recognition and appropriate decision-making in emergency situations.",
+      "section": "ICM",
+      "sessions": [
+        "ABCDE - MI"
+      ],
+      "html": "<ul><li><strong>Shockable vs non-shockable rhythms</strong>: see ICM Year 1 › Emergencies &amp; A–E › LO 27 (VF and pulseless VT are shockable; asystole and PEA aren't).</li></ul>"
+    },
+    {
+      "n": 6,
+      "text": "Safely perform defibrillation in accordance with current clinical guidelines, demonstrating correct use of equipment and adherence to safety protocols during resuscitation.",
+      "section": "ICM",
+      "sessions": [
+        "ABCDE - MI"
+      ],
+      "html": "<ul><li><strong>Safe defibrillation</strong>: see ICM Year 1 › Emergencies &amp; A–E › LO 28 (pad position, charge during compressions, \"stand clear, oxygen away\", shock, resume CPR immediately).</li></ul>"
+    }
+  ]
+}
