@@ -86,7 +86,7 @@
         "Stinging",
         "Systemic β-blockade: bronchospasm, bradycardia"
       ],
-      "sewhy": "Drops drain into the nose and are absorbed without first-pass metabolism, so systemic β-blockade can cause bronchospasm and bradycardia.",
+      "sewhy": "The drops sting briefly. They drain into the nose and are absorbed without first-pass metabolism, so they can cause the same systemic effects as β-blocker tablets, mainly bronchospasm and bradycardia.",
       "ci": [
         {
           "c": "Asthma",
@@ -171,7 +171,7 @@
         "Kidney stones",
         "Taste change"
       ],
-      "sewhy": "Carbonic anhydrase inhibition causes bicarbonate loss in urine (metabolic acidosis, potassium loss, stones), diuresis and paraesthesia.",
+      "sewhy": "Carbonic anhydrase inhibition causes bicarbonate loss in urine (metabolic acidosis, potassium loss, stones) and a diuresis. Like topiramate, which shares the mechanism, it causes paraesthesia and stones, and fizzy drinks taste flat.",
       "ci": [
         {
           "c": "Sulfonamide allergy",
@@ -340,9 +340,11 @@
       "se": [
         "Blurred vision",
         "Light sensitivity",
-        "Stinging"
+        "Stinging",
+        "Acute angle-closure (narrow angles)",
+        "Systemic antimuscarinic effects (children, cyclopentolate)"
       ],
-      "sewhy": "Dilated pupils let in more light (photophobia), and cycloplegia blurs near vision.",
+      "sewhy": "The drops sting briefly. Dilated pupils let in more light (photophobia), cycloplegia blurs near vision, and dilation can close a narrow drainage angle. Absorbed drug can cause systemic antimuscarinic effects (flushing, tachycardia, confusion), especially cyclopentolate in children.",
       "ci": [
         {
           "c": "Known or suspected angle-closure (narrow angles)",

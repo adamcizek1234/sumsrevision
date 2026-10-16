@@ -124,7 +124,7 @@
         "Bronchospasm",
         "Hyperkalaemia"
       ],
-      "sewhy": "Blocking prostaglandins removes stomach protection (ulcers, bleeding), constricts the afferent arteriole (AKI, salt retention, raised BP) and shifts arachidonic acid towards leukotrienes (bronchospasm); COX-2 selectivity raises thrombotic risk.",
+      "sewhy": "Blocking prostaglandins removes stomach protection (ulcers, bleeding), constricts the afferent arteriole (AKI, salt retention, raised BP) and lowers renin and aldosterone (hyperkalaemia). As with aspirin, arachidonic acid is shunted towards leukotrienes (bronchospasm); COX-2 selectivity raises thrombotic risk.",
       "ci": [
         {
           "c": "Active or previous peptic ulcer / GI bleeding",
@@ -296,11 +296,12 @@
       "se": [
         "Constipation",
         "Nausea",
-        "Drowsiness",
+        "Drowsiness, dizziness",
         "Dependence",
+        "Respiratory depression (overdose, ultra-rapid CYP2D6 metabolisers)",
         "Seizures and serotonin syndrome (tramadol)"
       ],
-      "sewhy": "μ-opioid effects cause constipation, nausea and drowsiness; tramadol also blocks serotonin and noradrenaline reuptake (serotonin syndrome, lowered seizure threshold).",
+      "sewhy": "They share the μ-opioid effects of strong opioids, more mildly: constipation, nausea, drowsiness and dependence. Codeine works by being converted to morphine, so ultra-rapid CYP2D6 metabolisers can get dangerous respiratory depression (no codeine under 12). Tramadol also blocks serotonin and noradrenaline reuptake (serotonin syndrome, lowered seizure threshold).",
       "ci": [
         {
           "c": "Children under 12, or under 18 after tonsillectomy (codeine)",
@@ -694,9 +695,10 @@
         "Arrhythmias",
         "Hypertension",
         "Anxiety, tremor",
-        "Hyperglycaemia"
+        "Hyperglycaemia",
+        "Hypokalaemia"
       ],
-      "sewhy": "Stimulating α and β receptors raises heart rate and BP and can cause arrhythmias; β effects cause tremor and anxiety, and glycogenolysis raises glucose.",
+      "sewhy": "Stimulating α and β receptors raises heart rate and BP and can cause arrhythmias. β2 effects cause tremor and anxiety and, as with salbutamol, drive potassium into cells (hypokalaemia); glycogenolysis raises glucose.",
       "ci": [
         {
           "c": "Patients on beta-blockers",
@@ -751,7 +753,7 @@
         "Peripheral and gut ischaemia",
         "Extravasation necrosis"
       ],
-      "sewhy": "Strong α1 vasoconstriction raises BP but can starve fingers, toes and gut of blood; leaking from the vein causes local necrosis.",
+      "sewhy": "Strong α1 vasoconstriction raises BP but can starve fingers, toes and gut of blood; its β1 effect can cause arrhythmias, and leaking from the vein causes local necrosis.",
       "ci": [
         {
           "c": "Uncorrected hypovolaemia",
@@ -807,11 +809,12 @@
       "se": [
         "Tachycardia",
         "Dry mouth",
+        "Blurred vision",
         "Urinary retention",
-        "Confusion",
-        "Blurred vision"
+        "Constipation",
+        "Confusion (older people)"
       ],
-      "sewhy": "Blocking muscarinic receptors removes parasympathetic tone: tachycardia, dry mouth, urinary retention, blurred vision and, in older people, confusion.",
+      "sewhy": "Blocking muscarinic receptors removes parasympathetic tone: tachycardia, dry mouth, blurred vision, urinary retention and constipation. It crosses into the brain, so older people can become confused.",
       "ci": [
         {
           "c": "Angle-closure glaucoma, urinary retention",

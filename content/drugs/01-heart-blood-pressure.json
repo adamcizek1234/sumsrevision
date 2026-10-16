@@ -185,15 +185,16 @@
       ],
       "se": [
         "Hyperkalaemia",
-        "↑ creatinine",
-        "Dizziness / hypotension"
+        "↑ creatinine / AKI",
+        "Hypotension, dizziness",
+        "Angioedema (much rarer than with ACE inhibitors)"
       ],
-      "sewhy": "Blocking angiotensin II receptors lowers BP, reduces aldosterone (potassium rises) and relaxes the efferent arteriole (creatinine rises); bradykinin is unaffected, so no cough.",
+      "sewhy": "ARBs cut angiotensin II action like ACE inhibitors, so they share those effects: lower BP (hypotension, dizziness), less aldosterone (potassium rises) and a relaxed efferent arteriole (creatinine rises). Unlike ACE inhibitors they don't stop bradykinin breakdown, so there's no dry cough and angioedema is much rarer.",
       "ci": [
         {
           "c": "Pregnancy",
           "k": "y1-114-1",
-          "why": "Same fetotoxicity as ACE inhibitors",
+          "why": "Fetotoxic in 2nd–3rd trimester: fetal renal failure, oligohydramnios",
           "cau": false,
           "x": [
             [
@@ -300,10 +301,10 @@
       "se": [
         "Hypotension",
         "Hyperkalaemia",
-        "Renal impairment",
+        "↑ creatinine / AKI",
         "Angioedema"
       ],
-      "sewhy": "Valsartan blocks angiotensin II (hypotension, high potassium, renal effects), and sacubitril stops neprilysin breaking down bradykinin, so angioedema can occur.",
+      "sewhy": "Valsartan is an ARB, so it has the ARB effects (hypotension, high potassium, rising creatinine). Sacubitril also stops neprilysin breaking down bradykinin, so angioedema is more likely than with an ARB alone, which is why an ACE inhibitor must be stopped 36 hours before starting.",
       "ci": [
         {
           "c": "ACE inhibitor in last 36 h",
@@ -328,11 +329,11 @@
         {
           "c": "Previous angioedema",
           "k": "y1-140-3",
-          "why": "Same bradykinin mechanism",
+          "why": "Sacubitril stops bradykinin breakdown → airway swelling",
           "cau": false,
           "x": [
             [
-              "Same histamine mechanism",
+              "Neprilysin block raises histamine → airway swelling",
               "Not histamine: neprilysin breaks down bradykinin, so it accumulates."
             ],
             [
@@ -390,7 +391,7 @@
     {
       "id": "beta-blockers",
       "name": "Beta-blockers",
-      "ex": "bisoprolol, atenolol, propranolol, labetalol",
+      "ex": "bisoprolol, atenolol, propranolol, carvedilol",
       "uses": [
         {
           "t": "Angina",
@@ -435,14 +436,14 @@
       "se": [
         "Fatigue",
         "Cold peripheries",
-        "Bradycardia",
+        "Bradycardia, heart block",
         "Hypotension",
         "Bronchospasm",
-        "Nightmares",
+        "Nightmares, sleep disturbance",
         "Erectile dysfunction",
         "Masks hypoglycaemia"
       ],
-      "sewhy": "Blocking β1 slows the heart and lowers output (bradycardia, fatigue, hypotension); blocking β2 constricts airways and peripheral vessels (bronchospasm, cold hands). They also blunt the adrenergic warning signs of hypoglycaemia and act centrally (nightmares).",
+      "sewhy": "Blocking β1 slows the heart and AV node and lowers output (bradycardia, heart block, hypotension, fatigue). Blocking β2 constricts airways and peripheral vessels (bronchospasm, cold hands), worse with non-selective drugs like propranolol than cardioselective ones like bisoprolol. They blunt the adrenergic warning signs of hypoglycaemia (tremor, palpitations), lipid-soluble ones like propranolol enter the brain (nightmares), and erectile dysfunction is a recognised effect.",
       "ci": [
         {
           "c": "Asthma",
@@ -684,13 +685,14 @@
         ]
       ],
       "se": [
-        "Constipation (verapamil)",
         "Bradycardia",
         "Heart block",
         "Hypotension",
-        "Ankle oedema"
+        "Worsening heart failure",
+        "Ankle oedema",
+        "Constipation (verapamil)"
       ],
-      "sewhy": "Verapamil and diltiazem act on the heart: slowing the SA and AV nodes (bradycardia, heart block) and reducing contractility. Verapamil also relaxes gut smooth muscle, causing constipation.",
+      "sewhy": "Verapamil and diltiazem act on the heart as well as the vessels: they slow the SA and AV nodes (bradycardia, heart block) and reduce contractility (worsening heart failure, hypotension), which is why they're dangerous with a beta-blocker. Their milder arteriolar dilation causes some ankle oedema (less than amlodipine), and verapamil relaxes gut smooth muscle (constipation).",
       "ci": [
         {
           "c": "Heart failure with reduced EF",
@@ -782,13 +784,14 @@
       "se": [
         "Hyponatraemia",
         "Hypokalaemia",
+        "Hypomagnesaemia",
+        "Hypercalcaemia",
         "Raised urate / gout",
         "Hyperglycaemia",
-        "Hypercalcaemia",
-        "Erectile dysfunction",
-        "Postural hypotension"
+        "Postural hypotension",
+        "Erectile dysfunction"
       ],
-      "sewhy": "Blocking distal sodium reabsorption loses sodium (hyponatraemia) and, by delivering more sodium to the collecting duct, potassium. They reduce urate excretion (gout), impair insulin release (hyperglycaemia) and increase calcium reabsorption.",
+      "sewhy": "Blocking sodium reabsorption in the distal tubule loses sodium (hyponatraemia, the main danger in older people) and magnesium, and the extra sodium reaching the collecting duct is swapped for potassium (hypokalaemia). Unlike loop diuretics they increase calcium reabsorption (hypercalcaemia). They compete with urate for excretion (gout), impair insulin release partly through low potassium (hyperglycaemia), lower BP on standing, and cause erectile dysfunction.",
       "ci": [
         {
           "c": "Gout",
@@ -909,11 +912,12 @@
         "Hypokalaemia",
         "Hyponatraemia",
         "Hypomagnesaemia",
-        "Dehydration / AKI",
-        "Gout",
+        "Hypocalcaemia",
+        "Dehydration, postural hypotension, AKI",
+        "Raised urate / gout",
         "Ototoxicity (high-dose IV)"
       ],
-      "sewhy": "Blocking NKCC2 loses sodium, potassium, magnesium and water in large amounts (low electrolytes, dehydration, AKI); they compete with urate for excretion (gout) and affect the same transporter in the inner ear (ototoxicity at high IV doses).",
+      "sewhy": "Blocking NKCC2 loses large amounts of sodium and water (dehydration, postural hypotension, AKI), and, as with thiazides, the extra sodium reaching the collecting duct is swapped for potassium (hypokalaemia); magnesium is lost too. Unlike thiazides they increase calcium loss (hypocalcaemia). They compete with urate for excretion (gout) and act on a similar transporter in the inner ear (ototoxicity at high IV doses, worse with gentamicin).",
       "ci": [
         {
           "c": "Hypovolaemia, dehydration",
@@ -1032,11 +1036,12 @@
       ],
       "se": [
         "Hyperkalaemia",
-        "Gynaecomastia (spironolactone)",
+        "Hyponatraemia",
         "↑ creatinine",
-        "Hyponatraemia"
+        "Gynaecomastia, breast tenderness (spironolactone)",
+        "Menstrual irregularity (spironolactone)"
       ],
-      "sewhy": "Blocking aldosterone means the kidney keeps potassium and loses sodium; spironolactone also blocks androgen receptors (gynaecomastia), which eplerenone mostly avoids.",
+      "sewhy": "Blocking aldosterone in the collecting duct keeps potassium and loses sodium (hyperkalaemia, hyponatraemia), and the fluid loss can raise creatinine; the potassium risk is highest with an ACE inhibitor or ARB. Spironolactone also blocks androgen and progesterone receptors (gynaecomastia, menstrual change), which eplerenone mostly avoids.",
       "ci": [
         {
           "c": "Hyperkalaemia",
@@ -1258,7 +1263,7 @@
         "Bradycardia",
         "AF"
       ],
-      "sewhy": "Ivabradine blocks HCN channels in the SA node (slowing the heart) and similar channels in the retina, causing transient bright flashes (phosphenes).",
+      "sewhy": "Ivabradine blocks HCN channels in the SA node (slowing the heart) and similar channels in the retina, causing transient bright flashes (phosphenes). AF is slightly more common on it, so check the pulse; it stops working if AF develops.",
       "ci": [
         {
           "c": "Not in sinus rhythm (e.g. AF)",
@@ -1355,9 +1360,10 @@
         "Nausea, vomiting, diarrhoea",
         "Yellow-green vision",
         "Confusion",
-        "Any arrhythmia (toxicity)"
+        "Any arrhythmia (toxicity)",
+        "Gynaecomastia"
       ],
-      "sewhy": "Digoxin inhibits the Na⁺/K⁺-ATPase and increases vagal tone; in excess this affects the gut (nausea), retina (yellow-green vision), brain (confusion) and makes cardiac cells excitable, causing almost any arrhythmia, worse with hypokalaemia.",
+      "sewhy": "Digoxin inhibits the Na⁺/K⁺-ATPase and increases vagal tone; in excess this affects the gut (nausea), retina (yellow-green vision), brain (confusion) and makes cardiac cells excitable, causing almost any arrhythmia, worse with hypokalaemia. Its steroid-like structure can act on oestrogen receptors (gynaecomastia).",
       "ci": [
         {
           "c": "2nd/3rd-degree heart block",
@@ -1477,9 +1483,10 @@
         "Photosensitivity, grey skin",
         "Corneal deposits",
         "Bradycardia",
-        "QT prolongation"
+        "QT prolongation",
+        "Many interactions (warfarin, digoxin, simvastatin)"
       ],
-      "sewhy": "Amiodarone is iodine-rich (thyroid dysfunction), highly fat-soluble with a very long half-life, so it accumulates in lungs, liver, skin and cornea, causing fibrosis, hepatitis, grey skin and deposits; it also prolongs repolarisation (long QT).",
+      "sewhy": "Amiodarone is iodine-rich (thyroid dysfunction), highly fat-soluble with a very long half-life, so it accumulates in lungs, liver, skin and cornea (fibrosis, hepatitis, grey skin, deposits). It prolongs repolarisation (long QT), its β- and Ca²⁺-blocking effects slow the heart, and it inhibits the enzymes that clear warfarin, digoxin and simvastatin, raising their levels.",
       "ci": [
         {
           "c": "Sinus bradycardia or heart block (not paced)",
@@ -1603,7 +1610,7 @@
         "GI upset",
         "Small ↑ diabetes risk"
       ],
-      "sewhy": "Statins reduce cholesterol synthesis in muscle as well as liver, depleting molecules like coenzyme Q10 and causing myalgia and, rarely, rhabdomyolysis (more with CYP3A4 inhibitors). Liver enzymes may rise slightly.",
+      "sewhy": "Statins reduce cholesterol synthesis in muscle as well as liver, depleting molecules like coenzyme Q10 and causing myalgia and, rarely, rhabdomyolysis (more with CYP3A4 inhibitors such as clarithromycin). Liver enzymes may rise slightly, GI upset is common, and they slightly raise diabetes risk, which the cardiovascular benefit far outweighs.",
       "ci": [
         {
           "c": "Pregnancy, breastfeeding",
@@ -1697,12 +1704,14 @@
         ]
       ],
       "se": [
-        "Postural hypotension",
+        "First-dose and postural hypotension",
         "Dizziness",
         "Headache",
-        "Oedema"
+        "Ankle oedema",
+        "Nasal congestion",
+        "Floppy iris syndrome"
       ],
-      "sewhy": "Blocking α1 receptors relaxes vascular smooth muscle, so blood pressure falls on standing (especially after the first dose), causing dizziness.",
+      "sewhy": "Doxazosin blocks α1 receptors in blood vessels as well as the prostate, so BP falls on standing, especially after the first dose (start low, at bedtime), and vasodilation causes dizziness, headache, nasal congestion and ankle oedema. Like tamsulosin it relaxes the iris dilator (floppy iris during cataract surgery); because it isn't prostate-selective it lowers BP more than tamsulosin and affects ejaculation less.",
       "ci": [
         {
           "c": "History of postural hypotension or micturition syncope",

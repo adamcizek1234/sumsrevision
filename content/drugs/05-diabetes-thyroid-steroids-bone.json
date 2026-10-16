@@ -41,7 +41,7 @@
         "B12 deficiency",
         "Lactic acidosis (rare)"
       ],
-      "sewhy": "Metformin concentrates in gut cells, causing GI upset; it reduces B12 absorption, and because it inhibits mitochondrial lactate use, it can accumulate in renal failure and cause lactic acidosis.",
+      "sewhy": "Metformin concentrates in gut cells, causing GI upset and a metallic taste; it reduces B12 absorption. Because it inhibits mitochondrial lactate use, it can accumulate in renal failure or hypoxia and cause lactic acidosis.",
       "ci": [
         {
           "c": "eGFR <30",
@@ -176,7 +176,7 @@
         "GI upset",
         "Hyponatraemia"
       ],
-      "sewhy": "They make beta cells release insulin whatever the glucose level, causing hypoglycaemia and weight gain (insulin is anabolic).",
+      "sewhy": "They make beta cells release insulin whatever the glucose level, causing hypoglycaemia and weight gain (insulin is anabolic). GI upset is common, and they can rarely cause hyponatraemia (an SIADH-like effect).",
       "ci": [
         {
           "c": "Type 1 diabetes / DKA",
@@ -300,7 +300,7 @@
         "Euglycaemic DKA",
         "Fournier's gangrene (rare)"
       ],
-      "sewhy": "Glucose in the urine feeds genital and urinary infections; the osmotic diuresis causes volume depletion; lower insulin needs favour ketone production (DKA with near-normal glucose).",
+      "sewhy": "Glucose in the urine feeds genital and urinary infections, and rarely a genital infection spreads into the perineum (Fournier's gangrene). The osmotic diuresis causes volume depletion; lower insulin needs favour ketone production (DKA with near-normal glucose).",
       "ci": [
         {
           "c": "Type 1 diabetes or previous DKA",
@@ -399,7 +399,7 @@
         "Pancreatitis",
         "Injection-site reactions"
       ],
-      "sewhy": "Slowing gastric emptying and acting on brain satiety centres cause nausea and vomiting; rapid weight loss promotes gallstones, and pancreatitis has been reported.",
+      "sewhy": "Slowing gastric emptying and acting on brain satiety centres cause nausea and vomiting; rapid weight loss promotes gallstones, pancreatitis has been reported, and the injections can irritate the skin.",
       "ci": [
         {
           "c": "Previous pancreatitis",
@@ -513,7 +513,7 @@
         "Headache",
         "Nasopharyngitis"
       ],
-      "sewhy": "They raise endogenous incretins modestly, so side effects are few; pancreatitis is rare.",
+      "sewhy": "They raise endogenous incretins only modestly, so side effects are few (headache, nasopharyngitis); pancreatitis is rare.",
       "ci": [
         {
           "c": "Previous pancreatitis",
@@ -589,7 +589,7 @@
         "Bladder cancer",
         "Hepatotoxicity"
       ],
-      "sewhy": "PPAR-γ activation makes the kidney retain sodium and water (oedema, heart failure), promotes fat storage (weight gain) and shifts bone precursors away from bone (fractures).",
+      "sewhy": "PPAR-γ activation makes the kidney retain sodium and water (oedema, heart failure), promotes fat storage (weight gain) and shifts bone precursors away from bone (fractures). It carries a small increased risk of bladder cancer (check for haematuria) and can injure the liver.",
       "ci": [
         {
           "c": "Heart failure (any history)",
@@ -880,9 +880,10 @@
       "se": [
         "Agranulocytosis (sore throat → urgent FBC)",
         "Rash, itch",
-        "Hepatotoxicity (PTU)"
+        "Hepatotoxicity (PTU)",
+        "Teratogenic (carbimazole, first trimester)"
       ],
-      "sewhy": "An idiosyncratic immune reaction can suddenly stop neutrophil production (agranulocytosis), so a sore throat or fever needs an urgent FBC.",
+      "sewhy": "An idiosyncratic immune reaction can suddenly stop neutrophil production (agranulocytosis), so a sore throat or fever needs an urgent FBC. Rash and itch are common. PTU can cause severe liver failure, and carbimazole is teratogenic in the first trimester, so PTU is used then.",
       "ci": [
         {
           "c": "Previous agranulocytosis on the drug",
@@ -993,17 +994,18 @@
       ],
       "se": [
         "Hyperglycaemia",
-        "Hypertension",
-        "Osteoporosis",
+        "Hypertension, fluid retention",
+        "Hypokalaemia",
+        "Osteoporosis, avascular necrosis",
+        "Proximal myopathy",
         "Infection",
         "Peptic ulcer",
         "Mood change, psychosis, insomnia",
         "Cushingoid features",
         "Adrenal suppression",
-        "Cataract, glaucoma",
-        "Proximal myopathy"
+        "Cataract, glaucoma"
       ],
-      "sewhy": "Excess glucocorticoid raises glucose, retains salt (hypertension), breaks down bone and muscle (osteoporosis, myopathy), suppresses immunity, impairs mucosal protection and affects mood. It also suppresses the HPA axis, so stopping suddenly causes adrenal crisis.",
+      "sewhy": "Excess glucocorticoid raises glucose and retains salt and water while losing potassium (hypertension, oedema, hypokalaemia; least with dexamethasone). It breaks down bone and muscle (osteoporosis, avascular necrosis, proximal myopathy), suppresses immunity, impairs gastric mucosal protection, affects mood and sleep, redistributes fat (Cushingoid features) and raises eye pressure and cataract risk. It also suppresses the HPA axis, so stopping suddenly causes adrenal crisis.",
       "ci": [
         {
           "c": "Untreated systemic infection or TB",
@@ -1167,7 +1169,7 @@
         "Hypocalcaemia",
         "Flu-like symptoms (IV)"
       ],
-      "sewhy": "Tablets irritate the oesophagus if they lodge (take upright with water). Strongly suppressing bone turnover impairs repair (jaw osteonecrosis, atypical fractures), and lowering resorption can drop calcium.",
+      "sewhy": "Tablets irritate the oesophagus if they lodge (take upright with water). Strongly suppressing bone turnover impairs repair (jaw osteonecrosis, atypical fractures), lowering resorption can drop calcium, and IV doses trigger a short flu-like acute-phase reaction.",
       "ci": [
         {
           "c": "Oesophageal disorders (stricture, achalasia)",

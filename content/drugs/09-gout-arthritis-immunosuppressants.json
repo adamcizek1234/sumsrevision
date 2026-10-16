@@ -36,7 +36,7 @@
         "Flare when starting",
         "GI upset"
       ],
-      "sewhy": "Rapid falls in urate mobilise crystals (flares when starting); rarely it triggers severe HLA-B*58:01-linked skin reactions (SJS/DRESS).",
+      "sewhy": "GI upset is common. Rapid falls in urate mobilise crystals (flares when starting), and rarely it triggers severe HLA-B*58:01-linked skin reactions (SJS/DRESS), so stop it if a rash appears.",
       "ci": [
         {
           "c": "Starting during an acute flare without cover",
@@ -269,7 +269,7 @@
         "Infections",
         "Teratogenic"
       ],
-      "sewhy": "As a folate antagonist it stops rapidly dividing cells (mouth ulcers, marrow suppression, infections, teratogenicity), and it damages liver and lung over time; folic acid reduces toxicity.",
+      "sewhy": "As a folate antagonist it stops rapidly dividing cells (mouth ulcers, marrow suppression, infections, teratogenicity) and causes nausea, often the day after the weekly dose; over time it damages liver and lung (fibrosis, pneumonitis). Weekly folic acid reduces toxicity.",
       "ci": [
         {
           "c": "Pregnancy (and for 6 months after stopping, both partners)",

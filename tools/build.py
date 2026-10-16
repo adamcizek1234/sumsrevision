@@ -25,6 +25,7 @@ QUIZ_FILES = {  # the page stores each quiz question as an array; content/quiz/ 
     "sa": ("short-answer.json", ["id", "lo", "q", "acc", "model", "lvl", "hint", "why"]),
     "num": ("numbers.json", ["id", "lo", "q", "shown", "nums", "wrong", "lvl", "why"]),
     "lad": ("ladders.json", ["id", "lo", "title", "steps", "lvl", "whys", "decoys"]),
+    "list": ("lists.json", ["id", "lo", "title", "items", "ordered", "lvl", "hint", "why", "also", "labels"]),
 }
 AS_IS_FILES = [("icmSys", "icm-pages.json")]  # kept in content/ exactly as the page stores them
 TOP_KEYS = [k for k, _ in WEEK_SECTIONS] + ["drugs", "quiz"] + [k for k, _ in AS_IS_FILES]
@@ -34,7 +35,7 @@ TOP_KEYS = [k for k, _ in WEEK_SECTIONS] + ["drugs", "quiz"] + [k for k, _ in AS
 HOST_HEAD = ('<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,'
              'viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);'
              'padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;'
-             'padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}'
+             'padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}'
              '[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>\n')
 HOST_TAIL = "\n</body></html>"
 
@@ -183,6 +184,10 @@ def save_content(data):
             write_json(CONTENT / folder / f"{i:02d}-{slug(w['num'])}-{slug(w['title'])}.json", w)
     for i, cat in enumerate(data["drugs"], 1):
         write_json(CONTENT / "drugs" / f"{i:02d}-{slug(cat['title'])}.json", cat)
+    unknown = [k for k in data["quiz"] if k not in QUIZ_FILES]
+    if unknown or list(data["quiz"]) != [k for k in QUIZ_FILES if k in data["quiz"]]:
+        raise BuildError(f"the page has quiz types {list(data['quiz'])}; tools/build.py knows {list(QUIZ_FILES)}. "
+                         "Add the new ones to QUIZ_FILES first.")
     for key, (name, fields) in QUIZ_FILES.items():
         for i, q in enumerate(data["quiz"][key]):
             if len(q) != len(fields):

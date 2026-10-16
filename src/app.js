@@ -83,9 +83,9 @@
     $("#go-mastered").setAttribute("aria-pressed", state.year === "mastered" && !state.query.trim());
     if (state.year === "quiz") {
       const s = stats(), cur = state.query.trim() ? "" : state.qscreen === "session" ? (QS ? QS.mode : "") : state.qscreen;
-      const sel = GMODE[cur] ? GMODE[cur][0] : cur;
-      const modes = [["home", "Quiz home", ""], ["daily", "Daily 10", s.doneToday ? "✓" : "10"], ["sprint", "60-second sprint", "60s"], ["shaky", "Drill shaky LOs", shakyLos().size], ["due", "Review due", s.due], ["custom", "Custom quiz", ""], ["anat", "Anatomy quiz", gStats("anat").doneToday ? "✓" : "A"], ["icm", "ICM quiz", gStats("icm").doneToday ? "✓" : "I"], ["hist", "Quiz history", histList().length || ""]];
-      ul.innerHTML = modes.map(([id, label, b]) => `<li><button role="tab" data-qmode="${id}" aria-selected="${sel === id}"><span class="wk-num">${b}</span><span class="wk-title">${label}</span></button></li>`).join("");
+      const sel = GMODE[cur] ? GMODE[cur][0] : cur === "custom" && state.qscreen === "custom" && qcfg.scope === "search" ? "search" : cur;
+      const modes = [["home", "Quiz home", ""], ["daily", "Daily 10", s.doneToday ? "✓" : "10"], ["cont", "Continue learning", ""], "Practise", ["due", "Review due", s.due], ["shaky", "Drill shaky LOs", shakyLos().size], ["sprint", "60-second sprint", "60s"], "Choose your own", ["custom", "Custom quiz", ""], ["search", "Search quiz", ""], ["hist", "Quiz history", histList().length || ""], "By subject", ["anat", "Anatomy quiz", gStats("anat").doneToday ? "✓" : ""], ["icm", "ICM quiz", gStats("icm").doneToday ? "✓" : ""]];
+      ul.innerHTML = modes.map(m => typeof m === "string" ? `<li class="wk-group">${m}</li>` : `<li><button role="tab" data-qmode="${m[0]}" aria-selected="${sel === m[0]}"><span class="wk-num">${m[2]}</span><span class="wk-title">${m[1]}</span></button></li>`).join("");
       return;
     }
     if (state.year === "mastered") {
@@ -261,7 +261,7 @@
     if (w.hidden) { const pg = visibleWeek(id); return pg && pg !== w ? openWeek(pg.id, loKey) : undefined; }  // an old ICM week link
     state.year = w.year; state.week = id; state.query = ""; $("#q").value = "";
     if (loKey) state.filter = "All";
-    store.set("last", id);
+    store.set("last", id); noteSeen(id);
     if (location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
     render();
     if (loKey) { const el = document.getElementById("lo-" + loKey); if (el) { el.classList.remove("closed", "reveal-hint"); el.scrollIntoView({ block: "start" }); el.classList.add("flash"); } }
@@ -642,12 +642,15 @@
 
   let srs = store.get("srs", {});
   let meta = Object.assign({ daily: { last: 0, streak: 0, best: 0 }, adaily: { last: 0, streak: 0, best: 0 }, idaily: { last: 0, streak: 0, best: 0 }, sprintBest: 0, t: 0 }, store.get("qmeta", {}));
-  let qcfg = Object.assign({ scope: "all", weeks: [], systems: [], cats: [], fams: ["sa", "num", "lad", "drug"], n: 20, dueN: 20 }, store.get("qcfg", {}));
-  let acfg = Object.assign({ scope: "all", weeks: [], cats: [], fams: ["sa", "num", "lad"], n: 20 }, store.get("acfg", {}));
+  let qcfg = Object.assign({ scope: "all", weeks: [], systems: [], cats: [], fams: ["sa", "num", "list", "lad", "drug"], n: 20, dueN: 20 }, store.get("qcfg", {}));
+  let acfg = Object.assign({ scope: "all", weeks: [], cats: [], fams: ["sa", "num", "list", "lad"], n: 20 }, store.get("acfg", {}));
   if (acfg.regions && !acfg.cats.length) acfg.cats = acfg.regions; if (acfg.scope === "regions") acfg.scope = "cats";
-  let icfg = Object.assign({ scope: "all", weeks: [], cats: [], fams: ["sa", "num", "lad"], n: 20 }, store.get("icfg", {}));
+  let icfg = Object.assign({ scope: "all", weeks: [], cats: [], fams: ["sa", "num", "list", "lad"], n: 20 }, store.get("icfg", {}));
   for (const c of [qcfg, icfg]) c.weeks = c.weeks.filter(id => weeksById[id] && !weeksById[id].hidden);  // saved ICM weeks (now system pages) drop out
+  for (const c of [qcfg, acfg, icfg]) if (!c.listV) { if (!c.fams.includes("list")) c.fams.push("list"); c.listV = 1; }  // full-list questions came later
+  for (const c of [qcfg, acfg, icfg]) { if (!Array.isArray(c.status)) c.status = c.learning ? ["learning"] : []; delete c.learning; }  // review filter (was "Learning only")
   const GCFG = { anat: acfg, icm: icfg };
+  let xcfg = Object.assign({ exams: [], fams: ["sa", "num", "list", "lad"], n: 20, status: [] }, store.get("xcfg", {}));
   function saveSrs() { store.set("srs", srs); schedulePush("srs"); updateProgressUI(); }
   function saveMeta() { meta.t = nowS(); store.set("qmeta", meta); schedulePush("state"); }
 
@@ -690,6 +693,9 @@
     const ac = mergeMap(accT, sd.acc || {}, 1);
     if (ac.localChanged) store.set("accepted", accT);
     if (ac.remoteBehind) schedulePush("state", 300);
+    const pk = mergeMap(pickT, sd.picks || {}, 1);
+    if (pk.localChanged) store.set("picks", pickT);
+    if (pk.remoteBehind) schedulePush("state", 300);
     if (a.localChanged) { rebuildConf(); store.set("conf", confT); }
     if (b.localChanged) store.set("srs", srs);
     if (metaChanged) store.set("qmeta", meta);
@@ -709,7 +715,7 @@
       if (name === "notes") {  // each edited note is its own document; the index in the state document follows
         for (const k of [...sync.noteQ]) { const e = notesT[k]; if (e) await docRef("note-" + k).set({ v: 1, html: e[0], t: e[1], base: e[2] }); sync.noteQ.delete(k); }
         schedulePush("state", 200);
-      } else await docRef(name).set(name === "srs" ? { v: 1, items: srs } : { v: 1, conf: confT, meta, notes: noteIndex(), acc: accT });
+      } else await docRef(name).set(name === "srs" ? { v: 1, items: srs } : { v: 1, conf: confT, meta, notes: noteIndex(), acc: accT, picks: pickT });
     }
     catch (e) {
       const code = e && e.code;
@@ -794,7 +800,7 @@
     if (/^\d+(\.\d+)?$/.test(alt)) return A.nums.includes(Number(alt));
     const pad = " " + A.s + " ";
     if (pad.includes(" " + alt + " ")) return true;
-    if (alt.length <= 3) return false;
+    if (alt.length <= 3) return /^[a-z]{2,3}$/.test(alt) && pad.includes(" " + alt + "s ");  // short ones: whole word, or its plural
     if (pad.includes(" " + alt) || (alt.length >= 8 && A.s.includes(alt))) return true;
     const k = alt.split(" ").length;
     for (let i = 0; i + k <= A.toks.length; i++) {
@@ -866,12 +872,12 @@
   const leaks = (d, text) => (text.match(/[A-Za-z]{4,}/g) || []).some(w => { const lw = w.toLowerCase(); for (const n of nameToks(d)) if (lw.includes(n)) return true; return false; });
   const askText = (d, u) => u.t.replace(/\s*\(([^()]*)\)/g, (m, inner) => leaks(d, inner) ? "" : m).trim();
   const askable = d => d.uses.filter(u => !leaks(d, askText(d, u)));
-  const FAM = { sa: "sa", num: "num", order: "lad", next: "lad", duse: "drug", dhow: "drug", dse: "drug", dci: "drug", dwhy: "drug" };
-  const FAM_LABEL = { sa: "Short answer", num: "Numbers", lad: "Ladders", drug: "Drug drills" };
+  const FAM = { sa: "sa", num: "num", list: "list", order: "lad", next: "lad", duse: "drug", dhow: "drug", dse: "drug", dci: "drug", dwhy: "drug" };
+  const FAM_LABEL = { sa: "Short answer", num: "Numbers", list: "Full lists", lad: "Ladders", drug: "Drug drills" };
   const MCQ = new Set(["num", "next", "duse", "dhow", "dwhy"]);
   const weekOf = k => { const h = k && loByKey[k]; return h ? h.w.id : null; };
   const gweekOf = (g, k) => LINK[g][k] || weekOf(k);
-  const POOL = [], ITEM = {}, BY_LO = {}, WEEK_N = {}, FAMN = { sa: 0, num: 0, lad: 0, drug: 0 };
+  const POOL = [], ITEM = {}, BY_LO = {}, WEEK_N = {}, FAMN = { sa: 0, num: 0, list: 0, lad: 0, drug: 0 };
   function addItem(it) {
     it.fam = FAM[it.t];
     it.los = it.lo ? [it.lo] : (it.los || []);
@@ -886,6 +892,7 @@
   }
   for (const [id, lo, q, acc, model, lvl, hint, why] of QZ.sa) addItem({ id, t: "sa", lo, q, acc, model, grp: id, lvl, hint, why });
   for (const [id, lo, q, shown, nums, wrong, lvl, why] of QZ.num) addItem({ id, t: "num", lo, q, shown, nums, wrong, grp: id, lvl, why });
+  for (const [id, lo, title, items, ordered, lvl, hint, why, also, labels] of QZ.list || []) addItem({ id, t: "list", lo, title, items, ordered, grp: id, lvl, hint, why, also, labels });
   for (const [id, lo, title, steps, lvl, whys, decoys] of QZ.lad) { addItem({ id: id + ":o", t: "order", lo, title, steps, whys, grp: id, lvl }); addItem({ id: id + ":x", t: "next", lo, title, steps, whys, decoys: decoys || [], grp: id, lvl }); }
   const yearOf = keys => keys.length ? Math.min(...keys.map(k => k.startsWith("y1-") ? 1 : 2)) : 2;  // drug questions: earliest linked LO
   for (const c of DRUGS) for (const d of c.items) {
@@ -900,7 +907,7 @@
 
   /* ----- Levels: the year of knowledge each question expects ----- */
   const LEVEL_LABEL = { 1: "Year 1", 2: "Year 2", 3: "Stretch" };
-  const LEVEL_HINT = "Year 1 = expected by the end of Year 1 · Year 2 = by the end of Year 2 · Stretch = beyond Year 2 (finals-level detail)";
+  const LEVEL_HINT = "Year 1 and Year 2: expected by the end of that year · Stretch: finals-level detail";
   if (!Array.isArray(qcfg.levels) || !qcfg.levels.length) qcfg.levels = [1, 2, 3];
   const inLevel = it => qcfg.levels.includes(it.lvl);
   function levelPicker(counts) {
@@ -974,6 +981,12 @@
           grade: a => { if (gradeNum(a, it.nums)) return { ok: true }; const m = mineMatch(it, a); return { ok: m >= 0, mine: m }; },
           hint: { text: `It's one of these: ${shuffle([it.shown, rand(it.wrong)]).join("  or  ")}` } };
       }
+      case "list": {
+        const parts = listParts(it), items = parts.map(x => x.shown), n = items.length, first = items.map(x => (x.replace(/^[^A-Za-z0-9]+/, "")[0] || "?").toUpperCase());
+        return { kind: "list", tag: it.labels ? "Acronym" : it.ordered ? (/routine|steps|structure|survey|life support|choking|how do you|stages/i.test(it.title) ? "Full routine" : "Sequence") : "Full list", src, prompt: `${esc(it.title)}<small>${n} ${it.ordered ? "steps: each goes into its place" : "to find"}</small>`, lo: it.lo, items,
+          acc: parts.map(x => x.acc), notes: parts.map(x => x.note), keys: parts.map(x => x.key), own: parts.map(x => !!x.own), labels: it.labels ? parts.map(x => x.label || "+") : null, also: it.also || "", ordered: !!it.ordered, answerText: items.join(it.ordered ? " → " : "; "), why: esc(it.why || ""),
+          hint: { text: it.labels ? it.hint || "Think what each letter stands for." : `${it.hint ? it.hint + " " : ""}${it.ordered ? "In order, they" : "They"} start with ${(it.ordered ? first : first.slice().sort()).join(", ")}.` } };
+      }
       case "order": {
         let perm; do { perm = shuffle(it.steps.map((_, i) => i)); } while (perm.every((v, i) => v === i));
         return { kind: "order", tag: "Ladder", src, prompt: `Put in order: <b>${esc(it.title)}</b>`, steps: it.steps, whys: it.whys || [], perm, lo: it.lo, answerText: it.steps.join(" → "), hint: { first: true, text: "The first step is in place for you." } };
@@ -1014,6 +1027,289 @@
           esc(ci.why), ci.x.map(x => esc(x[0])), xNotes(ci.x));
       }
     }
+  }
+
+  /* ----- Full-list questions ----- */
+  // Typed one at a time into numbered slots. c.log keeps every entry in order as {t: text, i: item index, -1 if it isn't
+  // on the list, or -2 if it's a fair answer that isn't one of the items (the list's "also" answers)}; one entry
+  // can name several items (separated by commas, semicolons, "and" or "+"). c.matches maps a "not on the list" entry (its
+  // log index) to the missed item it meant; that wording is then accepted for the item (saved like "I was right" answers).
+  // Every item is needed for the question to count as right, and routines must also be in order.
+  // After answering, an entry that wasn't on the list can be saved, like "I was right" on other questions: as the same as
+  // an item you missed (it counts now: c.matches), as another way of saying one you found (c.alias), or as a right answer
+  // that isn't one of the items (c.xtra: saved under the list's own id and added to your notes; next time it's
+  // acknowledged as fair, never flagged). Saved wordings for an item live under "<list id>#<item>".
+  const listKey = (c, i) => (c.q.keys && c.q.keys[i]) || c.it.id + "#" + i;
+  const ownKey = (it, t) => it.id + "#+" + hashStr(norm(t));
+  // Items you've added to a list (Add to the list): unordered ones go at the end; a routine's step goes after the step
+  // you chose. Their accepted wording is the text you typed (plus any wordings you save for them later).
+  function listParts(it) {
+    const out = it.items.map((x, i) => ({ shown: x[0], acc: x[1], note: x[2] || "", key: it.id + "#" + i, label: it.labels ? it.labels[i] : "" }));
+    for (const [t, after] of mine(it.id + "#+")) {
+      const o = { shown: t, acc: norm(t) || t, note: "Added by you", key: ownKey(it, t), own: true };
+      const j = out.findIndex(x => x.key === after), at = !it.ordered ? out.length : after === "^" ? 0 : j < 0 ? out.length : j + 1;
+      out.splice(at, 0, o);
+    }
+    return out;
+  }
+  // Rebuild a card's list after adding or removing an item of your own, keeping every entry on the item it named.
+  function relist(c) {
+    const old = c.q.keys || [], q = inst(c.it, QS || {}), at = i => i >= 0 ? q.keys.indexOf(old[i]) : i;
+    for (const e of c.log || []) if (e.i >= 0) e.i = at(e.i);
+    for (const m of [c.matches, c.alias]) if (m) for (const k in m) { const v = at(m[k]); if (v < 0) delete m[k]; else m[k] = v; }
+    c.q = q;
+  }
+  // The notes side of saving an answer: add it to the LO's notes under "My additions" unless they already cover it.
+  function noteIn(c, t) {
+    const lo = c.it.lo, h = loByKey[lo], x = { note: false };
+    if (!h || coveredBy(t, h.lo.plain)) return x;
+    x.prevNote = notesT[lo] ? notesT[lo].slice() : null;
+    notesT[lo] = [appendMine(h.lo.html, `<strong>${esc(t)}</strong>: ${esc(c.it.title)}`), nowS(), notesT[lo] ? notesT[lo][2] : hashStr(h.lo.html0 || "")];
+    persistNote(lo); x.note = true; return x;
+  }
+  function noteOut(c, x) {
+    if (!x || !x.note) return;
+    const lo = c.it.lo, prev = x.prevNote;
+    notesT[lo] = [prev ? prev[0] : null, nowS(), prev ? prev[2] : hashStr(loByKey[lo].lo.html0 || "")]; persistNote(lo);
+    x.note = false; delete x.prevNote;
+  }
+  const listMine = (c, t) => mineMatch({ id: c.it.id, t: "list" }, t) >= 0;
+  const listItemOf = (c, e, k) => e.i >= 0 ? e.i : c.matches && c.matches[k] != null ? c.matches[k] : -1;
+  // How specifically an answer matches an accepted pattern: 0 = no match, else the length of the longest matching
+  // alternative in each " + " group, added up. An entry goes to the item it matches most specifically.
+  function accScore(ans, acc) {
+    const A = parseAns(ans), AJ = parseAns(joinLD(A.s)); if (!A.s) return 0;
+    let total = 0;
+    for (const g of acc.split(" + ")) {
+      let best = 0;
+      for (const alt of g.split(" / ")) { const n = norm(alt); if (n.length > best && (altMatch(n, A) || altMatch(joinLD(n), AJ))) best = n.length; }
+      if (!best) return 0; total += best;
+    }
+    return total;
+  }
+  const listScore = (c, text, i) => mineMatch({ id: listKey(c, i) }, text) >= 0 ? 1000 : accScore(text, c.q.acc[i]);
+  function listHit(c, text, taken) {
+    const q = c.q; let best = -1, score = 0;
+    for (let i = 0; i < q.items.length; i++) {
+      if (taken.has(i)) continue;
+      const sc = listScore(c, text, i);
+      if (sc > score) { score = sc; best = i; }
+    }
+    return best;
+  }
+  function listSeq(c) { return (c.log || []).map((e, k) => listItemOf(c, e, k)).filter(i => i >= 0); }
+  function listAdd(c, raw) {
+    c.log = c.log || [];
+    const out = { got: [], dup: [], no: [], extra: [] };
+    // Split on commas and semicolons; split a chunk on "and", "&" or "+" only if every part is an item by itself
+    // ("clubbing and splinters"), so an item that contains "and" ("group and save") stays whole.
+    const parts = [];
+    for (const chunk of String(raw).split(/[,;\n]/).map(x => x.trim()).filter(Boolean)) {
+      const bits = chunk.split(/\band\b|&|\+/i).map(x => x.trim()).filter(Boolean);
+      const ps = bits.length > 1 && bits.every(x => listHit(c, x, new Set()) >= 0) ? bits : [chunk];
+      parts.push(...(c.q.labels ? ps.flatMap(x => listWords(c, x)) : ps));
+    }
+    // An entry goes to the item it names most specifically. If that item is already found it's a repeat, unless it
+    // names an unfound item just as well (two items worded alike).
+    for (const t of parts) {
+      const i = listHit(c, t, new Set(listSeq(c))), d = listHit(c, t, new Set());
+      if (i >= 0 && (i === d || listScore(c, t, i) >= listScore(c, t, d))) { c.log.push({ t, i }); out.got.push(i); continue; }
+      if (d >= 0) { if (!out.got.includes(d) && !out.dup.includes(d)) out.dup.push(d); continue; }
+      if (listMine(c, t) || (c.q.also && accScore(t, c.q.also) > 0)) { if (!c.log.some(e => e.i < 0 && norm(e.t) === norm(t))) c.log.push({ t, i: -2 }); out.extra.push(t); continue; }
+      if (!c.log.some(e => e.i < 0 && norm(e.t) === norm(t))) c.log.push({ t, i: -1 });
+      out.no.push(t);
+    }
+    return out;
+  }
+  // An acronym's expansion typed as one phrase ("national early warning score"): one word per letter, if every word
+  // (apart from little words like "of") names an item and they name more than one.
+  function listWords(c, p) {
+    const ws = p.split(/\s+/).filter(w => w && !/^(of|the|and|or|a|an|to|for|in|with|on|by)$/i.test(w));
+    if (ws.length < 2) return [p];
+    const whole = listHit(c, p, new Set());  // a phrase that is itself an item's wording ("pus on the tonsils") stays whole
+    if (whole >= 0 && listScore(c, p, whole) >= norm(p).length * 0.7) return [p];
+    const hits = ws.map(w => listHit(c, w, new Set()));
+    return hits.every(h => h >= 0) && new Set(hits).size >= 2 ? ws : [p];
+  }
+  // Positions of the longest run already in the right order; anything else in a routine is out of order.
+  function listInOrder(seq) {
+    const n = seq.length, len = Array(n).fill(1), prev = Array(n).fill(-1);
+    for (let i = 0; i < n; i++) for (let j = 0; j < i; j++) if (seq[j] < seq[i] && len[j] + 1 > len[i]) { len[i] = len[j] + 1; prev[i] = j; }
+    let best = -1; for (let i = 0; i < n; i++) if (best < 0 || len[i] > len[best]) best = i;
+    const keep = new Set(); for (let i = best; i >= 0; i = prev[i]) keep.add(i);
+    return keep;
+  }
+  // Right = every item found. In a routine or path each step drops into its own place however you type them; a step given
+  // after a later one is flagged out of sequence (amber ↕, "you gave it after step N") but isn't marked wrong.
+  function listOk(c) { return listSeq(c).length === c.q.items.length; }
+  function listOos(c) {  // item → the later step it was given after (steps typed this time; carried-over ones don't count)
+    const out = new Map(); if (!c.q.ordered) return out;
+    let top = -1;
+    (c.log || []).forEach((e, k) => { if (e.pre) return; const i = listItemOf(c, e, k); if (i < 0) return; if (top > i && !out.has(i)) out.set(i, top); top = Math.max(top, i); });
+    return out;
+  }
+  // A full list missed on the first try comes back this round with what you got already filled in.
+  function listCarry(c) {
+    const prev = QS.past.slice().reverse().find(x => x.it.id === c.it.id && x.answered && x.q.kind === "list");
+    if (!prev) return;
+    let keep = [];
+    (prev.log || []).forEach((e, k) => { const i = listItemOf(prev, e, k); if (i >= 0) keep.push({ t: e.t, i }); });
+    c.log = keep.map(x => ({ t: x.t, i: x.i, pre: 1 }));
+  }
+  const listCanEdit = c => c.answered && c.q.kind === "list" && !laterTries(c).length;
+  function listTopHTML(c) {
+    const q = c.q, log = c.log || [], got = log.filter(e => e.i >= 0), no = log.filter(e => e.i === -1), pre = log.filter(e => e.pre).length;
+    const fresh = new Set(got.slice(got.length - (c.fresh || 0)).map(e => e.i));
+    const byStep = !!q.labels || q.ordered;  // an acronym, routine or path: each item in its own place
+    const lab = k => q.labels ? esc(q.labels[k]) : k + 1, oos = listOos(c);
+    const slot = (e, k) => e ? `<li class="${oos.has(e.i) ? "ooo" : "got"}${fresh.has(e.i) && !e.pre ? " fresh" : ""}"><span class="n">${lab(k)}</span><span><span class="mk">${oos.has(e.i) ? "↕" : "✓"}</span>${esc(q.items[e.i])}${e.pre ? `<small>from your first try</small>` : norm(e.t) !== norm(q.items[e.i]) ? `<small>you wrote “${esc(e.t)}”</small>` : ""}${oos.has(e.i) ? `<small>you gave it after step ${oos.get(e.i) + 1}</small>` : ""}</span></li>` : `<li><span class="n">${lab(k)}</span><span>${pre ? `<small class="tofind">still to find</small>` : ""}</span></li>`;
+    const slots = q.items.map((_, k) => slot(byStep ? got.find(e => e.i === k) : got[k], k)).join("");
+    return `${pre ? `<p class="lnote">Second try: the ${pre} you got last time ${pre === 1 ? "is" : "are"} filled in${byStep ? " in their places" : ""}. Find the rest.</p>` : ""}<p class="lmsg${c.msgCls ? " " + c.msgCls : ""}" aria-live="polite">${c.msg || ""}</p>${no.length ? `<p class="lnote">Not on the list so far: ${no.map(e => `“${esc(e.t)}”`).join(", ")}</p>` : ""}<ol class="lslots live${q.labels ? " letters" : ""}">${slots}</ol>`;
+  }
+  function listLiveHTML(c) {
+    const q = c.q, got = listSeq(c).length;
+    return `<form class="qinput" id="qlistform" autocomplete="off"><input id="qlist" type="text" enterkeyhint="enter" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="${got ? "Next one…" : q.ordered ? "Type a step and press Enter" : "Type one and press Enter"}" aria-label="Add an item"><button class="btn" type="submit">Add</button><button class="btn pri" type="button" id="q-listdone">${got ? "Done" : "Show the list"}</button><button class="btn ghost hintbtn" type="button" id="q-hint"${c.hinted ? " disabled" : ""}><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 12.5h4M6.5 14.5h3M8 1.5a4.5 4.5 0 0 0-2.6 8.2c.4.3.6.7.6 1.2v.6h4v-.6c0-.5.2-.9.6-1.2A4.5 4.5 0 0 0 8 1.5z"/></svg>Hint</button><span class="lcount" id="qlistcount">${got} of ${q.items.length}</span></form>
+      <div id="qlistlive">${listTopHTML(c)}</div>`;
+  }
+  function listEnter() {
+    const c = QS && QS.cur, inp = $("#qlist"); if (!c || c.answered || c.q.kind !== "list" || !inp) return;
+    const v = inp.value.trim(); if (!v) return;
+    const r = listAdd(c, v), q = c.q, name = i => esc(q.items[i]);
+    c.msg = [r.got.length ? `✓ ${r.got.map(name).join(", ")}` : "", r.dup.length ? `Already have ${r.dup.map(name).join(", ")}` : "", r.extra.length ? `${r.extra.map(t => `“${esc(t)}”`).join(", ")}: fair, but not one of the ${q.items.length} here` : "", r.no.length ? `✗ ${r.no.map(t => `“${esc(t)}”`).join(", ")}: not on the list` : ""].filter(Boolean).join(" · ");
+    c.msgCls = r.no.length && !r.got.length ? "no" : r.got.length ? "ok" : ""; c.fresh = r.got.length;
+    inp.value = "";
+    if (listSeq(c).length === q.items.length) return submit({ list: true });
+    $("#qlistlive").innerHTML = listTopHTML(c); c.fresh = 0;
+    const got = listSeq(c).length, cnt = $("#qlistcount"), done = $("#q-listdone");
+    if (cnt) cnt.textContent = `${got} of ${q.items.length}`; if (done) done.textContent = got ? "Done" : "Show the list";
+    inp.placeholder = "Next one…"; inp.focus(); saveRound();
+  }
+  function listResultHTML(c) {
+    const q = c.q, edit = listCanEdit(c), seqE = [];
+    (c.log || []).forEach((e, k) => { const i = listItemOf(c, e, k); if (i >= 0) seqE.push({ i, t: e.t, m: e.i < 0, pre: !!e.pre }); });
+    const oos = listOos(c);
+    for (const x of seqE) x.ooo = !x.pre && oos.has(x.i);
+    const have = new Set(seqE.map(x => x.i)), missed = q.items.map((_, i) => i).filter(i => !have.has(i));
+    const byStep = !!q.labels || q.ordered, lab = i => q.labels ? esc(q.labels[i]) : i + 1;
+    const row = (cls, num, mark, i, extra) => `<li class="${cls}${q.own && q.own[i] ? " own" : ""}"><span class="n">${num}</span><span><span class="mk">${mark}</span>${esc(q.items[i])}${extra}${q.notes[i] ? `<span class="ln">${esc(q.notes[i])}</span>` : ""}</span></li>`;
+    const found = (x, num) => row(x.ooo ? "ooo" : "got", num, x.ooo ? "↕" : "✓", x.i, (x.pre ? `<small>from your first try</small>` : x.m ? `<small>you wrote “${esc(x.t)}” and matched it</small>` : norm(x.t) !== norm(q.items[x.i]) ? `<small>you wrote “${esc(x.t)}”</small>` : "") + (x.ooo ? `<small>out of sequence: you gave it after step ${oos.get(x.i) + 1}</small>` : ""));
+    const rows = byStep
+      ? q.items.map((_, i) => { const x = seqE.find(y => y.i === i); return x ? found(x, lab(i)) : row("lmiss", lab(i), "✗", i, ""); })
+      : seqE.map((x, p) => found(x, p + 1)).concat(missed.map((i, p) => row("lmiss", seqE.length + p + 1, "✗", i, q.ordered ? `<small>step ${i + 1}</small>` : "")));
+    const wrong = (c.log || []).map((e, k) => ({ e, k })).filter(x => x.e.i < 0), extra = wrong.filter(x => x.e.i === -2);
+    const foundSorted = [...have].sort((a, b) => a - b);
+    const lw1 = ({ e, k }) => {
+      const m = c.matches && c.matches[k], al = c.alias && c.alias[k], xs = c.xtra && c.xtra[k], ad = c.added && c.added[k];
+      const undo = what => edit ? `<button class="linkbtn" data-${what}="${k}">Undo</button>` : "";
+      if (m != null) return `<div class="lw1"><b>“${esc(e.t)}”</b><span>counted as ${esc(q.items[m])}, and saved</span>${edit ? `<button class="linkbtn" data-lmatch="${k}:${m}">Undo</button>` : ""}</div>`;
+      if (al != null) return `<div class="lw1"><b>“${esc(e.t)}”</b><span>saved as another way of saying ${esc(q.items[al])}</span>${undo("lalias-undo")}</div>`;
+      if (ad) return `<div class="lw1"><b>“${esc(e.t)}”</b><span>added to the list${q.ordered ? ` as step ${e.i + 1}` : ""}: it has its own slot from now on${ad.note ? `, and it's in ${loLink("your notes", c.it.lo)} under <b>My additions</b>` : ""}</span>${edit && ad.note ? `<button class="linkbtn" data-laddnote="${k}">Take it out of my notes</button>` : ""}${undo("ladd")}</div>`;
+      if (xs) return `<div class="lw1"><b>“${esc(e.t)}”</b><span>saved as a right answer too${xs.note ? `, and added to ${loLink("your notes", c.it.lo)} under <b>My additions</b>` : ""}</span>${edit && xs.note ? `<button class="linkbtn" data-lxnote="${k}">Take it out of my notes</button>` : ""}${undo("lxtra")}</div>`;
+      if (!edit) return `<div class="lw1"><b>“${esc(e.t)}”</b></div>`;
+      // a few missed items as one-tap chips; otherwise one "Same as…" menu (missed items count, found ones save the wording)
+      const chips = missed.length && missed.length <= 3 ? `<span>same as:</span>${missed.map(i => `<button class="chip" data-lmatch="${k}:${i}">${esc(q.items[i])}</button>`).join("")}` : "";
+      const opt = (v, i) => `<option value="${v}${i}">${esc(q.items[i].length > 48 ? q.items[i].slice(0, 46) + "…" : q.items[i])}</option>`;
+      const menu = (missed.length > 3 ? `<optgroup label="Items you missed (it counts)">${missed.map(i => opt("m", i)).join("")}</optgroup>` : "") + (foundSorted.length ? `<optgroup label="Items you found (saves the wording)">${foundSorted.map(i => opt("f", i)).join("")}</optgroup>` : "");
+      const add = q.ordered
+        ? `<select class="lsel ladd" data-laddat="${k}" aria-label="Add it to the routine"><option value="">Add it to the routine…</option><option value="^">as the first step</option>${q.items.map((x, i) => `<option value="${esc(q.keys[i])}">after ${i + 1}. ${esc(x.length > 40 ? x.slice(0, 38) + "…" : x)}</option>`).join("")}</select>`
+        : `<button class="chip ladd" data-ladd="${k}">Add it to the list</button>`;
+      const right = e.i === -1 ? `<button class="chip lright" data-lxtra="${k}">Right, but not needed</button>` : "";
+      const sel = menu ? `<select class="lsel" data-lsame="${k}" aria-label="Same as an item on the list"><option value="">${chips ? "or same as one you found…" : "Same as…"}</option>${menu}</select>` : "";
+      return `<div class="lw1"><b>“${esc(e.t)}”</b>${add}${right}${chips}${sel}</div>`;
+    };
+    const added = Object.keys(c.added || {}).map(Number), wrong2 = wrong.concat(added.filter(k => c.log[k] && c.log[k].i >= 0).map(k => ({ e: c.log[k], k })));
+    const no = wrong2.filter(x => x.e.i === -1 || (c.added && c.added[x.k])), open = wrong.some(({ k }) => !(c.matches && c.matches[k] != null) && !(c.alias && c.alias[k] != null) && !(c.xtra && c.xtra[k]));
+    const wrongHTML = wrong2.length ? `<div class="lwrong">${no.length ? `<span class="lbl">Not on the list</span>${no.map(lw1).join("")}` : ""}${extra.length ? `<span class="lbl">Fair, but not needed here</span>${extra.map(lw1).join("")}` : ""}${edit && open ? `<span class="lnote">Should it be on the list? Add it: it gets its own slot from now on and goes in your notes. Meant an item that's already on it? Choose it under Same as: ${missed.length ? "one you missed counts now, and " : ""}your wording is accepted from now on.</span>` : ""}</div>` : "";
+    const saved = [];
+    mine(c.it.id + "#+").forEach((x, j) => saved.push(`<li><b>“${esc(x[0])}”</b><span>added to the list by you</span><button class="linkbtn" data-lunsave="+:${j}">Remove</button></li>`));
+    q.items.forEach((name, i) => mine(listKey(c, i)).forEach((x, j) => saved.push(`<li><b>“${esc(x[0])}”</b><span>= ${esc(name)}</span><button class="linkbtn" data-lunsave="${i}:${j}">Remove</button></li>`)));
+    mine(c.it.id).forEach((x, j) => saved.push(`<li><b>“${esc(x[0])}”</b><span>right too (not one of the items)</span><button class="linkbtn" data-lunsave="x:${j}">Remove</button></li>`));
+    const savedHTML = saved.length ? `<details class="lsaved"><summary>Your saved answers for this list (${saved.length})</summary><ul>${saved.join("")}</ul></details>` : "";
+    const order = "";
+    return `<div class="model"><ol class="lslots${q.labels ? " letters" : ""}">${rows.join("")}</ol></div>${wrongHTML}${order}${savedHTML}`;
+  }
+  function listVerdict(c) {
+    const n = c.q.items.length, got = listSeq(c).length, pre = (c.log || []).filter(e => e.pre).length, full = listOk(c), oo = listOos(c).size;
+    const also = [pre ? `${pre} from your first try` : "", oo ? `${oo} out of sequence` : ""].filter(Boolean).join(", ");
+    if (c.ok && !full) return `Marked right: ${got} of ${n} found`;
+    if (!c.ok && full) return `Marked wrong`;
+    if (c.ok) return `${c.matches && Object.keys(c.matches).length ? "Right, with your matches" : c.hinted ? "Right, with a hint" : "Right"}: all ${n}${also ? ` (${also})` : ""}`;
+    if (!got) return "Here's the list";
+    return `Not quite: ${got} of ${n}`;
+  }
+  // Another way of saying an item you've already found: save the wording (or undo). The score doesn't change.
+  function listAlias(k, i) {
+    const c = shownCard(); if (!c || !listCanEdit(c)) return;
+    const e = c.log && c.log[k]; if (!e || e.i >= 0 || !(i >= 0 && i < c.q.items.length)) return;
+    c.alias = c.alias || {};
+    const key = listKey(c, i);
+    if (c.alias[k] === i) { delete c.alias[k]; saveAcc(key, mine(key).filter(x => x[0] !== e.t)); }
+    else { c.alias[k] = i; if (mineMatch({ id: key }, e.t) < 0) saveAcc(key, mine(key).concat([[e.t, "list", nowS()]])); }
+    renderQuiz();
+  }
+  const listAliasUndo = k => { const c = shownCard(); if (c && c.alias && c.alias[k] != null) listAlias(k, c.alias[k]); };
+  // A right answer that isn't one of the items: accepted from now on (as fair, not needed) and, unless the notes already
+  // cover it, added to the LO's notes under "My additions", as "I was right" does on other questions. Tapping again undoes.
+  function listXtra(k) {
+    const c = shownCard(); if (!c || !listCanEdit(c)) return;
+    const e = c.log && c.log[k]; if (!e || e.i !== -1) return;
+    c.xtra = c.xtra || {};
+    const id = c.it.id;
+    if (c.xtra[k]) { listXnote(k, true); delete c.xtra[k]; saveAcc(id, mine(id).filter(x => x[0] !== e.t)); return renderQuiz(); }
+    if (!listMine(c, e.t)) saveAcc(id, mine(id).concat([[e.t, "", nowS()]]));
+    const x = noteIn(c, e.t); if (x.note) setWhere(id, e.t, "notes");
+    c.xtra[k] = x; renderQuiz();
+  }
+  function listXnote(k, quiet) {  // take a saved right-too answer back out of the notes
+    const c = shownCard(), x = c && c.xtra && c.xtra[k]; if (!x || !x.note) return;
+    noteOut(c, x); setWhere(c.it.id, c.log[k].t, "");
+    if (!quiet) renderQuiz();
+  }
+  // Add an entry that wasn't on the list to the list: it becomes one of the items (its own slot, needed from now on),
+  // counts as found now, and goes in the notes under "My additions". In a routine, "after" is the key of the step it
+  // follows ("^" = first). Tapping Undo takes it back off.
+  function listOwn(k, after) {
+    const c = shownCard(); if (!c || !listCanEdit(c)) return;
+    const e = c.log && c.log[k]; if (!e) return;
+    const store = c.it.id + "#+", t = e.t.trim(), same = x => norm(x[0]) === norm(t);
+    c.added = c.added || {};
+    if (c.added[k]) {
+      const A = c.added[k]; noteOut(c, A);
+      saveAcc(store, mine(store).filter(x => !same(x)));
+      relist(c); e.i = A.was; delete c.added[k];
+    } else {
+      if (e.i >= 0) return;
+      if (!mine(store).some(same)) saveAcc(store, mine(store).concat([[t, c.q.ordered ? after || "" : "", nowS()]]));
+      if (mine(c.it.id).some(same)) saveAcc(c.it.id, mine(c.it.id).filter(x => !same(x)));  // no longer just "right too"
+      const was = e.i; relist(c);
+      e.i = c.q.keys.indexOf(ownKey(c.it, t));
+      c.added[k] = { was, ...noteIn(c, t) };
+    }
+    const ok = listOk(c);
+    if (ok !== c.ok && !(c.manual && c.ok)) setResult(c, ok);
+    renderQuiz();
+  }
+  function listOwnNote(k) { const c = shownCard(), A = c && c.added && c.added[k]; if (A) { noteOut(c, A); renderQuiz(); } }
+  // Remove a saved answer for this list (an item's wording, or a right-too answer).
+  function listUnsave(which, j) {
+    const c = shownCard(); if (!c || c.q.kind !== "list") return;
+    const key = which === "x" ? c.it.id : which === "+" ? c.it.id + "#+" : listKey(c, +which), list = mine(key).slice();
+    if (!list[j]) return;
+    list.splice(j, 1); saveAcc(key, list);
+    if (which === "+") { relist(c); for (const k in c.added || {}) if (!(c.log[k] && c.log[k].i >= 0)) { c.log[k].i = c.added[k].was; delete c.added[k]; } const ok = listOk(c); if (ok !== c.ok && !(c.manual && c.ok)) setResult(c, ok); }
+    renderQuiz();
+  }
+  // A "not on the list" entry that meant the same as a missed item: count it (or undo), save the wording, and rescore.
+  function listMatch(k, i) {
+    const c = shownCard(); if (!c || !listCanEdit(c)) return;
+    const e = c.log && c.log[k]; if (!e || e.i >= 0 || i < 0 || i >= c.q.items.length) return;
+    c.matches = c.matches || {};
+    const key = listKey(c, i);
+    if (c.matches[k] === i) { delete c.matches[k]; saveAcc(key, mine(key).filter(x => x[0] !== e.t)); }
+    else { if (listSeq(c).includes(i)) return; c.matches[k] = i; if (mineMatch({ id: key }, e.t) < 0) saveAcc(key, mine(key).concat([[e.t, "list", nowS()]])); }
+    const ok = listOk(c);
+    if (ok !== c.ok && !(c.manual && c.ok)) setResult(c, ok);
+    renderQuiz();
   }
 
   /* ----- Scheduling ----- */
@@ -1075,6 +1371,43 @@
   let accT = store.get("accepted", {});
   const mine = id => (accT[id] && accT[id][0]) || [];
   function saveAcc(id, list) { accT[id] = [list, nowS()]; store.set("accepted", accT); schedulePush("state"); }
+  // "Apart from" questions: on a question with several right answers ("Name a…", a drug's side effects or
+  // contraindications), the answer each right try used is remembered (pickT: id → [[[key, your words], … last 3], time],
+  // synced). If one answer was used in 2 of the last 3 right tries, the question next asks for one apart from it; giving
+  // that one again just asks for another (no penalty).
+  let pickT = store.get("picks", {});
+  const MULTI_RE = /^(Name|Give|State|Suggest|List) (a|an|one|any)\b/i;
+  function multiAlts(it) {
+    if (it.t === "sa") return MULTI_RE.test(it.q) && !it.acc.includes(" + ") && it.acc.split(" / ").length >= 3 ? it.acc.split(" / ") : null;
+    if (it.t === "dse") return it.drug.se.length >= 2 ? it.drug.se : null;
+    if (it.t === "dci") return it.drug.ci.length >= 2 ? it.drug.ci.map(x => x.c) : null;
+    return null;
+  }
+  function pickKey(it, ans) {  // which accepted answer a right answer used
+    if (it.t === "sa") { let best = null, len = 0; for (const alt of it.acc.split(" / ")) { const n = norm(alt); if (n.length > len && gradeSA(ans, alt)) { best = alt; len = n.length; } } return best; }
+    if (it.t === "dse" || it.t === "dci") { const r = gradeList(ans, multiAlts(it) || []); return r.ok ? "#" + r.hit : null; }
+    return null;
+  }
+  function notePick(it, ans) {
+    if (!multiAlts(it)) return;
+    const key = pickKey(it, ans); if (!key) return;
+    const list = ((pickT[it.id] && pickT[it.id][0]) || []).concat([[key, String(ans).trim().slice(0, 60)]]).slice(-3);
+    pickT[it.id] = [list, nowS()]; store.set("picks", pickT); schedulePush("state");
+  }
+  function usualPick(it) {  // {key, label} of the answer used in 2 of the last 3 right tries, if any
+    const alts = multiAlts(it), list = (pickT[it.id] && pickT[it.id][0]) || [];
+    if (!alts || list.length < 2) return null;
+    const counts = {}; for (const [k] of list) counts[k] = (counts[k] || 0) + 1;
+    const key = Object.keys(counts).find(k => counts[k] >= 2); if (!key) return null;
+    const label = key.startsWith("#") ? alts[+key.slice(1)] : list.filter(x => x[0] === key).pop()[1];
+    return label ? { key, label } : null;
+  }
+  function excludedHit(it, key, ans) {  // does this answer give the excluded one, and no other accepted answer?
+    if (key.startsWith("#")) return pickKey(it, ans) === key;
+    if (!gradeSA(ans, key)) return false;
+    const others = it.acc.split(" / ").filter(a => a !== key).join(" / ");
+    return !others || !gradeSA(ans, others);
+  }
   function mineMatch(it, ans) {  // index of the saved answer this one matches, or -1
     if (it.t === "num") return mine(it.id).findIndex(([alt]) => { const n = parseAns(alt).nums; return n.length > 0 && gradeNum(ans, n); });
     const A = keyToks(ans);
@@ -1174,6 +1507,52 @@
   const mineHTML = id => { const l = mine(id); return l.length ? `<div class="mine-acc">Also accepted (yours): ${l.map(x => esc(x[0])).join("; ")}</div>` : ""; };
   const QRATED = '<span class="qrated" title="Set automatically from your quiz answers. Tap a rating to change it; the quiz updates it again when your results change.">from quiz</span>';
   // Due reviews first (lowest box, most overdue), then unseen, then the rest; at most perGroup per drug/ladder.
+  // Review filter for the custom quizzes, by progress as on the progress bars: learning = right before but not mastered
+  // (box 1–3), to redo = wrong last time (box 0), not tried = never answered. None picked = every question. cfg.learning is
+  // how rounds saved before this filter asked for learning questions.
+  const STATUS = [["learning", "Learning", "warn"], ["redo", "To redo", "bad"], ["new", "Not tried", "muted"]];
+  const statusOf = it => { const e = srs[it.id]; return !e ? "new" : e[0] >= 4 ? "mastered" : e[0] > 0 ? "learning" : "redo"; };
+  const statusPick = cfg => cfg.status && cfg.status.length ? cfg.status : cfg.learning ? ["learning"] : [];
+  const byStatus = (items, cfg) => { const st = statusPick(cfg); return st.length ? items.filter(it => st.includes(statusOf(it))) : items; };
+  const statusTitle = cfg => { const st = statusPick(cfg); return st.length ? ": " + STATUS.filter(x => st.includes(x[0])).map(x => x[1].toLowerCase()).join(" + ") : ""; };
+  const noStatus = cfg => ({ ...cfg, status: [], learning: false });
+  // Search quiz: a question matches when every word of the term starts a word in its text (question, answers, hint,
+  // explanation, ladder steps; for drug drills the drug card) or in its learning outcome. A plural "s" is dropped from the
+  // term ("nerves" finds "nerve"), and accents and punctuation are ignored.
+  const fold = x => " " + String(x).replace(/β/g, " beta ").replace(/α/g, " alpha ").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/<[^>]+>/g, " ").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim() + " ";
+  function hayOf(it) {
+    if (it.hay) return it.hay;
+    const parts = [it.q, it.acc, it.model, it.hint, it.why, it.shown, it.title, ...(it.steps || []), ...(it.whys || []), ...(it.items || []).map(x => x[0] + " " + (x[2] || ""))];
+    if (it.drug) { const d = it.drug; parts.push(d.name, d.ex, d.how, ...d.se, ...d.uses.map(u => u.t), ...d.ci.map(c => c.c + " " + c.why)); }
+    for (const k of it.los) { const h = loByKey[k]; if (h && !it.drug) parts.push(h.lo.text); }
+    return it.hay = fold(parts.filter(x => typeof x === "string").join(" "));
+  }
+  // Umbrella terms also find questions that only name a member (searching "statins" finds atorvastatin).
+  const SEARCH_ALSO = {
+    "cranial nerve": "olfactory|optic nerve|oculomotor|trochlear|trigeminal|abducens|facial nerve|facial palsy|bell palsy|vestibulocochlear|glossopharyngeal|vagus|accessory nerve|hypoglossal",
+    "rotator cuff": "supraspinatus|infraspinatus|teres minor|subscapularis",
+    "brachial plexus": "musculocutaneous|axillary nerve|radial nerve|median nerve|ulnar nerve|erb palsy|klumpke",
+    "anticoagulant": "warfarin|heparin|enoxaparin|doac|apixaban|rivaroxaban|edoxaban|dabigatran",
+    "antiplatelet": "aspirin|clopidogrel|ticagrelor|prasugrel",
+    "diuretic": "furosemide|bumetanide|bendroflumethiazide|indapamide|spironolactone|eplerenone|amiloride|thiazide",
+    "opioid": "morphine|oxycodone|codeine|fentanyl|tramadol|diamorphine|buprenorphine|methadone|naloxone",
+    "statin": "atorvastatin|simvastatin|rosuvastatin|pravastatin",
+    "beta blocker": "bisoprolol|atenolol|propranolol|metoprolol|carvedilol|labetalol|sotalol",
+    "ace inhibitor": "ramipril|lisinopril|enalapril|perindopril",
+    "nsaid": "ibuprofen|naproxen|diclofenac|celecoxib|indometacin",
+    "ssri": "sertraline|citalopram|escitalopram|fluoxetine|paroxetine"
+  };
+  const termWords = q => fold(q || "").trim().split(" ").filter(Boolean).map(w => w.length > 3 && /[^s]s$/.test(w) ? w.slice(0, -1) : w);
+  const searchAlso = term => (SEARCH_ALSO[termWords(term).join(" ")] || "").split("|").filter(Boolean);
+  function termTest(term) {
+    const main = termWords(term); if (!main.length) return null;
+    const alts = [main, ...searchAlso(term).map(termWords)];
+    return it => { const h = hayOf(it); return alts.some(ws => ws.every(w => h.includes(" " + w))); };
+  }
+  function statusHTML(cfg, countFor, attrs) {
+    const st = statusPick(cfg);
+    return `<div class="review"><h3>Review</h3><div class="levels"><div class="chips" role="group" aria-label="Review by progress">${STATUS.map(([id, label, col]) => `<button class="chip" ${attrs(id)} aria-pressed="${st.includes(id)}"><span class="dot" style="background:var(--${col})"></span>${label} <span class="ct">${countFor(id)}</span></button>`).join("")}</div><span class="lvhint">Learning: right before, not yet mastered · To redo: wrong last time · Not tried: never answered. Leave all off for every question.</span></div></div>`;
+  }
   function choose(items, n, perGroup = 1) {
     const T = dayNum(), due = [], fresh = [], rest = [];
     for (const it of items) { const e = srs[it.id]; (!e ? fresh : e[1] <= T ? due : rest).push(it); }
@@ -1186,7 +1565,7 @@
   }
   function stats() {
     const T = dayNum(); let seen = 0, right = 0, due = 0, mastered = 0;
-    for (const id in srs) { const it = ITEM[id]; if (!it) continue; const e = srs[id]; seen += e[2]; right += e[3]; if (e[1] <= T && inLevel(it) && !it.sep) due++; if (e[0] >= 4) mastered++; }
+    for (const id in srs) { const it = ITEM[id]; if (!it) continue; const e = srs[id]; seen += e[2]; right += e[3]; if (e[1] <= T && inLevel(it)) due++; if (e[0] >= 4) mastered++; }
     const d = meta.daily;
     return { seen, right, due, mastered, streak: d.last >= T - 1 ? d.streak : 0, doneToday: d.last === T };
   }
@@ -1230,17 +1609,22 @@
     if (!it) return finish();
     const seed = (Math.random() * 2147483647) | 0;
     QS.cur = { it, seed, q: instSeeded(it, QS, seed), answered: false, placed: [], again: QS.requeued.has(it.id) };
+    if (QS.cur.again && QS.cur.q.kind === "list") listCarry(QS.cur);
+    if (!QS.timed && QS.cur.q.kind === "typed") { const ex = usualPick(it); if (ex) QS.cur.excl = ex; }
   }
   function submit(p) {
     const c = QS && QS.cur; if (!c || c.answered || QS.done) return;
     let ok;
     if (c.q.kind === "typed") {
       if (!p.skip && !String(p.text || "").trim()) return;
+      if (!p.skip && c.excl && excludedHit(c.it, c.excl.key, p.text)) { c.exclMsg = `That's the one you usually give. Name a different one.`; renderQuiz(); return; }
       const r = p.skip ? { ok: false } : c.q.grade(p.text);
       c.given = p.text; c.skipped = !!p.skip; c.hit = r.hit; c.mineHit = r.mine; ok = !!r.ok;
     } else if (c.q.kind === "mcq") { c.choice = p.choice; ok = p.choice === c.q.right; }
+    else if (c.q.kind === "list") { c.log = c.log || []; c.skipped = !c.log.length; c.given = c.log.map(e => e.t).join(", "); c.msg = ""; ok = listOk(c); }
     else { c.given = p.order.slice(); ok = c.given.every((v, i) => v === i); }
-    c.answered = true; c.ok = ok; c.at = Date.now(); c.prev = srs[c.it.id];
+    if (ok && c.q.kind === "typed" && !(c.mineHit >= 0)) notePick(c.it, p.text);
+    c.answered = true; c.ok = ok; c.at = Date.now(); c.prev = srs[c.it.id]; c.exclMsg = "";
     record(c.it.id, ok, !!c.hinted, c.again);
     QS.n++; if (ok) QS.right++;
     c.res = { it: c.it, q: c.q, ok, hinted: !!c.hinted }; QS.results.push(c.res);
@@ -1265,15 +1649,20 @@
   // A past answer can still be corrected unless that question came up again later in the round. The live card (including
   // a second try) has nothing after it, so it can always be corrected.
   const laterTries = c => { const i = QS.past.indexOf(c); return i < 0 ? [] : QS.past.slice(i + 1).concat(QS.cur && QS.cur !== c ? [QS.cur] : []).filter(x => x.it.id === c.it.id && x.answered); };
-  const canOverride = c => c.q.kind === "typed" && !c.skipped && !laterTries(c).length;
-  function override() {
-    const c = shownCard(); if (!c || !c.answered || !canOverride(c)) return;
-    const ok = !c.ok;
+  const canOverride = c => (c.q.kind === "typed" || c.q.kind === "list") && !c.skipped && !laterTries(c).length;
+  // Rescore an answered card: its spaced-repetition record goes back to before this try, then it's recorded again.
+  function setResult(c, ok) {
     if (c.prev) srs[c.it.id] = c.prev; else delete srs[c.it.id];
     record(c.it.id, ok, !!c.hinted, c.again);
     QS.right += ok ? 1 : -1; c.ok = ok; c.res.ok = ok; c.overridden = true;
     if (ok && !c.hinted && c.requeuedNow) { const i = QS.queue.indexOf(c.it); if (i >= 0) QS.queue.splice(i, 1); QS.requeued.delete(c.it.id); c.requeuedNow = false; }
     if (!ok) requeue(c);
+  }
+  function override() {
+    const c = shownCard(); if (!c || !c.answered || !canOverride(c)) return;
+    const ok = !c.ok;
+    setResult(c, ok);
+    if (c.q.kind === "list") c.manual = ok;
     if (c.q.kind === "typed") {
       if (ok) { c.unlearned = null; if (c.learned && c.learned.undone) c.learned = null; learnAnswer(c); }
       else if (c.learned && !c.learned.dup) { undoLearn(c); c.learned = null; }
@@ -1322,6 +1711,7 @@
     const keyset = ks => { const s = new Set(ks || []); return k => s.has(k); };
     switch (sp.k) {
       case "daily": return { more: () => startDaily(true) };
+      case "cont": return { more: startContinue };
       case "due": return { more: () => startDue(sp.n) };
       case "shaky": return { focus: keyset(sp.keys), more: startShaky };
       case "custom": return { focus: customFocus(sp.cfg), more: () => startCustom(sp.cfg) };
@@ -1330,6 +1720,7 @@
       case "drug": return { more: () => startDrugQuiz(sp.id) };
       case "sprint": return { more: startSprint };
       case "mastered": return { more: startMasteredQuiz };
+      case "iexam": { const keys = examKeys(sp.cfg); return { focus: k => keys.has(k), more: () => startExamQuiz(sp.cfg) }; }
       case "retry": return sessionHooks(sp.parent);
     }
     if (GMODE[sp.k]) {
@@ -1341,7 +1732,7 @@
     }
     return {};
   }
-  const CARD_KEYS = ["seed", "answered", "ok", "hinted", "removed", "placed", "again", "given", "choice", "skipped", "hit", "mineHit", "overridden", "requeuedNow", "prev", "at", "learned", "unlearned"];
+  const CARD_KEYS = ["excl", "manual", "log", "matches", "alias", "xtra", "added", "seed", "answered", "ok", "hinted", "removed", "placed", "again", "given", "choice", "skipped", "hit", "mineHit", "overridden", "requeuedNow", "prev", "at", "learned", "unlearned"];
   function snapCard(c, past) {
     const o = { id: c.it.id };
     for (const k of CARD_KEYS) if (c[k] != null && c[k] !== false) o[k] = c[k];
@@ -1458,9 +1849,9 @@
     c.hinted = true;
     if (c.q.hint.fifty) { const wrong = c.q.opts.map((_, i) => i).filter(i => i !== c.q.right); c.removed = pickN(wrong, Math.min(2, wrong.length - 1)); }
     if (c.q.hint.first) c.placed = [0];
-    const inp = $("#qans"), typed = inp ? inp.value : null;
+    const inp = $("#qans") || $("#qlist"), typed = inp ? inp.value : null;
     renderQuiz();
-    const again = $("#qans"); if (again && typed != null) { again.value = typed; again.focus(); }
+    const again = $("#qans") || $("#qlist"); if (again && typed != null) { again.value = typed; again.focus(); }
   }
 
   function startDaily(extra) {
@@ -1474,6 +1865,98 @@
     fill(pool);
     startSession({ mode: extra ? "extra" : "daily", title: extra ? "10 more" : "Daily 10", items: shuffle(items), spec: { k: "daily" }, more: () => startDaily(true) });
   }
+  /* ----- Continue learning: new questions on what you've been doing lately ----- */
+  // Topics come from recent activity: questions answered in the last 3 weeks (the time on their srs record; each counts
+  // half as much every 3 days, a wrong one a little more) and the note weeks you've opened (lorev:seenw, this device).
+  // Questions you've never answered score by how close they sit to those topics: the same LO or drug most, then the same
+  // week, ICM/anatomy page or drug group, then the same body system (weeks already reached only). A drug drill counts less
+  // the more uses its drug has. A round takes the best-scoring new questions, one per question group; at first at most 4
+  // per LO, 12 from one week and 8 drug drills, so it mixes topics, then without those limits if it's still short. It
+  // only tops up with related questions that are due again (not mastered, not answered in the last 12 hours) when new
+  // ones run out.
+  // Questions come grouped by week, so a round moves through a few topics rather than jumping about.
+  let seenW = store.get("seenw", {});
+  function noteSeen(id) {
+    seenW[id] = nowS();
+    const ks = Object.keys(seenW).sort((a, b) => seenW[b] - seenW[a]); for (const k of ks.slice(40)) delete seenW[k];
+    store.set("seenw", seenW);
+  }
+  const CONT_N = 20, CONT_DAYS = 21, CONT_HALF = 3;
+  const itemWeeks = it => [...new Set([...it.weeks, ...it.gw.anat, ...it.gw.icm])];
+  const SYS_OF = {}; for (const sy of SYSTEMS) { for (const w of sy.weeks) (SYS_OF[w] ||= []).push(sy.id); for (const c of sy.cats) (SYS_OF["dcat:" + c] ||= []).push(sy.id); }
+  function contTopics(now = nowS()) {
+    const t = { lo: {}, wk: {}, drug: {}, cat: {}, sys: {}, n: 0 }, cutoff = now - CONT_DAYS * 86400, add = (m, k, v) => { m[k] = (m[k] || 0) + v; };
+    const decay = at => Math.pow(0.5, (now - at) / (CONT_HALF * 86400));
+    for (const id in srs) {
+      const e = srs[id], it = ITEM[id]; if (!it || !e[4] || e[4] < cutoff) continue;
+      const v = decay(e[4]) * (e[0] === 0 ? 1.3 : 1); t.n++;
+      const share = it.drug ? 1 / Math.sqrt(Math.max(1, it.los.length)) : 1;  // a drug's many uses share its weight
+      for (const k of it.los) add(t.lo, k, v * share);
+      for (const w of itemWeeks(it)) add(t.wk, w, v * share);
+      if (it.drug) { add(t.drug, it.drug.id, v); add(t.cat, it.cat, v); }
+    }
+    for (const id in seenW) if (seenW[id] >= cutoff && weeksById[id]) add(t.wk, id, 0.8 * decay(seenW[id]));
+    if (!Object.keys(t.wk).length && !Object.keys(t.cat).length) { const w = quizWeek(); if (w) t.wk[w.id] = 0.5; }  // nothing yet: this week
+    for (const [k, v] of Object.entries(t.wk).concat(Object.entries(t.cat).map(([c, v]) => ["dcat:" + c, v]))) for (const sy of SYS_OF[k] || []) t.sys[sy] = Math.max(t.sys[sy] || 0, v);
+    return t;
+  }
+  function contScore(it, t) {
+    let a = 0, b = 0, c = 0;
+    const share = it.drug ? 1 / Math.sqrt(Math.max(1, it.los.length)) : 1;
+    for (const k of it.los) a = Math.max(a, (t.lo[k] || 0) * share);
+    for (const w of itemWeeks(it)) b = Math.max(b, (t.wk[w] || 0) * share);
+    if (it.drug) { a += t.drug[it.drug.id] || 0; b = Math.max(b, t.cat[it.cat] || 0); }
+    if (covered(it)) for (const k of it.weeks.concat(it.drug ? ["dcat:" + it.cat] : [])) for (const sy of SYS_OF[k] || []) c = Math.max(c, t.sys[sy] || 0);
+    const close = a + 0.5 * b;
+    return { close, score: Math.max(close, 0.15 * c) };
+  }
+  function contLabels(t, n = 4) {  // the recent topics in words: weeks and pages, and drugs
+    const best = new Map();
+    for (const [id, v] of Object.entries(t.wk)) {
+      const w = weeksById[id]; if (!w || w.hidden || (w.year === "anat" && isLinked(w))) continue;
+      const label = w.year === "icm" && w.yr ? `${w.title} (ICM Y${w.yr})` : w.year === "anat" ? `${w.title} (anatomy)` : w.title;
+      best.set(label, Math.max(best.get(label) || 0, v));
+    }
+    for (const [id, v] of Object.entries(t.drug)) if (drugById[id]) best.set(drugById[id].name, Math.max(best.get(drugById[id].name) || 0, v));
+    return [...best.entries()].sort((x, y) => y[1] - x[1]).slice(0, n).map(x => x[0]);
+  }
+  function contPlan(n = CONT_N) {
+    const t = contTopics(), T = dayNum(), now = nowS(), fresh = [], again = [];
+    let close = 0;
+    for (const it of POOL) {
+      if (!inLevel(it)) continue;
+      const e = srs[it.id];
+      if (e && !(e[1] <= T && e[0] < 4 && now - (e[4] || 0) > 12 * 3600)) continue;
+      const sc = contScore(it, t); if (sc.score < 0.001) continue;
+      if (!e && sc.close > 0) close++;
+      (e ? again : fresh).push({ it, sc: sc.score * (0.85 + Math.random() * 0.3) });
+    }
+    const home = it => it.drug ? "dcat:" + it.cat : it.gw.icm[0] || it.weeks[0] || it.gw.anat[0] || "";  // ICM page, else teaching week
+    const pick = [], grp = new Set(), cnt = {}, inc = k => { cnt[k] = (cnt[k] || 0) + 1; };
+    const take = (list, mix) => {
+      for (const x of list) {
+        if (pick.length >= n) return;
+        const it = x.it, lk = "lo:" + (it.drug ? it.drug.id : it.los[0] || it.id), hk = "wk:" + home(it);
+        if (grp.has(it.grp)) continue;
+        if (mix && ((cnt[lk] || 0) >= 4 || (cnt[hk] || 0) >= Math.ceil(n * 0.6) || (it.drug && (cnt.drug || 0) >= Math.ceil(n * 0.4)))) continue;
+        grp.add(it.grp); inc(lk); inc(hk); if (it.drug) inc("drug"); pick.push(x);
+      }
+    };
+    fresh.sort((x, y) => y.sc - x.sc); again.sort((x, y) => y.sc - x.sc);
+    take(fresh, true); take(fresh, false);
+    const nNew = pick.length;
+    take(again, true); take(again, false);
+    const groups = new Map();  // grouped by week (drug drills by drug group), best group first
+    for (const x of pick) { const h = home(x.it); if (!groups.has(h)) groups.set(h, []); groups.get(h).push(x.it); }
+    const focus = Object.entries(t.lo).sort((x, y) => y[1] - x[1]).slice(0, 40).map(x => x[0]);
+    return { items: [...groups.values()].flatMap(g => shuffle(g)), nNew, nAgain: pick.length - nNew, close, topics: contLabels(t), focus, active: t.n };
+  }
+  function startContinue() {
+    const cp = contPlan(), keys = new Set(cp.focus);
+    startSession({ mode: "cont", title: "Continue learning", items: cp.items, spec: { k: "cont" }, focus: k => keys.has(k), more: startContinue, empty: "Nothing new to continue with at this level. Try another level, or the Daily 10." });
+  }
+  const contText = cp => cp.topics.length ? `New questions on ${cp.topics.slice(0, 3).join(" · ")}${cp.topics.length > 3 ? " and more" : ""}` : "New questions on this week's topic";
+
   /* ----- Section quizzes (Anatomy, ICM): own Daily 10 with its own streak, review, drills, custom quiz, quiz a week ----- */
   // Mode names use the section's letter (adaily, aextra, adue, ashaky, acustom; idaily, …) so saved streaks and history match.
   const GRP = {
@@ -1481,6 +1964,7 @@
     icm: { p: "i", name: "ICM", low: "ICM", src: "ICM LOs", catLabel: "Skill types", catHint: "ICM systems or skill types", unit: "system", unitLabel: "Systems" }
   };
   const GMODE = {}; for (const g in GRP) for (const m of ["daily", "extra", "due", "shaky", "custom"]) GMODE[GRP[g].p + m] = [g, m];
+  GMODE.iexam = ["icm", "exam"];  // ICM quiz > Examinations
   const inG = (it, g) => it.gw[g].length > 0;
   function gStats(g) {
     const T = dayNum(); let due = 0, mastered = 0, seen = 0, n = 0;
@@ -1523,6 +2007,40 @@
     ["data", "Prescribing & interpretation", /prescrib|interpret|chart|growth|data|result|X-ray|radiograph|imaging|insulin|fluid|drug|medication|calculat|plot|spirometr|peak flow/i],
     ["prof", "Professionalism & placement", /professional|confidential|integrity|dignity|team|feedback|patient safety|wellbeing|raise and escalate|punctual|honest|respect|limitation|reflect|safeguard/i]
   ];
+  // Exam quiz (ICM quiz > Examinations): each examination is a set of ICM LOs (Year 1 and Year 2); a question belongs to
+  // an exam if any of its LOs does. An LO can sit in more than one exam (e.g. the combined cardio-respiratory sessions).
+  const EXAM_GROUPS = [["sys", "Systems"], ["neuro", "Neurology and special senses"], ["msk", "Musculoskeletal"], ["intimate", "Intimate and obstetric"], ["other", "Mental state, children and basics"]];
+  const EXAMS = [
+    ["cvs", "Cardiovascular", "sys", "i-108-1 i-112-4 i-112-5 i-119-7 i-130-2 i-130-3 i-130-4 i-133-3 i-140-4 y2-210-37 y2-210-38 y2-210-39 y2-213-18"],
+    ["resp", "Respiratory", "sys", "i-106-1 i-111-2 i-111-3 i-111-4 i-116-6 i-130-2 i-130-3 i-130-4 i-133-4 y2-204-13 y2-204-14 y2-204-15 y2-213-18"],
+    ["gi", "Gastrointestinal (abdominal)", "sys", "i-105-1 i-109-2 i-109-3 i-115-3 i-133-5 y2-206-21 y2-229-11"],
+    ["thyroid", "Neck and thyroid", "sys", "i-126-1 i-136-8 y2-212-29 y2-212-30 y2-222-14"],
+    ["vasc", "Peripheral vascular and ABPI", "sys", "i-134-2 y2-210-40 y2-210-41"],
+    ["lump", "Lumps and bumps", "sys", "i-132-1"],
+    ["skin", "Skin (dermatology)", "sys", "y2-227-20 y2-227-21 y2-227-22"],
+    ["breast", "Breast", "sys", "y2-203-14 y2-203-15 y2-228-18"],
+    ["ulneuro", "Upper limb neurology", "neuro", "i-109-1 i-111-1 i-113-7 i-134-4 y2-205-23 y2-205-24 y2-205-25 y2-205-26 y2-227-17"],
+    ["llneuro", "Lower limb neurology", "neuro", "i-133-1 i-134-4 y2-205-23 y2-205-24 y2-205-25 y2-205-26 y2-227-17"],
+    ["cn", "Cranial nerves", "neuro", "i-141-2 i-146-3 y2-205-22 y2-205-24 y2-205-25 y2-205-26 y2-227-17"],
+    ["eye", "Eyes and fundoscopy", "neuro", "i-104-14 i-142-1 i-142-2 i-142-3 i-142-4 y2-202-18 y2-202-19"],
+    ["ent", "Ear, nose and throat", "neuro", "i-140-5 i-145-2 y2-208-11 y2-208-12 y2-208-13"],
+    ["shoulder", "Shoulder", "msk", "i-107-1 i-115-2 i-135-7 i-135-8 y2-228-19 y2-228-20 y2-228-21 y2-228-22"],
+    ["elbow", "Elbow", "msk", "y2-228-19 y2-228-20 y2-228-21 y2-228-22"],
+    ["hand", "Hand and wrist", "msk", "i-113-1 i-113-2 i-113-3 i-113-4 i-113-6 i-115-4 y2-228-19 y2-228-20 y2-228-21 y2-228-22 y2-238-9 y2-238-10 y2-238-11 y2-238-12"],
+    ["spine", "Spine (cervical and lumbar)", "msk", "i-126-5 i-133-2 y2-209-15 y2-209-16 y2-209-17 y2-209-18 y2-209-19 y2-219-16 y2-219-17"],
+    ["hip", "Hip", "msk", "i-125-1 i-130-1 i-135-5 i-135-8 y2-238-9 y2-238-10 y2-238-11 y2-238-12"],
+    ["knee", "Knee", "msk", "i-115-1 i-125-2 i-135-6 i-135-8 y2-238-9 y2-238-10 y2-238-11 y2-238-12"],
+    ["foot", "Foot and ankle", "msk", "y2-237-11 y2-237-12 y2-237-13 y2-237-14 y2-238-9 y2-238-10 y2-238-11 y2-238-12"],
+    ["pr", "Rectal (DRE)", "intimate", "i-125-3 i-132-7 i-132-8 y2-206-22 y2-210-34"],
+    ["groin", "Male genitalia and groin", "intimate", "i-141-1 i-145-1 y2-210-33 y2-210-35 y2-210-36"],
+    ["pv", "Speculum and bimanual (gynaecological)", "intimate", "i-114-1 i-135-3 i-135-4 y2-212-16 y2-212-22 y2-212-23 y2-228-14 y2-228-15"],
+    ["antenatal", "Antenatal (obstetric abdominal)", "intimate", "i-114-3 y2-222-12"],
+    ["mse", "Mental state examination", "other", "i-119-6 i-127-7 y2-239-25"],
+    ["cog", "Cognitive assessment", "other", "i-116-4 i-116-5 y2-209-13"],
+    ["child", "The unwell child", "other", "i-136-4 i-136-5"],
+    ["obs", "Observations and NEWS2", "other", "i-104-7 i-104-8 i-104-11 i-104-12 i-107-3 i-107-4"],
+    ["basics", "Examination basics (inspect, palpate, percuss, auscultate)", "other", "i-103-3 i-103-4 i-103-5 i-103-6 i-103-7 i-103-8"]
+  ].map(([id, title, group, keys]) => ({ id, title, group, keys: new Set(keys.split(" ")) }));
   const CATS = {
     anat: ANAT_REGIONS.map(r => ({ id: r.id, title: r.title, test: it => it.gw.anat.some(w => r.weeks.has(w)), focus: k => r.weeks.has(gweekOf("anat", k)) })),
     icm: (() => {
@@ -1537,7 +2055,7 @@
     let items = POOL.filter(it => inG(it, g) && fams.has(it.fam) && (cfg.levels || [1, 2, 3]).includes(it.lvl));
     if (cfg.scope === "weeks") { const ws = new Set(cfg.weeks); items = items.filter(it => it.gw[g].some(w => ws.has(w))); }
     else if (cfg.scope === "cats" || cfg.scope === "regions") { const cs = CATS[g].filter(c => cats.includes(c.id)); items = items.filter(it => cs.some(c => c.test(it))); }
-    return items;
+    return byStatus(items, cfg);
   }
   const poolForAnat = cfg => poolForG("anat", cfg);
   function gFocus(g, cfg) {
@@ -1548,7 +2066,7 @@
   }
   function startGCustom(g, cfg = { ...JSON.parse(JSON.stringify(GCFG[g])), levels: qcfg.levels.slice() }) {
     const G = GRP[g], n = cfg.n === "all" ? Infinity : cfg.n, spec = { k: G.p + "custom", cfg };
-    startSession({ mode: G.p + "custom", title: `Custom ${G.low} quiz`, items: choose(poolForG(g, cfg), n), spec, ...sessionHooks(spec), back: G.p + "custom", empty: `No ${G.low} questions match. Pick at least one ${G.unit} or ${G.catLabel.toLowerCase().replace(/s$/, "")}.` });
+    startSession({ mode: G.p + "custom", title: `Custom ${G.low} quiz${statusTitle(cfg)}`, items: choose(poolForG(g, cfg), n), spec, ...sessionHooks(spec), back: G.p + "custom", empty: `No ${G.low} questions match. Pick at least one ${G.unit} or ${G.catLabel.toLowerCase().replace(/s$/, "")}.` });
   }
   function gCustomHTML(g) {
     const G = GRP[g], cfg = { ...GCFG[g], levels: qcfg.levels }, fams = new Set(cfg.fams), match = poolForG(g, cfg).length;
@@ -1563,17 +2081,62 @@
     }).join("");
     if (cfg.scope === "cats") scope = `<div class="chips">${CATS[g].map(c => b("cat", c.id, cfg.cats.includes(c.id), `${esc(c.title)} <span class="ct">${cnt(c.test)}</span>`, "chip")).join("")}</div>`;
     const famN = f => POOL.filter(it => inG(it, g) && it.fam === f).length;
-    return `<div class="qz"><header class="week-head"><div class="eyebrow">${G.name} quiz</div><h2>Custom ${G.low} quiz</h2><div class="meta"><span>Choose which ${G.low} to cover, the question types and how many.</span></div></header>
+    return `<div class="qz"><header class="week-head"><div class="eyebrow">${G.name} quiz</div><h2>Custom ${G.low} quiz</h2><div class="meta"><span>Pick which ${G.low} to cover, the question types and how many.</span></div></header>
       ${note ? `<p class="pending-note">${esc(note)}</p>` : ""}
       <section class="picker">
+        ${statusHTML(cfg, id => poolForG(g, { ...cfg, status: [id] }).length, id => `data-g="${g}" data-gk="stat" data-gv="${id}"`)}
         <div><h3>Cover</h3>${seg("scope", cfg.scope, [["all", `All ${G.low}`], ["weeks", G.unitLabel], ["cats", G.catLabel]])}</div>
         ${scope ? `<div class="scope">${scope}</div>` : ""}
         <div><h3>Level</h3>${levelPicker(levelCounts(poolForG(g, { ...cfg, levels: [1, 2, 3] })))}</div>
-        <div><h3>Question types</h3><div class="chips">${["sa", "num", "lad"].map(f => b("fam", f, fams.has(f), `${FAM_LABEL[f]} <span class="ct">${famN(f)}</span>`, "chip")).join("")}</div></div>
+        <div><h3>Question types</h3><div><div class="chips">${["sa", "num", "list", "lad"].map(f => b("fam", f, fams.has(f), `${FAM_LABEL[f]} <span class="ct">${famN(f)}</span>`, "chip")).join("")}</div></div></div>
         <div><h3>How many</h3>${seg("n", cfg.n, [[10, "10"], [20, "20"], [40, "40"], ["all", "All"]])}</div>
       </section>
-      <div class="startbar"><button class="btn pri" id="g-start" data-g="${g}"${n ? "" : " disabled"}>Start ${n} question${n === 1 ? "" : "s"}</button><span class="count">${match} match${match === 1 ? "" : "es"}${cfg.scope !== "all" && !match ? " · pick at least one" : ""}</span></div>
+      <div class="startbar"><button class="btn pri" id="g-start" data-g="${g}"${n ? "" : " disabled"}>Start ${n} question${n === 1 ? "" : "s"}</button><span class="count">${match} match${match === 1 ? "" : "es"}${match ? "" : statusPick(cfg).length && poolForG(g, noStatus(cfg)).length ? " · none of these match your review choice" : cfg.scope !== "all" ? " · pick at least one" : ""}</span></div>
     </div>`;
+  }
+  /* ----- Exam quiz: pick examinations, get every question on them ----- */
+  function examKeys(cfg) { return new Set(EXAMS.filter(e => cfg.exams.includes(e.id)).flatMap(e => [...e.keys])); }
+  function examPool(cfg) {
+    const fams = new Set(cfg.fams), keys = examKeys(cfg), lv = cfg.levels || [1, 2, 3];
+    return byStatus(POOL.filter(it => fams.has(it.fam) && lv.includes(it.lvl) && it.los.some(k => keys.has(k))), cfg);
+  }
+  function examTitle(cfg) {
+    const names = EXAMS.filter(e => cfg.exams.includes(e.id)).map(e => e.title.replace(/ \(.*\)$/, ""));
+    return "ICM exams: " + (names.length > 3 ? names.slice(0, 3).join(", ") + ` and ${names.length - 3} more` : names.join(", ").replace(/, ([^,]*)$/, " and $1"));
+  }
+  function startExamQuiz(cfg = { ...JSON.parse(JSON.stringify(xcfg)), levels: qcfg.levels.slice() }) {
+    const n = cfg.n === "all" ? Infinity : cfg.n, keys = examKeys(cfg), spec = { k: "iexam", cfg };
+    startSession({ mode: "iexam", title: examTitle(cfg) + statusTitle(cfg), items: choose(examPool(cfg), n), spec, focus: k => keys.has(k), more: () => startExamQuiz(cfg), back: "iexam", empty: "No questions match. Pick at least one examination." });
+  }
+  const ALL_EXAM_KEYS = new Set(EXAMS.flatMap(e => [...e.keys]));
+  function examHTML() {
+    const cfg = { ...xcfg, levels: qcfg.levels }, fams = new Set(cfg.fams), match = examPool(cfg).length, n = cfg.n === "all" ? match : Math.min(cfg.n, match), note = state.qnote; state.qnote = "";
+    const b = (k, v, pressed, label, cls = "") => `<button${cls ? ` class="${cls}"` : ""} data-xk="${k}" data-xv="${v}"${pressed == null ? "" : ` aria-pressed="${pressed}"`}>${label}</button>`;
+    const cnt = e => POOL.filter(it => fams.has(it.fam) && cfg.levels.includes(it.lvl) && it.los.some(k => e.keys.has(k))).length;
+    const groups = EXAM_GROUPS.map(([gid, gtitle]) => `<div><h3>${gtitle}${b("all", gid, null, "All")}${b("none", gid, null, "None")}</h3><div class="chips">${EXAMS.filter(e => e.group === gid).map(e => b("exam", e.id, cfg.exams.includes(e.id), `${esc(e.title)} <span class="ct">${cnt(e)}</span>`, "chip")).join("")}</div></div>`).join("");
+    const famN = f => POOL.filter(it => it.fam === f && it.los.some(k => ALL_EXAM_KEYS.has(k))).length;
+    const why = match ? "" : !cfg.exams.length ? " · pick at least one examination" : statusPick(cfg).length && examPool(noStatus(cfg)).length ? " · none of these match your review choice" : "";
+    return `<div class="qz"><header class="week-head"><div class="eyebrow">ICM quiz</div><h2>Examination quiz</h2><div class="meta"><span>Pick examinations and get every question on them: the full lists of what to look for and the short answers, Years 1 and 2.</span></div></header>
+      ${note ? `<p class="pending-note">${esc(note)}</p>` : ""}
+      <section class="picker">
+        ${statusHTML(cfg, id => examPool({ ...cfg, status: [id] }).length, id => `data-xk="stat" data-xv="${id}"`)}
+        <div><h3>Examinations${b("all", "*", null, "All")}${b("none", "*", null, "None")}</h3><div class="scope">${groups}</div></div>
+        <div><h3>Level</h3>${levelPicker(levelCounts(examPool({ ...cfg, levels: [1, 2, 3] })))}</div>
+        <div><h3>Question types</h3><div><div class="chips">${["sa", "num", "list", "lad"].map(f => b("fam", f, fams.has(f), `${FAM_LABEL[f]} <span class="ct">${famN(f)}</span>`, "chip")).join("")}</div></div></div>
+        <div><h3>How many</h3><div class="seg" role="group">${[[10, "10"], [20, "20"], [40, "40"], ["all", "All"]].map(([v, l]) => b("n", v, String(cfg.n) === String(v), l)).join("")}</div></div>
+      </section>
+      <div class="startbar"><button class="btn pri" id="x-start"${n ? "" : " disabled"}>Start ${n} question${n === 1 ? "" : "s"}</button><span class="count">${match} match${match === 1 ? "" : "es"}${why}</span></div>
+    </div>`;
+  }
+  function xSet(k, v) {
+    const ids = g => EXAMS.filter(e => g === "*" || e.group === g).map(e => e.id);
+    if (k === "exam") toggleIn(xcfg.exams, v);
+    else if (k === "all") xcfg.exams = [...new Set([...xcfg.exams, ...ids(v)])];
+    else if (k === "none") { const drop = new Set(ids(v)); xcfg.exams = xcfg.exams.filter(id => !drop.has(id)); }
+    else if (k === "fam") { if (!(xcfg.fams.length === 1 && xcfg.fams[0] === v)) toggleIn(xcfg.fams, v); }
+    else if (k === "n") xcfg.n = v === "all" ? "all" : +v;
+    else if (k === "stat") { xcfg.status = statusPick(xcfg).slice(); toggleIn(xcfg.status, v); }
+    return saveCfg();
   }
   function gSet(g, k, v) {
     const cfg = GCFG[g];
@@ -1582,27 +2145,30 @@
     else if (k === "all") { const y2 = v === "2"; cfg.weeks = [...new Set([...cfg.weeks, ...DATA[g].filter(w => WEEK_N[w.id] && yrOf(w) === (y2 ? 2 : 1)).map(w => w.id)])]; }
     else if (k === "none") { const y2 = v === "2"; cfg.weeks = cfg.weeks.filter(id => weeksById[id] && yrOf(weeksById[id]) !== (y2 ? 2 : 1)); }
     else if (k === "cat") toggleIn(cfg.cats, v);
+    else if (k === "stat") { cfg.status = statusPick(cfg).slice(); toggleIn(cfg.status, v); delete cfg.learning; }
     else if (k === "fam") { if (!(cfg.fams.length === 1 && cfg.fams[0] === v)) toggleIn(cfg.fams, v); }
     else if (k === "n") cfg.n = v === "all" ? "all" : +v;
     return saveCfg();
   }
   function gHTML(g) {
     const G = GRP[g], a = gStats(g), note = state.qnote; state.qnote = "";
-    const card = (mode, title, badge, text, o = {}) => `<button class="mode${o.primary ? " primary" : ""}" data-qmode="${mode}"><h3><span>${title}</span><small>${badge}</small></h3><p>${text}</p></button>`;
     const line = w => `<button class="pline" data-quizweek="${w.id}"><span class="nm">${w.yr ? "" : `<span class="num">${w.num}</span>`}${esc(w.title)}</span><span class="pnum">${WEEK_N[w.id] || 0} questions</span>${prog("mini", "qweek:" + w.id)}</button>`;
     return `<div class="qz">
       <header class="week-head"><div class="eyebrow">Quiz</div><h2>${G.name} quiz</h2>
-        <div class="meta"><span>Year 1 and Year 2 ${G.src} · <b>${a.n}</b> questions</span><span>Year 1 ${G.low} is kept out of the main Daily 10 and sprint</span></div></header>
+        <div class="meta"><span><b>${a.n.toLocaleString("en-GB")}</b> questions</span><span>Year 1 and Year 2 ${G.src}</span><span>Year 1 ${G.low} stays out of the main Daily 10 and sprint</span></div></header>
       ${note ? `<p class="pending-note">${esc(note)}</p>` : ""}
-      <div class="prows">${prog("row", "qyear:" + g, `${G.name} questions`)}${prog("row", g, `${G.name} LO ratings`)}</div>
+      ${heroMode(G.p + "daily", a.doneToday ? "Done today ✓" : "Today · about 3 min", `${G.name} Daily 10`, `Due ${G.low} reviews first, then new ones. Its own streak. ${reachedNote()}`, a.doneToday)}
       <div class="stats">${stat(a.due, "due for review")}${stat(a.streak, "day streak")}${stat(a.seen, "questions tried")}${stat(a.mastered, "mastered")}</div>
-      <div class="modes">
-        ${card(G.p + "daily", `${G.name} Daily 10`, a.doneToday ? "done today ✓" : "about 3 min", `Due ${G.low} reviews first, then new ${G.low} questions. Has its own streak. Year 2 ${G.low} joins week by week. ${reachedNote()}`, { primary: !a.doneToday })}
-        ${card(G.p + "due", "Review due", `${a.due} due`, `${G.name} questions whose spaced review has come round.`)}
-        ${card(G.p + "shaky", `Drill shaky ${G.low}`, "", `Questions on the ${G.low} LOs you've marked Shaky or Not yet, or keep getting wrong.`)}
-        ${card(G.p + "custom", `Custom ${G.low} quiz`, "you choose", `Pick ${G.catHint}, which question types, and how many.`)}
+      <div class="mgrid">
+        <div class="mcol">${modeGroup("Practise", [
+          modeRow(G.p + "due", "Review due", `${a.due} due`, `${G.name} questions due again`),
+          modeRow(G.p + "shaky", `Drill shaky ${G.low}`, "", `LOs marked Shaky or Not yet, and ones you keep missing`)])}</div>
+        <div class="mcol">${modeGroup("Choose your own", [
+          modeRow(G.p + "custom", `Custom ${G.low} quiz`, "", `Pick ${G.catHint}`),
+          g === "icm" && modeRow("iexam", "Examinations", "", "Pick exams (cardiovascular, knee, cranial nerves…) and get every question on them")])}</div>
       </div>
-      ${[1, 2].map(yr => { const ws = DATA[g].filter(w => WEEK_N[w.id] && yrOf(w) === yr); return ws.length ? `<section class="psec"><h3>Quiz a Year ${yr} ${G.low} ${G.unit}</h3><div class="plist">${ws.map(line).join("")}</div></section>` : ""; }).join("")}
+      ${foldBox(`${G.name} progress`, "qyear:" + g, `<div class="prows">${prog("row", "qyear:" + g, `${G.name} questions`)}${prog("row", g, `${G.name} LO ratings`)}</div>`)}
+      ${[1, 2].map(yr => { const ws = DATA[g].filter(w => WEEK_N[w.id] && yrOf(w) === yr); return ws.length ? `<section class="psec"><h3>Year ${yr}: quiz one ${G.unit}</h3><div class="plist">${ws.map(line).join("")}</div></section>` : ""; }).join("")}
     </div>`;
   }
   function startSprint() { startSession({ mode: "sprint", title: "60-second sprint", items: choose(POOL.filter(it => !it.sep && MCQ.has(it.t) && inLevel(it) && covered(it)), 150), mcq: true, timed: 60, spec: { k: "sprint" }, more: startSprint }); }
@@ -1613,16 +2179,23 @@
   }
   /* ----- Review due: you choose how many (remembered in qcfg.dueN, shared by the main and anatomy reviews) ----- */
   const DUE_OPTS = [5, 10, 20, 30, 50, "all"];
-  const dueItems = g => { const T = dayNum(); return POOL.filter(it => (g ? inG(it, g) : !it.sep) && inLevel(it) && srs[it.id] && srs[it.id][1] <= T); };
+  // The main Review due takes every due question (Years 1 and 2, anatomy, ICM and drugs); the Anatomy and ICM pages
+  // each have their own review of just their questions.
+  const dueItems = g => { const T = dayNum(); return POOL.filter(it => (!g || inG(it, g)) && inLevel(it) && srs[it.id] && srs[it.id][1] <= T); };
+  const dueArea = it => inG(it, "icm") ? "ICM" : inG(it, "anat") ? "Anatomy" : it.drug ? "Drugs" : "Years 1 and 2";
+  function dueSplit(items) {
+    const by = {}; for (const it of items) by[dueArea(it)] = (by[dueArea(it)] || 0) + 1;
+    return ["Years 1 and 2", "Anatomy", "ICM", "Drugs"].filter(a => by[a]).map(a => `${by[a]} ${a}`).join(" · ");
+  }
   const dueCount = (g, due) => qcfg.dueN === "all" ? due : Math.min(qcfg.dueN, due);
   const dueLabel = n => n ? `Start ${n} question${n === 1 ? "" : "s"}` : "Nothing due";
   function startDue(n = qcfg.dueN) {
     startSession({ mode: "due", title: "Review due", items: choose(dueItems(false), n === "all" ? Infinity : n, 3), spec: { k: "due", n }, more: () => startDue(n), back: "due", empty: "Nothing is due right now. Try a Daily 10." });
   }
   function dueHTML(g) {
-    const G = g && GRP[g], due = dueItems(g).length, cur = qcfg.dueN, n = dueCount(g, due), note = state.qnote; state.qnote = "";
+    const G = g && GRP[g], items = dueItems(g), due = items.length, cur = qcfg.dueN, n = dueCount(g, due), note = state.qnote; state.qnote = "";
     return `<div class="qz"><header class="week-head"><div class="eyebrow">${G ? G.name + " quiz" : "Quiz"}</div><h2>${G ? G.name + " review due" : "Review due"}</h2>
-      <div class="meta"><span><b>${due}</b> question${due === 1 ? "" : "s"} due</span><span>Most overdue and weakest first</span></div></header>
+      <div class="meta"><span><b>${due}</b> question${due === 1 ? "" : "s"} due${!G && due ? `: ${dueSplit(items)}` : ""}</span><span>${G ? "" : "Everything due, anatomy and ICM included. "}Most overdue and weakest first</span></div></header>
       ${note ? `<p class="pending-note">${esc(note)}</p>` : ""}
       <section class="picker"><div><h3>How many</h3><div class="duepick"><div class="seg" role="group" aria-label="How many questions">${DUE_OPTS.map(v => `<button data-duen="${v}" aria-pressed="${String(cur) === String(v)}">${v === "all" ? "All" : v}</button>`).join("")}</div>
         <label class="duecustom">or type a number <input id="due-custom" type="number" inputmode="numeric" min="1" max="999" value="${DUE_OPTS.includes(cur) ? "" : cur}" placeholder="e.g. 15"></label></div></div></section>
@@ -1630,6 +2203,10 @@
     </div>`;
   }
   // Typing a number updates the button straight away (no re-render, so the box keeps focus); it's saved as you type.
+  document.addEventListener("change", e => {
+    const s = e.target.closest && e.target.closest("[data-lsame]"); if (s && s.value !== "") (s.value[0] === "m" ? listMatch : listAlias)(+s.dataset.lsame, +s.value.slice(1));
+    const a = e.target.closest && e.target.closest("[data-laddat]"); if (a && a.value !== "") listOwn(+a.dataset.laddat, a.value);
+  });
   document.addEventListener("input", e => {
     if (e.target.id !== "due-custom") return;
     const v = Math.min(999, Math.round(+e.target.value));
@@ -1650,25 +2227,35 @@
     const d = drugById[id]; if (!d) return;
     startSession({ mode: "drug", title: d.name, items: shuffle(POOL.filter(it => it.drug === d)), spec: { k: "drug", id }, more: () => startDrugQuiz(id) });
   }
+  // A question belongs to a week if it's taught that week or linked to that anatomy week or ICM page (Year 2 anatomy weeks
+  // hold no LOs of their own: their questions sit in the Year 2 week and are linked to the anatomy week).
+  // A Year 2 week stands for its medicine only: its anatomy questions belong to the Year 2 anatomy week instead.
+  const inWeeks = (it, ws) => it.weeks.some(w => ws.has(w) && !(it.gw.anat.length && weeksById[w] && weeksById[w].year === "y2")) || it.gw.anat.some(w => ws.has(w)) || it.gw.icm.some(w => ws.has(w));
+  // The groups of the custom quiz's Weeks picker: each year's medicine and anatomy separately, then ICM.
+  const weekGroups = () => [["y1", "Year 1", DATA.y1], ["anat1", "Year 1 anatomy", DATA.anat.filter(w => yrOf(w) === 1)],
+    ["y2", "Year 2 medicine", DATA.y2], ["anat2", "Year 2 anatomy", DATA.anat.filter(w => yrOf(w) === 2)], ["icm", "ICM", DATA.icm || []]];
   function poolFor(cfg) {
     const fams = new Set(cfg.scope === "drugs" ? ["drug"] : cfg.fams);
-    let items = POOL.filter(it => fams.has(it.fam) && (cfg.levels || [1, 2, 3]).includes(it.lvl) && (cfg.scope === "weeks" || !it.sep));
-    if (cfg.scope === "weeks") { const ws = new Set(cfg.weeks); items = items.filter(it => it.weeks.some(w => ws.has(w)) || it.gw.icm.some(w => ws.has(w))); }
+    let items = POOL.filter(it => fams.has(it.fam) && (cfg.levels || [1, 2, 3]).includes(it.lvl) && (cfg.scope === "weeks" || cfg.scope === "search" || !it.sep));
+    if (cfg.scope === "search") { const t = termTest(cfg.term); items = t ? items.filter(t) : []; }
+    else if (cfg.scope === "weeks") { const ws = new Set(cfg.weeks); items = items.filter(it => inWeeks(it, ws)); }
     else if (cfg.scope === "systems") { const ss = SYSTEMS.filter(s => cfg.systems.includes(s.id)); items = items.filter(it => ss.some(s => inSystem(it, s))); }
     else if (cfg.scope === "drugs") { const cs = new Set(cfg.cats); items = items.filter(it => cs.has(it.cat)); }
-    return items;
+    return byStatus(items, cfg);
   }
   function customFocus(cfg) {
-    if (cfg.scope === "weeks") { const ws = new Set(cfg.weeks); return k => ws.has(weekOf(k)); }
+    if (cfg.scope === "weeks") { const ws = new Set(cfg.weeks); return k => ws.has(weekOf(k)) || ws.has(LINK.anat[k]) || ws.has(LINK.icm[k]); }
     if (cfg.scope === "systems") { const ss = SYSTEMS.filter(s => cfg.systems.includes(s.id)); return k => ss.some(s => s.weeks.has(weekOf(k))); }
+    if (cfg.scope === "search") { const t = termTest(cfg.term), keys = new Set(t ? POOL.filter(t).flatMap(it => it.los) : []); return k => keys.has(k); }
     return null;
   }
   function startCustom(cfg = JSON.parse(JSON.stringify(qcfg))) {
     const n = cfg.n === "all" ? Infinity : cfg.n, spec = { k: "custom", cfg };
-    startSession({ mode: "custom", title: "Custom quiz", items: choose(poolFor(cfg), n, cfg.scope === "drugs" ? 2 : 1), spec, ...sessionHooks(spec) });
+    startSession({ mode: "custom", title: (cfg.scope === "search" ? `Search: “${(cfg.term || "").trim()}”` : "Custom quiz") + statusTitle(cfg), items: choose(poolFor(cfg), n, cfg.scope === "drugs" ? 2 : 1), spec, ...sessionHooks(spec) });
   }
   function goMode(m) {
     if (m === "daily") return startDaily();
+    if (m === "cont") return startContinue();
     if (GMODE[m]) {
       const [g, k] = GMODE[m];
       if (k === "daily") return startGDaily(g);
@@ -1678,6 +2265,7 @@
     if (m === "shaky") return startShaky();
     if (m === "due" || m === "adue") { if (QS && !QS.done && QS.mode === m) { state.qscreen = "session"; return showQuiz(true); } state.qscreen = m; return showQuiz(true); }
     if (m === "week") { const w = quizWeek(); return w && startWeekQuiz(w.id); }
+    if (m === "search") { qcfg.scope = "search"; store.set("qcfg", qcfg); state.qscreen = "custom"; showQuiz(true); const el = $("#q-term"); if (el) el.focus(); return; }
     state.qscreen = m; showQuiz(true);
   }
   function showQuiz(top) {
@@ -1688,29 +2276,40 @@
 
   /* ----- Quiz views ----- */
   const stat = (n, label) => `<div class="stat"><b>${Number(n).toLocaleString("en-GB")}</b><span>${label}</span></div>`;
+  // Quiz menus: the day's main quiz as one wide button, then the other modes as rows in labelled groups.
+  const CHEV = `<svg class="mchev" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg>`;
+  const modeRow = (mode, title, badge, text, o = {}) => `<button class="mode" data-qmode="${mode}"${o.disabled ? " disabled" : ""}><span class="mt">${title}</span>${text ? `<span class="md">${text}</span>` : ""}${badge ? `<small class="mb">${badge}</small>` : ""}${CHEV}</button>`;
+  const modeGroup = (label, rows) => `<section class="mgrp"><h3 class="glabel">${label}</h3><div class="menu">${rows.filter(Boolean).join("")}</div></section>`;
+  const heroMode = (mode, kicker, title, text, done) => `<button class="hero${done ? " done" : ""}" data-qmode="${mode}"><span class="hero-txt"><span class="hero-k">${kicker}</span><b>${title}</b><span class="hero-d">${text}</span></span><span class="btn${done ? "" : " pri"}">${done ? "10 more" : "Start"}</span></button>`;
+  const foldBox = (title, scope, inner) => `<details class="fold"><summary>${title}${prog("pct", scope)}</summary>${inner}</details>`;
   function homeHTML() {
     const s = stats(), wk = quizWeek(), shaky = shakyLos().size, note = state.qnote; state.qnote = "";
     const acc = s.seen ? Math.round(s.right / s.seen * 100) + "% right" : "none yet";
-    const card = (mode, title, badge, text, o = {}) => `<button class="mode${o.primary ? " primary" : ""}" data-qmode="${mode}"${o.disabled ? " disabled" : ""}><h3><span>${title}</span><small>${badge}</small></h3><p>${text}</p></button>`;
     return `<div class="qz">
       <header class="week-head"><div class="eyebrow">Quiz</div><h2>Quick-fire quiz</h2>
-        <div class="meta"><span><b>${POOL.length.toLocaleString("en-GB")}</b> questions</span><span>${FAMN.sa} short answer · ${FAMN.num} numbers · ${FAMN.lad} ladder · ${FAMN.drug} drug</span></div></header>
+        <div class="meta"><span><b>${POOL.length.toLocaleString("en-GB")}</b> questions</span><span>Years 1 and 2, Anatomy, ICM and drugs</span></div></header>
       ${note ? `<p class="pending-note">${esc(note)}</p>` : ""}
       ${QS && !QS.done ? liveRow() || `<div class="resume"><span><b>${esc(QS.title)}</b> in progress · ${QS.n} answered</span><button class="btn pri" id="q-resume">Resume</button></div>` : (r => r ? `<div class="resume"><span><b>${esc(r.title)}</b> left unfinished · ${r.n} answered · ${r.left} left</span><button class="btn pri" data-carry="${r.uid}">Carry on</button></div>` : "")(resumable())}
-      <section class="qprogress"><div><span class="lbl">Level (applies to every quiz mode)</span>${levelPicker(levelCounts(POOL))}</div><div class="prows">${prog("row", "quiz", "All questions")}${["sa", "num", "lad", "drug"].map(f => prog("row", "qfam:" + f, FAM_LABEL[f])).join("")}</div></section>
+      <div class="heroes">${heroMode("daily", s.doneToday ? "Done today ✓" : "Today · about 3 min", "Daily 10", `Due reviews first, then new questions from your recent weeks. ${reachedNote()}`, s.doneToday)}
+        ${(cp => `<button class="hero alt" data-qmode="cont"${cp.items.length ? "" : " disabled"}><span class="hero-txt"><span class="hero-k">${cp.close ? `${cp.close.toLocaleString("en-GB")} new on your recent topics` : "Picks up from your recent topics"}</span><b>Continue learning</b><span class="hero-d">${esc(contText(cp))}. Minimal repeats.</span></span><span class="btn">Continue</span></button>`)(contPlan())}</div>
       <div class="stats">${stat(s.due, "due for review")}${stat(s.streak, "day streak")}${stat(s.seen, "answers · " + acc)}${stat(meta.sprintBest || 0, "sprint best")}${stat(s.mastered, "mastered")}</div>
-      <div class="modes">
-        ${card("daily", "Daily 10", s.doneToday ? "done today ✓" : "about 3 min", `Due reviews first, then new questions from your recent weeks. Keeps your streak going. ${reachedNote()}`, { primary: !s.doneToday })}
-        ${card("anat", "Anatomy quiz", gStats("anat").doneToday ? "daily done ✓" : "Years 1 & 2", "Anatomy on its own: an Anatomy Daily 10 with its own streak, review, custom quizzes and quizzes by week.")}
-        ${card("icm", "ICM quiz", gStats("icm").doneToday ? "daily done ✓" : "Years 1 & 2", "ICM on its own: examinations, histories, procedures and A–E, with an ICM Daily 10, review, custom quizzes and quizzes by week.")}
-        ${card("sprint", "60-second sprint", "best " + (meta.sprintBest || 0), `Multiple choice against the clock: drug uses, mechanisms, contraindications, numbers and ladders. ${reachedNote()}`)}
-        ${wk ? card("week", "This week: " + esc(wk.title), "week " + wk.num, `Short answers, numbers, ladders and linked drugs from week ${wk.num}.`) : ""}
-        ${card("shaky", "Drill shaky LOs", shaky + (shaky === 1 ? " LO" : " LOs"), shaky ? "LOs you marked Shaky or Not yet, plus ones you keep getting wrong." : "Mark LOs as Shaky or Not yet in the week view (or miss a few questions) to fill this.", { disabled: !shaky })}
-        ${card("due", "Review due", s.due + " due", s.due ? "Questions you missed or that are due again on your spaced-repetition schedule." : "Nothing due right now.", { disabled: !s.due })}
-        ${card("custom", "Custom quiz", "you choose", "Pick weeks, systems or drug groups, which question types, and how many.")}
+      <div class="lvbar"><span class="lbl">Level</span>${levelPicker(levelCounts(POOL))}</div>
+      <div class="mgrid">
+        <div class="mcol">${modeGroup("Practise", [
+          modeRow("due", "Review due", s.due + " due", "Everything due, anatomy and ICM included", { disabled: !s.due }),
+          modeRow("shaky", "Drill shaky LOs", shaky + (shaky === 1 ? " LO" : " LOs"), shaky ? "LOs marked Shaky or Not yet, and ones you keep missing" : "Mark LOs Shaky or Not yet to fill this", { disabled: !shaky }),
+          wk && modeRow("week", "This week", WEEK_N[wk.id] ? WEEK_N[wk.id] + " Qs" : "", `${wk.num} ${esc(wk.title)}`),
+          modeRow("sprint", "60-second sprint", "best " + (meta.sprintBest || 0), "Multiple choice against the clock")])}</div>
+        <div class="mcol">${modeGroup("Choose your own", [
+          modeRow("custom", "Custom quiz", "", "Pick weeks, systems or drug groups"),
+          modeRow("search", "Search quiz", "", "Every question on a term, e.g. cranial nerves")])}
+        ${modeGroup("By subject", [
+          modeRow("anat", "Anatomy quiz", gStats("anat").doneToday ? "daily ✓" : "", "Its own Daily 10, review and quizzes by week"),
+          modeRow("icm", "ICM quiz", gStats("icm").doneToday ? "daily ✓" : "", "Examinations, histories, procedures and A–E")])}</div>
       </div>
+      ${foldBox("Progress by question type", "quiz", `<div class="prows">${prog("row", "quiz", "All questions")}${["sa", "num", "list", "lad", "drug"].map(f => prog("row", "qfam:" + f, FAM_LABEL[f])).join("")}</div>`)}
       ${syncNote()}
-      <p class="foot-note">Typed answers are marked on key words and allow small spelling slips. If it marks you wrong unfairly, tap “I was right”. Get a question right and it comes back after 1, 3, 7, 16 and then 35 days. Miss it and it comes back later in the round, then stays in Review due until you get it.</p>
+      <p class="foot-note">Typed answers are marked on key words and forgive small spelling slips; if it marks you wrong unfairly, tap “I was right”. A right answer comes back after 1, 3, 7, 16, then 35 days. A miss comes back later in the round and stays in Review due until you get it.</p>
     </div>`;
   }
   function sprintHTML() {
@@ -1721,27 +2320,55 @@
       <div><span class="lbl">Level</span>${levelPicker(levelCounts(POOL.filter(it => MCQ.has(it.t) && covered(it))))}</div>
       <div class="fb-actions"><button class="btn pri big" id="q-sprint-go">Start the clock</button></div></div>`;
   }
+  // The parts of the custom quiz screen that change as you type a search term are redrawn in place (refreshCustom), so the
+  // search box keeps focus.
+  function customBits(cfg) {
+    const match = poolFor(cfg).length, n = cfg.n === "all" ? match : Math.min(cfg.n, match), term = (cfg.term || "").trim();
+    const why = match ? "" : cfg.scope === "search" && !term ? " · type a term" : statusPick(cfg).length && poolFor(noStatus(cfg)).length ? " · none of these match your review choice" : cfg.scope !== "all" ? (cfg.scope === "search" ? " · try another word or fewer filters" : " · pick at least one") : "";
+    let found = "";
+    if (cfg.scope === "search") {
+      if (!term) found = "Type a word or phrase, e.g. <b>cranial nerves</b>, <b>warfarin</b> or <b>Virchow</b>. Every question that mentions it, or whose learning outcome does, is included: Years 1 and 2, Anatomy, ICM and drugs. Press Enter to start.";
+      else {
+        const items = poolFor(cfg), by = {};
+        for (const it of items) { const h = !it.drug && loByKey[it.los[0]], area = it.drug ? "Drugs" : h ? YEAR_LABEL[h.w.year] : "Other"; by[area] = (by[area] || 0) + 1; }
+        const los = new Set(items.flatMap(it => it.drug ? [] : it.los)).size;
+        const also = searchAlso(term);
+        found = items.length ? `<b>${items.length}</b> question${items.length === 1 ? "" : "s"} on “${esc(term)}”${also.length ? ` (also ${also.slice(0, 4).join(", ")}${also.length > 4 ? ` and ${also.length - 4} more` : ""})` : ""}: ${["Year 1", "Year 2", "Anatomy", "ICM", "Drugs", "Other"].filter(a => by[a]).map(a => `${by[a]} ${a}`).join(" · ")}${los ? ` · from ${los} learning outcome${los === 1 ? "" : "s"}` : ""}. Press Enter to start.` : `No questions match “${esc(term)}” with these settings. Try a shorter word, another spelling, or turn off some filters.`;
+      }
+    }
+    return {
+      review: statusHTML(cfg, id => poolFor({ ...cfg, status: [id] }).length, id => `data-qstat="${id}"`),
+      level: levelPicker(levelCounts(poolFor({ ...cfg, levels: [1, 2, 3] }))),
+      start: `<button class="btn pri" id="q-start"${n ? "" : " disabled"}>Start ${n} question${n === 1 ? "" : "s"}</button><span class="count">${match} match${match === 1 ? "" : "es"}${why}</span>`,
+      found
+    };
+  }
+  function refreshCustom() {
+    const bits = customBits(qcfg);
+    for (const [id, html] of [["c-review", bits.review], ["c-level", bits.level], ["c-start", bits.start], ["c-found", bits.found]]) { const el = document.getElementById(id); if (el) el.innerHTML = html; }
+  }
   function customHTML() {
-    const cfg = qcfg, fams = new Set(cfg.scope === "drugs" ? ["drug"] : cfg.fams), match = poolFor(cfg).length;
-    const n = cfg.n === "all" ? match : Math.min(cfg.n, match);
+    const cfg = qcfg, fams = new Set(cfg.scope === "drugs" ? ["drug"] : cfg.fams), bits = customBits(cfg);
     const cnt = pred => POOL.filter(it => fams.has(it.fam) && pred(it)).length;
     const seg = (attr, cur, opts) => `<div class="seg" role="group">${opts.map(([v, l]) => `<button data-${attr}="${v}" aria-pressed="${String(cur) === String(v)}">${l}</button>`).join("")}</div>`;
     let scope = "";
-    if (cfg.scope === "weeks") scope = YEARS.map(y => {
-      const ws = DATA[y].map(w => [w, cnt(it => it.weeks.includes(w.id) || it.gw.icm.includes(w.id))]).filter(([, c]) => c);
-      return `<div><h3>${YEAR_LABEL[y]}<button data-qall="${y}">All</button><button data-qnone="${y}">None</button></h3><div class="chips">${ws.map(([w, c]) => `<button class="chip" data-qweek="${w.id}" aria-pressed="${cfg.weeks.includes(w.id)}">${w.num} ${esc(w.title)} <span class="ct">${c}</span></button>`).join("")}</div></div>`;
+    if (cfg.scope === "weeks") scope = weekGroups().map(([y, label, weeks]) => {
+      const ws = weeks.map(w => [w, cnt(it => inWeeks(it, new Set([w.id])))]).filter(([, c]) => c);
+      return `<div><h3>${label}<button data-qall="${y}">All</button><button data-qnone="${y}">None</button></h3><div class="chips">${ws.map(([w, c]) => `<button class="chip" data-qweek="${w.id}" aria-pressed="${cfg.weeks.includes(w.id)}">${w.num} ${esc(w.title)} <span class="ct">${c}</span></button>`).join("")}</div></div>`;
     }).join("");
     if (cfg.scope === "systems") scope = `<div class="chips">${SYSTEMS.map(s => `<button class="chip" data-qsys="${s.id}" aria-pressed="${cfg.systems.includes(s.id)}">${esc(s.title)} <span class="ct">${cnt(it => inSystem(it, s))}</span></button>`).join("")}</div>`;
     if (cfg.scope === "drugs") scope = `<div class="chips">${DRUGS.map(c => `<button class="chip" data-qcat="${c.id}" aria-pressed="${cfg.cats.includes(c.id)}">${esc(c.title)} <span class="ct">${cnt(it => it.cat === c.id)}</span></button>`).join("")}</div>`;
-    return `<div class="qz"><header class="week-head"><div class="eyebrow">Quiz</div><h2>Custom quiz</h2><div class="meta"><span>Choose what to cover, the question types and how many.</span></div></header>
+    if (cfg.scope === "search") scope = `<div class="qsearch"><input id="q-term" type="search" value="${esc(cfg.term || "")}" placeholder="Search questions, e.g. cranial nerves" autocomplete="off" spellcheck="false" aria-label="Quiz every question on this term"><p class="lvhint" id="c-found" aria-live="polite">${bits.found}</p></div>`;
+    return `<div class="qz"><header class="week-head"><div class="eyebrow">Quiz</div><h2>Custom quiz</h2><div class="meta"><span>Pick what to cover, or search for a term, then the level, question types and how many.</span></div></header>
       <section class="picker">
-        <div><h3>Cover</h3>${seg("qscope", cfg.scope, [["all", "Everything"], ["weeks", "Weeks"], ["systems", "Systems"], ["drugs", "Drug groups"]])}</div>
+        <div id="c-review">${bits.review}</div>
+        <div><h3>Cover</h3>${seg("qscope", cfg.scope, [["all", "Everything"], ["weeks", "Weeks"], ["systems", "Systems"], ["drugs", "Drug groups"], ["search", "Search"]])}</div>
         ${scope ? `<div class="scope">${scope}</div>` : ""}
-        <div><h3>Level</h3>${levelPicker(levelCounts(poolFor({ ...cfg, levels: [1, 2, 3] })))}</div>
-        <div><h3>Question types</h3><div class="chips">${["sa", "num", "lad", "drug"].map(f => `<button class="chip" data-qfam="${f}" aria-pressed="${fams.has(f)}"${cfg.scope === "drugs" && f !== "drug" ? " disabled" : ""}>${FAM_LABEL[f]} <span class="ct">${FAMN[f]}</span></button>`).join("")}</div></div>
+        <div><h3>Level</h3><div id="c-level">${bits.level}</div></div>
+        <div><h3>Question types</h3><div><div class="chips">${["sa", "num", "list", "lad", "drug"].map(f => `<button class="chip" data-qfam="${f}" aria-pressed="${fams.has(f)}"${cfg.scope === "drugs" && f !== "drug" ? " disabled" : ""}>${FAM_LABEL[f]} <span class="ct">${FAMN[f]}</span></button>`).join("")}</div></div></div>
         <div><h3>How many</h3>${seg("qn", cfg.n, [[10, "10"], [20, "20"], [40, "40"], ["all", "All"]])}</div>
       </section>
-      <div class="startbar"><button class="btn pri" id="q-start"${n ? "" : " disabled"}>Start ${n} question${n === 1 ? "" : "s"}</button><span class="count">${match} match${match === 1 ? "" : "es"}${cfg.scope !== "all" && !match ? " · pick at least one" : ""}</span></div>
+      <div class="startbar" id="c-start">${bits.start}</div>
     </div>`;
   }
   // An option as short plain text (drops the examples line, trims long mechanisms).
@@ -1750,6 +2377,7 @@
     const q = c.q, ok = c.ok;
     let body = "";
     if (q.kind === "typed") body = `${!c.skipped ? `<div class="yours">Your answer: ${esc(c.given)}</div>` : ""}<div class="model">${q.answerHTML(c.hit)}</div>`;
+    else if (q.kind === "list") body = listResultHTML(c);
     else if (q.kind === "order") body = `<div class="model"><span class="lbl">Correct order, and why</span><ol class="ladder">${q.steps.map((s, i) => { const good = c.given[i] === i; return `<li class="${good ? "ok" : "bad"}">${esc(s)}${q.whys[i] ? `<span class="lw">${esc(q.whys[i])}</span>` : ""}${good ? "" : `<span class="yp">you put: ${esc(q.steps[c.given[i]])}</span>`}</li>`; }).join("")}</ol></div>`;
     else if (q.explain) body = `<div class="model">${q.explain}</div>`;
     body += learnedHTML(c);
@@ -1759,7 +2387,7 @@
     const links = [];
     if (q.lo && loByKey[q.lo]) links.push(loLink("Open the notes", q.lo, "linkbtn lolink"));
     if (q.drug) links.push(`<button class="linkbtn" data-qdrug="${q.drug.id}">Open ${esc(q.drug.name)}</button>`);
-    const verdict = ok ? (c.overridden ? "Marked right" : c.hinted ? "Right, with a hint" : "Right") : c.skipped ? "Here's the answer" : c.overridden ? "Marked wrong" : "Not quite";
+    const verdict = q.kind === "list" ? listVerdict(c) : ok ? (c.overridden ? "Marked right" : c.hinted ? "Right, with a hint" : "Right") : c.skipped ? "Here's the answer" : c.overridden ? "Marked wrong" : "Not quite";
     const later = review ? "" : c.requeuedNow ? (ok ? " · it'll come back this round and sooner than usual" : " · it'll come back this round") : ok && c.hinted ? " · it'll come back sooner than usual" : "";
     return `<div class="fb ${ok ? "ok" : "no"}"><div class="verdict">${verdict}${later}</div>${body}
       <div class="fb-actions">${review
@@ -1779,6 +2407,8 @@
     let body = "";
     if (q.kind === "typed" && !c.answered) body = `<form class="qinput" id="qform" autocomplete="off"><input id="qans" type="text" enterkeyhint="done" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="${q.placeholder || "Type your answer"}" aria-label="Your answer"><button class="btn pri" type="submit">Check</button><button class="btn ghost hintbtn" type="button" id="q-hint"${c.hinted ? " disabled" : ""}><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 12.5h4M6.5 14.5h3M8 1.5a4.5 4.5 0 0 0-2.6 8.2c.4.3.6.7.6 1.2v.6h4v-.6c0-.5.2-.9.6-1.2A4.5 4.5 0 0 0 8 1.5z"/></svg>Hint</button><button class="btn ghost" type="button" id="q-skip">Don't know</button></form>`;
     if (q.kind === "mcq") body = `${!c.answered && !c.hinted ? `<div class="hintrow"><button class="btn ghost hintbtn" id="q-hint"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 12.5h4M6.5 14.5h3M8 1.5a4.5 4.5 0 0 0-2.6 8.2c.4.3.6.7.6 1.2v.6h4v-.6c0-.5.2-.9.6-1.2A4.5 4.5 0 0 0 8 1.5z"/></svg>Hint</button></div>` : ""}<div class="opts">${q.opts.map((h, i) => { const out = !c.answered && c.removed && c.removed.includes(i); const cls = out ? " out" : !c.answered ? "" : i === q.right ? " right" : i === c.choice ? " wrong" : " dim"; return `<button class="opt${cls}" data-opt="${i}"${c.answered || out ? " disabled" : ""}><kbd>${i + 1}</kbd><span>${h}</span></button>`; }).join("")}</div>`;
+    if (q.kind === "typed" && !c.answered && c.exclMsg) body += `<p class="lmsg no" aria-live="polite">${esc(c.exclMsg)}</p>`;
+    if (q.kind === "list" && !c.answered) body = listLiveHTML(c);
     if (q.kind === "order" && !c.answered) {
       const rest = q.perm.filter(i => !c.placed.includes(i));
       body = `${c.placed.length ? `<ol class="placed">${c.placed.map((i, p) => `<li><button data-unplace="${p}" title="Tap to take it back"><span class="n">${p + 1}</span><span>${esc(q.steps[i])}</span></button></li>`).join("")}</ol>` : ""}
@@ -1790,7 +2420,7 @@
   function cardInner(c, q) {
     const opts = c.answered && q.kind === "mcq" && QS.view != null ? `<div class="opts">${q.opts.map((h, i) => `<button class="opt${i === q.right ? " right" : i === c.choice ? " wrong" : " dim"}" disabled><kbd>${i + 1}</kbd><span>${h}</span></button>`).join("")}</div>` : "";
     return `<div class="qtag"><span>${esc(q.tag)}</span>${q.src ? `<span>${esc(q.src)}</span>` : ""}<span class="lvl lvl-${c.it.lvl}">${LEVEL_LABEL[c.it.lvl]}</span>${c.again ? `<span class="again">Second try</span>` : ""}</div>
-      <p class="qprompt">${q.prompt}</p>${c.hinted ? `<div class="hintbox"><b>Hint</b><span>${esc(q.hint.text)}</span></div>` : ""}${opts}`;
+      <p class="qprompt">${q.prompt}</p>${c.excl ? `<p class="apart">Apart from <b>${esc(c.excl.label)}</b>, which you've given the last few times.</p>` : ""}${c.hinted ? `<div class="hintbox"><b>Hint</b><span>${esc(q.hint.text)}</span></div>` : ""}${opts}`;
   }
   function ratedHTML() {
     const rows = Object.entries(QS.rated || {}).filter(([, [from, to]]) => from !== to);
@@ -1824,6 +2454,7 @@
     else if (state.qscreen === "custom") v.innerHTML = customHTML();
     else if (state.qscreen === "sprint") v.innerHTML = sprintHTML();
     else if (GRP[state.qscreen]) v.innerHTML = gHTML(state.qscreen);
+    else if (state.qscreen === "iexam") v.innerHTML = examHTML();
     else if (GMODE[state.qscreen] && GMODE[state.qscreen][1] === "custom") v.innerHTML = gCustomHTML(GMODE[state.qscreen][0]);
     else if (state.qscreen === "due") v.innerHTML = dueHTML(null);
     else if (GMODE[state.qscreen] && GMODE[state.qscreen][1] === "due") v.innerHTML = dueHTML(GMODE[state.qscreen][0]);
@@ -1834,10 +2465,10 @@
     if (top) { $("#main").scrollTop = 0; if (window.innerWidth <= 860) window.scrollTo(0, 0); }
     const c = state.qscreen === "session" && QS && !QS.done && QS.view == null ? QS.cur : null;
     if (!c) { const f = QS && QS.view != null && $("#q-fwd"); if (f) f.focus({ preventScroll: true }); return; }
-    if (!c.answered && c.q.kind === "typed") { const inp = $("#qans"); if (inp) inp.focus({ preventScroll: !top }); }
+    if (!c.answered && (c.q.kind === "typed" || c.q.kind === "list")) { const inp = $("#qans") || $("#qlist"); if (inp) inp.focus({ preventScroll: !top }); }
     else if (c.answered && !QS.timed) { const nb = $("#q-next"); if (nb) nb.focus({ preventScroll: true }); const fb = $(".fb"); if (fb && fb.scrollIntoView) fb.scrollIntoView({ block: "nearest" }); }
   }
-  function saveCfg() { store.set("qcfg", qcfg); store.set("acfg", acfg); store.set("icfg", icfg); const m = $("#main").scrollTop, y = window.scrollY; renderQuiz(); $("#main").scrollTop = m; window.scrollTo(0, y); return true; }
+  function saveCfg() { store.set("qcfg", qcfg); store.set("acfg", acfg); store.set("icfg", icfg); store.set("xcfg", xcfg); const m = $("#main").scrollTop, y = window.scrollY; renderQuiz(); $("#main").scrollTop = m; window.scrollTo(0, y); return true; }
   const toggleIn = (arr, v) => { const i = arr.indexOf(v); if (i >= 0) arr.splice(i, 1); else arr.push(v); };
 
   // Returns true when the click belonged to the quiz.
@@ -1855,8 +2486,16 @@
     const la = t.closest("[data-learn]"); if (la) { learnAction(la.dataset.learn); return true; }
     const st = t.closest("[data-step]"); if (st) { place(+st.dataset.step); return true; }
     const up = t.closest("[data-unplace]"); if (up) { unplace(+up.dataset.unplace); return true; }
+    const lm = t.closest("[data-lmatch]"); if (lm) { const [k, i] = lm.dataset.lmatch.split(":").map(Number); listMatch(k, i); return true; }
+    const lx = t.closest("[data-lxtra]"); if (lx) { listXtra(+lx.dataset.lxtra); return true; }
+    const lad = t.closest("[data-ladd]"); if (lad) { listOwn(+lad.dataset.ladd); return true; }
+    const lan = t.closest("[data-laddnote]"); if (lan) { listOwnNote(+lan.dataset.laddnote); return true; }
+    const ln = t.closest("[data-lxnote]"); if (ln) { listXnote(+ln.dataset.lxnote); return true; }
+    const lu = t.closest("[data-lalias-undo]"); if (lu) { listAliasUndo(+lu.dataset.laliasUndo); return true; }
+    const ls = t.closest("[data-lunsave]"); if (ls) { const [w, j] = ls.dataset.lunsave.split(":"); listUnsave(w, +j); return true; }
     const b = t.closest("button[id]");
     switch (b && b.id) {
+      case "q-listdone": submit({ list: true }); return true;
       case "q-check": if (QS.cur.placed.length === QS.cur.q.steps.length) submit({ order: QS.cur.placed }); return true;
       case "q-reset": QS.cur.placed = []; renderQuiz(); return true;
       case "q-skip": submit({ skip: true }); return true;
@@ -1874,6 +2513,7 @@
       case "q-resume": state.qscreen = "session"; renderNav(); renderQuiz(true); return true;
       case "q-start": startCustom(); return true;
       case "g-start": startGCustom(b.dataset.g); return true;
+      case "x-start": startExamQuiz(); return true;
       case "q-due-go": if (b.dataset.g) startGDue(b.dataset.g); else startDue(); return true;
       case "h-retry": histRetry(); return true;
       case "h-again": { const e = histList().find(x => x.uid === state.histUid), m = e && sessionHooks(e.spec).more; if (m) m(); return true; }
@@ -1882,17 +2522,31 @@
     const sc = t.closest("[data-qscope]"); if (sc) { qcfg.scope = sc.dataset.qscope; return saveCfg(); }
     const lv = t.closest("[data-qlevel]"); if (lv) { const l = +lv.dataset.qlevel; if (!(qcfg.levels.length === 1 && qcfg.levels[0] === l)) toggleIn(qcfg.levels, l); qcfg.levels.sort(); renderNav(); return saveCfg(); }
     const wk = t.closest("[data-qweek]"); if (wk) { toggleIn(qcfg.weeks, wk.dataset.qweek); return saveCfg(); }
-    const ya = t.closest("[data-qall]"); if (ya) { qcfg.weeks = [...new Set([...qcfg.weeks, ...DATA[ya.dataset.qall].filter(w => WEEK_N[w.id]).map(w => w.id)])]; return saveCfg(); }
-    const yn = t.closest("[data-qnone]"); if (yn) { const ids = new Set(DATA[yn.dataset.qnone].map(w => w.id)); qcfg.weeks = qcfg.weeks.filter(w => !ids.has(w)); return saveCfg(); }
+    const grp = id => (weekGroups().find(g => g[0] === id) || [, , []])[2];
+    const ya = t.closest("[data-qall]"); if (ya) { qcfg.weeks = [...new Set([...qcfg.weeks, ...grp(ya.dataset.qall).filter(w => WEEK_N[w.id]).map(w => w.id)])]; return saveCfg(); }
+    const yn = t.closest("[data-qnone]"); if (yn) { const ids = new Set(grp(yn.dataset.qnone).map(w => w.id)); qcfg.weeks = qcfg.weeks.filter(w => !ids.has(w)); return saveCfg(); }
     const sy = t.closest("[data-qsys]"); if (sy) { toggleIn(qcfg.systems, sy.dataset.qsys); return saveCfg(); }
     const ca = t.closest("[data-qcat]"); if (ca) { toggleIn(qcfg.cats, ca.dataset.qcat); return saveCfg(); }
+    const qs = t.closest("[data-qstat]"); if (qs) { qcfg.status = statusPick(qcfg).slice(); toggleIn(qcfg.status, qs.dataset.qstat); delete qcfg.learning; return saveCfg(); }
     const fa = t.closest("[data-qfam]"); if (fa) { const f = fa.dataset.qfam; if (!(qcfg.fams.length === 1 && qcfg.fams[0] === f)) toggleIn(qcfg.fams, f); return saveCfg(); }
     const qn = t.closest("[data-qn]"); if (qn) { qcfg.n = qn.dataset.qn === "all" ? "all" : +qn.dataset.qn; return saveCfg(); }
     const dn = t.closest("[data-duen]"); if (dn) { qcfg.dueN = dn.dataset.duen === "all" ? "all" : +dn.dataset.duen; return saveCfg(); }
     const gb = t.closest("[data-gk]"); if (gb) return gSet(gb.dataset.g, gb.dataset.gk, gb.dataset.gv);
+    const xb = t.closest("[data-xk]"); if (xb) return xSet(xb.dataset.xk, xb.dataset.xv);
     return true;
   }
-  document.addEventListener("submit", e => { if (e.target.id === "qform") { e.preventDefault(); submit({ text: $("#qans").value }); } });
+  document.addEventListener("submit", e => { if (e.target.id === "qform") { e.preventDefault(); submit({ text: $("#qans").value }); } if (e.target.id === "qlistform") { e.preventDefault(); listEnter(); } });
+  // Search quiz box: counts update as you type (without redrawing the box); Enter starts the quiz.
+  let termT;
+  document.addEventListener("input", e => {
+    if (e.target.id !== "q-term") return;
+    clearTimeout(termT); termT = setTimeout(() => { qcfg.term = e.target.value; store.set("qcfg", qcfg); refreshCustom(); }, 180);
+  });
+  document.addEventListener("keydown", e => {
+    if (e.target.id !== "q-term" || e.key !== "Enter") return;
+    e.preventDefault(); clearTimeout(termT); qcfg.term = e.target.value; store.set("qcfg", qcfg);
+    if (poolFor(qcfg).length) startCustom(); else refreshCustom();
+  });
   document.addEventListener("keydown", e => {
     if (state.year !== "quiz" || state.query.trim() || state.qscreen !== "session" || !QS) return;
     if (e.metaKey || e.ctrlKey || e.altKey || (e.target.matches && e.target.matches("input, textarea"))) return;
@@ -1989,7 +2643,7 @@
         <div class="prows">${prog("row", "drugs", "Drug ratings")}${prog("row", "qfam:drug", "Drug quiz questions")}</div>
         <div class="plist">${head("Ratings", "Quiz")}${DRUGS.map(c => line(`data-gocat="${c.id}"`, c.items.length, c.title, prog("mini", "dcat:" + c.id), prog("mini", "qdcat:" + c.id))).join("")}</div></section>
       <section class="psec" id="psec-quiz"><h3>Quiz</h3>
-        <div class="prows">${prog("row", "quiz", "All questions")}${["sa", "num", "lad", "drug"].map(f => prog("row", "qfam:" + f, FAM_LABEL[f])).join("")}</div>
+        <div class="prows">${prog("row", "quiz", "All questions")}${["sa", "num", "list", "lad", "drug"].map(f => prog("row", "qfam:" + f, FAM_LABEL[f])).join("")}</div>
         <div class="prows">${[1, 2, 3].map(l => prog("row", "qlevel:" + l, LEVEL_LABEL[l] + " level")).join("")}</div>
         <div class="stats">${stat(s.due, "due for review")}${stat(s.streak, "day streak")}${stat(s.seen, "answers given")}${stat(meta.sprintBest || 0, "sprint best")}</div></section>
       <p class="foot-note">Tap a week or drug group to open it. Rate LOs and drugs with the Not yet / Shaky / Confident buttons on each card.</p>`;
@@ -2035,11 +2689,10 @@
         <div class="fb-actions">${btn(`data-goweek="${hw.w.id}"`, "Open the notes", true)}${WEEK_N[hw.w.id] ? btn(`data-quizweek="${hw.w.id}"`, `Quiz this week · ${WEEK_N[hw.w.id]}`) : ""}</div>
       </section>` : "";
 
+    const daily = (mode, name, done) => modeRow(mode, name, done ? "done ✓" : "to do", done ? "Done today. Tap for 10 more" : "");
     const todayCard = `<section class="dcard">
-        <h3>Today</h3>
-        <div class="dbig">${s.doneToday ? `<b class="ok">Daily 10 done ✓</b>` : `<b>Daily 10 to do</b>`}<span>${s.streak ? `${s.streak}-day streak` : "Start a streak today"}${meta.daily.best > 1 ? ` · best ${meta.daily.best}` : ""}</span></div>
-        <ul class="dlist"><li><span>Anatomy Daily 10</span><b>${gStats("anat").doneToday ? "done ✓" : "to do"}</b></li><li><span>ICM Daily 10</span><b>${gStats("icm").doneToday ? "done ✓" : "to do"}</b></li><li><span>Due for review</span><b>${s.due}</b></li><li><span>Sprint best</span><b>${meta.sprintBest || 0}</b></li><li><span>Answers so far</span><b>${s.seen.toLocaleString("en-GB")}</b></li></ul>
-        <div class="fb-actions">${btn(`data-qmode="daily"`, s.doneToday ? "10 more" : "Start Daily 10", !s.doneToday)}${btn(`data-qmode="adaily"`, gStats("anat").doneToday ? "10 more anatomy" : "Anatomy Daily 10")}${btn(`data-qmode="idaily"`, gStats("icm").doneToday ? "10 more ICM" : "ICM Daily 10")}${s.due ? btn(`data-qmode="due"`, `Review ${s.due} due`) : ""}</div>
+        <div class="dcard-head"><h3>Today</h3><span>${s.streak ? `${s.streak}-day streak` : "Start a streak today"}${meta.daily.best > 1 ? ` · best ${meta.daily.best}` : ""}</span></div>
+        <div class="menu">${daily("daily", "Daily 10", s.doneToday)}${(cp => modeRow("cont", "Continue learning", cp.close ? `${cp.close} new` : "", contText(cp), { disabled: !cp.items.length }))(contPlan())}${daily("adaily", "Anatomy Daily 10", gStats("anat").doneToday)}${daily("idaily", "ICM Daily 10", gStats("icm").doneToday)}${modeRow("due", "Review due", `${s.due} due`, "", { disabled: !s.due })}</div>
       </section>`;
 
     const progressCard = `<section class="dcard">
@@ -2056,7 +2709,7 @@
     const continueCard = last || rq ? `<section class="dcard">
         <h3>Pick up where you left off</h3>
         ${quizBack}
-        ${last ? `<button class="dlink" data-goweek="${last.id}"><span class="dl-name">${wkTitle(last)}</span><span class="dl-sub">Notes · ${YEAR_LABEL[last.year]} · ${last.los.length} LOs</span>${prog("mini", "week:" + last.id)}</button>
+        ${last ? `<div class="dweeks"><button class="dlink" data-goweek="${last.id}"><span class="dl-name">${wkTitle(last)}</span><span class="dl-sub">Notes · ${YEAR_LABEL[last.year]} · ${last.los.length} LOs</span>${prog("mini", "week:" + last.id)}</button></div>
         ${WEEK_N[last.id] && !rq ? `<div class="fb-actions">${btn(`data-quizweek="${last.id}"`, last.yr ? "Quiz this system" : `Quiz week ${last.num}`)}</div>` : ""}` : ""}
       </section>` : "";
     const recent = histList().slice(0, 4);
@@ -2068,16 +2721,11 @@
       </section>`;
 
     const focusCard = `<section class="dcard">
-        <h3>Your shaky LOs</h3>
-        ${flagged.length ? `<ul class="dlos">${flagged.slice(0, 5).map(lo => `<li><span class="pill ${conf[lo.key] === 1 ? "bad" : "warn"}">${CONF_LABEL[conf[lo.key]]}</span>${loLink(lo.text.length > 90 ? lo.text.slice(0, 88).replace(/[\s,;:]+\S*$/, "") + "…" : lo.text, lo.key)}</li>`).join("")}</ul>
-          <div class="fb-actions">${btn(`data-qmode="shaky"`, `Drill them · ${flagged.length}`, false)}</div>`
-        : `<p class="dnote">Nothing flagged yet. Mark LOs as <b>Not yet</b> or <b>Shaky</b> while you revise and they'll collect here.</p>`}
-      </section>`;
-
-    const troubleCard = `<section class="dcard">
-        <h3>Quiz trouble spots</h3>
-        ${trouble.length ? `<div class="dweeks">${trouble.map(t => `<button class="dlink" data-quizweek="${t.w.id}"><span class="dl-name">${wkTitle(t.w)}</span><span class="dl-sub">${Math.round(t.acc * 100)}% right · ${t.n} answers</span></button>`).join("")}</div><p class="dnote">Tap a week to quiz it again.</p>`
-        : `<p class="dnote">Answer at least 5 questions on a week and your weakest weeks will show here.</p>`}
+        <h3>Weak spots</h3>
+        ${flagged.length ? `<ul class="dlos">${flagged.slice(0, 4).map(lo => `<li><span class="pill ${conf[lo.key] === 1 ? "bad" : "warn"}">${CONF_LABEL[conf[lo.key]]}</span>${loLink(lo.text.length > 90 ? lo.text.slice(0, 88).replace(/[\s,;:]+\S*$/, "") + "…" : lo.text, lo.key)}</li>`).join("")}</ul>
+          <div class="fb-actions">${btn(`data-qmode="shaky"`, `Drill shaky LOs · ${flagged.length}`, false)}</div>` : ""}
+        ${trouble.length ? `<div class="dweeks">${trouble.map(t => `<button class="dlink" data-quizweek="${t.w.id}"><span class="dl-name">${wkTitle(t.w)}</span><span class="dl-sub">${Math.round(t.acc * 100)}% right · ${t.n} answers · tap to quiz it again</span></button>`).join("")}</div>` : ""}
+        ${flagged.length || trouble.length ? "" : `<p class="dnote">Mark LOs <b>Not yet</b> or <b>Shaky</b> as you revise, and answer a few questions on a week. Your weakest LOs and weeks collect here.</p>`}
       </section>`;
 
     const comingCard = upcoming.length ? `<section class="dcard">
@@ -2085,20 +2733,11 @@
         <div class="dweeks">${upcoming.map(w => `<button class="dlink" data-goweek="${w.id}"><span class="dl-name">${wkTitle(w)}</span><span class="dl-sub">w/c ${fmtDate(w.date)} · ${w.partial ? "anatomy notes only" : w.hasNotes ? "notes ready" : "notes coming"}</span></button>`).join("")}</div>
       </section>` : "";
 
-    const quickCard = `<section class="dcard">
-        <h3>Jump to</h3>
-        <div class="dquick">
-          ${btn(`data-qmode="sprint"`, `60-second sprint<small>best ${meta.sprintBest || 0}</small>`)}
-          ${btn(`data-qmode="custom"`, `Custom quiz<small>pick weeks & level</small>`)}
-          ${btn(`data-yeargo="drugs"`, `Drugs<small>${DRUGS.reduce((a, c) => a + c.items.length, 0)} entries</small>`)}
-          ${btn(`data-yeargo="y1"`, `Year 1 notes<small>${DATA.y1.length} weeks</small>`)}
-        </div>
-      </section>`;
-
     $("#view").innerHTML = `
       <header class="week-head"><div class="eyebrow">${today}</div><h2>${greet}</h2>
         <div class="meta"><span>Year 2${idx ? ` · week ${idx} of ${DATA.y2.length}` : ""}</span><span><b>${pct(progressOf("total").score)}</b> overall</span></div></header>
-      <div class="dash">${thisWeek}${todayCard}${continueCard}${histCard}${progressCard}${focusCard}${troubleCard}${comingCard}${quickCard}</div>`;
+      ${thisWeek}
+      <div class="dash"><div class="dcol">${todayCard}${histCard}${focusCard}</div><div class="dcol">${continueCard}${progressCard}${comingCard}</div></div>`;
     $("#main").scrollTop = 0;
     if (window.innerWidth <= 860) window.scrollTo(0, 0);
     logView();
@@ -2127,6 +2766,7 @@
     switch (it.t) {
       case "sa": return [esc(it.q), esc(it.model)];
       case "num": return [esc(it.q), esc(it.shown)];
+      case "list": return [esc(it.title), esc(it.items.map(x => x[0]).join(it.ordered ? " → " : "; "))];
       case "order": return [`Put in order: ${esc(it.title)}`, esc(it.steps.join(" → "))];
       case "next": return [`What comes next: ${esc(it.title)}`, `${it.steps.length} steps`];
       case "duse": return [`What ${dn} ${be} used for`, esc(d.uses.map(u => u.t).join("; "))];
@@ -2236,7 +2876,7 @@
     if (e.v === "home") return "Home";
     if (e.v === "mastered") return "Mastered";
     if (e.v === "drugs") return e.drug && drugById[e.drug] ? drugById[e.drug].name : (catById[e.cat] || DRUGS[0]).title;
-    if (e.v === "quiz") return e.screen === "session" && QS ? "Quiz: " + QS.title + (QS.done ? " (results)" : "") : { custom: "Custom quiz", sprint: "60-second sprint", anat: "Anatomy quiz", acustom: "Custom anatomy quiz", due: "Review due", adue: "Anatomy review due", icm: "ICM quiz", icustom: "Custom ICM quiz", idue: "ICM review due", hist: "Quiz history", histone: "Quiz history" }[e.screen] || "Quiz home";
+    if (e.v === "quiz") return e.screen === "session" && QS ? "Quiz: " + QS.title + (QS.done ? " (results)" : "") : { custom: "Custom quiz", sprint: "60-second sprint", anat: "Anatomy quiz", acustom: "Custom anatomy quiz", due: "Review due", adue: "Anatomy review due", icm: "ICM quiz", icustom: "Custom ICM quiz", iexam: "ICM examination quiz", idue: "ICM review due", hist: "Quiz history", histone: "Quiz history" }[e.screen] || "Quiz home";
     const w = weeksById[e.week]; return w ? `${w.num} ${w.title}` : "Back";
   }
   // Where Back would go from `view`, whether or not `view` has been recorded yet.
@@ -2366,11 +3006,11 @@
   initSync();
   updateProgressUI();
   const fromHash = location.hash.slice(1);
+  { const s = store.get("qround", null);  // carry on the round that was open when the app was closed (whatever page opens)
+    if (s && Array.isArray(s.queue)) { try { const R = restoreSession(s); if (R.cur || R.queue.length) { QS = R; if (!QS.cur) nextQuestion(); } else store.set("qround", null); } catch (err) { console.warn("Couldn't restore the quiz round", err); } } }
   if (fromHash === "quiz") { showQuiz(true); return; }
   if (fromHash === "progress") { openProgress(); return; }
   if (fromHash === "mastered") { openMastered(); return; }
   if (fromHash.startsWith("drugs") && DRUGS.length) { openDrugs(fromHash.slice(6)); return; }
-  { const s = store.get("qround", null);  // carry on the round that was open when the app was closed
-    if (s && Array.isArray(s.queue)) { try { const R = restoreSession(s); if (R.cur || R.queue.length) { QS = R; if (!QS.cur) nextQuestion(); } else store.set("qround", null); } catch (err) { console.warn("Couldn't restore the quiz round", err); } } }
   if (weeksById[fromHash]) openWeek(fromHash); else openHome();
 })();

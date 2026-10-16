@@ -16,7 +16,7 @@ In this repo the page is split into files you can edit. A small Python script (P
 | `content/icm/` | One file per week of ICM learning outcomes. |
 | `content/icm-pages.json` | The pages the ICM tab shows, one per topic for each year, and which LOs go on each. |
 | `content/drugs/` | One file per drug group. |
-| `content/quiz/` | `short-answer.json`, `numbers.json` and `ladders.json` (put-in-order questions). |
+| `content/quiz/` | `short-answer.json`, `numbers.json`, `ladders.json` (put-in-order questions) and `lists.json` (name everything on a list). |
 | `mac/` | The Mac app's fonts, icon, `Info.plist` and the "How to open" note that goes in the DMG. |
 | `tools/build.py` | Builds the page, and imports a newer published copy back into `src/` and `content/`. |
 | `GEM_Revision.dmg` | The Mac app people download. It is built separately; see [The Mac app](#the-mac-app). |
@@ -105,6 +105,7 @@ Every question has an `id` (unique, never reused, because people's quiz history 
 - **Short answer** (`short-answer.json`): `q`, `model` (the answer shown), `hint`, `why`, and `acc`, which says which typed answers count. Alternatives are separated by ` / `, and ` + ` joins parts that must all be there. For example, `subcostal + l3 / 3` needs "subcostal" and either "L3" or "3". Small spelling slips are allowed.
 - **Numbers** (`numbers.json`): `q`, `shown` (the answer as shown), `nums` (the numbers that count as right), `wrong` (three wrong options for multiple choice) and `why`.
 - **Ladders** (`ladders.json`): `title`, `steps` (in the right order), `whys` (one per step) and `decoys` (wrong next steps).
+- **Lists** (`lists.json`): `title` (the question), `hint`, `why`, and `items`, each `[as shown, accepted answers, note]` with alternatives separated by ` / `. `ordered` is `true` when the items must go in order, such as the steps of a routine. `also` lists other answers, separated by ` / `, that aren't on the list but aren't counted wrong either. For a list remembered by an acronym, `labels` gives each item's letter (for example `["S", "C", "R", "I", "P", "T", "+"]`); otherwise it's `null`.
 
 ### Generated fields
 

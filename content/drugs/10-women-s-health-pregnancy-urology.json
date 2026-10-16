@@ -42,9 +42,10 @@
         "Headache",
         "Mood change",
         "Raised BP",
-        "VTE"
+        "VTE",
+        "Arterial thrombosis (MI, stroke) with risk factors"
       ],
-      "sewhy": "Oestrogen raises clotting factors (VTE) and angiotensinogen (BP), and causes nausea and breast tenderness; changing hormone levels cause breakthrough bleeding and mood change.",
+      "sewhy": "Oestrogen raises clotting factors (VTE, and arterial clots in smokers over 35 or with migraine with aura) and angiotensinogen (BP), and causes nausea, breast tenderness and headache; changing hormone levels cause breakthrough bleeding and mood change.",
       "ci": [
         {
           "c": "Migraine with aura",
@@ -247,7 +248,7 @@
         "Acne",
         "Injection: bone loss, weight gain, delayed return of fertility"
       ],
-      "sewhy": "Progestogen alone makes the endometrium unstable (irregular bleeding) and has androgenic effects (acne); the injection suppresses oestrogen (bone loss) and its effect wears off slowly (delayed fertility).",
+      "sewhy": "Progestogen alone makes the endometrium unstable (irregular bleeding), has androgenic effects (acne) and can affect mood; the injection suppresses oestrogen (bone loss) and its effect wears off slowly (delayed fertility).",
       "ci": [
         {
           "c": "Current breast cancer",
@@ -371,7 +372,7 @@
         "Headache",
         "Small ↑ breast cancer (combined), VTE and stroke (oral)"
       ],
-      "sewhy": "Oestrogen and progestogen cause breast tenderness, bleeding and nausea; oral oestrogen raises clotting factors (VTE, stroke), and combined HRT slightly increases breast cancer risk with duration.",
+      "sewhy": "Oestrogen and progestogen cause breast tenderness, bleeding, nausea and headache, which often settle in 3 months; oral oestrogen raises clotting factors (VTE, stroke), and combined HRT slightly increases breast cancer risk with duration.",
       "ci": [
         {
           "c": "Current or past breast cancer",
@@ -526,7 +527,7 @@
         "Ovarian hyperstimulation",
         "Visual disturbance (clomifene)"
       ],
-      "sewhy": "Clomifene blocks oestrogen receptors (hot flushes, visual disturbance); stimulating several follicles causes multiple pregnancy and ovarian hyperstimulation.",
+      "sewhy": "Letrozole lowers oestrogen and clomifene blocks oestrogen receptors, so both cause hot flushes; clomifene can also disturb vision (stop it if so). Stimulating several follicles causes multiple pregnancy and ovarian hyperstimulation.",
       "ci": [
         {
           "c": "Pregnancy",
@@ -743,7 +744,7 @@
         "Water intoxication, hyponatraemia",
         "Hypotension (bolus)"
       ],
-      "sewhy": "Oxytocin makes the uterus contract, and too much reduces placental blood flow (fetal distress); it resembles ADH, so large doses with fluids cause water retention and hyponatraemia.",
+      "sewhy": "Oxytocin makes the uterus contract, and too much reduces placental blood flow (fetal distress). It resembles ADH, so large doses with fluids cause water retention and hyponatraemia, and a rapid IV bolus relaxes vascular smooth muscle (hypotension).",
       "ci": [
         {
           "c": "Obstructed labour or cephalopelvic disproportion",
@@ -834,11 +835,13 @@
       ],
       "se": [
         "Postural hypotension",
-        "Scalp tingling",
         "Bradycardia",
+        "Bronchospasm (asthma)",
+        "Fatigue",
+        "Scalp tingling",
         "Hepatotoxicity (rare)"
       ],
-      "sewhy": "As an α and β blocker it lowers BP on standing (α), slows the heart (β) and characteristically causes scalp tingling.",
+      "sewhy": "Labetalol is a non-selective β-blocker with added α1 block, so it shares the β-blocker effects (bradycardia, fatigue, bronchospasm in asthma, which is why nifedipine is used in asthmatic women), and the α1 block adds postural hypotension. Scalp tingling is characteristic, and it rarely injures the liver.",
       "ci": [
         {
           "c": "Asthma",
@@ -915,9 +918,10 @@
         "Postural hypotension, dizziness",
         "Retrograde ejaculation",
         "Floppy iris syndrome",
-        "Nasal congestion"
+        "Nasal congestion",
+        "Headache"
       ],
-      "sewhy": "α1 blockade lowers BP on standing, relaxes the bladder neck (retrograde ejaculation) and the iris dilator (floppy iris during cataract surgery).",
+      "sewhy": "Tamsulosin is selective for α1A receptors in the prostate and bladder neck, so it lowers BP less than doxazosin, but it relaxes the bladder neck during ejaculation (retrograde ejaculation) and the iris dilator (floppy iris during cataract surgery, which can persist after stopping). Vasodilation causes nasal congestion and headache.",
       "ci": [
         {
           "c": "Postural hypotension or micturition syncope",
@@ -1065,9 +1069,11 @@
         "Dry mouth",
         "Constipation",
         "Blurred vision",
+        "Urinary retention",
+        "Tachycardia",
         "Confusion and cognitive decline (elderly)"
       ],
-      "sewhy": "Blocking muscarinic receptors beyond the bladder causes dry mouth, constipation and blurred vision; those crossing into the brain worsen cognition in older people.",
+      "sewhy": "Blocking muscarinic receptors beyond the bladder causes the usual antimuscarinic effects (dry mouth, constipation, blurred vision, tachycardia), and too much detrusor relaxation can cause retention. Oxybutynin crosses into the brain, adding to anticholinergic burden (confusion, cognitive decline), so mirabegron is preferred in frail older people.",
       "ci": [
         {
           "c": "Angle-closure glaucoma",
@@ -1201,7 +1207,7 @@
         "Tachycardia",
         "UTI"
       ],
-      "sewhy": "As a β3 agonist it relaxes the bladder but can raise BP and heart rate, so check BP.",
+      "sewhy": "As a β3 agonist it relaxes the bladder but can raise BP and heart rate, so check BP; UTIs are more common.",
       "ci": [
         {
           "c": "Severe uncontrolled hypertension",
@@ -1261,11 +1267,13 @@
       "se": [
         "Headache",
         "Flushing",
+        "Nasal congestion",
         "Dyspepsia",
         "Blue-tinged vision",
-        "Priapism"
+        "Priapism",
+        "Sudden vision loss (NAION, rare)"
       ],
-      "sewhy": "Raising cGMP dilates vessels elsewhere (headache, flushing, nasal congestion), affects retinal PDE6 (blue-tinged vision) and can cause prolonged erections.",
+      "sewhy": "Raising cGMP dilates vessels elsewhere (headache, flushing, nasal congestion) and relaxes the lower oesophageal sphincter (dyspepsia). Sildenafil also inhibits retinal PDE6 (blue-tinged vision); prolonged erections and, rarely, optic nerve ischaemia (NAION) occur.",
       "ci": [
         {
           "c": "Taking nitrates (GTN, ISMN) or nicorandil",

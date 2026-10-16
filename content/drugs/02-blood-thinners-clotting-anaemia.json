@@ -44,9 +44,10 @@
         "GI ulcers and bleeding",
         "Bruising",
         "Bronchospasm (aspirin-sensitive asthma)",
+        "Reye's syndrome (under 16s)",
         "Tinnitus (high dose)"
       ],
-      "sewhy": "Aspirin blocks COX-1, reducing stomach-protecting prostaglandins (dyspepsia, ulcers) and platelet thromboxane for the platelet's whole life (bleeding, bruising). Shunting arachidonic acid towards leukotrienes can trigger bronchospasm in sensitive asthmatics.",
+      "sewhy": "Aspirin blocks COX-1, reducing stomach-protecting prostaglandins (dyspepsia, ulcers) and platelet thromboxane for the platelet's whole life (bleeding, bruising). Like other NSAIDs it shunts arachidonic acid towards leukotrienes (bronchospasm in sensitive asthmatics), but at antiplatelet doses it rarely causes their kidney and BP effects. In children it can cause Reye's syndrome (liver failure and encephalopathy), and high (salicylate-toxic) doses cause tinnitus.",
       "ci": [
         {
           "c": "Children under 16",
@@ -169,7 +170,7 @@
         "GI upset",
         "Rash"
       ],
-      "sewhy": "Blocking platelet ADP receptors prevents aggregation, so bleeding and bruising are the main risks; ticagrelor also raises adenosine, causing breathlessness and bradycardia.",
+      "sewhy": "Blocking platelet ADP receptors prevents aggregation, so bleeding and bruising are the main risks; ticagrelor also raises adenosine, causing breathlessness and bradycardia. GI upset and rash are less common.",
       "ci": [
         {
           "c": "Active bleeding",
@@ -293,10 +294,10 @@
       "se": [
         "Bleeding",
         "Skin necrosis (early, protein C drop)",
-        "Many drug and food interactions",
-        "Needs INR monitoring"
+        "Teratogenic",
+        "Many drug and food interactions"
       ],
-      "sewhy": "Warfarin blocks vitamin K recycling, reducing clotting factors II, VII, IX and X (bleeding). Protein C falls first, so clotting can briefly increase (skin necrosis), and anything changing CYP2C9 or vitamin K intake shifts the INR.",
+      "sewhy": "Warfarin blocks vitamin K recycling, reducing clotting factors II, VII, IX and X (bleeding). Protein C falls first, so clotting can briefly increase (skin necrosis). It crosses the placenta (embryopathy and fetal bleeding), and anything changing CYP2C9 activity or vitamin K intake shifts the INR, which is why it needs INR monitoring.",
       "ci": [
         {
           "c": "Pregnancy",
@@ -411,10 +412,10 @@
       ],
       "se": [
         "Bleeding",
-        "Dyspepsia (dabigatran)",
-        "Anaemia"
+        "Anaemia (from bleeding)",
+        "Dyspepsia (dabigatran)"
       ],
-      "sewhy": "DOACs directly block factor Xa or thrombin, so bleeding is the main risk; dabigatran capsules contain tartaric acid, which causes dyspepsia.",
+      "sewhy": "DOACs directly block factor Xa or thrombin, so bleeding (and anaemia from slow bleeding) is the main risk; dabigatran capsules contain tartaric acid, which causes dyspepsia.",
       "ci": [
         {
           "c": "Mechanical heart valve",
@@ -700,7 +701,7 @@
         "Hypotension",
         "Reperfusion arrhythmias"
       ],
-      "sewhy": "Thrombolytics activate plasmin, which breaks down all clots including protective ones, so bleeding (including intracranial) is the major risk; alteplase also raises bradykinin (angioedema).",
+      "sewhy": "Thrombolytics activate plasmin, which breaks down all clots including protective ones, so bleeding (including intracranial) is the major risk. Alteplase also raises bradykinin (angioedema, more with ACE inhibitors) and can lower BP during the infusion, and suddenly reopening a coronary artery causes reperfusion arrhythmias.",
       "ci": [
         {
           "c": "Previous intracranial haemorrhage",

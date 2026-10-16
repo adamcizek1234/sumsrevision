@@ -45,7 +45,7 @@
         "QT prolongation (citalopram)",
         "Discontinuation symptoms"
       ],
-      "sewhy": "Serotonin in the gut (nausea), sexual pathways (dysfunction) and platelets (less serotonin uptake, more bleeding); SIADH lowers sodium in older people, and early activation can raise suicidality in under-25s.",
+      "sewhy": "Serotonin acts in the gut (nausea), brain (headache, early agitation and, in under-25s, more suicidal thoughts) and sexual pathways (dysfunction). Platelets take up serotonin to clump, so bleeding rises, especially with NSAIDs. SIADH lowers sodium, mainly in older people; citalopram prolongs QT; and stopping suddenly causes discontinuation symptoms (dizziness, irritability, \"brain zaps\").",
       "ci": [
         {
           "c": "Mania",
@@ -184,12 +184,15 @@
       ],
       "se": [
         "Nausea",
+        "Headache",
+        "Sexual dysfunction",
+        "Hyponatraemia",
+        "↑ bleeding risk",
         "Raised BP (venlafaxine)",
         "Sweating",
-        "Hyponatraemia",
         "Severe discontinuation symptoms"
       ],
-      "sewhy": "As well as serotonergic effects, raising noradrenaline increases BP and sweating; short half-lives (venlafaxine) cause severe discontinuation symptoms.",
+      "sewhy": "SNRIs block serotonin reuptake like SSRIs, so they share the SSRI effects: nausea, headache, sexual dysfunction, hyponatraemia and bleeding. Raising noradrenaline as well increases BP and sweating, and venlafaxine's short half-life makes discontinuation symptoms especially severe.",
       "ci": [
         {
           "c": "Uncontrolled hypertension",
@@ -281,9 +284,10 @@
       "se": [
         "Sedation",
         "Increased appetite, weight gain",
+        "Dry mouth",
         "Agranulocytosis (rare)"
       ],
-      "sewhy": "It blocks H1 receptors strongly (sedation, appetite, weight gain), most noticeably at low doses.",
+      "sewhy": "It blocks H1 receptors strongly (sedation, appetite, weight gain), most noticeably at low doses, and dry mouth is common. It blocks rather than stimulates 5-HT2 and 5-HT3 receptors, so it causes less sexual dysfunction and nausea than SSRIs. Rarely it causes agranulocytosis (report a sore throat or fever).",
       "ci": [
         {
           "c": "With MAOIs",
@@ -524,9 +528,10 @@
       "se": [
         "Postural hypotension",
         "Hypertensive crisis with tyramine",
+        "Serotonin syndrome (with other serotonergic drugs)",
         "Insomnia"
       ],
-      "sewhy": "MAO normally breaks down tyramine from food; blocking it lets tyramine release noradrenaline, causing a hypertensive crisis.",
+      "sewhy": "MAO normally breaks down tyramine from food; blocking it lets tyramine release stored noradrenaline (hypertensive crisis), and combining with SSRIs, SNRIs, triptans or tramadol causes serotonin syndrome. Long-term MAO inhibition paradoxically causes postural hypotension (false transmitters replace noradrenaline), and raised monoamines disturb sleep.",
       "ci": [
         {
           "c": "With SSRIs, SNRIs, TCAs, triptans or tramadol",
@@ -623,11 +628,12 @@
         "Fine tremor",
         "Polyuria (nephrogenic DI)",
         "Hypothyroidism",
+        "Hypercalcaemia (hyperparathyroidism)",
         "Weight gain",
         "Renal impairment",
         "Toxicity: coarse tremor, ataxia, confusion, vomiting, seizures"
       ],
-      "sewhy": "Lithium blocks ADH action in the collecting duct (polyuria, nephrogenic DI) and thyroid hormone release (hypothyroidism); the therapeutic range is narrow, so dehydration or interacting drugs cause toxicity.",
+      "sewhy": "Fine tremor and weight gain are common. Lithium blocks ADH action in the collecting duct (polyuria, nephrogenic DI), reduces thyroid hormone release (hypothyroidism), raises parathyroid hormone (high calcium) and with long use can reduce kidney function, hence 6-monthly kidney, thyroid and calcium checks. The range is narrow, so dehydration or drugs that cut its clearance (NSAIDs, ACE inhibitors, thiazides) cause toxicity.",
       "ci": [
         {
           "c": "Significant renal impairment",
@@ -795,9 +801,10 @@
         "Sedation",
         "QT prolongation",
         "NMS",
+        "↑ stroke and death in dementia",
         "Clozapine: agranulocytosis, myocarditis, constipation"
       ],
-      "sewhy": "D2 blockade in the basal ganglia causes extrapyramidal effects and in the pituitary raises prolactin; H1, muscarinic and α1 effects cause sedation and weight gain; clozapine adds agranulocytosis and myocarditis.",
+      "sewhy": "D2 blockade in the basal ganglia causes extrapyramidal effects (dystonia, parkinsonism, akathisia, tardive dyskinesia; mainly typicals) and in the pituitary raises prolactin. H1, muscarinic and α1 blockade cause sedation, weight gain and metabolic syndrome (worst with olanzapine and clozapine). Several prolong QT, NMS (rigidity, fever, high CK) is a rare emergency, and in dementia they raise stroke and death risk. Clozapine adds agranulocytosis, myocarditis and severe constipation.",
       "ci": [
         {
           "c": "Dementia with Lewy bodies, Parkinson's disease",
@@ -1084,7 +1091,7 @@
         "Vivid dreams, insomnia",
         "Urinary incontinence"
       ],
-      "sewhy": "More acetylcholine in the gut (nausea, diarrhoea), at the heart's SA and AV nodes (bradycardia, heart block, syncope) and in the bladder (incontinence).",
+      "sewhy": "More acetylcholine in the gut (nausea, diarrhoea), at the heart's SA and AV nodes (bradycardia, heart block, syncope), in the bladder (incontinence) and in the brain (vivid dreams, insomnia; give donepezil in the morning if so).",
       "ci": [
         {
           "c": "Sick sinus syndrome, heart block, bradycardia",
@@ -1258,7 +1265,7 @@
         "Flushing",
         "Dizziness"
       ],
-      "sewhy": "5-HT1B/1D agonism constricts cranial and, to a lesser extent, coronary vessels (chest tightness), and causes tingling and flushing; avoid in coronary disease.",
+      "sewhy": "5-HT1B/1D agonism constricts cranial and, to a lesser extent, coronary vessels (chest tightness), and causes tingling, flushing and dizziness; avoid in coronary disease.",
       "ci": [
         {
           "c": "Ischaemic heart disease, coronary vasospasm, previous MI",
@@ -1377,9 +1384,10 @@
         "Hair loss",
         "Hepatotoxicity",
         "Pancreatitis",
-        "Thrombocytopenia"
+        "Thrombocytopenia",
+        "Teratogenic (neural tube defects, developmental delay)"
       ],
-      "sewhy": "Valproate causes weight gain, tremor and hair thinning; it can cause idiosyncratic liver failure and pancreatitis, low platelets, and it's highly teratogenic.",
+      "sewhy": "Valproate causes weight gain, tremor and hair thinning; it can cause idiosyncratic liver failure and pancreatitis and lowers platelets. It's highly teratogenic (about 10% major malformations and 30–40% neurodevelopmental problems), so it needs the Pregnancy Prevention Programme.",
       "ci": [
         {
           "c": "Women and girls who could become pregnant (unless on Pregnancy Prevention Programme)",
@@ -1475,11 +1483,12 @@
       "se": [
         "Hyponatraemia (SIADH)",
         "Rash, SJS/TEN",
-        "Diplopia, ataxia",
+        "Diplopia, dizziness, ataxia",
         "Leucopenia",
-        "Enzyme induction"
+        "Enzyme induction (pill, warfarin fail)",
+        "Teratogenic"
       ],
-      "sewhy": "It enhances ADH action (SIADH, low sodium), causes HLA-linked severe skin reactions (SJS/TEN), affects the cerebellum and vestibular system (diplopia, ataxia), and induces liver enzymes.",
+      "sewhy": "It enhances ADH action (SIADH, low sodium), causes HLA-B*15:02-linked severe skin reactions (SJS/TEN), affects the cerebellum and vestibular system (diplopia, dizziness, ataxia) and can lower white cells. It induces liver enzymes, so the combined pill and warfarin fail, and it's teratogenic.",
       "ci": [
         {
           "c": "AV conduction abnormalities",
@@ -1590,9 +1599,9 @@
       ],
       "se": [
         "Lamotrigine: rash, SJS (titrate slowly)",
-        "Levetiracetam: irritability, low mood, aggression"
+        "Levetiracetam: irritability, low mood, aggression, rarely psychosis"
       ],
-      "sewhy": "Lamotrigine can cause serious rashes (SJS), especially with fast dose increases or valproate; levetiracetam commonly causes irritability and low mood.",
+      "sewhy": "Lamotrigine can cause serious rashes (SJS), especially with fast dose increases or with valproate, which doubles its levels. Levetiracetam commonly causes irritability and low mood and, rarely, psychosis.",
       "ci": [
         {
           "c": "Lamotrigine with valproate",
@@ -1663,12 +1672,15 @@
       ],
       "se": [
         "Gum hypertrophy",
-        "Hirsutism",
+        "Hirsutism, coarse features",
         "Ataxia, nystagmus",
-        "Teratogenic",
+        "Rash, SJS/TEN",
+        "Folate deficiency (megaloblastic anaemia)",
+        "Enzyme induction",
+        "Teratogenic (fetal hydantoin syndrome)",
         "Arrhythmias and hypotension (IV)"
       ],
-      "sewhy": "Phenytoin stimulates fibroblasts (gum overgrowth, coarse features, hirsutism), causes cerebellar signs when levels rise (zero-order kinetics) and is teratogenic; IV, it depresses the heart.",
+      "sewhy": "Phenytoin stimulates fibroblasts (gum overgrowth, coarse features, hirsutism) and causes cerebellar signs as levels rise; zero-order kinetics mean a small dose increase can cause a big rise. Like carbamazepine it induces liver enzymes and can cause SJS/TEN; it lowers folate (megaloblastic anaemia) and is teratogenic. Given IV, it depresses cardiac conduction.",
       "ci": [
         {
           "c": "Sinus bradycardia or heart block (IV)",
@@ -1868,7 +1880,7 @@
         "Dependence and misuse (Class C)",
         "Respiratory depression with opioids"
       ],
-      "sewhy": "They reduce neuronal calcium entry, depressing the CNS (dizziness, drowsiness) and adding to opioid respiratory depression; they're misused, so they're controlled drugs.",
+      "sewhy": "They reduce neuronal calcium entry, depressing the CNS (dizziness, drowsiness) and adding to opioid respiratory depression; weight gain is common (appetite and fluid retention), and they're misused, so they're controlled drugs.",
       "ci": [
         {
           "c": "Renal impairment",
@@ -1966,9 +1978,10 @@
         "Weight loss",
         "Cognitive slowing",
         "Kidney stones",
-        "Acute angle-closure glaucoma"
+        "Acute angle-closure glaucoma",
+        "Teratogenic"
       ],
-      "sewhy": "Topiramate inhibits carbonic anhydrase (paraesthesia, kidney stones), slows cognition and suppresses appetite; it can cause acute angle closure by swelling the ciliary body.",
+      "sewhy": "Topiramate inhibits carbonic anhydrase like acetazolamide (paraesthesia, kidney stones), slows cognition and suppresses appetite; it can cause acute angle closure by swelling the ciliary body. It's teratogenic (MHRA Pregnancy Prevention Programme) and, at higher doses, reduces the effect of the combined pill.",
       "ci": [
         {
           "c": "Pregnancy, or could become pregnant without effective contraception",

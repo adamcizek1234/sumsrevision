@@ -1220,16 +1220,6 @@
     "why": "Blood bypasses the narrowing via internal thoracic → intercostal → aorta collaterals, and the enlarged tortuous intercostals erode the rib undersurfaces."
   },
   {
-    "id": "s6441ad32",
-    "lo": "a-106-5",
-    "q": "List the order of the neurovascular bundle from top to bottom.",
-    "acc": "vein + artery + nerve / van",
-    "model": "Vein, artery, nerve (VAN).",
-    "lvl": 1,
-    "hint": "A three-letter word for a vehicle.",
-    "why": "The vein sits highest in the costal groove and the nerve lowest, so the nerve is least protected by the rib."
-  },
-  {
     "id": "s3bc9e8fb",
     "lo": "a-106-5",
     "q": "Should a chest drain go above or below a rib?",
@@ -1888,16 +1878,6 @@
     "lvl": 1,
     "hint": "The nerve of the anterior arm compartment.",
     "why": "It supplies all three anterior arm muscles: coracobrachialis, biceps and brachialis."
-  },
-  {
-    "id": "s2ce80519",
-    "lo": "a-107-14",
-    "q": "What does LOAF stand for?",
-    "acc": "lumbrical + opponens + abductor + flexor",
-    "model": "Lateral two Lumbricals, Opponens pollicis, Abductor pollicis brevis, Flexor pollicis brevis.",
-    "lvl": 1,
-    "hint": "Median nerve muscles in the hand.",
-    "why": "These are the median nerve's hand muscles; nearly all others are ulnar."
   },
   {
     "id": "s14167290",
@@ -3758,26 +3738,6 @@
     "lvl": 1,
     "hint": "The motor branch.",
     "why": "It also supplies the hypothenar muscles, medial lumbricals and adductor pollicis."
-  },
-  {
-    "id": "sd4198fc1",
-    "lo": "a-113-14",
-    "q": "Name the proximal row of carpal bones from lateral to medial.",
-    "acc": "scaphoid + lunate + triquetr + pisiform",
-    "model": "Scaphoid, lunate, triquetrum, pisiform.",
-    "lvl": 1,
-    "hint": "\"Some Lovers Try Positions…\"",
-    "why": "Only the scaphoid and lunate articulate with the radius."
-  },
-  {
-    "id": "saf3863a8",
-    "lo": "a-113-14",
-    "q": "Name the distal row of carpal bones from lateral to medial.",
-    "acc": "trapezium + trapezoid + capitate + hamate",
-    "model": "Trapezium, trapezoid, capitate, hamate.",
-    "lvl": 1,
-    "hint": "\"…That They Can't Handle\".",
-    "why": "The trapezium carries the thumb's saddle joint; the hamate's hook forms part of Guyon's canal."
   },
   {
     "id": "sbe7257c3",
@@ -7080,16 +7040,6 @@
     "why": "The superficial back muscles are upper limb muscles supplied by anterior rami."
   },
   {
-    "id": "s8f5befdb",
-    "lo": "a-133-9",
-    "q": "Name the three columns of erector spinae from lateral to medial.",
-    "acc": "iliocostalis + longissimus + spinalis",
-    "model": "Iliocostalis, longissimus and spinalis.",
-    "lvl": 1,
-    "hint": "\"I Love Spine\".",
-    "why": "\"I Love Spine\"."
-  },
-  {
     "id": "sea4451de",
     "lo": "a-133-9",
     "q": "Which elastic ligament joins adjacent laminae?",
@@ -7558,16 +7508,6 @@
     "lvl": 1,
     "hint": "Which posture lifts the heart off the inflamed back of the sac?",
     "why": "Sitting forward reduces contact between the inflamed layers; MI pain doesn't change with position."
-  },
-  {
-    "id": "s002ef028",
-    "lo": "a-135-1",
-    "q": "Name the three structures at the renal hilum from front to back.",
-    "acc": "vein + artery + pelvis",
-    "model": "Renal vein, renal artery, renal pelvis (VAP).",
-    "lvl": 1,
-    "hint": "VAP.",
-    "why": "Useful for orienting a kidney and in nephrectomy."
   },
   {
     "id": "se2b66289",
@@ -9720,16 +9660,6 @@
     "why": "It raises cGMP; sildenafil blocks PDE5 so cGMP stays high."
   },
   {
-    "id": "s81421e81",
-    "lo": "a-141-16",
-    "q": "Put the path of sperm in order from the testis.",
-    "acc": "epididymis + vas + ejaculatory + urethra",
-    "model": "Seminiferous tubules → rete testis → efferent ductules → epididymis → vas deferens → ejaculatory duct → urethra.",
-    "lvl": 1,
-    "hint": "SEVEN UP.",
-    "why": "Mnemonic SEVEN UP."
-  },
-  {
     "id": "s79342f97",
     "lo": "a-141-16",
     "q": "Which two ducts join to form the ejaculatory duct?",
@@ -10420,16 +10350,6 @@
     "why": "Compression-only CPR is acceptable if you're unwilling or unable to give breaths."
   },
   {
-    "id": "sc17996c4",
-    "lo": "i-102-3",
-    "q": "What does ICE stand for in history taking?",
-    "acc": "ideas + concerns + expectations",
-    "model": "Ideas, concerns and expectations.",
-    "lvl": 1,
-    "hint": "The patient's view of their problem.",
-    "why": "Exploring the patient's perspective improves rapport, adherence and shared decisions."
-  },
-  {
     "id": "s3bc3cd4c",
     "lo": "i-102-3",
     "q": "Why must the reaction be recorded alongside a drug allergy?",
@@ -10438,16 +10358,6 @@
     "lvl": 1,
     "hint": "What actually happened when they took it?",
     "why": "Mislabelled \"allergies\" (e.g. nausea with penicillin) deny patients the best drugs."
-  },
-  {
-    "id": "sa4b79ced",
-    "lo": "i-102-4",
-    "q": "Which structured tool is used for clinical handover?",
-    "acc": "sbar",
-    "model": "SBAR: Situation, Background, Assessment, Recommendation.",
-    "lvl": 1,
-    "hint": "Four letters.",
-    "why": "It makes handover concise and reduces omissions."
   },
   {
     "id": "s7d656f15",
@@ -10840,16 +10750,6 @@
     "why": "Confirm with an ECG."
   },
   {
-    "id": "s50a269b0",
-    "lo": "i-104-13",
-    "q": "What does the C in ACVPU stand for?",
-    "acc": "confusion / confused",
-    "model": "New confusion.",
-    "lvl": 1,
-    "hint": "An acute change in thinking.",
-    "why": "New confusion scores 3 on NEWS2."
-  },
-  {
     "id": "s11d9c715",
     "lo": "i-104-13",
     "q": "Which ACVPU levels suggest a GCS of 8 or less?",
@@ -10957,7 +10857,7 @@
     "model": "The right iliac fossa.",
     "lvl": 1,
     "hint": "The lower right of the abdomen.",
-    "why": "Start low so a large liver isn't missed; move up with each breath in."
+    "why": "Start low so a large liver isn't missed; move up with each breath in. An enlarged liver with a raised JVP suggests congestion from right heart failure."
   },
   {
     "id": "s031a417e",
@@ -10967,7 +10867,7 @@
     "model": "Shifting dullness.",
     "lvl": 1,
     "hint": "The dullness moves.",
-    "why": "Percuss to dullness in the flank, roll the patient, wait, and re-percuss."
+    "why": "Percuss to dullness in the flank, roll the patient, wait, and re-percuss. If ascites is present, check the JVP: raised suggests a cardiac cause (right heart failure)."
   },
   {
     "id": "sc0c8170f",
@@ -10988,26 +10888,6 @@
     "lvl": 1,
     "hint": "Think of cancer warning signs.",
     "why": "These need urgent investigation for cancer."
-  },
-  {
-    "id": "s0a5e2f9a",
-    "lo": "i-105-4",
-    "q": "What does the \"C\" in SOCRATES stand for?",
-    "acc": "character",
-    "model": "Character.",
-    "lvl": 1,
-    "hint": "What the pain feels like.",
-    "why": "Sharp, dull, burning, colicky."
-  },
-  {
-    "id": "sc14b764c",
-    "lo": "i-105-4",
-    "q": "What does the \"T\" in SOCRATES stand for?",
-    "acc": "time",
-    "model": "Time course.",
-    "lvl": 1,
-    "hint": "Constant or on and off?",
-    "why": "Constant or intermittent, getting worse or better."
   },
   {
     "id": "s928e0ecd",
@@ -11220,16 +11100,6 @@
     "why": "Measured signs and results are objective (SOAP notes)."
   },
   {
-    "id": "s4e02e312",
-    "lo": "i-107-6",
-    "q": "What does SOAP stand for in notes?",
-    "acc": "subjective + objective + assessment + plan",
-    "model": "Subjective, Objective, Assessment, Plan.",
-    "lvl": 1,
-    "hint": "Four parts.",
-    "why": "A common structure for clinical notes."
-  },
-  {
     "id": "sa05a7049",
     "lo": "i-107-7",
     "q": "What should you ask to explore a patient's perspective?",
@@ -11440,6 +11310,16 @@
     "why": "It checks understanding without testing them."
   },
   {
+    "id": "sdb29d2ee",
+    "lo": "i-109-3",
+    "q": "In a patient with hepatomegaly and ascites, what does a raised JVP suggest?",
+    "acc": "right heart / heart failure / cardiac / congestive / constrictive / tricuspid",
+    "model": "A cardiac cause: right heart failure (congestive hepatopathy), constrictive pericarditis or tricuspid regurgitation.",
+    "lvl": 1,
+    "hint": "Look beyond the liver, to the right side of the circulation.",
+    "why": "Liver disease alone doesn't raise the JVP, so check it in every GI examination."
+  },
+  {
     "id": "s9f982f10",
     "lo": "i-110-1",
     "q": "What compression-to-breath ratio is used in paediatric BLS?",
@@ -11518,16 +11398,6 @@
     "lvl": 1,
     "hint": "For finding bacteria.",
     "why": "To avoid contamination."
-  },
-  {
-    "id": "s67c40eff",
-    "lo": "i-110-4",
-    "q": "What screening framework is used with adolescents?",
-    "acc": "headss",
-    "model": "HEADSSS.",
-    "lvl": 1,
-    "hint": "An acronym starting with \"Head\".",
-    "why": "Home, education, activities, drugs, sexuality, suicide/mood, safety."
   },
   {
     "id": "sc70f1dbd",
@@ -11760,16 +11630,6 @@
     "why": "It respects autonomy and avoids blame."
   },
   {
-    "id": "s526f4d49",
-    "lo": "i-112-2",
-    "q": "Name the three steps of very brief advice.",
-    "acc": "ask + advise + act / ask + advise + assist",
-    "model": "Ask, Advise, Act (assist).",
-    "lvl": 1,
-    "hint": "Three As.",
-    "why": "A 30-second intervention that works for smoking and weight."
-  },
-  {
     "id": "s8d50bc33",
     "lo": "i-112-3",
     "q": "How is BMI calculated?",
@@ -11970,16 +11830,6 @@
     "why": "Protect key parts with a non-touch technique."
   },
   {
-    "id": "sb7c4acc8",
-    "lo": "i-112-13",
-    "q": "What does ANTT stand for?",
-    "acc": "aseptic non touch",
-    "model": "Aseptic Non Touch Technique.",
-    "lvl": 1,
-    "hint": "A four-letter acronym.",
-    "why": "The standard framework for aseptic procedures in the UK."
-  },
-  {
     "id": "sa089a6d6",
     "lo": "i-113-1",
     "q": "Which joints does rheumatoid arthritis typically affect in the hand?",
@@ -12118,16 +11968,6 @@
     "lvl": 1,
     "hint": "Much longer than in OA.",
     "why": "OA stiffness lasts under 30 minutes."
-  },
-  {
-    "id": "sc8772d16",
-    "lo": "i-113-6",
-    "q": "What does ADL stand for?",
-    "acc": "activities of daily living",
-    "model": "Activities of daily living.",
-    "lvl": 1,
-    "hint": "Everyday tasks.",
-    "why": "Washing, dressing, eating, mobility."
   },
   {
     "id": "s77d92f6c",
@@ -12788,16 +12628,6 @@
     "lvl": 1,
     "hint": "Should never happen.",
     "why": "E.g. the WHO surgical checklist prevents them."
-  },
-  {
-    "id": "s93736b15",
-    "lo": "i-120-14",
-    "q": "What do the letters PDSA stand for in quality improvement?",
-    "acc": "plan + do + study + act",
-    "model": "Plan, Do, Study, Act.",
-    "lvl": 1,
-    "hint": "Four steps.",
-    "why": "Small rapid test-of-change cycles."
   },
   {
     "id": "saeff813f",
@@ -13720,16 +13550,6 @@
     "why": "Also an ectopic if pregnancy occurs."
   },
   {
-    "id": "s5f319aea",
-    "lo": "i-132-3",
-    "q": "In SOCRATES, what does \"E\" stand for?",
-    "acc": "exacerbat",
-    "model": "Exacerbating and relieving factors.",
-    "lvl": 1,
-    "hint": "Better or worse.",
-    "why": "What makes it better or worse."
-  },
-  {
     "id": "s240a0111",
     "lo": "i-132-4",
     "q": "Lower abdominal pain, a missed period and shoulder-tip pain suggest what?",
@@ -14028,16 +13848,6 @@
     "lvl": 1,
     "hint": "Upright breathing.",
     "why": "A feature of heart failure."
-  },
-  {
-    "id": "s24992de4",
-    "lo": "i-134-3",
-    "q": "Which score is used for stroke risk in AF?",
-    "acc": "cha2ds2 / chads / cha",
-    "model": "CHA₂DS₂-VASc.",
-    "lvl": 1,
-    "hint": "A long acronym.",
-    "why": "Guides anticoagulation."
   },
   {
     "id": "s45876939",
@@ -14458,16 +14268,6 @@
     "lvl": 1,
     "hint": "Not the pad.",
     "why": "Less painful than the pad."
-  },
-  {
-    "id": "s060369a2",
-    "lo": "i-139-3",
-    "q": "What does NEWS2 stand for?",
-    "acc": "national early warning score",
-    "model": "National Early Warning Score 2.",
-    "lvl": 1,
-    "hint": "A nationwide scoring system.",
-    "why": "Track-and-trigger system for deterioration."
   },
   {
     "id": "sd1007bfb",
@@ -14998,16 +14798,6 @@
     "lvl": 1,
     "hint": "Not the smallest.",
     "why": "Gives the best view."
-  },
-  {
-    "id": "s5447728b",
-    "lo": "i-146-1",
-    "q": "What does SPIKES stand for?",
-    "acc": "setting + perception + invitation + knowledge + emotions + strategy",
-    "model": "Setting, Perception, Invitation, Knowledge, Emotions, Strategy and summary.",
-    "lvl": 1,
-    "hint": "Six steps.",
-    "why": "A framework for breaking bad news."
   },
   {
     "id": "s19f14a04",
@@ -15698,16 +15488,6 @@
     "lvl": 1,
     "hint": "IV regional anaesthesia with a cuff, named after a surgeon.",
     "why": "Bier's block injects local anaesthetic IV below a cuff to numb the whole limb; a haematoma block injects straight into the fracture site."
-  },
-  {
-    "id": "s12f485fa",
-    "lo": "y1-107-7",
-    "q": "What does PICO stand for?",
-    "acc": "population + intervention + comparison + outcome",
-    "model": "Population, Intervention, Comparison, Outcome.",
-    "lvl": 1,
-    "hint": "Who, what, versus what, and what you measure.",
-    "why": "PICO turns a clinical question into a searchable one: Population, Intervention, Comparison, Outcome."
   },
   {
     "id": "sf6768edf",
@@ -16520,16 +16300,6 @@
     "why": "RA targets synovial joints of the MCPs, PIPs and wrists and typically spares the DIPs, which are typical in OA and psoriatic arthritis."
   },
   {
-    "id": "s2b7b2e0a",
-    "lo": "y1-115-1",
-    "q": "Name the X-ray signs of osteoarthritis.",
-    "acc": "joint space + osteophyte + sclerosis + cyst",
-    "model": "LOSS: Loss of joint space, Osteophytes, Subchondral sclerosis, Subchondral cysts.",
-    "lvl": 1,
-    "hint": "The LOSS mnemonic.",
-    "why": "Cartilage loss narrows the joint space; bone responds with osteophytes, subchondral sclerosis and cysts (LOSS)."
-  },
-  {
     "id": "s1d99ba51",
     "lo": "y1-115-2",
     "q": "Name the inflamed synovial tissue that erodes joints in RA.",
@@ -16578,16 +16348,6 @@
     "lvl": 1,
     "hint": "The type of epithelium on skin.",
     "why": "Smoke irritation replaces ciliated columnar epithelium with tougher squamous epithelium, which loses mucociliary clearance and can progress to squamous carcinoma."
-  },
-  {
-    "id": "sfa67caf4",
-    "lo": "y1-116-1",
-    "q": "Name the CURB-65 criteria.",
-    "acc": "confusion + urea + respiratory / rr + blood pressure / bp + 65 / age",
-    "model": "Confusion, Urea >7, RR ≥30, BP <90/≤60, age ≥65.",
-    "lvl": 1,
-    "hint": "Each letter is a criterion, plus the number.",
-    "why": "CURB-65 scores 1 for each: Confusion, Urea >7 mmol/L, Respiratory rate ≥30, BP systolic <90 or diastolic ≤60, Age ≥65; higher scores mean higher mortality."
   },
   {
     "id": "s5734106a",
@@ -17800,16 +17560,6 @@
     "why": "tTG-IgA is sensitive and specific; total IgA is checked too because IgA deficiency is commoner in coeliac disease and causes false negatives."
   },
   {
-    "id": "sb517586b",
-    "lo": "y1-136-4",
-    "q": "Name the framework for breaking bad news.",
-    "acc": "spikes",
-    "model": "SPIKES.",
-    "lvl": 1,
-    "hint": "A six-step acronym.",
-    "why": "SPIKES: Setting, Perception, Invitation, Knowledge, Emotions, Strategy and summary."
-  },
-  {
     "id": "sc2a3c979",
     "lo": "y1-138-1",
     "q": "Which two natural anticoagulants inactivate factors Va and VIIIa?",
@@ -17918,16 +17668,6 @@
     "lvl": 1,
     "hint": "Anything that changes red cell lifespan.",
     "why": "HbA1c reflects glucose over red cell lifespan (about 3 months), so anything changing red cell turnover or haemoglobin structure makes it unreliable."
-  },
-  {
-    "id": "s3652084f",
-    "lo": "y1-139-3",
-    "q": "Name the \"sick day rules\" drugs to pause.",
-    "acc": "metformin / sglt2 / ace / arb / diuretic / nsaid / sulfonylurea",
-    "model": "SADMANS: sulfonylureas, ACEi, diuretics, metformin, ARBs, NSAIDs, SGLT2i.",
-    "lvl": 1,
-    "hint": "SADMANS.",
-    "why": "These drugs can cause AKI, lactic acidosis, hypoglycaemia or ketoacidosis when patients are dehydrated, so they're paused during acute illness."
   },
   {
     "id": "s14720675",
@@ -18750,16 +18490,6 @@
     "why": "Asking about the patient's own explanation (ideas, concerns, expectations) reveals cultural beliefs that affect how they understand illness and accept treatment."
   },
   {
-    "id": "s648a7e12",
-    "lo": "y2-201-16",
-    "q": "What does the \"C\" before ABCDE stand for in trauma?",
-    "acc": "catastrophic haemorrhage / haemorrhage",
-    "model": "Catastrophic haemorrhage.",
-    "lvl": 2,
-    "hint": "Massive bleeding comes first.",
-    "why": "In major trauma, massive external bleeding kills faster than airway problems, so catastrophic haemorrhage is controlled first (<C>ABCDE)."
-  },
-  {
     "id": "s6109dad9",
     "lo": "y2-201-16",
     "q": "Airway manoeuvre in trauma that protects the cervical spine?",
@@ -18858,16 +18588,6 @@
     "lvl": 2,
     "hint": "Planning and impulse control.",
     "why": "The prefrontal cortex, which handles planning and impulse control, matures into the mid-20s, while reward pathways mature earlier, explaining adolescent risk-taking."
-  },
-  {
-    "id": "sa2a61554",
-    "lo": "y2-202-5",
-    "q": "Name the adolescent psychosocial screening framework.",
-    "acc": "heeadsss / headss",
-    "model": "HEEADSSS.",
-    "lvl": 2,
-    "hint": "Home, education, eating, activities...",
-    "why": "HEEADSSS covers Home, Education/employment, Eating, Activities, Drugs, Sexuality, Suicide/depression and Safety, uncovering risks young people may not volunteer."
   },
   {
     "id": "s2e704e5b",
@@ -19178,16 +18898,6 @@
     "lvl": 2,
     "hint": "A number in the forties.",
     "why": "Under Section 47 of the Children Act 1989, the local authority must investigate when there's reasonable cause to suspect a child is suffering significant harm."
-  },
-  {
-    "id": "s539d6788",
-    "lo": "y2-203-7",
-    "q": "What does FII stand for?",
-    "acc": "fabricated + induced",
-    "model": "Fabricated or induced illness.",
-    "lvl": 2,
-    "hint": "F, I, I.",
-    "why": "In FII a carer fabricates, exaggerates or induces illness in a child, leading to unnecessary tests and treatments."
   },
   {
     "id": "s6672f6d2",
@@ -19610,16 +19320,6 @@
     "why": "Gas escaping from a perforated bowel rises under the diaphragm on an erect film; it's a surgical emergency."
   },
   {
-    "id": "s605ec309",
-    "lo": "y2-204-21",
-    "q": "What does the \"I\" stand for in the RIPE film quality check?",
-    "acc": "inspiration",
-    "model": "Inspiration.",
-    "lvl": 2,
-    "hint": "Count the ribs.",
-    "why": "Adequate inspiration means about 6 anterior ribs (or 10 posterior) above the diaphragm; poor inspiration crowds the bases and enlarges the heart."
-  },
-  {
     "id": "s162e5478",
     "lo": "y2-204-22",
     "q": "Why compare with old films?",
@@ -20000,16 +19700,6 @@
     "why": "Switching when patients are improving, afebrile and able to absorb oral drugs cuts line complications and hospital stay without worse outcomes."
   },
   {
-    "id": "s9d646578",
-    "lo": "y2-205-18",
-    "q": "What does D stand for in ABCDE, and what do you check?",
-    "acc": "disability + gcs / avpu + glucose / pupils",
-    "model": "Disability: AVPU/GCS, pupils, glucose.",
-    "lvl": 2,
-    "hint": "Neurological status.",
-    "why": "D is disability: level of consciousness (AVPU or GCS), pupils, and glucose, since hypoglycaemia is a reversible cause of reduced consciousness."
-  },
-  {
     "id": "s8b1e1e6d",
     "lo": "y2-205-19",
     "q": "Which score triggers escalation of a deteriorating adult?",
@@ -20358,26 +20048,6 @@
     "lvl": 2,
     "hint": "On their side, knees up.",
     "why": "Left lateral with knees to chest opens the buttocks and is comfortable and dignified; always offer a chaperone and get consent."
-  },
-  {
-    "id": "sc0c942ce",
-    "lo": "y2-206-23",
-    "q": "Framework for urgent handover?",
-    "acc": "sbar",
-    "model": "SBAR.",
-    "lvl": 2,
-    "hint": "Situation, background...",
-    "why": "SBAR (Situation, Background, Assessment, Recommendation) structures urgent handover so key information isn't missed."
-  },
-  {
-    "id": "s93ff2384",
-    "lo": "y2-206-24",
-    "q": "Name a mnemonic \"surgical sieve\" approach.",
-    "acc": "vitamin / sieve",
-    "model": "VITAMIN CDEF.",
-    "lvl": 2,
-    "hint": "Categories of disease.",
-    "why": "A surgical sieve like VITAMIN CDEF (vascular, infective, traumatic, autoimmune, metabolic, iatrogenic, neoplastic, congenital, degenerative…) helps generate differentials."
   },
   {
     "id": "s0350f459",
@@ -21110,16 +20780,6 @@
     "why": "The floor is brachialis and supinator; the roof includes the bicipital aponeurosis."
   },
   {
-    "id": "s705a250c",
-    "lo": "y2-220-21",
-    "q": "List the contents of the cubital fossa from lateral to medial.",
-    "acc": "radial + biceps + brachial + median",
-    "model": "Radial nerve, biceps tendon, brachial artery, median nerve.",
-    "lvl": 2,
-    "hint": "\"Really Need Beer To Be At My Nicest\".",
-    "why": "\"Really Need Beer To Be At My Nicest\"."
-  },
-  {
     "id": "s835fbcab",
     "lo": "y2-220-21",
     "q": "What protects the brachial artery during venepuncture at the elbow?",
@@ -21698,16 +21358,6 @@
     "lvl": 2,
     "hint": "One median and two lateral apertures, both eponymous.",
     "why": "Blockage (e.g. Dandy–Walker) causes hydrocephalus."
-  },
-  {
-    "id": "sbda5e8ad",
-    "lo": "y2-227-24",
-    "q": "Name the layers of the epidermis from deep to superficial.",
-    "acc": "basale + spinosum + granulosum + corneum",
-    "model": "Stratum basale, spinosum, granulosum, lucidum (thick skin only) and corneum.",
-    "lvl": 2,
-    "hint": "\"British Soldiers Get Lots of Cash\".",
-    "why": "\"British Soldiers Get Lots of Cash\"."
   },
   {
     "id": "s247cd87d",
@@ -22498,16 +22148,6 @@
     "lvl": 2,
     "hint": "An arched tract.",
     "why": "It runs to the mammillary bodies in the Papez circuit."
-  },
-  {
-    "id": "s501c07b1",
-    "lo": "y2-230-15",
-    "q": "Put the start of the Papez circuit in order: after the hippocampus comes which tract?",
-    "acc": "fornix",
-    "model": "The fornix, then mammillary bodies, anterior thalamus, cingulate gyrus and back to the hippocampus.",
-    "lvl": 2,
-    "hint": "An arched tract under the corpus callosum.",
-    "why": "It links memory and emotion."
   },
   {
     "id": "s708cb569",
@@ -27720,16 +27360,6 @@
     "why": "The empty can test isolates supraspinatus; weakness suggests a tear, common in older people with degenerative tendons."
   },
   {
-    "id": "s88062ffe",
-    "lo": "y2-209-19",
-    "q": "Order of a musculoskeletal exam?",
-    "acc": "look + feel + move",
-    "model": "Look, feel, move (+ special tests).",
-    "lvl": 2,
-    "hint": "Three verbs.",
-    "why": "Look, feel, move (then special tests) ensures nothing is missed and the most painful parts come last."
-  },
-  {
     "id": "seb4b65c6",
     "lo": "y2-209-20",
     "q": "On CT, what density is acute blood?",
@@ -28780,16 +28410,6 @@
     "why": "The femoral triangle lies between the inguinal ligament (above), sartorius (lateral) and adductor longus (medial)."
   },
   {
-    "id": "s674dae3b",
-    "lo": "y2-210-61",
-    "q": "Order of femoral structures, lateral to medial?",
-    "acc": "nerve + artery + vein",
-    "model": "Nerve, artery, vein (lymphatics).",
-    "lvl": 2,
-    "hint": "NAVY.",
-    "why": "From lateral to medial: nerve, artery, vein, then lymphatics in the femoral canal (NAVY); the nerve lies outside the femoral sheath."
-  },
-  {
     "id": "sa1bf58c4",
     "lo": "y2-210-62",
     "q": "Continuation of the femoral artery behind the knee?",
@@ -29480,16 +29100,6 @@
     "why": "Cusco's bivalve speculum holds the vaginal walls apart to show the cervix for smears and inspection."
   },
   {
-    "id": "s8cc4780d",
-    "lo": "y2-212-17",
-    "q": "Framework for structured handover?",
-    "acc": "sbar",
-    "model": "SBAR.",
-    "lvl": 2,
-    "hint": "Four letters.",
-    "why": "SBAR structures handover (Situation, Background, Assessment, Recommendation) so information isn't lost."
-  },
-  {
     "id": "s9e39cb37",
     "lo": "y2-212-18",
     "q": "Unilateral pelvic pain + positive pregnancy test: what must you exclude first?",
@@ -30020,16 +29630,6 @@
     "why": "DOACs perform worse than warfarin in antiphospholipid syndrome (especially high risk), so warfarin is used."
   },
   {
-    "id": "s460673db",
-    "lo": "y2-213-8",
-    "q": "Name the three steps of Very Brief Advice.",
-    "acc": "ask + advise + act",
-    "model": "Ask, Advise, Act.",
-    "lvl": 2,
-    "hint": "Three A's.",
-    "why": "Very Brief Advice: Ask about smoking, Advise that the best way to stop is medication plus support, and Act by referring or prescribing."
-  },
-  {
     "id": "sb63551ed",
     "lo": "y2-213-8",
     "q": "Mechanism of varenicline?",
@@ -30098,16 +29698,6 @@
     "lvl": 2,
     "hint": "A protease inhibitor deficiency.",
     "why": "Alpha-1 antitrypsin deficiency causes early panacinar emphysema in the lower lobes, even without much smoking."
-  },
-  {
-    "id": "s0e4a0568",
-    "lo": "y2-213-14",
-    "q": "What does OARS stand for in MI?",
-    "acc": "open + affirm + reflect + summar",
-    "model": "Open questions, affirmations, reflections, summaries.",
-    "lvl": 2,
-    "hint": "Four techniques.",
-    "why": "OARS (open questions, affirmations, reflective listening, summaries) are the core skills of motivational interviewing."
   },
   {
     "id": "s080c3f31",
@@ -30710,16 +30300,6 @@
     "why": "Only a valid ADRT, a health and welfare attorney or a court deputy can make the decision; families are consulted about the patient's wishes and values."
   },
   {
-    "id": "s15e468b3",
-    "lo": "y2-219-15",
-    "q": "What does NURSE stand for when responding to emotion?",
-    "acc": "name + understand + respect + support + explore",
-    "model": "Name, Understand, Respect, Support, Explore.",
-    "lvl": 2,
-    "hint": "Five empathic responses.",
-    "why": "NURSE statements show empathy, e.g. naming the emotion (\"You seem frightened\") and exploring it."
-  },
-  {
     "id": "s1b42bf35",
     "lo": "y2-219-15",
     "q": "A daughter asks you not to tell her father he is dying. What should you do first?",
@@ -31120,16 +30700,6 @@
     "why": "Hypovolaemia, sepsis and drugs reducing perfusion cause most hospital AKI; prolonged pre-renal AKI can progress to acute tubular necrosis."
   },
   {
-    "id": "s0ca82183",
-    "lo": "y2-220-2",
-    "q": "What does SADMANS stand for in sick day rules?",
-    "acc": "sulfonylurea + ace + diuretic + metformin + arb / arbs / angiotensin receptor + nsaid + sglt2",
-    "model": "Sulfonylureas, ACE inhibitors, Diuretics, Metformin, ARBs, NSAIDs, SGLT2 inhibitors.",
-    "lvl": 2,
-    "hint": "Seven drug groups.",
-    "why": "These are paused during dehydrating illness to reduce AKI, hypoglycaemia and lactic acidosis/ketoacidosis risk, then restarted 24–48 h after eating and drinking normally."
-  },
-  {
     "id": "s30028fc3",
     "lo": "y2-220-2",
     "q": "Name a patient risk factor for AKI.",
@@ -31158,16 +30728,6 @@
     "lvl": 2,
     "hint": "The dipstick is tuned to one protein.",
     "why": "Heavy light-chain proteinuria can give a negative dipstick, so send serum free light chains and urine for Bence Jones protein."
-  },
-  {
-    "id": "sb485f217",
-    "lo": "y2-220-3",
-    "q": "What does CRAB stand for in myeloma?",
-    "acc": "calcium + renal + anaemia + bone",
-    "model": "Calcium (raised), Renal impairment, Anaemia, Bone lesions.",
-    "lvl": 2,
-    "hint": "Four features, one per letter.",
-    "why": "These end-organ features define myeloma needing treatment."
   },
   {
     "id": "sbc8d41be",
@@ -31298,16 +30858,6 @@
     "lvl": 2,
     "hint": "Mid-forties.",
     "why": "It's ineffective (low urine levels) and toxic (neuropathy) in poor renal function."
-  },
-  {
-    "id": "se8e83a1e",
-    "lo": "y2-220-7",
-    "q": "What does the STOP approach to AKI stand for?",
-    "acc": "sepsis + toxin + optimise + prevent",
-    "model": "Sepsis, Toxins, Optimise volume and BP, Prevent harm.",
-    "lvl": 2,
-    "hint": "Four steps spelling a word.",
-    "why": "Treat infection, stop nephrotoxins, fluid-resuscitate and treat complications such as hyperkalaemia."
   },
   {
     "id": "s376c83ab",
@@ -31528,16 +31078,6 @@
     "lvl": 2,
     "hint": "Repeated vital signs.",
     "why": "Nurses spend the most time with patients and often notice deterioration first."
-  },
-  {
-    "id": "sbb520235",
-    "lo": "y2-220-14",
-    "q": "What does CUS stand for in speaking up?",
-    "acc": "concerned + uncomfortable + safety",
-    "model": "Concerned, Uncomfortable, Safety issue.",
-    "lvl": 2,
-    "hint": "Three escalating statements.",
-    "why": "Graded assertiveness lets any team member raise concerns."
   },
   {
     "id": "sf3e3e120",
@@ -32738,16 +32278,6 @@
     "lvl": 2,
     "hint": "A mineral.",
     "why": "Monitor reflexes, respiratory rate and urine output; calcium gluconate reverses toxicity."
-  },
-  {
-    "id": "sbec14b64",
-    "lo": "y2-222-1",
-    "q": "What does HELLP stand for?",
-    "acc": "haemolysis + elevated liver + low platelet",
-    "model": "Haemolysis, Elevated Liver enzymes, Low Platelets.",
-    "lvl": 2,
-    "hint": "Five letters, three problems.",
-    "why": "A severe form of pre-eclampsia; delivery is the treatment."
   },
   {
     "id": "sf88a3e7b",
@@ -34388,16 +33918,6 @@
     "lvl": 2,
     "hint": "Shiny and translucent.",
     "why": "BCCs are locally destructive (\"rodent ulcer\") but rarely metastasise."
-  },
-  {
-    "id": "sae4b3382",
-    "lo": "y2-227-6",
-    "q": "What does ABCDE stand for in melanoma?",
-    "acc": "asymmetry + border + colour + diameter + evolution",
-    "model": "Asymmetry, Border irregularity, Colour variation, Diameter >6 mm, Evolution.",
-    "lvl": 2,
-    "hint": "Five features of a mole.",
-    "why": "Changing lesions need suspected cancer referral."
   },
   {
     "id": "sde2fd36c",
@@ -36130,16 +35650,6 @@
     "why": "Liver deaths have risen sharply over decades, unlike most major diseases."
   },
   {
-    "id": "sb05f63dc",
-    "lo": "y2-229-1",
-    "q": "Describe the progression of chronic liver injury.",
-    "acc": "steatosis / fibrosis / cirrhosis",
-    "model": "Steatosis → hepatitis → fibrosis → cirrhosis → decompensation and HCC.",
-    "lvl": 2,
-    "hint": "Fat, inflammation, scarring.",
-    "why": "Earlier stages can reverse if the cause is removed."
-  },
-  {
     "id": "sdd37ef6e",
     "lo": "y2-229-2",
     "q": "What is the UK weekly low-risk alcohol limit?",
@@ -36660,16 +36170,6 @@
     "why": "Signs of decompensation needing urgent care."
   },
   {
-    "id": "s00a7b7d6",
-    "lo": "y2-229-13",
-    "q": "What does OARS stand for in motivational interviewing?",
-    "acc": "open + affirm + reflect + summar",
-    "model": "Open questions, Affirmations, Reflective listening, Summaries.",
-    "lvl": 2,
-    "hint": "Four skills.",
-    "why": "Core skills to draw out change talk."
-  },
-  {
     "id": "s78d3a1b2",
     "lo": "y2-229-13",
     "q": "What is the \"righting reflex\"?",
@@ -36808,6 +36308,16 @@
     "lvl": 2,
     "hint": "The recall system uses the gender on file.",
     "why": "Practices should arrange screening manually."
+  },
+  {
+    "id": "s574d7d41",
+    "lo": "y2-229-11",
+    "q": "Which neck sign helps tell a cardiac cause of ascites from cirrhosis?",
+    "acc": "jvp / jugular",
+    "model": "The JVP: raised in right heart failure, constrictive pericarditis or tricuspid regurgitation, normal in cirrhosis.",
+    "lvl": 2,
+    "hint": "The venous pulse.",
+    "why": "Congestive hepatopathy gives hepatomegaly and ascites with a raised JVP; portal hypertension from cirrhosis doesn't raise it."
   },
   {
     "id": "se76a0167",
@@ -37490,16 +37000,6 @@
     "why": "Benign; exclude haemolysis."
   },
   {
-    "id": "s1ea3c5a0",
-    "lo": "y2-231-1",
-    "q": "What does FAST stand for?",
-    "acc": "face + arm + speech + time",
-    "model": "Face, Arm, Speech, Time to call 999.",
-    "lvl": 2,
-    "hint": "Four words.",
-    "why": "A pre-hospital screen for stroke; ROSIER is used in A&E."
-  },
-  {
     "id": "s02f04659",
     "lo": "y2-231-1",
     "q": "What is the first imaging test in suspected acute stroke?",
@@ -38108,16 +37608,6 @@
     "lvl": 2,
     "hint": "An antimalarial.",
     "why": "Reduces flares and improves survival."
-  },
-  {
-    "id": "sab973415",
-    "lo": "y2-237-5",
-    "q": "What does CREST stand for?",
-    "acc": "calcinosis + raynaud + oesophag + sclerodactyly + telangiectasia",
-    "model": "Calcinosis, Raynaud's, oEsophageal dysmotility, Sclerodactyly, Telangiectasia.",
-    "lvl": 2,
-    "hint": "Five features.",
-    "why": "Limited cutaneous systemic sclerosis; anticentromere antibodies."
   },
   {
     "id": "s2ecc866f",
@@ -38948,16 +38438,6 @@
     "lvl": 2,
     "hint": "Cations minus anions.",
     "why": "A raised gap suggests ketoacidosis, lactic acidosis, renal failure or toxins."
-  },
-  {
-    "id": "s01a241a8",
-    "lo": "y2-238-9",
-    "q": "What does GALS stand for?",
-    "acc": "gait + arms + legs + spine",
-    "model": "Gait, Arms, Legs, Spine.",
-    "lvl": 2,
-    "hint": "Four regions.",
-    "why": "A quick MSK screen."
   },
   {
     "id": "s3f83a601",

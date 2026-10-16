@@ -47,7 +47,7 @@
       "sessions": [
         "Timed examinations"
       ],
-      "html": "<div class=\"tbl\"><table><thead><tr><th>GI in 8 minutes</th><th></th></tr></thead><tbody><tr><td>Intro, lie flat, expose, inspect</td><td></td></tr><tr><td>Hands (clubbing, leuconychia, palmar erythema, <strong>flap</strong>)</td><td></td></tr><tr><td>Face (jaundice, pallor), neck (<strong>Virchow's node</strong>), chest (spider naevi, gynaecomastia)</td><td></td></tr><tr><td><strong>Palpate</strong>: light, deep, liver, spleen, kidneys, aorta</td><td></td></tr><tr><td><strong>Percuss</strong>: liver, spleen, shifting dullness</td><td></td></tr><tr><td><strong>Auscultate</strong></td><td></td></tr><tr><td>Finishing steps (hernial orifices, genitalia, DRE, urine dip) and present</td><td></td></tr></tbody></table></div>"
+      "html": "<div class=\"tbl\"><table><thead><tr><th>GI in 8 minutes</th><th></th></tr></thead><tbody><tr><td>Intro, lie flat, expose, inspect</td><td></td></tr><tr><td>Hands (clubbing, leuconychia, palmar erythema, <strong>flap</strong>)</td><td></td></tr><tr><td>Face (jaundice, pallor), neck (<strong>Virchow's node</strong>, <strong>JVP</strong>), chest (spider naevi, gynaecomastia)</td><td></td></tr><tr><td><strong>Palpate</strong>: light, deep, liver, spleen, kidneys, aorta</td><td></td></tr><tr><td><strong>Percuss</strong>: liver, spleen, shifting dullness</td><td></td></tr><tr><td><strong>Auscultate</strong></td><td></td></tr><tr><td>Finishing steps (hernial orifices, genitalia, DRE, urine dip) and present</td><td></td></tr></tbody></table></div>"
     }
   ]
 }

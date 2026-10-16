@@ -45,9 +45,9 @@
         "Hypokalaemia",
         "Headache",
         "Muscle cramps",
-        "Lactic acidosis (high dose)"
+        "Lactic acidosis (high-dose nebulised or IV)"
       ],
-      "sewhy": "Systemic β2 stimulation causes tremor in skeletal muscle, tachycardia (partly via β1), and drives potassium into cells (hypokalaemia); high doses raise lactate.",
+      "sewhy": "Absorbed drug stimulates β2 receptors outside the lungs: skeletal muscle (tremor, cramps), heart (tachycardia, palpitations, partly via β1 receptors and as a reflex to vasodilation), blood vessels (headache) and the Na⁺/K⁺-ATPase, driving potassium into cells (hypokalaemia). High nebulised or IV doses speed up glycolysis, raising lactate.",
       "ci": [
         {
           "c": "Tachyarrhythmias",
@@ -141,9 +141,14 @@
         ]
       ],
       "se": [
-        "Same as SABAs: tremor, palpitations, hypokalaemia"
+        "Tremor",
+        "Tachycardia, palpitations",
+        "Hypokalaemia",
+        "Headache",
+        "Muscle cramps",
+        "More severe attacks and deaths if used without an ICS in asthma"
       ],
-      "sewhy": "They act on the same receptors as SABAs for longer, so the effects are the same: tremor, palpitations and low potassium.",
+      "sewhy": "LABAs stimulate the same β2 receptors as SABAs for longer, so they share the SABA side effects: tremor, cramps, tachycardia and palpitations, headache and low potassium (usually milder at inhaled doses). Lactic acidosis is a high-dose nebulised or IV salbutamol problem, not a LABA one. In asthma a LABA alone relieves symptoms while inflammation worsens, increasing severe attacks and deaths, so it's always given with an inhaled steroid.",
       "ci": [
         {
           "c": "Asthma without an inhaled steroid",
@@ -279,9 +284,10 @@
         "Dry mouth",
         "Urinary retention",
         "Constipation",
-        "Blurred vision"
+        "Blurred vision",
+        "Acute angle-closure (nebuliser mist in the eye)"
       ],
-      "sewhy": "Some absorbed drug blocks muscarinic receptors elsewhere: salivary glands (dry mouth), bladder (retention), gut (constipation) and eyes (blurred vision).",
+      "sewhy": "Some absorbed drug blocks muscarinic receptors elsewhere: salivary glands (dry mouth), bladder (retention), gut (constipation) and eyes (blurred vision, and angle closure if nebuliser mist reaches the eye). They hardly enter the brain, so unlike oxybutynin they rarely cause confusion.",
       "ci": [
         {
           "c": "Angle-closure glaucoma",
@@ -363,7 +369,7 @@
         "Abdominal pain",
         "Nightmares, agitation, depression, suicidal thoughts"
       ],
-      "sewhy": "Blocking leukotriene receptors is generally well tolerated, but it can cause neuropsychiatric effects (nightmares, agitation, depression), which carry an MHRA warning.",
+      "sewhy": "Blocking leukotriene receptors is generally well tolerated: headache and abdominal pain are the common minor effects. It can also cause neuropsychiatric effects (nightmares, agitation, depression, suicidal thoughts), which carry an MHRA warning.",
       "ci": [
         {
           "c": "Depression or previous neuropsychiatric reactions",
@@ -417,13 +423,14 @@
         ]
       ],
       "se": [
-        "Nausea",
-        "Palpitations, arrhythmias",
+        "Nausea, vomiting",
+        "Tachycardia, arrhythmias",
         "Seizures",
         "Hypokalaemia",
-        "Narrow therapeutic index"
+        "Insomnia",
+        "Narrow therapeutic index (many interactions)"
       ],
-      "sewhy": "Theophylline inhibits phosphodiesterase and blocks adenosine, stimulating heart and brain; the safe range is narrow, so small level rises cause nausea, arrhythmias and seizures.",
+      "sewhy": "Theophylline inhibits phosphodiesterase and blocks adenosine, stimulating the gut (nausea), heart (tachycardia, arrhythmias) and brain (insomnia, seizures), and like β2 agonists it drives potassium into cells. The safe range is narrow: CYP1A2 inhibitors (clarithromycin, ciprofloxacin) or stopping smoking raise levels quickly.",
       "ci": [
         {
           "c": "Epilepsy",
@@ -600,7 +607,7 @@
         "Headache",
         "Mood change"
       ],
-      "sewhy": "Partial stimulation of nicotinic receptors in the gut and brain causes nausea and vivid dreams or sleep disturbance.",
+      "sewhy": "Partial stimulation of nicotinic receptors in the gut and brain causes nausea, headache and vivid dreams or sleep disturbance. Mood change has been reported, so monitor mood, especially with a psychiatric history.",
       "ci": [
         {
           "c": "Pregnancy, breastfeeding",

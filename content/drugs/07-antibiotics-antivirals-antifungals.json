@@ -143,11 +143,11 @@
         ]
       ],
       "se": [
-        "GI upset",
-        "Cholestatic jaundice (can be delayed, more in elderly)",
-        "Hypersensitivity"
+        "Hypersensitivity, anaphylaxis",
+        "GI upset, diarrhoea",
+        "Cholestatic jaundice (can be delayed, more in elderly)"
       ],
-      "sewhy": "It can cause cholestatic jaundice weeks after the course, especially in older people and with longer courses.",
+      "sewhy": "As a penicillin it shares the class allergy risk and gut effects. Its particular hazard is cholestatic jaundice, which can appear weeks after the course, especially in older people and with courses over 2 weeks.",
       "ci": [
         {
           "c": "Penicillin allergy",
@@ -225,12 +225,12 @@
         ]
       ],
       "se": [
+        "Hypersensitivity, rash",
         "Diarrhoea",
         "C. difficile (high risk)",
-        "Cholestatic jaundice",
-        "Rash"
+        "Cholestatic jaundice"
       ],
-      "sewhy": "Broad-spectrum activity disrupts gut flora (diarrhoea, C. difficile), and the clavulanate component causes cholestatic jaundice.",
+      "sewhy": "It contains amoxicillin, so it shares penicillin allergy; its broad spectrum disrupts gut flora (diarrhoea, C. difficile), and the clavulanate causes cholestatic jaundice.",
       "ci": [
         {
           "c": "Penicillin allergy",
@@ -328,13 +328,13 @@
         ]
       ],
       "se": [
+        "Hypersensitivity, rash",
         "Diarrhoea",
         "C. difficile",
         "Hypokalaemia",
-        "Thrombocytopenia",
-        "Rash"
+        "Thrombocytopenia"
       ],
-      "sewhy": "Very broad cover disrupts gut flora (C. difficile); its sodium load can cause hypokalaemia, and it can lower platelets.",
+      "sewhy": "It's a penicillin (allergy, rash). Very broad cover disrupts gut flora (C. difficile); piperacillin acts as a non-absorbable anion in the distal tubule, increasing potassium loss; and it can lower platelets.",
       "ci": [
         {
           "c": "Penicillin allergy",
@@ -401,7 +401,7 @@
         "Hypersensitivity",
         "Biliary sludge (ceftriaxone)"
       ],
-      "sewhy": "Broad gut flora disruption carries a high C. difficile risk; ceftriaxone binds calcium in bile, forming sludge.",
+      "sewhy": "Broad gut flora disruption carries a high C. difficile risk. Allergy can occur, with a small (~1–2%) cross-reaction in people allergic to penicillin. Ceftriaxone binds calcium in bile, forming sludge.",
       "ci": [
         {
           "c": "Anaphylaxis to penicillins or cephalosporins",
@@ -500,7 +500,7 @@
         "Seizures (higher doses, renal impairment)",
         "Rash"
       ],
-      "sewhy": "As the broadest β-lactams they strongly disrupt gut flora; they can lower the seizure threshold, especially in renal impairment.",
+      "sewhy": "As the broadest β-lactams they strongly disrupt gut flora (diarrhoea, C. difficile). Allergy and rash can occur, with low cross-reactivity in penicillin allergy, and they lower the seizure threshold, especially in renal impairment.",
       "ci": [
         {
           "c": "Anaphylaxis to β-lactams",
@@ -592,7 +592,7 @@
         "Ototoxicity",
         "CYP3A4 inhibition (clarithromycin, erythromycin)"
       ],
-      "sewhy": "Erythromycin stimulates motilin receptors (GI upset); macrolides block cardiac potassium channels (long QT) and inhibit CYP3A4, raising levels of statins and other drugs.",
+      "sewhy": "Erythromycin stimulates motilin receptors (GI upset). Macrolides block cardiac potassium channels (long QT) and clarithromycin and erythromycin inhibit CYP3A4, raising levels of statins and other drugs. Hepatitis and (mostly high-dose) hearing loss are rare.",
       "ci": [
         {
           "c": "Long QT or previous torsades",
@@ -724,7 +724,7 @@
         "Tooth discoloration",
         "Benign intracranial hypertension"
       ],
-      "sewhy": "They bind calcium in growing teeth and bone (staining), irritate the oesophagus if they lodge, sensitise skin to light, and can raise intracranial pressure.",
+      "sewhy": "GI upset is common. They irritate the oesophagus if they lodge, bind calcium in growing teeth and bone (staining), sensitise skin to sunlight, and can raise intracranial pressure.",
       "ci": [
         {
           "c": "Pregnancy",
@@ -989,7 +989,7 @@
         "Red man syndrome (rapid infusion)",
         "Neutropenia, thrombocytopenia"
       ],
-      "sewhy": "Vancomycin is toxic to the kidneys and ears at high levels; infusing too fast releases histamine (red man syndrome).",
+      "sewhy": "Like gentamicin, vancomycin is toxic to the kidneys and ears at high levels, and the risks add up when the two are combined (hence level monitoring). Infusing too fast releases histamine (red man syndrome), and long courses can lower white cells and platelets.",
       "ci": [
         {
           "c": "Renal impairment",
@@ -1075,7 +1075,7 @@
         "Neuropathy",
         "Psychiatric effects"
       ],
-      "sewhy": "They damage collagen-rich tissues (tendons, aortic wall), block cardiac potassium channels (long QT), act on GABA receptors (seizures, psychiatric effects) and disrupt gut flora.",
+      "sewhy": "They damage collagen-rich tissues (tendons, aortic wall) and peripheral nerves, block cardiac potassium channels (long QT), act on GABA receptors (seizures, psychiatric effects) and disrupt gut flora. The MHRA warns these effects can be long-lasting and disabling.",
       "ci": [
         {
           "c": "Previous quinolone tendon problems; caution with steroids",
@@ -1249,9 +1249,10 @@
         "Brown urine",
         "Pulmonary reactions and fibrosis",
         "Hepatitis",
-        "Peripheral neuropathy (long-term)"
+        "Peripheral neuropathy (long-term)",
+        "Haemolysis (G6PD deficiency)"
       ],
-      "sewhy": "Its toxic metabolites cause oxidative damage; long-term use can cause lung fibrosis, hepatitis and neuropathy, and it colours urine brown.",
+      "sewhy": "Nausea is common. Its toxic metabolites cause oxidative damage: haemolysis in G6PD deficiency (and in neonates, so not at term), and with long-term use lung fibrosis, hepatitis and neuropathy. It colours urine brown.",
       "ci": [
         {
           "c": "eGFR <45",
@@ -1350,7 +1351,7 @@
         "Rash",
         "Bone marrow suppression"
       ],
-      "sewhy": "It blocks the ENaC sodium channel in the collecting duct like amiloride (high potassium), blocks creatinine secretion (raises creatinine without true kidney damage) and is a folate antagonist (marrow).",
+      "sewhy": "It blocks the ENaC sodium channel in the collecting duct like amiloride (high potassium), blocks creatinine secretion (raises creatinine without true kidney damage) and is a folate antagonist (marrow suppression); rash is the commonest allergic reaction.",
       "ci": [
         {
           "c": "First trimester of pregnancy",
@@ -1479,9 +1480,10 @@
         "Metallic taste",
         "Nausea",
         "Dark urine",
+        "Disulfiram-like reaction with alcohol",
         "Peripheral neuropathy (prolonged use)"
       ],
-      "sewhy": "It causes a metallic taste and nausea, darkens urine, and prolonged courses can damage peripheral nerves.",
+      "sewhy": "It causes a metallic taste and nausea and darkens urine. It blocks aldehyde dehydrogenase, so alcohol causes flushing, vomiting and tachycardia (a disulfiram-like reaction). Prolonged courses can damage peripheral nerves, and it raises the INR with warfarin.",
       "ci": [
         {
           "c": "Alcohol during treatment and for 48 h after",
@@ -1695,7 +1697,7 @@
         "Crystal nephropathy (IV: hydrate)",
         "Neurotoxicity (confusion)"
       ],
-      "sewhy": "IV aciclovir can crystallise in renal tubules if the patient is dehydrated, and at high levels (especially in renal failure) it causes confusion.",
+      "sewhy": "Tablets commonly cause GI upset and headache. IV aciclovir can crystallise in renal tubules if the patient is dehydrated, and at high levels (especially in renal failure) it causes confusion.",
       "ci": [
         {
           "c": "Renal impairment",
@@ -1769,7 +1771,7 @@
         "Headache",
         "Neuropsychiatric effects (children)"
       ],
-      "sewhy": "It's generally well tolerated; nausea is common, and neuropsychiatric effects have been reported in children.",
+      "sewhy": "It's generally well tolerated: nausea, vomiting and headache are the common effects, and neuropsychiatric effects have been reported in children.",
       "ci": [
         {
           "c": "Renal impairment",
@@ -1906,7 +1908,7 @@
         "Rash",
         "Visual disturbance (voriconazole)"
       ],
-      "sewhy": "Azoles inhibit fungal and human CYP enzymes (interactions, hepatotoxicity) and block cardiac potassium channels (long QT); voriconazole affects retinal signalling (visual disturbance).",
+      "sewhy": "GI upset and rash are common. Azoles inhibit fungal and human CYP enzymes (interactions, hepatotoxicity) and block cardiac potassium channels (long QT); voriconazole affects retinal signalling (visual disturbance).",
       "ci": [
         {
           "c": "Long QT or QT-prolonging drugs",
@@ -2079,7 +2081,7 @@
         "Abacavir: hypersensitivity",
         "Integrase inhibitors: weight gain, insomnia"
       ],
-      "sewhy": "Tenofovir DF accumulates in proximal tubule cells (kidney damage, bone loss), abacavir triggers HLA-linked hypersensitivity, and integrase inhibitors cause weight gain.",
+      "sewhy": "Tenofovir DF accumulates in proximal tubule cells (kidney damage, bone loss), abacavir triggers HLA-B*57:01-linked hypersensitivity, and integrase inhibitors such as dolutegravir cause weight gain and sleep disturbance.",
       "ci": [
         {
           "c": "Abacavir with HLA-B 57:01",
@@ -2173,7 +2175,7 @@
         "Haemolysis",
         "Methaemoglobinaemia"
       ],
-      "sewhy": "Primaquine causes oxidative stress in red cells, so people with G6PD deficiency can't protect themselves and haemolyse; it can also oxidise haemoglobin to methaemoglobin.",
+      "sewhy": "GI upset is common (take with food). Primaquine causes oxidative stress in red cells, so people with G6PD deficiency can't protect themselves and haemolyse; it can also oxidise haemoglobin to methaemoglobin.",
       "ci": [
         {
           "c": "G6PD deficiency",
